@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podcasts - AI QA Wiki</title>
+    <title>Outputs - AI QA Wiki</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #24292e; background: #f6f8fa; min-height: 100vh; }
@@ -11,32 +11,44 @@
         header { margin-bottom: 2rem; }
         .breadcrumb { color: #57606a; margin-bottom: 0.5rem; font-size: 0.9rem; }
         .breadcrumb a { color: #0969da; text-decoration: none; }
-        h1 { font-size: 2rem; }
-        .card { background: white; border: 1px solid #d0d7de; border-radius: 6px; padding: 1.5rem; margin-bottom: 1rem; }
+        h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .subtitle { color: #57606a; margin-bottom: 1.5rem; }
+        .card { background: white; border: 1px solid #d0d7de; border-radius: 6px; padding: 1.5rem; margin-bottom: 1rem; transition: all 0.2s; }
+        .card:hover { border-color: #0969da; }
         .card h2 { margin-bottom: 0.5rem; color: #0969da; }
-        .card p { color: #57606a; }
-        .empty { text-align: center; padding: 3rem; color: #57606a; }
-        .empty-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .card p { color: #57606a; margin-bottom: 1rem; }
+        .card a { color: #0969da; text-decoration: none; font-weight: 500; }
+        .card a:hover { text-decoration: underline; }
+        .tag { display: inline-block; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 20px; background: #ddf4ff; color: #0969da; margin-right: 0.5rem; }
         footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; color: #57606a; font-size: 0.9rem; }
-        a { color: #0969da; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        footer a { color: #0969da; text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <p class="breadcrumb"><a href="../index.html">← AI QA Wiki</a></p>
-            <h1>🎙️ Podcasts</h1>
+            <h1>🎙️ Outputs</h1>
+            <p class="subtitle">Generated artifacts: podcasts, summaries, reports</p>
         </header>
 
         <div class="card">
-            <h2>Coming Soon</h2>
-            <p>Podcast outlines and scripts will be generated here as topics are explored.</p>
+            <h2>🎙️ Podcast: AI Testing 2026</h2>
+            <p>Outline for a 27-minute podcast covering the state of AI testing in 2026. Topics include Oracle Problem, metrics (26%→49% F1), three levels of AI testing, and practical approaches.</p>
+            <span class="tag">Podcast</span>
+            <span class="tag">27 min</span>
+            <br><br>
+            <a href="ai-testing-2026.md">📄 View Outline →</a>
         </div>
 
-        <div class="empty">
-            <div class="empty-icon">🎙️</div>
-            <p>No podcasts yet. Check back later!</p>
+        <div class="card">
+            <h2>📝 Prompt Engineering Summary</h2>
+            <p>Key principles and patterns for using prompts in QA. Covers two core principles (Clear instructions + Think time), prompt patterns, and evaluation metrics.</p>
+            <span class="tag">Summary</span>
+            <span class="tag">Prompt Engineering</span>
+            <br><br>
+            <a href="prompt-engineering-summary.md">📄 View Summary →</a>
         </div>
 
         <footer>

@@ -29,14 +29,13 @@ You are a knowledge curator and Q&A assistant for the AI QA Wiki. Your job is to
 1. Select topic from `wiki/` or user request
 2. Research `raw/` for relevant content
 3. Generate structured outline
-4. Output to `outputs/podcasts/`
+4. Output to `outputs/` as markdown file
 
 ## File Conventions
 
 - `raw/` — Markdown, PDF links, paper references
 - `wiki/` — Organized by topic, max 500 lines per file
-- `outputs/podcasts/` — Markdown with timestamps
-- `outputs/summaries/` — Brief topic summaries
+- `outputs/` — Generated artifacts (podcasts, summaries)
 
 ## Quality Standards
 
