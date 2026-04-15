@@ -7,28 +7,34 @@
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #24292e; background: #f6f8fa; min-height: 100vh; }
-        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
         header { margin-bottom: 2rem; }
         .breadcrumb { color: #57606a; margin-bottom: 0.5rem; font-size: 0.9rem; }
         .breadcrumb a { color: #0969da; text-decoration: none; }
         h1 { font-size: 2rem; margin-bottom: 0.5rem; }
         .subtitle { color: #57606a; margin-bottom: 1.5rem; }
         .section { background: white; border: 1px solid #d0d7de; border-radius: 6px; padding: 1.5rem; margin-bottom: 1rem; }
-        .section h2 { font-size: 1.2rem; color: #0969da; margin-bottom: 1rem; border-bottom: 1px solid #d0d7de; padding-bottom: 0.5rem; }
+        .section h2 { font-size: 1.1rem; color: #0969da; margin-bottom: 1rem; border-bottom: 1px solid #d0d7de; padding-bottom: 0.5rem; }
         .topic-list { list-style: none; }
-        .topic-list li { padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0; }
+        .topic-list li { padding: 0.4rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.9rem; }
         .topic-list li:last-child { border-bottom: none; }
         .topic-list a { color: #24292e; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
         .topic-list a:hover { color: #0969da; }
-        .icon { color: #57606a; }
+        .topic-list .icon { color: #57606a; font-size: 0.85rem; }
+        .hands-on { background: #fffbeb; border: 1px solid #fcd34d; border-radius: 6px; padding: 1rem; margin-top: 1rem; }
+        .hands-on h4 { font-size: 0.9rem; color: #d97706; margin-bottom: 0.5rem; }
+        .hands-on ul { margin: 0; padding-left: 1.2rem; font-size: 0.85rem; color: #57606a; }
         .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 4px; background: #ddf4ff; color: #0969da; margin-left: 0.5rem; }
         .tag-done { background: #dcfce7; color: #16a34a; }
         .progress { background: #fef3c7; padding: 1rem; border-radius: 6px; margin-bottom: 1.5rem; border: 1px solid #fcd34d; }
         .progress-bar { background: #d0d7de; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 0.5rem; }
-        .progress-fill { background: #d97706; height: 100%; width: 0%; }
+        .progress-fill { background: #d97706; height: 100%; width: 45%; }
         footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; color: #57606a; font-size: 0.9rem; }
         a { color: #0969da; text-decoration: none; }
         a:hover { text-decoration: underline; }
+        .exam-info { background: #f0fdf4; border: 1px solid #86efac; border-radius: 6px; padding: 1rem; margin-bottom: 1rem; }
+        .exam-info h4 { font-size: 0.9rem; color: #16a34a; margin-bottom: 0.5rem; }
+        .exam-info ul { margin: 0; padding-left: 1.2rem; font-size: 0.85rem; color: #57606a; }
     </style>
 </head>
 <body>
@@ -36,46 +42,118 @@
         <header>
             <p class="breadcrumb"><a href="../../index.html">← Home</a> / <a href="../../wiki/index.html">Wiki</a> / <a href="../index.html">ISTQB</a></p>
             <h1>🤖 CT-GenAI: Testing with Generative AI</h1>
-            <p class="subtitle">Certified Tester – Testing with Generative AI. Use LLM as testing tool.</p>
+            <p class="subtitle">Certified Tester – Testing with Generative AI (2025). Use LLM as testing tool.</p>
         </header>
 
+        <div class="exam-info">
+            <h4>📝 Exam Info</h4>
+            <ul>
+                <li>Format: Multiple choice</li>
+                <li>Duration: 60 min (75 min if non-native)</li>
+                <li>Questions: 40</li>
+                <li>Pass: 65%</li>
+                <li>Prerequisite: CTFL</li>
+            </ul>
+        </div>
+
         <div class="progress">
-            <strong>📊 Coverage:</strong> ~30% (4 topics with existing content)
-            <div class="progress-bar"><div class="progress-fill" style="width: 30%"></div></div>
+            <strong>📊 Coverage:</strong> ~45% (topics with existing content)
+            <div class="progress-bar"><div class="progress-fill"></div></div>
         </div>
 
         <div class="section">
             <h2>1. Introduction to GenAI for Software Testing</h2>
             <ul class="topic-list">
-                <li><a href="#"><span class="icon">⏳</span> GenAI Foundations and Key Concepts <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Leveraging GenAI in Software Testing: Core Principles <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> AI spectrum: Symbolic AI, ML, Deep Learning, GenAI <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Basics of GenAI and LLMs (tokenization, embeddings, context windows) <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Types of LLMs: Foundation, Instruction-tuned, Reasoning <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Multimodal LLMs and vision-language models <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Key LLM capabilities for test tasks <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> AI chatbots vs. LLM-powered testing applications <span class="tag">TODO</span></a></li>
             </ul>
+            <div class="hands-on">
+                <h4>🧪 Hands-on Exercises</h4>
+                <ul>
+                    <li>HO-1.1.2 Tokenization and token count evaluation</li>
+                    <li>HO-1.1.4 Multimodal prompting with text + image inputs</li>
+                </ul>
+            </div>
         </div>
 
         <div class="section">
             <h2>2. Prompt Engineering for Effective Software Testing</h2>
             <ul class="topic-list">
-                <li><a href="../../qa-prompt-engineering-guide.md"><span class="icon">📖</span> Effective Prompt Development <span class="tag tag-done">DONE</span></a></li>
-                <li><a href="../../qa-prompt-engineering-guide.md"><span class="icon">📖</span> Applying Prompt Engineering Techniques <span class="tag tag-done">DONE</span></a></li>
-                <li><a href="../../ai-testing-metrics.md"><span class="icon">📖</span> Evaluate GenAI Results and Refine Prompts <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="../../qa-prompt-engineering-guide.md"><span class="icon">📖</span> Prompt structure: role, context, instruction, input, constraints, output <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Core techniques: prompt chaining, few-shot, meta prompting <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> System vs. user prompts <span class="tag">TODO</span></a></li>
+                <li><a href="../../qa-prompt-engineering-guide.md"><span class="icon">📖</span> Prompt engineering for test analysis, design, automation <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="../../ai-testing-metrics.md"><span class="icon">📖</span> Metrics: accuracy, precision, recall, relevance, diversity <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Iterative refinement: A/B testing, output analysis <span class="tag">TODO</span></a></li>
             </ul>
+            <div class="hands-on">
+                <h4>🧪 Hands-on Exercises</h4>
+                <ul>
+                    <li>HO-2.1.1 Analyze prompts: role, context, instruction, input, constraints, output</li>
+                    <li>HO-2.1.2a,b Prompt chaining, few-shot, meta prompting demos</li>
+                    <li>HO-2.2.1a,b Multimodal prompting, prompt chaining for acceptance criteria</li>
+                    <li>HO-2.2.2a,b,c Gherkin test cases, few-shot prompting, test prioritization</li>
+                    <li>HO-2.2.3a,b Keyword-driven scripts, test report analysis</li>
+                    <li>HO-2.3.1,2 Evaluate GenAI results, prompt optimization</li>
+                </ul>
+            </div>
         </div>
 
         <div class="section">
             <h2>3. Managing Risks of GenAI in Software Testing Process</h2>
             <ul class="topic-list">
-                <li><a href="../../rag-evaluation-ragas.md"><span class="icon">📖</span> Hallucinations, Reasoning Errors and Biases <span class="tag tag-done">DONE</span></a></li>
-                <li><a href="../../hidden-costs-vibe-coded-apps.md"><span class="icon">📖</span> Data Privacy and Security Risks <span class="tag tag-done">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Energy Consumption and Environmental Impact <span class="tag">TODO</span></a></li>
+                <li><a href="../../rag-evaluation-ragas.md"><span class="icon">📖</span> Hallucinations, reasoning errors, biases <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="../../hidden-costs-vibe-coded-apps.md"><span class="icon">📖</span> Data privacy and security risks <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Environmental impact: energy consumption, CO emissions <span class="tag">TODO</span></a></li>
+                <li><a href="../../testing-ai-specific-qc.md"><span class="icon">📖</span> AI regulations (ISO/IEC 42001, EU AI Act, NIST AI RMF) <span class="tag tag-done">DONE</span></a></li>
             </ul>
+            <div class="hands-on">
+                <h4>🧪 Hands-on Exercises</h4>
+                <ul>
+                    <li>HO-3.1.2a,b Experiment with hallucinations and reasoning errors</li>
+                    <li>HO-3.2.3 Data privacy and security risks case study</li>
+                    <li>HO-3.3.1 Calculate energy and CO emissions for test tasks</li>
+                </ul>
+            </div>
         </div>
 
         <div class="section">
-            <h2>4. AI Regulations, Standards and Best Practice Frameworks</h2>
+            <h2>4. LLM-Powered Test Infrastructure</h2>
             <ul class="topic-list">
-                <li><a href="../../testing-ai-specific-qc.md"><span class="icon">📖</span> AI Regulations & Standards <span class="tag tag-done">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Best Practice Frameworks <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Architectural components: front-end, back-end, LLM integration <span class="tag">TODO</span></a></li>
+                <li><a href="../../rag-evaluation-ragas.md"><span class="icon">📖</span> Retrieval-Augmented Generation (RAG) <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="../../agentic-patterns.md"><span class="icon">📖</span> LLM-powered agents and automation <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Fine-tuning LLMs and SLMs for test tasks <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> LLMOps: deployment and management <span class="tag">TODO</span></a></li>
             </ul>
+            <div class="hands-on">
+                <h4>🧪 Hands-on Exercises</h4>
+                <ul>
+                    <li>HO-4.1.2 RAG for test task</li>
+                    <li>HO-4.1.3 LLM-powered agent for repetitive test task</li>
+                    <li>HO-4.2.1 Fine-tuning process observation</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>5. Deploying and Integrating GenAI in Test Organizations</h2>
+            <ul class="topic-list">
+                <li><a href="#"><span class="icon">⏳</span> Roadmap: risks of shadow AI, strategy, LLM/SLM selection <span class="tag">TODO</span></a></li>
+                <li><a href="../../implement-ai-in-qa-process.md"><span class="icon">📖</span> Cost estimation, adoption phases <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Change management: essential skills, building capabilities <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Evolving test processes and roles <span class="tag">TODO</span></a></li>
+            </ul>
+            <div class="hands-on">
+                <h4>🧪 Hands-on Exercises</h4>
+                <ul>
+                    <li>HO-5.1.3 Estimate recurring costs of GenAI for test tasks</li>
+                </ul>
+            </div>
         </div>
 
         <footer>
