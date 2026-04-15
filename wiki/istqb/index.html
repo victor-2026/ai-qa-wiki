@@ -20,124 +20,160 @@
         .topic-list li:last-child { border-bottom: none; }
         .topic-list a { color: #24292e; text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
         .topic-list a:hover { color: #0969da; }
-        .topic-list .icon { color: #57606a; }
-        .tag { display: inline-block; font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 4px; background: #ddf4ff; color: #0969da; margin-left: 0.5rem; }
+        .icon { color: #57606a; }
+        .tag { display: inline-block; font-size: 0.7rem; padding: 0.1rem 0.4rem; border-radius: 4px; background: #ddf4ff; color: #0969da; margin-left: 0.5rem; }
+        .tag-done { background: #dcfce7; color: #16a34a; }
         footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; color: #57606a; font-size: 0.9rem; }
         a { color: #0969da; text-decoration: none; }
         a:hover { text-decoration: underline; }
         .progress { background: #e8f0fe; padding: 1rem; border-radius: 6px; margin-bottom: 1.5rem; }
-        .progress-bar { background: #d0d7de; height: 8px; border-radius: 4px; overflow: hidden; }
-        .progress-fill { background: #0969da; height: 100%; width: 62%; }
+        .progress-bar { background: #d0d7de; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 0.5rem; }
+        .progress-fill { background: #0969da; height: 100%; width: 36%; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <p class="breadcrumb"><a href="../index.html">← Home</a> / <a href="../wiki/index.html">Wiki</a></p>
-            <h1>📚 ISTQB AI Testing (CT-AI)</h1>
-            <p class="subtitle">Certified Tester - AI Testing Syllabus. 5 articles from AT*SQА.</p>
+            <p class="breadcrumb"><a href="../index.html">← Home</a> / <a href="../index.html">Wiki</a></p>
+            <h1>🎓 ISTQB AI Testing (CT-AI)</h1>
+            <p class="subtitle">Certified Tester - AI Testing. Full 11-chapter syllabus from AT*SQА.</p>
         </header>
 
         <div class="progress">
-            <strong>📊 Coverage:</strong> 5/8 sections covered (62%)
+            <strong>📊 Coverage:</strong> 4/11 chapters with content (36%)
             <div class="progress-bar"><div class="progress-fill"></div></div>
         </div>
 
         <div class="section">
-            <h2>1. Introduction to AI</h2>
+            <h2>Chapter 1: Introduction to AI</h2>
             <ul class="topic-list">
-                <li><a href="#"><span class="icon">⏳</span> Introduction to AI <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Definition of AI and AI Effect <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Narrow, General and Super AI <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> AI-Based and Conventional Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> AI Technologies <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> AI Development Frameworks <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Hardware for AI <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Hardware for AI-Based Systems <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> AI as a Service (AIaaS) <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> Pre-Trained Models <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Standards & Regulations <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Standards, Regulations and AI <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>2. Quality Characteristics for AI</h2>
+            <h2>Chapter 2: Quality Characteristics for AI-Based Systems</h2>
             <ul class="topic-list">
-                <li><a href="ai-quality-characteristics.md"><span class="icon">📖</span> Quality Characteristics <span class="tag">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Flexibility & Adaptability <span class="tag">TODO</span></a></li>
+                <li><a href="istqb-ai-quality-characteristics.md"><span class="icon">📖</span> Quality Characteristics Overview <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Flexibility and Adaptability <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> Autonomy <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Evolution & Concept Drift <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Evolution <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> Bias (Algorithmic, Sample, Inappropriate) <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> Ethics <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Side Effects & Reward Hacking <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Transparency, XAI <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Safety <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Side Effects and Reward Hacking <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Transparency, Interpretability and Explainability <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Safety and AI <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>3. Machine Learning (ML)</h2>
+            <h2>Chapter 3: Machine Learning (ML) – Overview</h2>
             <ul class="topic-list">
                 <li><a href="#"><span class="icon">⏳</span> Forms of ML <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> ML Workflow <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Overfitting & Underfitting <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Training/Validation/Test Datasets <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Data Quality Issues <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> ML Performance Metrics <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Selecting a Form of ML <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Factors in ML Algorithm Selection <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Overfitting and Underfitting <span class="tag">TODO</span></a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chapter 4: ML – Data</h2>
+            <ul class="topic-list">
+                <li><a href="#"><span class="icon">⏳</span> Data Preparation in ML Workflow <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Training, Validation and Test Datasets <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Dataset Quality Issues <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Data Quality Effect on ML Model <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Data Labelling for Supervised Learning <span class="tag">TODO</span></a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chapter 5: ML Functional Performance Metrics</h2>
+            <ul class="topic-list">
                 <li><a href="#"><span class="icon">⏳</span> Confusion Matrix <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Neural Networks & Coverage <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Additional Metrics (Classification, Regression, Clustering) <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Limitations of ML Metrics <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Selecting ML Performance Metrics <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Benchmark Suites for ML Performance <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>4. Testing AI-Based Systems</h2>
+            <h2>Chapter 6: ML – Neural Networks and Testing</h2>
             <ul class="topic-list">
-                <li><a href="ai-testing-overview.md"><span class="icon">📖</span> Testing AI Systems Overview <span class="tag">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Test Levels <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Test Data Requirements <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Test Oracles <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Test Objectives & Acceptance <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Neural Networks <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Coverage Measures for Neural Networks <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>5. Testing AI-Specific Quality</h2>
+            <h2>Chapter 7: Testing AI-Based Systems Overview</h2>
             <ul class="topic-list">
-                <li><a href="#"><span class="icon">⏳</span> Testing Self-Learning Systems <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Testing Autonomous Systems <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Testing Bias <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Testing Probabilistic/Non-Deterministic <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Testing Complex AI Systems <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Testing XAI <span class="tag">TODO</span></a></li>
+                <li><a href="istqb-ai-testing-overview.md"><span class="icon">📖</span> Testing AI Systems Overview <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Specification of AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Test Levels for AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Test Data for Testing AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing for Automation Bias <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Documenting an AI Component <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing for Concept Drift <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Selecting a Test Approach for an ML System <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>6. Methods & Techniques</h2>
+            <h2>Chapter 8: Testing AI-Specific Quality Characteristics</h2>
             <ul class="topic-list">
-                <li><a href="methods-techniques.md"><span class="icon">📖</span> Methods & Techniques <span class="tag">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Adversarial Attacks & Data Poisoning <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Challenges Testing Self-Learning Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing Autonomous AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing for Bias (Algorithmic, Sample, Inappropriate) <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing Probabilistic/Non-Deterministic AI <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing Complex AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Testing Transparency, Interpretability and Explainability <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Test Oracles for AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Test Objectives and Acceptance Criteria <span class="tag">TODO</span></a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Chapter 9: Methods and Techniques for Testing AI-Based Systems</h2>
+            <ul class="topic-list">
+                <li><a href="istqb-methods-techniques.md"><span class="icon">📖</span> Methods & Techniques Overview <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Adversarial Attacks and Data Poisoning <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> Pairwise Testing <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> A/B Testing <span class="tag">TODO</span></a></li>
                 <li><a href="#"><span class="icon">⏳</span> Back-to-Back Testing <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Metamorphic Testing <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Experience-Based Testing <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> A/B Testing <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Metamorphic Testing (MT) <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Experience-Based Testing of AI-Based Systems <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Selecting Test Techniques for AI-Based Systems <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>7. Testing Environments</h2>
+            <h2>Chapter 10: Test Environments for AI-Based Systems</h2>
             <ul class="topic-list">
-                <li><a href="test-environments.md"><span class="icon">📖</span> Test Environments <span class="tag">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> Virtual Environments <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> CI/CD Integration <span class="tag">TODO</span></a></li>
+                <li><a href="istqb-test-environments.md"><span class="icon">📖</span> Test Environments <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Virtual Test Environments <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>8. Using AI for Testing</h2>
+            <h2>Chapter 11: Using AI for Testing</h2>
             <ul class="topic-list">
-                <li><a href="using-ai-for-testing.md"><span class="icon">📖</span> Using AI for Testing <span class="tag">DONE</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> AI for Defect Analysis <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> AI for Test Generation <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> AI for Regression Optimization <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> AI for Defect Prediction <span class="tag">TODO</span></a></li>
-                <li><a href="#"><span class="icon">⏳</span> AI for GUI Testing <span class="tag">TODO</span></a></li>
+                <li><a href="istqb-using-ai-for-testing.md"><span class="icon">📖</span> Using AI for Testing <span class="tag tag-done">DONE</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Using AI to Analyze Reported Defects <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Using AI for Test Case Generation <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Using AI for Regression Test Optimization <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Using AI for Defect Prediction <span class="tag">TODO</span></a></li>
+                <li><a href="#"><span class="icon">⏳</span> Using AI for Testing User Interfaces <span class="tag">TODO</span></a></li>
             </ul>
         </div>
 
