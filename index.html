@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI QA Wiki</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #24292e; background: #f6f8fa; min-height: 100vh; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        header { text-align: center; margin-bottom: 3rem; padding: 2rem 0; border-bottom: 1px solid #d0d7de; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .subtitle { color: #57606a; font-size: 1.1rem; }
+        .nav-section { margin-bottom: 2.5rem; }
+        .nav-section h2 { font-size: 1.3rem; margin-bottom: 1rem; color: #0969da; display: flex; align-items: center; gap: 0.5rem; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+        .card { background: white; border: 1px solid #d0d7de; border-radius: 6px; padding: 1rem; transition: all 0.2s; }
+        .card:hover { border-color: #0969da; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .card h3 { font-size: 1rem; margin-bottom: 0.5rem; }
+        .card p { font-size: 0.9rem; color: #57606a; }
+        .card a { text-decoration: none; color: inherit; display: block; }
+        .tag { display: inline-block; font-size: 0.75rem; padding: 0.15rem 0.5rem; border-radius: 20px; background: #ddf4ff; color: #0969da; margin-top: 0.5rem; }
+        .stats { display: flex; justify-content: center; gap: 2rem; margin-top: 1.5rem; flex-wrap: wrap; }
+        .stat { text-align: center; }
+        .stat-value { font-size: 1.5rem; font-weight: 600; color: #0969da; }
+        .stat-label { font-size: 0.85rem; color: #57606a; }
+        footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; color: #57606a; font-size: 0.9rem; }
+        a { color: #0969da; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI QA Wiki</h1>
+            <p class="subtitle">LLM-powered knowledge base for AI Testing best practices</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value" id="raw-count">-</div>
+                    <div class="stat-label">Source Articles</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="wiki-count">-</div>
+                    <div class="stat-label">Wiki Topics</div>
+                </div>
+            </div>
+        </header>
+
+        <section class="nav-section">
+            <h2>📚 Wiki (Organized Knowledge)</h2>
+            <div class="card-grid" id="wiki-links">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <section class="nav-section">
+            <h2>📁 Raw Sources</h2>
+            <div class="card-grid" id="raw-links">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <section class="nav-section">
+            <h2>🎙️ Outputs</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <a href="outputs/podcasts/">
+                        <h3>🎙️ Podcasts</h3>
+                        <p>Generated podcast outlines and scripts</p>
+                        <span class="tag">Audio</span>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="outputs/summaries/">
+                        <h3>📝 Summaries</h3>
+                        <p>Topic summaries and key takeaways</p>
+                        <span class="tag">Text</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="nav-section">
+            <h2>🔗 Quick Links</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <a href="https://github.com/victor-2026/ai-qa-wiki">
+                        <h3>GitHub Repository</h3>
+                        <p>Source code and contribution guidelines</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="AGENTS.md">
+                        <h3>AGENTS.md</h3>
+                        <p>Guidelines for AI agents working with this wiki</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Built with LLM Wiki pattern • Last updated: April 2026</p>
+        </footer>
+    </div>
+
+    <script>
+        const wikiFiles = [
+            { title: 'Topics Map', desc: 'Overview of all AI QA testing topics', file: 'wiki/topics-map.md', tag: 'Overview' },
+            { title: 'Testing Strategies', desc: 'Metamorphic, PBT, differential, canary testing', file: 'wiki/testing-strategies.md', tag: 'Methods' },
+            { title: 'AI Testing Metrics', desc: 'Ragas, TrickCatcher, ROI metrics', file: 'wiki/ai-testing-metrics.md', tag: 'Metrics' },
+            { title: 'Agentic Patterns', desc: 'Prompt chaining, routing, triad pattern', file: 'wiki/agentic-patterns.md', tag: 'Agents' },
+            { title: 'Vibe Coding Guide', desc: 'Vibe vs spec-driven development', file: 'wiki/vibe-coding-guide.md', tag: 'Vibe Coding' },
+            { title: 'Quality Characteristics', desc: 'ISO 25010, bias, XAI, ethics', file: 'wiki/quality-characteristics.md', tag: 'Quality' },
+            { title: 'Monitoring & Observability', desc: 'ODD, 3 layers, implementation', file: 'wiki/monitoring-observability.md', tag: 'Ops' }
+        ];
+
+        const rawTopics = [
+            { title: 'Agents Playbook', desc: '9 chapters on agentic engineering', tag: 'BeyondQuality' },
+            { title: 'ISTQB AI Testing', desc: '5 articles from AT*SQА syllabus', tag: 'Certification' },
+            { title: 'RAG Testing', desc: 'Ragas metrics and evaluation', tag: 'RAG' },
+            { title: 'Bug Detection', desc: 'TrickCatcher (41-51% F1)', tag: 'Research' },
+            { title: 'AI Chaos Testing', desc: 'AI for chaos engineering', tag: 'Resilience' },
+            { title: 'Canary Testing', desc: 'Progressive delivery patterns', tag: 'Deployment' },
+            { title: 'Vibe Coding', desc: 'Hidden costs, spec-driven, guides', tag: 'Dev Practices' },
+            { title: 'AI Regression Testing', desc: 'ROI, workflows, implementation', tag: 'DeviQA' },
+            { title: 'Observability', desc: 'ODD, monitoring for AI apps', tag: 'Ops' }
+        ];
+
+        function renderCards(container, items, isWiki) {
+            container.innerHTML = items.map(item => `
+                <div class="card">
+                    ${isWiki 
+                        ? `<a href="${item.file}"><h3>${item.title}</h3><p>${item.desc}</p><span class="tag">${item.tag}</span></a>`
+                        : `<h3>${item.title}</h3><p>${item.desc}</p><span class="tag">${item.tag}</span>`
+                    }
+                </div>
+            `).join('');
+        }
+
+        renderCards(document.getElementById('wiki-links'), wikiFiles, true);
+        renderCards(document.getElementById('raw-links'), rawTopics, false);
+        document.getElementById('raw-count').textContent = '39';
+        document.getElementById('wiki-count').textContent = wikiFiles.length;
+    </script>
+</body>
+</html>

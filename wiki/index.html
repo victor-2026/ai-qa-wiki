@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki - AI QA Wiki</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #24292e; background: #f6f8fa; min-height: 100vh; }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+        header { margin-bottom: 2rem; }
+        .breadcrumb { color: #57606a; margin-bottom: 0.5rem; font-size: 0.9rem; }
+        .breadcrumb a { color: #0969da; text-decoration: none; }
+        h1 { font-size: 2rem; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+        .card { background: white; border: 1px solid #d0d7de; border-radius: 6px; padding: 1rem; transition: all 0.2s; }
+        .card:hover { border-color: #0969da; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        .card a { text-decoration: none; color: inherit; display: block; }
+        .card h2 { font-size: 1rem; margin-bottom: 0.3rem; color: #0969da; }
+        .card p { font-size: 0.85rem; color: #57606a; }
+        footer { text-align: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #d0d7de; color: #57606a; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p class="breadcrumb"><a href="../index.html">← Home</a></p>
+            <h1>📚 Wiki Topics</h1>
+        </header>
+
+        <div class="card-grid">
+            <div class="card"><a href="topics-map.md"><h2>Topics Map</h2><p>Overview of all topics</p></a></div>
+            <div class="card"><a href="testing-strategies.md"><h2>Testing Strategies</h2><p>Metamorphic, PBT, differential</p></a></div>
+            <div class="card"><a href="ai-testing-metrics.md"><h2>AI Testing Metrics</h2><p>Ragas, TrickCatcher, ROI</p></a></div>
+            <div class="card"><a href="agentic-patterns.md"><h2>Agentic Patterns</h2><p>Prompt chaining, routing</p></a></div>
+            <div class="card"><a href="vibe-coding-guide.md"><h2>Vibe Coding Guide</h2><p>Vibe vs spec-driven</p></a></div>
+            <div class="card"><a href="quality-characteristics.md"><h2>Quality Characteristics</h2><p>ISO 25010, bias, XAI</p></a></div>
+            <div class="card"><a href="monitoring-observability.md"><h2>Monitoring & Observability</h2><p>ODD, 3 layers</p></a></div>
+        </div>
+
+        <footer>
+            <p><a href="../index.html">← Back to Home</a></p>
+        </footer>
+    </div>
+</body>
+</html>
