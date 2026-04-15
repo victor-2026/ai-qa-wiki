@@ -12,6 +12,17 @@
 - [[wiki/quality-characteristics]] — ISO 25010, bias, XAI, ethics, safety
 - [[wiki/ai-testing-metrics]] — Ragas, TrickCatcher, ROI metrics
 
+### 🎓 ISTQB AI Testing (CT-AI)
+- [[wiki/istqb/index]] — Full syllabus with 8 sections
+  - Introduction to AI
+  - Quality Characteristics for AI
+  - Machine Learning Overview
+  - Testing AI-Based Systems
+  - Testing AI-Specific Quality
+  - Methods & Techniques
+  - Testing Environments
+  - Using AI for Testing
+
 ### 2. Agentic Engineering
 - [[wiki/agentic-patterns]] — Prompt chaining, routing, parallelization, memory
 - Pipeline Triad Pattern — Creator-Critic-Arbiter workflow
