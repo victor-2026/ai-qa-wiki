@@ -134,7 +134,8 @@ Claude Pro подписка: **$100/мес**
 - [[raw/winteringham-prompts]] — Промпты для QA
 - [[wiki/agentic-patterns]] — Agentic patterns
 
-## Related
+## See Also
 
+- [[raw/ai-qa-exoskeleton-launch-habr]] — Часть 2: Запуск за 4 часа
 - [[wiki/topics-map]] — Full wiki overview
 - [[wiki/testing-strategies]] — Testing strategies
