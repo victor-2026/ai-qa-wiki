@@ -123,7 +123,9 @@
             { title: 'Agentic Patterns', desc: 'Prompt chaining, routing, triad pattern', file: 'wiki/agentic-patterns.md', tag: 'Agents' },
             { title: 'Vibe Coding Guide', desc: 'Vibe vs spec-driven development', file: 'wiki/vibe-coding-guide.md', tag: 'Vibe Coding' },
             { title: 'Quality Characteristics', desc: 'ISO 25010, bias, XAI, ethics', file: 'wiki/quality-characteristics.md', tag: 'Quality' },
-            { title: 'Monitoring & Observability', desc: 'ODD, 3 layers, implementation', file: 'wiki/monitoring-observability.md', tag: 'Ops' }
+            { title: 'Monitoring & Observability', desc: 'ODD, 3 layers, implementation', file: 'wiki/monitoring-observability.md', tag: 'Ops' },
+            { title: 'Test Stability', desc: 'Anti-flakiness patterns, expect.poll, mocks', file: 'wiki/testing-stability.md', tag: 'Stability' },
+            { title: 'Test Management', desc: 'RTM, traceability, coverage metrics', file: 'wiki/test-management.md', tag: 'Management' }
         ];
 
         const rawTopics = [
@@ -135,7 +137,9 @@
             { title: 'Canary Testing', desc: 'Progressive delivery patterns', tag: 'Deployment' },
             { title: 'Vibe Coding', desc: 'Hidden costs, spec-driven, guides', tag: 'Dev Practices' },
             { title: 'AI Regression Testing', desc: 'ROI, workflows, implementation', tag: 'DeviQA' },
-            { title: 'Observability', desc: 'ODD, monitoring for AI apps', tag: 'Ops' }
+            { title: 'Observability', desc: 'ODD, monitoring for AI apps', tag: 'Ops' },
+            { title: 'Anti-Flakiness', desc: 'expect.poll, Idempotency-Key, 3-level mocks', tag: 'Stability' },
+            { title: 'LLM Agents Security', desc: 'PoLP, CI/CD exploits, behavioral taxonomy', tag: 'Security' }
         ];
 
         function renderCards(container, items, isWiki) {
@@ -151,7 +155,7 @@
 
         renderCards(document.getElementById('wiki-links'), wikiFiles, true);
         renderCards(document.getElementById('raw-links'), rawTopics, false);
-        document.getElementById('raw-count').textContent = '39';
+        document.getElementById('raw-count').textContent = '45';
         document.getElementById('wiki-count').textContent = wikiFiles.length;
     </script>
 </body>
