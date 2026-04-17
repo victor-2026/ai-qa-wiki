@@ -139,7 +139,8 @@
             { title: 'AI Regression Testing', desc: 'ROI, workflows, implementation', tag: 'DeviQA' },
             { title: 'Observability', desc: 'ODD, monitoring for AI apps', tag: 'Ops' },
             { title: 'Anti-Flakiness', desc: 'expect.poll, Idempotency-Key, 3-level mocks', tag: 'Stability' },
-            { title: 'LLM Agents Security', desc: 'PoLP, CI/CD exploits, behavioral taxonomy', tag: 'Security' }
+            { title: 'LLM Agents Security', desc: 'PoLP, CI/CD exploits, behavioral taxonomy', tag: 'Security' },
+            { title: 'Passmark', desc: 'Open-source AI regression on Playwright (Bug0)', tag: 'Open Source' }
         ];
 
         function renderCards(container, items, isWiki) {
@@ -155,7 +156,7 @@
 
         renderCards(document.getElementById('wiki-links'), wikiFiles, true);
         renderCards(document.getElementById('raw-links'), rawTopics, false);
-        document.getElementById('raw-count').textContent = '45';
+        document.getElementById('raw-count').textContent = '46';
         document.getElementById('wiki-count').textContent = wikiFiles.length;
     </script>
 </body>
