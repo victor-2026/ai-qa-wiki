@@ -375,6 +375,84 @@ If ALL passed → Merge
 
 ---
 
+### D) Docker Sandboxing (Extended)
+
+Ephemeral Docker Runners — временные контейнеры которые уничтожаются после прогона.
+
+#### Dockerfile с непривилегированным пользователем
+
+```dockerfile
+FROM python:3.11-slim
+
+# Непривилегированный пользователь
+RUN useradd -m ai_tester
+USER ai_tester
+WORKDIR /home/ai_tester
+
+# Минимум зависимостей
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Сгенерированные тесты (только запись)
+COPY --chown=ai_tester:ai_tester ./generated_tests ./tests
+
+# Timeout на выполнение
+CMD ["pytest", "--maxfail=3", "tests/"]
+```
+
+---
+
+### E) DoR Gatekeeper Agent
+
+**Промпт-проверка:**
+> "Проанализируй описание задачи. Ответь 'READY', если указаны:
+> 1) Эндпоинт API.
+> 2) Входные параметры.
+> 3) Ожидаемый код ответа.
+> В противном случае перечисли, чего не хватает."
+
+**Workflow:**
+```
+GitHub Action (task created)
+    ↓
+Gatekeeper Agent (DoR check)
+    ↓
+[READY] → MAS Generator
+    ↓
+[NOT READY] → label: needs-info → block
+```
+
+---
+
+### F) DoD Validation Table
+
+| Этап | Инструмент | Критерий |
+|------|------------|----------|
+| Синтаксис | Ruff / Flake8 | 0 errors |
+| Безопасность | Bandit | 0 vulnerabilities |
+| Выполнение | Docker | Exit Code: 0 |
+| Логика | Агент-Критик | Score > 8/10 |
+
+---
+
+### итоговый Workflow
+
+```
+1. Input: ссылка на репозиторий / описание функции
+         ↓
+2. Check: DoR Gatekeeper
+         ↓
+3. Generate: CrewAI (Generator → Critic → Fixer)
+         ↓
+4. Execute: Docker sandbox
+         ↓
+5. Check: DoD Validation (Ruff + Bandit + Critic)
+         ↓
+6. Output: Pull Request с готовыми тестами
+```
+
+---
+
 ## С чего начать?
 
 > **Лучше начать с автоматизации DoD.** Даже если тесты пишут люди, ИИ-Критик в CI/CD будет отсеивать "мусорные" проверки.
