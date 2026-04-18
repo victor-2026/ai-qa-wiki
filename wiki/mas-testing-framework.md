@@ -344,6 +344,84 @@ def rag_lookup(error: str) -> str | None:
     return None
 
 
+#### Simple JSON Patterns (No DB required)
+
+Простой словарь для быстрого старта — без ChromaDB.
+
+```python
+# qa_known_patterns.json
+PATTERNS = {
+    "ConnectionError": {
+        "pattern": ["ConnectionError", "ECONNREFUSED", "connection refused"],
+        "fix": "mock external services or use @pytest.mark.flaky(reruns=3)"
+    },
+    "database is locked": {
+        "pattern": ["database is locked", "SQLITE_BUSY"],
+        "fix": "add pytest.mark.xfix(strict=False) or use db_session fixture"
+    },
+    "timeout": {
+        "pattern": ["Timeout", "timed out", "asyncio.TimeoutError"],
+        "fix": "increase timeout=30 or use @pytest.mark.slow"
+    },
+    "import error": {
+        "pattern": ["ImportError", "ModuleNotFoundError", "cannot import"],
+        "fix": "check __init__.py exports and PYTHONPATH"
+    },
+    "attribute error": {
+        "pattern": ["AttributeError", "has no attribute"],
+        "fix": "mock missing attributes or check API version"
+    },
+    "assertion error": {
+        "pattern": ["AssertionError", "assert"],
+        "fix": "check expected vs actual values in test"
+    },
+    "fixture not found": {
+        "pattern": ["fixture.*not found", " Fixture '.*' doesn't exist"],
+        "fix": "define fixture in conftest.py"
+    },
+    "network error": {
+        "pattern": ["NetworkError", "HTTPError", "requests.exception"],
+        "fix": "use requests-mock or responses library"
+    }
+}
+
+
+def simple_lookup(error: str) -> str | None:
+    """Простой поиск по паттернам"""
+    error_lower = error.lower()
+
+    for name, data in PATTERNS.items():
+        for pattern in data["pattern"]:
+            if pattern.lower() in error_lower:
+                return data["fix"]
+
+    return None
+
+
+# Usage
+def smart_fixer(error: str, code: str, specs: str) -> str:
+    fix = simple_lookup(error)
+
+    if fix:
+        # Prompt injection с известным решением
+        return f"Known fix: {fix}\n\nOriginal error: {error}\nCode: {code}"
+    else:
+        # Fallback: generic Fixer
+        return f"Error: {error}\nCode: {code}\nSpecs: {specs}"
+```
+
+**Usage:**
+```python
+# Быстрый старт без ChromaDB
+fix = simple_lookup(stderr)
+if fix:
+    print(f"Applying known fix: {fix}")
+else:
+    fix = fixer.run(error=stderr, code=test_code)
+```
+
+---
+
 #### ChromaDB Integration (Lightweight)
 
 ```python
