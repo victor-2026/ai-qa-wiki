@@ -453,6 +453,135 @@ Gatekeeper Agent (DoR check)
 
 ---
 
+### G) Python Script: CrewAI + Docker Integration
+
+```python
+import subprocess
+import json
+import os
+from crewai import Agent, Task, Crew, Process
+
+# Конфигурация
+IMAGE_NAME = "ai-tester-sandbox"
+CONTAINER_NAME = "qa-ephemeral-runner"
+RESULTS_FILE = "/tmp/qa-results.json"
+
+
+def build_sandbox():
+    """Сборка Docker-образа"""
+    print("🔨 Building sandbox...")
+    subprocess.run(
+        ["docker", "build", "-t", IMAGE_NAME, "-f", "Dockerfile", "."],
+        check=True
+    )
+
+
+def run_in_sandbox(tests_path: str) -> dict:
+    """Запуск тестов в изолированном контейнере"""
+    container_id = None
+    try:
+        # Запуск ephemeral контейнера
+        result = subprocess.run([
+            "docker", "run", "--rm",
+            "--name", CONTAINER_NAME,
+            "-v", f"{os.path.abspath(tests_path)}:/home/ai_tester/tests:ro",
+            IMAGE_NAME
+        ], capture_output=True, text=True)
+
+        # Парсинг результатов
+        return {
+            "exit_code": result.returncode,
+            "stdout": result.stdout,
+            "stderr": result.stderr,
+            "passed": result.returncode == 0
+        }
+    except Exception as e:
+        return {"error": str(e), "passed": False}
+
+
+# Агенты CrewAI
+generator = Agent(
+    role='SDET Generator',
+    goal='Создать надежные тесты для {module}',
+    backstory='Эксперт по Pytest и mocking',
+    allow_delegation=False
+)
+
+critic = Agent(
+    role='QA Critic',
+    goal='Отклонить тесты с галлюцинациями',
+    backstory='Находит скрытые баги',
+    allow_delegation=True
+)
+
+
+def run_qa_pipeline(module: str, specs: str) -> dict:
+    """Основной пайплайн"""
+    # 1. Генерация
+    task_gen = Task(
+        description=f'Создать тесты для {module}. Spec: {specs}',
+        expected_output='test_*.py',
+        agent=generator
+    )
+
+    # 2. Review
+    task_review = Task(
+        description='Проверить DoD compliance',
+        expected_output='audit.json',
+        agent=critic,
+        context=[task_gen]
+    )
+
+    crew = Crew(
+        agents=[generator, critic],
+        tasks=[task_gen, task_review],
+        process=Process.sequential,
+        full_output=True
+    )
+
+    # Запуск
+    result = crew.kickoff()
+    generated_tests = f"./generated_tests/{module}.py"
+
+    # 3. Execution в Docker
+    execution_result = run_in_sandbox(generated_tests)
+
+    # 4. Итог
+    return {
+        "crew_result": result,
+        "execution": execution_result,
+        "ready_for_pr": execution_result.get("passed", False)
+    }
+
+
+if __name__ == "__main__":
+    # Пример использования
+    result = run_qa_pipeline(
+        module="AuthService",
+        specs="POST /api/auth/login => 200, invalid => 401"
+    )
+    print(json.dumps(result, indent=2))
+```
+
+---
+
+### Usage
+
+```bash
+# 1. Сборка образа
+python qa_pipeline.py --build
+
+# 2. Запуск пайплайна
+python qa_pipeline.py --module AuthService --specs "..."
+
+# 3. CI интеграция
+github-actions:
+  - name: QA Pipeline
+    run: python qa_pipeline.py --module ${{ matrix.module }}
+```
+
+---
+
 ## С чего начать?
 
 > **Лучше начать с автоматизации DoD.** Даже если тесты пишут люди, ИИ-Критик в CI/CD будет отсеивать "мусорные" проверки.
