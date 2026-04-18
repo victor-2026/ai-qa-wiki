@@ -14,6 +14,7 @@
 - Synthetic data generation
 
 ### Agentic Development
+- [[wiki/mas-testing-framework]] — Multi-Agent System для QA
 - Autonomous test agents
 - Multi-agent pipelines
 - Self-healing tests
