@@ -108,9 +108,49 @@ This article provides a comprehensive comparison of all frameworks.
 
 | Framework | Description | Best For |
 |-----------|--------------|----------|
-| **Mabl / Testim** | Self-healing UI tests | Frequent design changes |
+| **Mabl** | Agentic Tester — autonomous AI agent | Agile teams, UX/A11y |
+| **Testim** | Smart Locators — ML-based stability | Enterprise, Salesforce/SAP |
 | **Virtuoso** | English-to-code tests | Business stakeholders |
 | **TCS AI Testing** | Robustness + Ethical AI | Enterprise compliance |
+
+---
+
+### C. Mabl vs Testim (Deep Dive)
+
+> "Digital Partner" vs "Stability & Scale"
+
+#### Mabl: Agentic Tester
+
+- **Philosophy:** "AI-Native Platform" — ИИ пронизывает всё
+- **Autonomous:** Gives URL → auto-generates test scenarios
+- **Self-Healing:** Computer vision + DOM analysis
+- **Strong in:** UX, Accessibility, API + Web
+- **Type:** Generative + Multimodal AI
+
+**Best for:** Agile teams needing fast E2E coverage without code
+
+---
+
+#### Testim: Smart Locators (Tricentis)
+
+- **Philosophy:** "Extreme Stability" for enterprise apps
+- **Smart Locators:** ML analyzes hundreds of element attributes
+- **Hybrid:** Visual editor + custom JavaScript
+- **AI-Powered Stability:** Fights flaky tests through self-learning
+- **Strong in:** Salesforce, SAP, complex custom UIs
+
+**Best for:** Enterprise with complex UIs that break daily
+
+---
+
+#### Quick Comparison
+
+| Parameter | Mabl | Testim |
+|-----------|-----|-------|
+| **Focus** | Speed + Autonomy | Stability + Reliability |
+| **Entry Level** | Low-code/No-code | Low-code + Pro-code |
+| **AI Type** | Generative + Multimodal | ML + Probabilistic |
+| **Best for** | UX/A11y | Enterprise (Salesforce) |
 
 ---
 

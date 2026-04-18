@@ -136,6 +136,7 @@ Three fundamentally different approaches in different planes:
 - [[wiki/swe-tester-framework]] — SWE-Tester
 - [[wiki/mas-vs-swe-comparison]] — MAS vs SWE only
 - [[wiki/state-of-digital-quality-2026]] — Applause report
+- [[wiki/industrial-ai-testing-frameworks]] — Mabl, Testim, Virtuoso, TCS
 
 ## Sources
 
