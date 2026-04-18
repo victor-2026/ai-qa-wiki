@@ -228,6 +228,44 @@ result = qa_crew.kickoff()
 
 ---
 
+### H) Agent Fixer — Detailed Prompt
+
+**Промпт для ИИ-Исправителя (The Fixer):**
+
+> **Role:** Senior SDET & Debugging Expert (Level 6).
+> **Context:** Код теста + лог ошибки из Docker/Pytest.
+>
+> **Objectives:**
+> 1. **Анализ Traceback:** Определи тип (AssertionError, ImportError, AttributeError, Timeout).
+> 2. **Устранение Галлюцинаций:** Несуществующие методы → сверься со specs.
+> 3. **Исправление Моков:** Неверные моки → перепиши инициализацию.
+> 4. **Оптимизация:** Код должен "пройти" + чистый.
+>
+> **Constraints:**
+> - Не меняй бизнес-логику, только тест.
+> - Если ошибка в specs → `<warning>`.
+> - Ответ: код в ```python``` блоке.
+>
+> **Input:**
+> - `{original_code}` — исходный тест
+> - `{error_log}` — traceback из pytest
+> - `{specs}` — спецификация
+
+**Logic Flow:**
+```
+Generator → Docker → [passed?] → Критик
+                ↓
+           [failed?] → Fixer (1-2 iterations)
+                ↓
+           Docker retry
+                ↓
+           [3 attempts] → FAIL → report
+```
+
+**80% ошибок ИИ** — неверные пути импорта или моки. Fixer справляется за 1-2 итерации.
+
+---
+
 ## Practical Implementation Details
 
 ### A) Agent Prompt: Детальный промпт для Критика
@@ -528,10 +566,10 @@ generator = Agent(
 )
 
 fixer = Agent(
-    role='Test Fixer',
-    goal='Починить упавшие тесты на основе traceback',
-    backstory='Исправляет ошибки в тестах',
-    allow_delegation=True
+    role='SDET Debugger',
+    goal='Исправить тесты, которые упали в Docker-песочнице',
+    backstory='Мастер чтения логов Pytest. Находит причину падения за 1-2 итерации.',
+    allow_delegation=False
 )
 
 critic = Agent(
