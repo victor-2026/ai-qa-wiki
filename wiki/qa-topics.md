@@ -211,22 +211,26 @@
 ## Quick Reference
 
 ```
-                    ┌─────────────────────────────────────┐
-                    │      QA PROFESSION EVOLUTION         │
-                    └─────────────────────────────────────┘
-                                    │
-         ┌──────────────┬──────────────┼──────────────┬──────────────┐
-         ▼             ▼            ▼            ▼            ▼
-   ┌──────────┐ ┌─────────┐ ┌──────────┐ ┌──────────┐ ┌─────────┐
-   │ Manual   │ │  Test   │ │  AI-     │ │  Agentic │ │  QA     │
-   │  QA     │ │Auto-    │ │augmented │ │  -dev   │ │Architect│
-   └──────────┘ └─────────┘ └──────────┘ └──────────┘ └─────────┘
-         │             │            │            │            │
-         ▼             ▼            ▼            ▼            ▼
-   • Exploratory • Regression• Synthesis• Self-heal• Architecture
-   • Usability  • API tests • Prompt   • Autonomy  • Risk-based
-   • Ad-hoc    • E2E      • Gen      • Agents  • Quality
+                     ┌─────────────────────────────────────┐
+                     │      QA PROFESSION EVOLUTION         │
+                     └─────────────────────────────────────┘
+                                     │
+          ┌──────────────┬──────────────┼──────────────┬──────────────┐
+          ▼             ▼            ▼            ▼            ▼
+    ┌──────────┐ ┌─────────┐ ┌──────────┐ ┌──────────┐ ┌─────────┐
+    │ Manual   │ │  Test   │ │  AI-     │ │  Agentic │ │  QA     │
+    │  QA     │ │Auto-    │ │augmented │ │  -dev   │ │Architect│
+    └──────────┘ └─────────┘ └──────────┘ └──────────┘ └─────────┘
+          │             │            │            │            │
+          ▼             ▼            ▼            ▼            ▼
+    • Exploratory • Regression• Synthesis• Self-heal• Architecture
+    • Usability  • API tests • Prompt   • Autonomy  • Risk-based
+    • Ad-hoc    • E2E      • Gen      • Agents  • Quality
 ```
+
+## Quick Reference (Terms)
+
+Смотри полный глоссарий: [[wiki/ai-testing-glossary]]
 
 ---
 
