@@ -51,6 +51,12 @@
 **Методы:** BM25, embeddings, semantic search
 **Связан:** [[wiki/swe-tester-framework]]
 
+### CrewAI
+**Термин:** CrewAI
+**Определение:** Open-source фреймворк для оркестрации AI-агентов. Промышленный стандарт 2026 года.
+**Пример:** `agents=[tester, critic], process='sequential'`
+**Связан:** [[wiki/mas-testing-framework]]
+
 ### Code Editing
 **Термин:** Code Editing
 **Определение:** Второй этап SWE-Tester — генерация тестов в формате Search/Replace.
@@ -123,6 +129,11 @@
 **Термин:** LLM — Large Language Model
 **Определение:** Большая языковая модель — нейросетевая база для генерации текста и кода.
 **Examples:** GPT-4, Claude 3.5, Qwen-2.5, Llama-3.1
+
+### MARTI
+**Термин:** MARTI
+**Определение:** Open-source фреймворк для MAS-тестирования (release Feb 2026). Поддерживает Tree Search RL — агенты пробуют разные варианты пока не пройдут валидацию.
+**Связан:** [[wiki/mas-testing-framework]]
 
 ### LoRA (Low-Rank Adaptation)
 **Термин:** LoRA — Low-Rank Adaptation

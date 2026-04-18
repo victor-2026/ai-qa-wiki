@@ -121,6 +121,64 @@ Conceptual: после генерации проверяется:
 - [[wiki/testing-stability]] — Flakiness и стабильность
 - [[wiki/ai-testing-metrics]] — Новые метрики для AI QA
 
+## Implementation Options (April 2026)
+
+К 2026 году на рынке уже есть инструменты для реализации MAS-подхода.
+
+### 1. Open-Source Фреймворки
+
+| Tool | Description | Best For |
+|------|------------|---------|
+| **MARTI v2** (Feb 2026) | Tree Search RL — агенты пробуют разные варианты пока не пройдут | Complex test generation |
+| **CrewAI / LangGraph** | Промышленный стандарт оркестрации | Draw graph: Analysis → Test → Review → Fix |
+| **Microsoft AutoGen** | Агенты "разговаривают" в чате | Chat-based workflows |
+
+### 2. Enterprise Платформы
+
+| Platform | Description | Best For |
+|----------|------------|----------|
+| **Testomat.io** | AI-Powered Orchestration — сканирует Jira, генерирует edge case тесты | Enterprise teams |
+| **Dify / DIMA-AI** | Визуальные конструкторы "QA-агента из кубиков" | Low-code approach |
+
+### 3. Пример на Python (CrewAI)
+
+```python
+from crewai import Agent, Task, Crew
+
+# 1. Агент-Генератор
+tester = Agent(
+  role='Senior QA Automation',
+  goal='Generate high-coverage unit tests for {service_name}',
+  backstory='Expert in Pytest and Mocking, focuses on edge cases.',
+  allow_delegation=False
+)
+
+# 2. Агент-Критик
+critic = Agent(
+  role='Security & Quality Auditor',
+  goal='Review tests for logic errors and security leaks',
+  backstory='Former hacker, expert in finding flaky tests.',
+  allow_delegation=True
+)
+
+# 3. Сборка отдела тестирования
+qa_crew = Crew(
+  agents=[tester, critic],
+  tasks=[test_task],
+  process='sequential'  # Пишем → Проверяем
+)
+
+result = qa_crew.kickoff()
+```
+
+### Практические советы
+
+1. **Начните с "Агента-Критика"** — оставить тесты людям, AI проверяет DoD
+2. **Используйте Docker-песочницы** — изоляция для Executor
+3. **Единый контекст** — Swagger/OpenAPI + Sentry logs = Quality Data Plane
+
+---
+
 ## Sources
 
 - Gemini conversation analysis (not verified)
