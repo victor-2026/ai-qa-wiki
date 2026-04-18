@@ -487,6 +487,83 @@ def smart_fixer(error: str, code: str, specs: str) -> str:
         specs=specs,
         context=context
     )
+
+
+# === 2. Improved Smart Fixer Orchestrator ===
+
+def smart_fixer_orchestrator(
+    raw_error: str,
+    code: str,
+    specs: str,
+    module: str = "unknown"
+) -> str:
+    """
+    Улучшенный фиксер: очищает лог перед поиском
+    """
+    # Очищаем от шума
+    clean_error = parse_traceback(raw_error)
+
+    # Ищем в ChromaDB
+    known_fixes = rag_lookup_chroma(clean_error)
+
+    # Формируем расширенный промпт
+    context_bonus = ""
+    if known_fixes:
+        context_bonus = f"\n[RAG Hint]: {known_fixes[0]}"
+
+    return fixer_agent.run(
+        error=clean_error,
+        code=code,
+        specs=specs,
+        hint=context_bonus
+    )
+
+
+# === 3. Metadata Schema ===
+
+# metadata fields для ChromaDB
+METADATA_SCHEMA = {
+    "error_type": str,      # AssertionError, ImportError...
+    "module_tag": str,     # AuthService, Payments...
+    "timestamp": str,     # 2026-04-18T12:00:00Z
+}
+
+
+# === 4. Self-Learning: Auto-add fixes ===
+
+def auto_learn_fix(
+    error: str,
+    fixed_code: str,
+    module: str,
+    attempt: int,
+    passed: bool
+):
+    """Автоматически сохраняет успешные фиксы в базу"""
+    if passed and attempt > 1:
+        # Починили не с первой попытки — ценный опыт!
+        clean_error = parse_traceback(error)
+        rag_add_fix(
+            error_pattern=clean_error,
+            fix_solution=fixed_code,
+            metadata={
+                "module": module,
+                "fix_type": "auto-healed",
+                "timestamp": datetime.now().isoformat()
+            }
+        )
+        print("🧠 System learned a new fix pattern!")
+
+    return None
+```
+
+**Workflow improved:**
+```
+Clean error → ChromaDB search → Hint → Fixer
+                ↓
+        [If fixed on 2+ attempt]
+                ↓
+        Auto-add to ChromaDB (self-learning)
+```
 ```
 
 **Dependencies:**
@@ -499,6 +576,20 @@ pip install chromadb sentence-transformers
 Error → ChromaDB search → Found? → Use solution
                          → Not found → Fixer (LLM)
 ```
+
+---
+
+### Production Ready Stack (2026)
+
+| Component | Technology | Purpose |
+|----------|------------|---------|
+| **Orchestration** | CrewAI | Generator + Critic + Fixer |
+| **Sandbox** | Docker Ephemeral | Изоляция |
+| **State** | Pydantic Models | QAState, Quality Data Plane |
+| **Memory** | ChromaDB (RAG) | Long-term memory |
+| **Telemetry** | parse_traceback | Сжатие контекста |
+
+**Итог:** Self-learning QA platform ✅
 ```
 
 #### 4. QAState (Quality Data Plane)
