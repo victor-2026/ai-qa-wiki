@@ -126,7 +126,7 @@ AI coding tools generate application code, NOT operational infrastructure:
 
 ## Related
 
-- [[wiki/vibe-coding-guide]] — Monitoring for vibe-coded apps
+- [[wiki/vibe-wipe-coding-guide]] — Monitoring for vibe-coded apps
 - [[wiki/quality-characteristics]] — AI-specific quality attributes
 - [[wiki/testing-strategies]] — Testing + observability together
 

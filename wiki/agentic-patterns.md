@@ -156,7 +156,7 @@ When AI generates code team doesn't understand:
 ## Related
 
 - [[wiki/testing-strategies]] — Testing agentic workflows
-- [[wiki/vibe-coding-guide]] — Where agents fit in dev
+- [[wiki/vibe-wipe-coding-guide]] — Where agents fit in dev
 - [[wiki/ai-testing-metrics]] — Measuring agent quality
 
 ## Sources

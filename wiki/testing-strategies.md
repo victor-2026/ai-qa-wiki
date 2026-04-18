@@ -114,7 +114,7 @@ Steps:
 - [[wiki/quality-characteristics]] — AI-specific quality attributes
 - [[wiki/ai-testing-metrics]] — How to measure AI quality
 - [[wiki/agentic-patterns]] — Agentic engineering patterns
-- [[wiki/vibe-coding-guide]] — Vibe coding approaches
+- [[wiki/vibe-wipe-coding-guide]] — Vibe coding approaches
 
 ## Sources
 

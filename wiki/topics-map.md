@@ -27,7 +27,7 @@
 - [[raw/pipeline-triad-pattern]] — Full pattern description
 
 ### 4. Vibe Coding
-- [[wiki/vibe-coding-guide]] — Vibe vs spec-driven, when to use each
+- [[wiki/vibe-wipe-coding-guide]] — Vibe vs spec-driven, when to use each
 - Hidden costs — Security, CI/CD, monitoring gaps
 - [[wiki/monitoring-observability]] — What vibe-coded apps need
 
