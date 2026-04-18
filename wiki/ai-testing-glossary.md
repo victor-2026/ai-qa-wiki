@@ -51,6 +51,16 @@
 **Методы:** BM25, embeddings, semantic search
 **Связан:** [[wiki/swe-tester-framework]]
 
+### DeepEval
+**Термин:** DeepEval
+**Определение:** Open-source фреймворк для оценки качества AI-тестов. Метрики точности и качества генерации.
+**Связан:** [[wiki/mas-testing-framework]]
+
+### Dify
+**Термин:** Dify
+**Определение:** Open-source / Self-hosted платформа. Визуальная сборка агентов без кода.
+**Связан:** [[wiki/mas-testing-framework]]
+
 ### CrewAI
 **Термин:** CrewAI
 **Определение:** Open-source фреймворк для оркестрации AI-агентов. Промышленный стандарт 2026 года.
@@ -135,6 +145,11 @@
 **Определение:** Open-source фреймворк для MAS-тестирования (release Feb 2026). Поддерживает Tree Search RL — агенты пробуют разные варианты пока не пройдут валидацию.
 **Связан:** [[wiki/mas-testing-framework]]
 
+### LangGraph
+**Термин:** LangGraph
+**Определение:** Open-source фреймворк для сложных AI-workflows. Позволяет строить графы: если Критик бракует → возврат к Генератору.
+**Связан:** [[wiki/mas-testing-framework]]
+
 ### LoRA (Low-Rank Adaptation)
 **Термин:** LoRA — Low-Rank Adaptation
 **Определение:** Метод PEFT — обновляется только небольшая часть параметров, основная модель остаётся замороженной.
@@ -180,6 +195,12 @@ npm run test --coverage
 **Определение:** Методы дообучения требующие обновления лишь небольшой части параметров.
 **Examples:** LoRA, Adapters, Prompt Tuning
 **Примечание:** SWE-Tester paper показывает что full fine-tuning лучше PEFT для этой задачи.
+
+### PoC (Proof of Concept)
+**Термин:** PoC — Proof of Concept
+**Определение:** Проверка концепции — пилотный проект для валидации подхода перед полным внедрением.
+**В контексте AI:** 4-фазный план: Инфраструктура → Проектирование → Пилот → Масштабирование
+**Связан:** [[wiki/mas-testing-framework]]
 
 ### POC (Proof of Concept)
 **Термин:** POC — Proof of Concept
