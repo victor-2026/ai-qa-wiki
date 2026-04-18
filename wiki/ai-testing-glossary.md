@@ -170,11 +170,23 @@ npm run test --coverage
 **Examples:** LoRA, Adapters, Prompt Tuning
 **Примечание:** SWE-Tester paper показывает что full fine-tuning лучше PEFT для этой задачи.
 
+### POC (Proof of Concept)
+**Термин:** POC — Proof of Concept
+**Определение:** Проверка концепции — этап перед полноценной разработкой.
+**Статистика:** 54.5% организаций дошли до POC, но 44.1% отключили после запуска
+**Связан:** [[wiki/state-of-digital-quality-2026]]
+
 ### Precision (Prec.)
 **Термин:** Precision — Точность
 **Определение:** Метрика поиска — доля релевантных результатов среди всех найденных.
 **Formula:** TP / (TP + FP)
 **В контексте:** Code Localization — нашли 10 файлов, 7 релевантны = 70% precision
+
+### Quality Gap
+**Термин:** Quality Gap
+**Определение:** Разрыв между скоростью внедрения AI и скоростью его тестирования/контроля.
+**Статистика:** AI внедряется 100%, тестируется ~54%
+**Связан:** [[wiki/state-of-digital-quality-2026]]
 
 ### Prompt Engineering
 **Термин:** Prompt Engineering
@@ -207,6 +219,18 @@ npm run test --coverage
 **Термин:** RAG — Retrieval-Augmented Generation
 **Определение:** Teхнология позволяющая LLM "подсматривать" во внешнюю документацию в реальном времени.
 **Применение:** Graph-RAG для контекста микросервисов
+
+### Red Teaming
+**Термин:** Red Teaming
+**Определение:** Оценка безопасности AI через симуляцию атак. Используется для поиска уязвимостей в LLM и генерации токсичного контента.
+**Подход:** Domain experts (глубокие проверки) + General testers (широкие, хаотичные)
+**Связан:** [[wiki/state-of-digital-quality-2026]]
+
+### RLHF (Reinforcement Learning from Human Feedback)
+**Термин:** RLHF — Reinforcement Learning from Human Feedback
+**Определение:** Обучение с подкреплением на основе отзывов людей. Критически важно для полезности и безопасности AI.
+**Почему важно:** Предотвращает генерацию предвзятого или токсичного контента
+**Связан:** [[wiki/state-of-digital-quality-2026]]
 
 ### Retrieval
 **Термин:** Retrieval
