@@ -224,7 +224,101 @@ result = qa_crew.kickoff()
 
 1. **Начните с "Агента-Критика"** — оставить тесты людям, AI проверяет DoD
 2. **Используйте Docker-песочницы** — изоляция для Executor
-3. **Единый контекст** — Swagger/OpenAPI + Sentry logs = Quality Data Plane
+3. **Единый контекст** — Swagger + Sentry = Quality Data Plane
+
+---
+
+## Practical Implementation Details
+
+### A) Agent Prompt: Детальный промпт для Критика
+
+**System Prompt (Role Definition):**
+> **Роль:** Senior QA Automation & Security Auditor (L6).
+> **Инструкция:** Ты специализируешься на выявлении логических изъянов в автоматизированных тестах.
+>
+> **Чек-лист проверки (Critical Points):**
+> 1. **Логическая корректность:** Проверяет ли ассерт именно то, что заявлено в названии теста?
+> 2. **Антипаттерны:** Ищи `hardcoded` значения, `Thread.sleep()`, отсутствие cleanup.
+> 3. **Мутационный анализ:** Будет ли тест "красным" если изменить логику функции?
+> 4. **Flakiness:** Зависимости от порядка выполнения или внешних ресурсов без моков?
+> 5. **DoD Compliance:** Соответствует корпоративному стандарту.
+>
+> **Формат ответа:** JSON: `{status: PASS/REJECT, score: 0-10, critical_issues: [], suggested_fixes: []}`
+
+---
+
+### B) Extended CrewAI Code
+
+```python
+from crewai import Agent, Task, Crew, Process
+
+# 1. Агенты
+generator = Agent(
+    role='SDET Generator',
+    goal='Написать надежные интеграционные тесты для API на основе {specs}',
+    backstory='Ты лучший в написании сложных моков и асинхронных тестов на Python.',
+    verbose=True,
+    allow_delegation=False
+)
+
+critic = Agent(
+    role='QA Critic',
+    goal='Провести аудит кода тестов и отклонить те с галлюцинациями.',
+    backstory='Твой опыт позволяет видеть скрытые баги.',
+    verbose=True,
+    allow_delegation=True  # Позволяет вернуть задачу на доработку
+)
+
+# 2. Цепочка задач
+task_generate = Task(
+    description='Создать тесты для {module_name}. Использовать Pytest.',
+    expected_output='Файл с тестами .py',
+    agent=generator
+)
+
+task_review = Task(
+    description='Проверить тесты на DoD и отсутствие галлюцинаций.',
+    expected_output='Отчет об аудите.',
+    agent=critic,
+    context=[task_generate]  # Критик видит результат генератора
+)
+
+# 3. Сборка команды
+qa_crew = Crew(
+    agents=[generator, critic],
+    tasks=[task_generate, task_review],
+    process=Process.sequential,
+    full_output=True
+)
+
+# Запуск
+results = qa_crew.kickoff(inputs={'module_name': 'AuthService', 'specs': 'OpenAPI v3'})
+```
+
+---
+
+### C) DoR/DoD Automation
+
+#### Автоматизация DoR (Критерии готовности)
+
+**LLM-Classifier** на этапе создания задачи:
+1. Агент "Анализатор" сканирует описание задачи (Jira/Notion)
+2. Проверка полноты: если нет API endpoints → комментарий *"DoR не пройден"*
+3. Задача возвращается на доработку
+
+#### Автоматизация DoD (Критерии приемки)
+
+**Hybrid Validation** (AI + Инструменты):
+1. **Static Analysis** — ruff/ESLint (синтаксис)
+2. **AI-Review** — Критик проверяет смысл
+3. **Execution Gate** — Docker container, Exit Code 0
+4. **Coverage Check** — порог (напр. 80%), PR блокируется если ниже
+
+---
+
+## С чего начать?
+
+> **Лучше начать с автоматизации DoD.** Даже если тесты пишут люди, ИИ-Критик в CI/CD будет отсеивать "мусорные" проверки.
 
 ---
 
