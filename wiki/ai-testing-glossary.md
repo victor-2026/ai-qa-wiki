@@ -178,6 +178,12 @@ npm run test --coverage
 **Определение:** Среднее время восстановления — время необходимое для починки упавшего теста.
 **В контексте AI:** Скорость работы AI-агента по исправлению тестов
 
+### MAS-Pipeline
+**Термин:** MAS-Pipeline
+**Определение:** Multi-Agent System для тестирования — архитектура с несколькими агентами (Generator, Critic, Fixer, Executor).
+**Contrast:** [[wiki/mas-vs-swe-comparison]]
+**Связан:** [[wiki/mas-testing-framework]]
+
 ### Mutation Score
 **Термин:** Mutation Score
 **Определение:** Метрика качества тестов — способность тесто�� находить реальные баги (мутации) в коде.

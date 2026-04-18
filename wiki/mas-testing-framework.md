@@ -115,6 +115,7 @@ Conceptual: после генерации проверяется:
 
 ## Related Wiki Topics
 
+- [[wiki/mas-vs-swe-comparison]] — MAS vs SWE-Tester comparison
 - [[wiki/agentic-patterns]] — Pipeline Triad паттерн
 - [[wiki/swe-tester-framework]] — Подтверждённый фреймворк
 - [[wiki/ai-testing-glossary]] — Термины и определения

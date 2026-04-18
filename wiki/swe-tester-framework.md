@@ -191,6 +191,7 @@ Methods like **LoRA** для быстрого дообучения:
 
 ## Related Wiki Topics
 
+- [[wiki/mas-vs-swe-comparison]] — MAS vs SWE-Tester comparison
 - [[wiki/agentic-patterns]] — Agentic engineering (different approach!)
 - [[wiki/ai-testing-metrics]] — Metrics like S, ΔC
 - [[wiki/testing-stability]] — Test execution quality
