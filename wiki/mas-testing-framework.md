@@ -316,6 +316,65 @@ results = qa_crew.kickoff(inputs={'module_name': 'AuthService', 'specs': 'OpenAP
 
 ---
 
+### D) Docker Sandboxing
+
+Критично: AI не должен иметь доступ к боевой БД.
+
+#### Dockerfile для AI-тестов
+
+```dockerfile
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Установка зависимостей
+RUN pip install --no-cache-dir \
+    pytest \
+    pytest-asyncio \
+    ruff \
+    requests-mock
+
+# Копирование тестов (только чтение)
+COPY tests/ ./tests/
+
+# Запуск через ruff + pytest
+CMD ["sh", "-c", "ruff check ./tests/ && pytest ./tests/"]
+```
+
+#### docker-compose для изоляции
+
+```yaml
+services:
+  ai-tester:
+    build: ./ai-tester
+    volumes:
+      - ./tests:/app/tests:ro  # только чтение
+    environment:
+      - API_URL=http://mock-server:8000
+      - DB_CONNECTION=none  # явно отключено
+
+  mock-server:
+    image: wiremock/wiremock
+    ports:
+      - "8000:8080"
+```
+
+#### Workflow
+
+```
+Developer PR → GitHub Actions
+    ↓
+Build Docker (ai-tester)
+    ↓
+Run: ruff check → pytest → Coverage Check
+    ↓
+Artifacts: test-results.json
+    ↓
+If ALL passed → Merge
+```
+
+---
+
 ## С чего начать?
 
 > **Лучше начать с автоматизации DoD.** Даже если тесты пишут люди, ИИ-Критик в CI/CD будет отсеивать "мусорные" проверки.
