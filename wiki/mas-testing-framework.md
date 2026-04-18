@@ -333,9 +333,7 @@ def parse_traceback(stderr: str) -> str:
 
 ```python
 def rag_lookup(error: str) -> str | None:
-    """Поиск похожей ошибки в базе знаний"""
-    # Упрощено: простое сопоставление строк
-    # В продакшн: используй embeddings (chromadb, qdrant)
+    """Поиск похожей ошибки в базе знаний (упрощено)"""
     known_fixes = {
         "ConnectionError": "Используй mock или @pytest.mark.flaky",
         "database is locked": "Добавь pytest.mark.xfix(strict=False)",
@@ -344,6 +342,85 @@ def rag_lookup(error: str) -> str | None:
         if pattern.lower() in error.lower():
             return fix
     return None
+
+
+#### ChromaDB Integration (Lightweight)
+
+```python
+import chromadb
+from chromadb.config import Settings
+from sentence_transformers import SentenceTransformer
+
+# 1. Инициализация
+client = chromadb.Client(Settings(
+    persist_directory="./qa-rag",
+    anonymized_telemetry=False
+))
+
+# 2. Коллекция
+collection = client.get_or_create_collection(
+    name="qa-fixes",
+    metadata={"description": "Known fixes for test errors"}
+)
+
+# 3. Модель эмбеддингов
+embedder = SentenceTransformer('all-MiniLM-L6-v2')
+
+
+def rag_add_fix(error_pattern: str, fix_solution: str):
+    """Добавить известную ошибку и решение"""
+    embedding = embedder.encode(error_pattern)
+    collection.add(
+        ids=[f"fix_{collection.count()}"],
+        embeddings=[embedding.tolist()],
+        documents=[f"Error: {error_pattern}\nFix: {fix_solution}"],
+        metadatas=[{"solution": fix_solution}]
+    )
+
+
+def rag_lookup_chroma(error: str, top_k: int = 2) -> list:
+    """Поиск похожих ошибок в ChromaDB"""
+    embedding = embedder.encode(error)
+    results = collection.query(
+        query_embeddings=[embedding.tolist()],
+        n_results=top_k
+    )
+    return [
+        doc["solution"]
+        for doc in results["metadatas"]
+        if doc.get("solution")
+    ]
+
+
+# 4. Использование в Fixer
+def smart_fixer(error: str, code: str, specs: str) -> str:
+    # Сначала RAG lookup
+    fixes = rag_lookup_chroma(error)
+
+    if fixes:
+        context = f"Known fixes: {fixes[0]}"
+    else:
+        context = ""
+
+    # Если не найден — вызываем Fixer с контекстом
+    return fixer_prompt.format(
+        error=error,
+        code=code,
+        specs=specs,
+        context=context
+    )
+```
+
+**Dependencies:**
+```bash
+pip install chromadb sentence-transformers
+```
+
+**Workflow:**
+```
+Error → ChromaDB search → Found? → Use solution
+                         → Not found → Fixer (LLM)
+```
 ```
 
 #### 4. QAState (Quality Data Plane)
