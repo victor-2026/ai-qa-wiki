@@ -247,6 +247,12 @@ npm run test --coverage
 **Formula:** TP / (TP + FN)
 **В контексте:** Есть 10 релевантных файлов, нашли 7 = 70% recall
 
+### Quality Data Plane
+**Термин:** Quality Data Plane
+**Определение:** Общий слой состояний (Shared JSON state) между агентами. Позволяет восстановиться после падения скрипта.
+**Example:** `/tmp/qa-state.json`
+**Связан:** [[wiki/mas-testing-framework]]
+
 ### RAG (Retrieval-Augmented Generation)
 **Термин:** RAG — Retrieval-Augmented Generation
 **Определение:** Teхнология позволяющая LLM "подсматривать" во внешнюю документацию в реальном времени.

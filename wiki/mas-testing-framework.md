@@ -266,6 +266,107 @@ Generator → Docker → [passed?] → Критик
 
 ---
 
+### I) Log Passing Strategy
+
+Ключевой элемент для экономии токенов в 2026 году.
+
+#### 1. Structured Output (Pydantic)
+
+```python
+from pydantic import BaseModel
+from typing import List
+
+class TestAnalysis(BaseModel):
+    code: str
+    potential_flakiness: bool
+    missing_edge_cases: List[str]
+    suggested_improvements: str
+
+# Задача выдает структурированный объект
+task_generate = Task(
+    description='...',
+    output_json=TestAnalysis,  # Pydantic model
+    agent=generator
+)
+# task_review.context[0].output — объект, не строка
+```
+
+#### 2. Log Truncation для Fixer
+
+Передавать *весь* stderr дорого и зашумляет контекст.
+
+```python
+import re
+
+def parse_traceback(stderr: str) -> str:
+    """Вырезает только нужный блок из логов"""
+    # Ищем traceback между маркерами
+    match = re.search(
+        r'(Traceback \(most recent call last\):.*?)\n(\w+\.\w+)',
+        stderr,
+        re.DOTALL
+    )
+    if match:
+        return match.group(1) + "\n" + match.group(2)
+    # Fallback: первые 5 строк
+    return "\n".join(stderr.split("\n")[:5])
+```
+
+#### 3. Shared State (Quality Data Plane)
+
+```json
+{
+  "module": "AuthService",
+  "current_iteration": 2,
+  "history": [
+    {
+      "attempt": 1,
+      "status": "failed",
+      "error_type": "ImportError",
+      "ai_fix_applied": false
+    }
+  ],
+  "context_files": ["src/auth.py", "specs/openapi.json"]
+}
+```
+
+#### 4. Improved Feedback Loop
+
+```python
+def autonomous_healing_loop(module: str, specs: str, max_retries: int = 3) -> dict:
+    current_code = generator_task.run()
+
+    for attempt in range(max_retries):
+        report = run_in_sandbox(current_code)
+
+        if report["passed"]:
+            return critic_task.run(context={
+                "code": current_code,
+                "logs": report["stdout"]
+            })
+
+        # Log truncation
+        short_error = parse_traceback(report["stderr"])
+
+        current_code = fixer.run_task(
+            description=f"Fix: {short_error}",
+            original_code=current_code,
+            specs=specs
+        )
+
+    return {"status": "FAILED", "reason": "Max retries reached"}
+```
+
+---
+
+### Итоговый чек-лист улучшений
+
+- [ ] **Structured JSON:** Pydantic модели в CrewAI задачах
+- [ ] **Log Clean-up:** Регулярка чистит логи от системных путей
+- [ ] **DoR/DoD:** Валидатор на входе — если specs пустые, Fixer будет галлюцинировать
+
+---
+
 ## Practical Implementation Details
 
 ### A) Agent Prompt: Детальный промпт для Критика
