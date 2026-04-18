@@ -1,6 +1,6 @@
-# Vibe Coding Guide
+# Vibe Wipe Coding Guide
 
-**Last Updated:** 2025-04-15
+**Last Updated:** 2026-04-18
 **Sources:** raw/vibe-coding-*, raw/hidden-costs-vibe-coded-apps, raw/spec-driven, raw/pipeline-triad
 
 ---
@@ -106,3 +106,58 @@ Use vibe coding for prototyping. Spec-driven for production.
 - raw/hidden-costs-vibe-coded-apps.md
 - raw/pipeline-triad-pattern.md
 - raw/comprehension-debt.md
+
+---
+
+## Wipe-Coding (Flow-State Coding)
+
+### What is Wipe-Coding
+
+Wipe-coding (или Flow-state coding) — это стиль разработки, при котором программист перестает писать код «руками» построчно.
+
+**Key idea:** AI «стирает» старые абстракции и «накатывает» (wipe) новые слои кода сразу во многих файлах.
+
+### Autonomous AI Agents
+
+Появление автономных AI-агентов (Windsurf, Cursor, Claude Code, Bolt) знаменует переход от «чата с подсказками» к полноценному AI-напарнику с «руками» в системе:
+
+| Traditional AI | Autonomous Agent |
+|----------------|------------------|
+| Пишет текст кода | Видит весь контекст проекта |
+| Предлагает изменения | Индексирует все файлы |
+| Требует копирования | Имеет доступ к терминалу |
+| | Сам запускает npm install, pytest |
+| | Самостоятельно исправляет ошибки |
+
+### How It Works
+
+1. **Give high-level task** — e.g., "Add user profile page with avatar upload"
+2. **AI executes** — Creates/edits files across the project
+3. **You review** — Approve (Accept) or reject changes
+4. **Loop** — AI iterates until tests pass
+
+### Buzzhive Sandbox Example
+
+В проекте Buzzhive Sandbox уже использовались элементы wipe-coding:
+- Параллельные агенты для разведки API
+- Генерация документации
+- Ускорение процесса в **3 раза**
+
+### Economics
+
+- ~1 hour human time per task
+- ~$6-12 API cost
+
+### When to Use
+
+- Rapid prototyping
+- Feature exploration
+- Getting unstuck
+- MVP development
+
+### Best Practices for Wipe-Coding
+
+1. **Set clear boundaries** — What can/cannot be changed
+2. **Review every change** — Don't let AI run wild
+3. **Test-driven** — Let AI fix until tests pass
+4. **Keep artifacts** — Document decisions for future
