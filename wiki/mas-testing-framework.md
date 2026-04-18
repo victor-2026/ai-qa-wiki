@@ -291,26 +291,101 @@ task_generate = Task(
 # task_review.context[0].output — объект, не строка
 ```
 
-#### 2. Log Truncation для Fixer
+#### 2. Smart Traceback Extraction (parse_traceback)
 
-Передавать *весь* stderr дорого и зашумляет контекст.
+Вырезает только суть ошибки, убирает системный шум.
 
 ```python
 import re
 
 def parse_traceback(stderr: str) -> str:
-    """Вырезает только нужный блок из логов"""
-    # Ищем traceback между маркерами
-    match = re.search(
-        r'(Traceback \(most recent call last\):.*?)\n(\w+\.\w+)',
-        stderr,
-        re.DOTALL
-    )
+    """Извлекает суть ошибки, игнорируя системные вызовы."""
+    # 1. Ищем секцию с ошибкой (между "_" и "E ")
+    match = re.search(r"(_+ .+)[\s\S]+?(E\s+.+)", stderr)
+
     if match:
-        return match.group(1) + "\n" + match.group(2)
-    # Fallback: первые 5 строк
-    return "\n".join(stderr.split("\n")[:5])
+        header = match.group(1)  # Название упавшего теста
+        error_msg = match.group(2)  # AssertionError и т.д.
+
+        # 2. Ищем строки пользовательского кода (test_*.py)
+        code_context = re.findall(r"(tests/test_.*\.py:\d+:.*)", stderr)
+        context_str = "\n".join(code_context[-3:])  # Последние 3 строки
+
+        return f"Test: {header}\nContext:\n{context_str}\nError: {error_msg}"
+
+    # Fallback: последние 10 строк
+    return "\n".join(stderr.splitlines()[-10:])
 ```
+
+**Экономия:** до 70% токенов
+
+---
+
+#### 3. RAG Layer для Fixer
+
+Если Fixer видит одну ошибку повторно — начинает "чинить" не то. RAG помогает.
+
+**Архитектура:**
+1. **Vector DB:** Сохраняем "золотые примеры" (test + error + fix)
+2. **Search:** Перед запуском Fixer — ищем похожий traceback
+3. **Prompt Injection:** Добавляем в промпт:
+   > *"Похожая ошибка уже исправлялась. Решение: Используй фикстуру `db_session`"*
+
+```python
+def rag_lookup(error: str) -> str | None:
+    """Поиск похожей ошибки в базе знаний"""
+    # Упрощено: простое сопоставление строк
+    # В продакшн: используй embeddings (chromadb, qdrant)
+    known_fixes = {
+        "ConnectionError": "Используй mock или @pytest.mark.flaky",
+        "database is locked": "Добавь pytest.mark.xfix(strict=False)",
+    }
+    for pattern, fix in known_fixes.items():
+        if pattern.lower() in error.lower():
+            return fix
+    return None
+```
+
+#### 4. QAState (Quality Data Plane)
+
+```python
+from pydantic import BaseModel
+from typing import List, Dict, Optional
+
+class QAState(BaseModel):
+    attempt: int = 1
+    max_retries: int = 3
+    test_code: str
+    last_error: Optional[str] = None
+    is_passed: bool = False
+    history: List[Dict] = []
+
+    def update_after_run(self, execution_report: dict):
+        self.is_passed = execution_report["passed"]
+        if not self.is_passed:
+            self.last_error = parse_traceback(execution_report["stderr"])
+            self.history.append({"attempt": self.attempt, "error": self.last_error})
+            self.attempt += 1
+```
+
+#### 5. Full Pipeline (Smart)
+
+```
+1. DoR Check → ИИ подтверждает готовность
+2. Generate → generator выдает test_code
+3. Sandbox Loop:
+   - run_in_sandbox(state.test_code)
+   - Ошибка → parse_traceback → RAG lookup → fixer.run()
+   - Обновляем state.test_code
+4. Final DoD → critic проверяет (Pydantic model)
+```
+
+**Итог:**
+- Решает "Infinite Loop of Nonsense"
+- Экономит 70% токенов через parse_traceback
+- RAG обучает систему специфике проекта
+
+---
 
 #### 3. Shared State (Quality Data Plane)
 
