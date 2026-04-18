@@ -104,6 +104,7 @@ This gives: deep bug understanding + hard quality control
 - [[wiki/mas-testing-framework]] — Full MAS-Pipeline documentation
 - [[wiki/swe-tester-framework]] — SWE-Tester framework
 - [[wiki/ai-testing-glossary]] — Metrics (Mutation Score, Pass@K)
+- [[wiki/three-way-comparison]] — MAS vs SWE vs Applause
 
 ---
 

@@ -213,6 +213,8 @@
 
 ## Related Wiki Topics
 
+- [[wiki/mas-vs-swe-comparison]] — MAS vs SWE comparison
+- [[wiki/three-way-comparison]] — Full 3-way comparison
 - [[wiki/ai-testing-glossary]] — термины: RLHF, Model Jury, Red Teaming
 - [[wiki/swe-tester-framework]] — автоматическая генерация тестов
 - [[wiki/ai-testing-metrics]] — метрики оценки AI
