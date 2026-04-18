@@ -50,7 +50,9 @@ Three fundamentally different approaches in different planes:
 
 ## Approach 3: Applause Framework (2025)
 
-**Philosophy:** "Total Quality Orchestration" — AI + Human-in-the-loop.
+**Philosophy:** "Total Quality Orchestration" — AI + Human-in-the-loop (HITL).
+
+**Type:** Proprietary SaaS Platform (paid service). Not open-source code.
 
 | Component | Description |
 |-----------|-------------|
@@ -59,10 +61,18 @@ Three fundamentally different approaches in different planes:
 | **Real-world Device Testing** | AI manages farms of real mobile devices |
 
 | Pros | Cons |
-|-----|------|
+|-------|------|
 | Real user scenario | Not technical |
 | UX/Business focus | Expensive (crowd) |
 | Device variety | Slower feedback |
+
+**When to use:**
+- Only for B2C products with millions of users
+- When bugs on specific devices (China phones, roaming) cost money
+
+**Not recommended for:**
+- Small teams (3-5 microservices, 2 QAs)
+- Unit/Integration level (use MAS instead)
 
 **Best for:** E2E, UX, real devices, localization.
 
