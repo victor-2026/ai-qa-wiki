@@ -105,6 +105,52 @@ This gives: deep bug understanding + hard quality control
 - [[wiki/swe-tester-framework]] — SWE-Tester framework
 - [[wiki/ai-testing-glossary]] — Metrics (Mutation Score, Pass@K)
 
+---
+
+## Differential Testing: Mutation Testing
+
+Most accurate way to compare: **Mutation Testing**.
+
+### Methodology
+
+1. Take stable code
+2. Inject micro-errors (mutants): change `>` to `<`, `true` to `false`, remove function calls
+3. Run tests from MAS and SWE-Tester
+4. Calculate Mutation Score
+
+**Formula:**
+$$MS = \left( \frac{D}{M} \right) \times 100\%$$
+
+Where $D$ = killed mutants (test caught the error), $M$ = total mutants.
+
+---
+
+## Qualitative Parameters
+
+Rate each from 1-10:
+
+| Parameter | MAS-Pipeline | SWE-Tester | Notes |
+|-----------|-------------|------------|-------|
+| **Readability** | High (Critic enforces style) | Medium ("spaghetti code" possible) |
+| **Stability** | High (Docker + self-healing) | Lower (reproduction only) |
+| **Generalization** | High (edge cases covered) | Lower (specific to issue) |
+| **Maintainability** | High (Fixer adapts) | Low ("expires" quickly) |
+
+---
+
+## Benchmark Plan
+
+1. **Prepare:** Take 10 tasks from backlog (or SWE-bench)
+2. **Run MAS:** Through `main.py`. Record: tokens, time, Mutation Score
+3. **Run SWE-TESTER:** Same setup
+4. **Blind Review:** Ask colleague (or another LLM) to evaluate
+
+**Summary:**
+- **SWE-TESTER** = "Sniper" for reproducing existing bugs
+- **MAS-Pipeline** = Full "QA Department" with maintainability
+
+For long-term projects, MAS wins on **maintainability**.
+
 ## Sources
 
 - Gemini analysis
