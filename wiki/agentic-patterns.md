@@ -155,7 +155,7 @@ When AI generates code team doesn't understand:
 
 ## Related
 
-- [[wiki/mas-testing-framework]] — MAS-Testing Framework (новое!)
+- [[wiki/swe-tester-framework]] — SWE-Tester (от confirmed!)
 - [[wiki/testing-strategies]] — Testing agentic workflows
 - [[wiki/vibe-wipe-coding-guide]] — Where agents fit in dev
 - [[wiki/ai-testing-metrics]] — Measuring agent quality
@@ -166,5 +166,4 @@ When AI generates code team doesn't understand:
 - raw/pipeline-triad-pattern.md
 - raw/infinite-midwit.md
 - raw/comprehension-debt.md
-- arxiv 2603.24160v1 (MAS-Testing)
-- arxiv 2603.23448v1 (LLM Agents Benchmark)
+- arxiv 2603.24160v1 (SWE-Tester paper)

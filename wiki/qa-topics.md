@@ -14,11 +14,11 @@
 - Synthetic data generation
 
 ### Agentic Development
-- [[wiki/mas-testing-framework]] — Multi-Agent System для QA
+- [[wiki/swe-tester-framework]] — SWE-Tester (confirmed!)
+- [[wiki/agentic-patterns]] — Agentic engineering
 - Autonomous test agents
 - Multi-agent pipelines
 - Self-healing tests
-- Agent orchestration patterns
 
 ### Low-code/No-code
 - codeless automation
