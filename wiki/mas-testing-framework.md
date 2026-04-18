@@ -579,6 +579,152 @@ Error → ChromaDB search → Found? → Use solution
 
 ---
 
+### J) Final main.py — Complete Autonomous MAS-Testing
+
+```python
+import os
+import subprocess
+import json
+import re
+from crewai import Agent, Task, Crew, Process
+from pydantic import BaseModel
+from typing import List, Optional
+
+# --- 1. Конфигурация и Паттерны ---
+IMAGE_NAME = "ai-tester-sandbox"
+PATTERNS = {
+    "ConnectionError": {
+        "pattern": ["ConnectionError", "ECONNREFUSED", "Failed to establish a new connection"],
+        "fix": "Убедись, что все внешние API замоканы через `requests_mock` или `responses`."
+    },
+    "DatabaseLocked": {
+        "pattern": ["database is locked", "SQLITE_BUSY"],
+        "fix": "Используй фикстуру `db_session` с rollback."
+    },
+    "ImportError": {
+        "pattern": ["ModuleNotFoundError", "ImportError"],
+        "fix": "Проверь `sys.path`. Все тесты импортируют от `/home/ai_tester/src`."
+    }
+}
+
+# --- 2. Умные утилиты (Data Plane) ---
+def parse_traceback(stderr: str) -> str:
+    """Извлекает суть ошибки"""
+    match = re.search(r"(E\s+.+)", stderr)
+    if match:
+        error_msg = match.group(1)
+        code_context = re.findall(r"(test_.*\.py:\d+:.*)", stderr)
+        return f"Context: {' | '.join(code_context[-2:])}\nError: {error_msg}"
+    return "\n".join(stderr.splitlines()[-10:])
+
+def get_rag_hint(error_text: str) -> str:
+    """Поиск по Simple JSON Patterns"""
+    for name, data in PATTERNS.items():
+        if any(p in error_text for p in data["pattern"]):
+            return f"\n[Known Issue: {name}]: {data['fix']}"
+    return ""
+
+# --- 3. Агенты (The Crew) ---
+generator = Agent(
+    role='SDET Generator',
+    goal='Написать тесты на Pytest для {module}',
+    backstory='Ты эксперт по архитектуре и покрытию кода.',
+    allow_delegation=False
+)
+
+fixer = Agent(
+    role='SDET Debugger',
+    goal='Исправить код теста на основе логов',
+    backstory='Мастер чтения traceback и исправления галлюцинаций.',
+    allow_delegation=False
+)
+
+# --- 4. Sandbox ---
+def run_in_sandbox(test_code: str, module_name: str) -> dict:
+    test_dir = "./generated_tests"
+    os.makedirs(test_dir, exist_ok=True)
+    file_path = os.path.join(test_dir, f"test_{module_name.lower()}.py")
+
+    with open(file_path, "w") as f:
+        f.write(test_code)
+
+    print(f"🧪 Running {file_path} in Docker...")
+    result = subprocess.run([
+        "docker", "run", "--rm",
+        "-e", "PYTEST_ADDOPTS=-p no:cacheprovider",
+        "-v", f"{os.path.abspath(file_path)}:/home/ai_tester/tests/test_ai.py:ro",
+        IMAGE_NAME
+    ], capture_output=True, text=True)
+
+    return {
+        "passed": result.returncode == 0,
+        "stdout": result.stdout,
+        "stderr": result.stderr,
+        "code": test_code
+    }
+
+# --- 5. Main Pipeline ---
+def run_autonomous_qa(module: str, specs: str):
+    # Step 1: Generate
+    print(f"🚀 Generating tests for {module}...")
+    gen_task = Task(
+        description=f"Напиши Pytest код для {module}. Spec: {specs}",
+        agent=generator,
+        expected_output="Python код теста"
+    )
+    crew = Crew(agents=[generator], tasks=[gen_task])
+    current_code = crew.kickoff().raw
+
+    # Step 2: Self-Healing Loop
+    for attempt in range(1, 4):
+        report = run_in_sandbox(current_code, module)
+
+        if report["passed"]:
+            print(f"✅ Success on attempt {attempt}!")
+            return report["code"]
+
+        print(f"❌ Attempt {attempt} failed. Healing...")
+        error_summary = parse_traceback(report["stderr"])
+        hint = get_rag_hint(error_summary)
+
+        # Step 3: Fix
+        fix_task = Task(
+            description=f"Исправь. Ошибка: {error_summary}. {hint}\nSpec: {specs}",
+            agent=fixer,
+            expected_output="Исправленный Python код"
+        )
+        fix_crew = Crew(agents=[fixer], tasks=[fix_task])
+        current_code = fix_crew.kickoff().raw
+
+    print("⚠️ Max retries reached. Manual review required.")
+    return None
+
+if __name__ == "__main__":
+    module = "AuthService"
+    specs = "POST /v1/login: 200, 401. Use pytest-mock."
+
+    final_test = run_autonomous_qa(module, specs)
+    if final_test:
+        print("--- FINAL CODE ---\n", final_test)
+```
+
+**How to run:**
+```bash
+# 1. Build Docker
+docker build -t ai-tester-sandbox .
+
+# 2. Run
+python main.py
+```
+
+**Features:**
+- Устойчивость к ошибкам (self-healing)
+- Экономия токенов (parse_traceback)
+- JSON knowledge base (PATTERNS)
+- Docker isolation
+
+---
+
 ### Production Ready Stack (2026)
 
 | Component | Technology | Purpose |
