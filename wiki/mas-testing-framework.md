@@ -453,18 +453,26 @@ Gatekeeper Agent (DoR check)
 
 ---
 
-### G) Python Script: CrewAI + Docker Integration
+### G) Python Script: CrewAI + Docker Integration (Improved)
 
 ```python
 import subprocess
 import json
 import os
 from crewai import Agent, Task, Crew, Process
+from pydantic import BaseModel
 
 # Конфигурация
 IMAGE_NAME = "ai-tester-sandbox"
 CONTAINER_NAME = "qa-ephemeral-runner"
-RESULTS_FILE = "/tmp/qa-results.json"
+GENERATED_DIR = "./generated_tests"
+
+
+class QAResult(BaseModel):
+    exit_code: int
+    stdout: str
+    stderr: str
+    passed: bool
 
 
 def build_sandbox():
@@ -476,27 +484,39 @@ def build_sandbox():
     )
 
 
-def run_in_sandbox(tests_path: str) -> dict:
-    """Запуск тестов в изолированном контейнере"""
-    container_id = None
-    try:
-        # Запуск ephemeral контейнера
-        result = subprocess.run([
-            "docker", "run", "--rm",
-            "--name", CONTAINER_NAME,
-            "-v", f"{os.path.abspath(tests_path)}:/home/ai_tester/tests:ro",
-            IMAGE_NAME
-        ], capture_output=True, text=True)
+def save_generated_code(module: str, code: str) -> str:
+    """КРИТИЧЕСКАЯ ПРАВКА: Сохранение кода на диск"""
+    os.makedirs(GENERATED_DIR, exist_ok=True)
+    file_path = f"{GENERATED_DIR}/test_{module.lower()}.py"
 
-        # Парсинг результатов
-        return {
-            "exit_code": result.returncode,
-            "stdout": result.stdout,
-            "stderr": result.stderr,
-            "passed": result.returncode == 0
-        }
-    except Exception as e:
-        return {"error": str(e), "passed": False}
+    with open(file_path, "w") as f:
+        f.write(code)
+
+    print(f"💾 Saved: {file_path}")
+    return file_path
+
+
+def run_in_sandbox(test_file: str) -> dict:
+    """Запуск тестов в изолированном контейнере с ограничениями"""
+    # Читаем test_file path для docker
+    abs_path = os.path.abspath(test_file)
+
+    # Docker с resource limits + no cache provider
+    result = subprocess.run([
+        "docker", "run", "--rm",
+        "--cpus=0.5",              # Ограничение CPU
+        "--memory=512m",           # Ограничение RAM
+        "-e", "PYTEST_ADDOPTS=-p no:cacheprovider",  # Не писать кэш
+        "-v", f"{abs_path}:/home/ai_tester/tests/test_ai.py:ro",
+        IMAGE_NAME
+    ], capture_output=True, text=True, timeout=120)
+
+    return {
+        "exit_code": result.returncode,
+        "stdout": result.stdout,
+        "stderr": result.stderr,
+        "passed": result.returncode == 0
+    }
 
 
 # Агенты CrewAI
@@ -507,16 +527,24 @@ generator = Agent(
     allow_delegation=False
 )
 
+fixer = Agent(
+    role='Test Fixer',
+    goal='Починить упавшие тесты на основе traceback',
+    backstory='Исправляет ошибки в тестах',
+    allow_delegation=True
+)
+
 critic = Agent(
     role='QA Critic',
-    goal='Отклонить тесты с галлюцинациями',
+    goal='Отклонить тесты с галлюцинациями. Output: JSON',
     backstory='Находит скрытые баги',
+    verbose=True,
     allow_delegation=True
 )
 
 
 def run_qa_pipeline(module: str, specs: str) -> dict:
-    """Основной пайплайн"""
+    """Основной пайплайн с Retry-циклом"""
     # 1. Генерация
     task_gen = Task(
         description=f'Создать тесты для {module}. Spec: {specs}',
@@ -524,10 +552,10 @@ def run_qa_pipeline(module: str, specs: str) -> dict:
         agent=generator
     )
 
-    # 2. Review
     task_review = Task(
-        description='Проверить DoD compliance',
-        expected_output='audit.json',
+        description='Проверить DoD compliance. Output: JSON',
+        expected_output='{"status": "PASS/REJECT", "score": 0-10}',
+        output_json=True,  # Pydantic-style JSON
         agent=critic,
         context=[task_gen]
     )
@@ -539,18 +567,45 @@ def run_qa_pipeline(module: str, specs: str) -> dict:
         full_output=True
     )
 
-    # Запуск
+    # Запуск CrewAI
     result = crew.kickoff()
-    generated_tests = f"./generated_tests/{module}.py"
 
-    # 3. Execution в Docker
-    execution_result = run_in_sandbox(generated_tests)
+    # КРИТИЧЕСКАЯ ПРАВКА: Извлечение и сохранение кода
+    test_code = result.raw  # или result.tasks[0].output
+    file_path = save_generated_code(module, test_code)
+
+    # 2. Execution в Docker
+    execution_result = run_in_sandbox(file_path)
+
+    # 3. ITERATION: Feedback Loop (2026 concept)
+    max_retries = 2
+    for attempt in range(max_retries):
+        if execution_result["passed"]:
+            break
+
+        print(f"🔄 Test failed (attempt {attempt + 1}). Sending to Fixer...")
+
+        # Отправляем traceback агенту-Fixer
+        fix_task = Task(
+            description=f'Исправь тест на основе: {execution_result["stderr"]}',
+            expected_output='исправленный test_*.py',
+            agent=fixer
+        )
+
+        # Повторный запуск
+        fix_crew = Crew(agents=[fixer], tasks=[fix_task])
+        fixed_result = fix_crew.kickoff()
+
+        # Перезапись
+        file_path = save_generated_code(module, fixed_result.raw)
+        execution_result = run_in_sandbox(file_path)
 
     # 4. Итог
     return {
-        "crew_result": result,
+        "crew_result": result.raw,
         "execution": execution_result,
-        "ready_for_pr": execution_result.get("passed", False)
+        "ready_for_pr": execution_result.get("passed", False),
+        "attempts": attempt + 1
     }
 
 
@@ -562,6 +617,14 @@ if __name__ == "__main__":
     )
     print(json.dumps(result, indent=2))
 ```
+
+**Ключевые улучшения:**
+1. `save_generated_code()` — явно сохраняет на диск
+2. `output_json=True` — строгий JSON от Критика
+3. Resource limits: `--cpus=0.5 --memory=512m`
+4. `PYTEST_ADDOPTS=-p no:cacheprovider` — избегает записи в RO
+5. **Retry loop** — Feedback Loop概念 (2026)
+6. Pydantic `BaseModel` для типизации
 
 ---
 
