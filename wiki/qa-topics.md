@@ -15,6 +15,7 @@
 
 ### Agentic Development
 - [[wiki/swe-tester-framework]] — SWE-Tester (confirmed!)
+- [[wiki/mas-testing-framework]] — MAS-Testing (conceptual)
 - [[wiki/agentic-patterns]] — Agentic engineering
 - Autonomous test agents
 - Multi-agent pipelines
