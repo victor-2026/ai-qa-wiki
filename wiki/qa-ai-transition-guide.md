@@ -157,6 +157,29 @@ assert "testing" in a1.lower() and "testing" in a2.lower()
 2. **Multiple test cases** — can generate automatically (random names, params)
 3. **For complex systems** — where it's hard to predict exact result
 
+---
+
+**DeepSeek-R1:14b answer (via ZeroTier VPN):**
+> "Metamorphic testing is a software testing technique that leverages the transformation of existing test cases to generate new ones, ensuring consistent program behavior across all variations."
+> 
+> **Key Concepts:**
+> 1. **Test Cases as Inputs**: Instead of static inputs, metamorphic testing treats test cases themselves as dynamic sources for generating additional tests.
+> 2. **Transformation Functions**: Modify original test cases (negating booleans, swapping parameters, encoding data).
+> 3. **Consistent Behavior**: Program must behave identically before/after valid transformation.
+> 4. **Black-Box Testing**: Focuses on inputs/outputs without internal code inspection.
+> 
+> **Benefits:** Enhanced coverage, efficiency (automated generation), fault detection.
+> **Use Cases:** Ideal for systems with symmetries/commutative properties (math operations, data parsing).
+> 
+> **Conclusion:** Powerful for enhancing coverage through dynamic generation. Effectiveness depends on thoroughness of transformation functions and understanding of system under test.
+
+**Comparison:**
+| Aspect | qwen2.5:3b | deepseek-r1:14b |
+|--------|--------------|-----------------|
+| **Style** | Concise, practical | Structured, academic |
+| **Focus** | Relationship-based | Transformation functions |
+| **Best for** | Quick understanding | Detailed study |
+
 **Apply to:**
 - Wiki Q&A: Consistent answers across phrasings
 - Red teaming: Injected prompts should still follow rubric
