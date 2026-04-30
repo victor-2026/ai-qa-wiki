@@ -159,6 +159,39 @@ assert "testing" in a1.lower() and "testing" in a2.lower()
 
 ---
 
+**Ответ deepseek-r1:14b (английский, подробный):**
+> "Metamorphic testing is a software testing technique that leverages the transformation of existing test cases to generate new ones, ensuring consistent program behavior across all variations."
+> 
+> **Key Concepts:**
+> 1. **Test Cases as Inputs**: Instead of static inputs, metamorphic testing treats test cases as dynamic sources.
+> 2. **Transformation Functions**: Modify original test cases (negating booleans, swapping parameters).
+> 3. **Consistent Behavior**: Program must behave identically before/after valid transformation.
+> 
+> **Benefits:** Enhanced coverage, efficiency (automated generation), fault detection.
+> **Use Cases:** Ideal for systems with symmetries/commutative properties (math operations, data parsing).
+
+---
+
+**Русские ответы (deepseek-r1:14b через ZeroTier VPN):**
+
+**Вариант 1 (через "Хм, мне интересно..."):**
+> "Метаморфное тестирование — это метод проверки систем, при котором данные input/output преобразуются между различными системами или состояниями. Основная цель — убедиться в правильности обработки и сохранности данных при изменении формата, структуры или переходе из одного компонента системы в другой."
+
+**Ключевые особенности:**
+1. **Преобразование данных**: Проверка корректности преобразования между системами (JSON → XML, добавление полей).
+2. **Сохранность данных**: Убеждение в том, что данные не теряют целостность при передаче.
+3. **Интеграция систем**: Проверка работы интерфейсов между различными компонентами.
+
+**Вариант 2 (через "Метаморфное тестирование — это метод..."):**
+> "Метаморфное тестирование — это метод проверки систем, который фокусируется на преобразовании данных input/output между различными системами или состояниями. Основная цель этого подхода заключается в том, чтобы убедиться, что данные правильно обрабатываются и сохраняются целостно при их изменении формата или структуры."
+
+**Примеры применения:**
+- **REST API Testing**: Проверка того, как система обрабатывает изменения в структуре запросов или ответов.
+- **Миграция данных**: Убеждение в правильном переносе данных между системами.
+- **Микрослужбы**: Проверка корректности передачи данных между различными микросервисами.
+
+---
+
 **DeepSeek-R1:14b answer (via ZeroTier VPN):**
 > "Metamorphic testing is a software testing technique that leverages the transformation of existing test cases to generate new ones, ensuring consistent program behavior across all variations."
 > 
