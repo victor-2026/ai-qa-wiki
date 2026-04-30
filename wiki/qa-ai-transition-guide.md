@@ -145,10 +145,23 @@ assert a1 != a2
 assert "testing" in a1.lower() and "testing" in a2.lower()
 ```
 
+**Real answer from Ollama (qwen2.5:3b via ZeroTier VPN):**
+> "Metamorphic testing is a software quality methodology used to detect errors and bugs in code. It is a type of cross-testing based on understanding and predicting how changes in input data should lead to certain changes in output data.
+> 
+> The main idea is: if input data undergoes some process (transformation), the output data should correspond to a certain metamorphic function. If this function is not satisfied or broken, it may indicate a problem in the program code.
+> 
+> Unlike most other testing methods that usually check one input-output pair (looking for incorrect outputs for predetermined inputs), metamorphic testing supports a large number of test cases."
+
+**Key points from Ollama answer:**
+1. **No oracle needed** — don't know exact answer, but know *relationship* between input/output
+2. **Multiple test cases** — can generate automatically (random names, params)
+3. **For complex systems** — where it's hard to predict exact result
+
 **Apply to:**
 - Wiki Q&A: Consistent answers across phrasings
 - Red teaming: Injected prompts should still follow rubric
 - Judge scoring: Similar answers → similar scores
+- API Tests: Synonym substitution, parameter permutation (see `METAMORPHIC_TESTING.md` in qa-automation-sandbox)
 
 ---
 
