@@ -5,11 +5,34 @@ You are a knowledge curator and Q&A assistant for the AI QA Wiki. Your job is to
 
 ## Core Rules
 
-1. **Never edit files in `raw/`**
-2. **Maintain `wiki/` as the organized knowledge layer**
-3. **Source files are immutable** — AI only reads them
-4. **Answers should reference sources** in `raw/`
-5. **Knowledge flows back** — After answering, consider adding to wiki
+1. **Maintain `wiki/` as the organized knowledge layer**
+2. **Source files are immutable** — AI only reads `raw/`, never edits
+3. **Answers should reference sources** in `raw/`
+4. **Knowledge flows back** — After answering, consider adding to wiki
+
+## Boundaries
+
+| Область | AI может | AI спросить | AI нельзя | Человек |
+|---------|----------|-------------|-----------|---------|
+| `wiki/*.md` | ✅ edit | | | ✅ edit |
+| `outputs/*` | ✅ edit | | | ✅ edit |
+| `SESSION_NOTES.md` | ✅ edit | | | ✅ edit |
+| `session-checkpoint.md` | ✅ edit | | | ✅ edit |
+| `raw/*` | | | ❌ never | ✅ annotate |
+| `AGENTS.md` | | ✅ ask | | ✅ edit |
+| `daily-notes/*` | | ✅ ask | | ✅ edit |
+| `.env*`, `~/*_ke` | | | ❌ never | ❌ commit |
+| `.git/*`, `.obsidian/*` | | | ❌ never | ❌ |
+
+## Sources of Truth (порядок чтения)
+
+1. **AGENTS.md** — permanent project rules (this file)
+2. **session-checkpoint.md** — current state, next steps, blockers
+3. **`wiki/`** — organized knowledge
+4. **`raw/`** — source materials (read-only for AI)
+5. **`.opencode-memory.md`** — global cross-project memory
+
+При конфликте источников — выше в списке важнее.
 
 ## Workflow
 
@@ -31,6 +54,19 @@ You are a knowledge curator and Q&A assistant for the AI QA Wiki. Your job is to
 3. Generate structured outline
 4. Output to `outputs/` as markdown file
 
+## Architecture
+
+```
+ai-qa-wiki/
+├── raw/              — Source materials (articles, PDFs). Human writes, AI reads only.
+├── wiki/             — AI-organized knowledge. AI writes, human reviews.
+├── outputs/          — Generated artifacts (podcasts, summaries, reports).
+├── daily-notes/      — Human scratchpad. AI writes only with permission.
+├── AGENTS.md         — Permanent rules (this file). Human approves edits.
+├── SESSION_NOTES.md  — Per-session log. AI appends each session.
+└── session-checkpoint.md — Handover to next agent.
+```
+
 ## File Conventions
 
 - `raw/` — Markdown, PDF links, paper references
@@ -42,4 +78,49 @@ You are a knowledge curator and Q&A assistant for the AI QA Wiki. Your job is to
 - All answers cite sources
 - Wiki entries have examples
 - Contradictions flagged for human review
-- Monthly consistency check (lint)
+- Monthly consistency check (lint):
+  - Wiki: contradicting entries, broken links
+  - AGENTS.md: no dated facts, ≤ 32 KiB, commands still valid
+
+## Backup Rules
+
+### Before Session
+1. **Check last backup date** in `~/Backups/ai-qa-wiki/`
+2. **If no backup from today or yesterday** → run `./backup.sh`
+3. **Verify** backup contains: `wiki/`, `outputs/`, `groq_qa.py`
+
+### After Session (MANDATORY — no exceptions)
+1. **Update session-checkpoint.md** with summary
+2. **Update `~/.opencode-memory.md`** (global memory) with session summary
+3. **Run backup** if new content was created
+4. **Commit to git** if changes are significant
+
+### Backup Locations
+
+| Priority | Location | Content |
+|----------|----------|----------|
+| ⭐⭐⭐ | `~/Backups/ai-qa-wiki/YYYY-MM-DD/` | Full backup |
+| ⭐⭐ | GitHub (private repo) | Version control |
+| ⭐ | iCloud/Google Drive | Offsite |
+
+### Critical Files (Never Delete)
+- `wiki/` — Source articles
+- `outputs/qa_book_combined.md` — Main Q&A
+- `groq_qa.py` — Core script
+- API keys in `~/1.groq_ke` — Protect!
+
+### Restore Procedure
+```bash
+# Find latest backup
+ls -t ~/Backups/ai-qa-wiki/ | head -1
+
+# Restore specific folder
+cp -r ~/Backups/ai-qa-wiki/2026-04-21/wiki/* Projects/ai-qa-wiki/wiki/
+```
+
+## AGENTS.md Constraints
+
+- **No secrets** — never store tokens, passwords, API keys in this file
+- **No dated facts** — avoid dates that become stale; use relative time
+- **No model-specific instructions** — rules must work with any AI model
+- **Size ≤ 32 KiB** — file must fit in one context window
