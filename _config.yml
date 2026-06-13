@@ -1,0 +1,16 @@
+title: AI QA Wiki
+description: Личная база знаний по AI Testing и QA
+exclude:
+  - raw/
+  - "*.py"
+  - "*.sh"
+  - .gitignore
+  - .obsidian/
+  - daily-notes/
+  - wiki_llm.log
+  - backup.sh
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: none

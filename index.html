@@ -48,27 +48,7 @@
         <section class="nav-section">
             <h2>📚 Wiki (Organized Knowledge)</h2>
             <div class="card-grid" id="wiki-links">
-                <!-- Populated by JS -->
-            </div>
-        </section>
-
-        <section class="nav-section">
-            <h2>🎓 ISTQB AI Testing Certifications</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <a href="wiki/istqb-certifications/">
-                        <h3>📚 ISTQB Certifications</h3>
-                        <p>CT-AI (Testing AI) + CT-GenAI (Testing with AI)</p>
-                        <span class="tag">Certification</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="nav-section">
-            <h2>📁 Raw Sources</h2>
-            <div class="card-grid" id="raw-links">
-                <!-- Populated by JS -->
+                <!-- Populated by JS from wiki-topics.json -->
             </div>
         </section>
 
@@ -111,53 +91,30 @@
         </section>
 
         <footer>
-            <p>Built with LLM Wiki pattern • Last updated: April 2026</p>
+            <p>Built with LLM Wiki pattern • Last updated: <span id="last-updated">-</span></p>
         </footer>
     </div>
 
     <script>
-        const wikiFiles = [
-            { title: 'Topics Map', desc: 'Overview of all AI QA testing topics', file: 'wiki/topics-map.md', tag: 'Overview' },
-            { title: 'Testing Strategies', desc: 'Metamorphic, PBT, differential, canary testing', file: 'wiki/testing-strategies.md', tag: 'Methods' },
-            { title: 'AI Testing Metrics', desc: 'Ragas, TrickCatcher, ROI metrics', file: 'wiki/ai-testing-metrics.md', tag: 'Metrics' },
-            { title: 'Agentic Patterns', desc: 'Prompt chaining, routing, triad pattern', file: 'wiki/agentic-patterns.md', tag: 'Agents' },
-            { title: 'Vibe Coding Guide', desc: 'Vibe vs spec-driven development', file: 'wiki/vibe-wipe-coding-guide.md', tag: 'Vibe Coding' },
-            { title: 'Quality Characteristics', desc: 'ISO 25010, bias, XAI, ethics', file: 'wiki/quality-characteristics.md', tag: 'Quality' },
-            { title: 'Monitoring & Observability', desc: 'ODD, 3 layers, implementation', file: 'wiki/monitoring-observability.md', tag: 'Ops' },
-            { title: 'Test Stability', desc: 'Anti-flakiness patterns, expect.poll, mocks', file: 'wiki/testing-stability.md', tag: 'Stability' },
-            { title: 'Test Management', desc: 'RTM, traceability, coverage metrics', file: 'wiki/test-management.md', tag: 'Management' }
-        ];
-
-        const rawTopics = [
-            { title: 'Agents Playbook', desc: '9 chapters on agentic engineering', tag: 'BeyondQuality' },
-            { title: 'ISTQB AI Testing', desc: '5 articles from AT*SQА syllabus', tag: 'Certification' },
-            { title: 'RAG Testing', desc: 'Ragas metrics and evaluation', tag: 'RAG' },
-            { title: 'Bug Detection', desc: 'TrickCatcher (41-51% F1)', tag: 'Research' },
-            { title: 'AI Chaos Testing', desc: 'AI for chaos engineering', tag: 'Resilience' },
-            { title: 'Canary Testing', desc: 'Progressive delivery patterns', tag: 'Deployment' },
-            { title: 'Vibe Coding', desc: 'Hidden costs, spec-driven, guides', tag: 'Dev Practices' },
-            { title: 'AI Regression Testing', desc: 'ROI, workflows, implementation', tag: 'DeviQA' },
-            { title: 'Observability', desc: 'ODD, monitoring for AI apps', tag: 'Ops' },
-            { title: 'Anti-Flakiness', desc: 'expect.poll, Idempotency-Key, 3-level mocks', tag: 'Stability' },
-            { title: 'LLM Agents Security', desc: 'PoLP, CI/CD exploits, behavioral taxonomy', tag: 'Security' },
-            { title: 'Passmark', desc: 'Open-source AI regression on Playwright (Bug0)', tag: 'Open Source' }
-        ];
-
-        function renderCards(container, items, isWiki) {
-            container.innerHTML = items.map(item => `
-                <div class="card">
-                    ${isWiki 
-                        ? `<a href="${item.file}"><h3>${item.title}</h3><p>${item.desc}</p><span class="tag">${item.tag}</span></a>`
-                        : `<h3>${item.title}</h3><p>${item.desc}</p><span class="tag">${item.tag}</span>`
-                    }
-                </div>
-            `).join('');
+        async function loadTopics() {
+            try {
+                const resp = await fetch('wiki-topics.json');
+                const data = await resp.json();
+                const container = document.getElementById('wiki-links');
+                container.innerHTML = data.topics.map(item => `
+                    <div class="card">
+                        <a href="${item.file}"><h3>${item.title}</h3><p>${item.desc}</p><span class="tag">${item.tag}</span></a>
+                    </div>
+                `).join('');
+                document.getElementById('wiki-count').textContent = data.topics.length;
+                document.getElementById('raw-count').textContent = data.raw_count;
+                document.getElementById('last-updated').textContent = data.updated;
+            } catch (e) {
+                document.getElementById('wiki-count').textContent = '?';
+                document.getElementById('raw-count').textContent = '?';
+            }
         }
-
-        renderCards(document.getElementById('wiki-links'), wikiFiles, true);
-        renderCards(document.getElementById('raw-links'), rawTopics, false);
-        document.getElementById('raw-count').textContent = '48';
-        document.getElementById('wiki-count').textContent = wikiFiles.length;
+        loadTopics();
     </script>
 </body>
 </html>
