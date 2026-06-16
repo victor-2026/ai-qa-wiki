@@ -133,6 +133,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/allure-testops-research-2026.html",
+      "title": "Allure TestOps",
+      "desc": "source: \"allure-testops-research-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/anti-flakiness-habr.html",
       "title": "Anti-Flakiness: Best Practices for Reliable Tests",
       "desc": "source: \"anti-flakiness-habr.md\"",
@@ -154,6 +160,12 @@
       "file": "wiki/arxiv-ai-testing-effectiveness-2026.html",
       "title": "AI Testing Effectiveness",
       "desc": "source: \"arxiv-ai-testing-effectiveness-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/autonoma-open-source-self-driving-2026.html",
+      "title": "Autonoma Open Source & Self-Driving Architecture (April 2026)",
+      "desc": "April 2026: Autonoma went fully open source and announced a new \"self-driving testing\" architecture. Previous pipeline (",
       "tag": "Wiki"
     },
     {
@@ -607,6 +619,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 53,
-  "updated": "2026-06-13"
+  "raw_count": 55,
+  "updated": "2026-06-16"
 }
