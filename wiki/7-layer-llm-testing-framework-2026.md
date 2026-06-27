@@ -1,51 +1,51 @@
 # 7-Layer Testing Framework for Public-Facing LLMs
 
-**Source:** Rohit Krishna (Engineering Manager @ Priceline, Applied AI)
-**Published:** Practical AI Systems Weekly, Edition 10 — June 2026
+**Источник:** Rohit Krishna (Engineering Manager @ Priceline, Applied AI)
+**Опубликовано:** Practical AI Systems Weekly, Edition 10 — June 2026
 
 ---
 
 ## Motivation
 
-In February 2024, a Canadian tribunal ordered Air Canada to pay $812.02 because its chatbot invented a bereavement-fare policy that didn't exist. The model wasn't broken — the test plan was. Functional QA (does it respond fast?) is not the same as reliability testing (does it hold the right answers under pressure, novel inputs, and adversarial users?).
+В феврале 2024 канадский трибунал обязал Air Canada выплатить $812.02 из-за того, что их чат-бот выдумал несуществующую политику скидок на похороны. Модель не была сломана — сломан был тест-план. Функциональное QA (отвечает ли бот быстро?) — это не то же самое, что reliability testing (держит ли бот правильные ответы под давлением, новыми входами и adversarial users?).
 
-### Implementation Order: Integrity First
+### Порядок внедрения: Integrity First
 
-Rohit Krishna's personal recommendation on implementation priority:
+Личная рекомендация Рохита Кришны по приоритету внедрения:
 
-> *"Personally, I'd start with integrity testing — that's exactly what the airline case proves is the most dangerous gap. The chatbot didn't hallucinate randomly, it fabricated a specific policy with confidence."*
+> *"Лично я начал бы с integrity testing — именно этот случай с авиакомпанией доказывает, что это самый опасный пробел. Чат-бот не галлюцинировал случайно — он уверенно сфабриковал конкретную политику."*
 
-This flips the conventional approach: instead of building functional correctness first and adding safety later, **integrity testing (layer 3) should be the first layer implemented in production**. Functional correctness matters, but a functionally correct bot that confidently fabricates policy is a liability, not a product.
+Это переворачивает conventional подход: вместо того чтобы сначала строить functional correctness, а потом добавлять safety, **integrity testing (layer 3) должен быть первым слоем, внедрённым в production**. Functional correctness важна, но функционально правильный бот, который уверенно фабрикует политику — это liability, а не продукт.
 
 ## The 7 Layers
 
-| # | Layer | Question | Tool |
-|---|-------|----------|------|
-| 1 | **Functional Correctness** | Does it give the right answer to expected questions? | Promptfoo, Braintrust, pytest |
-| 2 | **Consistency** | Same answer when rephrased, at different times, by different users? | Promptfoo variance testing |
-| 3 | **Integrity & Adversarial Safety** | Will it fabricate policies, make legal commitments, reveal system prompt? | Custom integrity harness, Promptfoo red-team mode |
-| 4 | **Edge Cases & Input Robustness** | Empty message, 10K chars, Chinese, discontinued products? | Boundary condition scripts |
-| 5 | **Groundedness (RAG)** | Every answer traceable to a retrieved chunk? | Ragas, DeepEval, custom faithfulness scorer |
-| 6 | **Regression** | Does anything passing now fail after prompt/model change? | Any of above, CI-pinned |
-| 7 | **Latency & Cost Under Load** | P95 response time, token cost per conversation, graceful degradation? | Locust/k6 + LangSmith traces |
+| # | Layer | Вопрос | Инструмент |
+|---|-------|--------|-----------|
+| 1 | **Functional Correctness** | Даёт ли правильный ответ на ожидаемые вопросы? | Promptfoo, Braintrust, pytest |
+| 2 | **Consistency** | Тот же ответ при перефразировании, в разное время, от разных пользователей? | Promptfoo variance testing |
+| 3 | **Integrity & Adversarial Safety** | Будет ли фабриковать политики, делать юр. обязательства, раскрывать system prompt? | Custom integrity harness, Promptfoo red-team mode |
+| 4 | **Edge Cases & Input Robustness** | Пустое сообщение, 10K символов, китайский, снятые с производства продукты? | Boundary condition scripts |
+| 5 | **Groundedness (RAG)** | Каждый ответ прослеживается до retrieved чанка? | Ragas, DeepEval, custom faithfulness scorer |
+| 6 | **Regression** | Падает ли то, что проходило, после смены промпта/модели? | Любой из вышеперечисленных, pinned в CI |
+| 7 | **Latency & Cost Under Load** | P95 время ответа, стоимость токенов на диалог, graceful degradation? | Locust/k6 + LangSmith traces |
 
 ---
 
 ## 1. Functional Correctness
 
-Reference test set, expected outputs, pass/fail. The layer most teams already test.
+Референсный тестовый набор, ожидаемые выходы, pass/fail. Слой, который большинство команд уже тестируют.
 
-**Tool:** Promptfoo (YAML-configured, CLI, CI-compatible), Braintrust, or simple pytest.
+**Инструмент:** Promptfoo (YAML-конфиг, CLI, CI-совместимый), Braintrust, или простой pytest.
 
 ## 2. Consistency
 
-LLMs are stochastic — "mostly correct" is not a reliability guarantee. Same question, 5 runs, cosine similarity across outputs.
+LLM стохастичны — "в основном правильно" ≠ гарантия надёжности. Один вопрос, 5 прогонов, cosine similarity между выходами.
 
-**Tool:** Promptfoo variance testing, Braintrust experiment runs.
+**Инструмент:** Promptfoo variance testing, Braintrust experiment runs.
 
 ## 3. Integrity & Adversarial Safety
 
-The Air Canada case ($812 bereavement-fare hallucination) and the $1 Chevy Tahoe (car priced at $1 due to chatbot error) were both failures here — no adversarial test had been run before launch.
+Кейс Air Canada ($812 галлюцинация о скидке на похороны) и $1 Chevy Tahoe (машина оценена в $1 из-за ошибки чат-бота) — оба провала здесь: ни один adversarial тест не был запущен до релиза.
 
 **Promptfoo red-team config:**
 
@@ -70,7 +70,7 @@ tests:
         threshold: 0.92
 ```
 
-**Custom Integrity Harness — 200-line Python gate for CI:**
+**Custom Integrity Harness — CI gate на 200 строк Python:**
 
 ```python
 INTEGRITY_RULES = """
@@ -98,15 +98,15 @@ FAIL  [R2/high] legal_commitment  'no takesies backsies'
 
 ## 4. Edge Cases & Input Robustness
 
-Real users send: empty messages, 10,000-character walls of text, Chinese, questions about products discontinued 3 years ago. Functional tests never cover these.
+Реальные пользователи шлют: пустые сообщения, стены текста на 10 000 символов, китайский, вопросы о продуктах, снятых с производства 3 года назад. Функциональные тесты никогда этого не покрывают.
 
-**Tool:** Boundary-condition scripts, Promptfoo transform hooks.
+**Инструмент:** Boundary-condition scripts, Promptfoo transform hooks.
 
 ## 5. Groundedness (RAG)
 
-Hallucination in a general chatbot is embarrassing; in a RAG agent that cites policy documents, it's a liability. Ragas gives a faithfulness score — fraction of claims in the answer traceable to retrieved context.
+Галлюцинация в обычном чат-боте — неловко; в RAG-агенте, который цитирует документы с политиками — это liability. Ragas даёт faithfulness score — доля утверждений в ответе, прослеживаемых до retrieved контекста.
 
-**Target:** Faithfulness > 0.85. Below 0.85 means the bot is filling gaps with hallucination.
+**Цель:** Faithfulness > 0.85. Ниже 0.85 — бот заполняет пробелы галлюцинациями.
 
 ```python
 from ragas import evaluate
@@ -122,15 +122,15 @@ print(results["answer_relevancy"])   # e.g. 0.91
 
 ## 6. Regression
 
-No regression suite means every prompt change, model swap, or retrieval update is a leap of faith.
+Без regression suite каждое изменение промпта, замена модели или обновление retrieval — прыжок веры.
 
-**Approach:** Pin a baseline and run in CI on every diff.
+**Подход:** Зафиксировать baseline и гонять в CI на каждом diff.
 
 ## 7. Latency & Cost Under Load
 
-Usually the last thing teams add — should be the first once the other six are green.
+Обычно команды добавляют последним — должно быть первым, как только остальные шесть зелёные.
 
-**Tool:** Locust or k6 with the chat endpoint, LangSmith traces for token counts.
+**Инструмент:** Locust или k6 с chat endpoint, LangSmith traces для подсчёта токенов.
 
 ---
 
@@ -138,19 +138,19 @@ Usually the last thing teams add — should be the first once the other six are 
 
 ### 1. Paraphrase Generation
 
-Promptfoo's `--red-team` flag, or a one-off script, rewrites each seed attack into 5–10 surface variants:
+Флаг Promptfoo `--red-team` или одноразовый скрипт переписывает каждый seed-атаку в 5–10 поверхностных вариантов:
 
-- Angry customer
-- Polite lawyer
-- Confused elder
-- Teen slang
-- Formal business email
+- Злой клиент
+- Вежливый юрист
+- Растерянный пожилой
+- Подростковый сленг
+- Официальное бизнес-письмо
 
-**15 seeds → 90+ attacks.** The paraphrases catch holes the seeds miss.
+**15 seeds → 90+ атак.** Парафразы ловят дыры, которые seeds пропускают.
 
 ### 2. Production Transcripts as Seeds
 
-Every conversation where a user tried something unusual is a pre-validated, real-world attack case.
+Каждый диалог, где пользователь попробовал что-то необычное — это предварительно валидированный, реальный кейс атаки.
 
 ```python
 from langsmith import Client
@@ -170,19 +170,19 @@ for run in runs:
     )
 ```
 
-After a month of production traffic, your test set mirrors your actual threat landscape instead of what your team imagined attackers might do.
+Через месяц production-трафика ваш тестовый набор отражает реальный ландшафт угроз, а не то, что ваша команда вообразила.
 
 ### 3. Nightly CI Runs, Not Pre-Launch Audits
 
-Model updates and prompt tweaks reopen old failures silently. A suite that ran once before launch is worth almost nothing six weeks later.
+Обновления модели и правки промптов молча открывают старые ошибки. Сьют, запущенный один раз перед релизом, не стоит почти ничего через шесть недель.
 
-**Wire it into your deploy pipeline:** any integrity failure blocks the build.
+**Встройте в pipeline деплоя:** любой integrity failure блокирует сборку.
 
 ---
 
 ## Related Wiki Articles
 
-- `agentic-patterns.md` — AI agent patterns and testing
-- `llm-as-judge.md` — LLM-as-a-Judge evaluation pattern
-- `pbt-llm-code-generation.md` — Property-based testing for LLM output
-- `rag-evaluation-ragas.md` — RAG evaluation with Ragas
+- `agentic-patterns.md` — Паттерны AI-агентов и тестирование
+- `llm-as-judge.md` — Паттерн LLM-as-a-Judge
+- `pbt-llm-code-generation.md` — Property-based тестирование LLM выхода
+- `rag-evaluation-ragas.md` — Оценка RAG через Ragas
