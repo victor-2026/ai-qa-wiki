@@ -37,6 +37,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/agentic-engineering-hacks.html",
+      "title": "Хаки агентного инжиниринга — 22 приёма для эффективной работы с AI-агентами",
+      "desc": "source: \"hacks_ru.pdf\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/agentic-patterns.html",
       "title": "Agentic Patterns",
       "desc": "**Sources:** raw/ap-*, raw/pipeline-triad, raw/infinite-midwit, raw/comprehension-debt",
@@ -157,6 +163,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/anton-gulin-playwright-vs-cypress-vs-selenium-2026.html",
+      "title": "Anton Gulin: Playwright vs Cypress vs Selenium 2026",
+      "desc": "Playwright стал стандартом, Cypress удерживает DX, Selenium — enterprise. Performance benchmarks: 45s vs 72s vs 98s на 50 тестов, flaky 2% vs 8% vs 15%.",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/arxiv-ai-testing-effectiveness-2026.html",
       "title": "AI Testing Effectiveness",
       "desc": "source: \"arxiv-ai-testing-effectiveness-2026.md\"",
@@ -164,8 +176,8 @@
     },
     {
       "file": "wiki/autonoma-open-source-self-driving-2026.html",
-      "title": "Autonoma Open Source & Self-Driving Architecture (April 2026)",
-      "desc": "April 2026: Autonoma went fully open source and announced a new \"self-driving testing\" architecture. Previous pipeline (",
+      "title": "Autonoma Open Source & Architecture (June 2026)",
+      "desc": "April 2026: Autonoma went source-available (BSL 1.1) and announced a new \"self-driving testing\" architecture. The previo",
       "tag": "Wiki"
     },
     {
@@ -184,6 +196,12 @@
       "file": "wiki/canary-testing-guide.html",
       "title": "Canary Testing",
       "desc": "source: \"canary-testing-guide.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/post-about-contract-testing-guide.html",
+      "title": "Contract Testing: Consumer-Driven, Bi-Directional, and When to Use Each",
+      "desc": "Consumer-driven (Pact), bi-directional (PactFlow), when to use each. Source: Bas Dijkstra LinkedIn post + Victor Rincon comment",
       "tag": "Wiki"
     },
     {
@@ -343,9 +361,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/notion-kanban-bot-setup-2026.md",
+      "title": "Notion Kanban + Bot Integration Setup",
+      "desc": "Архитектура интеграции Notion Tasks DB, Telegram bot auto-dispatch, kanban sync script, Allure → Notion Test Runs",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/obsidian-skills-kepano.html",
       "title": "Obsidian Skills by Steph Ango (kepano)",
       "desc": "title: \"Obsidian Skills by Steph Ango (kepano)\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/offline-evaluation-trajectories-2026.html",
+      "title": "Offline Evaluation of AI Test Agents with Trajectories",
+      "desc": "source: \"offline-evaluation-trajectories-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -358,6 +388,12 @@
       "file": "wiki/opencode-vs-claude-comparative-test.html",
       "title": "Сравнительное Тестирование: OpenCode vs Claude Code",
       "desc": "source: \"opencode-vs-claude-comparative-test.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/openrouter-fusion-multi-model-deliberation-2026.html",
+      "title": "OpenRouter Fusion – Multi‑Model Deliberation",
+      "desc": "source: \"openrouter-fusion-multi-model-deliberation-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -583,6 +619,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/virustotal-usage-2026.md",
+      "title": "VirusTotal — Практическое руководство",
+      "desc": "VirusTotal для обычных пользователей и QA automation: проверка файлов, CI/CD security gate, API, Telegram боты",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/webtestbench-ai-web-testing.html",
       "title": "WebTestBench: AI Agents for Web Testing",
       "desc": "source: \"webtestbench-ai-web-testing.md\"",
@@ -617,8 +659,50 @@
       "title": "Переход от вайб- к вайп-кодингу: benefits, challenges and risks",
       "desc": "**Sources:** wiki/vibe-wipe-coding-guide.md, raw/vibe-coding-links.md",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/google-tos-2026-restrictions.md",
+      "title": "Google ToS (July 2026) — Restrictions Outside EEA",
+      "desc": "Google ToS Russia version effective July 30, 2026: AI/ML training ban, prompt injection prohibition, automated access limits, deception rules. Impact analysis for non-EEA users.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/video-capabilities-opencode-free.md",
+      "title": "Video Capabilities in OpenCode Free",
+      "desc": "MiMo-V2.5 native omnimodal video support in OpenCode TUI. All 19 Go models analyzed — 8 support video. Interface matrix (TUI/Desktop/WebUI/CLI), size limits, token cost, QA use cases.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/obsidian-security-checklist.md",
+      "title": "Obsidian Security Checklist",
+      "desc": "Security checklist against phishing via fake QA audit: malicious community plugins (Shell Commands, Hider), sandbox requirements, restricted mode, mobile air gap.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ai-fluency-interview-2026.md",
+      "title": "AI Fluency: The New Interview Standard",
+      "desc": "Google, Meta, Canva, Cognition reform hiring: AI Fluency over syntax. New Code Comprehension round, Gemini allowed, prompt engineering + output validation + debugging as core skills. What QA needs to know.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/opencode-skill-creator.md",
+      "title": "opencode-skill-creator: Eval-Driven Skill Development",
+      "desc": "Плагин + скилл от Anton Gulin для создания, тестирования и оптимизации OpenCode скиллов через eval-driven development. Адаптация Anthropic skill-creator. Train/test split, 20 запросов, 3 прогона, 5 итераций оптимизации.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/improvements-from-bugs.md",
+      "title": "AI-Augmented QA: Process Improvements from Bug Reports",
+      "desc": "25+ улучшений правил, скиллов, агентов и процессов AI-augmented тестирования, сделанных на основе реальных багов и инцидентов в qa-automation-sandbox и OrangeHRM. Gotchas формат Perplexity.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/7-layer-llm-testing-framework-2026.md",
+      "title": "7-Layer Testing Framework for Public-Facing LLMs",
+      "desc": "Functional correctness, consistency, adversarial safety, edge cases, RAG groundedness, regression, latency/cost — 7 layers with tools (Promptfoo, Ragas, LangSmith, Custom Integrity Harness) and CI pipeline patterns.",
+      "tag": "Wiki"
     }
   ],
-  "raw_count": 55,
-  "updated": "2026-06-16"
+  "raw_count": 63,
+  "updated": "2026-06-27"
 }

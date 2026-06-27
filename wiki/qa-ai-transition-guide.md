@@ -1,3 +1,10 @@
+---
+title: "QA Skills → AI Roles Transition Guide"
+updated: 2026-05-04
+tags: [career, transition, AI, QA]
+type: guide
+---
+
 # QA Skills → AI Roles Transition Guide
 
 **Source:** LinkedIn post by QA hiring manager (2026-04-30)
@@ -265,4 +272,4 @@ assert "testing" in answer.lower()
 
 ---
 **Tags:** #AIEval #QAEngineering #LLMTesting #AIEngineering  
-**Related:** [[QA AI Eval Engineer]] [[qa-ai]]
+**Related:** [[QA AI Eval Engineer]] [[qa-ai]] [[ai-qa-transformation-lead]]

@@ -44,6 +44,11 @@
 - [[wiki/monitoring-observability]] — ODD, 3 layers, implementation
 - Production monitoring for AI systems
 
+### 8. Contract Testing
+- [[wiki/post-about-contract-testing-guide]] — Consumer-driven (Pact), bi-directional (PactFlow), when to use each
+- [[wiki/testing-stability]] — API contract protection patterns
+- [[wiki/test-automation-quadrant]] — Bas Dijkstra's value/speed classification
+
 ---
 
 ## 🎓 Certifications

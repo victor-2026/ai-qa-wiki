@@ -124,3 +124,21 @@ cp -r ~/Backups/ai-qa-wiki/2026-04-21/wiki/* Projects/ai-qa-wiki/wiki/
 - **No dated facts** — avoid dates that become stale; use relative time
 - **No model-specific instructions** — rules must work with any AI model
 - **Size ≤ 32 KiB** — file must fit in one context window
+
+## Communication — Full File Paths (MANDATORY)
+
+In opencode-desktop TUI (macOS): **only `mailto:` is clickable**. file://, /Users/.../path, markdown links = NOT clickable.
+
+**Always provide: full absolute path + bash code block with `code` command.**
+
+```
+File: /Users/victor/.../file.md
+```bash
+code /Users/victor/.../file.md
+```
+```
+
+For multiple files: one bash code block with multiple `code` lines.
+For email: use `mailto:user@domain` (clickable!).
+
+Full rule + examples: `~/.opencode-memory.md` → "Communication Style — File Paths"

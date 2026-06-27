@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.name == "ai-testing-glossary"
+formulas:
+  letter: file.name.substring(0, 1).toUpperCase()
+properties:
+  formula.letter:
+    displayName: Letter
+views:
+  - type: cards
+    name: Glossary File
+    order:
+      - file.name
+      - updated
+      - tags
+    limit: 10

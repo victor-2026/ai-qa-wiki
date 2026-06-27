@@ -1,0 +1,32 @@
+filters:
+  or:
+    - file.name == "model-comparison-metamorphic"
+    - file.name == "metamorphic-tests-comparison"
+formulas:
+  days_ago: (today() - date(updated)).days
+properties:
+  title:
+    displayName: Title
+  updated:
+    displayName: Updated
+  tags:
+    displayName: Tags
+  type:
+    displayName: Type
+  formula.days_ago:
+    displayName: Days Ago
+views:
+  - type: table
+    name: Model Reviews
+    groupBy:
+      property: type
+      direction: DESC
+    order:
+      - file.name
+      - title
+      - type
+      - updated
+      - formula.days_ago
+      - tags
+    summaries:
+      formula.days_ago: Average

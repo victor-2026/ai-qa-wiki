@@ -19,7 +19,7 @@ WIKI_DIR = Path(__file__).parent
 OUTPUTS_DIR = WIKI_DIR / "outputs"
 WIKI_DIR_PATH = str(WIKI_DIR / "wiki")
 
-DEFAULT_MODEL = "qwen2.5:3b"
+DEFAULT_MODEL = "llama3.2:3b"
 VISION_MODEL = "llama3.2-vision"
 
 
@@ -30,15 +30,35 @@ def get_ollama_model(prompt: str, has_images: bool = False) -> str:
     return DEFAULT_MODEL
 
 
-def build_context() -> str:
-    """Собрать контекст из wiki для промпта"""
+def find_relevant_files(query: str, top_n: int = 3) -> list:
+    """Найти релевантные файлы по ключевым словам"""
+    keywords = query.lower().split()
     wiki_files = list(Path(WIKI_DIR_PATH).glob("*.md"))
 
-    context_parts = ["# Wiki Content\n"]
-
-    for f in sorted(wiki_files)[:15]:  # Ограничиваем — 32K context
+    scores = {}
+    for f in wiki_files:
         try:
-            content = f.read_text(encoding="utf-8")[:3000]  # Первые 3K
+            content = f.read_text(encoding="utf-8").lower()
+            score = sum(1 for kw in keywords if kw in content)
+            if score > 0:
+                scores[f] = score
+        except:
+            pass
+
+    sorted_files = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    return [f for f, _ in sorted_files[:top_n]]
+
+
+def build_context(query: str = "") -> str:
+    """Собрать контекст из wiki для промпта (релевантность по ключевым словам)"""
+    wiki_files = find_relevant_files(query) if query else list(Path(WIKI_DIR_PATH).glob("*.md"))[:3]
+
+    context_parts = ["# Wiki Content (short)\n"]
+
+    # По 1K символов на файл = ~3K total
+    for f in wiki_files:
+        try:
+            content = f.read_text(encoding="utf-8")[:1000]
             context_parts.append(f"## {f.name}\n{content}\n")
         except:
             pass
@@ -47,36 +67,56 @@ def build_context() -> str:
 
 
 def ask_ollama(question: str, model: str = None) -> str:
-    """Задать вопрос Ollama"""
+    """Задать вопрос Ollama через API с использованием wiki контекста"""
+    import requests
+    import json
+
     if model is None:
         model = get_ollama_model(question)
 
-    context = build_context()
+    context = build_context(question)
 
-    prompt = f"""Ты — эксперт по AI Testing и QA. Используя контекст ниже, ответь на вопрос.
+    system_prompt = """Ты — эксперт по AI Testing и QA.
+Отвечай на основе предоставленного контекста из wiki.
+Если информации нет в контексте — честно скажи "нет данных в wiki"."""
 
-## Контекст из Wiki
+    full_prompt = f"""## Контекст из Wiki
 {context}
 
 ## Вопрос
 {question}
 
-## Ответ (markdown с цитатами)"""
+## Инструкция
+Ответь кратко (3-5 предложений) используя Wiki контекст."""
 
-    print(f"🤖 Using model: {model}")
+    print(f"🤖 Using model: {model} (API)")
 
-    result = subprocess.run(
-        ["ollama", "run", model, prompt],
-        capture_output=True,
-        text=True,
-        timeout=300
-    )
+    try:
+        response = requests.post(
+            "http://localhost:11434/api/generate",
+            json={
+                "model": model,
+                "prompt": full_prompt,
+                "system": system_prompt,
+                "stream": False,
+                "options": {
+                    "num_ctx": 32768,
+                    "temperature": 0.3
+                }
+            },
+            timeout=300
+        )
 
-    if result.returncode != 0:
-        print(f"❌ Error: {result.stderr}", file=sys.stderr)
+        if response.status_code != 200:
+            print(f"❌ API Error: {response.text}", file=sys.stderr)
+            return ""
+
+        result = response.json()
+        return result.get("response", "").strip()
+
+    except Exception as e:
+        print(f"❌ Error: {e}", file=sys.stderr)
         return ""
-
-    return result.stdout.strip()
 
 
 def save_to_outputs(question: str, answer: str, tags: list = None):
@@ -127,8 +167,13 @@ def list_recent_outputs(n: int = 5):
 
     print(f"📋 Last {len(files)} outputs:\n")
     for f in files:
-        date = datetime.fromisoformat(f.read_yaml()["date"][:10]) if False else "N/A"
-        print(f"  • {f.name}")
+        try:
+            text = f.read_text(encoding="utf-8")
+            date_line = [l for l in text.split("\n") if l.startswith("date:")][0]
+            date = date_line.split('"')[1][:10] if '"' in date_line else "N/A"
+        except:
+            date = "N/A"
+        print(f"  • {f.name}  ({date})")
 
 
 def main():

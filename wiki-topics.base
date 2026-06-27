@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.inFolder("wiki")
+    - file.ext == "md"
+properties:
+  title:
+    displayName: Topic
+  updated:
+    displayName: Updated
+  tags:
+    displayName: Tags
+  type:
+    displayName: Type
+views:
+  - type: table
+    name: Wiki Topics
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - type
+      - updated
+      - tags
+    summaries:
+      file.name: Filled

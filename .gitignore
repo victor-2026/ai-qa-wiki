@@ -1,0 +1,36 @@
+# AI QA Wiki .gitignore
+
+## Sensitive Files (Never commit)
+*.ke
+*.key
+*.token
+*.env
+credentials.json
+api_keys.txt
+groq_*
+
+## OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+## Backup Directory
+.backup/
+tmp/
+
+## Large Files (>10MB)
+*.pdf
+*.zip
+*.iso
+
+## IDE
+.vscode/
+.idea/
+*.sublime-*
+
+## Python
+__pycache__/
+*.pyc
+.venv/
+venv/

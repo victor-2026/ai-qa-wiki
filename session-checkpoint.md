@@ -1,118 +1,116 @@
-# Session Checkpoint — AI QA Wiki
+# Session Checkpoint — 2026-06-19
 
-**Updated:** 2026-04-30
+## Notion Kanban + Bot Integration
 
----
+**Source of truth changed:** Notion Tasks DB = master, local `kanban/*.md` = auto-generated mirror.
 
-## Today's Work (2026-04-30)
+### Что сделано
 
-### qa-automation-sandbox:
-- ✅ Created `METAMORPHIC_TESTING.md` (guide + examples)
-- ✅ Created `e2e/api/metamorphic.spec.ts` (7 relations)
-- ✅ Created `e2e/api/metamorphic-helpers.ts`
-- ✅ Added Stryker Mutator config (`stryker.conf.json`)
-- ✅ CI fixed: `render-e2e` runs only smoke tests
-- ✅ PR #3 merged to main
+**Notion → Telegram auto-dispatch (3 бага пофикшено):**
+1. `get_opencode_attach()` — lsof parser брал `(LISTEN)` вместо порта → `http://localhost:(LISTEN)/session`
+2. Dispatch stuck на "tracked" — `setdefault` не перезаписывал "failed" статус при рестарте
+3. "Session not found" от Desktop app (internal IPC, не session API) — теперь notification-only
 
-### ai-qa-wiki:
-- ✅ Updated `qa-ai-transition-guide.md` with metamorphic/mutation testing
-- ✅ Added Ollama answers (qwen2.5:3b + deepseek-r1:14b) on metamorphic testing
-- ✅ Added Russian variants of deepseek answers
-- ✅ Configured ZeroTier VPN (MacBook ↔ Windows .224)
-- ✅ Ollama accessible remotely via ZeroTier (10.24.175.30:11434)
-- ✅ Reviewed `Справочник_Windows_AI_QA_System.md` - kimi-k2.6:cloud in plans
-- ✅ Created `HARDWARE_SPEC.md` (PC-224: 64GB RAM, Threadripper 1920X, RTX 3060 12GB)
-- ✅ Cloned Obsidian skills to `~/.opencode/skills/obsidian-skills/` (from kepano repo)
+**Kanban sync:**
+- `~/bot/notion-sync-kanban.py` — новый скрипт: Notion Tasks DB → 9 файлов `kanban/*.md`
+- Notion = master, `AGENTS.md` обновлён
 
-### Hardware:
-- ✅ PC-224: 12-Core AMD Ryzen Threadripper 1920X, 64GB RAM, NVIDIA RTX 3060 (12GB)
-- ✅ MacBook Pro: 16GB RAM, Intel (remote access via ZeroTier)
-- ✅ Windows Laptop: 16GB RAM, Intel (old, standby)
+**Wiki:**
+- `wiki/notion-kanban-bot-setup-2026.md` — архитектура, DB ID, токены, нюансы
+- `wiki-topics.json` обновлён (108 topics)
 
-### Router/Network:
-- ✅ Asus RT-N56U B1 VPN Server configured (OpenVPN)
-- ✅ ZeroTier network created (central.zerotier.com)
-- ✅ Both devices authorized in ZeroTier
-- ✅ KIMI-K2.6:cloud identified as planned model (32+ GB RAM needed, cloud model)
-- ✅ Obsidian Skills setup for OpenCode (5 skills: markdown, bases, canvas, cli, defuddle)
+**Задачи закрыты (Notion → Done):**
+- `[W1] Test Notion Agent: search, Plan Mode`
+- `Update help center & FAQ`
 
----
+### Key files
+- `~/bot/bot.py` — Telegram bot (polling kanban + Notion)
+- `~/bot/notion-sync-kanban.py` — Notion → local mirror
+- `~/Projects/Articles/AGENTS.md` — source of truth updated
+- `~/Projects/Articles/kanban/*.md` — 9 auto-generated files
+- `wiki/notion-kanban-bot-setup-2026.md` — full setup docs
 
-## Current State
+## Session 60c (2026-06-24) — AI Fluency Interview Reform + Article
 
-| Component | Status |
-|-----------|--------|
-| **Chapters** | ✅ 11/12 done (ch01 skip) |
-| **Q&A** | ✅ 198 questions |
-| **Groq API** | ✅ Working |
-| **Gemini feedback** | ✅ Applied (ch02, ch05-12) |
-| **PDF Guide** | ✅ ai-native-qa-strategy-2026.pdf |
-| **Mind Map** | ✅ mind-map-ai-qa-2026.png |
-| **Backup** | ✅ Created |
-| **ZeroTier VPN** | ✅ Configured (MacBook ↔ Windows .224) |
-| **Ollama Remote** | ✅ Access via ZeroTier (10.24.175.30:11434) |
-| **Transition Guide** | ✅ qa-ai-transition-guide.md updated |
-| **Hardware Spec** | ✅ HARDWARE_SPEC.md created |
-| **Obsidian Skills** | ✅ Cloned to `~/.opencode/skills/` |
+**Wiki:**
+- `raw/ai-fluency-interview-reform-2026.md` — NEW (Google, Meta, Canva, Cognition interview reform)
+- `wiki/ai-fluency-interview-2026.md` — NEW (analysis + what QA needs to prepare)
+- `wiki-topics.json` обновлён (111 topics)
 
----
+**LinkedIn article (scheduled Jun 25):**
+- `Articles/linkedin-posts/AI-Fluency/interview-format-change.md` — Pulse Article
+- `Articles/linkedin-posts/AI-Fluency/ai-fluency-post.md` — Feed post
+- Topic: AI Fluency as new interview standard (Google, Meta, Cognition, Canva)
+- Pre-publish: needs [SCREENSHOT] images generated + [COVER] image
 
-## Plans
+## Session 60b (2026-06-24) — Obsidian Scam + Security Audit
 
-| Priority | Task | Status |
-|----------|------|--------|
-| 🔴 High | Windows PC (Threadripper) подключить | ⏳ Waiting |
-| 🔴 High | Ollama + BGE-M3 + Qdrant | After PC |
-| 🟡 Med | MAS Pipeline (qa-automation-sandbox) | ✅ Done |
-| 🟢 Low | GitHub Pages deploy | Optional |
-| 🟡 Med | Implement metamorphic tests (qa-automation-sandbox) | 🔧 Todo |
-| 🟡 Med | Add promptfoo eval suite | 🔧 Todo |
-| 🟡 Med | Create red-teaming tests | 🔧 Todo |
-| 🟡 Med | Test Obsidian Skills in OpenCode | 🔧 Todo |
+**Wiki:**
+- `raw/obsidian-scam-audit-2026.md` — NEW (full scam story: fake QA audit → Obsidian vault → malicious plugins)
+- `wiki/obsidian-security-checklist.md` — NEW (risk assessment, defense layers, automated checks)
+- `wiki-topics.json` обновлён (110 topics)
 
----
+**Security audit (all 8 vaults):**
+- No dangerous plugins found ✅
+- Restricted Mode OFF everywhere (expected — community plugins used) ⚠️
+- Sync hygiene: fixed 6 vaults (`"sync": false`)
+- DYI-Building: created proper `.obsidian/` config with Restricted Mode ON
 
-## Technical Debt
+**Script:**
+- `~/scripts/obsidian-security-check.py` — weekly checker (dangerous plugins, unknown plugins, restricted mode, sync)
+- Cron: Mon 9:00, logs to `~/scripts/obsidian-security.log`
 
-| Item | Notes |
-|------|-------|
-| **session-checkpoint.md** | ✅ Updated 2026-04-30 |
-| **RAG pipeline** | Option A done (JSON), Option B pending |
-| **wiki_qa.py** | Needs Ollama support |
-| **Obsidian Skills** | 5 skills cloned, ready to test in OpenCode |
+## Session 60d (2026-06-25) — Google/Meta Interview Criteria Deep-Dive
 
----
+**Topic:** AI Interview Reform — enriched with detailed evaluation criteria
 
-## Windows Ollama Status
+**Что сделано:**
+- Researched Google and Meta interview reform details (pipelines, evaluation criteria, stages)
+- Added detailed sections to `raw/ai-fluency-interview-reform-2026.md`:
+  - Google Evaluation Criteria (Code Comprehension, Prompt Engineering, Validation, Googliness)
+  - Meta Evaluation Criteria (3-stage project, 4 competencies, CoderPad tool selection)
+  - Common Success Markers (Ownership, Decomposition, Code Audit, Narrative)
+- Updated `wiki/ai-fluency-interview-2026.md` with:
+  - Google (L3–L4 + QA) structured section
+  - Meta (AI-Enabled Coding) 3-stage + 4-competency breakdown
+  - Common Success Markers section + "fundamental knowledge still required" note
+- Linkedin article reviewed — structure already aligned with new details
 
-| Parameter | Value |
-|-----------|-------|
-| **.31 (local)** | 192.168.1.31:11434 |
-| **.224 (remote)** | 192.168.1.224:11434 |
-| **ZeroTier VPN** | ✅ 10.24.175.x network |
-| **MacBook access** | ✅ 10.24.175.30:11434 |
-| **Models** | qwen2.5:14b, deepseek-r1:7b/14b, llama3.2-vision |
-| **Firewall** | ✅ Rules added |
+**Next:** Generate [SCREENSHOT] images for interview article, or publish as-is
 
----
+## Session 60e (2026-06-25) — Wiki Expansion + Improvements from Bugs + Carousel Plan
 
-## Backup Location
+**Что сделано:**
 
-```
-~/Backups/ai-qa-wiki/2026-04-23/
-```
+**1. Wiki `ai-fluency-interview-2026.md` — расширение:**
+- Добавлен Obsidian wikilink на raw: `[[raw/ai-fluency-interview-reform-2026|Source raw material]]`
+- Добавлен Timeline (+ Stripe, Amazon, Microsoft, Coinbase, Shopify)
+- Добавлены секции по Stripe, Amazon, Microsoft, Coinbase, Shopify (5 new companies)
+- Добавлены 6 Common Success Markers (Output Validation, Prompt Granularity, Technical Ownership, Debugging, Delegation, Narration)
+- Добавлен 3-5 Minute Rule, Common AI Bugs Checklist, Technical Ownership Strategies
+- Добавлен Practice Checklist
+- Добавлена таблица Industry Reports & Official Guides 2026 (TestGorilla, Google Guide, GoodTime, iMocha, Stripe)
+- Удалены дублирующиеся секции (merged Old vs New tables)
 
----
+**2. `wiki/improvements-from-bugs.md` — NEW (25 gotchas):**
+- 10 из qa-automation-sandbox (regex selectors, test title colons, 429 retry, Render deploy, contract tests)
+- 9 из OrangeHRM (timeout, selectors, strict mode, cross-version differences)
+- 6 cross-project process improvements (Quality Gates, checkpoint protocol, TUI communication, seed test, Allure, mutation insight)
+- Формат Perplexity gotchas с root cause / fix / rule added
 
-## Next Session
+**3. Carousel article plan:**
+- 10 слайдов, аудитория testers + test managers
+- Positive stance (no complaints, want to be ready)
 
-1. Test Obsidian Skills in OpenCode (ask "What Obsidian skills do you have loaded?")
-2. Implement metamorphic tests in qa-automation-sandbox (Phase 1)
-3. Add promptfoo eval suite to ai-qa-wiki
-4. Create red-teaming tests for wiki_llm.py
-5. RAG demo — show rag_lookup() on Windows PC-224 (64GB RAM)
-6. Test local models: llama3.3:70b (needs GPU), qwen2.5:14b, deepseek-r1:14b
+**4. LinkedIn email ответ:**
+- Отправлен отказ Thomas Carrillo Beeck (SAP Test Manager) с упоминанием non-EU
 
----
+**Files modified:**
+- `wiki/ai-fluency-interview-2026.md` — major expansion (82→210 lines)
+- `wiki/improvements-from-bugs.md` — NEW (25 gotchas, ~170 lines)
+- `wiki-topics.json` — +1 topic (62 total)
 
-*Next session: Continue with RAG and review*
+### Known issues
+- Notion DB has duplicate tasks (от импорта)
+- `get_opencode_attach()` не работает с Desktop app — IPC порт 63816 не session API
+- Без сессии opencode → только Telegram уведомление

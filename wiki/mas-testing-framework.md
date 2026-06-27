@@ -1,3 +1,10 @@
+---
+title: "MAS-Testing Framework"
+updated: 2026-04-18
+tags: [MAS, framework, conceptual, multi-agent]
+type: framework
+---
+
 # MAS-Testing Framework (Conceptual)
 
 **Last Updated:** 2026-04-18

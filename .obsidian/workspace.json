@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31c76c9ff530e23b",
+            "id": "80412501b8099a29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/mas-risks.md",
-                "mode": "preview",
+                "file": "daily-notes/People name AI agents based on the specific \"vibe\" or function they want the system to project.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +28,155 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mas-risks"
+              "title": "People name AI agents based on the specific \"vibe\" or function they want the system to project"
+            }
+          },
+          {
+            "id": "b5bf803c8f83f0c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/Agentic Development Lifecycle (ADLC).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agentic Development Lifecycle (ADLC)"
+            }
+          },
+          {
+            "id": "79e189e9e25bf451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-notes/Euro-Office -  open source офисный редактор.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Euro-Office -  open source офисный редактор"
+            }
+          },
+          {
+            "id": "35e6ae8488e6a681",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Agents-discussion-300526.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agents-discussion-300526"
+            }
+          },
+          {
+            "id": "27f3d3bb7e1b7d72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/ad-hoc-testing-guide.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ad-hoc-testing-guide"
+            }
+          },
+          {
+            "id": "ae5e42d3ce671e25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/30 question to modern manual QA.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "30 question to modern manual QA"
+            }
+          },
+          {
+            "id": "1554ff8404b643fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/kiss-sorcar-agent.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "kiss-sorcar-agent"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -63,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#AgentSkills",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "dbf587bb7b697d8d",
@@ -191,27 +336,53 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "31c76c9ff530e23b",
+  "active": "2845feea48f20a8e",
   "lastOpenFiles": [
-    "wiki/mas-testing-framework.md",
-    "wiki/mas-testing-framework-summary.md",
-    "outputs/qa_2026-04-20_023949.md",
-    "outputs/qa_2026-04-20_022336.md",
-    "outputs/ai-testing-2026.md",
-    "outputs/qa_2026-04-20_021333.md",
-    "outputs/ai-testing-effectiveness-podcast.md",
-    "outputs/prompt-engineering-summary.md",
-    "outputs/qa_2026-04-19_161511.md",
-    "outputs/qa_2026-04-19_161723.md",
-    "outputs/qa_2026-04-19_161848.md",
-    "outputs/qa_2026-04-19_163317.md",
-    "outputs/qa_2026-04-20_001226.md",
-    "outputs/qa_2026-04-20_002221.md",
-    "outputs/qa_2026-04-20_002228.md",
-    "outputs/qa_2026-04-20_002325.md",
-    "outputs/qa_2026-04-20_010929.md"
+    "wiki/7-layer-llm-testing-framework-2026.md",
+    "wiki/30-ai-questions-manual-qa-2026.md",
+    "raw/ad-hoc-testing-guide.md",
+    "raw/30 question to modern manual QA.md",
+    "wiki/ai-fluency-interview-2026.md",
+    "raw/ai-fluency-interview-reform-2026.md",
+    "wiki/improvements-from-bugs.md",
+    "wiki-topics.base",
+    "session-checkpoint.md",
+    "raw/trickcatcher-bug-detection.md",
+    "wiki/anton-gulin-3-layer-ai-qa-architecture.md",
+    "wiki/opencode-skill-creator.md",
+    "wiki/people/anton-gulin.md",
+    "raw/Consumer-driven contract testing (post).md",
+    "wiki/obsidian-security-checklist.md",
+    "raw/obsidian-scam-audit-2026.md",
+    "wiki/video-capabilities-opencode-free.md",
+    "raw/video-capabilities-opencode-free.md",
+    "wiki/google-tos-2026-restrictions.md",
+    "wiki/post-about-contract-testing-guide.md",
+    "Pasted image 20260622115842.png",
+    "raw/Agents-discussion-300526.md",
+    "README.md",
+    "glossary.base",
+    "raw/how-to-tell-if-tests-are-testing-anything-autonoma.md",
+    "raw/mutation-testing-vs-code-coverage-autonoma.md",
+    "daily-notes/Euro-Office -  open source офисный редактор.md",
+    "wiki/Mutation-testing-without-code.md",
+    "raw/context-loss-orchestration-separation-2026.md",
+    "Pasted image 20260430023644.png",
+    "MindMap-AI-driven-QE.png",
+    "model-reviews.base",
+    "wiki/people",
+    "raw/hacks_ru.pdf",
+    "wiki-topics.json",
+    "not-for-wiki/software-testing-with-generative-ai/raw2",
+    "not-for-wiki",
+    "robots.txt",
+    "_config.yml",
+    "daily-notes/1750881936543.jpeg",
+    "daily-notes/Perplexity опубликовали внутреннее руководство по созданию навыков для агентов_files/profile.webp"
   ]
 }

@@ -35,13 +35,13 @@ Building software from natural language prompts using AI assistants. Named after
 
 ## Vibe vs Spec-Driven Development
 
-| Aspect | Vibe Coding | Spec-Driven |
-|--------|-------------|-------------|
-| Nature | Speculative, exploratory | Structured, intentional |
-| Artifacts | Ephemeral prompts | Living documents |
-| Collaboration | Dev + AI only | Wider team |
-| Context | Lost in chat history | Captured in specs |
-| For | Prototyping | Production |
+| Aspect        | Vibe Coding              | Spec-Driven             |
+| ------------- | ------------------------ | ----------------------- |
+| Nature        | Speculative, exploratory | Structured, intentional |
+| Artifacts     | Ephemeral prompts        | Living documents        |
+| Collaboration | Dev + AI only            | Wider team              |
+| Context       | Lost in chat history     | Captured in specs       |
+| For           | Prototyping              | Production              |
 
 **Key insight:** Specs are "source of **intention**" not just source of truth.
 

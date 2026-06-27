@@ -1,3 +1,10 @@
+---
+title: "AI Testing Strategies"
+updated: 2025-04-15
+tags: [strategies, AI, testing]
+type: strategy
+---
+
 # AI Testing Strategies
 
 **Last Updated:** 2025-04-15
@@ -14,12 +21,12 @@ AI testing requires fundamentally different approaches than traditional software
 
 ## Testing Strategies by AI Type
 
-| AI Type | Strategy |
-|---------|----------|
-| **Deterministic** | Traditional test case design |
+| AI Type                             | Strategy                                      |
+| ----------------------------------- | --------------------------------------------- |
+| **Deterministic**                   | Traditional test case design                  |
 | **Probabilistic/Non-deterministic** | Metamorphic, exploratory, adversarial testing |
-| **RAG-based** | Retrieval accuracy + LLM-as-judge |
-| **Agentic** | Multi-agent pipeline testing |
+| **RAG-based**                       | Retrieval accuracy + LLM-as-judge             |
+| **Agentic**                         | Multi-agent pipeline testing                  |
 
 ## Key Testing Approaches
 

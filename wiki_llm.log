@@ -1,0 +1,108 @@
+[2026-06-13T23:14:42.515583] ingest | what-is-software-testing.md | ok | wiki/what-is-software-testing.md
+[2026-06-13T23:16:41.530234] ingest | Agents-discussion-300526.md | ok | wiki/agents-discussion-300526.md
+[2026-06-13T23:16:43.272975] ingest | Mutation Testing Playwright Front-End.md | ok | wiki/mutationtestingplaywrightfront-end.md
+[2026-06-13T23:16:46.943931] ingest | NOTEBOOKLM_AGENT.md | ok | wiki/notebooklm_agent.md
+[2026-06-13T23:16:48.979879] ingest | The 2026 AI Testing Frontier - A Strategic Evaluation of Autonomous QA Lifecycle | ok | wiki/the2026aitestingfrontier-astrategicevaluationofautonomousqalifecycleplatfor
+[2026-06-13T23:16:49.645339] ingest | ad-hoc-testing-guide.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:50.214933] ingest | ai-chaos-testing.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:51.152297] ingest | ai-qa-exoskeleton-habr.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:51.760857] ingest | ai-qa-exoskeleton-launch-habr.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:53.483825] ingest | ai-regression-testing-workflows.md | ok | wiki/ai-regression-testing-workflows.md
+[2026-06-13T23:16:53.896977] ingest | ai-roi-regression-testing.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:54.345327] ingest | ai-testing-effectiveness-papers.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:55.012512] ingest | anti-flakiness-habr.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:57.120596] ingest | ap-01-what-is-an-llm.md | ok | wiki/ap-01-what-is-an-llm.md
+[2026-06-13T23:16:57.900812] ingest | ap-02-from-chat-to-agent.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:59.109299] ingest | ap-03-lil-demo.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:16:59.980260] ingest | ap-04-getting-started.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:00.608505] ingest | ap-05-one-agent-one-job.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:01.187598] ingest | ap-06-setting-up-a-folder.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:01.774153] ingest | ap-07-git.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:03.780266] ingest | ap-08-sessions.md | ok | wiki/ap-08-sessions.md
+[2026-06-13T23:17:04.805158] ingest | ap-09-risks.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:05.505800] ingest | arxiv-ai-testing-effectiveness-2026.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:06.430593] ingest | canary-testing-guide.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:07.092200] ingest | comprehension-debt.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:08.941057] ingest | feature-flags-guide.md | ok | wiki/feature-flags-guide.md
+[2026-06-13T23:17:09.988390] ingest | fullstack-verification-mcp-habr.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:10.687756] ingest | hidden-costs-vibe-coded-apps.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:11.721416] ingest | implement-ai-in-qa-process.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:13.971039] ingest | infinite-midwit.md | ok | wiki/infinite-midwit.md
+[2026-06-13T23:17:14.492660] ingest | llm-agents-cicd-cheating-habr.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:15.062788] ingest | llm-testing-6-approaches.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:15.562883] ingest | llms-observability-driven-development.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:16.133738] ingest | monitoring-vibe-coded-apps.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:16.569103] ingest | notion-christina-muehller-outreach-2026-06-10.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:17.209825] ingest | opencode-vs-claude-comparative-test.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:17.865857] ingest | orangehrm-5.4-to-5.8.1-upgrade.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:18.310117] ingest | passmark-ai-regression.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:19.938174] ingest | pbt-llm-code-generation.md | ok | wiki/pbt-llm-code-generation.md
+[2026-06-13T23:17:20.464032] ingest | pipeline-triad-pattern.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:20.918557] ingest | qa-in-the-ai-era.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:21.492465] ingest | qa-prompt-engineering-guide.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:22.120315] ingest | rag-evaluation-ragas.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:23.366617] ingest | rtm-matrix-habr.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:25.113291] ingest | software-testing-with-generative-ai.md | ok | wiki/software-testing-with-generative-ai.md
+[2026-06-13T23:17:25.600592] ingest | splunk-odd-explained.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:26.001585] ingest | trickcatcher-bug-detection.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:26.433070] ingest | vibe-coding-links.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:26.886929] ingest | vibe-coding-vs-spec-driven.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:27.385170] ingest | webtestbench-ai-web-testing.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:29.289802] ingest | winteringham-ch4.md | ok | wiki/winteringham-ch4.md
+[2026-06-13T23:17:30.875355] ingest | winteringham-ch5.md | ok | wiki/winteringham-ch5.md
+[2026-06-13T23:17:32.620160] ingest | winteringham-ch7.md | ok | wiki/winteringham-ch7.md
+[2026-06-13T23:17:34.658975] ingest | winteringham-ch9.md | ok | wiki/winteringham-ch9.md
+[2026-06-13T23:17:35.211542] ingest | winteringham-prompts-readme.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:17:35.685839] ingest | winteringham-prompts.md | error | 429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat
+[2026-06-13T23:18:53.230981] ingest | ad-hoc-testing-guide.md | ok | wiki/ad-hoc-testing-guide.md
+[2026-06-13T23:18:54.696544] ingest | ai-chaos-testing.md | ok | wiki/ai-chaos-testing.md
+[2026-06-13T23:18:57.567741] ingest | ai-qa-exoskeleton-habr.md | ok | wiki/ai-qa-exoskeleton-habr.md
+[2026-06-13T23:18:59.453666] ingest | ai-qa-exoskeleton-launch-habr.md | ok | wiki/ai-qa-exoskeleton-launch-habr.md
+[2026-06-13T23:19:01.000672] ingest | ai-roi-regression-testing.md | ok | wiki/ai-roi-regression-testing.md
+[2026-06-13T23:19:02.920908] ingest | ai-testing-effectiveness-papers.md | ok | wiki/ai-testing-effectiveness-papers.md
+[2026-06-13T23:19:04.950696] ingest | anti-flakiness-habr.md | ok | wiki/anti-flakiness-habr.md
+[2026-06-13T23:19:06.752845] ingest | ap-02-from-chat-to-agent.md | ok | wiki/ap-02-from-chat-to-agent.md
+[2026-06-13T23:19:08.881891] ingest | ap-03-lil-demo.md | ok | wiki/ap-03-lil-demo.md
+[2026-06-13T23:19:10.399659] ingest | ap-04-getting-started.md | ok | wiki/ap-04-getting-started.md
+[2026-06-13T23:19:11.970996] ingest | ap-05-one-agent-one-job.md | ok | wiki/ap-05-one-agent-one-job.md
+[2026-06-13T23:19:24.264360] ingest | ap-06-setting-up-a-folder.md | ok | wiki/ap-06-setting-up-a-folder.md
+[2026-06-13T23:19:25.900822] ingest | ap-07-git.md | ok | wiki/ap-07-git.md
+[2026-06-13T23:19:38.205343] ingest | ap-09-risks.md | ok | wiki/ap-09-risks.md
+[2026-06-13T23:19:50.677015] ingest | arxiv-ai-testing-effectiveness-2026.md | ok | wiki/arxiv-ai-testing-effectiveness-2026.md
+[2026-06-13T23:19:52.463020] ingest | canary-testing-guide.md | ok | wiki/canary-testing-guide.md
+[2026-06-13T23:20:04.487418] ingest | comprehension-debt.md | ok | wiki/comprehension-debt.md
+[2026-06-13T23:20:06.113528] ingest | fullstack-verification-mcp-habr.md | ok | wiki/fullstack-verification-mcp-habr.md
+[2026-06-13T23:20:18.796288] ingest | hidden-costs-vibe-coded-apps.md | ok | wiki/hidden-costs-vibe-coded-apps.md
+[2026-06-13T23:20:20.693913] ingest | implement-ai-in-qa-process.md | ok | wiki/implement-ai-in-qa-process.md
+[2026-06-13T23:20:34.021924] ingest | llm-agents-cicd-cheating-habr.md | ok | wiki/llm-agents-cicd-cheating-habr.md
+[2026-06-13T23:20:46.433413] ingest | llm-testing-6-approaches.md | ok | wiki/llm-testing-6-approaches.md
+[2026-06-13T23:20:48.069003] ingest | llms-observability-driven-development.md | ok | wiki/llms-observability-driven-development.md
+[2026-06-13T23:21:00.844145] ingest | monitoring-vibe-coded-apps.md | ok | wiki/monitoring-vibe-coded-apps.md
+[2026-06-13T23:21:02.414219] ingest | notion-christina-muehller-outreach-2026-06-10.md | ok | wiki/notion-christina-muehller-outreach-2026-06-10.md
+[2026-06-13T23:21:15.675794] ingest | opencode-vs-claude-comparative-test.md | ok | wiki/opencode-vs-claude-comparative-test.md
+[2026-06-13T23:21:28.547667] ingest | orangehrm-5.4-to-5.8.1-upgrade.md | ok | wiki/orangehrm-54-to-581-upgrade.md
+[2026-06-13T23:21:30.614711] ingest | passmark-ai-regression.md | ok | wiki/passmark-ai-regression.md
+[2026-06-13T23:21:32.680217] ingest | pipeline-triad-pattern.md | ok | wiki/pipeline-triad-pattern.md
+[2026-06-13T23:21:45.536886] ingest | qa-in-the-ai-era.md | ok | wiki/qa-in-the-ai-era.md
+[2026-06-13T23:21:47.711947] ingest | qa-prompt-engineering-guide.md | ok | wiki/qa-prompt-engineering-guide.md
+[2026-06-13T23:21:49.665368] ingest | rag-evaluation-ragas.md | ok | wiki/rag-evaluation-ragas.md
+[2026-06-13T23:22:02.191475] ingest | rtm-matrix-habr.md | ok | wiki/rtm-matrix-habr.md
+[2026-06-13T23:22:14.397790] ingest | splunk-odd-explained.md | ok | wiki/splunk-odd-explained.md
+[2026-06-13T23:22:16.636934] ingest | trickcatcher-bug-detection.md | ok | wiki/trickcatcher-bug-detection.md
+[2026-06-13T23:22:18.223417] ingest | vibe-coding-links.md | ok | wiki/vibe-coding-links.md
+[2026-06-13T23:22:31.152825] ingest | vibe-coding-vs-spec-driven.md | ok | wiki/vibe-coding-vs-spec-driven.md
+[2026-06-13T23:22:33.169328] ingest | webtestbench-ai-web-testing.md | ok | wiki/webtestbench-ai-web-testing.md
+[2026-06-13T23:22:34.814358] ingest | winteringham-prompts-readme.md | ok | wiki/winteringham-prompts-readme.md
+[2026-06-13T23:22:47.439497] ingest | winteringham-prompts.md | ok | wiki/winteringham-prompts.md
+[2026-06-13T23:30:59.297794] ask | What is mutation testing? | ok | 
+[2026-06-13T23:52:19.647902] update-index | 101 topics | ok | 
+[2026-06-13T23:52:43.263920] update-index | 101 topics | ok | 
+[2026-06-13T23:54:40.980043] update-index | 101 topics | ok | 
+[2026-06-16T11:51:20.028110] ingest | allure-testops-research-2026.md | ok | wiki/allure-testops-research-2026.md
+[2026-06-16T11:51:30.706181] update-index | 103 topics | ok | 
+[2026-06-16T11:52:47.351550] update-index | 103 topics | ok | 
+[2026-06-16T22:10:53.732137] update-index | 104 topics | ok | 
+[2026-06-16T23:11:52.443534] ingest | openrouter-fusion-multi-model-deliberation-2026.md | error | GROQ_API_KEY not set. Run: export GROQ_API_KEY=$(cat ~/1.groq_ke)
+[2026-06-16T23:12:02.100445] ingest | openrouter-fusion-multi-model-deliberation-2026.md | ok | wiki/openrouter-fusion-multi-model-deliberation-2026.md
+[2026-06-18T17:31:43.076847] ingest | offline-evaluation-trajectories-2026.md | ok | wiki/offline-evaluation-trajectories-2026.md
+[2026-06-18T17:31:56.737392] update-index | 106 topics | ok | 
