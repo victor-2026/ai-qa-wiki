@@ -9,6 +9,14 @@
 
 In February 2024, a Canadian tribunal ordered Air Canada to pay $812.02 because its chatbot invented a bereavement-fare policy that didn't exist. The model wasn't broken — the test plan was. Functional QA (does it respond fast?) is not the same as reliability testing (does it hold the right answers under pressure, novel inputs, and adversarial users?).
 
+### Implementation Order: Integrity First
+
+Rohit Krishna's personal recommendation on implementation priority:
+
+> *"Personally, I'd start with integrity testing — that's exactly what the airline case proves is the most dangerous gap. The chatbot didn't hallucinate randomly, it fabricated a specific policy with confidence."*
+
+This flips the conventional approach: instead of building functional correctness first and adding safety later, **integrity testing (layer 3) should be the first layer implemented in production**. Functional correctness matters, but a functionally correct bot that confidently fabricates policy is a liability, not a product.
+
 ## The 7 Layers
 
 | # | Layer | Question | Tool |
