@@ -114,3 +114,21 @@
 - Notion DB has duplicate tasks (от импорта)
 - `get_opencode_attach()` не работает с Desktop app — IPC порт 63816 не session API
 - Без сессии opencode → только Telegram уведомление
+
+---
+
+## Session 2026-06-27 — 7-Layer LLM Testing Framework
+
+### Что сделано
+- **wiki/7-layer-llm-testing-framework-2026.md** — новая статья (Rohit Krishna, Priceline)
+  - 7 слоёв: Functional Correctness, Consistency, Integrity, Edge Cases, Groundedness (RAG), Regression, Latency/Cost
+  - Custom Integrity Harness (CI gate на 200 строк Python)
+  - 3 техники масштабирования (paraphrase generation, prod transcripts, nightly CI)
+  - Цитата автора: "start with integrity testing first"
+  - Перевод на русский (термины и код — английские)
+- **wiki-topics.json** — обновлён (+1 topic, 63 total)
+
+### Files modified
+- `wiki/7-layer-llm-testing-framework-2026.md` — CREATED (188 lines)
+- `wiki-topics.json` — added topic entry
+- `session-checkpoint.md` — this entry
