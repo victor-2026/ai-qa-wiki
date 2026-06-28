@@ -73,8 +73,8 @@ ingested: "2026-06-29"
 ## Пример реализации (Go)
 
 Полный код 4-уровневого тестирования на Go:
-- `code/ds-ml-testing-go/liquidity/liquidity.go` — алгоритм распределения ликвидности
-- `code/ds-ml-testing-go/liquidity/liquidity_test.go` — тесты (PBT, A/B gate, drift, golden dataset)
+- `code/ds-ml-testing-go/liquidity.go` — алгоритм распределения ликвидности
+- `code/ds-ml-testing-go/liquidity_test.go` — тесты (PBT, A/B gate, drift, golden dataset)
 
 **Запуск:**
 ```bash
