@@ -13,4 +13,4 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: none
+      layout: default
