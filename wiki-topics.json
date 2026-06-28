@@ -325,6 +325,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/linkedin-performance-analyzer-2026.html",
+      "title": "Linkedin Performance Analyzer 2026",
+      "desc": "source: \"linkedin-performance-analyzer-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/llm-agents-cicd-cheating-habr.html",
       "title": "LLM Agents in CI/CD: Why They Choose Cheating Over Problem-Solving",
       "desc": "source: \"llm-agents-cicd-cheating-habr.md\"",
@@ -733,6 +739,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 72,
+  "raw_count": 73,
   "updated": "2026-06-29"
 }
