@@ -160,23 +160,23 @@ func TestBenchmarkPositive(t *testing.T) {
 func analyzerFromCSV(t *testing.T) *Analyzer {
 	t.Helper()
 	// Use an embedded minimal dataset instead of file dependency
-	data := `date,topic,format,impressions,likes,comments,saves,shares,yes_no_edit,notes,url,hashtags
-2026-05-01,Exploratory Testing,post,115,5,0,0,0,n,Test,?,#ExploratoryTesting
-2026-05-13,ISTQB Test Management,article,727,5,0,0,1,n,Test,?,#ISTQB #TestManagement
-2026-05-19,QA Engineer AI Testing,article,2150,8,4,0,1,n,BEST,?,#TestAutomation #GenAItesting
-2026-05-23,SWE-Tester MAS Pipeline,article,336,0,0,0,0,n,LOW,?,#SWETester #MASpipeline
-2026-05-28,From Vibing to Production,article,279,1,0,0,0,n,Test,?,#SoftwareEngineering #AIAgents
-2026-06-01,Cline AI Agent,article,727,0,0,0,1,n,Test,?,#Cline #AIAgent
-2026-06-04,Webwright Experiment,carousel,1436,0,0,0,0,n,Test,?,#Webwright #AITesting
-2026-06-05,OrangeHRM Local,carousel,1533,0,0,0,0,n,Saga,?,#OrangeHRM #Docker
-2026-06-10,KISS Sorcar vs Webwright,article,2150,1,4,1,1,n,BEST,https://lnkd.in/eMsZHr5Q,#KISSSorcar #AIAgents
-2026-06-11,Autonoma deploy story,article,1267,10,2,0,0,n,Hot,https://lnkd.in/eMsZHr5Q,#Autonoma #AIAgents
-2026-06-12,KISS vs Autonoma,article,1102,9,2,0,0,n,Hot,https://lnkd.in/eMsZHr5Q,#AIAgents #Playwright
-2026-06-22,Wrong Thing article,article,2422,0,2,0,0,n,Peak,?,#AIAgents #Testing #Playwright
-2026-06-24,Skills npm,article,224,0,0,0,0,n,Flop,?,#TestAutomation #AIQA
-2026-06-26,AI Fluency article,article,280,0,0,0,0,n,Test,?,#AIInterview #QAEngineer
-2026-06-22,Wrong Thing post,post,2422,0,0,0,0,n,Peak,?,#AIAgents #Testing #Playwright
-2026-06-26,AI Fluency post,post,43,0,0,0,0,n,Low,?,#AIInterview #QAEngineer
+	data := `date,topic,format,impressions,likes,comments,saves,shares,yes_no_edit,notes,url,hashtags,views
+2026-05-01,Exploratory Testing,post,115,5,0,?,0,n,Test,?,#ExploratoryTesting,?
+2026-05-13,ISTQB Test Management,article,727,5,0,?,1,n,Test,?,#ISTQB #TestManagement,?
+2026-05-19,QA Engineer AI Testing,article,2150,8,4,?,1,n,BEST,?,#TestAutomation #GenAItesting,189
+2026-05-23,SWE-Tester MAS Pipeline,article,336,0,0,?,0,n,LOW,?,#SWETester #MASpipeline,?
+2026-05-28,From Vibing to Production,article,279,1,0,?,0,n,Test,?,#SoftwareEngineering #AIAgents,?
+2026-06-01,Cline AI Agent,article,727,0,0,?,1,n,Test,?,#Cline #AIAgent,?
+2026-06-04,Webwright Experiment,carousel,1436,0,0,?,0,n,Test,?,#Webwright #AITesting,?
+2026-06-05,OrangeHRM Local,carousel,1533,0,0,?,0,n,Saga,?,#OrangeHRM #Docker,?
+2026-06-10,KISS Sorcar vs Webwright,article,2150,1,4,?,1,n,BEST,https://lnkd.in/eMsZHr5Q,#KISSSorcar #AIAgents,280
+2026-06-11,Autonoma deploy story,article,1267,10,2,?,0,n,Hot,https://lnkd.in/eMsZHr5Q,#Autonoma #AIAgents,145
+2026-06-12,KISS vs Autonoma,article,1102,9,2,?,0,n,Hot,https://lnkd.in/eMsZHr5Q,#AIAgents #Playwright,130
+2026-06-22,Wrong Thing article,article,2422,0,2,?,0,n,Peak,?,#AIAgents #Testing #Playwright,290
+2026-06-24,Skills npm,article,224,0,0,?,0,n,Flop,?,#TestAutomation #AIQA,12
+2026-06-26,AI Fluency article,article,280,0,0,?,0,n,Test,?,#AIInterview #QAEngineer,22
+2026-06-22,Wrong Thing post,post,2422,0,0,?,0,n,Peak,?,#AIAgents #Testing #Playwright,?
+2026-06-26,AI Fluency post,post,43,0,0,?,0,n,Low,?,#AIInterview #QAEngineer,?
 `
 
 	a, err := ParseCSV(strings.NewReader(data))

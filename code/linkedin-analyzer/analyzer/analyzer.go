@@ -16,6 +16,7 @@ type Post struct {
 	Topic       string
 	Format      string // post, article, carousel, report
 	Impressions int
+	Views       int    // actual opens / article views (separate from impressions)
 	Likes       int
 	Comments    int
 	Saves       int
@@ -24,6 +25,7 @@ type Post struct {
 	URL         string
 	Hashtags    []string
 	Engagement  float64 // likes + comments + saves + shares / impressions
+	ReadRate    float64 // views / impressions (читаемость)
 }
 
 type Analyzer struct {
@@ -83,8 +85,17 @@ func parseRow(row []string) (Post, error) {
 	p.URL = row[10]
 	p.Hashtags = parseHashtags(row[11])
 
+	// views — опциональная колонка (индекс 12)
+	// views — опциональная колонка (индекс 12, после hashtags)
+	if len(row) >= 13 {
+		p.Views = parseInt(row[12])
+	}
+
 	if p.Impressions > 0 {
 		p.Engagement = float64(p.Likes+p.Comments+p.Saves+p.Shares) / float64(p.Impressions)
+		if p.Views > 0 {
+			p.ReadRate = float64(p.Views) / float64(p.Impressions)
+		}
 	}
 	return p, nil
 }
@@ -191,6 +202,8 @@ type FormatStat struct {
 	Format         string
 	Count          int
 	AvgImpressions float64
+	AvgViews       float64
+	AvgReadRate    float64
 	AvgEngagement  float64
 }
 
@@ -203,6 +216,8 @@ func (a *Analyzer) FormatStats() []FormatStat {
 		s := formatMap[p.Format]
 		s.Count++
 		s.AvgImpressions += float64(p.Impressions)
+		s.AvgViews += float64(p.Views)
+		s.AvgReadRate += p.ReadRate
 		s.AvgEngagement += p.Engagement
 	}
 
@@ -210,6 +225,8 @@ func (a *Analyzer) FormatStats() []FormatStat {
 	for _, s := range formatMap {
 		if s.Count > 0 {
 			s.AvgImpressions /= float64(s.Count)
+			s.AvgViews /= float64(s.Count)
+			s.AvgReadRate /= float64(s.Count)
 			s.AvgEngagement /= float64(s.Count)
 		}
 		result = append(result, *s)

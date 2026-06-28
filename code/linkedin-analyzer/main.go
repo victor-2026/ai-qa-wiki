@@ -54,8 +54,16 @@ func main() {
 	// Level 2b: Formats
 	fmt.Printf("\n=== Format Performance ===\n")
 	for _, s := range a.FormatStats() {
-		fmt.Printf("  %-10s avg=%.0f imp, eng=%.4f (%d posts)\n",
-			s.Format, s.AvgImpressions, s.AvgEngagement, s.Count)
+		viewsStr := fmt.Sprintf("avg=%.0f views,", s.AvgViews)
+		if s.AvgViews == 0 {
+			viewsStr = ""
+		}
+		readStr := fmt.Sprintf("read_rate=%.1f%%", s.AvgReadRate*100)
+		if s.AvgReadRate == 0 {
+			readStr = "read_rate=N/A"
+		}
+		fmt.Printf("  %-10s avg=%.0f imp, %s %s, eng=%.4f (%d posts)\n",
+			s.Format, s.AvgImpressions, viewsStr, readStr, s.AvgEngagement, s.Count)
 	}
 
 	// Level 3: Drift
