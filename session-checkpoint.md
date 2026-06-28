@@ -1,3 +1,13 @@
+# Session Checkpoint — 2026-06-28
+
+## Session — Video Capabilities in OpenCode Free
+
+- **New wiki page:** `wiki/video-capabilities-opencode-free.md` — MiMo-V2.5 native omnimodal, TUI vs Desktop distinction, all 19 Go models analyzed, video support matrix
+- **New raw:** `raw/video-capabilities-opencode-free.md` — source version with extended notes
+- **wiki-topics.json updated** — 59 raw entries, Google ToS entry structurally fixed (was outside topics array)
+
+## Previous
+
 # Session Checkpoint — 2026-06-19
 
 ## Notion Kanban + Bot Integration
@@ -132,3 +142,37 @@
 - `wiki/7-layer-llm-testing-framework-2026.md` — CREATED (188 lines)
 - `wiki-topics.json` — added topic entry
 - `session-checkpoint.md` — this entry
+
+---
+
+## Session 2026-06-29 — DS/ML Testing Go Code + LinkedIn Analyzer + Dark Theme
+
+### Что сделано
+- **code/ds-ml-testing-go/** — Go имплементация 4-уровневого DS/ML тестирования:
+  - `liquidity.go` — алгоритм распределения ликвидности (weighted scoring)
+  - `liquidity_test.go` — 11 тестов: PBT (4 invariants), table-driven edges, A/B gate, drift detection, golden dataset
+  - Найден и исправлен баг: NaN при нулевых весах (zero_rating edge case)
+- **code/linkedin-analyzer/** — Go-анализатор LinkedIn-контента с 4-уровневой моделью:
+  - Читает performance-log.csv, проверяет PBT инварианты
+  - Ранжирует хэштеги и форматы по avg impressions
+  - Детектит недельный drift engagement
+  - Вычисляет P50/P90 бенчмарк
+  - Поддерживает CLI: `go run . <csv>`
+- **raw/ds-ml-quality-testing-2026.md** — обновлён (ссылка на code/)
+- **wiki/ds-ml-quality-testing-2026.md** — обновлён (ссылка на code/)
+- **raw/linkedin-performance-analyzer-2026.md** — CREATED
+- **wiki/linkedin-performance-analyzer-2026.md** — CREATED (ingested)
+- **wiki-topics.json** — 123 topics, 73 raw sources
+- **index.html** — dark/light theme via `prefers-color-scheme`
+- **_layouts/default.html** — CREATED (GitHub-dark CSS vars + light fallback)
+- **_config.yml** — `layout: none` → `layout: default`
+
+### Pipeline
+- Avito Test Lead (01.07) — DS/ML + Go gaps покрыты code example
+- NextDay AI (02.07) — формат не известен
+
+### Files modified (29 files total across 3 repos)
+- `ai-qa-wiki/` — 2 code projects, 2 wiki articles, dark theme, config
+- `Positions-CV-CL/catalog/Avito/interview-prep.md` — CREATED (2-day plan)
+- `Case_TL_Avito/raw/` — 9 new answer files pushed
+- `~/.opencode-memory.md` — this entry
