@@ -171,6 +171,12 @@
 - Avito Test Lead (01.07) — DS/ML + Go gaps покрыты code example
 - NextDay AI (02.07) — формат не известен
 
+### Views/ReadRate
+- Добавлена колонка `views` (индекс 12) — реальные открытия статьи/поста
+- read_rate = views / impressions (читаемость)
+- Пока N/A — исторические данные без views. Заполнять из LinkedIn Analytics
+- A/B-вывод: articles дают больше impressions, posts — выше engagement. read_rate покажет правду
+
 ### Files modified (29 files total across 3 repos)
 - `ai-qa-wiki/` — 2 code projects, 2 wiki articles, dark theme, config
 - `Positions-CV-CL/catalog/Avito/interview-prep.md` — CREATED (2-day plan)
