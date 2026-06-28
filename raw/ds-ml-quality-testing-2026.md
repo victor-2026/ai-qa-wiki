@@ -109,9 +109,12 @@ DS-модели принципиально отличаются от детер�
 
 ---
 
+## Пример реализации (Go)
+
+Код проекта с 4-уровневыми тестами: `code/ds-ml-testing-go/` (в этом репозитории)
+
 ## Источники
 
-- Avito playbook: QA-profile (E5 отвечает за DS-качество)
-- Avito raw: Кластер MNZ (алгоритмы распределения ликвидности)
+- Avito playbook: QA-profile (E5 отвечает за DS-качество), кластер MNZ
 - «Testing Machine Learning Systems» — R. Tatineni, 2024
 - Google SRE: Monitoring ML models
