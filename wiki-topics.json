@@ -737,8 +737,44 @@
       "title": "Переход от вайб- к вайп-кодингу: benefits, challenges and risks",
       "desc": "**Sources:** wiki/vibe-wipe-coding-guide.md, raw/vibe-coding-links.md",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testing-maturity-model-tmm-2026.md",
+      "title": "Testing Maturity Model (TMM/TMMi)",
+      "desc": "5 levels of TMMi: Initial → Managed → Defined → Measured → Optimization. Application to team assessment and phased improvement.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/crash-budget-2026.md",
+      "title": "Crash Budget for Mobile Testing",
+      "desc": "Crash budget definition, SLA calculation, CI/CD integration, zones (green/yellow/red/critical), vs Error Budget.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/cp-cpm-pfp-monetization-metrics-2026.md",
+      "title": "CPM/CPC/PFP — Monetization Models for QA",
+      "desc": "CPM (impressions), CPC (clicks), PFP (conversions). QA approach, fraud detection, double-charge testing, attribution.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/detox-basics-2026.md",
+      "title": "Detox Basics for React Native Testing",
+      "desc": "Detox gray-box E2E framework. Playwright→Detox mapping. Config, examples, vs Appium/Maestro, anti-patterns.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-27001-qa-testing-2026.md",
+      "title": "ISO 27001 and QA/Testing",
+      "desc": "ISO/IEC 27001 clauses relevant to QA (A.8.25-A.8.32). Test data management, environment isolation, audit evidence, security testing types, practical preparation.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-25000-square-quality-2026.md",
+      "title": "ISO/IEC 25000 (SQuaRE) — Software Quality Standards",
+      "desc": "ISO/IEC 25010 quality model (8 product + 5 quality-in-use characteristics). SQuaRE family: 25020/25023 (metrics), 25030 (requirements), 25040 (evaluation). Engineering controls mapping, QA implementation steps.",
+      "tag": "Wiki"
     }
   ],
-  "raw_count": 73,
-  "updated": "2026-06-29"
+  "raw_count": 75,
+  "updated": "2026-07-02"
 }
