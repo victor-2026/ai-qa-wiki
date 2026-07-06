@@ -229,6 +229,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/avito-baas-platform-qa-2026.html",
+      "title": "Avito Baas Platform Qa 2026",
+      "desc": "source: \"https://avito.tech/content/pymlyskp41-qa-na-urovne-platformi-kak-mi-stroili-si\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/bdd-ai-native-harness.html",
       "title": "BDD как AI-Native Harness",
       "desc": "SDD (Spec-Driven Development) — популярный подход: агенты пишут спеки → код. Но:",

@@ -271,6 +271,7 @@
   },
   "active": "2845feea48f20a8e",
   "lastOpenFiles": [
+    "wiki/avito-baas-platform-qa-2026.md",
     "wiki/avito-ai-code-review-llm-pipeline-2026.md",
     "raw/Failure Mode and Effects Analysis (FMEA).md",
     "raw/Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md",
@@ -297,7 +298,6 @@
     "wiki/kiss-sorcar-agent.md",
     "wiki/testing-strategies.md",
     "raw/30 question to modern manual QA.md",
-    "wiki/istqb-certifications/ct-ai/testing-ai-specific-qc.md",
     "code/linkedin-analyzer/live-data.csv",
     "code/linkedin-analyzer/full-data.csv",
     "code/linkedin-analyzer/analyzer/analyzer_test.go",
