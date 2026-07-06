@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md",
+                "file": "wiki/avito-baas-platform-qa-2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ошибки, которые снижают охват публикаций в Linkedln на 50-95%"
+              "title": "avito-baas-platform-qa-2026"
             }
           }
         ],
@@ -269,12 +269,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2845feea48f20a8e",
+  "active": "6896cda42cb8c310",
   "lastOpenFiles": [
+    "wiki/ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.md",
     "wiki/avito-baas-platform-qa-2026.md",
     "wiki/avito-ai-code-review-llm-pipeline-2026.md",
-    "raw/Failure Mode and Effects Analysis (FMEA).md",
     "raw/Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md",
+    "raw/Failure Mode and Effects Analysis (FMEA).md",
     "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.md",
     "wiki/obsidian-scam-audit-2026.md",
     "wiki/notebooklm-three-frameworks-scenario.md",
@@ -297,7 +298,6 @@
     "wiki-topics.base",
     "wiki/kiss-sorcar-agent.md",
     "wiki/testing-strategies.md",
-    "raw/30 question to modern manual QA.md",
     "code/linkedin-analyzer/live-data.csv",
     "code/linkedin-analyzer/full-data.csv",
     "code/linkedin-analyzer/analyzer/analyzer_test.go",

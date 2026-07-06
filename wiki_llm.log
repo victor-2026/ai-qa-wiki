@@ -130,3 +130,7 @@
 [2026-07-06T03:11:22.628860] update-index | 146 topics | ok | 
 [2026-07-06T03:45:27.725000] update-index | 147 topics | ok | 
 [2026-07-06T03:47:52.925646] update-index | 148 topics | ok | 
+[2026-07-06T03:49:37.952453] ingest | Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md | ok | wiki/ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.md
+[2026-07-06T03:49:43.437945] update-index | 149 topics | ok | 
+[2026-07-06T03:49:45.955938] git-push | chore(wiki): update index | ok | 
+[2026-07-06T04:00:03.422089] sync-links | 149 pages | ok | 

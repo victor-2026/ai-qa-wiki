@@ -11,6 +11,8 @@ Usage:
     python3 wiki_llm.py --ingest <file> --model groq/llama-3.3-70b  — Use specific model
     python3 wiki_llm.py --update-index                   — Regenerate wiki-topics.json
     python3 wiki_llm.py --update-index --git-push        — Regenerate + push to GitHub
+    python3 wiki_llm.py --sync-links                     — Rebuild all backlinks across wiki
+    python3 wiki_llm.py --sync-links --git-push          — Sync links + push
 
 Models (cost per 1M tokens):
   openai/gpt-oss-120b     $0.15/$0.60 — cheap, good for ingest (DEFAULT)
@@ -21,6 +23,8 @@ Models (cost per 1M tokens):
 import os
 import sys
 import re
+import json
+import time
 from pathlib import Path
 from datetime import datetime
 
@@ -33,12 +37,18 @@ WIKI_DIR = PROJECT_DIR / "wiki"
 OUTPUTS_DIR = PROJECT_DIR / "outputs"
 LOG_FILE = PROJECT_DIR / "wiki_llm.log"
 
+# Backlinks section markers (managed by script, do not edit manually)
+BACKLINK_HEADING = "### Backlinks"
+BACKLINK_MARKER_START = "<!-- backlinks-start -->"
+BACKLINK_MARKER_END = "<!-- backlinks-end -->"
+
 SYSTEM_PROMPT_INGEST = """You are a knowledge curator for an AI Testing and QA wiki.
 Read the source material and produce a well-structured wiki article.
 Write in the same language as the source.
-Include: summary, key concepts, practical applications, related topics.
+Include: summary, key concepts, practical applications.
 Format: clean markdown with sections. Max 500 words.
-Do not repeat content verbatim — synthesize and organize."""
+Do not repeat content verbatim — synthesize and organize.
+At the end, add a "### See also" section with wiki-style links to related pages if any are provided below."""
 
 SYSTEM_PROMPT_ASK = """You are an expert in AI Testing and QA.
 Answer based on the provided wiki context.
@@ -76,7 +86,7 @@ def ask_llm(prompt: str, system_prompt: str = SYSTEM_PROMPT_INGEST, temperature:
     return resp.json()["choices"][0]["message"]["content"]
 
 
-def find_relevant_files(query: str, top_n: int = 3) -> list:
+def find_relevant_files(query: str, top_n: int = 5) -> list:
     keywords = query.lower().split()
     scores = {}
     for f in list(WIKI_DIR.glob("*.md")):
@@ -89,6 +99,106 @@ def find_relevant_files(query: str, top_n: int = 3) -> list:
             pass
     sorted_files = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     return [f for f, _ in sorted_files[:top_n]]
+
+
+def wiki_page_summary(path: Path) -> dict:
+    """Extract title and short description from a wiki page."""
+    content = path.read_text(encoding="utf-8", errors="ignore")
+    title = ""
+    desc = ""
+    for line in content.split("\n"):
+        s = line.strip()
+        if line.startswith("# ") and not title:
+            title = line.lstrip("# ").strip()
+        if not desc and s and not s.startswith("#") and not s.startswith("---") and not s.startswith("*"):
+            desc = s[:150]
+    if not title:
+        title = path.stem.replace("-", " ").replace("_", " ").title()
+    return {"path": path, "stem": path.stem, "title": title, "desc": desc}
+
+
+def find_related_wiki_pages(source_text: str, exclude_stem: str = "", max_n: int = 5) -> list:
+    """Find existing wiki pages related to source text by keyword matching."""
+    words = re.findall(r'\b[a-zа-яё]{4,}\b', source_text.lower())
+    stop_words = {
+        "this", "that", "with", "from", "have", "been", "will", "they", "their",
+        "what", "which", "when", "where", "about", "into", "than", "then",
+        "also", "more", "some", "such", "only", "other", "over", "very", "just",
+        "these", "those", "after", "before", "should", "could", "would",
+        "there", "them", "each", "much", "many", "most", "your", "like",
+    }
+    word_freq = {}
+    for w in words:
+        if w not in stop_words:
+            word_freq[w] = word_freq.get(w, 0) + 1
+
+    top_keywords = [w for w, _ in sorted(word_freq.items(), key=lambda x: x[1], reverse=True)[:20]]
+    if not top_keywords:
+        return []
+
+    query = " ".join(top_keywords)
+    relevant = find_relevant_files(query, top_n=max_n)
+
+    result = []
+    for f in relevant:
+        if exclude_stem and f.stem.lower() == exclude_stem.lower():
+            continue
+        result.append(wiki_page_summary(f))
+
+    return result
+
+
+def get_backlinks_content(page_path: Path) -> str:
+    """Generate the backlinks section content for a page, scanning all other wiki pages for links to it."""
+    links = []
+    page_ref = f"(wiki/{page_path.name})"
+    for f in sorted(WIKI_DIR.glob("*.md")):
+        if f.name == page_path.name:
+            continue
+        content = f.read_text(encoding="utf-8", errors="ignore")
+        if page_ref in content:
+            info = wiki_page_summary(f)
+            links.append(f"- [{info['title']}](wiki/{f.name})")
+    if not links:
+        return ""
+    return f"\n\n{BACKLINK_MARKER_START}\n{BACKLINK_HEADING}\n" + "\n".join(sorted(links)) + f"\n{BACKLINK_MARKER_END}\n"
+
+
+def update_backlinks_for_page(page_path: Path):
+    """Rebuild the backlinks section for a single page."""
+    content = page_path.read_text(encoding="utf-8")
+    new_backlinks = get_backlinks_content(page_path)
+
+    # Remove existing backlinks section
+    cleaned = content
+    if BACKLINK_MARKER_START in cleaned:
+        before = cleaned[:cleaned.index(BACKLINK_MARKER_START)]
+        after_idx = cleaned.index(BACKLINK_MARKER_END) + len(BACKLINK_MARKER_END)
+        after = cleaned[after_idx:]
+        cleaned = before + after
+
+    if new_backlinks:
+        # Insert before the generated footer
+        gen_footer = "\n---\n*Generated by"
+        if gen_footer in cleaned:
+            insert_pos = cleaned.rfind(gen_footer)
+            cleaned = cleaned[:insert_pos] + new_backlinks + cleaned[insert_pos:]
+        else:
+            cleaned += new_backlinks
+
+    page_path.write_text(cleaned, encoding="utf-8")
+
+
+def sync_all_backlinks():
+    """Rebuild backlinks for all wiki pages."""
+    pages = sorted(WIKI_DIR.glob("*.md"))
+    print(f"🔗 Syncing backlinks for {len(pages)} pages...")
+    count = 0
+    for p in pages:
+        update_backlinks_for_page(p)
+        count += 1
+    print(f"✅ Backlinks synced for {count} pages")
+    log_run("sync-links", f"{count} pages", "ok")
 
 
 def build_context(files: list, max_chars: int = 4000) -> str:
@@ -146,6 +256,18 @@ def ingest_file(raw_path: Path, model: str = ""):
     if len(source_text) > 8000:
         source_text = source_text[:8000] + "\n\n[...truncated]"
 
+    # Find related wiki pages for cross-linking context
+    exclude_stem = raw_to_wiki_name(raw_path)
+    related = find_related_wiki_pages(source_text, exclude_stem=exclude_stem)
+    crosslink_context = ""
+    if related:
+        crosslink_context = "\n### Related wiki pages — link to them in a 'See also' section:\n"
+        for r in related:
+            crosslink_context += f"- `wiki/{r['stem']}.md` — {r['title']}: {r['desc'][:100]}\n"
+        print(f"🔗 Found {len(related)} related pages for cross-linking")
+    else:
+        print("🔗 No related wiki pages found")
+
     prompt = f"""Transform the following source material into a well-structured wiki article.
 
 Source: {raw_path.name}
@@ -153,10 +275,10 @@ Source: {raw_path.name}
 Content:
 {source_text}
 
-Produce: summary, key concepts, practical applications, related topics.
-Format as clean markdown."""
+Produce: summary, key concepts, practical applications.
+Format as clean markdown with sections.
+At the end, add a "### See also" section with wiki-style links to related pages listed below.{crosslink_context}"""
 
-    import time
     for attempt in range(3):
         print(f"🤖 Generating wiki article...")
         try:
@@ -172,10 +294,6 @@ Format as clean markdown."""
                 log_run("ingest", raw_path.name, "error", str(e))
                 return None
 
-    wiki_name = raw_to_wiki_name(raw_path) + ".md"
-    wiki_path = WIKI_DIR / wiki_name
-
-    # Add frontmatter
     content = f"""---
 source: "{raw_path.name}"
 ingested: "{datetime.now().strftime('%Y-%m-%d')}"
@@ -190,6 +308,14 @@ ingested: "{datetime.now().strftime('%Y-%m-%d')}"
     wiki_path.write_text(content, encoding="utf-8")
     print(f"✅ Saved to: wiki/{wiki_name}")
     log_run("ingest", raw_path.name, "ok", f"wiki/{wiki_name}")
+
+    # Add backlinks to related pages
+    if related:
+        update_backlinks_for_page(wiki_path)
+        for r in related:
+            update_backlinks_for_page(r["path"])
+        print(f"🔗 Backlinks updated for {len(related)} related page(s)")
+
     return wiki_path
 
 
@@ -258,18 +384,20 @@ def ingest_all(model: str = ""):
 
     print(f"\n🔄 Processing {len(missing)} raw files...")
     ok, fail = 0, 0
+    ingested_paths = []
     for f in missing:
-        if ingest_file(f, model):
+        result = ingest_file(f, model)
+        if result:
             ok += 1
+            ingested_paths.append(result)
         else:
             fail += 1
     print(f"\n✅ {ok} ingested, ❌ {fail} failed")
+    log_run("ingest-all", f"{ok} ok, {fail} fail", "ok")
 
 
 def update_index():
     """Scan wiki/ and raw/ → generate wiki-topics.json for index.html"""
-    import json
-
     topics = []
     for f in sorted(WIKI_DIR.glob("*.md")):
         content = f.read_text(encoding="utf-8", errors="ignore")
@@ -348,6 +476,13 @@ def main():
 
     if args[0] == "--missing":
         list_missing()
+        return
+
+    if args[0] == "--sync-links":
+        sync_all_backlinks()
+        if git_push_flag:
+            update_index()
+            git_push(["wiki/", "wiki-topics.json"], "chore(wiki): sync backlinks")
         return
 
     if args[0] == "--ingest-all":
