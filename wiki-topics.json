@@ -223,6 +223,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/avito-ai-code-review-llm-pipeline-2026.html",
+      "title": "Avito Ai Code Review Llm Pipeline 2026",
+      "desc": "source: \"https://habr.com/ru/companies/avito/articles/1024954/\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/bdd-ai-native-harness.html",
       "title": "BDD как AI-Native Harness",
       "desc": "SDD (Spec-Driven Development) — популярный подход: агенты пишут спеки → код. Но:",
@@ -877,6 +883,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 79,
+  "raw_count": 80,
   "updated": "2026-07-06"
 }

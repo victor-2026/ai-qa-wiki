@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Failure Mode and Effects Analysis (FMEA)"
             }
+          },
+          {
+            "id": "6896cda42cb8c310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Ошибки, которые снижают охват публикаций в Linkedln на 50-95%"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -247,6 +271,9 @@
   },
   "active": "2845feea48f20a8e",
   "lastOpenFiles": [
+    "wiki/avito-ai-code-review-llm-pipeline-2026.md",
+    "raw/Failure Mode and Effects Analysis (FMEA).md",
+    "raw/Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md",
     "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.md",
     "wiki/obsidian-scam-audit-2026.md",
     "wiki/notebooklm-three-frameworks-scenario.md",
@@ -261,7 +288,6 @@
     "wiki/30questiontomodernmanualqa.md",
     "wiki/failuremodeandeffectsanalysisfmea.md",
     "raw/antigravity-benchmark.md",
-    "raw/Failure Mode and Effects Analysis (FMEA).md",
     "wiki/mobile-testing-windows-server-setup-2026.md",
     "raw/mobile-testing-windows-server-setup-2026.md",
     "wiki/mobile-testing-infrastructure-parallel-2026.md",
@@ -272,8 +298,6 @@
     "wiki/testing-strategies.md",
     "raw/30 question to modern manual QA.md",
     "wiki/istqb-certifications/ct-ai/testing-ai-specific-qc.md",
-    "wiki/ds-ml-quality-testing-2026.md",
-    "raw/iso-27001-qa-testing-2026.md",
     "code/linkedin-analyzer/live-data.csv",
     "code/linkedin-analyzer/full-data.csv",
     "code/linkedin-analyzer/analyzer/analyzer_test.go",
