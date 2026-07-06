@@ -7,6 +7,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/30questiontomodernmanualqa.html",
+      "title": "AI‑Enhanced Manual QA – Interview Framework",
+      "desc": "source: \"30 question to modern manual QA.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/7-layer-llm-testing-framework-2026.html",
       "title": "7-Layer Testing Framework for Public-Facing LLMs",
       "desc": "**Источник:** Rohit Krishna (Engineering Manager @ Priceline, Applied AI)",
@@ -88,6 +94,12 @@
       "file": "wiki/ai-fluency-interview-2026.html",
       "title": "AI Fluency: The New Interview Standard",
       "desc": "**Date:** 2026-06-25",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ai-fluency-interview-reform-2026.html",
+      "title": "Ai Fluency Interview Reform 2026",
+      "desc": "source: \"ai-fluency-interview-reform-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -176,8 +188,8 @@
     },
     {
       "file": "wiki/antigravity-benchmark.html",
-      "title": "Сравнение: OpenCode vs Antigravity",
-      "desc": "**Antigravity** (модель ?) — 24-25 мая, новый профиль macOS, 2 дня бесплатного доступа. Создала `login_test.go` (188 стр",
+      "title": "Сравнение: OpenCode vs Antigravity (Go migration)",
+      "desc": "**Antigravity** (неизвестная модель, новый профиль macOS) — 24-25 мая 2026, 2 дня бесплатного доступа:",
       "tag": "Wiki"
     },
     {
@@ -241,9 +253,39 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/consumer-drivencontracttestingpost.html",
+      "title": "Consumer‑Driven Contract Testing",
+      "desc": "source: \"Consumer-driven contract testing (post).md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/context-loss-orchestration-separation-2026.html",
+      "title": "Context Loss Orchestration Separation 2026",
+      "desc": "source: \"context-loss-orchestration-separation-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/cp-cpm-pfp-monetization-metrics-2026.html",
+      "title": "CPM/CPC/PFP — Модели Монетизации для QA",
+      "desc": "Три основные модели монетизации в классифайдах и рекламных платформах. QA-подход к каждой — разный.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/crash-budget-2026.html",
+      "title": "Crash Budget для Mobile Testing",
+      "desc": "**Crash budget** — метрика качества мобильного приложения. Определяет максимально допустимый процент крашей (crash rate)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/desktop-ai-agents-2026.html",
       "title": "Десктопные AI-агенты для кода (2026)",
       "desc": "**Источник:** `raw/desktop-ai-agents-2026.md` (полный обзор)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/detox-basics-2026.html",
+      "title": "Detox Basics for React Native Testing",
+      "desc": "**Detox** — gray-box E2E testing framework для React Native от Wix. Внедряется в RN runtime, мониторит JS thread, ждёт i",
       "tag": "Wiki"
     },
     {
@@ -253,9 +295,27 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/failuremodeandeffectsanalysisfmea.html",
+      "title": "Failuremodeandeffectsanalysisfmea",
+      "desc": "source: \"Failure Mode and Effects Analysis (FMEA).md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/feature-flags-guide.html",
       "title": "Feature Flags",
       "desc": "source: \"feature-flags-guide.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/free-ai-services-2026-artem-subbotin.html",
+      "title": "Free Ai Services 2026 Artem Subbotin",
+      "desc": "source: \"free-ai-services-2026-artem-subbotin.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/free-ai-services-list-2026.html",
+      "title": "Free Ai Services List 2026",
+      "desc": "source: \"free-ai-services-list-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -283,9 +343,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/hack-n-vibe-bitgn-pac1-agent.html",
+      "title": "Hack N Vibe Bitgn Pac1 Agent",
+      "desc": "source: \"hack-n-vibe-bitgn-pac1-agent.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/hidden-costs-vibe-coded-apps.html",
       "title": "The Hidden Costs of Vibe-Coded Apps",
       "desc": "source: \"hidden-costs-vibe-coded-apps.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/how-to-tell-if-tests-are-testing-anything-autonoma.html",
+      "title": "How To Tell If Tests Are Testing Anything Autonoma",
+      "desc": "source: \"how-to-tell-if-tests-are-testing-anything-autonoma.md\"",
       "tag": "Wiki"
     },
     {
@@ -310,6 +382,18 @@
       "file": "wiki/infinite-midwit.html",
       "title": "Infinite Midwit",
       "desc": "source: \"infinite-midwit.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-25000-square-quality-2026.html",
+      "title": "ISO/IEC 25000 (SQuaRE) — Software Quality Standards",
+      "desc": "ISO/IEC 25000 (SQuaRE — Software product Quality Requirements and Evaluation) — международная система стандартов для оце",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-27001-qa-testing-2026.html",
+      "title": "ISO 27001 and QA/Testing",
+      "desc": "ISO/IEC 27001 is the international standard for Information Security Management Systems (ISMS). For QA professionals, th",
       "tag": "Wiki"
     },
     {
@@ -349,6 +433,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/maestro-vs-appium-2026.html",
+      "title": "Maestro Vs Appium 2026",
+      "desc": "| | **Maestro** | **Appium** |",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/mas-risks.html",
       "title": "MAS-Pipeline Риски",
       "desc": "**Sources:** AGENTS.md, three-way-comparison.md, mas-vs-swe-comparison.md",
@@ -373,6 +463,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/mobile-testing-infrastructure-parallel-2026.html",
+      "title": "Mobile Testing Infrastructure: Parallel Mac + Windows",
+      "desc": "| Tool | MCP | Remote Server | Agent Mode |",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/mobile-testing-windows-server-setup-2026.html",
+      "title": "Windows Server: Mobile Testing Setup",
+      "desc": "**Target:** PC-224 (192.168.1.224, Win 10 Pro, 64GB, ZeroTier 10.24.175.30)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/monitoring-observability.html",
       "title": "Monitoring & Observability for AI Systems",
       "desc": "**Sources:** raw/monitoring-vibe-coded-apps, raw/llms-observability-driven-development, raw/splunk-odd-explained",
@@ -385,6 +487,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/mutation-testing-vs-code-coverage-autonoma.html",
+      "title": "Mutation Testing Vs Code Coverage Autonoma",
+      "desc": "source: \"mutation-testing-vs-code-coverage-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/mutationtestingplaywrightfront-end.html",
       "title": "Mutationtestingplaywrightfront End",
       "desc": "source: \"Mutation Testing Playwright Front-End.md\"",
@@ -394,6 +502,12 @@
       "file": "wiki/notebooklm-playbook-analysis.html",
       "title": "SOP: Mutation Testing",
       "desc": "| NotebookLM | Наш аналог | Статус |",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/notebooklm-three-frameworks-scenario.html",
+      "title": "Notebooklm Three Frameworks Scenario",
+      "desc": "source: \"notebooklm-three-frameworks-scenario.md\"",
       "tag": "Wiki"
     },
     {
@@ -418,6 +532,12 @@
       "file": "wiki/notion-kanban-bot-setup-2026.html",
       "title": "Notion Kanban + Bot Integration Setup",
       "desc": "**Дата:** 2026-06-19",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/obsidian-scam-audit-2026.html",
+      "title": "Obsidian Scam Audit 2026",
+      "desc": "source: \"obsidian-scam-audit-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -565,6 +685,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.html",
+      "title": "Rinat Abdullin Bdd Vs Sdd Ai Native Harness",
+      "desc": "source: \"rinat-abdullin-bdd-vs-sdd-ai-native-harness.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/risk-based-testing-skill.html",
       "title": "Risk Based Testing Skill",
       "desc": "(by Daniel Webb via LinkedIn)",
@@ -637,6 +763,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/testing-maturity-model-tmm-2026.html",
+      "title": "Testing Maturity Model (TMM/TMMi)",
+      "desc": "TMM (Testing Maturity Model) — модель оценки зрелости процессов тестирования, аналогичная CMM для разработки. TMMi (Test",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/testing-stability.html",
       "title": "Test Stability & Anti-Flakiness",
       "desc": "**Sources:** raw/anti-flakiness-habr.md",
@@ -670,6 +802,12 @@
       "file": "wiki/trickcatcher-bug-detection.html",
       "title": "TrickCatcher: LLM-Powered Bug Detection in Plausible Programs",
       "desc": "source: \"trickcatcher-bug-detection.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/vector-databases-fintech-2026.html",
+      "title": "Vector Databases in Fintech",
+      "desc": "Vector databases store data as high-dimensional embeddings and retrieve them by semantic similarity rather than exact fi",
       "tag": "Wiki"
     },
     {
@@ -737,44 +875,8 @@
       "title": "Переход от вайб- к вайп-кодингу: benefits, challenges and risks",
       "desc": "**Sources:** wiki/vibe-wipe-coding-guide.md, raw/vibe-coding-links.md",
       "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-maturity-model-tmm-2026.md",
-      "title": "Testing Maturity Model (TMM/TMMi)",
-      "desc": "5 levels of TMMi: Initial → Managed → Defined → Measured → Optimization. Application to team assessment and phased improvement.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/crash-budget-2026.md",
-      "title": "Crash Budget for Mobile Testing",
-      "desc": "Crash budget definition, SLA calculation, CI/CD integration, zones (green/yellow/red/critical), vs Error Budget.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/cp-cpm-pfp-monetization-metrics-2026.md",
-      "title": "CPM/CPC/PFP — Monetization Models for QA",
-      "desc": "CPM (impressions), CPC (clicks), PFP (conversions). QA approach, fraud detection, double-charge testing, attribution.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/detox-basics-2026.md",
-      "title": "Detox Basics for React Native Testing",
-      "desc": "Detox gray-box E2E framework. Playwright→Detox mapping. Config, examples, vs Appium/Maestro, anti-patterns.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-27001-qa-testing-2026.md",
-      "title": "ISO 27001 and QA/Testing",
-      "desc": "ISO/IEC 27001 clauses relevant to QA (A.8.25-A.8.32). Test data management, environment isolation, audit evidence, security testing types, practical preparation.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-25000-square-quality-2026.md",
-      "title": "ISO/IEC 25000 (SQuaRE) — Software Quality Standards",
-      "desc": "ISO/IEC 25010 quality model (8 product + 5 quality-in-use characteristics). SQuaRE family: 25020/25023 (metrics), 25030 (requirements), 25040 (evaluation). Engineering controls mapping, QA implementation steps.",
-      "tag": "Wiki"
     }
   ],
-  "raw_count": 75,
-  "updated": "2026-07-02"
+  "raw_count": 79,
+  "updated": "2026-07-06"
 }

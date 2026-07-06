@@ -1,3 +1,19 @@
+# Session Checkpoint — 2026-07-06
+
+## Session 68 — FMEA Wiki Article (AI-Augmented)
+
+- **Ingested:** `raw/Failure Mode and Effects Analysis (FMEA).md` → `wiki/failuremodeandeffectsanalysisfmea.md`
+- **Web-augmented:** добавил DFMEA/PFMEA/SFMEA/FFMEA, AIAG-VDA Action Priority, 7-шаговую методологию, историю (MIL-STD-1629 → NASA → Automotive), 6 AI-инструментов 2026 (Omnex O-BOT, Qhubio, QDES, FMEA Tool, AI-FMEA, Factory AI), кейсы automotive (-40% defects) и healthcare (-25% errors)
+- **wiki-topics.json:** 134 topics, 79 raw sources (обновлён)
+- **12 raw файлов ещё не обработаны** — ожидают `--ingest-all`
+
+### 12 raw → wiki ✅
+- All 12 ingested via `wiki_llm.py --ingest-all` (0 failed, 2 rate limit pauses)
+- wiki-topics.json: 134→146 topics, 79 raw sources
+- Новые wiki-статьи: 30 вопросов manual QA, Consumer-driven contract testing, AI-fluency interview reform, Context-loss orchestration, Free AI services (2 статьи), Hack'n'Vibe BitGN PAC1, Autonoma test validation, Mutation testing vs code coverage, NotebookLM frameworks, Obsidian scam audit, Rinat Abdullin BDD vs SDD
+
+---
+
 # Session Checkpoint — 2026-06-28
 
 ## Session — Video Capabilities in OpenCode Free

@@ -106,3 +106,25 @@
 [2026-06-16T23:12:02.100445] ingest | openrouter-fusion-multi-model-deliberation-2026.md | ok | wiki/openrouter-fusion-multi-model-deliberation-2026.md
 [2026-06-18T17:31:43.076847] ingest | offline-evaluation-trajectories-2026.md | ok | wiki/offline-evaluation-trajectories-2026.md
 [2026-06-18T17:31:56.737392] update-index | 106 topics | ok | 
+[2026-06-29T01:26:25.460747] ingest | ds-ml-quality-testing-2026.md | ok | wiki/ds-ml-quality-testing-2026.md
+[2026-06-29T01:26:25.460748] ingest | go-testing-for-qa-2026.md | ok | wiki/go-testing-for-qa-2026.md
+[2026-06-29T01:26:31.566850] update-index | 122 topics | ok | 
+[2026-06-29T01:56:49.253138] ingest | linkedin-performance-analyzer-2026.md | ok | wiki/linkedin-performance-analyzer-2026.md
+[2026-06-29T01:56:56.486833] update-index | 123 topics | ok | 
+[2026-07-05T21:56:12.609358] update-index | 132 topics | ok | 
+[2026-07-05T22:05:06.594145] update-index | 133 topics | ok | 
+[2026-07-06T03:05:26.681705] ingest | Failure Mode and Effects Analysis (FMEA).md | ok | wiki/failuremodeandeffectsanalysisfmea.md
+[2026-07-06T03:07:44.186936] update-index | 134 topics | ok | 
+[2026-07-06T03:08:42.757657] ingest | 30 question to modern manual QA.md | ok | wiki/30questiontomodernmanualqa.md
+[2026-07-06T03:08:45.194113] ingest | Consumer-driven contract testing (post).md | ok | wiki/consumer-drivencontracttestingpost.md
+[2026-07-06T03:08:58.767397] ingest | ai-fluency-interview-reform-2026.md | ok | wiki/ai-fluency-interview-reform-2026.md
+[2026-07-06T03:09:11.850232] ingest | context-loss-orchestration-separation-2026.md | ok | wiki/context-loss-orchestration-separation-2026.md
+[2026-07-06T03:09:25.194492] ingest | free-ai-services-2026-artem-subbotin.md | ok | wiki/free-ai-services-2026-artem-subbotin.md
+[2026-07-06T03:09:58.771840] ingest | free-ai-services-list-2026.md | ok | wiki/free-ai-services-list-2026.md
+[2026-07-06T03:10:01.551241] ingest | hack-n-vibe-bitgn-pac1-agent.md | ok | wiki/hack-n-vibe-bitgn-pac1-agent.md
+[2026-07-06T03:10:14.193485] ingest | how-to-tell-if-tests-are-testing-anything-autonoma.md | ok | wiki/how-to-tell-if-tests-are-testing-anything-autonoma.md
+[2026-07-06T03:10:26.907271] ingest | mutation-testing-vs-code-coverage-autonoma.md | ok | wiki/mutation-testing-vs-code-coverage-autonoma.md
+[2026-07-06T03:11:00.822103] ingest | notebooklm-three-frameworks-scenario.md | ok | wiki/notebooklm-three-frameworks-scenario.md
+[2026-07-06T03:11:13.207768] ingest | obsidian-scam-audit-2026.md | ok | wiki/obsidian-scam-audit-2026.md
+[2026-07-06T03:11:15.801591] ingest | rinat-abdullin-bdd-vs-sdd-ai-native-harness.md | ok | wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.md
+[2026-07-06T03:11:22.628860] update-index | 146 topics | ok | 

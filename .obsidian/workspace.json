@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80412501b8099a29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-notes/People name AI agents based on the specific \"vibe\" or function they want the system to project.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "People name AI agents based on the specific \"vibe\" or function they want the system to project"
-            }
-          },
-          {
             "id": "b5bf803c8f83f0c7",
             "type": "leaf",
             "state": {
@@ -56,108 +32,12 @@
             }
           },
           {
-            "id": "79e189e9e25bf451",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-notes/Euro-Office -  open source офисный редактор.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Euro-Office -  open source офисный редактор"
-            }
-          },
-          {
-            "id": "35e6ae8488e6a681",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/Agents-discussion-300526.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Agents-discussion-300526"
-            }
-          },
-          {
-            "id": "27f3d3bb7e1b7d72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/ad-hoc-testing-guide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ad-hoc-testing-guide"
-            }
-          },
-          {
-            "id": "ae5e42d3ce671e25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/30 question to modern manual QA.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "30 question to modern manual QA"
-            }
-          },
-          {
             "id": "1554ff8404b643fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/kiss-sorcar-agent.md",
+                "file": "raw/antigravity-benchmark.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "kiss-sorcar-agent"
+              "title": "antigravity-benchmark"
+            }
+          },
+          {
+            "id": "2026ae4a1db759ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Failure Mode and Effects Analysis (FMEA).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Failure Mode and Effects Analysis (FMEA)"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -343,45 +247,45 @@
   },
   "active": "2845feea48f20a8e",
   "lastOpenFiles": [
-    "wiki/7-layer-llm-testing-framework-2026.md",
-    "wiki/30-ai-questions-manual-qa-2026.md",
-    "raw/ad-hoc-testing-guide.md",
-    "raw/30 question to modern manual QA.md",
-    "wiki/ai-fluency-interview-2026.md",
-    "raw/ai-fluency-interview-reform-2026.md",
-    "wiki/improvements-from-bugs.md",
+    "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.md",
+    "wiki/obsidian-scam-audit-2026.md",
+    "wiki/notebooklm-three-frameworks-scenario.md",
+    "wiki/mutation-testing-vs-code-coverage-autonoma.md",
+    "wiki/how-to-tell-if-tests-are-testing-anything-autonoma.md",
+    "wiki/hack-n-vibe-bitgn-pac1-agent.md",
+    "wiki/free-ai-services-list-2026.md",
+    "wiki/free-ai-services-2026-artem-subbotin.md",
+    "wiki/context-loss-orchestration-separation-2026.md",
+    "wiki/ai-fluency-interview-reform-2026.md",
+    "wiki/consumer-drivencontracttestingpost.md",
+    "wiki/30questiontomodernmanualqa.md",
+    "wiki/failuremodeandeffectsanalysisfmea.md",
+    "raw/antigravity-benchmark.md",
+    "raw/Failure Mode and Effects Analysis (FMEA).md",
+    "wiki/mobile-testing-windows-server-setup-2026.md",
+    "raw/mobile-testing-windows-server-setup-2026.md",
+    "wiki/mobile-testing-infrastructure-parallel-2026.md",
+    "raw/mobile-testing-infrastructure-parallel-2026.md",
+    "wiki/antigravity-benchmark.md",
     "wiki-topics.base",
-    "session-checkpoint.md",
-    "raw/trickcatcher-bug-detection.md",
-    "wiki/anton-gulin-3-layer-ai-qa-architecture.md",
-    "wiki/opencode-skill-creator.md",
-    "wiki/people/anton-gulin.md",
-    "raw/Consumer-driven contract testing (post).md",
-    "wiki/obsidian-security-checklist.md",
-    "raw/obsidian-scam-audit-2026.md",
-    "wiki/video-capabilities-opencode-free.md",
-    "raw/video-capabilities-opencode-free.md",
-    "wiki/google-tos-2026-restrictions.md",
-    "wiki/post-about-contract-testing-guide.md",
+    "wiki/kiss-sorcar-agent.md",
+    "wiki/testing-strategies.md",
+    "raw/30 question to modern manual QA.md",
+    "wiki/istqb-certifications/ct-ai/testing-ai-specific-qc.md",
+    "wiki/ds-ml-quality-testing-2026.md",
+    "raw/iso-27001-qa-testing-2026.md",
+    "code/linkedin-analyzer/live-data.csv",
+    "code/linkedin-analyzer/full-data.csv",
+    "code/linkedin-analyzer/analyzer/analyzer_test.go",
+    "code/linkedin-analyzer/analyzer/analyzer.go",
+    "code/linkedin-analyzer/analyzer",
+    "code/linkedin-analyzer/main.go",
+    "code/linkedin-analyzer/analyzer_test.go",
+    "code/linkedin-analyzer/analyzer.go",
+    "code/linkedin-analyzer/go.mod",
     "Pasted image 20260622115842.png",
-    "raw/Agents-discussion-300526.md",
-    "README.md",
-    "glossary.base",
-    "raw/how-to-tell-if-tests-are-testing-anything-autonoma.md",
-    "raw/mutation-testing-vs-code-coverage-autonoma.md",
-    "daily-notes/Euro-Office -  open source офисный редактор.md",
-    "wiki/Mutation-testing-without-code.md",
-    "raw/context-loss-orchestration-separation-2026.md",
     "Pasted image 20260430023644.png",
     "MindMap-AI-driven-QE.png",
-    "model-reviews.base",
-    "wiki/people",
-    "raw/hacks_ru.pdf",
-    "wiki-topics.json",
-    "not-for-wiki/software-testing-with-generative-ai/raw2",
-    "not-for-wiki",
-    "robots.txt",
-    "_config.yml",
     "daily-notes/1750881936543.jpeg",
     "daily-notes/Perplexity опубликовали внутреннее руководство по созданию навыков для агентов_files/profile.webp"
   ]

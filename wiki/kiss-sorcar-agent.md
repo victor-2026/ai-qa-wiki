@@ -12,17 +12,17 @@ Open-source AI software engineering agent, который бьёт Cursor и Cla
 
 ## Ключевые возможности
 
-| Фича | Детали |
-|------|--------|
-| **Browser Automation** | Chromium + Playwright из коробки |
-| **Git Worktree Isolation** | Каждая задача в своей ветке, main untouched |
-| **fix-run-verify loop** | Пишет код → запускает линтер/typecheck/test → чинит ошибки → повторяет |
-| **Model-agnostic** | 533 модели через OpenRouter/Anthropic/OpenAI/Together AI/локальные |
-| **Budget tracking** | Real-time токены + стоимость + hard budget ceilings |
-| **Cross-session learning** | USER_PREFS.md — запоминает конвенции проекта |
-| **Multimodal** | Читает скриншоты, изображения |
-| **Docker sandbox** | Изолированное выполнение |
-| **23 third-party агента** | Slack, Discord, Teams, WhatsApp, Telegram, Gmail... |
+| Фича                       | Детали                                                                 |
+| -------------------------- | ---------------------------------------------------------------------- |
+| **Browser Automation**     | Chromium + Playwright из коробки                                       |
+| **Git Worktree Isolation** | Каждая задача в своей ветке, main untouched                            |
+| **fix-run-verify loop**    | Пишет код → запускает линтер/typecheck/test → чинит ошибки → повторяет |
+| **Model-agnostic**         | 533 модели через OpenRouter/Anthropic/OpenAI/Together AI/локальные     |
+| **Budget tracking**        | Real-time токены + стоимость + hard budget ceilings                    |
+| **Cross-session learning** | USER_PREFS.md — запоминает конвенции проекта                           |
+| **Multimodal**             | Читает скриншоты, изображения                                          |
+| **Docker sandbox**         | Изолированное выполнение                                               |
+| **23 third-party агента**  | Slack, Discord, Teams, WhatsApp, Telegram, Gmail...                    |
 
 ## Архитектура (5 слоёв)
 
@@ -93,13 +93,13 @@ KISS Sorcar первым делом читает `SORCAR.md` в рабочей �
 
 ## Сценарии для QA
 
-| Сценарий | Риск | Промпт |
-|----------|:---:|--------|
-| Новый POM + spec (модуль без тестов) | 🟢 | "Create pom/XPage.ts + e2e/x.spec.ts following SORCAR.md. Run tests." |
-| Code review существующих тестов | 🟢 | "Review e2e/*.spec.ts for assert strength, flake patterns, selectors" |
-| Миграция waitForTimeout → explicit waits | 🟡 | "Find all waitForTimeout calls in e2e/. Replace with explicit waits." |
-| Генерация mutation-тестов | 🟡 | "Add 3 API mutation tests to e2e/mutation/. Follow existing patterns." |
-| CI/CD pipeline debug | 🟡 | "Read playwright.yml. Fix failed job from logs." |
+| Сценарий                                 | Риск | Промпт                                                                 |
+| ---------------------------------------- | :--: | ---------------------------------------------------------------------- |
+| Новый POM + spec (модуль без тестов)     |  🟢  | "Create pom/XPage.ts + e2e/x.spec.ts following SORCAR.md. Run tests."  |
+| Code review существующих тестов          |  🟢  | "Review e2e/*.spec.ts for assert strength, flake patterns, selectors"  |
+| Миграция waitForTimeout → explicit waits |  🟡  | "Find all waitForTimeout calls in e2e/. Replace with explicit waits."  |
+| Генерация mutation-тестов                |  🟡  | "Add 3 API mutation tests to e2e/mutation/. Follow existing patterns." |
+| CI/CD pipeline debug                     |  🟡  | "Read playwright.yml. Fix failed job from logs."                       |
 
 ## Ограничения
 
