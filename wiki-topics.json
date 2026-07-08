@@ -109,6 +109,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-in-qa-issue-17-butch-mayhew-2026.html",
+      "title": "AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)",
+      "desc": "**Raw:** `raw/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md`",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-qa-exoskeleton-habr.html",
       "title": "AI-Экзоскелет для QA-Инженера",
       "desc": "source: \"ai-qa-exoskeleton-habr.md\"",
@@ -181,6 +187,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-tools-2026.html",
+      "title": "AI Tools 2026 — Overview with Advantages",
+      "desc": "> Source: `raw/AI list 2026.md`",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/alex-barady-ai-builder-9-concepts-2026.html",
+      "title": "Alex Barády: 9 Concepts That Separate AI User from AI Builder",
+      "desc": "**Source:** Alex Barády (ENDGAME Founder) — LinkedIn post, Jul 6, 2026",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/allure-testops-research-2026.html",
       "title": "Allure TestOps",
       "desc": "source: \"allure-testops-research-2026.md\"",
@@ -250,6 +268,12 @@
       "file": "wiki/browser-ai-testing-agents.html",
       "title": "Browser-Based AI Testing Agents",
       "desc": "Browser-based AI agents — автономные AI-агенты, которые управляют браузером через код (Playwright, Puppeteer) для исслед",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/c4-model-software-architecture.html",
+      "title": "C4 Model — Visualising Software Architecture",
+      "desc": "**Автор:** Simon Brown",
       "tag": "Wiki"
     },
     {
@@ -379,6 +403,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/http-query-method-rfc10008-2026.html",
+      "title": "HTTP QUERY Method (RFC 10008, June 2026)",
+      "desc": "Новый HTTP-метод `QUERY`, стандартизированный в RFC 10008. Первый новый метод после PATCH (2010).",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/implement-ai-in-qa-process.html",
       "title": "Implementing AI in QA Process",
       "desc": "source: \"implement-ai-in-qa-process.md\"",
@@ -412,6 +442,12 @@
       "file": "wiki/iso-27001-qa-testing-2026.html",
       "title": "ISO 27001 and QA/Testing",
       "desc": "ISO/IEC 27001 is the international standard for Information Security Management Systems (ISMS). For QA professionals, th",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-9001-qa-testing-2026.html",
+      "title": "ISO 9001:2015 — Quality Management Systems for QA & Testing",
+      "desc": "ISO 9001:2015 — международный стандарт для систем менеджмента качества (QMS), применимый к любой организации. Не softwar",
       "tag": "Wiki"
     },
     {
@@ -607,6 +643,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/pact-contract-testing-guide-2026.html",
+      "title": "Pact Contract Testing — Полное руководство",
+      "desc": "Pact — инструмент для consumer-driven contract testing (CDCT). Потребитель API (consumer) записывает ожидания от провайд",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/passmark-ai-regression.html",
       "title": "Passmark AI Regression Testing Engine",
       "desc": "source: \"passmark-ai-regression.md\"",
@@ -751,6 +793,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/stratoplan-management-2026.html",
+      "title": "Stratoplan Management 2026 — Обзор конференции",
+      "desc": "**Источник:** https://mcovkin.ru/conf-stratoplan-management-2026/index.html",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/swe-tester-framework.html",
       "title": "SWE-Tester Framework",
       "desc": "**Sources:** arxiv:2603.24160v1 (confirmed via Gemini), real paper content",
@@ -796,6 +844,12 @@
       "file": "wiki/testing-strategies.html",
       "title": "AI Testing Strategies",
       "desc": "title: \"AI Testing Strategies\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testmu-ai-formerly-lambdatest-2026.html",
+      "title": "TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform",
+      "desc": "| Field | Value |",
       "tag": "Wiki"
     },
     {
@@ -865,6 +919,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/weekly-time-planner-prd-example.html",
+      "title": "Weekly Time Planner — PRD Example",
+      "desc": "Pet-проект: weekly planner для учёта времени с авторизацией через Google. Google Calendar читает events, custom категори",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/what-is-software-testing.html",
       "title": "Software Testing",
       "desc": "source: \"what-is-software-testing.md\"",
@@ -901,6 +961,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 82,
-  "updated": "2026-07-06"
+  "raw_count": 85,
+  "updated": "2026-07-09"
 }
