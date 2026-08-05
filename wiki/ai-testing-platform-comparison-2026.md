@@ -31,8 +31,11 @@
 | Katalon | ❌ | ❌ | Smart healing | ❌ | ❌ | ❌ |
 | Applitools | ❌ (assertions) | ❌ | Visual diff | ❌ | ❌ | ❌ |
 | Virtuoso QA | ❌ | ❌ | AI selector | ❌ | ❌ | ❌ |
+| **Kane AI** (TestMu) | ❌ (NL specs) | ❌ | NL auto-heal | ❌ | ❌ | Partial |
 
 Autonoma — единственная платформа, получившая "Yes" по всем критериям (источник — собственный блог Autonoma, учитывать conflict of interest).
+
+Kane AI — GenAI-native агент от TestMu AI (бывший LambdaTest). Отличается 2-way editing (код ↔ NL). Бесплатный 30-дневный триал. kane-cli — CLI для CI/CD (npm install -g @testmuai/kane-cli или brew install).
 
 ## Сегментация по профилю команды
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AI QA Wiki LLM — Ingest raw sources → wiki articles + Q&A via Groq
+AI QA Wiki LLM — Ingest raw sources → wiki articles + Q&A
 
 Usage:
     python3 wiki_llm.py --ingest <raw_file>              — Process one raw file → wiki
@@ -29,7 +29,7 @@ from pathlib import Path
 from datetime import datetime
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL = "openai/gpt-oss-120b"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 PROJECT_DIR = Path(__file__).parent
 RAW_DIR = PROJECT_DIR / "raw"
@@ -73,7 +73,7 @@ def ask_llm(prompt: str, system_prompt: str = SYSTEM_PROMPT_INGEST, temperature:
     import requests
     headers = {"Authorization": f"Bearer {get_groq_key()}", "Content-Type": "application/json"}
     data = {
-        "model": model or GROQ_MODEL,
+        "model": model or DEFAULT_MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": prompt}
@@ -472,7 +472,7 @@ def main():
             model = args[idx + 1]
         args = [a for a in args if a not in ("--model", model)]
 
-    print(f"🤖 Model: {model or GROQ_MODEL}")
+    print(f"🤖 Model: {model or DEFAULT_MODEL}")
 
     if args[0] == "--missing":
         list_missing()

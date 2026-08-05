@@ -202,3 +202,16 @@ Boundaries таблица — **единственный пункт с абсо�
 9. ✅ Verify — все AGENTS.md ≤ 32 KiB
 
 *Утверждено: Виктор, 2026-05-30 | Выполнено: 2026-05-30*
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)
+- [Какэкономитьтокенывclaudecode](wiki/какэкономитьтокенывclaudecode.md)
+<!-- backlinks-end -->

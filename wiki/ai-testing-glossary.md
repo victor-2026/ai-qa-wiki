@@ -273,3 +273,11 @@ type: glossary
 - [Bas Dijkstra Blog](https://www.ontestautomation.com/feed.xml)
 - SWE-Tester arXiv papers
 - Agentic patterns research
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
+<!-- backlinks-end -->

@@ -137,3 +137,12 @@ Use vibe coding for prototyping. Use wipe-coding for production.
 ---
 
 *Updated: 2026-05-10*
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)
+- [Cursor Vs Antigravity Autonoma](wiki/cursor-vs-antigravity-autonoma.md)
+<!-- backlinks-end -->

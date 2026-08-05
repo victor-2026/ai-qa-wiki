@@ -240,3 +240,9 @@ QA/Automation roles explicitly included в пилот Google (L3–L4). Этот
 - [[anton-gulin-3-layer-ai-qa-architecture]] — оркестрация AI-тестирования как модель для AI-interview workflow
 - [[playwright-test-agents-2026]] — Playwright Planner/Generator/Healer как пример AI agent orchestration в QA
 - [[ai-qa-wiki-improvements-from-bugs]] — улучшения AI-augmented QA процессов на базе баг-репортов
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
+<!-- backlinks-end -->

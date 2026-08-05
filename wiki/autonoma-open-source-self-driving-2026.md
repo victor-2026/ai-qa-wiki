@@ -169,7 +169,38 @@ $ npx @autonoma-ai/planner@latest
 - The "pipeline vs point tool" framework (Article 4) remains valid for the version tested; current Autonoma may shift the comparison
 - Worth re-evaluating once Claude Code plugin is tested on OrangeHRM
 
+## Positioning (from getautonoma.com FAQ, Jul 2026)
+
+| Question | Answer |
+|----------|--------|
+| **vs Playwright/Appium?** | "Playwright/Appium = kernel (low-level). Autonoma = OS on top. AI agents understand your app, generate tests, adapt. Same reliability, zero test code." |
+| **vs Claude + Playwright scripts?** | "Claude generates scripts — 10% of the problem. Still need: isolated environments, seed data, parallel execution, flaky handling, validation that tests actually test the right thing." |
+| **Replaces QA?** | "Yes. QA was a bottleneck. No human team multiplexes across 7 features. Autonoma runs thousands of tests in parallel, no backlog." |
+| **Handles UI changes?** | "AI agents understand what your app does, not just where buttons are. Tests adapt automatically." |
+| **Open source?** | "Fully open source. Self-hosted free forever, no feature limits." |
+
 ## Related
 
 - [Autonoma OrangeHRM Setup Notes](./autonoma-orangehrm-setup-notes.md) — old pipeline experience
 - [AI Testing Platform Comparison 2026](./ai-testing-platform-comparison-2026.md) — competitive landscape
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
+- [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
+- [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
+- [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)
+<!-- backlinks-end -->

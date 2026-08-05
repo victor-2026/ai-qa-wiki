@@ -273,3 +273,13 @@ assert "testing" in answer.lower()
 ---
 **Tags:** #AIEval #QAEngineering #LLMTesting #AIEngineering  
 **Related:** [[QA AI Eval Engineer]] [[qa-ai]] [[ai-qa-transformation-lead]]
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
+- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+<!-- backlinks-end -->

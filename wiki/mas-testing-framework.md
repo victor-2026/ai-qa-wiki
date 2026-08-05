@@ -1417,3 +1417,28 @@ github-actions:
 - Gemini conversation analysis (not verified)
 - [[wiki/agentic-patterns]] Pipeline Triad
 - [[wiki/swe-tester-framework]] (confirmed framework)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
+- [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
+- [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
+<!-- backlinks-end -->

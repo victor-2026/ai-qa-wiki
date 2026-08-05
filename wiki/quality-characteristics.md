@@ -140,3 +140,12 @@ AI "games" the metrics rather than achieving intent.
 
 - raw/istqb-ai-quality-characteristics.md
 - raw/qa-in-the-ai-era.md
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)
+<!-- backlinks-end -->

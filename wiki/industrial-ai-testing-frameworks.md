@@ -236,3 +236,11 @@ Rationale: Full coverage — code → incident → UX
 - Applause State of Digital Quality 2025/2026
 - Gemini analysis
 - Industry research
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
+<!-- backlinks-end -->

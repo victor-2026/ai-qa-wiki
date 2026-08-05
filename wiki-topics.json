@@ -1,6 +1,12 @@
 {
   "topics": [
     {
+      "file": "wiki/21-cfr-part-11-electronic-records-2026.html",
+      "title": "21 Cfr Part 11 Electronic Records 2026",
+      "desc": "source: \"21-cfr-part-11-electronic-records-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/3-ai-test-tools-orangehrm-comparison-2026.html",
       "title": "3 Ai Test Tools Orangehrm Comparison 2026",
       "desc": "source: \"3-ai-test-tools-orangehrm-comparison-2026.md\"",
@@ -19,6 +25,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/6aiconceptsyoumustmastertobuildproduction-readyaisystems.html",
+      "title": "6Aiconceptsyoumustmastertobuildproduction Readyaisystems",
+      "desc": "source: \"6 AI Concepts You Must Master to Build Production-Ready AI Systems.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/7-layer-llm-testing-framework-2026.html",
       "title": "7-Layer Testing Framework for Public-Facing LLMs",
       "desc": "**Источник:** Rohit Krishna (Engineering Manager @ Priceline, Applied AI)",
@@ -28,6 +40,12 @@
       "file": "wiki/Agentic Development Lifecycle (ADLC).html",
       "title": "Agentic Development Lifecycle (Adlc)",
       "desc": "Ключевое отличие между **ADLC** (Agent Development Lifecycle — жизненный цикл разработки агентов) и традиционным **SDLC*",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/EARS и BDD.html",
+      "title": "EARS и BDD: От требований к тестам",
+      "desc": "EARS — это лёгкий структурированный подход к написанию текстовых требований, разработанный Alistair Mavin (Mav) и коллег",
       "tag": "Wiki"
     },
     {
@@ -109,6 +127,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.html",
+      "title": "Ai In Qa Issue 17 Butch Mayhew 2026 07 06",
+      "desc": "source: \"ai-in-qa-issue-17-butch-mayhew-2026-07-06.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-in-qa-issue-17-butch-mayhew-2026.html",
       "title": "AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)",
       "desc": "**Raw:** `raw/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md`",
@@ -139,9 +163,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-risk-communication-2026.html",
+      "title": "AI Risk Communication for QA Leaders",
+      "desc": "Testing AI/ML systems is not just about metrics — it's about explaining uncertainty, limitations, and confidence levels ",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-roi-regression-testing.html",
       "title": "Maximizing ROI with AI Functional and Regression Testing",
       "desc": "source: \"ai-roi-regression-testing.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ai-testing-agents-review-2026.html",
+      "title": "2026: Обзор и апробация ИИ-агентов для тестирования",
+      "desc": "2026 год стал переломным для AI-native тестирования. Инструменты перестали быть \"помощниками для записи тестов\" — они ст",
       "tag": "Wiki"
     },
     {
@@ -190,6 +226,18 @@
       "file": "wiki/ai-tools-2026.html",
       "title": "AI Tools 2026 — Overview with Advantages",
       "desc": "> Source: `raw/AI list 2026.md`",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ailist2026.html",
+      "title": "AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants",
+      "desc": "source: \"AI list 2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/alex-barady-9-concepts-ai-builder-2026.html",
+      "title": "Alex Barady 9 Concepts Ai Builder 2026",
+      "desc": "source: \"alex-barady-9-concepts-ai-builder-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -283,6 +331,24 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/claude-code-ci-cd-mcp-2026.html",
+      "title": "Claude Code Ci Cd Mcp 2026",
+      "desc": "source: \"claude-code-ci-cd-mcp-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/claude-code-qa-testing-2026.html",
+      "title": "Claude Code Qa Testing 2026",
+      "desc": "source: \"claude-code-qa-testing-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/claude-code-skill-examples-2026.html",
+      "title": "Claude Code Skill Examples 2026",
+      "desc": "source: \"claude-code-skill-examples-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/claude-code-tests-part1.html",
       "title": "Writing Tests with Claude Code — Part 1",
       "desc": "**Author:** Bas Dijkstra",
@@ -316,6 +382,24 @@
       "file": "wiki/crash-budget-2026.html",
       "title": "Crash Budget для Mobile Testing",
       "desc": "**Crash budget** — метрика качества мобильного приложения. Определяет максимально допустимый процент крашей (crash rate)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/csv-validation-iq-oq-pq-2026.html",
+      "title": "Csv Validation Iq Oq Pq 2026",
+      "desc": "source: \"csv-validation-iq-oq-pq-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/cursor-vs-antigravity-autonoma.html",
+      "title": "Cursor Vs Antigravity Autonoma",
+      "desc": "source: \"cursor-vs-antigravity-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/data-testid-react-playwright.html",
+      "title": "data-testid в React: как QA добавлять атрибуты в компоненты",
+      "desc": "**Источник:** Yulia Sergeeva, LinkedIn (2026-07-08)",
       "tag": "Wiki"
     },
     {
@@ -373,6 +457,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/google-antigravity-qa-2026.html",
+      "title": "Google Antigravity Qa 2026",
+      "desc": "source: \"google-antigravity-qa-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/google-tos-2026-restrictions.html",
       "title": "Google Terms of Service (July 2026) — Restrictions Outside EEA",
       "desc": "**Effective:** July 30, 2026",
@@ -382,6 +472,12 @@
       "file": "wiki/gpt-image-research-mode.html",
       "title": "GPT Image 2 — Research Before Generation",
       "desc": "GPT Image 2 has a capability most people don't know about: the model **researches the topic in the web before generating",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/graph-engineering-vs-loop-engineering-2026.html",
+      "title": "Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap",
+      "desc": "Июль 2026. Peter Steinberger (OpenClaw) задаёт вопрос: \"Мы всё ещё говорим о циклах, или уже перешли к графам?\" — и терм",
       "tag": "Wiki"
     },
     {
@@ -433,9 +529,27 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/iso-13485-qms-medical-devices-2026.html",
+      "title": "Iso 13485 Qms Medical Devices 2026",
+      "desc": "source: \"iso-13485-qms-medical-devices-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-14971-risk-management-2026.html",
+      "title": "Iso 14971 Risk Management 2026",
+      "desc": "source: \"iso-14971-risk-management-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/iso-25000-square-quality-2026.html",
       "title": "ISO/IEC 25000 (SQuaRE) — Software Quality Standards",
       "desc": "ISO/IEC 25000 (SQuaRE — Software product Quality Requirements and Evaluation) — международная система стандартов для оце",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/iso-26262-functional-safety-testing-2026.html",
+      "title": "Iso 26262 Functional Safety Testing 2026",
+      "desc": "source: \"iso-26262-functional-safety-testing-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -448,6 +562,24 @@
       "file": "wiki/iso-9001-qa-testing-2026.html",
       "title": "ISO 9001:2015 — Quality Management Systems for QA & Testing",
       "desc": "ISO 9001:2015 — международный стандарт для систем менеджмента качества (QMS), применимый к любой организации. Не softwar",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/it-was-always-a-loop.html",
+      "title": "It Was Always a Loop",
+      "desc": "Июль 2026. Dinesh Karakambaka публикует эссе-контраргумент к хайпу вокруг Loop Engineering. Тезис: **loops не изобрели в",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/karpathy-autoresearch-agentic-engineering-2026.html",
+      "title": "Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops",
+      "desc": "Март 2026. Andrej Karpathy открывает код `autoresearch` — система, где один GPU работает как автономная исследовательска",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/kiro-dev-aws-ai-ide-2026.html",
+      "title": "Kiro.dev — AWS Agentic AI IDE (2026)",
+      "desc": "Kiro — агентная AI IDE от AWS (запуск Jul 2025, AWS Summit NYC). Code OSS fork, доступен как IDE, CLI, Web и Mobile (iOS",
       "tag": "Wiki"
     },
     {
@@ -613,6 +745,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/opencode-openrouter-qa-2026.html",
+      "title": "Agent Profile: Solo QA Automation Engineer",
+      "desc": "source: \"opencode-openrouter-qa-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/opencode-skill-creator.html",
       "title": "opencode-skill-creator: Eval-Driven Skill Development",
       "desc": "**Автор:** Anton Gulin ([GitHub](https://github.com/antongulin/opencode-skill-creator))",
@@ -703,6 +841,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qa-ds-collaboration-patterns-2026.html",
+      "title": "QA + Data Science Collaboration Patterns",
+      "desc": "QA and Data Science teams operate with different mindsets: DS optimizes for model quality (accuracy, AUC), QA for system",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qa-in-the-ai-era.html",
       "title": "QA in the AI Era",
       "desc": "source: \"qa-in-the-ai-era.md\"",
@@ -745,6 +889,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/regression-checklist-llm-ci-2026.html",
+      "title": "Regression Checklist Llm Ci 2026",
+      "desc": "source: \"regression-checklist-llm-ci-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.html",
       "title": "Rinat Abdullin Bdd Vs Sdd Ai Native Harness",
       "desc": "source: \"rinat-abdullin-bdd-vs-sdd-ai-native-harness.md\"",
@@ -760,6 +910,12 @@
       "file": "wiki/rtm-matrix-habr.html",
       "title": "Requirements Traceability Matrix (RTM): A Tester's Navigator",
       "desc": "source: \"rtm-matrix-habr.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ruben-hassid-master-ai-claude-tips.html",
+      "title": "Master AI Before It Masters You — 27 Claude Tips",
+      "desc": "**Author:** Ruben Hassid",
       "tag": "Wiki"
     },
     {
@@ -865,6 +1021,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/token-economy-claude-code-2026.html",
+      "title": "Как экономить токены в Claude Code",
+      "desc": "**Источник:** [blognot.co](https://blognot.co/kak-eekonomit-tokeny-v-claude-code/) (2026-07-21)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/topics-map.html",
       "title": "AI/QA Testing Topics Map",
       "desc": "**Source:** Organized from raw/ materials (40 sources)",
@@ -955,12 +1117,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/какэкономитьтокенывclaudecode.html",
+      "title": "Какэкономитьтокенывclaudecode",
+      "desc": "source: \"Как экономить токены в Claude Code.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.html",
       "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
       "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
       "tag": "Wiki"
     }
   ],
-  "raw_count": 85,
-  "updated": "2026-07-09"
+  "raw_count": 105,
+  "updated": "2026-08-05"
 }

@@ -201,3 +201,8 @@ Methods like **LoRA** для быстрого дообучения:
 - arxiv:2603.24160v1 — SWE-Tester: Training Open-Source LLMs for Issue Reproduction
 - SWE-Bench Verified benchmark
 - Gemini conversation analysis
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
+<!-- backlinks-end -->

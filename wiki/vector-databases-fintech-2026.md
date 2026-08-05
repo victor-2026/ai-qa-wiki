@@ -101,3 +101,9 @@ Testing a vector DB in fintech requires more than unit tests on queries:
 - Pinecone. (2026). Hybrid Search: Combining Vector and Keyword Search. pinecone.io/learn/hybrid-search/
 - Qdrant. (2026). Filtering and Payloads. qdrant.tech/documentation/filtering/
 - pgvector. (2026). Open-source vector similarity search for Postgres. github.com/pgvector/pgvector
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)
+<!-- backlinks-end -->

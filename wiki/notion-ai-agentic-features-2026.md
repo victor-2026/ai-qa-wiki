@@ -180,3 +180,12 @@ Custom-агенты под конкретные роли QA-команды:
 
 **Запись создана:** 2026-06-10
 **Основание:** LinkedIn outbound от Christina Muehller, Notion (2:00 AM, Jun 10)
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)
+<!-- backlinks-end -->

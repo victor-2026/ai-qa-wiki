@@ -70,6 +70,44 @@ ingested: "2026-06-29"
 
 ---
 
+## Release Readiness for AI/ML Systems
+
+Для вероятностных систем релизное решение — не «pass/fail», а **«достаточно ли хороша для production при текущих рисках»**.
+
+### Release gates
+
+| Gate | Критерий | Owner |
+|------|----------|-------|
+| **Golden dataset** | Регрессия в пределах baseline (MAE ≤5%, Recall ≥ threshold) | QA |
+| **A/B experiment** | Статистически значимое улучшение или neutral по guard-rail метрикам | PM + DS |
+| **Drift baseline** | Production data не показывает отклонений (KS-test, PSI) | DS + QA |
+| **Bias check** | Fairness метрики в норме по демографическим группам | QA + DS |
+| **Risk register** | Known limitations и confidence levels задокументированы | QA |
+| **Stakeholder sign-off** | Бизнес принимает оставшиеся риски | PM |
+
+### Go/no-go критерии
+
+- **Go:** все mandatory gates пройдены, оставшиеся риски приняты бизнесом
+- **No-go:** golden dataset regression >5%, drift detection triggered, bias обнаружен
+- **Conditional go:** minor drift (<2%) с планом мониторинга, known limitations документированы
+
+### Что считается regression для ML/AI
+
+- Деградация метрик на golden dataset (MAE, Recall, F1)
+- Изменение распределения данных (PSI > 0.1)
+- Рост false positives / false negatives > 10% от baseline
+- Изменение user-facing поведения (UX regression)
+- Падение guard-rail метрик в A/B эксперименте
+
+### Post-release monitoring
+
+- Continuous drift detection с алертами
+- Сравнение production метрик с pre-release baseline
+- Automated rollback при превышении порогов
+- Weekly review метрик первые 2 недели после релиза
+
+---
+
 ## Пример реализации (Go)
 
 Полный код 4-уровневого тестирования на Go:

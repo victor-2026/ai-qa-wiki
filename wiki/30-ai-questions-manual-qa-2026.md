@@ -147,3 +147,21 @@ Traditional QA interview questions test domain knowledge and process understandi
 - `wiki/ai-fluency-interview-2026.md` — Google/Meta interview reform with AI evaluation criteria
 - `wiki/offline-evaluation-trajectories-2026.md` — Self-evaluation framework for QA skills
 - `wiki/anton-gulin-3-layer-ai-qa-architecture.md` — 6 quality gates for AI-augmented QA
+
+
+
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)
+- [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
+- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Cursor Vs Antigravity Autonoma](wiki/cursor-vs-antigravity-autonoma.md)
+<!-- backlinks-end -->

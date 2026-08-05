@@ -86,3 +86,9 @@ ISO/IEC 25000 (SQuaRE — Software product Quality Requirements and Evaluation) 
 - ISO/IEC 25040 — Quality evaluation framework
 - Codacy Blog: "An Exploration of the ISO/IEC 25010 Software Quality Model" (2026)
 - arc42 quality model — ISO/IEC 25010 reference
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)
+<!-- backlinks-end -->

@@ -365,12 +365,71 @@ await page.route('**/api/posts**', async route => {
 
 ---
 
+## Mutation Metrics (для отчётов)
+
+Метрики показывают эффективность тест-пакета, а не только coverage. Полезны как DORA для CD — отчёт перед стейкхолдерами.
+
+| Метрика | Формула | Что значит |
+|---------|---------|-----------|
+| **Mutation Score** | Killed / Total | % убитых мутантов. 100% идеал, 80%+ практика (equivalent мутанты мешают 100%) |
+| **Mutation Adequacy** | Killed / Total × 100% | То же, но как доля тест-пакета |
+| **Surviving Mutants** | Total − Killed | Выжившие = слабые места тестов |
+| **Mutation Density** | Total / LOC | Плотность потенциальных дефектов в единице кода |
+| **Equivalent Mutants** | Total − Non-Equivalent | Функционально идентичны оригиналу. Убить нельзя — засоряют метрику |
+| **Mutant Survivability** | Survived Runs / Total Runs × 100% | Стабильность: выживает ли мутант в разных средах/прогонах |
+
+**Правило:** при отчёте отсекай equivalent mutants — иначе score занижен, и команда не понимает почему.
+
+---
+
+## AI & LLM in Mutation Testing
+
+Два блокера mutation testing at scale: миллионы мутантов + equivalent (никогда не убиваемые). LLM решают оба.
+
+### Meta ACH (Automated Compliance Hardening)
+
+Первый production-деплой LLM-powered mutation testing в индустрии.
+
+**Что это:** система mutation-guided LLM-based test generation. Инженер описывает класс багов plain-text (например, "privacy violation"), LLM генерирует реалистичные мутанты (как ошибаются реальные разработчики) и тесты, которые их ловят. Не coverage-driven, а target-driven — фокус на конкретный класс багов.
+
+**Ключевые факты:**
+- Paper: ["Mutation-Guided LLM-based Test Generation at Meta"](https://arxiv.org/pdf/2501.12862) (arXiv 2501.12862)
+- Meta blog: [Revolutionizing software testing: LLM-powered bug catchers](https://engineering.fb.com/2025/02/05/security/revolutionizing-software-testing-llm-powered-bug-catchers-meta-ach/)
+- Деплой: 10,795 Android Kotlin classes, 7 платформ, 9,095 мутантов, 571 тестов
+- Результаты: 73% принятых тестов инженерами, 36% privacy-relevant
+- **Equivalent mutant detection agent:** precision 0.79 / recall 0.47 (→ 0.95/0.96 с пре-процессингом)
+- Модель: Llama 3.1 70B
+- Human-in-the-loop обязателен — предотвращает false positives
+- Применялся к privacy compliance (Facebook, Instagram, WhatsApp, Quest, Ray-Ban Meta)
+
+**Почему это важно для AI-тестирования:**
+1. LLM генерирует **реалистичные баги**, а не шаблонные операторные замены → выше ценность каждого мутанта
+2. LLM **фильтрует equivalent до прогона** → экономит compute радикально
+3. JIT generation (мутанты только для изменённого кода) → подходит для fast-moving pipelines
+
+### Применение к anti-overfit (AI-сгенерированные тесты)
+
+Прямой аналог для проверки AI-тестов:
+- Оверфит QA-агента = "подгоняют тесты под ответ" — тесты проходят, качество нет
+- Решение: мутации, которые **должны** падать, но текущие AI-тесты проходят
+- Surviving mutants после прогона = overfit-кейсы → Trust Score для каждого теста
+- Это ровно тот паттерн, что Meta ACH использует для compliance hardening
+
+### JiTTest Challenge
+
+Meta's открытый вызов сообществу (FSE 2025): генерировать **catching tests** для PR review — ловить баги в новом коде до production, с высокой точностью и низким false positive rate. Сложнее, чем hardening tests (правильное поведение нового кода ещё не установлено — Test Oracle Problem). [Paper](https://arxiv.org/pdf/2504.16472)
+
+---
+
 ## Источники
 - Chalmers University of Technology / University of Gothenburg — Industrial Case Study на Zenseact
 - Wrocław University of Technology — Higher Order Mutations алгоритмы
 - `/raw/Mutation Testing Playwright Front-End.md` — основной источник техник
 - `/raw/Mutation-testing-without-code.md` — альтернативы для black-box
 - Buzzhive实践 (2026-06-03) — 34/34 mutation tests pass, route interception patterns, Playwright selector pitfalls
+- [TestMu AI Learning Hub — Mutation Testing](https://www.testmuai.com/learning-hub/mutation-testing/) — метрики, типы, best practices
+- [Meta ACH paper (arXiv)](https://arxiv.org/pdf/2501.12862) — mutation-guided LLM test generation
+- [Meta ACH blog](https://engineering.fb.com/2025/02/05/security/revolutionizing-software-testing-llm-powered-bug-catchers-meta-ach/)
 
 ## Связанные темы
 - [[Mutation-testing-without-code]]
@@ -381,3 +440,12 @@ await page.route('**/api/posts**', async route => {
 
 ---
 *Теги: #Mutation-Testing #HOM #Playwright #Test-Quality #Black-Box-Testing #Flakiness #Route-Interception #Selector-Pitfalls*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
+<!-- backlinks-end -->
