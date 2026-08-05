@@ -373,6 +373,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/copilot-generated-tests-quality-pitfalls-autonoma.html",
+      "title": "Copilot Generated Tests Quality Pitfalls Autonoma",
+      "desc": "source: \"copilot-generated-tests-quality-pitfalls-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/cp-cpm-pfp-monetization-metrics-2026.html",
       "title": "CPM/CPC/PFP — Модели Монетизации для QA",
       "desc": "Три основные модели монетизации в классифайдах и рекламных платформах. QA-подход к каждой — разный.",
@@ -1129,6 +1135,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 105,
+  "raw_count": 106,
   "updated": "2026-08-05"
 }
