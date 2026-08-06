@@ -991,6 +991,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/testing-ai-agent-tool-calls-autonoma.html",
+      "title": "Testing Ai Agent Tool Calls Autonoma",
+      "desc": "source: \"testing-ai-agent-tool-calls-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/testing-ai-generated-auth-code-autonoma.html",
       "title": "Testing Ai Generated Auth Code Autonoma",
       "desc": "source: \"testing-ai-generated-auth-code-autonoma.md\"",
@@ -1141,6 +1147,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 107,
+  "raw_count": 108,
   "updated": "2026-08-06"
 }
