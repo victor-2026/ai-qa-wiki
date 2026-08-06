@@ -991,6 +991,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/testing-ai-generated-auth-code-autonoma.html",
+      "title": "Testing Ai Generated Auth Code Autonoma",
+      "desc": "source: \"testing-ai-generated-auth-code-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/testing-maturity-model-tmm-2026.html",
       "title": "Testing Maturity Model (TMM/TMMi)",
       "desc": "TMM (Testing Maturity Model) — модель оценки зрелости процессов тестирования, аналогичная CMM для разработки. TMMi (Test",
@@ -1135,6 +1141,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 106,
-  "updated": "2026-08-05"
+  "raw_count": 107,
+  "updated": "2026-08-06"
 }
