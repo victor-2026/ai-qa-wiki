@@ -65,3 +65,15 @@ wiki/
 
 ### Git
 - Коммит не делался (по договорённости: чекпоинт позже).
+
+---
+
+### Session 91 (2026-08-17) — Stoic Tester + Goodhart's Law ingest
+
+**2 raw → 2 wiki (через wiki_llm.py):**
+- `raw/stephen-platten-stoic-tester-profile-2026.md` → `wiki/stephen-platten-stoic-tester-profile-2026.md` — people-профиль (Inspired Testing Principal Consultant, UKITB Head of Accreditation, MoT Ambassador, GSDC AI Advisor, ex-RAF; 13K followers, newsletter The Stoic Tester 3K subscribers)
+- `raw/stoic-tester-goodharts-law-ai-evaluation-2026.md` → `wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md` — концепт Goodhart's Law в AI-эвализации (hallucination rate: AI улучшает метрику, отказываясь отвечать на неоднозначное и цитируя дословно — «better at passing the test, not better at the job»); cross-links: offline-eval, evals, anti-overfit/mutation, context-engineering
+- Оба с полным frontmatter (title/type/updated/tags) для Bases view; source-link подвалы; backlinks synced
+- wiki-topics.json: **196 topics, 112 raw sources**
+
+**Решение по Trulit (Harika B):** НЕ ингестить — маркетинговые посты SaaS-вендора без методической ценности (общие места, покрытые winteringham-prompts/manual QA). Контакт ценен как нетворкинг, не как вики-источник.

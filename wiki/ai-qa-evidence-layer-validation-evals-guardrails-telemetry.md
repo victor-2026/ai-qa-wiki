@@ -245,7 +245,15 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)
+- [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
+- [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 <!-- backlinks-end -->

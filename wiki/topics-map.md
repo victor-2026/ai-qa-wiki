@@ -163,3 +163,9 @@ AI-generated code?       → TrickCatcher
 ## Tags
 
 #ai-testing #llm #rag #qa #evaluation #agentic #vibe-coding #observability #metrics #quality #prompt-engineering #ct-ai #ct-genai #winteringham
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
+<!-- backlinks-end -->
