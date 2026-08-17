@@ -86,6 +86,16 @@ Metrics: response times, resource usage, throughput
 | Hallucination rates | Factuality |
 | Citation accuracy | Trustworthiness |
 
+## Model and Tool Telemetry
+
+Allure-style test evidence and delivery metrics are not the same as model or tool telemetry. Model telemetry records how an inference ran: provider, model and version, correlation IDs, input/output or template hashes, token usage, latency, finish reason, retries, fallbacks, safety result, and estimated cost.
+
+Tool telemetry records what the agent did outside the model: tool name and version, call sequence, redacted arguments, target resource, authorization decision, human approval, result status, latency, retries, errors, and side-effect identifiers such as commits, tickets, database transactions, or deployments.
+
+Agent telemetry joins these events into a trace: planner and subagent transitions, retrieval sources, memory reads/writes, generated artifacts, file changes, approvals, escalations, and final outcome. Do not store raw secrets or unrestricted prompts by default; use redaction, hashing, access control, retention limits, and sampling.
+
+The [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai) provide a vendor-neutral starting point for GenAI spans, metrics, events, and MCP instrumentation. For the distinction between runtime telemetry, downstream validation, and model evals, see [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md).
+
 ## 8 Steps to Implement ODD
 
 1. **Audit** — map microservices, key flows

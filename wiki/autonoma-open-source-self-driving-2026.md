@@ -137,12 +137,14 @@ $ npx @autonoma-ai/planner@latest
 | Aspect | Old pipeline (we tested) | Current Test Planner |
 |--------|-------------------------|---------------------|
 | Count | 6 steps (different) | 6 steps (different) |
-| Sequence | pagesFinder → KB → entityAudit → scenarioRecipe → recipeBuilder → testGenerator | KB → Entity Audit → Scenarios → Env Factory → Validate → E2E Tests |
+| Sequence | pagesFinder → KB → entityAudit → scenarioRecipe → testGenerator → environmentFactory | KB → Entity Audit → Scenarios → Env Factory → Validate → E2E Tests |
 | Validator | None (accumulative context) | Deterministic shell-script per step |
 | Claude | Plugin for Claude Code | Plugin for Claude Code (same) |
 | Architecture | "Test generation" | "Test generation + isolated data seeding" |
 | Data seeding | Not integrated | Environment Factory SDK |
 | Status | Deprecated by CEO | Current |
+
+**Flag (human review):** the observed Phase 3 run log (`autonoma-orangehrm-setup-notes.md`, 2026-06-10) shows an intermediate step `recipeBuilder` between `scenarioRecipe` and `testGenerator` (5/7 steps, paused). GitHub sources (`test-planner-plugin`, `test-planner`) document `testGenerator → environmentFactory` as steps 5–6. The row above follows the GitHub source per `raw/Autonoma - шаги в пайплайне.md` (ingested 2026-08-17); the observed run may predate the rename.
 
 ## Open Source Commitments
 
@@ -197,10 +199,18 @@ $ npx @autonoma-ai/planner@latest
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
+- [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)
+- [Десктопные AI-агенты для кода (2026)](wiki/desktop-ai-agents-2026.md)
 <!-- backlinks-end -->

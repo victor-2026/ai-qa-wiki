@@ -100,3 +100,9 @@ Humans still own: risk definition, evidence review, release decisions.
 
 - [[opencode-skill-creator]] — eval-driven skill development от Anton Gulin. Логически встраивается в Layer 1 (Orchestration): создание скилла = формализация того, какой риск и как должен покрывать AI-агент.
 - [[people/anton-gulin]] — полный профиль автора
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)
+<!-- backlinks-end -->

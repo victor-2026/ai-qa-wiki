@@ -125,3 +125,13 @@ Aider с `--test-cmd` — тот же Ralph Wiggum loop, но для тесто�
 - [Ralph Wiggum technique (Geoffrey Huntley)](https://ghuntley.com/ralph)
 - [Gas Town (Steve Yegge)](https://github.com/steveyegge/gastown)
 - [Garry Tan — полная статья](https://garryslist.org/posts/karpathy-just-turned-one-gpu-into-a-research-lab-f55754a6)
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap](wiki/graph-engineering-vs-loop-engineering-2026.md)
+- [It Was Always a Loop](wiki/it-was-always-a-loop.md)
+<!-- backlinks-end -->

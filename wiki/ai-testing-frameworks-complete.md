@@ -140,6 +140,12 @@
 
 *This wiki page is updated with NotebookLM insights from arXiv/IEEE research.*
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)

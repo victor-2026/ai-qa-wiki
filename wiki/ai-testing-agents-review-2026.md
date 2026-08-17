@@ -259,7 +259,17 @@ MAS — не инструмент, а архитектурный паттерн:
 *Обзор составлен по результатам 79+ сессий работы. Все тесты проводились на $0 бюджете (free tiers + open-source инструменты). Обновлено: 2026-07-21.*
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
 <!-- backlinks-end -->

@@ -62,6 +62,12 @@ ISO/IEC 27001 is the international standard for Information Security Management 
 - ENFINT Flametree.ai — ISO 27001:2022 certified (TÜV AUSTRIA)
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)

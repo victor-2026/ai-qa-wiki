@@ -134,3 +134,42 @@
 [2026-07-06T03:49:43.437945] update-index | 149 topics | ok | 
 [2026-07-06T03:49:45.955938] git-push | chore(wiki): update index | ok | 
 [2026-07-06T04:00:03.422089] sync-links | 149 pages | ok | 
+[2026-07-06T13:26:32.933316] ingest | 3-ai-test-tools-orangehrm-comparison-2026.md | ok | wiki/3-ai-test-tools-orangehrm-comparison-2026.md
+[2026-07-06T13:26:52.988119] update-index | 150 topics | ok | 
+[2026-07-06T13:26:55.516033] git-push | chore(wiki): update index | ok | 
+[2026-07-09T00:16:17.856508] update-index | 160 topics | ok | 
+[2026-07-09T00:16:23.571928] git-push | chore(wiki): update index | ok | 
+[2026-07-14T13:17:01.936581] update-index | 164 topics | ok | 
+[2026-07-21T01:11:13.418613] ingest | claude-code-qa-testing-2026.md | ok | wiki/claude-code-qa-testing-2026.md
+[2026-07-21T01:13:41.265256] ingest | claude-code-skill-examples-2026.md | ok | wiki/claude-code-skill-examples-2026.md
+[2026-07-21T01:15:23.433219] ingest | claude-code-ci-cd-mcp-2026.md | ok | wiki/claude-code-ci-cd-mcp-2026.md
+[2026-07-21T01:33:24.108029] ingest | google-antigravity-qa-2026.md | ok | wiki/google-antigravity-qa-2026.md
+[2026-07-24T21:23:57.664701] ingest | iso-14971-risk-management-2026.md | ok | wiki/iso-14971-risk-management-2026.md
+[2026-07-24T21:26:05.883541] ingest | 21-cfr-part-11-electronic-records-2026.md | ok | wiki/21-cfr-part-11-electronic-records-2026.md
+[2026-07-24T21:26:09.046691] ingest | AI list 2026.md | ok | wiki/ailist2026.md
+[2026-07-24T21:26:12.934089] ingest | ai-in-qa-issue-17-butch-mayhew-2026-07-06.md | ok | wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md
+[2026-07-24T21:26:27.352382] ingest | alex-barady-9-concepts-ai-builder-2026.md | ok | wiki/alex-barady-9-concepts-ai-builder-2026.md
+[2026-07-24T21:27:01.894082] ingest | csv-validation-iq-oq-pq-2026.md | ok | wiki/csv-validation-iq-oq-pq-2026.md
+[2026-07-24T21:27:15.906547] ingest | iso-13485-qms-medical-devices-2026.md | ok | wiki/iso-13485-qms-medical-devices-2026.md
+[2026-07-24T21:27:30.048138] ingest | opencode-openrouter-qa-2026.md | ok | wiki/opencode-openrouter-qa-2026.md
+[2026-07-24T21:28:04.748933] ingest | Как экономить токены в Claude Code.md | ok | wiki/какэкономитьтокенывclaudecode.md
+[2026-07-24T21:28:04.840816] ingest-all | 8 ok, 0 fail | ok | 
+[2026-07-25T13:17:03.044401] ingest | regression-checklist-llm-ci-2026.md | ok | wiki/regression-checklist-llm-ci-2026.md
+[2026-07-26T21:48:46.101039] ingest | 6 AI Concepts You Must Master to Build Production-Ready AI Systems.md | ok | wiki/6aiconceptsyoumustmastertobuildproduction-readyaisystems.md
+[2026-07-26T21:49:02.868633] update-index | 185 topics | ok | 
+[2026-07-28T23:52:56.689659] ingest | iso-26262-functional-safety-testing-2026.md | ok | wiki/iso-26262-functional-safety-testing-2026.md
+[2026-07-28T23:53:03.796374] update-index | 186 topics | ok | 
+[2026-08-05T19:20:51.175519] ingest | cursor-vs-antigravity-autonoma.md | ok | wiki/cursor-vs-antigravity-autonoma.md
+[2026-08-05T19:21:06.435402] update-index | 188 topics | ok | 
+[2026-08-05T19:48:17.236479] ingest | copilot-generated-tests-quality-pitfalls-autonoma.md | ok | wiki/copilot-generated-tests-quality-pitfalls-autonoma.md
+[2026-08-05T19:48:25.039822] update-index | 189 topics | ok | 
+[2026-08-06T12:51:26.992587] ingest | testing-ai-generated-auth-code-autonoma.md | ok | wiki/testing-ai-generated-auth-code-autonoma.md
+[2026-08-06T12:51:40.713744] update-index | 190 topics | ok | 
+[2026-08-06T12:52:55.113800] ingest | testing-ai-agent-tool-calls-autonoma.md | ok | wiki/testing-ai-agent-tool-calls-autonoma.md
+[2026-08-06T12:53:06.889975] update-index | 191 topics | ok | 
+[2026-08-17T02:43:07.016751] ingest | Autonoma - шаги в пайплайне.md | ok | wiki/autonoma-шагивпайплайне.md
+[2026-08-17T02:44:43.417083] sync-links | 193 pages | ok | 
+[2026-08-17T02:44:43.561454] update-index | 193 topics | ok | 
+[2026-08-17T03:23:54.484812] ingest | CARBON, AI Agentic Verification Harnes.md | ok | wiki/carbonaiagenticverificationharnes.md
+[2026-08-17T03:24:51.010683] sync-links | 194 pages | ok | 
+[2026-08-17T03:24:51.125320] update-index | 194 topics | ok | 

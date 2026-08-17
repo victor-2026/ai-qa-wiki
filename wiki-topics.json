@@ -139,6 +139,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.html",
+      "title": "AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry",
+      "desc": "title: \"AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-qa-exoskeleton-habr.html",
       "title": "AI-Экзоскелет для QA-Инженера",
       "desc": "source: \"ai-qa-exoskeleton-habr.md\"",
@@ -295,6 +301,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/autonoma-шагивпайплайне.html",
+      "title": "Autonoma Шагивпайплайне",
+      "desc": "source: \"Autonoma - шаги в пайплайне.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/avito-ai-code-review-llm-pipeline-2026.html",
       "title": "Avito Ai Code Review Llm Pipeline 2026",
       "desc": "source: \"https://habr.com/ru/companies/avito/articles/1024954/\"",
@@ -328,6 +340,12 @@
       "file": "wiki/canary-testing-guide.html",
       "title": "Canary Testing",
       "desc": "source: \"canary-testing-guide.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/carbon-ai-agentic-verification-harness.html",
+      "title": "Carbon Ai Agentic Verification Harness",
+      "desc": "source: \"CARBON, AI Agentic Verification Harnes.md\"",
       "tag": "Wiki"
     },
     {
@@ -1147,6 +1165,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 108,
-  "updated": "2026-08-06"
+  "raw_count": 110,
+  "updated": "2026-08-17"
 }

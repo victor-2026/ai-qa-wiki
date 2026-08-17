@@ -145,6 +145,12 @@ KISS Sorcar первым делом читает `SORCAR.md` в рабочей �
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [3 Ai Test Tools Orangehrm Comparison 2026](wiki/3-ai-test-tools-orangehrm-comparison-2026.md)

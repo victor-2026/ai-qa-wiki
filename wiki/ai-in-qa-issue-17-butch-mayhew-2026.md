@@ -28,6 +28,12 @@ Apple shipped Safari MCP server — AI agents can now inspect live browsers nati
 **Newsletter:** https://aiinqa.com/ai-in-qa-issue-17/
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)

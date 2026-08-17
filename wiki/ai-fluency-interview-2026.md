@@ -242,6 +242,15 @@ QA/Automation roles explicitly included в пилот Google (L3–L4). Этот
 - [[ai-qa-wiki-improvements-from-bugs]] — улучшения AI-augmented QA процессов на базе баг-репортов
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)

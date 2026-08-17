@@ -37,6 +37,10 @@ The biggest mistake: focusing on prompt engineering while skipping evals, guardr
 | Inference Economics | Model selection (Groq vs OpenRouter vs local), token budget management |
 | AI Gateway | OpenRouter, model routing strategy documented in Articles |
 
+### QA-Specific Interpretation
+
+The mappings above are QA translations, not replacements for the original concepts. In particular, mutation testing is a downstream anti-overfit guardrail, not a complete AI safety guardrail; Allure and DORA provide test-run evidence and delivery metrics, not model/tool telemetry; and contract or E2E results are downstream QA validation, not general model eval scores. See [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md).
+
 ## Use Case
 
 This framework can be used for:
@@ -44,6 +48,12 @@ This framework can be used for:
 2. **Self-assessment checklist** — which concepts are covered, which are gaps
 3. **Job interview framing** — "I operate at builder level across all 9 concepts"
 4. **Tool evaluation** — rate tools (Autonoma, Mabl, TestSigma) against this framework
+
+
+
+
+
+
 
 
 

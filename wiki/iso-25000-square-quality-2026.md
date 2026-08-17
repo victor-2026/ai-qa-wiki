@@ -88,6 +88,12 @@ ISO/IEC 25000 (SQuaRE — Software product Quality Requirements and Evaluation) 
 - arc42 quality model — ISO/IEC 25010 reference
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)

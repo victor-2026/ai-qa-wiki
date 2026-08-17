@@ -72,6 +72,12 @@ Regression crawling с Comet — это **исследовательское т�
 - [Free AI services 2026](free-ai-services-for-qa-2026.md)
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)

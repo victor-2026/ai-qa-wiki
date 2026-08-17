@@ -210,6 +210,12 @@ Boundaries таблица — **единственный пункт с абсо�
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)

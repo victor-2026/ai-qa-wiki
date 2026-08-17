@@ -202,6 +202,12 @@ Methods like **LoRA** для быстрого дообучения:
 - SWE-Bench Verified benchmark
 - Gemini conversation analysis
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)

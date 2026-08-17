@@ -72,6 +72,12 @@ Claude Code шлёт промпты, оптимизированные под Ant
 *Ingested: 2026-07-22*
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Какэкономитьтокенывclaudecode](wiki/какэкономитьтокенывclaudecode.md)

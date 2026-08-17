@@ -151,3 +151,6 @@ npx opencode-skill-creator install --global
 - [npm: opencode-skill-creator](https://www.npmjs.com/package/opencode-skill-creator)
 - [Anthropic original (Claude Code)](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
 - [Anton Gulin — anton.qa](https://www.anton.qa)
+
+
+

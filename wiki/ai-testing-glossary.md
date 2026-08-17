@@ -277,7 +277,17 @@ type: glossary
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
 <!-- backlinks-end -->

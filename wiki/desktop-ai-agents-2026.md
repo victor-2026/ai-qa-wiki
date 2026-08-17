@@ -148,9 +148,15 @@ Augment Code ($30/mo), Sourcegraph Cody ($9/mo), Aider (open source), Cline (ope
 7. **Self-healing** — единственный real gap у open source (есть только у Claude Code + Playwright Agents)
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)
-- [Autonoma Open Source Self Driving 2026](wiki/autonoma-open-source-self-driving-2026.md)
-- [Kiro Dev Aws Ai Ide 2026](wiki/kiro-dev-aws-ai-ide-2026.md)
+- [Kiro.dev — AWS Agentic AI IDE (2026)](wiki/kiro-dev-aws-ai-ide-2026.md)
 <!-- backlinks-end -->

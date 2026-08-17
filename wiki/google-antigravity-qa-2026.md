@@ -42,6 +42,12 @@ Antigravity 2.0 (May 2026) is powerful but **no longer free for real work**.
 - [Notion AI Agentic Features 2026](wiki/notion-ai-agentic-features-2026.md)  
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AGENTS.md — 2 итерация: Сравнение предложений](wiki/agents-md-discussion.md)

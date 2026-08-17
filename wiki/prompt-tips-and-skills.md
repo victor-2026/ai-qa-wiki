@@ -229,9 +229,19 @@ Fix any issues: wrong locators, missing assertions, no time.sleep."
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
 - [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
+- [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 <!-- backlinks-end -->

@@ -185,7 +185,17 @@ Custom-агенты под конкретные роли QA-команды:
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)
 <!-- backlinks-end -->

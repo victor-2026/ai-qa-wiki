@@ -104,3 +104,13 @@ Split → N параллельных веток → merge. Например, з�
 - [Five Layers of AI Engineering](https://www.aibuilderclub.com/blog/five-layers-ai-engineering)
 - [LangGraph Overview](https://docs.langchain.com/oss/python/langgraph/overview)
 - [Google ADK](https://adk.dev/)
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [It Was Always a Loop](wiki/it-was-always-a-loop.md)
+- [Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops](wiki/karpathy-autoresearch-agentic-engineering-2026.md)
+<!-- backlinks-end -->

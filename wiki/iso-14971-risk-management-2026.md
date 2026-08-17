@@ -86,6 +86,12 @@ Auditors focus on **traceability**, **logical justification of acceptability**, 
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Quality Characteristics](wiki/quality-characteristics.md)

@@ -53,9 +53,19 @@ The fastest way to expose such hollow tests is to *tamper with the code* and wat
 By routinely performing these five checks, teams can turn a green‑only test run into a reliable safety net that truly protects against regressions, regardless of whether the tests were written by humans or AI.
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 <!-- backlinks-end -->
 
 ---

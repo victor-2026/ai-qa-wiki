@@ -1436,9 +1436,27 @@ github-actions:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
+- [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
+- [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
+- [Testing Ai Generated Auth Code Autonoma](wiki/testing-ai-generated-auth-code-autonoma.md)
 <!-- backlinks-end -->
