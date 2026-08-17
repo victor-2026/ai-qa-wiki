@@ -1,3 +1,10 @@
+---
+title: "Perplexity Agent Skills Guide"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # Perplexity Agent Skills Guide
 
 ## Overview

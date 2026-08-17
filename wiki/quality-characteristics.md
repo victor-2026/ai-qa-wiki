@@ -1,3 +1,10 @@
+---
+title: "AI Quality Characteristics"
+type: article
+updated: "2026-08-17"
+tags: [compliance]
+---
+
 # AI Quality Characteristics
 
 **Last Updated:** 2025-04-15

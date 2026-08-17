@@ -1,3 +1,10 @@
+---
+title: "Stratoplan Management 2026 — Обзор конференции"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Stratoplan Management 2026 — Обзор конференции
 
 **Источник:** https://mcovkin.ru/conf-stratoplan-management-2026/index.html

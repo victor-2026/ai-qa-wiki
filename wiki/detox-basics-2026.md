@@ -1,3 +1,10 @@
+---
+title: "Detox Basics for React Native Testing"
+type: article
+updated: "2026-08-17"
+tags: [detox]
+---
+
 # Detox Basics for React Native Testing
 
 ## Что такое Detox

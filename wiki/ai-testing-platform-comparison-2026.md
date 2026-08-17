@@ -1,3 +1,10 @@
+---
+title: "AI Testing Platform Comparison 2026"
+type: article
+updated: "2026-08-17"
+tags: [autonoma, compliance]
+---
+
 # AI Testing Platform Comparison 2026
 
 **Источник:** https://getautonoma.com/blog/ai-testing-platform-comparison (May 2026)

@@ -3,7 +3,13 @@ source: "https://avito.tech/content/pymlyskp41-qa-na-urovne-platformi-kak-mi-str
 ingested: "2026-07-06"
 author: "Павел Игнатё, QA-инженер платформенной команды Avito"
 topic: "QA на уровне платформы: как мы строили систему качества (BaaS)"
+title: "QA платформы BaaS в Avito: подходы, архитектура, инсайты"
+type: article
+updated: "2026-07-06"
+tags: [qa]
 ---
+
+*Source: [pymlyskp41-qa-na-urovne-platformi-kak-mi-stroili-si](https://avito.tech/content/pymlyskp41-qa-na-urovne-platformi-kak-mi-stroili-si)*
 
 ## QA платформы BaaS в Avito: подходы, архитектура, инсайты
 

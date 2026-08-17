@@ -1,3 +1,10 @@
+---
+title: "Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks
 
 **Last Updated:** 2026-05-10

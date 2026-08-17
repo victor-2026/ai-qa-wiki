@@ -1,3 +1,10 @@
+---
+title: "Risk Based Testing Skill"
+type: article
+updated: "2026-08-17"
+tags: [linkedin]
+---
+
 (by Daniel Webb via LinkedIn)
 Last week, [**Bas Dijkstra**](https://www.linkedin.com/in/basdijkstra/) posted about the test automation quadrant, the idea that most test suites sit in one of two uncomfortable places: fast but low-signal, or high-value but painfully slow. Getting to the top right of that quadrant (fast and valuable) is the real challenge.  
   

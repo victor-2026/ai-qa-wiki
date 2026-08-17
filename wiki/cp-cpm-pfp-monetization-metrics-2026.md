@@ -1,3 +1,10 @@
+---
+title: "CPM/CPC/PFP — Модели Монетизации для QA"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # CPM/CPC/PFP — Модели Монетизации для QA
 
 ## Определение

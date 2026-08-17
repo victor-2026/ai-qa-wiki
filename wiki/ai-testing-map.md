@@ -1,3 +1,10 @@
+---
+title: "AI Testing Map"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # AI Testing Map
 
 **Status:** Hub note for AI QA knowledge system

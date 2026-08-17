@@ -1,3 +1,10 @@
+---
+title: "Vibe Wipe Coding Guide"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Vibe Wipe Coding Guide
 
 **Last Updated:** 2026-04-18

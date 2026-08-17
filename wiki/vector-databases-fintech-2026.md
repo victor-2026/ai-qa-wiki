@@ -1,3 +1,10 @@
+---
+title: "Vector Databases in Fintech"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Vector Databases in Fintech
 
 ## Overview

@@ -1,7 +1,13 @@
 ---
 source: "hacks_ru.pdf"
 ingested: "2026-06-16"
+title: "Хаки агентного инжиниринга — 22 приёма для эффективной работы с AI-агентами"
+type: article
+updated: "2026-06-16"
+tags: [agents]
 ---
+
+*Source: [raw/hacks_ru.pdf](../raw/hacks_ru.pdf)*
 
 # Хаки агентного инжиниринга — 22 приёма для эффективной работы с AI-агентами
 

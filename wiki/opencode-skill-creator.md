@@ -1,3 +1,10 @@
+---
+title: "opencode-skill-creator: Eval-Driven Skill Development"
+type: article
+updated: "2026-08-17"
+tags: [opencode, evals]
+---
+
 # opencode-skill-creator: Eval-Driven Skill Development
 
 **Автор:** Anton Gulin ([GitHub](https://github.com/antongulin/opencode-skill-creator))

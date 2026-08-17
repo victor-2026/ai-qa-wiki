@@ -1,3 +1,10 @@
+---
+title: "Google Terms of Service (July 2026) — Restrictions Outside EEA"
+type: article
+updated: "2026-08-17"
+tags: [google]
+---
+
 # Google Terms of Service (July 2026) — Restrictions Outside EEA
 
 **Effective:** July 30, 2026

@@ -1,3 +1,10 @@
+---
+title: "Weekly Time Planner — PRD Example"
+type: article
+updated: "2026-08-17"
+tags: [google]
+---
+
 # Weekly Time Planner — PRD Example
 
 ## Описание

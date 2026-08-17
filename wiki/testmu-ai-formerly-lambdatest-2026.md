@@ -1,3 +1,10 @@
+---
+title: "TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform
 
 ## Overview

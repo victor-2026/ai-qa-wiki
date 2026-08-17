@@ -1,3 +1,10 @@
+---
+title: "Maestro vs Appium — Сравнительный анализ (2026)"
+type: article
+updated: "2026-08-17"
+tags: [maestro, appium]
+---
+
 ## Maestro vs Appium — Сравнительный анализ (2026)
 
 ### Философия

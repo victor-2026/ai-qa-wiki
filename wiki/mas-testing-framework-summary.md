@@ -1,3 +1,10 @@
+---
+title: "MAS-Testing Framework"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # MAS-Testing Framework 
 
 **Last Updated:** 2026-04-18

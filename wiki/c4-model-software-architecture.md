@@ -1,3 +1,10 @@
+---
+title: "C4 Model — Visualising Software Architecture"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # C4 Model — Visualising Software Architecture
 
 **Автор:** Simon Brown

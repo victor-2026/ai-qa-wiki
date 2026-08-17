@@ -1,3 +1,10 @@
+---
+title: "7-Layer Testing Framework for Public-Facing LLMs"
+type: article
+updated: "2026-08-17"
+tags: [llm]
+---
+
 # 7-Layer Testing Framework for Public-Facing LLMs
 
 **Источник:** Rohit Krishna (Engineering Manager @ Priceline, Applied AI)

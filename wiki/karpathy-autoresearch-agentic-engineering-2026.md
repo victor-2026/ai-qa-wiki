@@ -1,3 +1,10 @@
+---
+title: "Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops"
+type: article
+updated: "2026-08-17"
+tags: [agents, karpathy]
+---
+
 # Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops
 
 ## Контекст

@@ -1,3 +1,10 @@
+---
+title: "Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison"
+type: article
+updated: "2026-08-17"
+tags: [playwright, compliance]
+---
+
 # Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison
 
 **Источник:** [anton.qa/blog/posts/playwright-vs-cypress-vs-selenium-in-2026-the-definitive-comparison](https://www.anton.qa/blog/posts/playwright-vs-cypress-vs-selenium-in-2026-the-definitive-comparison) (January 28, 2026)

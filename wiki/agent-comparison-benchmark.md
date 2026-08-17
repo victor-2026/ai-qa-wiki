@@ -1,3 +1,10 @@
+---
+title: "Сравнительное тестирование агентов (benchmark)"
+type: article
+updated: "2026-08-17"
+tags: [claude-code, opencode, compliance, agents]
+---
+
 # Сравнительное тестирование агентов (benchmark)
 
 ## Зачем

@@ -1,3 +1,10 @@
+---
+title: "Self-Review Loop — Make AI Verify Its Own Work"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Self-Review Loop — Make AI Verify Its Own Work
 
 ## The Technique

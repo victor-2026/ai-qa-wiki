@@ -4,7 +4,10 @@ source: raw/Consumer-driven contract testing (post).md
 author: Bas Dijkstra (LinkedIn post), Victor Rincon (comment)
 tags: [contract-testing, Pact, PactFlow, microservices, API, integration]
 type: guide
+updated: "2026-08-17"
 ---
+
+*Source: [raw/raw/Consumer-driven contract testing (post).md](../raw/raw%2FConsumer-driven%20contract%20testing%20%28post).md)*
 
 # Contract Testing: Consumer-Driven, Bi-Directional, and When to Use Each
 

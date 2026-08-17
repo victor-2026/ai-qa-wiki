@@ -1,3 +1,10 @@
+---
+title: "Notion AI Agentic Features 2026"
+type: article
+updated: "2026-08-17"
+tags: [mcp, agents, notion]
+---
+
 # Notion AI Agentic Features 2026
 
 **Обзор:** Notion AI — встроенная AI-платформа внутри Notion с тремя уровнями агентов, External Agents API, hosted code runtime (Workers) и MCP-интеграцией.

@@ -1,3 +1,10 @@
+---
+title: "data-testid в React: как QA добавлять атрибуты в компоненты"
+type: article
+updated: "2026-08-17"
+tags: [playwright, linkedin]
+---
+
 # data-testid в React: как QA добавлять атрибуты в компоненты
 
 **Источник:** Yulia Sergeeva, LinkedIn (2026-07-08)

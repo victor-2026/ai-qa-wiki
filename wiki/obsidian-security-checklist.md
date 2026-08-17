@@ -1,3 +1,10 @@
+---
+title: "Obsidian Security Checklist"
+type: article
+updated: "2026-08-17"
+tags: [obsidian, security]
+---
+
 # Obsidian Security Checklist
 
 **Date:** 2026-06-24

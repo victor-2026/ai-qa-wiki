@@ -1,3 +1,10 @@
+---
+title: "Windows Server: Mobile Testing Setup"
+type: article
+updated: "2026-08-17"
+tags: [ollama]
+---
+
 # Windows Server: Mobile Testing Setup
 
 **Target:** PC-224 (192.168.1.224, Win 10 Pro, 64GB, ZeroTier 10.24.175.30)

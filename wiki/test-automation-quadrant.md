@@ -1,3 +1,10 @@
+---
+title: "The Test Automation Quadrant"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # The Test Automation Quadrant
 
 **Author:** Bas Dijkstra

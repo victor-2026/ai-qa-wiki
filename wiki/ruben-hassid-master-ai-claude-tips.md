@@ -1,3 +1,10 @@
+---
+title: "Master AI Before It Masters You — 27 Claude Tips"
+type: article
+updated: "2026-08-17"
+tags: [claude-code, linkedin]
+---
+
 # Master AI Before It Masters You — 27 Claude Tips
 
 **Author:** Ruben Hassid

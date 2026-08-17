@@ -1,3 +1,10 @@
+---
+title: "AI Risk Communication for QA Leaders"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # AI Risk Communication for QA Leaders
 
 ## Summary

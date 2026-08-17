@@ -1,3 +1,10 @@
+---
+title: "GPT Image 2 — Research Before Generation"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # GPT Image 2 — Research Before Generation
 
 ## Hidden Superpower

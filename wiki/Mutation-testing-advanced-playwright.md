@@ -1,3 +1,10 @@
+---
+title: "Advanced Mutation Testing with Playwright"
+type: article
+updated: "2026-08-17"
+tags: [playwright, mutation-testing]
+---
+
 # Advanced Mutation Testing with Playwright
 
 ## Обзор

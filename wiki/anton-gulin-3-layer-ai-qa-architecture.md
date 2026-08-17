@@ -1,3 +1,10 @@
+---
+title: "Anton Gulin: 3-Layer AI Test Automation Architecture"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Anton Gulin: 3-Layer AI Test Automation Architecture
 
 **Источник:** [anton.qa/blog/posts/ai-test-automation-architecture-3-layer-system](https://www.anton.qa/blog/posts/ai-test-automation-architecture-3-layer-system) (May 13, 2026)

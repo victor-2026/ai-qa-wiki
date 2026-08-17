@@ -1,3 +1,10 @@
+---
+title: "AGENTS.md — 2 итерация: Сравнение предложений"
+type: article
+updated: "2026-08-17"
+tags: [opencode, agents]
+---
+
 # AGENTS.md — 2 итерация: Сравнение предложений
 
 ## Источник

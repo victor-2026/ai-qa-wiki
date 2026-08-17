@@ -1,3 +1,10 @@
+---
+title: "MAS-Pipeline Риски"
+type: article
+updated: "2026-08-17"
+tags: [compliance, agents]
+---
+
 # MAS-Pipeline Риски
 
 **Last Updated:** 2026-04-19

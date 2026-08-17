@@ -1,3 +1,10 @@
+---
+title: "ISO 27001 and QA/Testing"
+type: article
+updated: "2026-08-17"
+tags: [compliance, security]
+---
+
 # ISO 27001 and QA/Testing
 
 ## Overview

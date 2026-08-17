@@ -1,3 +1,10 @@
+---
+title: "Agent Teams Architecture"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # Agent Teams Architecture
 
 ## Concept

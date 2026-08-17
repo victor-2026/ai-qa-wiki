@@ -1,3 +1,10 @@
+---
+title: "3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework"
+type: article
+updated: "2026-08-17"
+tags: [compliance]
+---
+
 # 3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework
 
 **Last Updated:** 2026-04-18

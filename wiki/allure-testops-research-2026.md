@@ -2,7 +2,13 @@
 source: "allure-testops-research-2026.md"
 ingested: "2026-06-16"
 generator: "llama-3.3-70b-versatile (Groq)"
+title: "Allure TestOps"
+type: article
+updated: "2026-06-16"
+tags: [allure, groq]
 ---
+
+*Source: [raw/allure-testops-research-2026.md](../raw/allure-testops-research-2026.md)*
 
 # Allure TestOps
 

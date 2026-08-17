@@ -1,3 +1,10 @@
+---
+title: "The Fundamentals of Test Automation Revisited"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # The Fundamentals of Test Automation Revisited
 
 **Author:** Bas Dijkstra  

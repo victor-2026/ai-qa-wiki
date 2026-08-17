@@ -1,3 +1,10 @@
+---
+title: "Video Capabilities in OpenCode Free"
+type: article
+updated: "2026-08-17"
+tags: [opencode]
+---
+
 # Video Capabilities in OpenCode Free
 
 **Status:** Verified (Jun 2026)

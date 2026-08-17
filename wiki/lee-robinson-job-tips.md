@@ -1,3 +1,10 @@
+---
+title: "Lee Robinson - Как выделиться при поиске работы"
+type: article
+updated: "2026-08-17"
+tags: [job-search, cursor]
+---
+
 # Lee Robinson - Как выделиться при поиске работы
 
 **Source:** Lee Robinson (@leerob), VP Product at Cursor

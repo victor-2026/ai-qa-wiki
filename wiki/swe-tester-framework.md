@@ -1,3 +1,10 @@
+---
+title: "SWE-Tester Framework"
+type: article
+updated: "2026-08-17"
+tags: [llm]
+---
+
 # SWE-Tester Framework
 
 **Last Updated:** 2026-04-18

@@ -1,3 +1,10 @@
+---
+title: "Writing Tests with Claude Code — Part 1"
+type: article
+updated: "2026-08-17"
+tags: [claude-code]
+---
+
 # Writing Tests with Claude Code — Part 1
 
 **Author:** Bas Dijkstra

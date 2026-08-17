@@ -1,3 +1,10 @@
+---
+title: "QA Metrics Dashboard — Setup Notes"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # QA Metrics Dashboard — Setup Notes
 
 **Location:** `qa-automation-sandbox/monitoring/`

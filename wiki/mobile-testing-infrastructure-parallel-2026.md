@@ -1,3 +1,10 @@
+---
+title: "Mobile Testing Infrastructure: Parallel Mac + Windows"
+type: article
+updated: "2026-08-17"
+tags: [appium, mcp, agents]
+---
+
 # Mobile Testing Infrastructure: Parallel Mac + Windows
 
 ## MCP / Agent Support

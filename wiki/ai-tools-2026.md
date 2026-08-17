@@ -1,3 +1,10 @@
+---
+title: "AI Tools 2026 — Overview with Advantages"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # AI Tools 2026 — Overview with Advantages
 
 > Source: `raw/AI list 2026.md`

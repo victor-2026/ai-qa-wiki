@@ -1,3 +1,10 @@
+---
+title: "Crash Budget для Mobile Testing"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Crash Budget для Mobile Testing
 
 ## Определение

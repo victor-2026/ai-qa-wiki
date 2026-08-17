@@ -1,3 +1,10 @@
+---
+title: "Agentic Development Lifecycle (Adlc)"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 Ключевое отличие между **ADLC** (Agent Development Lifecycle — жизненный цикл разработки агентов) и традиционным **SDLC** (Software Development Lifecycle) заключается в переходе от разработки детерминированного кода к управлению **вероятностным поведением** ИИ-агентов.
 
 Ниже приведены основные структурные различия, выделенные в источниках:

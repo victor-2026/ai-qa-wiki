@@ -2,7 +2,13 @@
 source: "https://habr.com/ru/companies/avito/articles/1024954/"
 ingested: "2026-07-06"
 author: "Марк Каширский, DS-инженер, LLM-core team Avito"
+title: "AI-ревью кода через LLM в Avito: архитектура, метрики, полезность"
+type: article
+updated: "2026-07-06"
+tags: [llm]
 ---
+
+*Source: [1024954](https://habr.com/ru/companies/avito/articles/1024954/)*
 
 ## AI-ревью кода через LLM в Avito: архитектура, метрики, полезность
 

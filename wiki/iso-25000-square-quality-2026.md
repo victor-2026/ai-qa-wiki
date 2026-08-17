@@ -1,3 +1,10 @@
+---
+title: "ISO/IEC 25000 (SQuaRE) — Software Quality Standards"
+type: article
+updated: "2026-08-17"
+tags: [evals, compliance]
+---
+
 # ISO/IEC 25000 (SQuaRE) — Software Quality Standards
 
 ## Overview

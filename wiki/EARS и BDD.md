@@ -1,3 +1,10 @@
+---
+title: "EARS и BDD: От требований к тестам"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # EARS и BDD: От требований к тестам
 
 ## EARS — Easy Approach to Requirements Syntax

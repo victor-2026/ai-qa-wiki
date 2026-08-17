@@ -1,3 +1,10 @@
+---
+title: "Playwright Test Agents (2026)"
+type: article
+updated: "2026-08-17"
+tags: [playwright, agents, microsoft]
+---
+
 # Playwright Test Agents (2026)
 
 ## Три агента

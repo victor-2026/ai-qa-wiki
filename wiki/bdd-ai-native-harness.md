@@ -1,3 +1,10 @@
+---
+title: "BDD как AI-Native Harness"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # BDD как AI-Native Harness
 
 ## Проблема SDD

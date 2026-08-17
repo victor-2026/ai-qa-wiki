@@ -1,3 +1,10 @@
+---
+title: "Alex Barády: 9 Concepts That Separate AI User from AI Builder"
+type: article
+updated: "2026-08-17"
+tags: [linkedin]
+---
+
 # Alex Barády: 9 Concepts That Separate AI User from AI Builder
 
 **Source:** Alex Barády (ENDGAME Founder) — LinkedIn post, Jul 6, 2026

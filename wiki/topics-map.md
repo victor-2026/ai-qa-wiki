@@ -1,3 +1,10 @@
+---
+title: "AI/QA Testing Topics Map"
+type: article
+updated: "2026-08-17"
+tags: [meta]
+---
+
 # AI/QA Testing Topics Map
 
 **Last Updated:** 2025-04-15

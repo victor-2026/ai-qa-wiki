@@ -1,3 +1,10 @@
+---
+title: "AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)"
+type: article
+updated: "2026-08-17"
+tags: [claude-code]
+---
+
 # AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)
 
 **Raw:** `raw/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md`

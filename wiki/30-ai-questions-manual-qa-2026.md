@@ -1,3 +1,10 @@
+---
+title: "30 AI-Focused Interview Questions for Manual QA"
+type: article
+updated: "2026-08-17"
+tags: [interview]
+---
+
 # 30 AI-Focused Interview Questions for Manual QA
 
 **Source:** Ruslan Desyatnikov — 28 years of QA interviewing experience

@@ -1,3 +1,10 @@
+---
+title: "QA + Data Science Collaboration Patterns"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # QA + Data Science Collaboration Patterns
 
 ## Summary

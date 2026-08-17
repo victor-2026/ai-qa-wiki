@@ -1,3 +1,10 @@
+---
+title: "State of Digital Quality 2026 — AI Testing Report"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # State of Digital Quality 2026 — AI Testing Report
 
 **Last Updated:** 2026-04-18

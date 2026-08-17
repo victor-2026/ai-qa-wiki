@@ -1,3 +1,10 @@
+---
+title: "AI Fluency: The New Interview Standard"
+type: article
+updated: "2026-08-17"
+tags: [google, meta, interview]
+---
+
 # AI Fluency: The New Interview Standard
 
 **Date:** 2026-06-25

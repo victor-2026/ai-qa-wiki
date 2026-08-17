@@ -1,3 +1,10 @@
+---
+title: "Переход от вайб- к вайп-кодингу: benefits, challenges and risks"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Переход от вайб- к вайп-кодингу: benefits, challenges and risks
 
 **Last Updated:** 2026-05-10

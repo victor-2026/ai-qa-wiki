@@ -1,3 +1,10 @@
+---
+title: "HTTP QUERY Method (RFC 10008, June 2026)"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # HTTP QUERY Method (RFC 10008, June 2026)
 
 Новый HTTP-метод `QUERY`, стандартизированный в RFC 10008. Первый новый метод после PATCH (2010).

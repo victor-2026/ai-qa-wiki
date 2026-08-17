@@ -1,3 +1,10 @@
+---
+title: "AI-Augmented QA: Process Improvements from Bug Reports"
+type: article
+updated: "2026-08-17"
+tags: [orangehrm]
+---
+
 # AI-Augmented QA: Process Improvements from Bug Reports
 
 **Updated:** 2026-06-25

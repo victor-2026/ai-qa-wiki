@@ -1,3 +1,10 @@
+---
+title: "Self-Healing Tests — Why It's a Bad Idea"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Self-Healing Tests — Why It's a Bad Idea
 
 **Author:** Bas Dijkstra  

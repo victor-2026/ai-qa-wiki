@@ -1,3 +1,10 @@
+---
+title: "Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap
 
 ## Контекст

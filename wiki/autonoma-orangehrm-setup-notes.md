@@ -1,3 +1,10 @@
+---
+title: "Autonoma на OrangeHRM: опыт первой настройки"
+type: article
+updated: "2026-08-17"
+tags: [autonoma, orangehrm, performance]
+---
+
 # Autonoma на OrangeHRM: опыт первой настройки
 
 ## Контекст

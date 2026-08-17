@@ -1,3 +1,10 @@
+---
+title: "Telegram Bot для OpenCode"
+type: article
+updated: "2026-08-17"
+tags: [opencode]
+---
+
 # Telegram Bot для OpenCode
 
 ## Назначение

@@ -1,3 +1,10 @@
+---
+title: "Kiro.dev — AWS Agentic AI IDE (2026)"
+type: article
+updated: "2026-08-17"
+tags: [kiro, agents, cursor]
+---
+
 # Kiro.dev — AWS Agentic AI IDE (2026)
 
 Kiro — агентная AI IDE от AWS (запуск Jul 2025, AWS Summit NYC). Code OSS fork, доступен как IDE, CLI, Web и Mobile (iOS).

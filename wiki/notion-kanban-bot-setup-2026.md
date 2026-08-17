@@ -1,3 +1,10 @@
+---
+title: "Notion Kanban + Bot Integration Setup"
+type: article
+updated: "2026-08-17"
+tags: [opencode, agents, notion]
+---
+
 # Notion Kanban + Bot Integration Setup
 
 **Дата:** 2026-06-19

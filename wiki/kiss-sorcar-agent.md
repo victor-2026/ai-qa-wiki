@@ -1,3 +1,10 @@
+---
+title: "KISS Sorcar — Open-Source AI Coding Agent"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # KISS Sorcar — Open-Source AI Coding Agent
 
 **Repo:** [github.com/ksenxx/kiss_ai](https://github.com/ksenxx/kiss_ai) (515 ★, Apache 2.0)

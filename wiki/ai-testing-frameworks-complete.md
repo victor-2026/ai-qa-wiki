@@ -1,3 +1,10 @@
+---
+title: "AI Testing Frameworks — Complete Technical Reference"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # AI Testing Frameworks — Complete Technical Reference
 
 **Last Updated:** 2026-04-20

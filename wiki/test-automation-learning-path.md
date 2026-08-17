@@ -1,3 +1,10 @@
+---
+title: "Test Automation Learning Path — E-book Summary"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Test Automation Learning Path — E-book Summary
 
 **Author:** Bas Dijkstra  

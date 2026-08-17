@@ -1,3 +1,10 @@
+---
+title: "AI Testing Effectiveness"
+type: article
+updated: "2026-08-17"
+tags: [evals]
+---
+
 # AI Testing Effectiveness
 
 **Last Updated:** 2026-04

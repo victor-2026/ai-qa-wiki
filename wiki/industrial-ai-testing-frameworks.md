@@ -1,3 +1,10 @@
+---
+title: "Industrial AI Testing Frameworks (2026)"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Industrial AI Testing Frameworks (2026)
 
 **Last Updated:** 2026-04-18

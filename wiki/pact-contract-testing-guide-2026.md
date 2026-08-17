@@ -1,3 +1,10 @@
+---
+title: "Pact Contract Testing — Полное руководство"
+type: article
+updated: "2026-08-17"
+tags: [contract-testing]
+---
+
 # Pact Contract Testing — Полное руководство
 
 ## Что такое Pact

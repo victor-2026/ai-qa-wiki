@@ -1,3 +1,10 @@
+---
+title: "It Was Always a Loop"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # It Was Always a Loop
 
 ## Контекст

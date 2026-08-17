@@ -1,3 +1,10 @@
+---
+title: "Autonoma Open Source & Architecture (June 2026)"
+type: article
+updated: "2026-08-17"
+tags: [autonoma]
+---
+
 # Autonoma Open Source & Architecture (June 2026)
 
 ## Announcement

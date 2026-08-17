@@ -1,3 +1,10 @@
+---
+title: "Анализ NotebookLM Playbook — что взять к нам"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 ## Анализ NotebookLM Playbook — что взять к нам
 
   

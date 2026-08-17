@@ -1,3 +1,10 @@
+---
+title: "ISO 9001:2015 — Quality Management Systems for QA & Testing"
+type: article
+updated: "2026-08-17"
+tags: [compliance]
+---
+
 # ISO 9001:2015 — Quality Management Systems for QA & Testing
 
 ## Overview

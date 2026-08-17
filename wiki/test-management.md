@@ -1,3 +1,10 @@
+---
+title: "Test Management & Traceability"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Test Management & Traceability
 
 **Last Updated:** 2026-04-17

@@ -1,3 +1,10 @@
+---
+title: "Сравнение: OpenCode vs Antigravity (Go migration)"
+type: article
+updated: "2026-08-17"
+tags: [antigravity, opencode]
+---
+
 # Сравнение: OpenCode vs Antigravity (Go migration)
 
 ## Контекст

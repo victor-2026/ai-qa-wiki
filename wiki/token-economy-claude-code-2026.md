@@ -1,3 +1,10 @@
+---
+title: "Как экономить токены в Claude Code"
+type: article
+updated: "2026-08-17"
+tags: [claude-code]
+---
+
 # Как экономить токены в Claude Code
 
 **Источник:** [blognot.co](https://blognot.co/kak-eekonomit-tokeny-v-claude-code/) (2026-07-21)

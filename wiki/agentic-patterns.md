@@ -1,3 +1,10 @@
+---
+title: "Agentic Patterns"
+type: article
+updated: "2026-08-17"
+tags: [agents]
+---
+
 # Agentic Patterns
 
 **Last Updated:** 2025-04-15

@@ -1,3 +1,10 @@
+---
+title: "MAS-Pipeline vs SWE-Tester: Comprehensive Comparison"
+type: article
+updated: "2026-08-17"
+tags: [compliance]
+---
+
 # MAS-Pipeline vs SWE-Tester: Comprehensive Comparison
 
 **Last Updated:** 2026-04-18

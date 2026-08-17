@@ -1,3 +1,10 @@
+---
+title: "AI Testing Metrics"
+type: article
+updated: "2026-08-17"
+tags: [rag, evals]
+---
+
 # AI Testing Metrics
 
 **Last Updated:** 2025-04-15

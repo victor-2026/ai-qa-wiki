@@ -1,3 +1,10 @@
+---
+title: "Testing Maturity Model (TMM/TMMi)"
+type: article
+updated: "2026-08-17"
+tags: [qa]
+---
+
 # Testing Maturity Model (TMM/TMMi)
 
 ## Определение

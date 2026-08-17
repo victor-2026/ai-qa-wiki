@@ -1,3 +1,10 @@
+---
+title: "Browser-Based AI Testing Agents"
+type: article
+updated: "2026-08-17"
+tags: [playwright, agents]
+---
+
 # Browser-Based AI Testing Agents
 
 Browser-based AI agents — автономные AI-агенты, которые управляют браузером через код (Playwright, Puppeteer) для исследовательского тестирования, генерации тестов и валидации.
