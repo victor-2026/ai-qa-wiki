@@ -152,3 +152,12 @@ tags: [qa]
 ---
 
 *E-book summary created from PDF via groq_qa.py*
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
+- [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
+<!-- backlinks-end -->

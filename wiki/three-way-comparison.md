@@ -150,3 +150,8 @@ Three fundamentally different approaches in different planes:
 - Applause: State of Digital Quality 2025
 - arXiv papers
 - Gemini analysis
+
+<!-- backlinks-start -->
+### Backlinks
+- [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
+<!-- backlinks-end -->

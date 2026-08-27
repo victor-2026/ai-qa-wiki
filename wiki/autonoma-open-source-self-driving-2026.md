@@ -212,12 +212,24 @@ $ npx @autonoma-ai/planner@latest
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
+- [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
 - [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)
+- [MCP + UCP: Open Protocols for Agentic QA (2026)](wiki/mcp-ucp-protocols-2026.md)
+- [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
 - [Десктопные AI-агенты для кода (2026)](wiki/desktop-ai-agents-2026.md)
 <!-- backlinks-end -->

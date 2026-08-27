@@ -139,6 +139,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-productivity-paradox-verification-layer-2026.html",
+      "title": "Ai Productivity Paradox Verification Layer 2026",
+      "desc": "source: \"ai-productivity-paradox-verification-layer-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.html",
       "title": "AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry",
       "desc": "title: \"AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry\"",
@@ -529,6 +535,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/iclr-2026-agent-benchmarking-self-improvement.html",
+      "title": "Iclr 2026 Agent Benchmarking Self Improvement",
+      "desc": "source: \"iclr-2026-agent-benchmarking-self-improvement.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/implement-ai-in-qa-process.html",
       "title": "Implementing AI in QA Process",
       "desc": "source: \"implement-ai-in-qa-process.md\"",
@@ -670,6 +682,12 @@
       "file": "wiki/mas-vs-swe-comparison.html",
       "title": "MAS-Pipeline vs SWE-Tester: Comprehensive Comparison",
       "desc": "title: \"MAS-Pipeline vs SWE-Tester: Comprehensive Comparison\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/mcp-ucp-protocols-2026.html",
+      "title": "MCP + UCP: Open Protocols for Agentic QA (2026)",
+      "desc": "source: \"mcp-ucp-protocols-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -955,6 +973,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/sergey-yudin-neurolegal-verified-citations-2026.html",
+      "title": "Sergey Yudin Neurolegal Verified Citations 2026",
+      "desc": "source: \"sergey-yudin-neurolegal-verified-citations-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/shcherbinin-tg-understand-code-debate-2026.html",
+      "title": "Shcherbinin Tg Understand Code Debate 2026",
+      "desc": "source: \"shcherbinin-tg-understand-code-debate-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/software-testing-with-generative-ai.html",
       "title": "Software Testing with Generative AI",
       "desc": "source: \"software-testing-with-generative-ai.md\"",
@@ -1027,6 +1057,36 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/testing-ai-book-evidence-foundations.html",
+      "title": "Testing AI: Evidence Foundations",
+      "desc": "This page summarizes Chapters 1-8 of Jason Arbon's *Testing AI*. The summaries use the official public Knowledge Edition",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testing-ai-book-generated-code-confidence-engineer.html",
+      "title": "Testing AI: Generated Code and the Confidence Engineer",
+      "desc": "This page summarizes Chapters 9-11 and the public brief on AI review loops with coding agents.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testing-ai-book-index.html",
+      "title": "Testing AI by Jason Arbon: Wiki Index",
+      "desc": "**Book:** *Testing AI: Engineering Confidence in Non-Deterministic Systems*",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testing-ai-book-playbook-future.html",
+      "title": "Testing AI: Governance, Playbook and Future",
+      "desc": "This page summarizes Chapters 19-21 and the most useful public appendices.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testing-ai-book-security-dynamic-systems.html",
+      "title": "Testing AI: Data, Security and Dynamic Systems",
+      "desc": "This page summarizes Chapters 12-18. Chapters 14-16 are more specialized, but the shared principle remains useful: treat",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/testing-ai-generated-auth-code-autonoma.html",
       "title": "Testing Ai Generated Auth Code Autonoma",
       "desc": "source: \"testing-ai-generated-auth-code-autonoma.md\"",
@@ -1075,6 +1135,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/toloka-llm-qa-agent-verification-2026.html",
+      "title": "Toloka Llm Qa Agent Verification 2026",
+      "desc": "source: \"toloka-llm-qa-agent-verification-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/topics-map.html",
       "title": "AI/QA Testing Topics Map",
       "desc": "title: \"AI/QA Testing Topics Map\"",
@@ -1114,6 +1180,12 @@
       "file": "wiki/video-capabilities-opencode-free.html",
       "title": "Video Capabilities in OpenCode Free",
       "desc": "title: \"Video Capabilities in OpenCode Free\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/virto-commerce-integration-glossary-2026.html",
+      "title": "Virto Commerce Integration Glossary 2026",
+      "desc": "source: \"virto-commerce-integration-glossary-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -1175,8 +1247,68 @@
       "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
       "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.html",
+      "title": "QAEverest Pilot Hands-On: Import, Confidence, Human Gate (2026-08-25)",
+      "desc": "Hands-on QAEverest.ai pilot on victor-2026/qaeverset-pilot-mini: import 5/5, avg 100% confidence, human review gate, exact-text vs vision assertion model; 2 failure modes (GitHub Pages subpath, OCR Login vs Sign in).",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.html",
+      "title": "DevQAExpert - QAEverest import 2000 Cypress tests - confidence score",
+      "desc": "QAEverest imports existing Cypress suites and converts them to editable test cases with a confidence score; no test runs until a human reviewer validates it. Brownfield AI testing.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.html",
+      "title": "DevQAExpert - QAEverest maintenance tax - intent resolves at runtime",
+      "desc": "QAEverest fights the maintenance tax: intent-driven tests resolved at runtime, no hard-coded selectors, unified web/mobile/API suite without page-object hierarchies.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ai-qa-tool-evaluation-mutation-matrix.html",
+      "title": "AI QA Tool Evaluation: Mutation Matrix Method",
+      "desc": "Method to evaluate any AI-QA platform: baseline, locator drift, weak/strong decoy, product regression. QAEverest case: ambiguity not detected, 3 green reports 0% risk. Playbook + red flags.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/david-burke-death-taxes-software-bugs.html",
+      "title": "Death, Taxes, and Software Bugs (David Burke)",
+      "desc": "Bugs are inevitable - design process and policy around the assumption of failure, not perfection. Recovery path, ambiguous state, unambiguous rules.",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/google-kaggle-agent-skills-whitepaper-2026.md",
+      "topic": "agent skills SKILL.md format context reduction routing",
+      "date": "2026-08-27",
+      "source": "raw/Agent Skills (05.26) от Google и Kaggle.md"
+    },
+    {
+      "file": "wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md",
+      "topic": "QA leadership elimination virus governance accountability",
+      "date": "2026-08-27",
+      "source": "raw/ruslan-desyatnikov-qa-director-elimination-virus-2026.md"
+    },
+    {
+      "file": "wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md",
+      "topic": "adversarial testing banking RAG fake endpoint hallucination prompt leak",
+      "date": "2026-08-27",
+      "source": "raw/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md"
+    },
+    {
+      "file": "wiki/ai-dlc-process-testing-guardrails-2026.md",
+      "topic": "AI-DLC process testing dual-agent verification mutation testing quality gate parallelization",
+      "date": "2026-08-27",
+      "source": "raw/ai-dlc-process-testing-guardrails-2026.md"
+    },
+    {
+      "file": "wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md",
+      "topic": "quality gate rot metric hacking external verifier optimization landscape",
+      "date": "2026-08-27",
+      "source": "raw/model optimizing against quality gate instead of actual problem.md"
     }
   ],
-  "raw_count": 112,
-  "updated": "2026-08-17"
+  "raw_count": 119,
+  "updated": "2026-08-26"
 }

@@ -251,9 +251,52 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)
+- [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
+- [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
+- [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
+- [Keithklain Testingmindsetafterall 2026](wiki/keithklain-testingmindsetafterall-2026.md)
+- [MCP + UCP: Open Protocols for Agentic QA (2026)](wiki/mcp-ucp-protocols-2026.md)
+- [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
+- [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
+- [Toloka Llm Qa Agent Verification 2026](wiki/toloka-llm-qa-agent-verification-2026.md)
+- [Virto Commerce Integration Glossary 2026](wiki/virto-commerce-integration-glossary-2026.md)
 <!-- backlinks-end -->

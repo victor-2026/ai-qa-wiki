@@ -158,9 +158,13 @@ KISS Sorcar первым делом читает `SORCAR.md` в рабочей �
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [3 Ai Test Tools Orangehrm Comparison 2026](wiki/3-ai-test-tools-orangehrm-comparison-2026.md)
 - [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
+- [MCP + UCP: Open Protocols for Agentic QA (2026)](wiki/mcp-ucp-protocols-2026.md)
 <!-- backlinks-end -->

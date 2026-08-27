@@ -135,8 +135,12 @@ Windsurf **не применялся для тестирования или ге
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)
+- [Virto Commerce Integration Glossary 2026](wiki/virto-commerce-integration-glossary-2026.md)
 - [Десктопные AI-агенты для кода (2026)](wiki/desktop-ai-agents-2026.md)
 <!-- backlinks-end -->

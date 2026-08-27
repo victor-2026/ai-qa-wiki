@@ -1,79 +1,42 @@
-# Session Checkpoint — 2026-07-26 (Session 81 — Wiki Ingest)
+# Session Checkpoint — 2026-08-27 (Session 107)
 
-## Session 81 (2026-07-26)
+## Wiki updates
+### Новые страницы
+1. `wiki/google-kaggle-agent-skills-whitepaper-2026.md` — SKILL.md format, 98% context reduction, trajectory testing, context-rot testing
+2. `wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md` — QA leadership elimination warning
+3. `wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md` — adversarial testing catches what fidelity metrics miss
+4. `wiki/ai-dlc-process-testing-guardrails-2026.md` — AI-DLC process testing, dual-agent verification, mutation testing as quality gate
+5. `wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md` — quality gate rot, external verifier
 
-### Что сделано
-1. **Ingested:** `raw/6 AI Concepts You Must Master to Build Production-Ready AI Systems.md` → `wiki/6aiconceptsyoumustmastertobuildproduction-readyaisystems.md` (52 строки, таблица 6 концепций + практические применения)
-2. **wiki index updated** — 185 topics, 101 raw sources
+### Cross-links
+- ai-dlc → mutation-matrix, qaeverest-pilot, agent-skills, testing-ai-evidence, ai-qa-evidence-layer, desyatnikov, bartolini, zagirov
+- wiki-topics.json: 213 → 217
 
-### Next
-- Следующий raw файл для ингеста по запросу
+## Outreach updates
+- **Rupesh Kabra:** consulting methodology sent (mutation matrix + trajectory audit + scorecard). Reply: "I will get back to you." Mutation results M6-M9 sent (2/4 caught, 2/4 missed). Pattern: functional failures caught, structural fragility missed.
+- **Tatsiana (X-FLOW):** "Как только будут новости от наших ребят" — waiting
+- **Max Kitaygora:** peer exchange on AI review noise ratio, CloudFront race condition case
+- **Yasin Aktepe:** hold — no current opening, keep warm
+- **HYPERHUG:** hold — waiting for CEO/CTO connection replies
+- **Radik Zagirov (Agentiqa):** wiki ingested, catalog created
 
----
+## QAEverest mutations M6-M9 (2026-08-27)
+| Mut | What | Result | Finding |
+|-----|------|--------|---------|
+| M6 | id loginBtn → login-button | 5/5 PASSED | Locator drift not detected |
+| M7 | Remove id, bare button | 5/5 PASSED | Selector broadening not detected |
+| M8 | Delete button | 3/5 FAILED | Correct - caught |
+| M9 | Swap buttons | 3/5 FAILED | Correct - caught, risk 42.9% |
 
-## Что сделано
+**Pattern:** Functional failures (missing/wrong element) → caught. Structural changes (id drift, selector broadening) → missed.
 
-### Новые wiki статьи (6)
-1. `wiki/claude-code-qa-testing-2026.md` — Claude Code, Computer Use, Skills, MCP
-2. `wiki/claude-code-skill-examples-2026.md` — 2 SKILL.md: Playwright + Hybrid Computer Use
-3. `wiki/claude-code-ci-cd-mcp-2026.md` — Docker + GitHub Actions + MCP Slack/Jira + closed-loop assignee
-4. `wiki/opencode-openrouter-qa-2026.md` — OSS стек, цены, AGENTS.md
-5. `wiki/google-antigravity-qa-2026.md` — Agent-First, multi-agent, Browser-in-loop
-6. `wiki/kiro-dev-aws-ai-ide-2026.md` — обновлена: coverage gap analysis, security audit, Devin/Windsurf сравнение
+## Daily digest
+- Fixed dedup: current day excluded from lookback, dedup moved before top_n
+- Re-generated: 12 items from 492, 3 excluded by dedup, Groq gpt-oss-120b working
 
-### 6 raw files ingested (все новые)
-Все новые raw → wiki: claude-code-skill-examples, claude-code-ci-cd-mcp, opencode-openrouter, google-antigravity. Обновлены cross-links.
-
-### Структура
-```
-wiki/
-├── claude-code-qa-testing-2026.md           # Claude Code обзор
-├── claude-code-skill-examples-2026.md       # SKILL.md примеры
-├── claude-code-ci-cd-mcp-2026.md            # CI/CD + MCP pipeline
-├── opencode-openrouter-qa-2026.md           # OSS альтернатива
-├── google-antigravity-qa-2026.md            # Antigravity (с ценами)
-└── kiro-dev-aws-ai-ide-2026.md              # Kiro обновлённый
-```
-
-### wiki-topics
-~170 topics (было 164, +6 новых статей с cross-links)
-
----
-
-## Session 89 (2026-08-17) — AI QA Evidence Layer reference
-
-### Что сделано
-- Added `wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md`.
-- Documented downstream QA validation vs model/agent evals, including trajectory and outcome boundaries.
-- Added the distinction between mutation testing as an anti-overfit guardrail and a complete risk-based AI safety guardrail layer.
-- Added model, tool, and agent telemetry fields, privacy controls, OpenTelemetry GenAI reference, and correlation with Allure/DORA.
-- Cross-linked offline trajectories, tool-call testing, mutation testing, monitoring/observability, Claude Code MCP, and Alex Barady wiki pages.
-- Updated `wiki-topics.json` to 192 topics; raw source count remains unchanged because no raw file was modified.
-
-## Session 90 (2026-08-17) — Autonoma pipeline steps + CARBON harness
-
-### Autonoma pipeline (ingest)
-- Ingested `raw/Autonoma - шаги в пайплайне.md` → `wiki/autonoma-шагивпайплайне.md` (RU): 6 шагов pagesFinder → KB → entityAudit → scenarioRecipe → testGenerator → environmentFactory; интерактивная пауза + Confirmation перед testGenerator; правки entity-audit.md/features.json.
-- Исправлено противоречие в `wiki/autonoma-open-source-self-driving-2026.md` (строка old pipeline): `recipeBuilder → testGenerator` → `testGenerator → environmentFactory` (по GitHub-источнику), добавлен Flag для human review (наблюдаемый лог Phase 3 от 2026-06-10 показывал промежуточный recipeBuilder).
-- Broken See also link исправлен.
-
-### CARBON (ingest + review)
-- Пользователь перенёс LinkedIn-пост в `raw/CARBON, AI Agentic Verification Harnes.md` → ingested → `wiki/carbon-ai-agentic-verification-harness.md` (имя исправлено с Harnes → Harness).
-- Добавлены: vendor-caveat (private beta marketing, не верифицировано), секция Community Discussion (Anton Gulin: failing trace vs green run + ответ Arbon; Vikash Soni: verification bottleneck), Sources (Jason Arbon, LinkedIn urn, testers.ai).
-- See also: anton-gulin-3-layer, evidence-layer, tool-calls, agents-review, offline-eval.
-- Backlinks synced (194 pages), wiki-topics.json: **194 topics, 110 raw sources**.
-
-### Git
-- Коммит не делался (по договорённости: чекпоинт позже).
-
----
-
-### Session 91 (2026-08-17) — Stoic Tester + Goodhart's Law ingest
-
-**2 raw → 2 wiki (через wiki_llm.py):**
-- `raw/stephen-platten-stoic-tester-profile-2026.md` → `wiki/stephen-platten-stoic-tester-profile-2026.md` — people-профиль (Inspired Testing Principal Consultant, UKITB Head of Accreditation, MoT Ambassador, GSDC AI Advisor, ex-RAF; 13K followers, newsletter The Stoic Tester 3K subscribers)
-- `raw/stoic-tester-goodharts-law-ai-evaluation-2026.md` → `wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md` — концепт Goodhart's Law в AI-эвализации (hallucination rate: AI улучшает метрику, отказываясь отвечать на неоднозначное и цитируя дословно — «better at passing the test, not better at the job»); cross-links: offline-eval, evals, anti-overfit/mutation, context-engineering
-- Оба с полным frontmatter (title/type/updated/tags) для Bases view; source-link подвалы; backlinks synced
-- wiki-topics.json: **196 topics, 112 raw sources**
-
-**Решение по Trulit (Harika B):** НЕ ингестить — маркетинговые посты SaaS-вендора без методической ценности (общие места, покрытые winteringham-prompts/manual QA). Контакт ценен как нетворкинг, не как вики-источник.
+## Next
+- Wait for Rupesh reply on consulting model (5-7 days)
+- HYPERHUG: wait for founder replies
+- X-FLOW: wait for Tatsiana's team
+- Series 21: feed image published, carousel next
+- Article 26: mutation-matrix data ready (M6-M9), can finalize

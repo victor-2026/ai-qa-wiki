@@ -1,0 +1,84 @@
+---
+source: "mcp-ucp-protocols-2026.md"
+ingested: "2026-08-17"
+---
+
+# MCP + UCP: Open Protocols for Agentic QA (2026)
+
+## Summary  
+In 2026 two open standards have become the backbone of agent‑driven testing:
+
+| Layer | Protocol | Primary Role |
+|-------|----------|--------------|
+| **Model ↔ Tools** | **MCP – Model Context Protocol** | Defines how a language model invokes browsers, files, APIs, databases, etc. |
+| **Agent ↔ Agent** | **UCP – Universal Chat Protocol** | Enables heterogeneous agents from different vendors to converse and coordinate. |
+
+MCP is already the de‑facto way for an AI agent to control test tools (Playwright, CI/CD runners, Allure, etc.). UCP is the emerging “inter‑operability layer” that lets a Copilot‑style agent hand off work to a ChatGPT‑based validator or a Claude‑powered healer, forming cross‑vendor QA pipelines.
+
+> ⚠️ **UCP homonym warning:** in e‑commerce (Virto Commerce deck, 2026) UCP = **Universal Commerce Protocol** — an open standard for *agent‑driven shopping* (agents discover, cart, checkout), exposed over an MCP endpoint; adopted by Shopify, Walmart, Target. Same acronym, different protocol — disambiguate by domain. See: `virto-commerce-integration-glossary-2026.md`.
+
+---
+
+## Key Concepts  
+
+### Model Context Protocol (MCP)  
+* **Origin & Adoption** – Introduced by Anthropic (Nov 2024); embraced by OpenAI, Google, Microsoft in 2025.  
+* **Architecture** – A **server** exposes concrete tool endpoints (browser automation, file system, REST APIs). A **client** embedded in the LLM‑driven agent issues standardized JSON‑RPC calls to those endpoints.  
+* **Tool‑centric API** – Each tool is described by a schema (name, parameters, expected return). The model can query, invoke, and receive structured results, making tool use deterministic and auditable.  
+
+### Universal Chat Protocol (UCP)  
+* **Origin & Status** – Proposed by Microsoft (Sep 2025) as an open‑standard for agent‑to‑agent messaging; still gaining traction.  
+* **Layering** – Sits **above** MCP. While MCP answers “*how does a model use a tool?*”, UCP answers “*how do two autonomous agents negotiate a task?*”.  
+* **Message Model** – Uses a lightweight, versioned envelope containing:  
+  * **Intent** (e.g., *request‑validation*, *handoff*, *error‑recovery*)  
+  * **Payload** (often an MCP‑generated result or a task description)  
+  * **Metadata** (origin, confidence, timestamps)  
+
+### Interplay for QA  
+* An **agent** (e.g., Claude Code) uses MCP to drive a browser, run a test suite, or query a test database.  
+* When the test flow requires expertise beyond the originating model—such as a specialized security scanner or a vendor‑specific compliance checker—the agent packages the MCP result into a UCP message and forwards it to a partner agent (e.g., a Microsoft Copilot security validator).  
+* The receiving agent may respond with additional MCP calls, creating a **feedback loop** that spans multiple vendors while preserving a unified QA workflow.
+
+---
+
+## Practical Applications  
+
+1. **End‑to‑End Test Orchestration**  
+   * **Planner** (vendor A) decides test scope → sends a UCP *plan* to a **Generator** (vendor B).  
+   * Generator uses MCP to spin up Playwright, execute steps, and return results via UCP to Planner for next‑step decisions.
+
+2. **CI/CD Integration**  
+   * Claude Code runs inside a GitHub Actions runner, calls an MCP‑wrapped test framework, and posts structured outcomes to a UCP‑compatible dashboard agent that aggregates metrics across teams.
+
+3. **Cross‑Vendor Fault Recovery**  
+   * When a Playwright MCP call fails, the originating agent emits a UCP *heal* request. A specialized “Healer” agent (e.g., from a third‑party vendor) uses its own MCP adapters to reset the browser state and retry, all without the original model needing direct knowledge of the healer’s internals.
+
+4. **Regulatory Evidence Collection**  
+   * Test artifacts (Allure reports, DB snapshots) are fetched via MCP and then transmitted through UCP to an audit‑trail agent that stores immutable evidence for compliance verification.
+
+### Checklist for QA Teams  
+* **MCP support** – Verify that the chosen agent can invoke required tools through a compliant MCP server.  
+* **UCP readiness** – Ensure your pipeline can accept and emit UCP messages, enabling future cross‑vendor extensions.
+
+---
+
+## See also  
+
+- [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)  
+- [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)  
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)  
+- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)  
+- [KISS Sorcar — Open‑Source AI Coding Agent](wiki/kiss-sorcar-agent.md)  
+
+---
+*Source: [raw/mcp-ucp-protocols-2026.md](../raw/mcp-ucp-protocols-2026.md) · Generated by wiki_llm.py (Groq)*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)
+- [KISS Sorcar — Open-Source AI Coding Agent](wiki/kiss-sorcar-agent.md)
+- [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)
+<!-- backlinks-end -->

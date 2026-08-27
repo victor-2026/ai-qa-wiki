@@ -1,0 +1,69 @@
+---
+source: "google-kaggle-agent-skills-whitepaper-2026.md"
+ingested: "2026-08-27"
+---
+
+# Agent Skills – Google/Kaggle Whitepaper (May 2026)
+
+**Summary**  
+The 62‑page whitepaper introduces **SKILL.md**, a structured format for encoding procedural memory in autonomous AI agents. By externalising workflows as *skills* and loading them on demand, a single general‑purpose model can operate with a context reduction of > 98 %. The *description* field of each skill becomes the low‑level prompt that guides the model’s routing decisions, making the selection logic inspectable, testable, and improvable. The paper stresses that the true competitive edge lies in a curated skill library rather than the underlying model.
+
+---
+
+## Key Concepts  
+
+| Concept | What it means | Why it matters |
+|---------|---------------|----------------|
+| **Procedural memory → Skills** | Encapsulate repeatable workflows in separate SKILL.md files. | Keeps the active prompt tiny; only the needed skill is loaded. |
+| **Description field** | Human‑written narrative that tells the agent **what** the skill does, **when** to invoke it, and **when not** to. | Acts as a “prompt‑engineering layer down”; drives routing decisions. |
+| **Mutual exclusivity & precedence** | Skills must have non‑overlapping trigger conditions or explicit priority rules. | Prevents collisions when multiple skills claim the same context. |
+| **Make bad actions impossible** | Encode constraints in the skill’s implementation (e.g., API guards, type checks). | Guarantees safety even if the model mis‑routes. |
+| **Trajectory testing** | Verify the *path* the agent took, not just the final answer. | Exposes fragile reasoning and hidden failures. |
+| **Context‑rot testing** | Evaluate skills together, as they will be used side‑by‑side in production. | Reveals hidden dependencies that isolated tests miss. |
+| **Model as runtime, library as asset** | The model becomes a generic executor; value is in the curated skill set. | Shifts investment from model scaling to knowledge engineering. |
+
+### Notable Quotes  
+
+- *“The real advantage is not just encoding the workflow but making the decision logic explicit enough to inspect, test, and improve.”* – Sairam Sundaresan  
+- *“Testing the description field is where this actually gets hard: two skills with overlapping ‘when to use it’ language will collide.”* – Vitalii Serbyn  
+- *“The final answer can look correct while the path taken to reach it is fragile.”* – Pooja Jain (via Sairam)
+
+---
+
+## Practical Applications  
+
+1. **Enterprise Automation** – Deploy a single LLM as a “universal agent” that pulls in finance, HR, or IT skills only when a request matches the skill’s trigger text.  
+2. **Customer‑Facing Chatbots** – Use skill descriptions to route queries to specialised troubleshooting or policy‑lookup modules, eliminating the need for massive monolithic prompts.  
+3. **Regulated Environments** – Encode compliance checks (e.g., GDPR, HIPAA) as hard constraints inside skills, making illegal actions impossible regardless of model output.  
+4. **Continuous Evaluation Pipelines** – Pair each skill with a trajectory test suite that records the sequence of API calls and decisions, feeding the data into telemetry dashboards for ongoing guard‑rail monitoring.  
+5. **Rapid Skill Iteration** – Because the model is a generic runtime, updating a single skill (e.g., a new vendor API) requires no retraining, only a versioned SKILL.md change.  
+
+---
+
+## Implementation Checklist  
+
+- **Write a concise description**: include purpose, trigger patterns, and explicit “do‑not‑use” clauses.  
+- **Define mutually exclusive triggers**: use regex or semantic tags to avoid overlap.  
+- **Set precedence rules**: when overlap is unavoidable, rank skills explicitly.  
+- **Hard‑code safety guards**: reject inputs that violate business rules before they reach the model.  
+- **Create trajectory tests**: mock the full execution chain and assert on intermediate states.  
+- **Run context‑rot suites**: execute groups of skills together to detect hidden interference.  
+
+---
+
+### Future Outlook  
+
+As skill libraries mature, organizations will treat them as strategic IP, comparable to proprietary codebases. The model‑as‑runtime paradigm promises lower compute costs, easier compliance, and faster time‑to‑value for new autonomous capabilities.
+
+---
+
+## See also  
+
+- [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)  
+- [Perplexity Agent Skills Guide](wiki/perplexity-agent-skills.md)  
+- [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)  
+- [Stoic Tester Goodhart’s Law AI Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)  
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/
+
+---
+*Source: [raw/google-kaggle-agent-skills-whitepaper-2026.md](../raw/google-kaggle-agent-skills-whitepaper-2026.md) · Generated by wiki_llm.py (Groq)*

@@ -137,6 +137,9 @@ Aider с `--test-cmd` — тот же Ralph Wiggum loop, но для тесто�
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap](wiki/graph-engineering-vs-loop-engineering-2026.md)

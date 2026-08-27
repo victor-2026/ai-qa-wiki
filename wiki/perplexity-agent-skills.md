@@ -146,3 +146,12 @@ MAS reports now include `gotchas` field:
 **Tags:** #agent-skills #perplexity #skill-engineering #prompt-engineering #ai-agents  
 **Source:** Perplexity internal guide (2026)  
 **Updated:** 2026-05-10
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
+- [Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026](wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md)
+<!-- backlinks-end -->

@@ -214,9 +214,13 @@ tags: [orangehrm]
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
+- [Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026](wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md)
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
 - [Testing Ai Generated Auth Code Autonoma](wiki/testing-ai-generated-auth-code-autonoma.md)
 <!-- backlinks-end -->

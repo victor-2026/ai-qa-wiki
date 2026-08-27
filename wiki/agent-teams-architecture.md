@@ -181,3 +181,11 @@ Human → Decision
 **Tags:** #agent-teams #multi-agent #orchestration #quality-gates
 **Status:** Research only, not implemented
 **Updated:** 2026-05-14
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Keithklain Testingmindsetafterall 2026](wiki/keithklain-testingmindsetafterall-2026.md)
+<!-- backlinks-end -->

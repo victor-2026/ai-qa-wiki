@@ -275,8 +275,15 @@ MAS — не инструмент, а архитектурный паттерн:
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)
+- [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
 <!-- backlinks-end -->

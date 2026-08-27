@@ -193,3 +193,9 @@ for run in runs:
 - `llm-as-judge.md` — Паттерн LLM-as-a-Judge
 - `pbt-llm-code-generation.md` — Property-based тестирование LLM выхода
 - `rag-evaluation-ragas.md` — Оценка RAG через Ragas
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026](wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md)
+<!-- backlinks-end -->

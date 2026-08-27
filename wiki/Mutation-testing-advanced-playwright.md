@@ -467,9 +467,13 @@ Meta's открытый вызов сообществу (FSE 2025): генери
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
 - [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
+- [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
 - [Testing Ai Generated Auth Code Autonoma](wiki/testing-ai-generated-auth-code-autonoma.md)
 <!-- backlinks-end -->
