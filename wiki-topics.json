@@ -1313,8 +1313,20 @@
       "topic": "Andrew Ng AI engineering skills map software fundamentals full-stack data architecture security reliability steering agents",
       "date": "2026-08-28",
       "source": "raw/AI Engineering Skills Map - Software engineering fundamentals.md"
+    },
+    {
+      "file": "wiki/michael-bolton-systems-thinking-constraints-2026.md",
+      "topic": "Michael Bolton systems thinking constraints AI code review bottleneck bottles have necks perturb system mutation testing observation",
+      "date": "2026-08-28",
+      "source": "raw/michael-bolton-systems-thinking-constraints-2026.md"
+    },
+    {
+      "file": "wiki/prachi-dahibhate-james-bach-rst-2026.md",
+      "topic": "James Bach Rapid Software Testing magic testing box productivity paradox testing vs checking AI assist human judgment gatekeeper",
+      "date": "2026-08-28",
+      "source": "raw/prachi-dahibhate-james-bach-rst-2026.md"
     }
   ],
-  "raw_count": 119,
-  "updated": "2026-08-26"
+  "raw_count": 121,
+  "updated": "2026-08-28"
 }
