@@ -6,6 +6,14 @@
 
 **Key principle:** Not every test must catch every mutation. A login test should not be expected to catch a price-calculation boundary flip. Track `Expected to catch` separately from `Actual result`.
 
+### "Expected to catch" checklist
+A test is marked `Expected to catch = Yes` only if ALL hold:
+- The mutation changes behavior in the area the test claims to verify
+- The mutation is on the same layer (UI/API/logic) the test covers
+- The mutation is NOT equivalent (it changes observable behavior for user/system)
+
+If any fails → mark `Expected = No` (or `Equivalent`). This removes subjectivity and keeps the survival rate denominator meaningful.
+
 ---
 
 ## Step 1: Select tests
@@ -73,7 +81,11 @@ For each mutation, run the associated test in an **ephemeral/sandbox environment
 - **Survived** — test passed on the mutant (blind spot)
 - **Flaky** — test intermittently passes/fails
 - **False alert** — test failed, but for the wrong reason (wrong assertion fired)
+- **Equivalent** — mutation does not change observable behavior; excluded from survival rate
 - **n/a** — mutation not expected to be caught by this test
+
+### Equivalent mutants
+A mutant is **equivalent** when it changes the code but not the observable behavior (e.g., `if (x > 0)` → `if (x >= 1)` when x is integer). These must be marked `Equivalent` and excluded from the denominator of survival rate — otherwise the metric is artificially inflated.
 
 ### Assertion quality
 - Did the test fail with a clear, actionable message?
@@ -125,7 +137,14 @@ Cross-reference survival rate with risk level from Step 1:
 ---
 
 ## Step 7: Regression / trend
-Survival rate is a point-in-time metric. Re-run the matrix every iteration and track the trend:
+Survival rate is a point-in-time metric. Re-run the matrix every iteration and track the trend.
+
+### Minimum fields for aggregation
+| Sprint | Risk | Layer | Survival rate | FP rate |
+|--------|------|-------|---------------|---------|
+| S1 | High | UI | 45% | 2% |
+| S2 | High | UI | 30% | 1% |
+
 - Falling survival rate = tests improving
 - Rising survival rate = test debt accumulating
 - Plot per-risk-level to see where quality erodes first
@@ -145,3 +164,28 @@ Survival rate is a point-in-time metric. Re-run the matrix every iteration and t
 
 ## Meta-data for audit trail
 Every mutation record should carry: `Mutation ID`, `Date`, `Environment`, `Layer`. This enables repeatable runs and trend analysis across sprints.
+
+---
+
+## Appendix: Filled example (7 rows)
+
+| Mutation ID | Date | Env | Layer | Test | Mutation applied | Expected to catch? | Test result | Verdict | Assertion quality |
+|-------------|------|-----|-------|------|-----------------|-------------------|-------------|---------|------------------|
+| M1 | 2026-09-01 | sandbox-1 | UI | login | id loginBtn → login-button | Yes | PASS | ❌ Survived | timeout (low) |
+| M2 | 2026-09-01 | sandbox-1 | Logic | price-calc | `>=` → `>` | Yes | FAIL | ✅ Caught | clear message |
+| M3 | 2026-09-01 | sandbox-1 | UI | submit | validation removed | Yes | FAIL | ✅ Caught | clear message |
+| M4 | 2026-09-01 | sandbox-1 | UI | login | swap buttons | Yes | FAIL | ✅ Caught | clear message |
+| M5 | 2026-09-01 | sandbox-1 | API | fetch-balance | 200 → 500 | Yes | FAIL | ✅ Caught | clear message |
+| M6 | 2026-09-01 | sandbox-1 | Logic | price-calc | `x>0` → `x>=1` | Yes | PASS | Equivalent | n/a (excluded) |
+| M7 | 2026-09-01 | sandbox-1 | UI | nav | wrong redirect | No | PASS | n/a | not applicable |
+
+### Calculation
+```
+Expected-to-catch mutants (non-equivalent): M1, M2, M3, M4, M5, M7 = 6
+Survived (expected=Yes, non-equivalent): M1 = 1
+Survival rate (FN) = 1/6 = 17%
+
+FP rate: tests that fail on clean code = 0 / 7 = 0%
+```
+
+Interpretation: 17% survival rate = minor blind spots. M1 (locator drift) is the gap - strengthen the login test's locator assertion. M6 excluded as equivalent. M7 not expected to catch (nav test, different scope).
