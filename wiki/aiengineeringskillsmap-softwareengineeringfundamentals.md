@@ -1,5 +1,5 @@
 ---
-source: "AI Engineering Skills Map - Software engineering fundamentals.md"
+source: "[raw/AI Engineering Skills Map - Software engineering fundamentals.md](../raw/AI%20Engineering%20Skills%20Map%20-%20Software%20engineering%20fundamentals.md)"
 ingested: "2026-08-28"
 ---
 
