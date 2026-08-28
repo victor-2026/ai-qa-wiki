@@ -145,6 +145,24 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/andrew-ng-loop-engineering-2026.html",
+      "title": "Andrew Ng Loop Engineering 2026",
+      "desc": "source: \"andrew-ng-loop-engineering-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/andrew-ng-openworker-security-agents-2026.html",
+      "title": "Andrew Ng OpenWorker Security Agents 2026",
+      "desc": "source: \"andrew-ng-openworker-security-agents-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/krivitsky-agentic-factory-nested-loops-2026.html",
+      "title": "Krivitsky Agentic Factory Nested Loops 2026",
+      "desc": "source: \"krivitsky-agentic-factory-nested-loops-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.html",
       "title": "AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry",
       "desc": "title: \"AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry\"",

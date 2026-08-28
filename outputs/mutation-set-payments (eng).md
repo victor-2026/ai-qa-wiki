@@ -1,4 +1,4 @@
-# Payments — mutation set for Lite pilot (English)
+# Payments — mutation set for Lite pilot 
 
 A ready-to-use set of **5 mutations** for the payments scenario. Each mutation takes ~5–10 minutes to apply manually and run.
 

@@ -1,4 +1,4 @@
-# Login Mutation Set (Lite pilot) — English version
+# Login Mutation Set (Lite pilot) 
 
 A ready-to-use set of **5 mutations** for a typical login flow. Each mutation takes ~5–10 minutes to apply manually and run.
 

@@ -1,4 +1,4 @@
-# Calculations — mutation set for Lite pilot (English)
+# Calculations — mutation set for Lite pilot 
 
 A ready-to-use set of **5 mutations** for the calculations scenario. Each mutation takes ~5–10 minutes to apply manually and run.
 

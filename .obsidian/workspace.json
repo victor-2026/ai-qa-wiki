@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/Agentic Development Lifecycle (ADLC).md",
+                "file": "raw/3-ai-test-tools-orangehrm-comparison-2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Agentic Development Lifecycle (ADLC)"
+              "title": "3-ai-test-tools-orangehrm-comparison-2026"
             }
           },
           {
-            "id": "1554ff8404b643fb",
+            "id": "fb3ccae5f5911e01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/antigravity-benchmark.md",
+                "file": "wiki/alex-barady-9-concepts-ai-builder-2026.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,175 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "antigravity-benchmark"
+              "title": "alex-barady-9-concepts-ai-builder-2026"
+            }
+          },
+          {
+            "id": "6840fc15db27f508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/21-cfr-part-11-electronic-records-2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "21-cfr-part-11-electronic-records-2026"
+            }
+          },
+          {
+            "id": "f241140dc750197d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/model optimizing against quality gate instead of actual problem.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "model optimizing against quality gate instead of actual problem"
+            }
+          },
+          {
+            "id": "1a3b705bbe8964ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Wayne Roseberry - post 22.08.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Wayne Roseberry - post 22.08"
+            }
+          },
+          {
+            "id": "3cdc93e3d78e7c1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Agent Skills (05.26) от Google и Kaggle.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Agent Skills (05.26) от Google и Kaggle"
+            }
+          },
+          {
+            "id": "20a27943833ef2c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Wayne Roseberry - post 22.08.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Wayne Roseberry - post 22.08"
+            }
+          },
+          {
+            "id": "785e41f73a7deb29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "outputs/mutation-set-login (eng).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "mutation-set-login (eng)"
+            }
+          },
+          {
+            "id": "ddd5720e2fb86968",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/prachi-dahibhate-james-bach-rst-2026.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "prachi-dahibhate-james-bach-rst-2026"
             }
           },
           {
@@ -85,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/avito-baas-platform-qa-2026.md",
+                "file": "raw/30 question to modern manual QA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +268,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "avito-baas-platform-qa-2026"
+              "title": "30 question to modern manual QA"
+            }
+          },
+          {
+            "id": "3312344cf9795e3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/EARS и BDD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "EARS и BDD"
+            }
+          },
+          {
+            "id": "a2fec5f23f246d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Graph Engineering vs Loop Engineering - The 2026 Agent Roadmap.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Graph Engineering vs Loop Engineering - The 2026 Agent Roadmap"
+            }
+          },
+          {
+            "id": "b21ffd4b53b4f0f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/Закон Конвея и Обратный маневр Конвея.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Закон Конвея и Обратный маневр Конвея"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -124,7 +364,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -136,7 +378,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AgentSkills",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +403,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 283.5
   },
   "right": {
     "id": "dbf587bb7b697d8d",
@@ -269,44 +511,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6896cda42cb8c310",
+  "active": "ddd5720e2fb86968",
   "lastOpenFiles": [
-    "wiki/ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.md",
-    "wiki/avito-baas-platform-qa-2026.md",
-    "wiki/avito-ai-code-review-llm-pipeline-2026.md",
-    "raw/Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md",
-    "raw/Failure Mode and Effects Analysis (FMEA).md",
-    "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.md",
-    "wiki/obsidian-scam-audit-2026.md",
-    "wiki/notebooklm-three-frameworks-scenario.md",
-    "wiki/mutation-testing-vs-code-coverage-autonoma.md",
-    "wiki/how-to-tell-if-tests-are-testing-anything-autonoma.md",
-    "wiki/hack-n-vibe-bitgn-pac1-agent.md",
-    "wiki/free-ai-services-list-2026.md",
-    "wiki/free-ai-services-2026-artem-subbotin.md",
-    "wiki/context-loss-orchestration-separation-2026.md",
-    "wiki/ai-fluency-interview-reform-2026.md",
-    "wiki/consumer-drivencontracttestingpost.md",
-    "wiki/30questiontomodernmanualqa.md",
-    "wiki/failuremodeandeffectsanalysisfmea.md",
-    "raw/antigravity-benchmark.md",
-    "wiki/mobile-testing-windows-server-setup-2026.md",
-    "raw/mobile-testing-windows-server-setup-2026.md",
-    "wiki/mobile-testing-infrastructure-parallel-2026.md",
-    "raw/mobile-testing-infrastructure-parallel-2026.md",
-    "wiki/antigravity-benchmark.md",
+    "wiki/andrew-ng-openworker-security-agents-2026.md",
+    "raw/andrew-ng-openworker-security-agents-2026.md",
+    "wiki/krivitsky-agentic-factory-nested-loops-2026.md",
+    "raw/krivitsky-agentic-factory-nested-loops-2026.md",
+    "wiki/andrew-ng-loop-engineering-2026.md",
+    "raw/andrew-ng-loop-engineering-2026.md",
+    "outputs/mutation-matrix-full.md",
+    "wiki/prachi-dahibhate-james-bach-rst-2026.md",
+    "raw/prachi-dahibhate-james-bach-rst-2026.md",
+    "wiki/michael-bolton-systems-thinking-constraints-2026.md",
+    "raw/michael-bolton-systems-thinking-constraints-2026.md",
+    "outputs/mutation-set-login (eng).md",
+    "outputs/mutation-set-combined (rus).md",
+    "outputs/mutation-set-combined (eng).md",
+    "outputs/mutation-matrix-lite.md",
+    "outputs/mutation-set-calculations.md",
+    "outputs/mutation-set-payments (eng).md",
+    "outputs/mutation-set-calculations (rus).md",
+    "outputs/mutation-set-payments (rus).md",
+    "outputs/mutation-matrix-template.md",
+    "outputs/mutation-set-login (rus).md",
+    "wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md",
+    "wiki/ai-dlc-process-testing-guardrails-2026.md",
     "wiki-topics.base",
-    "wiki/kiss-sorcar-agent.md",
-    "wiki/testing-strategies.md",
+    "raw/AI Engineering Skills Map - Software engineering fundamentals.md",
+    "outputs/carbon-adoption-plan.md",
+    "raw/Wayne Roseberry - post 22.08.md",
+    "raw/2026day3-agentskills-googleaiagentscourse-260625214611-145a69ab.pdf",
+    "model-reviews.base",
+    "glossary.base",
+    "Untitled",
+    "raw/writing_paper.pdf",
+    "raw/SinglePostAnalytics_Victor Ematin_7479779995654144001.xlsx",
     "code/linkedin-analyzer/live-data.csv",
     "code/linkedin-analyzer/full-data.csv",
     "code/linkedin-analyzer/analyzer/analyzer_test.go",
-    "code/linkedin-analyzer/analyzer/analyzer.go",
-    "code/linkedin-analyzer/analyzer",
-    "code/linkedin-analyzer/main.go",
-    "code/linkedin-analyzer/analyzer_test.go",
-    "code/linkedin-analyzer/analyzer.go",
-    "code/linkedin-analyzer/go.mod",
     "Pasted image 20260622115842.png",
     "Pasted image 20260430023644.png",
     "MindMap-AI-driven-QE.png",

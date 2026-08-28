@@ -157,7 +157,11 @@ AI coding tools generate application code, NOT operational infrastructure:
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
 - [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
 <!-- backlinks-end -->

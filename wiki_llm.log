@@ -173,3 +173,32 @@
 [2026-08-17T03:23:54.484812] ingest | CARBON, AI Agentic Verification Harnes.md | ok | wiki/carbonaiagenticverificationharnes.md
 [2026-08-17T03:24:51.010683] sync-links | 194 pages | ok | 
 [2026-08-17T03:24:51.125320] update-index | 194 topics | ok | 
+[2026-08-17T13:21:22.945316] ingest | stephen-platten-stoic-tester-profile-2026.md | ok | wiki/stephen-platten-stoic-tester-profile-2026.md
+[2026-08-17T13:21:32.937259] ingest | stoic-tester-goodharts-law-ai-evaluation-2026.md | ok | wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md
+[2026-08-17T13:21:43.241182] update-index | 196 topics | ok | 
+[2026-08-17T18:52:51.251901] ingest | mcp-ucp-protocols-2026.md | ok | wiki/mcp-ucp-protocols-2026.md
+[2026-08-17T18:52:59.399954] update-index | 197 topics | ok | 
+[2026-08-17T19:07:39.001947] ingest | virto-commerce-integration-glossary-2026.md | ok | wiki/virto-commerce-integration-glossary-2026.md
+[2026-08-17T19:07:39.292759] update-index | 198 topics | ok | 
+[2026-08-18T12:08:35.673728] ingest | ai-productivity-paradox-verification-layer-2026.md | ok | wiki/ai-productivity-paradox-verification-layer-2026.md
+[2026-08-18T12:08:48.101225] update-index | 199 topics | ok | 
+[2026-08-18T12:27:03.552243] ingest | iclr-2026-agent-benchmarking-self-improvement.md | ok | wiki/iclr-2026-agent-benchmarking-self-improvement.md
+[2026-08-18T12:27:04.038231] update-index | 200 topics | ok | 
+[2026-08-18T12:31:41.623979] ingest | sergey-yudin-neurolegal-verified-citations-2026.md | ok | wiki/sergey-yudin-neurolegal-verified-citations-2026.md
+[2026-08-18T12:31:41.899663] update-index | 201 topics | ok | 
+[2026-08-18T12:44:20.226444] ingest | shcherbinin-tg-understand-code-debate-2026.md | ok | wiki/shcherbinin-tg-understand-code-debate-2026.md
+[2026-08-18T12:44:20.487818] update-index | 202 topics | ok | 
+[2026-08-19T00:49:17.981914] ingest | toloka-llm-qa-agent-verification-2026.md | ok | wiki/toloka-llm-qa-agent-verification-2026.md
+[2026-08-19T00:49:18.374922] update-index | 203 topics | ok | 
+[2026-08-21T12:44:00.541413] update-index | 208 topics | ok | 
+[2026-08-24T12:16:16.075906] ingest | To E2E or not to E2E - On Test Automation.md | ok | wiki/toe2eornottoe2e-ontestautomation.md
+[2026-08-24T17:25:55.873896] ingest | DevQAExpert - QAEverest maintenance tax - intent resolves at runtime - 2026-08-2 | ok | wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md
+[2026-08-24T17:26:55.759602] ingest | DevQAExpert - QAEverest import 2000 Cypress tests - confidence score - 2026-08-2 | ok | wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md
+[2026-08-25T15:11:58.390581] ingest | Keith Klain - Testing Mindset After All - 2026.md | ok | wiki/keithklain-testingmindsetafterall-2026.md
+[2026-08-27T12:49:17.081621] ingest | model optimizing against quality gate instead of actual problem.md | ok | wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md
+[2026-08-27T13:19:50.723751] ingest | ruslan-desyatnikov-qa-director-elimination-virus-2026.md | ok | wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md
+[2026-08-27T13:26:01.099021] ingest | wayne-roseberry-testers-do-more-than-users-2026.md | ok | wiki/wayne-roseberry-testers-do-more-than-users-2026.md
+[2026-08-27T13:45:30.757061] ingest | google-kaggle-agent-skills-whitepaper-2026.md | ok | wiki/google-kaggle-agent-skills-whitepaper-2026.md
+[2026-08-27T21:52:11.620393] ingest | loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md | ok | wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md
+[2026-08-27T22:13:50.614968] ingest | ai-dlc-process-testing-guardrails-2026.md | ok | wiki/ai-dlc-process-testing-guardrails-2026.md
+[2026-08-28T21:36:59.228476] ingest | AI Engineering Skills Map - Software engineering fundamentals.md | ok | wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md

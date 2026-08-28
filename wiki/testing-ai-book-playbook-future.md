@@ -137,3 +137,9 @@ Chapters 19-21 close the loop:
 - [Full author draft preview](https://icebergqa.com/book/draft.html)
 - [Public coding-agent skills](https://github.com/jarbon/testing-ai-skills)
 - [Testing AI book index in this wiki](testing-ai-book-index.md)
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
+<!-- backlinks-end -->
