@@ -4,10 +4,12 @@
 
 **How it works:** Introduce a small, controlled defect (mutant) into the code under test. Run your test suite against it. If tests still pass → the mutant "survived" → your tests have a blind spot.
 
+**Key principle:** Not every test must catch every mutation. A login test should not be expected to catch a price-calculation boundary flip. Track `Expected to catch` separately from `Actual result`.
+
 ---
 
 ## Step 1: Select tests
-Pick 5-10 AI-assisted tests (or AI-generated tests) from your pilot. Note what each one claims to verify.
+Pick 5-10 AI-assisted tests from your pilot. Note what each one claims to verify and its risk level.
 
 | # | Test name | What it claims to check | Risk level (H/M/L) |
 |---|-----------|------------------------|-------------------|
@@ -20,65 +22,126 @@ Pick 5-10 AI-assisted tests (or AI-generated tests) from your pilot. Note what e
 ## Step 2: Define mutations
 For each test, introduce ONE deliberate defect. Keep mutations small and isolated.
 
+### UI-level mutations (manual DOM / fixture change)
 | Mutation type | Example | What it simulates |
 |---------------|---------|-------------------|
-| **Locator drift** | `id="loginBtn"` → `id="login-button"` | UI/selector change between versions |
-| **Selector broadening** | Remove `id`, use bare `button` | Test becomes less specific |
-| **Element removed** | Delete a button/handler | Missing functionality |
-| **Wrong element** | Swap two buttons' actions | Logic error |
-| **Validation removed** | Remove required-field check | Business rule bypass |
-| **Boundary flip** | `>=` → `>` | Off-by-one / edge case |
+| Locator drift | `id="loginBtn"` → `id="login-button"` | UI/selector change between versions |
+| Selector broadening | Remove `id`, use bare `button` | Test becomes less specific |
+| Element removed | Delete a button/handler | Missing functionality |
+| Wrong element | Swap two buttons' actions | Logic error |
+| Duplicate target ambiguity | Two identical buttons, matcher picks first | Text matcher picks wrong occurrence |
+| Validation removed | Remove required-field check | Business rule bypass |
+| Navigation mutation | Wrong redirect target | Routing error |
+
+### API-level mutations (mock server with mutated responses)
+| Mutation type | Example | What it simulates |
+|---------------|---------|-------------------|
+| Status flip | `200` → `500` | Backend failure |
+| Missing field | Response drops `balance` | Schema drift |
+| Wrong type | `amount: "abc"` | Contract violation |
+| Permission/role | User sees admin function | Authz bypass |
+
+### Data mutations
+| Mutation type | Example | What it simulates |
+|---------------|---------|-------------------|
+| Value change | `price = 100` → `price = 0` | Boundary / calculation error |
+| Date shift | `expiry +1d` → `expiry -1d` | Time logic bug |
+| Text corruption | Localized string broken | i18n regression |
+
+### Logic / state mutations
+| Mutation type | Example | What it simulates |
+|---------------|---------|-------------------|
+| Boundary flip | `>=` → `>` | Off-by-one / edge case |
+| Race condition | Reorder async calls | Concurrency bug |
+| Session expiry | Valid session → expired | Auth state bug |
+| State mutation | Concurrent user edit | Shared-state conflict |
 
 ---
 
 ## Step 3: Run and record
-For each mutation, run the associated test. Record the result.
+For each mutation, run the associated test in an **ephemeral/sandbox environment only**. Record the result.
 
-| # | Test | Mutation applied | Test result | Verdict |
-|---|------|-----------------|-------------|---------|
-| 1 | login test | id loginBtn → login-button | PASS | ❌ Mutant survived (blind spot) |
-| 2 | submit test | removed validation | FAIL | ✅ Caught |
-| ... | | | | |
+| Mutation ID | Date | Env | Layer (UI/API/DB/Logic) | Test | Mutation applied | Expected to catch? | Test result | Verdict | Assertion quality |
+|-------------|------|-----|------------------------|------|-----------------|---------------|-------------|---------|------------------|
+| M1 | | | UI | login | id drift | Yes | PASS | ❌ Survived | clear timeout |
+| M2 | | | Logic | calc | `>=`→`>` | No | PASS | n/a | not applicable |
+| M3 | | | UI | submit | validation removed | Yes | FAIL | ✅ Caught | clear message |
+| ... | | | | | | | | | |
+
+### Verdict values (not binary)
+- **Caught** — test failed on the mutant, as expected
+- **Survived** — test passed on the mutant (blind spot)
+- **Flaky** — test intermittently passes/fails
+- **False alert** — test failed, but for the wrong reason (wrong assertion fired)
+- **n/a** — mutation not expected to be caught by this test
+
+### Assertion quality
+- Did the test fail with a clear, actionable message?
+- Or with a timeout / obscure error (low diagnostic value)?
 
 ---
 
-## Step 4: Calculate survival rate
+## Step 4: Calculate rates
 ```
-Survival rate = (mutants that passed) / (total mutants) × 100%
+Survival rate (FN) = (mutants expected-to-catch that PASSED) / (mutants expected-to-catch) × 100%
+False positive rate (FP) = (tests that FAIL on clean code) / (total tests run) × 100%
 
-Example from my QAEverest run (M6-M9):
-- M6 locator drift: PASSED (survived)
-- M7 selector broadening: PASSED (survived)
-- M8 element removed: FAILED (caught)
-- M9 wrong element: FAILED (caught)
+Example from a commercial AI-QA platform run (M6-M9):
+- M6 locator drift: PASSED, expected=Yes → Survived
+- M7 selector broadening: PASSED, expected=Yes → Survived
+- M8 element removed: FAILED, expected=Yes → Caught
+- M9 wrong element: FAILED, expected=Yes → Caught
 
 Survival rate = 2/4 = 50%
 Pattern: functional failures caught, structural fragility missed
 ```
+
+> Note: Track BOTH survival rate (FN) and FP rate. A test suite that catches everything but also fails on clean code is itself a liability.
 
 ---
 
 ## Step 5: Interpret
 | Survival rate | Meaning | Action |
 |---------------|---------|--------|
-| 0% | Tests catch every defect | Strong — trust the signal |
+| 0% | Tests catch every expected defect | Strong — trust the signal |
 | <20% | Minor blind spots | Target the missed mutation types |
 | 20-50% | Structural gaps | Add mutation testing to CI as a gate |
 | >50% | Tests are weak | Don't trust green dashboard |
 
 ---
 
-## Step 6: Map to risk level
-Cross-reference survival rate with the risk level from Step 1:
-- High-risk flow + high survival rate = **human gate mandatory**
-- Low-risk flow + low survival rate = lighter touch OK
+## Step 6: Map to risk level (concrete actions)
+Cross-reference survival rate with risk level from Step 1:
 
-This gives you a measurable, independent signal alongside execution results and QA review — without a person rechecking everything.
+| Risk | Survival rate | Concrete human gate |
+|------|--------------|---------------------|
+| High | >0% | Full manual re-review by senior QA; sign-off required before merge; artifact = reviewed diff + note |
+| High | 0% | Lightweight spot-check; artifact = mutation report attached to PR |
+| Medium | 20-50% | Targeted review of the missed mutation type; 30 min per flow |
+| Low | any | No gate; rely on mutation trend |
+
+**Human gate = a named person reviews the mutation report and approves before the PR merges. Time cost scales with risk × survival rate.**
 
 ---
 
-## Notes
-- Run mutants in ephemeral/sandbox environments only. Never on production.
-- One mutation per run (isolate the variable).
-- Automate if possible (tools: Stryker, MutPy, or manual for small sets).
-- Re-run after test fixes to confirm the blind spot is closed.
+## Step 7: Regression / trend
+Survival rate is a point-in-time metric. Re-run the matrix every iteration and track the trend:
+- Falling survival rate = tests improving
+- Rising survival rate = test debt accumulating
+- Plot per-risk-level to see where quality erodes first
+
+---
+
+## Tooling notes
+| Level | Tools | What they mutate |
+|-------|-------|------------------|
+| Code-level | Stryker (TS/JS), MutPy (Python) | Source code — runs many mutants per execution |
+| UI-level | Manual DOM edit / test fixture mutation | Live UI elements (as described above) |
+| API-level | Mock server (WireMock, MSW) | Response status, fields, types |
+
+> "One mutation per test-target pair" — for UI/API manual mutations, isolate one defect per run. For code-level tools (Stryker), the tool auto-mutates many points in a single execution; review its report per mutant.
+
+---
+
+## Meta-data for audit trail
+Every mutation record should carry: `Mutation ID`, `Date`, `Environment`, `Layer`. This enables repeatable runs and trend analysis across sprints.
