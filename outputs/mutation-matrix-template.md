@@ -83,7 +83,7 @@ For each mutation, run the associated test in an **ephemeral/sandbox environment
 | Mutation ID | Date | Env | Layer (UI/API/DB/Logic) | Test | Mutation applied | Expected to catch? | Test result | Verdict | Assertion quality |
 |-------------|------|-----|------------------------|------|-----------------|-------------------|-------------|---------|-------------------|
 | M1          |      |     | UI                     | login | id drift        | Yes               | PASS        | ❌ Survived | timeout (low)     |
-| M2          |      |     | Logic                  | calc  | `>=`→`>`        | No                | PASS        | n/a           | not applicable    |
+| M2          |      |     | UI                     | nav   | wrong redirect  | No                | PASS        | n/a           | not applicable    |
 | M3          |      |     | UI                     | submit| validation removed | Yes            | FAIL        | ✅ Caught     | clear message     |
 
 ### Verdict values (not binary)
