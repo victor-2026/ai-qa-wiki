@@ -1307,6 +1307,12 @@
       "topic": "quality gate rot metric hacking external verifier optimization landscape",
       "date": "2026-08-27",
       "source": "raw/model optimizing against quality gate instead of actual problem.md"
+    },
+    {
+      "file": "wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md",
+      "topic": "Andrew Ng AI engineering skills map software fundamentals full-stack data architecture security reliability steering agents",
+      "date": "2026-08-28",
+      "source": "raw/AI Engineering Skills Map - Software engineering fundamentals.md"
     }
   ],
   "raw_count": 119,

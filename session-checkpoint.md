@@ -40,3 +40,33 @@
 - X-FLOW: wait for Tatsiana's team
 - Series 21: feed image published, carousel next
 - Article 26: mutation-matrix data ready (M6-M9), can finalize
+
+---
+
+# Session Checkpoint — 2026-08-28 (Session 108)
+
+## Wiki updates
+### Новые страницы
+1. `wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md` — Andrew Ng AI Engineering Skills Map (software fundamentals, full-stack, data, architecture, security, scaling)
+2. `wiki/ai-dlc-process-testing-guardrails-2026.md` — cross-linked (added earlier)
+
+### CARBON plan
+- `outputs/carbon-adoption-plan.md` — план апробации testers.ai CARBON
+- Вопросы: caught bugs vs FP, persona feedback, mutation testing integration, $79/mo value
+
+### Cross-links
+- aiengineeringskillsmap → ai-dlc, mutation-matrix, agent-skills, testing-ai-evidence
+- wiki-topics.json: 218 → 219
+
+## Social/Outreach
+- **Megi Tephnadze** (Head of QA, ProCredit Bank Georgia): connected, peer exchange on AI verification + governance. She runs pilot: AI executes + QA review, risk-based human gate. Mutation testing interested her as independent signal.
+- **Sayeed S** (Jason Arbon post): replied with mutation testing angle (code access enables mutation check, 70% could run, most don't)
+- **Jason Arbon post** comments reviewed: Anton Gulin (code-level checks), Jay Aigner (validation surface vs truth), Himanshu Soni (skill gap), Sarah McKenna (agent-friendly software)
+
+## Daily digest
+- 2026-08-28 generated: 12/459, OpenAI rogue incident top
+
+## Next
+- CARBON: decide URL for free sample (sandbox vs buzzhive vs public)
+- Series 21: carousel next
+- Max Kitaygora / Rupesh: waiting for replies
