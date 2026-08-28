@@ -106,26 +106,26 @@ Survival rate = (Survived (Expected=Yes)) / (Total Expected=Yes) × 100%
 
 ---
 
-## Чек-лист для быстрого пилота (1 страница)
-Можно использовать как отдельный документ/страницу в Notion:
+## Quick pilot checklist (1 page)
+Can be used as a standalone document / Notion page:
 
-1. **Выбрать 5–10 AI-тестов** (логин / платежи / расчёты).
-2. **Для каждого теста выбрать 1 мутацию** из списка:
+1. **Pick 5–10 AI tests** (login / payments / calculations).
+2. **For each test, pick 1 mutation** from the list:
    - UI: `Locator drift`, `Validation removed`
    - API: `Status flip (200→500)`, `Missing field`
    - Logic: `Boundary flip (>= → >)`
-3. **Внести мутацию в sandbox** и прогнать тест.
-4. **Заполнить таблицу**:
+3. **Apply the mutation in a sandbox** and run the test.
+4. **Fill the table**:
 
    | Mutation ID | Test | Mutation type | Expected? (Y/N) | Result (PASS/FAIL) | Verdict |
    |-------------|------|---------------|-----------------|--------------------|---------|
    |             |      |               |                 |                    |         |
 
-5. **Посчитать survival rate**:
+5. **Calculate survival rate**:
    ```
    Survival rate = (Survived (Expected=Yes)) / (Total Expected=Yes) × 100%
    ```
 
-6. **Сделать вывод** по таблице интерпретации и записать 1–2 действия:
-   - какие тесты усилить (локаторы, ассерты, проверки полей);
-   - какие мутации добавить в следующий раунд.
+6. **Draw a conclusion** from the interpretation table and note 1–2 actions:
+   - which tests to strengthen (locators, assertions, field checks);
+   - which mutations to add in the next round.
