@@ -88,8 +88,9 @@ For each mutation, run the associated test in an **ephemeral/sandbox environment
 A mutant is **equivalent** when it changes the code but not the observable behavior (e.g., `if (x > 0)` → `if (x >= 1)` when x is integer). These must be marked `Equivalent` and excluded from the denominator of survival rate — otherwise the metric is artificially inflated.
 
 ### Assertion quality
-- Did the test fail with a clear, actionable message?
-- Or with a timeout / obscure error (low diagnostic value)?
+- **High** — message explicitly points to the mutation (e.g., "balance field missing", "validation error expected")
+- **Medium** — test failed but message is generic ("element not visible", "timeout")
+- **Low** — unclear timeout/error requiring debug; prioritize fixing `Survived + Low` tests first
 
 ---
 
@@ -97,6 +98,11 @@ A mutant is **equivalent** when it changes the code but not the observable behav
 ```
 Survival rate (FN) = (mutants expected-to-catch that PASSED) / (mutants expected-to-catch) × 100%
 False positive rate (FP) = (tests that FAIL on clean code) / (total tests run) × 100%
+
+Formula (explicit):
+  Survival rate (FN) = Survived (Expected=Yes, Verdict≠Equivalent) / Total (Expected=Yes, Verdict≠Equivalent) × 100%
+
+Note: FP rate is measured BEFORE any mutation is introduced — run the same tests on unmodified code in the same environment. This prevents accidentally counting mutant-caused failures as false positives.
 
 Example from a commercial AI-QA platform run (M6-M9):
 - M6 locator drift: PASSED, expected=Yes → Survived
@@ -163,7 +169,13 @@ Survival rate is a point-in-time metric. Re-run the matrix every iteration and t
 ---
 
 ## Meta-data for audit trail
-Every mutation record should carry: `Mutation ID`, `Date`, `Environment`, `Layer`. This enables repeatable runs and trend analysis across sprints.
+Every mutation record should carry: `Mutation ID`, `Date`, `Environment`, `Layer`, `Owner`, `Status`. This enables repeatable runs, trend analysis, and shows which mutants are still open.
+
+| Mutation ID | Date | Env | Layer | Test | Owner | Status |
+|-------------|------|-----|-------|------|-------|--------|
+| M1 | 2026-09-01 | sandbox-1 | UI | login | QA-1 | Open |
+
+Status values: `Open` / `Fixed` / `Accepted risk`.
 
 ---
 
@@ -181,11 +193,11 @@ Every mutation record should carry: `Mutation ID`, `Date`, `Environment`, `Layer
 
 ### Calculation
 ```
-Expected-to-catch mutants (non-equivalent): M1, M2, M3, M4, M5, M7 = 6
+Expected-to-catch mutants (non-equivalent): M1, M2, M3, M4, M5 = 5  (M7 excluded: Expected=No)
 Survived (expected=Yes, non-equivalent): M1 = 1
-Survival rate (FN) = 1/6 = 17%
+Survival rate (FN) = 1/5 = 20%
 
 FP rate: tests that fail on clean code = 0 / 7 = 0%
 ```
 
-Interpretation: 17% survival rate = minor blind spots. M1 (locator drift) is the gap - strengthen the login test's locator assertion. M6 excluded as equivalent. M7 not expected to catch (nav test, different scope).
+Interpretation: 20% survival rate = minor blind spots. M1 (locator drift) is the gap - strengthen the login test's locator assertion. M6 excluded as equivalent. M7 not expected to catch (nav test, different scope).
