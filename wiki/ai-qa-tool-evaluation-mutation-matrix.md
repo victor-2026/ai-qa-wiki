@@ -53,6 +53,9 @@ Deployment gotcha found along the way: GitHub Pages legacy build serves the repo
 - Password validator advertised `@$#!%*?&^_+=.` but rejected `_` (only `@` confirmed working).
 - `Point to Element -> #loginBtn` did not work; step fix required `Edit Step` to a text matcher.
 
+## Vendor adoption (real signal, Aug 2026)
+QAEverest's founder confirmed the mutation-matrix findings and is shipping a **Test Reliability** section in the report: when a locator drifts or a selector weakens, the run will flag it even when the test still passes. Findings will carry new-vs-recurring markers so teams see change, not just state. This is the methodology's core thesis - "works today, fragile tomorrow" - moving from consult to product. The independent mutation matrix is positioned to sit *on top* of that reliability layer as an external oracle. Sample report: `QAEverest_Sample_Execution_Report.pdf` (in Rupesh_Kabra catalog).
+
 ### See also
 - [QAEverest Pilot Hands-On: Import, Confidence, Human Gate](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
 - [DevQAExpert - QAEverest import 2000 Cypress tests - confidence score](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
