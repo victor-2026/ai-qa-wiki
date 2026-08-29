@@ -56,6 +56,15 @@ Deployment gotcha found along the way: GitHub Pages legacy build serves the repo
 ## Vendor adoption (real signal, Aug 2026)
 QAEverest's founder confirmed the mutation-matrix findings and is shipping a **Test Reliability** section in the report: when a locator drifts or a selector weakens, the run will flag it even when the test still passes. Findings will carry new-vs-recurring markers so teams see change, not just state. This is the methodology's core thesis - "works today, fragile tomorrow" - moving from consult to product. The independent mutation matrix is positioned to sit *on top* of that reliability layer as an external oracle. Sample report: `QAEverest_Sample_Execution_Report.pdf` (in Rupesh_Kabra catalog).
 
+### Vendor adoption v2 - the Suite Trust Scorecard (concept, 2026-08-29)
+Rupesh sent a **Suite Trust Scorecard — Quality Command Center** concept that productizes the method verbatim:
+- **Suite Sensitivity 78% = "14 of 18 seeded mutants caught"** - the mutation matrix as a standing score (2 survived, 2 observed-only). This is the exact M6/M7 technique, now a product metric.
+- **Fragility Index 4/31** (position-based selectors) + **"0 weakened selectors open"** - the locator-drift gap is now measured *and* driven to zero.
+- **Confirmation Rate 83%** (24 confirmed, 5 dismissed), **Flakiness 2%**, **Coverage Gaps 3** (RTM), **Self-Heals 6/30d** (all reviewed).
+- Design principle stated by founder: "every number links to its evidence" and the scorecard is "the artifact an independent evaluation attests to" - the anti-black-box framing from this methodology, adopted wholesale.
+
+Implication: the mutation matrix moved from external audit to built-in product metric. The remaining role for the independent evaluator is **attestation** - verifying the evidence behind each score holds (taxonomy of "survived" vs "observed-only", mutation-score threshold, fragility→fix loop). This is the consulting wedge: originate the method, then attest to the vendor's implementation of it.
+
 ### See also
 - [QAEverest Pilot Hands-On: Import, Confidence, Human Gate](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
 - [DevQAExpert - QAEverest import 2000 Cypress tests - confidence score](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
