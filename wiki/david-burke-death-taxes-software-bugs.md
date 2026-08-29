@@ -2,7 +2,7 @@
 
 **Author:** David Burke (VP of Engineering, ex-testRigor VP)
 **Published:** 2026-08-25
-**Source:** LinkedIn
+**Source:** LinkedIn https://www.linkedin.com/pulse/death-taxes-software-bugs-david-burke-ti4te/
 
 ## Саммари
 

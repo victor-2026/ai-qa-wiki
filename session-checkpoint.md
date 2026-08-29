@@ -99,3 +99,27 @@
 - CARBON: decide URL for free sample (sandbox vs buzzhive vs public)
 - Series 21: carousel next
 - Max Kitaygora / Rupesh: waiting for replies
+
+---
+
+# Session Checkpoint — 2026-08-29 (Session 109 continued / 110)
+
+## Wiki ingests (3 new pages, commits 03c4747 + d00510e + 37f76eb)
+1. `wiki/andrew-ng-loop-engineering-2026.md` — 3 nested loops (agentic coding / engineering / developer-feedback); evals = mutation matrix; developer was QA, now moves up = Article 27 proof
+2. `wiki/krivitsky-agentic-factory-nested-loops-2026.md` — Coding/Feature/Impact loops; outer loop = human-owned (Article 21 accountability + Article 27 gatekeeper); Ferrari Trap = Article 20 false-discovery
+3. `wiki/andrew-ng-openworker-security-agents-2026.md` — open-source harness = auditable (Article 26); model+harness split = verification-layer architecture; shift-left
+- Cross-links added: Skills Map "See also" → all 3; Article 27 → Ng loop + Krivitsky; mutation-matrix → Vendor adoption v2
+- wiki-topics.json: 221 → 224
+
+## QAEverest / Rupesh Kabra (vendor adoption v2)
+- Rupesh sent **Suite Trust Scorecard** concept: Suite Sensitivity 78% (14/18 mutants caught), Fragility Index 4/31, "0 weakened selectors open" — mutation matrix PRODUCTIZED
+- Victor replied (sent): recognized method productized, 3 methodology questions (survived vs observed-only; mutation-score threshold; fragility→fix), claimed attestation role
+- Sample report PDF read: 100% pass / 0% risk but 5 passive findings (js-error, 500 retry, duplicate sign-in CONFIRMED, fragility id→position) — M6/M7 now caught
+- Catalog: `outreach/active/Rupesh_Kabra/index.md` updated (status 🟢 Vendor adoption v2, reply sent)
+- Wiki: mutation-matrix "Vendor adoption v2" added
+
+## Next
+- Rupesh: wait for reliability layer live → schedule call (attestation)
+- CARBON (testers.ai): ОТЛОЖЕН
+- Article 27 body: write (Ng + Krivitsky + Bolton + Bach anchored)
+- Article 21: publish 31.08 10:00

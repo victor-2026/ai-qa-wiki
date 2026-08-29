@@ -80,9 +80,9 @@ For each test, introduce **ONE** deliberate defect. Keep mutations small and iso
 ## Step 3: Run and record
 For each mutation, run the associated test in an **ephemeral/sandbox environment only**. Record the result.
 
-| Mutation ID | Date | Env | Layer (UI/API/DB/Logic) | Test   | Mutation applied   | Expected to catch? | Test result | Verdict    | Assertion quality |
-| ----------- | ---- | --- | ----------------------- | ------ | ------------------ | ------------------ | ----------- | ---------- | ----------------- |
-| M1          |      |     | UI                      | login  | id drift           | Yes                | PASS        | ❌ Survived | timeout (low)     |
+| Mutation ID | Date | Env | Layer (UI/API/DB/Logic) | Test   | Mutation applied   | Expected to catch? | Test result | Verdict    | Assertion quality | Review effort (min) |
+| ----------- | ---- | --- | ----------------------- | ------ | ------------------ | ------------------ | ----------- | ---------- | ----------------- | ------------------- |
+| M1          |      |     | UI                      | login  | id drift           | Yes                | PASS        | ❌ Survived | timeout (low)     |                     |
 | M2          |      |     | UI                      | nav    | wrong redirect     | No                 | PASS        | n/a        | not applicable    |
 | M3          |      |     | UI                      | submit | validation removed | Yes                | FAIL        | ✅ Caught   | clear message     |
 
@@ -138,17 +138,22 @@ Pattern: functional failures caught, structural fragility missed
 
 ---
 
-## Step 6: Map to risk level (concrete actions)
-Cross-reference survival rate with risk level from Step 1:
+## Step 6: Map to risk level (concrete actions + measured effort)
+Cross-reference survival rate with risk level from Step 1. **Track actual human review effort** to validate the "time cost scales with risk × survival rate" principle.
 
-| Risk | Survival rate | Concrete human gate |
-|------|---------------|---------------------|
-| High | >0%           | Full manual re-review by senior QA; sign-off required before merge; artifact = reviewed diff + note |
-| High | 0%            | Lightweight spot-check; artifact = mutation report attached to PR |
-| Medium | 20–50%      | Targeted review of the missed mutation type; 30 min per flow |
-| Low  | any           | No gate; rely on mutation trend |
+| Risk | Survival rate | Human review effort (min) | Gate decision |
+|------|---------------|---------------------------|---------------|
+| High | >0%           | 45–60 | Full manual re-review by senior QA; sign-off required before merge; artifact = reviewed diff + note |
+| High | 0%            | 10–15 | Lightweight spot-check; artifact = mutation report attached to PR |
+| Medium | 20–50%      | 20–30 | Targeted review of the missed mutation type; 30 min per flow |
+| Low  | any           | 0–5  | No gate; rely on mutation trend |
 
-**Human gate** = a named person reviews the mutation report and approves before the PR merges. Time cost scales with risk × survival rate.
+**Human gate** = a named person reviews the mutation report and approves before the PR merges.
+
+**Measured dimension:** After each gate, record actual minutes spent reviewing (column: `Review effort (min)`). This enables:
+- Trend analysis: does review time decrease as survival rate improves?
+- ROI calculation: is the time investment justified by defect detection?
+- Baseline comparison: compare your High-risk review effort against other teams/pilots.
 
 ---
 
