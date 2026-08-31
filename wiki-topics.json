@@ -1355,8 +1355,243 @@
       "topic": "AI agents replace team roles 35 agents startup Yampolskiy AI safety networks cannot be copied institutional knowledge first mover advantage QA moat Mogilko Silicon Valley Girl",
       "date": "2026-08-30",
       "source": "LinkedIn: marinamogilko/7495154819645710336"
+    },
+    {
+      "topic": "Kiro Crew multi-agent orchestration platform open source MeshClaw Amazon ACP Agent Client Protocol defense-in-depth security self-learning memory scheduling subagents",
+      "date": "2026-08-30",
+      "source": "kiro.dev/blog/introducing-kiro-crew/"
+    },
+    {
+      "topic": "Kiro blog catalog all publications 92 posts AI coding agents testing property-based evaluation guardrails CLI automation",
+      "date": "2026-08-30",
+      "source": "kiro.dev/blog"
+    },
+    {
+      "topic": "continuous prompt evaluation LLM judges live signals agent quality Kiro",
+      "date": "2026-08-30",
+      "source": "kiro.dev/blog/continuous-prompt-evaluation/"
+    },
+    {
+      "topic": "trust AI agent triage production incidents Kiro",
+      "date": "2026-08-30",
+      "source": "kiro.dev/blog/trust-agent-triage/"
+    },
+    {
+      "topic": "AI coding agents getting better diagnostics over time Kiro",
+      "date": "2026-08-30",
+      "source": "kiro.dev/blog/diagnostics-over-time/"
+    },
+    {
+      "topic": "Claude meetup beginners beyond 4D framework delegation description discernment diligence MCP skills lifemichael",
+      "date": "2026-08-30",
+      "source": "lifemichael.com/en/claude-for-beginners-and-beyond-highlights-from-our-latest-meetup/"
+    },
+    {
+      "topic": "Autonoma blog catalog 581 articles AI agent testing mutation RAG chatbot prompt injection vibe coding preview environments",
+      "date": "2026-08-30",
+      "source": "getautonoma.com/blog"
+    },
+    {
+      "topic": "AI agent testing tool calls multi-agent handoffs memory reliability LangGraph CrewAI simulation",
+      "date": "2026-08-30",
+      "source": "getautonoma.com/blog"
+    },
+    {
+      "topic": "mutation testing vs code coverage AI test quality test theater assertion coverage tautological anti-pattern",
+      "date": "2026-08-30",
+      "source": "getautonoma.com/blog"
+    },
+    {
+      "topic": "RAG testing retrieval evaluation hallucination MCP server prompt injection guardrails",
+      "date": "2026-08-30",
+      "source": "getautonoma.com/blog"
+    },
+    {
+      "topic": "Kiro Crew pilot plan setup skills multi-agent security scheduling evaluation",
+      "date": "2026-08-30",
+      "source": "wiki/kiro-crew-pilot-plan.md"
+    },
+    {
+      "file": "wiki/kiro-continuous-prompt-evaluation-llm-judges-2026.md",
+      "topic": "Kiro continuous prompt evaluation LLM judges live signals diagnose design test evaluate behavioral quality dissatisfaction A/B cohorts model-dependent",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/continuous-prompt-evaluation/"
+    },
+    {
+      "file": "wiki/kiro-diagnostics-over-time-agent-quality-2026.md",
+      "topic": "Kiro diagnostics over time agent quality static analysis 406K invocations errors per file test vs source language landscape Java Python",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/diagnostics-over-time/"
+    },
+    {
+      "file": "wiki/kiro-property-based-testing-security-bug-2026.md",
+      "topic": "Kiro property-based testing security bug fast-check prototype pollution __proto__ round-trip SDD executable spec shrinking",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/property-based-testing-fixed-security-bug/"
+    },
+    {
+      "file": "wiki/kiro-openapi-to-testsuite-2026.md",
+      "topic": "Kiro OpenAPI Swagger to test suite mock server axios integration test steering headless CI spec drift contract",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/from-openapi-swagger-to-test-suite-in-seconds-with-kiro/"
+    },
+    {
+      "file": "wiki/kiro-bug-fix-paradox-2026.md",
+      "topic": "Kiro bug fix paradox property-aware evolution bug condition preservation property differential PBT hypothesis BST RocketMQ",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/bug-fix-paradox/"
+    },
+    {
+      "file": "wiki/kiro-root-cause-33s-2026.md",
+      "topic": "Kiro root cause 33 seconds CLI autonomous investigation parser cache perf subagents codebase overview",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/root-cause-in-33s/"
+    },
+    {
+      "file": "wiki/kiro-soc2-planview-automation-2026.md",
+      "topic": "Kiro SOC2 Planview automation compliance custom agent AWS read-only evidence 40 hours CC6.1",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/automating-soc-2-compliance/"
+    },
+    {
+      "file": "wiki/kiro-snyk-guardrails-2026.md",
+      "topic": "Kiro Snyk guardrails MCP security AIBOM toxic flow prompt injection hooks defense-in-depth",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/kiro-and-snyk-guardrails/"
+    },
+    {
+      "file": "wiki/kiro-trust-agent-triage-2026.md",
+      "topic": "Kiro trust agent triage production incidents 13m 33s hypothesis search skills progressive disclosure flywheel",
+      "date": "2026-08-30",
+      "source": "https://kiro.dev/blog/trust-agent-triage/"
+    },
+    {
+      "file": "wiki/autonoma-testing-tool-calls-2026.md",
+      "topic": "Autonoma testing AI agent tool calls actions harness mock MCP eval trap hallucinated params",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/testing-ai-agent-tool-calls"
+    },
+    {
+      "file": "wiki/autonoma-how-to-test-ai-agent-e2e-2026.md",
+      "topic": "Autonoma how to test AI agent end to end 5 layers harness golden trajectories",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-an-ai-agent"
+    },
+    {
+      "file": "wiki/autonoma-multi-agent-handoffs-2026.md",
+      "topic": "Autonoma multi-agent systems handoffs orchestration context loss delegation",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-multi-agent-systems"
+    },
+    {
+      "file": "wiki/autonoma-agent-memory-2026.md",
+      "topic": "Autonoma agent memory short long-term retrieval compaction leak",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-ai-agent-memory"
+    },
+    {
+      "file": "wiki/autonoma-agent-reliability-2026.md",
+      "topic": "Autonoma agent reliability silent failures flakiness retries",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/ai-agent-reliability-testing"
+    },
+    {
+      "file": "wiki/autonoma-agent-regression-2026.md",
+      "topic": "Autonoma agent regression drift without deploy prompt model snapshot trajectories",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/agent-regression-testing"
+    },
+    {
+      "file": "wiki/autonoma-langgraph-testing-2026.md",
+      "topic": "Autonoma LangGraph testing stateful graph nodes edges interrupts checkpoints",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/langgraph-testing"
+    },
+    {
+      "file": "wiki/autonoma-crewai-evaluation-2026.md",
+      "topic": "Autonoma CrewAI evaluation roles tasks crews collaboration metrics",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/crewai-evaluation"
+    },
+    {
+      "file": "wiki/autonoma-agent-simulation-2026.md",
+      "topic": "Autonoma agent simulation 3-actor harness user agent environment deterministic replay",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/agent-simulation-testing"
+    },
+    {
+      "file": "wiki/autonoma-multi-turn-conversations-2026.md",
+      "topic": "Autonoma multi-turn conversations context retention window summarization drift",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-multi-turn-conversations"
+    },
+    {
+      "file": "wiki/autonoma-non-deterministic-outputs-2026.md",
+      "topic": "Autonoma non-deterministic outputs invariant similarity N-run judge",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-non-deterministic-ai-outputs"
+    },
+    {
+      "file": "wiki/autonoma-llm-unit-testing-2026.md",
+      "topic": "Autonoma LLM unit testing prompts fixtures snapshots versioning",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/llm-unit-testing"
+    },
+    {
+      "file": "wiki/autonoma-llm-evals-cicd-2026.md",
+      "topic": "Autonoma LLM evals CI/CD two-speed pipeline fast PR nightly deep",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-run-llm-evals-in-ci-cd"
+    },
+    {
+      "file": "wiki/autonoma-qa-ai-feature-2026.md",
+      "topic": "Autonoma QA generative AI feature ship gate spec golden eval red-team monitoring",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-qa-an-ai-feature"
+    },
+    {
+      "file": "wiki/autonoma-streaming-responses-2026.md",
+      "topic": "Autonoma streaming AI responses chunking state machine partial assertions",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-streaming-ai-responses"
+    },
+    {
+      "file": "wiki/autonoma-rag-pipeline-2026.md",
+      "topic": "Autonoma RAG pipeline two surfaces retrieval generation not one score",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-a-rag-pipeline"
+    },
+    {
+      "file": "wiki/autonoma-rag-evaluation-metrics-2026.md",
+      "topic": "Autonoma RAG evaluation 4 metrics framework relevance faithfulness",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/rag-evaluation-metrics"
+    },
+    {
+      "file": "wiki/autonoma-rag-retrieval-2026.md",
+      "topic": "Autonoma RAG retrieval right context IR isolation MRR precision recall",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-rag-retrieval"
+    },
+    {
+      "file": "wiki/autonoma-hallucinations-2026.md",
+      "topic": "Autonoma hallucinations code-first groundedness detection patterns",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-for-ai-hallucinations"
+    },
+    {
+      "file": "wiki/autonoma-mcp-server-2026.md",
+      "topic": "Autonoma MCP server 3 layers transport auth tool definitions",
+      "date": "2026-08-31",
+      "source": "https://getautonoma.com/blog/how-to-test-an-mcp-server"
+    },
+    {
+      "file": "wiki/testrigor-blog-catalog-all-publications-2026.md",
+      "topic": "testRigor blog catalog 3013 articles codeless self-healing prompt versioning agentic QA ATDD Playwright plugin coverage vs priority",
+      "date": "2026-08-31",
+      "source": "https://testrigor.com/blog/"
     }
   ],
-  "raw_count": 121,
-  "updated": "2026-08-30"
+  "raw_count": 162,
+  "updated": "2026-08-31"
 }
