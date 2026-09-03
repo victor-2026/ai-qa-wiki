@@ -1249,6 +1249,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/pi-opencode-integration-2026.html",
+      "title": "Pi ↔ OpenCode Integration",
+      "desc": "**Source:** https://github.com/nicobailon/pi-subagents + https://opencode.ai/docs + Zalando agentic snapshot (MCP proxy/",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/pi-subagents-2026.html",
+      "title": "pi-subagents",
+      "desc": "**Source:** https://github.com/nicobailon/pi-subagents (Pi extension for async subagent delegation)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/pipeline-triad-pattern.html",
       "title": "Pipeline Triad Pattern",
       "desc": "source: \"pipeline-triad-pattern.md\"",
@@ -1402,6 +1414,12 @@
       "file": "wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.html",
       "title": "Ruslan Desyatnikov Qa Director Elimination Virus 2026",
       "desc": "source: \"ruslan-desyatnikov-qa-director-elimination-virus-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ruvnet-agentic-stack-2026.html",
+      "title": "rUv (ruvnet) — Agentic Stack",
+      "desc": "**Source:** https://ruv.io/ (Reuven Cohen) + https://github.com/ruvnet (11.3k followers, 214 repos, 172k stars)",
       "tag": "Wiki"
     },
     {
@@ -1753,6 +1771,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 178,
+  "raw_count": 180,
   "updated": "2026-09-03"
 }

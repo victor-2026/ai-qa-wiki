@@ -125,6 +125,15 @@ cp -r ~/Backups/ai-qa-wiki/2026-04-21/wiki/* Projects/ai-qa-wiki/wiki/
 - **No model-specific instructions** — rules must work with any AI model
 - **Size ≤ 32 KiB** — file must fit in one context window
 
+
+## Subagents & OpenRouter — Free First (Global)
+
+- Pi via `pi-subagents` (scout, researcher, worker, reviewer, oracle, delegate) — global `~/.pi/agent/settings.json`: `defaultProvider: openrouter`, `defaultModel: openrouter/free`, `enabledModels: [openrouter/*:free, openrouter/*, groq/*]`
+- Free limits: 20 RPM, 1000/day (≥$10 lifetime credits, else 50/day) — shared across all `:free`, 429 = hit cap or provider pool busy
+- Rule: try `:free` / `openrouter/free` first, on 429 fallback to paid variant (same slug without `:free`), concurrency 1-2, exponential backoff, Retry-After
+- OpenCode delegates via bash: `pi --provider openrouter --model openrouter/free --print "Use reviewer to review this diff." -- @diff.txt`
+- Also works headless in CI: `pi --mode json` or via `opencode` bash tool
+
 ## Communication — Full File Paths (MANDATORY)
 
 In opencode-desktop TUI (macOS): **only `mailto:` is clickable**. file://, /Users/.../path, markdown links = NOT clickable.

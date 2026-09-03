@@ -1,3 +1,28 @@
+# Session Checkpoint — 2026-09-03 (Session 114)
+
+## Pi + OpenCode Integration — Installed & Tested + Free-First Fixed
+
+- **Pi installed:** `@earendil-works/pi-coding-agent` 0.84.4 (`npm install -g --ignore-scripts`, 136 pkgs) + `pi-subagents` 0.64.0 (`pi install npm:pi-subagents`, 5 pkgs, `~/.pi/agent/settings.json: packages=[pi-subagents]`)
+- **Tested:** `pi --provider openrouter --model openrouter/deepseek/deepseek-v4-flash --print "Use reviewer..."` on `app.js` diff (`add +→-` + export removed) → **2×P0 BLOCK** (logic inversion + missing export); parallel `correctness/tests/complexity` → **3/3 BLOCK** synthesis — works.
+- **OpenCode Desktop:** 1.18.27 installed (was 1.18.19) — `opencode upgrade` 1.18.19→1.18.27, verified `opencode --version 1.18.27`, `pi 0.84.4`, `pi list`
+- **OpenRouter free-first fixed (global + 7 projects):**
+  - `~/.pi/agent/settings.json` now: `defaultProvider: openrouter`, `defaultModel: openrouter/free`, `enabledModels: [openrouter/*:free, openrouter/*, groq/*, openai/*]`, retry 3
+  - Free limits: 20 RPM, 1000/day (≥$10 lifetime, else 50/day) — 18 free models (nemotron/gemma/glm etc.), `openrouter/free` auto-router, 429 → fallback to paid without `:free`, concurrency 1-2
+  - 7 `AGENTS.md` updated (`ai-qa-wiki`, `Articles`, `DYI-Building`, `MAS-realisation`, `OrangeHRM`, `Test-Dora-Plus`, `qa-automation-sandbox`) — added `## Subagents & OpenRouter — Free First (Global)` (5 KiB, <32 KiB, 77-279 lines) with rule + example `pi --provider openrouter --model openrouter/free --print`
+  - Decision: global `~/.pi` is source of truth for Pi; `AGENTS.md` documents for team/OpenCode portability (no per-project `.pi/settings.json` needed)
+- **Wiki:** `wiki/ruvnet-agentic-stack-2026.md:1` — 92 lines (11.3k followers, 214 repos, 172k stars, 64M npm/yr, Ruflo 67k, RuView 89k) — harness-not-model thesis
+- **Wiki:** `wiki/pi-subagents-2026.md:1` — 93 lines, 6 agents (scout/researcher/worker/reviewer/oracle/delegate), council/parallel/fleet, `maxSubagentSpawnsPerRun=64`
+- **Wiki:** `wiki/pi-opencode-integration-2026.md:1` — 117 lines, 3 layers (AGENTS.md / MCP / CLI as subagent), loop `scout(Pi)→worker(OpenCode)→reviewer(Pi)`, MCP proxy Zalando pattern
+- **Raw:** `raw/ruvnet-overview-2026.md`, `raw/pi-subagents-2026.md` created
+- wiki-topics.json: 292 → 295 (+3: ruvnet, pi-subagents, pi-opencode), raw 178 → 180
+
+## Next
+- Use Pi via Desktop: chat → `Use reviewer to review this diff` / `Run parallel reviewers...` / `Ask oracle...` — OpenCode delegates via bash `pi --print`
+- Autonoma pending 16 HIGH — on demand; testRigor TOP25 detailed — on demand
+- Article 21/27 bodies
+
+---
+
 # Session Checkpoint — 2026-09-03 (Session 113)
 
 ## Catalogs Bulk — Post-31.08 Continuation (Build Mode, 12 catalogs now)
