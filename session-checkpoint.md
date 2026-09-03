@@ -1,3 +1,31 @@
+# Session Checkpoint — 2026-09-03 (Session 113)
+
+## Catalogs Bulk — Post-31.08 Continuation (Build Mode, 12 catalogs now)
+
+- **TesterStories (Jeff Nyman):** `wiki/testerstories-blog-catalog-all-publications-2026.md:1` — 113 lines, ~150+ articles, AI ~40 / AI and Testing ~40 (Feb-Apr 2026, 20+ posts). TOP 15 HIGH: Evaluation Synthesis, Conversations, Recall/Relevancy, Faithfulness, Contextual Precision, Improving Retrieval Quality p1-4, Local Models, Model Pipelines, Knowledge Graphs & Ontologies, DSPy (Declaring/Pipelines/RAG), Causality trio (Hallucinates / Performs / Performing Experience). Category Breakdown 6 rows, tiers HIGH ~35/23%.
+- **Virtuoso QA:** `wiki/virtuoso-blog-catalog-all-publications-2026.md:1` — 95 lines, ~200 articles (33 pages ×6), TOP 12 HIGH: Composable (Doughty 80% cost), Agentic vs Agents, StepIQ, Regulated AI Code, Journey Confidence + Latest 10 Best AI Tools, Flaky, User Journey, AdHoc vs Exploratory, Behavioural. Breakdown 7 rows, HIGH ~41/20%.
+- **Quality Remarks (Keith Klain):** `wiki/qualityremarks-blog-catalog-all-publications-2026.md:1` — 93 lines, ~170 posts (sitemap 170, lastmod 2026-08-24). TOP 12 HIGH: Testing Mindset, Verification Asymmetry, Confidence Game, Speed of Stupid, Great Liberation I-III, EU AI Act, etc. Alias `?utm_source=softwaretestingweekly` → same as `wiki/keith-klain-testing-mindset-after-all-2026.md:1` (92 lines, alias added).
+- **Postman Blog:** `wiki/postman-blog-catalog-all-publications-2026.md:1` — 110 lines, ~1,127 articles (post-sitemap 992+135, 2026-08-31). TOP 15 HIGH: QE Platform series (Structural Problem + 5 Metrics + 3 Paths—Rick Crawford), AI Agents (Orbit, three-way drift, context graphs, Postman.ai, Passport), Governance. Alias `?utm_source=softwaretestingweekly` noted in `wiki/rick-crawford-qe-structural-problem-2026.md:1`.
+- **Julia Pottinger:** `wiki/juliapottinger-blog-catalog-all-publications-2026.md:1` — 96 lines, 46 articles, TOP 15 HIGH: Who Is Accountable, QA Control Layer, 6 Checks, Review AI Tests, Working With Agents, Agentic Testing, MCPs, Using AI to Generate Tests, Flaky Tests, Playwright vs Cypress 2026 etc.; + detailed `wiki/julia-pottinger-who-validates-ai-generated-code-2026.md:1` — 139 lines, RACI + 5-question sign-off + PR block `## AI-assisted change` (alias who-validates → Who Is Accountable, Weekly #325).
+- **Martin Fowler:** `wiki/martinfowler-blog-catalog-all-publications-2026.md:1` — 125 lines, ~600+ articles (feed 100, /testing guide 45), TOP 15 HIGH: Making Data Ready for Agentic AI (27.08.2026) + Accidental Blackboard, Code Review (Rachel Laycock), TDD in agent loop, Building Reliable Agentic Systems, Conductor, DSLs, test suite as regression sensor, Pyramid/Practical Pyramid, Mocks etc.; + detailed `wiki/martinfowler-making-data-ready-agentic-ai-2026.md:1` — 91 lines, 5 attributes (Trusted/Contextual/Traceable/Governed/Operational) + 4 layers (Data Contracts/Quarantine/Medallion+Adaptive Gold / Traceability+EU Act €15M / Context Layer domain+semantic+capability / Searchable→Actionable via MCP) + raw `raw/martinfowler-making-data-ready-agentic-ai-2026.md`.
+- **TestMu AI:** `wiki/testmuai-blog-catalog-all-publications-2026.md:1` — 114 lines, ~2,380 /blog/ (sitemap-blog.xml 2380), TOP 20 HIGH: Agentic Regression, Video Agent Testing, Agent Assurance, Agent CLI, Orchestration, Verification Agent, etc.; + detailed `wiki/testmuai-agentic-regression-testing-2026.md:1` — 133 lines, 4-level ladder (Advisory/Selective/Self-repairing/Autonomous), 3 decisions (selection/ordering/maintenance), recall metric Facebook 99.9%, TDAD 6.08%→1.82% with impact map, 4300ms→2050ms demo + raw `raw/testmuai-agentic-regression-testing-2026.md:46`.
+- **Zalando:** `raw/zalando-agentic-engineering-snapshot-2026.md` created (1466 lines → raw now), wiki `zalando-agentic-engineering-snapshot-2026.md:1` already (43 lines) — summary provided. CCN inflection clarified (Cyclomatic Complexity per commit, 4 codebases, agents amplify).
+- **DevQAExpert (Rupesh/QAEverest):** `wiki/devqaexpert-blog-catalog-all-publications-2026.md:1` — 86 lines evaluation only ( ~50-56 articles, 14 pages), sampled 4 (90× pipeline anecdote, Friend, API future, Magical) — signal/noise ~5%, decision NOT to build full catalog; lightweight evaluation kept.
+- **Software Testing Weekly #325 — TOP 5 summaries:** 5 wiki 90-96 lines (`keith-klain-testing-mindset-91`, `rick-crawford-qe-structural-95`, `julia-pottinger-accountable-90`, `anton-gulin-regression-suite-museum-96`, `test-rocket-pyramid-ai-era-92`) + newsletter `wiki/software-testing-weekly-newsletter-2026.md:79` added `## Саммари TOP 5` with `[→ wiki]` + `[оригинал]`.
+- **EventHorizon Showcase:** `https://christosgkovaris.github.io/EventHorizon-Showcase/` evaluated — Flask/C++ observability, competitors (Grafana Loki/SigNoz/ELK/Datadog), not prod-ready → not for monitoring, pet-project only.
+
+## Stats (since 2026-08-31 checkpoint)
+- wiki-topics.json: 267 → 292 (+25: testerstories + virtuoso + qualityremarks + postman + julia catalog + who-validates + martinfowler catalog + making-data-ready + testmuai catalog + agentic-regression + weekly 5 etc.), raw_count 162 → 178 (+16 raw), wiki *.md 292 files
+- Verified: JSON valid, wc -l checks, html topics 291-292, raw md counts
+
+## Next
+- Autonoma pending 16 HIGH (Prompt Injection 2 + Mutation 8 + Chatbot 6) — on demand
+- testRigor TOP25 detailed wiki — on demand (catalog ready 125 lines)
+- Article 21/27 bodies (Ng/Krivitsky/Bolton/Bach anchored)
+- Rupesh: wait fragility layer live → call; Megi pilot
+
+---
+
 # Session Checkpoint — 2026-08-31 (Session 112)
 
 ## Yampolskiy / Mogilko — Silicon Valley Girl (20.04.2026, 44 min, 1388 segments)
