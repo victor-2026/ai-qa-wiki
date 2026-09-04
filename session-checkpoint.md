@@ -1,3 +1,45 @@
+# Session Checkpoint — 2026-09-04 (Session 116)
+
+## Ng Skills Map Series + Glossary + Product Concept (Build Mode, обсудим завтра)
+
+- **Ng series (4 статьи, все полные тексты):** (1) Map m479c 14.08 (10k вакансий, 4 скилла) → raw `AI Engineering Skills Map - The Map.md`; (2) Building/Deploying gyn5e 21.08 (6 поднавыков, eval-driven development = главный trait) → raw `AI Engineering Skills Map - Building and Deploying.md`; (3) Fundamentals 7lnac 28.08 — уже был (проверено, дубль не делали); (4) Coding agents h8yxc 04.09 → raw 61 строка + wiki `andrew-ng-coding-agents-skills-map-2026.md:1` 94 строки (workflow Plan→Execute→Deploy, 5 навыков, open agents OpenCode/Pi у Ng, маппинг на Pi-loop, Worked Example + Checklist)
+- **Articles 26/27:** в конец обеих добавлено `## Примечание (обсудить)` — ссылка gyn5e (eval-driven development = mutation matrix + evidence layer, цитата для 26/27)
+- **Глоссарий:** `wiki/ai-testing-glossary.md` +45 терминов сессии (104 всего) → превысил 500 (559) → разбит: A–M 356 строк + новый `wiki/ai-testing-glossary-n-z.md` 224 строки (N–Z, O перед P поправлено, кросс-ссылки)
+- **Product concept:** `outputs/product-concept-mutation-verifier-mvp.md:1` — PRD MVP по формату weekly-time-planner (Концепция/Цель/Почему не X/Функции v0/Рамки/Ограничения/Архитектура Python stdlib/Поток/Оценка 8-11ч/Слабое место/Этапы Pilot✅→Articles🔄→MVP⏳/8 названий, рекомендован **MutGate** + `verdict.md`); 5 вопросов на завтра (после статей или параллельно? Python vs Node? название? порог tier-2? скелет репо сейчас или после сигнала?)
+- wiki-topics.json: 300 → 303 (+3: ng-coding-agents + 2 raw серии), raw_count 184 → 188
+
+## Next (завтра)
+- Обсудить product concept (5 вопросов из файла)
+- Aamir: ждать ответа на delta (plain text отправлен)
+- testRigor М5 на localhost:8080; Autonoma 16 HIGH — on demand
+
+---
+
+# Session Checkpoint — 2026-09-03 (Session 115)
+
+## Pi Image Generation + Aamir Siddiqui Posts + OrangePro Pilots (Build Mode)
+
+- **Pi Image Generation:** `wiki/pi-image-generation-2026.md:1` — 94 lines, OpenRouter 424 models (18 :free), pricing 1024×1024: gemini-3.1-flash-image $0.002-0.003 / flux-1.1-pro $0.055 / stable-diffusion-xl $0.02, no :free for images (paid counts to 1$/день), Pi worker via bash curl → /tmp/out.png → read inline (terminal.showImages:true) or path; prompt `Ask worker to generate image via openrouter model google/gemini-3.1-flash-image ... save to outputs/cover.png`; raw `raw/pi-image-generation-2026.md:1`; wiki-topics 295→298
+- **Aamir Siddiqui (OrangePro):** `outreach/active/Aamir_Siddiqui/index.md:1` (profile, thesis, relevance ★★★★★, status) + `outreach/active/Aamir_Siddiqui/posts.md:1` — 14 posts scraped (20 loaded, 3d-5mo), 8 HIGH summarized (★ #2 same model writes code/tests/review ×3, #3 9→11→8 stochastic slot-machine, #5 Mattermost 38K 8600 methods 2% evidence editors.AddAttributeButton, #6 Fable vs OrangePro Twenty CRM 4,849 0 overlap, #8 behavioral graph 4 tiers mutation proven `npx -y @orangepro/mcp-server@latest start .`); table TL;DR + all 14 with metrics (4,725 PRs/mo 70% agents, 30 commits/6w etc.); draft connect fixed (generic, без QAEverest, #2/#6 → названия, не номера) — `followup-delta.md:1` with 122/108 delta
+- **OrangePro 8600 methods analogy explained:** Mattermost 8600 public methods, 212 with evidence 2% → delta +195 behaviors, 1 new blind spot; vs qaeverset-pilot-mini 5 tests — same risk-profiling problem, coverage % hides which
+- **Pilots (clones, не трогая оригиналы, детерминирован, static без выполнения где возможно):**
+  - `qaeverset-pilot-mini-orangepro-compare` (9 файлов, app/index.html): `requirements.csv` fixed `behavior_name` (было id,title → теперь behavior_name,acceptance_criteria) → `behavior_anchors 6, score 54 usable` (было 0/16 thin); M6 drift `loginBtn→login-button` (1 строка), M7 bare `id` removed, M8 delete button, M9 swap loginBtn↔promoBtn, M5 reorder username↔password, M6 repeat — все `gaps 5 × No test evidence linked`, `denominator 5`, static, без Docker/тестов; `demo-math.js#add` Proven 670ms via `opro prove --runner vitest` (baseline 0→mutant 1, 0$, within 0.5$)
+  - `OrangeHRM-orangepro-compare` (299M, 496 files) — `opro start . --no-ai` → 122 behaviors (pom/AdminPage.addEducation etc., k6/load-test.js#mainFlow, ClaimPage), 108 no signal, 14 candidate, 0 Proven (needs BYOK for auto-prove), 5 top attempts ClaimPage.getHeading etc. unrunnable (equivalent mutant); `gaps` 5× REQ-md-* No test evidence; `score 54 usable` after requirements.csv
+- **Limits tightened (build mode, free-first):** `~/.pi/agent/scripts/openrouter-guard.sh` FIXED_LIMIT 1.0$/день (было 2$), SESSION_LIMIT 0.5$/сессию, WARN 0.75$, launchd 600s, `openrouter-guard.log`; `~/.pi/agent/settings.json` maxSubagentSpawnsPerRun 64→3, thinking medium 4096, compaction 8192/10000 for paid intensity; 7× AGENTS.md updated with `Интенсивность платного режима` bullet; dashboard still 3$ → надо вручную `https://openrouter.ai/keys → Limit 1` (PATCH 404, is_management false)
+- **OpenRouter spend:** checked `GET /api/v1/credits` total 25 / usage 12.42, `GET /api/v1/key` limit 3, usage_daily 0.05, remaining 2.94 — guard now 1$/0.5$; parallel safe 2-3 (20 RPM / 1000д shared), 3 parallel reviewers tested OK
+
+## Stats (since Session 114)
+- wiki-topics.json: 295 → 298 (+3: pi-image-generation + Aamir posts? actually wiki 292→295→298), raw 180 → 183 (+3 raw: pi-image, ruvnet, pi-subagents), wiki *.md 292→295 files
+- Verified: JSON valid, wc -l, html topics, raw md counts
+
+## Next
+- Aamir: ждать ответа на 01:18 connect (generic), затем follow-up с дельтой 122/108 vs M6-M9 (уже в `followup-delta.md:1`)
+- OrangePro: Вариант A — добавить vitest пример в OrangeHRM клон для Proven витрины, Вариант B — прогнать на qa-automation-sandbox для 20 blind spots (как Mattermost)
+- testRigor M5 на localhost:8080 — завтра (клон не трогаем)
+- Autonoma pending 16 HIGH — on demand
+
+---
+
 # Session Checkpoint — 2026-09-03 (Session 114)
 
 ## Pi + OpenCode Integration — Installed & Tested + Free-First Fixed

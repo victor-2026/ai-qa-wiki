@@ -229,6 +229,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/ai-testing-glossary-n-z.html",
+      "title": "AI Testing Glossary (N–Z)",
+      "desc": "title: \"AI Testing Glossary (N-Z)\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ai-testing-glossary.html",
       "title": "AI Testing Glossary",
       "desc": "title: \"AI Testing Glossary\"",
@@ -292,6 +298,12 @@
       "file": "wiki/allure-testops-research-2026.html",
       "title": "Allure TestOps",
       "desc": "source: \"allure-testops-research-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/andrew-ng-coding-agents-skills-map-2026.html",
+      "title": "Andrew Ng: AI Engineering Skills Map — Using Coding Agents",
+      "desc": "**Source:** https://www.linkedin.com/pulse/ai-engineering-skills-map-using-coding-agents-andrew-ng-h8yxc/ (Andrew Ng, De",
       "tag": "Wiki"
     },
     {
@@ -502,6 +514,12 @@
       "file": "wiki/bdd-ai-native-harness.html",
       "title": "BDD как AI-Native Harness",
       "desc": "title: \"BDD как AI-Native Harness\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/beyondquality-ai-era-testing-2026.html",
+      "title": "BeyondQuality: QA in the Age of AI-Accelerated Development",
+      "desc": "**Source:** https://beyondquality.org/research/ai-era-testing/ (Vitaly Sharovatov — developer advocate @ Qase + Liliia A",
       "tag": "Wiki"
     },
     {
@@ -1249,6 +1267,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/pi-image-generation-2026.html",
+      "title": "Pi Image Generation via OpenRouter (and Gamma)",
+      "desc": "**Source:** https://openrouter.ai/models (424 models, 18 `:free`; image pricing via `google/gemini-*-image` etc.) + `pi-",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/pi-opencode-integration-2026.html",
       "title": "Pi ↔ OpenCode Integration",
       "desc": "**Source:** https://github.com/nicobailon/pi-subagents + https://opencode.ai/docs + Zalando agentic snapshot (MCP proxy/",
@@ -1351,6 +1375,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.html",
+      "title": "QBurst: Quality Engineering Framework for Validating Agent Behavior",
+      "desc": "**Source:** https://www.qburst.com/blog/2026/09/a-quality-engineering-framework-for-validating-agent-behavior/ (Milan Th",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/quality-characteristics.html",
       "title": "AI Quality Characteristics",
       "desc": "title: \"AI Quality Characteristics\"",
@@ -1399,6 +1429,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/rotation-without-relevance-preseed-mutant-filtering-2026.html",
+      "title": "Rotation Without Relevance: Why Mutants Must Be Filtered Before Seeding",
+      "desc": "**Source:** QAEverest pilot (2026-09-02/03) + external mutation-testing literature",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/rtm-matrix-habr.html",
       "title": "Requirements Traceability Matrix (RTM): A Tester's Navigator",
       "desc": "source: \"rtm-matrix-habr.md\"",
@@ -1444,6 +1480,12 @@
       "file": "wiki/shcherbinin-tg-understand-code-debate-2026.html",
       "title": "Shcherbinin Tg Understand Code Debate 2026",
       "desc": "source: \"shcherbinin-tg-understand-code-debate-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/slopcodebench-2026.html",
+      "title": "SlopCodeBench",
+      "desc": "**Source:** https://www.scbench.ai (SprocketLab, v1.0)",
       "tag": "Wiki"
     },
     {
@@ -1645,6 +1687,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/tony-seale-multi-agent-semantic-web-2026.html",
+      "title": "Tony Seale: Multi-Agent Systems and the Semantic Web",
+      "desc": "**Source:** LinkedIn post, Tony Seale (The Knowledge Graph Guy), ~2026-09-03/04",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/topics-map.html",
       "title": "AI/QA Testing Topics Map",
       "desc": "title: \"AI/QA Testing Topics Map\"",
@@ -1771,6 +1819,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 180,
-  "updated": "2026-09-03"
+  "raw_count": 188,
+  "updated": "2026-09-04"
 }
