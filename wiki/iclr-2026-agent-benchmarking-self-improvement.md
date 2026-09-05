@@ -93,7 +93,7 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 - [`wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md`](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md) – AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry  
 - [`wiki/alex-barady-ai-builder-9-concepts-2026.md`](wiki/alex-barady-ai-builder-9-concepts-2026.md) – Alex Barády: 9 Concepts That Separate AI User from AI Builder  
 - [`wiki/mas-testing-framework.md`](wiki/mas-testing-framework.md) – MAS‑Testing Framework (Conceptual)  
-- [`wiki/alex-barady-9-concepts-ai-builder-2026.md`](wiki/alex-barady-9-concepts-ai-builder-2026.md) – Alex Barady 9 Concepts Ai Builder 2026  
+- [`wiki/alex-barady-ai-builder-9-concepts-2026.md`](wiki/alex-barady-ai-builder-9-concepts-2026.md) – Alex Barády 9 Concepts AI Builder 2026
 - [`wiki/monitoring-observability.md`](wiki/monitoring-observability.md) – Monitoring & Observability for AI Systems
 
 ---
@@ -109,7 +109,7 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [MAS-Testing Framework (Conceptual)](wiki/mas-testing-framework.md)
 - [Monitoring & Observability for AI Systems](wiki/monitoring-observability.md)

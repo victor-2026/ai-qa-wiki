@@ -67,7 +67,7 @@ MCP is already the de‑facto way for an AI agent to control test tools (Playwri
 - [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)  
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)  
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)  
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)  
+- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)  
 - [KISS Sorcar — Open‑Source AI Coding Agent](wiki/kiss-sorcar-agent.md)  
 
 ---
@@ -77,7 +77,7 @@ MCP is already the de‑facto way for an AI agent to control test tools (Playwri
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)
 - [KISS Sorcar — Open-Source AI Coding Agent](wiki/kiss-sorcar-agent.md)
 - [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)

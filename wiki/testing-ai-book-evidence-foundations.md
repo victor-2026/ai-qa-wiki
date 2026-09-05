@@ -252,7 +252,7 @@ The practical output is a small evidence system, not a larger pile of tests.
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
-- [Keithklain Testingmindsetafterall 2026](wiki/keithklain-testingmindsetafterall-2026.md)
+- [Apparently We Need a Testing Mindset After All (Klain)](wiki/keith-klain-testing-mindset-after-all-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

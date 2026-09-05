@@ -1,3 +1,31 @@
+# Session Checkpoint — 2026-09-05 (wiki root reorg)
+
+## Дедупликация корня wiki + README-навигация
+- **Слито 4 пары дублей** (уникальное перенесено в канонические файлы, дубли удалены, ссылки починены):
+  - `ai-in-qa-issue-17-butch-mayhew-2026-07-06.md` → в `ai-in-qa-issue-17-butch-mayhew-2026.md` (забран чек-лист Practical Applications, 6 пунктов)
+  - `alex-barady-9-concepts-ai-builder-2026.md` → в `alex-barady-ai-builder-9-concepts-2026.md` (забрана таблица Practical Applications by Area)
+  - `keithklain-testingmindsetafterall-2026.md` → в `keith-klain-testing-mindset-after-all-2026.md` (уже покрыто)
+  - `mutationtestingplaywrightfront-end.md` (стаб 34 строки) → в `Mutation-testing-advanced-playwright.md` (секция FOM/HOM + Nightly Segmentation; файл 486 строк, в лимите)
+- **Починено ~20 ссылок** в 11 файлах + 4 записи `wiki-topics.json`; raw/ не тронут (immutable).
+- **Новое:** `wiki/README.md` — хаб-навигация по корню (Start here, 8 разделов, конвенции против дублей).
+- Плоская структура оставлена сознательно: переезд 300 файлов по папкам порвал бы сотни `[[wiki/...]]`-ссылок.
+- **Индекс:** `wiki-topics.json` → 300 topics (ресинк через `wiki_llm.py --update-index`, удалённые не вернулись). Без git-push (по умолчанию).
+
+---
+
+# Session Checkpoint — 2026-09-05 01:44 UTC (night of 04.09)
+
+## Rotation-without-relevance wiki + глоссарий мутаций
+- **Новое:** `wiki/rotation-without-relevance-preseed-mutant-filtering-2026.md` — маппинг нашего термина на классику: equivalent/low-utility mutants + unselective operators; 7 внешних опор (Google Practical Mutation Testing at Scale arXiv:2102.11378 — прямой прецедент pre-seed фильтра; Wikipedia RIP/equivalent/subsumed; selective/sufficient operators; Cerebro/TCE; ML pre-filter); выводы для gate (P0-1 baseline-green, P0-2 split Not-seeded, Decision-тип gap, логирование assertion kinds). Связано с fault-injection ревью.
+- **Индекс:** `wiki-topics.json` → 301 topics. Без git-push (по умолчанию).
+- **Глоссарий:** `wiki/ai-testing-glossary.md` + mutation-термины EN→RU (Arid nodes, Assertion scope, Assessor, Attribution, Baseline green gate, Decision log/mutation, Equivalent mutant, Evidence pack, FOM/HOM, Killed/Survived, Mutant, Mutation adequacy/density/operator/survivability, Not seeded, Observed-only, Open finding, Operator allowlist, Redundant/RIP/Rotation, Seed set, Selective/Statement/Strong/Subsumed/Sufficient, TCE/Targeted/Tooling gap, Value/Weak mutation). Без «ё», только дефисы (M5).
+- Объяснение выводов для gate «как школьнику» дано в чате (аналогии: сигнализация, контрольная с опечаткой, замок, дневник).
+
+## Next
+- P0-1/P0-2 — отдельным блоком на согласование Rupesh (файл `per-risk-tier-framework-review-fault-injection-P0-P1-2026-09-04.md` уже в каталоге Rupesh), не вносить в v0.3 до согласия.
+
+---
+
 # Session Checkpoint — 2026-09-04 (Session 116)
 
 ## Ng Skills Map Series + Glossary + Product Concept (Build Mode, обсудим завтра)

@@ -61,6 +61,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/README.html",
+      "title": "AI QA Wiki — навигация по корню",
+      "desc": "299 файлов, плоская структура — так задумано: Obsidian-вики с `[[wiki/...]]`-ссылками, поиск через `wiki-topics.json` / ",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ad-hoc-testing-guide.html",
       "title": "Ad Hoc Testing",
       "desc": "source: \"ad-hoc-testing-guide.md\"",
@@ -136,12 +142,6 @@
       "file": "wiki/ai-fluency-interview-reform-2026.html",
       "title": "Ai Fluency Interview Reform 2026",
       "desc": "source: \"ai-fluency-interview-reform-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.html",
-      "title": "Ai In Qa Issue 17 Butch Mayhew 2026 07 06",
-      "desc": "source: \"ai-in-qa-issue-17-butch-mayhew-2026-07-06.md\"",
       "tag": "Wiki"
     },
     {
@@ -274,12 +274,6 @@
       "file": "wiki/ailist2026.html",
       "title": "AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants",
       "desc": "source: \"AI list 2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/alex-barady-9-concepts-ai-builder-2026.html",
-      "title": "Alex Barady 9 Concepts Ai Builder 2026",
-      "desc": "source: \"alex-barady-9-concepts-ai-builder-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -901,12 +895,6 @@
       "tag": "Wiki"
     },
     {
-      "file": "wiki/keithklain-testingmindsetafterall-2026.html",
-      "title": "Keithklain Testingmindsetafterall 2026",
-      "desc": "source: \"Keith Klain - Testing Mindset After All - 2026.md\"",
-      "tag": "Wiki"
-    },
-    {
       "file": "wiki/kiro-blog-catalog-all-publications-2025-2026.html",
       "title": "Kiro Blog: Complete Publications Catalog with Annotations",
       "desc": "**Source:** https://kiro.dev/blog",
@@ -1138,12 +1126,6 @@
       "file": "wiki/mutation-testing-vs-code-coverage-autonoma.html",
       "title": "Mutation Testing Vs Code Coverage Autonoma",
       "desc": "source: \"mutation-testing-vs-code-coverage-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mutationtestingplaywrightfront-end.html",
-      "title": "Mutationtestingplaywrightfront End",
-      "desc": "source: \"Mutation Testing Playwright Front-End.md\"",
       "tag": "Wiki"
     },
     {
@@ -1819,6 +1801,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 188,
-  "updated": "2026-09-04"
+  "raw_count": 189,
+  "updated": "2026-09-05"
 }

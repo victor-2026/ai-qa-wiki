@@ -302,7 +302,7 @@ assert "testing" in answer.lower()
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
 - [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)

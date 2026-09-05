@@ -112,7 +112,7 @@ Stephen Platten blends a military‑grade engineering background with a modern f
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [AI/QA Testing Topics Map](wiki/topics-map.md)
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
-- [Keithklain Testingmindsetafterall 2026](wiki/keithklain-testingmindsetafterall-2026.md)
+- [Apparently We Need a Testing Mindset After All (Klain)](wiki/keith-klain-testing-mindset-after-all-2026.md)
 - [QA Skills → AI Roles Transition Guide](wiki/qa-ai-transition-guide.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 - [Vector Databases in Fintech](wiki/vector-databases-fintech-2026.md)

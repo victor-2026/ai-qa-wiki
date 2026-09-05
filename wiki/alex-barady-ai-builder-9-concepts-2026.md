@@ -56,6 +56,19 @@ This framework can be used for:
 3. **Job interview framing** — "I operate at builder level across all 9 concepts"
 4. **Tool evaluation** — rate tools (Autonoma, Mabl, TestSigma) against this framework
 
+## Practical Applications by Area (merged from 2026-07-24 ingest)
+
+| Area | How the Concepts Add Value |
+|------|-----------------------------|
+| **Product Development** | Agentic Loops for self-correcting assistants, less manual supervision |
+| **Tool Integration** | MCP as lingua-franca for SaaS tools, simpler onboarding |
+| **Scalability** | Subagents for parallel processing (e.g., multi-document summarisation) |
+| **Security & Compliance** | Guardrails filter toxicity, protect IP, meet regulations |
+| **Cost Management** | Inference Economics: caching frequent queries, reusing embeddings (up to −70% cloud spend) |
+| **Quality Assurance** | Evals in CI/CD catch regressions early; tie to Observability dashboards |
+| **User Experience** | Context Engineering surfaces relevant history, fewer hallucinations |
+| **Operations** | AI Gateway centralises traffic: monitoring, throttling, audit trails |
+
 
 
 
@@ -74,7 +87,4 @@ This framework can be used for:
 
 <!-- backlinks-start -->
 ### Backlinks
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
-- [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
-- [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

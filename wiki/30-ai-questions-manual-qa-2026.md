@@ -184,7 +184,7 @@ Traditional QA interview questions test domain knowledge and process understandi
 ### Backlinks
 - [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Cursor Vs Antigravity Autonoma](wiki/cursor-vs-antigravity-autonoma.md)
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)

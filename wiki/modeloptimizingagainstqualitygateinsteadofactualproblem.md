@@ -47,7 +47,7 @@ By enforcing **external, state‑focused, and context‑free verification**, dev
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)  
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)  
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)  
-- [Keith Klain – Testing Mindset After All (2026)](wiki/keithklain-testingmindsetafterall-2026.md)  
+- [Keith Klain – Testing Mindset After All (2026)](wiki/keith-klain-testing-mindset-after-all-2026.md)  
 - [Testing AI by Jason Arbon – Wiki Index](wiki/testing-ai-book-index.md)
 
 ---

@@ -32,6 +32,15 @@ Apple shipped Safari MCP server — AI agents can now inspect live browsers nati
 - Safari MCP = new capability for Playwright Agents comparison
 - CLAUDE.md for test suites = spec-first test approach (matches BDD harness in Article 8)
 
+## Practical Applications (merged from 2026-07-24 ingest)
+
+1. **Validate AI-generated selectors** – cross-check selected elements against the real user flow (visual diff, accessibility trees).
+2. **Adopt CLAUDE.md conventions** – intent, data sources, success criteria alongside each suite.
+3. **Leverage Safari MCP for cross-browser AI** – same test logic on Safari via CI for Chromium parity.
+4. **Incorporate screencast evidence** – `page.screenshot()` + `browserContext.tracing.start()` on failure, attach to ticket.
+5. **Shift skill development** – "agent-output literacy": logs, prompts, artefacts over hand-coding.
+6. **Prioritize AI-centric test design** – evaluate tools by agent interfaces (prompt hooks, metadata ingestion), not framework wars.
+
 **Newsletter:** https://aiinqa.com/ai-in-qa-issue-17/
 
 
@@ -43,5 +52,4 @@ Apple shipped Safari MCP server — AI agents can now inspect live browsers nati
 
 <!-- backlinks-start -->
 ### Backlinks
-- [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
 <!-- backlinks-end -->

@@ -68,7 +68,7 @@ By routinely performing these five checks, teams can turn a green‑only test ru
 
 <!-- backlinks-start -->
 ### Backlinks
-- [Alex Barady 9 Concepts Ai Builder 2026](wiki/alex-barady-9-concepts-ai-builder-2026.md)
+- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 <!-- backlinks-end -->
 

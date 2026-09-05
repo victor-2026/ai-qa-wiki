@@ -223,7 +223,7 @@ $ npx @autonoma-ai/planner@latest
 
 <!-- backlinks-start -->
 ### Backlinks
-- [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
+- [AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)](wiki/ai-in-qa-issue-17-butch-mayhew-2026.md)
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
 - [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)

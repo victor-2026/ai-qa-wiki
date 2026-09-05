@@ -470,6 +470,13 @@ Meta's открытый вызов сообществу (FSE 2025): генери
 
 
 
+## FOM / HOM + Nightly Segmentation (merged from 2026-06-13 stub)
+
+- **First Order Mutants (FOM)** — одна мутация на оператор; **Higher Order Mutants (HOM)** — комбинации; HOM ловит пропуски FOM ценой комбинаторного взрыва — использовать точечно.
+- **Differential assertion verification** — явные объектные ассерты вместо снепшотов "как было".
+- **Suite segmentation** — мутации гонять ночью, скоупом на файлы из `git log` последнего коммита.
+- **Deterministic UI virtualization** — мокать бэкенд локально через Playwright mock orchestration, убирать сетевой флакинес.
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)

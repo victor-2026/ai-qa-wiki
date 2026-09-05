@@ -76,7 +76,7 @@ This role addresses all four by **starting small, measuring rigorously, and scal
 
 <!-- backlinks-start -->
 ### Backlinks
-- [Ai In Qa Issue 17 Butch Mayhew 2026 07 06](wiki/ai-in-qa-issue-17-butch-mayhew-2026-07-06.md)
+- [AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)](wiki/ai-in-qa-issue-17-butch-mayhew-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
 - [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 <!-- backlinks-end -->
