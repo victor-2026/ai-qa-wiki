@@ -1,3 +1,20 @@
+# Session Checkpoint — 2026-09-05 (Rupesh catalogs + Product Q4)
+
+## Rupesh correspondence → messages/ + emails/
+- `messages/` — 10 датированных файлов 20.08–02.09 (все 36 ходов, сверено поштучно); починены границы 31.08/01.09, файл 03 переименован в спан 22–25. Raw-дамп — архив.
+- `emails/` — Letter 1 SENT 03.09, письмо Rupesh 04.09 RECEIVED (сохранено впервые), Letter 2 DRAFT, paid-stage SUPERSEDED + оба INDEX.
+- Фреймворк уже содержал правки 09:31 (проверено, править нечего).
+
+## Product Q4 (tier-2 default) — частичный ответ письмом 04.09
+- Да: strict-0 для B0/B1 без исключений (no decision проходит zero-tolerance; no-op = seeder defect) — зафиксировано в концепте.
+- Нет: Medium-дефолт (≤5% vs 1/60) и числовой score-threshold — открыты.
+- Next: deploy-confirm → re-run 2/2 → Letter 2.
+
+## Next
+- Обсудить product concept (5 вопросов, завтра); Aamir ждет; testRigor М5.
+
+---
+
 # Session Checkpoint — 2026-09-05 (wiki root reorg)
 
 ## Дедупликация корня wiki + README-навигация

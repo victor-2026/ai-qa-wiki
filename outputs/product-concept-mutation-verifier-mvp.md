@@ -125,5 +125,5 @@ mutgate/  (новый репо, свой AGENTS.md)
 1. MVP после статей или параллельно? (автор: после — правило перехода выше)
 2. Python stdlib vs Node? (автор: Python — наш стандарт)
 3. Название: MutGate vs твой вариант?
-4. Порог tier-2 дефолт: 0 survived (строго) или N? (спор с Rupesh не закрыт)
+4. Порог tier-2 дефолт: 0 survived (строго) или N? ~~(спор с Rupesh не закрыт)~~ → **частично закрыт письмом 04.09 09:31:** strict-0 подтвержден для High (B0/B1 — recorded decision НЕ проходит zero-tolerance tier; no-op = seeder defect, pre-seed refusal, не accept-risk). Для Medium (B2, наш tier-2) дефолт открыт: band ≤5% vs vendor 1/60 — тюнить по live-данным.
 5. Новый репо сейчас (скелет) или после MVP-сигнала? (автор: после — пока `outputs/` достаточно)
