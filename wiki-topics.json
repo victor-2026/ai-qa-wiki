@@ -505,6 +505,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/bas-dijkstra-learning-takes-time-2026.html",
+      "title": "Learning Takes Time — But Do We Get That Time?",
+      "desc": "**Source:** On Test Automation newsletter (Bas Dijkstra, bas@ontestautomation.com)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/bdd-ai-native-harness.html",
       "title": "BDD как AI-Native Harness",
       "desc": "title: \"BDD как AI-Native Harness\"",
@@ -1225,6 +1231,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/orangepro-risk-based-coverage-2026.html",
+      "title": "OrangePro — Risk-Based Coverage Layer (Aamir Siddiqui)",
+      "desc": "**Source:** OrangePro blog, \"The Night We Stopped Shipping With Crossed Fingers\" (Aamir Siddiqui, 8 min read, via user-p",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/pact-contract-testing-guide-2026.html",
       "title": "Pact Contract Testing — Полное руководство",
       "desc": "title: \"Pact Contract Testing — Полное руководство\"",
@@ -1799,8 +1811,379 @@
       "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
       "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/Chaos-Engineering.html",
+      "title": "Chaos Engineering (Хаос-инжиниринг)",
+      "desc": "definition + cross-links — controlled failure injection, resilience testing",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/Fuzzing.html",
+      "title": "Fuzzing (Фаззинг)",
+      "desc": "definition + cross-links — mutation/generation/coverage-guided fuzzing",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/API-Testing.html",
+      "title": "API Testing (Тестирование API)",
+      "desc": "definition + cross-links — request/response validation, contract testing",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/Test-Reliability.html",
+      "title": "Test Reliability (Надёжность тестов)",
+      "desc": "definition + cross-links — flakiness, reproducibility, stability metrics",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/Black-Box-Testing.html",
+      "title": "Black Box Testing (Тестирование чёрного ящика)",
+      "desc": "definition + cross-links — behavioral testing without code access",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/Network-Interception.html",
+      "title": "Network Interception (Перехват сетевых запросов)",
+      "desc": "definition + cross-links — Playwright route, MSW, mock API responses",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/metamorphic-tests-comparison.html",
+      "title": "Metamorphic Testing — Сравнение подходов",
+      "desc": "definition + cross-links — metamorphic relations, oracle problem",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/aria-qa-data-automation-agent-2026.html",
+      "title": "ARIA — QA Data Automation Agent (Agentic RAG + LLM Judge)",
+      "desc": "arxiv 2609.04913 — agentic RAG for tabular QA, reflection mechanism, LLM-Judge verification",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/spaceducking-test-feels-like-autopilot-2026.html",
+      "title": "SpaceDucking — Test Feels Like Autopilot",
+      "desc": "MoT article — 98% manual testing replaced by AI agents, tester as orchestrator",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/integration-testing-systems-stitching-2026.html",
+      "title": "Integration Testing — Systems Stitching Guide",
+      "desc": "TestMu AI guide — when/why/how to test component interactions, service virtualization",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/from-ai-agent-demo-to-production-2026.html",
+      "title": "From AI Agent Demo to Production",
+      "desc": "InfoQ Jul 2026 — demo-to-production gap, observability, guardrails, cost control, HITL",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/openai-wiki-incident-2026.html",
+      "title": "OpenAI Wiki Incident (July 2026)",
+      "desc": "TechCrunch Sep 2026 — AI-generated Wikipedia edits caused ChatGPT bugs, feedback loop",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/beyond-zero-google-experimentation-culture-2026.html",
+      "title": "Beyond Zero — Google's Experimentation Culture",
+      "desc": "Google Research 2026 — experimentation velocity, psychological safety, data-driven culture",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/cappy-small-scorer-boosting-llm-2024.html",
+      "title": "Cappy — Small Scorer Boosting Multi-Task LLMs",
+      "desc": "NeurIPS 2023 / Google Research — 360M param scorer outperforms 175B LLMs, lightweight verification",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/rag-evaluation.html",
+      "title": "RAG Evaluation — How to Test Retrieval-Augmented Generation",
+      "desc": "RAG eval dimensions: retrieval quality, generation quality, faithfulness, frameworks (Ragas, LLM-as-Judge)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ui-fuzzing.html",
+      "title": "UI Fuzzing — Mutation Through Input",
+      "desc": "Fuzz testing web UI: random, boundary, regression, OWASP patterns; Playwright code examples",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/autonomous-testing-agent-fastest-feedback-2026.html",
+      "title": "Autonomous Testing Agent — Fastest Feedback Cycles (KaneAI + HyperExecute)",
+      "desc": "TestMu AI — GenAI-native agent plans/runs/heals tests, 70% faster with HyperExecute cloud",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/efficient-performance-testing-grid-cloud-2026.html",
+      "title": "Efficient Performance Testing Grid in the Cloud — HyperExecute",
+      "desc": "TestMu AI — AI-native orchestration, 70% faster, auto-split, FailFast, AI RCA, 3K browsers",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/observatory-weekly-quality-gaps-2026.html",
+      "title": "Observatory Weekly: Quality Gaps, Claude QA Skills, Testing Mindset",
+      "desc": "MoT Sep 2026 — community links: quality gaps, Claude Code QA skills, testing mindset debate",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/distributed-llm-inference-swarmllm-2026.html",
+      "title": "Distributed P2P LLM Inference — SwarmLLM",
+      "desc": "Nehanth Narendrula / Red Hat AI — browser P2P LLM via WebRTC, room-code based, MIT open source",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/verification-completeness-testing-paradox-2026.html",
+      "title": "Verification Completeness — The Testing Paradox",
+      "desc": "William Tran + Iosif Itkin LinkedIn thread — you can't fully verify anything, the scarce skill is knowing which tests to scrutinize",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/15-best-agentic-ai-testing-tools-2026.html",
+      "title": "15 Best Agentic AI Testing Tools — September 2026",
+      "desc": "TestMu AI ranking — Kane CLI, QA Wolf, Checksum, testRigor, mabl, Applitools + 9 more",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/visual-regression-testing-complete-guide-2026.html",
+      "title": "Visual Regression Testing — Complete Guide",
+      "desc": "TestMu AI SmartUI — 5 comparison methods, Visual AI, CI/CD integration, 95% false-positive reduction",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/evolving-quality-ai-testing-community-2026.html",
+      "title": "Evolving Quality with AI Testing — Community Reflection",
+      "desc": "Rosie Sherry (MoT CEO) — test automation bias, QA doesn't own automation, models need rewriting",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/meta-muse-personal-ai-agent-2026.html",
+      "title": "Meta Muse — Personal AI Agent (Consumer)",
+      "desc": "Meta Sep 2026 — Muse Spark model, Secure VM, Sentinel agent, $18B settlement context",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/building-professional-resilience-qa-2026.html",
+      "title": "Building Professional Resilience — Career Guide for QA",
+      "desc": "Shawn Vernier (MoT) — shift-left career development, MVI, 3 pillars, job loss preparation",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/recorder-locator-quality-playwright-cli-2026-09.html",
+      "title": "Recorder locator quality: playwright-cli 0.1.19 vs human POMs",
+      "desc": "Micro-probe 2026-09-09: testid>role priority, M1 kills role-based, M7 attribute-rename proposal",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ai-testing-tools-landscape-hands-on-2026-09.html",
+      "title": "AI Testing Tools Landscape — hands-on pilots and verdicts",
+      "desc": "2026-09-09: T1/T2/T3 tiers, 9 clusters, matrix with verdicts, pilot queue, monthly review",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/executor-evaluator-split-zagirov-2026-09.html",
+      "title": "Executor/evaluator split — Zagirov (Agentiqa) architecture post",
+      "desc": "2026-09-09: blind execution, hetero audit, terminal states, append-only evidence + mapping vs our M1-M6",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/lifemichael-develop-with-ai-monthly-review-2026-08.md",
+      "title": "LifeMichael Develop-with-AI Monthly Review (Aug 2026): orchestration era",
+      "desc": "2026-09-11: Kiro Crew, Devin, Opus 5, JetBrains Context, cyber-eval incidents, swarm economics + XtremeAI Nov 24",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testkube-four-layers-ai-testing-2026-08.html",
+      "title": "Testkube: testing AI systems across all four layers",
+      "desc": "2026-08-28: infra/model/agent/app layers, tools per layer, thresholds, honesty notes",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testkube-smart-suites-test-selection-2026-04.html",
+      "title": "Testkube: smart suites, AI-driven test selection",
+      "desc": "2026-04-22: diff classification, dual mode (smart + scheduled full), prompt quality critical",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testkube-local-vs-frontier-models-2026-07.html",
+      "title": "Testkube: local vs frontier models for test analysis",
+      "desc": "2026-07-29: hybrid doctrine validating our free-first architecture",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/klain-testing-mindset-evaluator-independence-2026-08.html",
+      "title": "Klain: testing mindset vindicated by evaluator-independence research",
+      "desc": "2026-08: self-preference, preference leakage, judge survey + vocabulary mapping old-new",
+      "tag": "Wiki"
+    },
+    {
+      "file": "zborovsky-ai-chief-of-staff-doordash-2026.md",
+      "title": "AI Chief of Staff — личный AI-агент Димы Зборовского (DoorDash)",
+      "tags": [
+        "ai-agent",
+        "personal-productivity",
+        "brief",
+        "debrief",
+        "memory",
+        "claude-code",
+        "doordash"
+      ],
+      "source": "AI Skills Conference"
+    },
+    {
+      "file": "jay-aigner-humans-hold-green-light-2026.md",
+      "title": "Humans hold the green light - Jay Aigner thread (self-testing AIетами)",
+      "tags": [
+        "verification-harness",
+        "attestation",
+        "mutation-score",
+        "self-testing-ai",
+        "green-light",
+        "linkedin-thread"
+      ],
+      "source": "LinkedIn JDAQA 2026-09-15"
+    },
+    {
+      "file": "radik-zagirov-agent-hallucinated-execution-ledger-gate-2026.md",
+      "title": "Agent hallucinated execution chain - Radik Zagirov ledger gate (Agentiqa)",
+      "tags": [
+        "agent-hallucination",
+        "event-ledger",
+        "reconciliation-gate",
+        "evidence-gate",
+        "runtime-enforcement",
+        "agentiqa"
+      ],
+      "source": "LinkedIn Agentiqa 2026-09-15"
+    },
+    {
+      "file": "ivan-davidov-agentic-playwright-context-engineering-2026.md",
+      "title": "Ivan Davidov - context engineering for QA agents (void, rot, progressive disclosure)",
+      "tags": [
+        "context-engineering",
+        "progressive-disclosure",
+        "agentic-playwright",
+        "orchestration",
+        "verifier",
+        "referee"
+      ],
+      "source": "YouTube Codemify interview 2026"
+    },
+    {
+      "file": "addy-osmani-anthropic-verification-floor-skill-decay-2026.md",
+      "title": "Addy Osmani (Anthropic) - verification is the floor, skill decay",
+      "tags": [
+        "verification",
+        "skill-decay",
+        "deliberate-mastery",
+        "attestor",
+        "codify-lessons",
+        "anthropic"
+      ],
+      "source": "LinkedIn 2026-09-08"
+    },
+    {
+      "file": "kiro-llm-judge-pipeline-eval-loop-2026.md",
+      "title": "Kiro LLM-judge pipeline - eval loop on real conversations (-32%)",
+      "tags": [
+        "llm-as-judge",
+        "eval-loop",
+        "rubric",
+        "verification",
+        "cohort-testing",
+        "kiro"
+      ],
+      "source": "LinkedIn Kiro 2026-08"
+    },
+    {
+      "file": "michael-bolton-whereas-critical-thinking-experts-2026.md",
+      "title": "Michael Bolton - WHeReAS critical thinking vs experts (RST)",
+      "tags": [
+        "critical-thinking",
+        "whereas",
+        "rst",
+        "attestation",
+        "halo-effect",
+        "vendor-claims"
+      ],
+      "source": "LinkedIn Bolton 2026-09-15"
+    },
+    {
+      "file": "james-bach-testing-ai-metamorphic-oracle-2026.md",
+      "title": "James Bach - Testing AI beyond test cases (metamorphic, oracle problem)",
+      "tags": [
+        "metamorphic-testing",
+        "oracle-problem",
+        "llm-as-judge",
+        "judge-bias",
+        "rst",
+        "hyundai-case"
+      ],
+      "source": "YouTube talk 2026"
+    },
+    {
+      "file": "addy-osmani-month-digest-verification-gates-2026-09.md",
+      "title": "Addy Osmani month digest - verification, gates, mutation mentions (Anthropic)",
+      "tags": [
+        "anthropic",
+        "month-digest",
+        "test-impact-analysis",
+        "mutation-testing",
+        "tiered-gates",
+        "config-rot",
+        "loop-engineering"
+      ],
+      "source": "LinkedIn copy 2026-09-15"
+    },
+    {
+      "file": "bach-bolton-amodei-pace-frontier-evaluators-2026.md",
+      "title": "Bach + Bolton teardown - Amodei pace the frontier, embedded evaluators",
+      "tags": [
+        "amodei",
+        "embedded-evaluators",
+        "attestor",
+        "who-pays",
+        "regulatory-capture",
+        "risk-commensurate-testing"
+      ],
+      "source": "YouTube Bach/Bolton 2026"
+    },
+    {
+      "file": "siniouguine-accio-silent-incompleteness-pricing-2026.md",
+      "title": "Siniouguine - Accio silent incompleteness + outcome pricing (Alibaba)",
+      "tags": [
+        "silent-incompleteness",
+        "outcome-pricing",
+        "closed-network",
+        "done-criteria",
+        "cross-domain"
+      ],
+      "source": "LinkedIn Virto 2026-09-15"
+    },
+    {
+      "file": "colantonio-perf-value-ai-cost-savings-2026.md",
+      "title": "Colantonio/Selvaraj - perf testing value as AI-cost savings",
+      "tags": [
+        "perf-testing",
+        "token-economics",
+        "value-framing",
+        "testguild"
+      ],
+      "source": "LinkedIn TestGuild 2026-09-15"
+    },
+    {
+      "file": "pusuluri-oracle-independence-healing-boundary-2026.md",
+      "title": "Pusuluri (AscendQE) - oracle independence + self-healing boundary",
+      "tags": [
+        "oracle-independence",
+        "self-healing",
+        "requirements",
+        "vendor-eval",
+        "ascendqe"
+      ],
+      "source": "LinkedIn AscendQE 2026-09-15"
     }
   ],
-  "raw_count": 189,
-  "updated": "2026-09-05"
+  "raw_count": 215,
+  "updated": "2026-09-11"
 }

@@ -25,8 +25,8 @@ This vault contains research and frameworks for AI-powered QA testing.
 | Topic | Description | File |
 |-------|------------|------|
 | [[AI-Testing-Frameworks-Complete]] | **Complete technical reference** (4 approaches + stats + risks) | ai-testing-frameworks-complete.md |
-| [[MAS-Pipeline]] | Multi-Agent System для тестирования | mas-testing-framework.md |
-| [[SWE-Tester]] | Bug reproduction из Issue | swe-tester-framework.md |
+| [[mas-testing-framework]] | Multi-Agent System для тестирования | mas-testing-framework.md |
+| [[swe-tester-framework]] | Bug reproduction из Issue | swe-tester-framework.md |
 | [[Applause]] | Crowdtesting + AI | three-way-comparison.md |
 
 ### Risks
@@ -38,7 +38,8 @@ This vault contains research and frameworks for AI-powered QA testing.
 ### Comparisons
 
 - [[Three-Way-Comparison]] — MAS vs SWE vs Applause
-- [[MAS-vs-SWE]] — детальное сравнение
+- [[mas-vs-swe-comparison]] — детальное сравнение
+- [[ai-testing-tools-landscape-hands-on-2026-09]] — OUR landscape: piloted tools + verdicts, tiers T1-T3, monthly review
 
 ---
 
@@ -46,7 +47,7 @@ This vault contains research and frameworks for AI-powered QA testing.
 
 1. **New here?** → Start with this note
 2. **Want complete overview?** → See [[AI-Testing-Frameworks-Complete]]
-3. **Want framework details?** → See [[MAS-Pipeline]]
+3. **Want framework details?** → See [[mas-testing-framework]]
 4. **Concerned about risks?** → See [[MAS-Risks]]
 5. **Want stats?** → See Sources below
 

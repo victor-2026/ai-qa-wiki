@@ -14,7 +14,13 @@ type: glossary
 
 ## N
 
-*(пока пусто — резерв под новые термины сессии)*
+### No-op (survivor)
+**Definition:** Но-оп - мутант, ничего наблюдаемо не меняющий (напр. swap двух одинаковых лейблов); это дефект сидера, а не accept-risk кейс - отказ до сидирования ("a swap would change nothing observable"), вне N.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Not seeded
+**Definition:** Не засеян - мутант исключен до сидирования (нерелевантный оператор, нет локатора, no-op отказ); вне знаменателя N, но считается отдельно для аудита отказов.
+**Связан:** per-risk-tier-framework (QAEverest)
 
 ---
 
@@ -31,6 +37,14 @@ type: glossary
 ### Oracle (subagent)
 **Definition:** Оракул - субагент второго мнения: ставит под сомнение план/assumptions, не правит код (в отличие от reviewer).
 **Связан:** [[wiki/pi-subagents-2026]]
+
+### Observed-only
+**Definition:** Только наблюдено - тесты зеленые, но пассивный слой зафлаговал изменение; идет отдельной метрикой, никогда не уменьшает survived и не считается pass.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Open finding / Open decision
+**Definition:** Открытый файндинг - зафиксированное решение человека по выжившему мутанту (кто, когда, fix или осознанный dismiss); документирует промах, но на zero-tolerance тирах гейт не проходит.
+**Связан:** per-risk-tier-framework (QAEverest)
 
 ---
 
@@ -53,8 +67,12 @@ type: glossary
 **Example:** Нашли 10 файлов, 7 релевантны = 70% precision
 
 ### Prompt Engineering
-**Definition:** Искусство формулирования промптов для нуж��ого результата.
+**Definition:** Искусство формулирования промптов для нужного результата.
 **Техники:** Few-shot, Chain-of-thought, Role-playing
+
+### Passive observation layer
+**Definition:** Пассивный слой наблюдений - детектит параллельно тестам (дубли UI-секций, ambiguous matches) даже при всех passed; findings идут отдельно от pass/fail.
+**Связан:** QAEverest pilot
 
 ## Q
 
@@ -108,6 +126,22 @@ type: glossary
 **Definition:** Риск-гейт PR (Zalando) - каждый PR оценивается low/medium/high; 33% low auto-approve → lead time -20-40%; правила из анализа прод-инцидентов.
 **Связан:** [[wiki/zalando-agentic-engineering-snapshot-2026]]
 
+### Rotation (operator rotation)
+**Definition:** Ротация операторов - каждый seeded run берет по одному мутанту на тест-кейс со сменой оператора (element_remove / id_change / id_remove / text_change / swap_targets); несколько прогонов покрывают всю матрицу.
+**Связан:** QAEverest sensitivity runs
+
+### Relevance (column) / Relevance gate
+**Definition:** Релевантность - pre-seed гейт (step 0): сеять только если оператор разрешен под скоуп ассертов кейса; колонка Relevance в evidence pack показывает распознанные виды ассертов и допущенные операторы.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Refusal (pre-seed refusal)
+**Definition:** Отказ в сидировании - сидер не сеет мутант (no-op, нет локатора, нерелевантный оператор); пишется в лог с основанием; доля отказов >~20% от предложенного скоупа → scope review (кап против gaming).
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Reconcile (reconciliation)
+**Definition:** Сверка - сравнение Caught / Observed-only / Survived вендора и асессора в допуске (предложение ≤1 расхождения на 20 засеянных); при расхождении - третий прогон, решает Assessor с rationale, платит опровергнутый.
+**Связан:** per-risk-tier-framework (QAEverest)
+
 ---
 
 ## S
@@ -152,6 +186,34 @@ type: glossary
 **Definition:** Субагент - сфокусированная дочерняя Pi-сессия (scout/researcher/worker/reviewer/oracle/delegate); родитель ставит задачу и забирает результат (foreground/background + FleetView).
 **Связан:** [[wiki/pi-subagents-2026]]
 
+### Survived
+**Definition:** Выжил - мутант, который не пойман и не зафлагован: тесты зеленые и тишина. Единственный исход, валящий гейт. Противоположность: Caught.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Seeder defect
+**Definition:** Дефект сидера - мутант, который вообще не должен был сеяться (no-op, нерелевантный оператор); чинится отказом до сидирования, а не accept-решением после.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Sensitivity (suite sensitivity)
+**Definition:** Чувствительность сьюта - доля засеянных мутантов, пойманных прогоном (напр. 78% = 14/18); считается по тирам, никогда одним глобальным процентом.
+**Связан:** QAEverest Trust Scorecard
+
+### Sign-off ("evidence holds")
+**Definition:** Подпись - заявление асессора "evidence holds for vX.Y" (или список исключений) по итогам сверки; котируемый артефакт для enterprise-аудита.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Small-N floor
+**Definition:** Пол малых N - ниже N=20 проценты театр: для B2 действует абсолют (макс 1 survived строго с Open decision); строка честности: разрешаем с решением то, что запрещаем молча.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Spot-check (refusal spot-check)
+**Definition:** Спот-чек отказов - асессор вручную перепроверяет 2-3 случайных отказа сидера; против gaming (раздувание отказов чтобы сдуть N).
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Staged ramp (Stage 0/1/2)
+**Definition:** Стадийный рамп - Stage 0 игрушка для отладки механики → Stage 1 реалистичное приложение под контролем асессора → Stage 2 индустриальный пул; коммерция Stage 1+ не обещается во время Stage 0.
+**Связан:** per-risk-tier-framework (QAEverest)
+
 ---
 
 ## T
@@ -169,6 +231,14 @@ type: glossary
 ### Tool-correctness evaluator
 **Definition:** Эвалюатор корректности тула - кастомная проверка: тот ли backend tool, те ли параметры, тот ли порядок для воркфлоу (ловит fluent-but-wrong в лизинге).
 **Связан:** [[wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026]]
+
+### Trust Scorecard (suite trust scorecard)
+**Definition:** Скоркард доверия сьюта - вендорская панель: sensitivity, confirmation rate, fragility, flakiness, coverage gaps, self-heals; наши гейты ложатся поверх как независимый слой.
+**Связан:** QAEverest Trust Scorecard
+
+### Tie-break (third run)
+**Definition:** Тай-брейк - третий засеянный прогон при расхождении вендора и асессора сверх допуска; решает Assessor с записью rationale; платит сторона, чье чтение опровергнуто. Не путать с flake-рераном.
+**Связан:** per-risk-tier-framework (QAEverest)
 
 ---
 

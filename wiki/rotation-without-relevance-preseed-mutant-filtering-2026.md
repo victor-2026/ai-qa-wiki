@@ -97,6 +97,16 @@ rule-based so an Assessor can trace every exclusion.
 - Missing `Decision`-type operator (enabled⇄disabled etc.) is the known gap
   for B0 Critical logic-flips — add or document exclusion with risk note.
 
+## Sampling protocol (how many mutants per run?)
+
+Never the whole suite. Each attestation run seeds a stratified sample of ~20: B0 all or nearly all (few by nature, e.g. 4-6 auth cases), B1 ~8, B2 ~7, B3 none (trend-only). After exclusions (outside-DOM, no-locator) ~15-18 actually seeded. Percentages become meaningful exactly here: 5% of 20 = 1 survivor with Open decision; the same 5% of N=3 would be 0.15, i.e. a silent zero (see small-N floor rule).
+
+Worked path, OrangeHRM example: inventory (122 behaviors per independent OrangePro count - reuse, don't recount) → tier map (Admin/auth → B0; PIM CRUD, Leave/Time → B1; edge flows → B2; cosmetic → B3) → sample ~20 → seed/run/classify/reconcile per rotation (one mutant per case; rotation covers operator space across runs, not within one) → findings review (the cost driver at N≈20) → evidence pack + sign-off. Suite authoring gap is real (2 cases exist, ~15-18 to write); env cost is real too (public URL for the platform, flaky tunnels).
+
+Fixed operator probes (our M1-M6 on Agentiqa, 6/6 executed 2026-09-08, survived 0) are a different instrument: they cover the operator space once (does the tool catch drift/bare/missing at all?), not statistics. Statistics come only from sampled N≈20 runs.
+
+Stage 2 scales horizontally, not vertically: same ~20 protocol per app across the industry pool (e-commerce, banking, HR...), for transferability and domain-specific allowlists - never hundreds seeded in one run.
+
 ## Sources (external)
 - Petrovic et al., "Practical Mutation Testing at Scale", arXiv:2102.11378 (2021) / TSE 2022 — https://arxiv.org/abs/2102.11378
 - Wikipedia, "Mutation testing" (RIP model, equivalent/subsumed mutants, selective mutation, Madeyski 2014) — https://en.wikipedia.org/wiki/Mutation_testing
@@ -109,7 +119,7 @@ rule-based so an Assessor can trace every exclusion.
 ## See also
 - [AI QA Tool Evaluation Mutation Matrix](ai-qa-tool-evaluation-mutation-matrix.md)
 - [Mutation Testing vs Code Coverage (Autonoma)](mutation-testing-vs-code-coverage-autonoma.md)
-- [Mutation Testing for Playwright Front-End](mutationtestingplaywrightfront-end.md)
+- [Advanced Mutation Testing with Playwright](Mutation-testing-advanced-playwright.md)
 - [Advanced Mutation Testing with Playwright](Mutation-testing-advanced-playwright.md)
 - Per-risk-tier framework v0.3 (`Private/Positions-CV-CL/outreach/active/Rupesh_Kabra/per-risk-tier-framework.md`): step-0 gate, B0–B3 tiers, 5-operator allowlist
 

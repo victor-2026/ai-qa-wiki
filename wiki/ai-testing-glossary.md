@@ -131,6 +131,30 @@ type: glossary
 **Definition:** Маршрутизация по порогу уверенности - сигналы качества данных + уверенность модели; ниже порога (напр. 85%, pricing 90%) агент передает человеку; нарушение контракта/SLA = всегда человеку.
 **Связан:** [[wiki/martinfowler-making-data-ready-agentic-ai-2026]]
 
+### Allowlist (operator allowlist)
+**Definition:** Белый список операторов мутаций - сеять можно только разрешенными операторами под скоуп ассертов кейса (element_remove / text_change / swap_targets / id_change / id_remove); ротация идет только внутри релевантного множества.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Attestation (attestation logging)
+**Definition:** Аттестация - запись на мутанта: какие виды ассертов планировщик распознал, какие операторы они допустили, на чем основано решение; колонка Relevance в evidence pack. Прогоны до появления поля читаются как "not recorded".
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Cap (кап)
+**Definition:** Кап - верхний предел-лимит, после которого срабатывает review/escalation (не fail). Примеры: доля отказов в сидировании >~20% от предложенного скоупа → scope review; месячный лимит трат; RPM-лимиты API. Кап ограничивает риск, не запрещает действие.
+**Пример:** refused share >20% → разбираем скоуп, а не валим гейт.
+
+### Caught
+**Definition:** Пойман - тест упал на мутанте (или после засеянного шага). Единственный исход, идущий в числитель mutation score. Противоположность: Survived.
+**Связан:** per-risk-tier-framework (QAEverest)
+
+### Confirmation rate
+**Definition:** Доля подтвержденных findings - сколько предупреждений пассивного слоя человек подтвердил vs отклонил; трекается со временем как метрика доверия к слою.
+**Связан:** QAEverest Trust Scorecard
+
+### Confirmatory re-run
+**Definition:** Подтверждающий реран - для sign-off тира B0 требуются два подряд идущих зеленых прогона (автоматически, дешево, аудитабельно); уникум B0 против B1.
+**Связан:** per-risk-tier-framework (QAEverest)
+
 ---
 
 ## D
@@ -181,6 +205,10 @@ type: glossary
 **Definition:** Диффузия ответственности - чем больше людей "могли бы проверить", тем меньше каждый чувствует обязанность; AI усиливает (автор думает агент прав, ревьюер думает автор проверил).
 **Связан:** [[wiki/julia-pottinger-who-validates-ai-generated-code-2026]]
 
+### Denominator (N)
+**Definition:** Знаменатель - число засеянных релевантных мутантов, по которому считаются score и допуски; not-seeded и эквивалентные в N не входят. Маленький N (1-3) делает проценты театром - ниже N=20 работает абсолютный floor.
+**Связан:** per-risk-tier-framework (QAEverest)
+
 ---
 
 ## E
@@ -229,6 +257,14 @@ type: glossary
 ### Free-first (OpenRouter)
 **Definition:** Сначала free - правило субагентов: пробовать `openrouter/*:free` (20 RPM, 1000/день при ≥$10), при 429 fallback на платный вариант; concurrency 1-2.
 **Связан:** [[wiki/pi-opencode-integration-2026]]
+
+### Fragility Index
+**Definition:** Индекс хрупкости - доля шагов на позиционных/хрупких селекторах; меряется на обычных прогонах; пустой результат чинится явным "0 of N positional", а не молчанием.
+**Связан:** QAEverest Trust Scorecard
+
+### Flake rule
+**Definition:** Правило флаки - при подозрении на инфраструктурный флак (напр. vision-таймаут на зеленом шаге): 1 автоматический реран, оба прогона в evidence pack; добивка до зеленого (re-run-to-green) запрещена явно.
+**Связан:** per-risk-tier-framework (QAEverest)
 
 ---
 
@@ -318,6 +354,10 @@ type: glossary
 ### Long-horizon tasks
 **Definition:** Длинногоризонтные задачи - автономные прогоны часами на миллионы токенов; у Ng: полезность vs стоимость преувеличена, выигрывает итеративность + skilled intervention.
 **Связан:** [[wiki/andrew-ng-coding-agents-skills-map-2026]]
+
+### Locator drift
+**Definition:** Дрейф локатора - изменение адреса элемента (id/class/text) при той же семантике; тест должен либо self-heal с флагом, либо упасть громко, но не зеленеть молча.
+**Связан:** QAEverest pilot (M6)
 
 ---
 

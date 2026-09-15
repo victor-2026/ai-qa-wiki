@@ -1,3 +1,23 @@
+# Session Checkpoint — 2026-09-07 (Product concept update; recovered checkpoint)
+
+## Окно «Продукт+Мутации» умерло — чекпоинт записан из соседнего окна
+- Причина: в исходном окне provider отвечает `Upstream request failed: [invalid_request_error]` на любой запрос (включая чекпоинт) — сессия невосстановима, окно можно закрывать. Потерь нет: все артефакты на диске.
+- **Экспорт сессии сделан:** `session-archive/2026-09-07_product-mutations_ses_109d6cbf.json` (13.7 MB, 1390 сообщений, валидный JSON) — полная история окна, если понадобится дословно. Оживить через `opencode import <файл>`.
+- Как продолжать: открыть новое окно, указать ему `outputs/product-concept-mutation-verifier-mvp.md` + этот чекпоинт — контекст восстановится без старой истории.
+
+## Product concept (`outputs/product-concept-mutation-verifier-mvp.md`, правки 07.09)
+- **§5 Рамки:** вшито требование из переписки с Aamir (07.09) — три сигнала раздельно, не схлопывать (ranking vs mutation vs drift).
+- **§6 Ограничения:** версионирование скорера обязательно (урок свопа #3↔#4 на 0.2.34→0.2.40, OrangeHRM); tier-2 дефолт открыт (band ≤5% vs vendor 1/60).
+- **§11 Этапы:** Pilot ✅ done 2026-09-03/07 (внешняя валидация Aamir: снапшот→реран протокол); Articles 🔄 draft; MVP ⏳ после статей; правило перехода — MVP кодим только при ≥3 внешних вопросах «а как посчитать самим?».
+- **§12 Название:** 8 вариантов, рекомендация **MutGate** + артефакт `verdict.md`, запасной KillRate.
+- **§Вопросы (5):** п.4 частично закрыт письмом Rupesh 04.09 (strict-0 для B0/B1 подтвержден; Medium открыт). Остальные открыты: MVP после статей или параллельно? Python vs Node? Название? Новый репо сейчас или после сигнала?
+
+## Next
+- Обсудить 5 вопросов из концепта (Articles 26/27 идут первыми — MVP только после них).
+- Новое окно для продукта открывать с нуля, со ссылкой на этот файл.
+
+---
+
 # Session Checkpoint — 2026-09-05 (Rupesh catalogs + Product Q4)
 
 ## Rupesh correspondence → messages/ + emails/
@@ -315,3 +335,108 @@
 - CARBON (testers.ai): ОТЛОЖЕН
 - Article 27 body: write (Ng + Krivitsky + Bolton + Bach anchored)
 - Article 21: publish 31.08 10:00
+
+# Session Checkpoint — 2026-09-09 (wiki digest processing + outreach + SwarmLLM)
+
+## Wiki digest 2026-09-07 — 7 wiki pages created
+All 7 marked [x] items processed:
+1. `wiki/aria-qa-data-automation-agent-2026.md` — arxiv 2609.04913 (Agentic RAG + LLM Judge, 30+ tools)
+2. `wiki/spaceducking-test-feels-like-autopilot-2026.md` — MoT (98% handoff, tester as orchestrator)
+3. `wiki/integration-testing-systems-stitching-2026.md` — TestMu AI (integration testing guide)
+4. `wiki/from-ai-agent-demo-to-production-2026.md` — InfoQ Jul 2026 (demo-to-prod gap, guardrails)
+5. `wiki/openai-wiki-incident-2026.md` — TechCrunch (Wikipedia feedback loop, data poisoning)
+6. `wiki/beyond-zero-google-experimentation-culture-2026.md` — Google Research (experimentation velocity)
+7. `wiki/cappy-small-scorer-boosting-llm-2024.md` — NeurIPS 2023 (360M scorer beats 175B LLMs)
+- Cappy: original URL broken, fetched via research.google/blog alternate
+- **CAVEAT:** "How to tell whether an AI feature actually works" (anton.qa) → pilot catalog, NOT wiki
+
+## Wiki digest 2026-09-08 — 3 wiki pages created
+- `wiki/autonomous-testing-agent-fastest-feedback-2026.md` — KaneAI + HyperExecute (TestMu AI)
+- `wiki/efficient-performance-testing-grid-cloud-2026.md` — HyperExecute AI-native orchestration
+- `wiki/observatory-weekly-quality-gaps-2026.md` — MoT Observatory weekly roundup
+- Blog URLs 404 on testmuai.com (KaneAI, HyperExecute), fetched from main site + search
+- Anton Gulin article → pilot catalog decision (separate from wiki)
+
+## Wiki pages filled from empty (previously stubs)
+- `wiki/rag-evaluation.md` — comprehensive RAG eval overview (dimensions, frameworks, patterns)
+- `wiki/ui-fuzzing.md` — full UI fuzzing guide (4 strategies, Playwright patterns, OWASP mapping)
+
+## New pages created 2026-09-09
+1. `wiki/distributed-llm-inference-swarmllm-2026.md` — SwarmLLM (Nehanth Narendrula / Red Hat AI)
+   - Includes practical testing plan for PC-224 + MacBook via ZeroTier VPN
+   - WebGPU check, SwarmLLM clone steps, failure scenario tests
+   - Alternative approaches table (web-llm, enapt/Rust, Ollama multi-GPU)
+2. `wiki/verification-completeness-testing-paradox-2026.md` — William Tran ↔ Iosif Itkin LinkedIn thread
+   - Core thesis: verification completeness is impossible
+   - Dev vs QA views, bridge closing
+   - Connection to Exactpro and AI Testing
+3. **Outreach pages created:**
+   - `outreach/active/William_Tran/index.md` — 2nd connection, followed 2026-09-09
+   - `outreach/active/Iosif_Itkin/index.md` — Exactpro co-CEO, HIGH-value contact
+   - William: Prong C comment option (his post is public)
+   - Iosif: wait for engagement pattern before following
+
+## QAEverest blog evaluation
+- Post: "Agent jailbroken, eval said it passed" — LLM-as-Judge compromised by prompt injection
+- **Seriousness: 6/10** — real problem, known in AI safety community, not novel
+- **Marketing: 7/10** — catchy framing, blog traffic driver, thought leadership
+- **Our assessment:** per-risk-tier v0.3 already addresses this (B0 tier, deterministic checks, guardrails)
+- **Comparison:** Our framework deeper (5 operators, 4 tiers, 100% B1 proven) vs QAEverest surface-level
+
+## SwarmLLM Practical Testing Plan
+- PC-224 (64GB, 6GB VRAM) + MacBook Pro (16GB) via ZeroTier VPN 10.24.175.x
+- Steps: WebGPU check → clone → room code → model load → measure tokens/s → test dropout
+- Status: planned, not executed yet
+- **William Tran:** followed on LinkedIn, waiting for response
+
+## Stats
+- wiki-topics.json: 309 → 323 (+14 over 2 days)
+- wiki/ files: ~250+
+- raw/ count: 209
+
+## Next
+1. Execute SwarmLLM test on PC-224 + MacBook (if WebGPU available)
+2. Wait for Iosif Itkin engagement pattern → decide on follow
+3. Comment on William Tran or Iosif Itkin posts (Prong C) if no response
+4. Update session-checkpoint.md in main project (OrangeHRM)
+5. Aamir delta — pending
+6. Rupesh: still waiting on Letter 2 response
+
+---
+
+# Session Checkpoint — 2026-09-09 (Buzzhive restart + wiki processing continued)
+
+## Buzzhive Restart
+- Docker Desktop was manually paused → `docker-compose up --build -d` restarted all 5 containers
+- **Backend** (`localhost:8000/docs`): ✅ healthy
+- **Frontend** (`localhost:3000`): ✅ healthy
+- **Render** (`buzzhive-test.onrender.com/api/health`): ✅ healthy (after ~10s Free tier delay)
+- Both local and Render confirmed working
+
+## Wiki digest 2026-09-09 continued
+- 5 wiki pages created from digest: Agentic AI Tools, Visual Regression, Evolving Quality, Meta Muse, Professional Resilience
+- meta.com (ai.meta.com) returned 400 → used TechCrunch + The Verge as sources instead
+- All Meta Muse articles consolidated into one page
+- Total for 2026-09-09: 11 wiki pages across both digests
+
+## Stats
+- wiki-topics.json: 323 → 328 (+5 from digest 09-09)
+- raw/ count: 214
+
+## Next
+1. Execute SwarmLLM test on PC-224 + MacBook (if WebGPU available)
+2. Wait for Iosif Itkin engagement pattern → decide on follow
+3. Comment on William Tran or Iosif Itkin posts (Prong C) if no response
+4. Update session-checkpoint.md in main project (OrangeHRM)
+5. Aamir delta — pending
+6. Rupesh: still waiting on Letter 2 response
+
+## 2026-09-11 — Testkube feed + 3 wiki ingests
+- digest-config.json: +testkube RSS (weight 0.8, verified 200) → 19 sources.
+- wiki: four-layers (layer map + thresholds), smart-suites (diff-selection + dual mode), local-vs-frontier (hybrid doctrine = our free-first validation). Topics 332→335 (1 parallel entry from another window, no collision).
+
+## 2026-09-15 (night) - Ingest batch: RST pair + Anthropic month + cross-domain
+- Raw ingests (topics 337→349): zborovsky chief-of-staff · jay-aigner green-light thread · radik ledger gate (ENGAGEMENT HOLD — chat+letter unanswered) · ivan-davidov context engineering (transcript 515 seg, career fluff dropped) · addy-osmani skill-decay · kiro judge loop (-32%) · bolton whereas · bach metamorphic talk (transcript 885 seg) · bach+bolton amodei teardown · siniouguine silent incompleteness · colantonio perf-as-savings · osmani month digest (37 posts→8 blocks) · pusuluri oracle boundary.
+- Transcripts via youtube-transcript-api, evaluated full-read before save (davidov 80% fluff cut).
+- Not saved (thin): testRigor agentic-QA promo, IcebergQA STARWEST promo (Arbon talk = radar), Lew PNSQC (quote → Articles/quotes.md instead).
+- Open: Amodei Sept 2026 primary ingest · Colantonio episode link · Arbon STARWEST transcript watch.
