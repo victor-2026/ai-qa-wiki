@@ -2136,6 +2136,20 @@
       "source": "LinkedIn copy 2026-09-15"
     },
     {
+      "file": "addy-osmani-brownfield-agentic-engineering-2026.md",
+      "title": "Addy Osmani - Brownfield Agentic Engineering (zones, characterization tests, migration blindness)",
+      "tags": [
+        "brownfield",
+        "zones-green-yellow-red",
+        "characterization-tests",
+        "migration-blindness",
+        "agentic-engineering",
+        "blast-radius",
+        "anthropic"
+      ],
+      "source": "Substack 2026-09-14"
+    },
+    {
       "file": "bach-bolton-amodei-pace-frontier-evaluators-2026.md",
       "title": "Bach + Bolton teardown - Amodei pace the frontier, embedded evaluators",
       "tags": [
@@ -2182,8 +2196,190 @@
         "ascendqe"
       ],
       "source": "LinkedIn AscendQE 2026-09-15"
+    },
+    {
+      "file": "addy-osmani-agentic-autonomy-levels-2026.md",
+      "title": "Addy Osmani - Agentic Autonomy Levels (6 levels, 2 axes, 4 anti-patterns)",
+      "tags": [
+        "autonomy-levels",
+        "agency-axis",
+        "orchestration-axis",
+        "calibrated-autonomy",
+        "agent-contract",
+        "anthropic"
+      ],
+      "source": "Substack 2026-07-03"
+    },
+    {
+      "file": "addy-osmani-human-judgment-software-factory-2026.md",
+      "title": "Addy Osmani - Human judgment relocates in the software factory",
+      "tags": [
+        "human-judgment",
+        "software-factory",
+        "verification-budget",
+        "comprehension-debt",
+        "runs-taxonomy",
+        "anthropic"
+      ],
+      "source": "Substack 2026-08-21"
+    },
+    {
+      "file": "addy-osmani-agentic-code-quality-2026.md",
+      "title": "Addy Osmani - Agentic Code Quality (constraints = quality gates)",
+      "tags": [
+        "constraints",
+        "quality-gates",
+        "back-pressure",
+        "mutation-testing",
+        "verification-scaling",
+        "anthropic"
+      ],
+      "source": "Substack 2026-08-08"
+    },
+    {
+      "file": "addy-osmani-software-factories-light-and-dark-2026.md",
+      "title": "Addy Osmani - Software Factories Light and Dark (comprehension debt, back pressure)",
+      "tags": [
+        "dark-factory",
+        "lit-factory",
+        "comprehension-debt",
+        "back-pressure",
+        "outer-loop",
+        "anthropic"
+      ],
+      "source": "Substack 2026-07-22"
+    },
+    {
+      "file": "addy-osmani-own-the-outer-loop-2026.md",
+      "title": "Addy Osmani - Own the Outer Loop (answerability, verdict, cognitive surrender)",
+      "tags": [
+        "outer-loop",
+        "answerability",
+        "verdict",
+        "cognitive-surrender",
+        "cognitive-debt",
+        "taste",
+        "anthropic"
+      ],
+      "source": "Substack 2026-07-09"
+    },
+    {
+      "file": "testers-ai-ten-minute-tester-workshop-2026.md",
+      "title": "testers.ai Ten Minute Tester - human vs AI field study (1 vs 16 defect families)",
+      "tags": [
+        "human-vs-ai",
+        "field-study",
+        "coverage-gap",
+        "usability",
+        "breadth-vs-depth",
+        "testers-ai"
+      ],
+      "source": "testers.ai workshop 2026-09-16"
+    },
+    {
+      "file": "beecommerce-12-agents-5-layers-2026.md",
+      "title": "BeeCommerce - 12 AI agents, 5 layers, context-as-a-service (Polish software house)",
+      "tags": [
+        "software-factory",
+        "context-management",
+        "quality-gates",
+        "read-only-agents",
+        "escalation",
+        "kubernetes",
+        "ecommerce"
+      ],
+      "source": "beecommerce.pl 2026-04-20"
+    },
+    {
+      "file": "contextqa-ai-agent-testing-platform-2026.md",
+      "title": "ContextQA - AI Agent Testing Platform (enterprise, Agentic Quality Tour)",
+      "tags": [
+        "ai-agent-testing",
+        "production-readiness",
+        "trust-validation",
+        "no-code",
+        "enterprise",
+        "market-landscape"
+      ],
+      "source": "LinkedIn posts 2026-08/09"
+    },
+    {
+      "file": "adamtornhill-practices-abandoned-agents-2026.md",
+      "title": "Adam Tornhill - Practices I Abandoned with Agents (TDD → e2e boundaries)",
+      "tags": [
+        "tdd",
+        "agentic-coding",
+        "e2e-tests",
+        "human-agent-boundary",
+        "double-entry-bookkeeping",
+        "tooling-enforcement",
+        "codescene"
+      ],
+      "source": "substack 2026-09-03"
+    },
+    {
+      "file": "raw/testmuai-llm-evaluation-vs-e2e-agent-testing-2026.md",
+      "title": "TestMu AI - LLM Evaluation vs E2E Agent Testing (eval=score, test=verdict)",
+      "tags": [
+        "llm-eval",
+        "e2e-testing",
+        "agent-testing",
+        "production-readiness",
+        "green-yellow-red"
+      ],
+      "source": "testmuai.com 2026-09-13"
+    },
+    {
+      "file": "raw/testmuai-finance-ai-agent-compliance-testing-2026.md",
+      "title": "TestMu AI - Finance AI Agent Compliance Testing (FINRA, attestation pattern)",
+      "tags": [
+        "compliance",
+        "finra",
+        "attestation",
+        "agent-output",
+        "regulation"
+      ],
+      "source": "testmuai.com 2026-09-14"
+    },
+    {
+      "file": "raw/antongulin-save-failed-playwright-test-trace-2026.md",
+      "title": "Anton Gulin - Save Clues from Failed Playwright Test (retain-on-failure, evidence chain)",
+      "tags": [
+        "playwright",
+        "evidence-chain",
+        "trace",
+        "debugging",
+        "retain-on-failure"
+      ],
+      "source": "anton.qa 2026-09-16"
+    },
+    {
+      "file": "raw/bach-jensen-safety-debate-2026.md",
+      "title": "Bach vs Jensen - AI Safety as Engineering vs Market Failure",
+      "tags": [
+        "ai-safety",
+        "market-failure",
+        "regulation",
+        "governance",
+        "dreamforce"
+      ],
+      "source": "LinkedIn 2026-09-17"
+    },
+    {
+      "file": "raw/boris-cherney-claude-code-tips-2026.md",
+      "title": "Boris Cherny - Claude Code Practical Tips (Anthropic, agentic loop, CLAUDE.md, permissions)",
+      "tags": [
+        "claude-code",
+        "agentic-coding",
+        "cld-md",
+        "permissions",
+        "self-check",
+        "iteration",
+        "anthropic"
+      ],
+      "source": "youtube 2026"
     }
   ],
-  "raw_count": 215,
-  "updated": "2026-09-11"
+  "raw_count": 221,
+  "updated": "2026-09-16"
 }

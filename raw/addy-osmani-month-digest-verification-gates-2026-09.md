@@ -66,3 +66,13 @@
 - Tiered gates + final gate + comprehension debt = наша per-risk-tier модель словами Anthropic. Цитаты для attestation-материалов.
 - Config rot → обоснование /brief-профиля и memory budget (Phase 0).
 - Gall's law → аргумент staged ramp (наш §8 v0.3: trivial → realistic → industry pool).
+- Comprehension debt (term by Jeremy Twei, via Addy's substack) → wiki: `wiki/comprehension-debt.md`. Brownfield zones = structural mitigation.
+
+## 9. Brownfield Agentic Engineering (14.09, Substack)
+
+- Zones (Green/Yellow/Red) = перифраз我们的 per-risk-tier: автономия масштабируется с confidence, не по умолчанию.
+- Characterization tests = Phase 0 любого пилота: фиксируем текущее поведение ДО мутаций. Netflix replay/payload diff = living proof.
+- "Write down what the code can't say" = AGENTS.md и memory-архитектура: tribal knowledge кодифицируется, не подразумевается.
+- Migration blindness (SWE Refactor Bench: 28/520) = аргумент против незавершённых миграций в VerdictGate.
+- Parallelize last → staged ramp §8 v0.3.
+- Full wiki: `wiki/addy-osmani-brownfield-agentic-engineering-2026.md`

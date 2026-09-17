@@ -23,3 +23,4 @@
 - Codify the lessons = наш существующий loop: gotchas log в memory, learned_patterns.json в MAS, checkpoint append-only. Osmani независимо описывает ту же архитектуру памяти. Можно цитировать как внешнее подтверждение.
 - Hypothesis first = научный метод в тестировании; ложится рядом с per-risk-tier step 0 (relevance gate): сначала предсказание, потом прогон.
 - Engagement: standing нулевой (Anthropic, огромный аккаунт) — только как evidence в статьях, без outreach. Цитаты-кандидаты в Article 27 / attestation-материалы.
+- Brownfield zones + characterization tests → wiki: `wiki/addy-osmani-brownfield-agentic-engineering-2026.md`
