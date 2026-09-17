@@ -2402,6 +2402,83 @@
         "scope-model"
       ],
       "source": "ministryoftesting.com 2026-09-16"
+    },
+    {
+      "file": "schaper-harness-effectiveness-check-2026.md",
+      "title": "Schaper - harness effectiveness check (scheduled re-measurement)",
+      "tags": [
+        "effectiveness-check",
+        "re-measurement",
+        "model-routing",
+        "harness",
+        "calibration"
+      ],
+      "source": "LinkedIn via Perplexity 2026-09"
+    },
+    {
+      "file": "no-human-read-csharp-gates-sealed-suite-2026.md",
+      "title": "No-human-read C# experiment - gates, sealed suite, mutation 19 vs 34",
+      "tags": [
+        "sealed-suite",
+        "mutation-score",
+        "false-pass",
+        "oracle-first",
+        "amdahl",
+        "no-reading",
+        "variance"
+      ],
+      "source": "YouTube series finale 2026"
+    },
+    {
+      "file": "matthias-schaper-author-harness-measurement-2026.md",
+      "title": "Matthias Schaper - author profile (harness engineering, measurement)",
+      "tags": [
+        "author-profile",
+        "harness",
+        "measurement",
+        "nightly-sweep",
+        "mcp-audit",
+        "routing"
+      ],
+      "source": "LinkedIn 53 posts 2026-09"
+    },
+    {
+      "file": "cyboflow-verification-patterns-changelog-2026.md",
+      "title": "CyboFlow - verification patterns from changelog (553 entries)",
+      "tags": [
+        "cyboflow",
+        "verify-harness",
+        "eval-jury",
+        "lane-triage",
+        "blocked-failed",
+        "runbook",
+        "approve-gate"
+      ],
+      "source": "cyboflow.com/changelog 2026-09-16"
+    },
+    {
+      "file": "test-editing-agent-colantonio-pettersson-2026.md",
+      "title": "Test-editing agent (Colantonio/Pettersson) - failure mode",
+      "tags": [
+        "test-editing",
+        "oracle-independence",
+        "assertion-stability",
+        "testguild"
+      ],
+      "source": "LinkedIn TestGuild 2026-09-17"
+    },
+    {
+      "title": "Agentics Foundation Serbia — YouTube Channel Catalog",
+      "file": "wiki/agentics-foundation-serbia-youtube-2025-2026.md",
+      "tags": [
+        "agentic-qe",
+        "serbia",
+        "agentics-foundation",
+        "youtube",
+        "dragan-spiridonov",
+        "meetup"
+      ],
+      "created": "2026-09-17"
     }
   ],
   "raw_count": 221,
