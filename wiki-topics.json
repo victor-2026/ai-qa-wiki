@@ -2378,6 +2378,30 @@
         "anthropic"
       ],
       "source": "youtube 2026"
+    },
+    {
+      "file": "raw/keithklain-death-by-thousand-prompts-2026.md",
+      "title": "Keith Klain - Death by a Thousand Prompts (more tests ≠ better testing)",
+      "tags": [
+        "testing-theater",
+        "ai-safety",
+        "eval-critique",
+        "independence",
+        "amodei"
+      ],
+      "source": "qualityremarks.com 2026-09-14"
+    },
+    {
+      "file": "raw/michaela-greiler-scope-model-code-oversight-2026.md",
+      "title": "Michaela Greiler - SCOPE Model (Code Review → Code Oversight)",
+      "tags": [
+        "code-review",
+        "oversight",
+        "agent-generated-tests",
+        "staged-escalation",
+        "scope-model"
+      ],
+      "source": "ministryoftesting.com 2026-09-16"
     }
   ],
   "raw_count": 221,
