@@ -2479,6 +2479,42 @@
         "meetup"
       ],
       "created": "2026-09-17"
+    },
+    {
+      "file": "virto-qa-surface-recon-2026-09-17.md",
+      "title": "Virto QA surface recon - vc-mcp-testing-module map",
+      "tags": [
+        "virto",
+        "recon",
+        "csv-suites",
+        "ci-twins",
+        "partner-packs"
+      ],
+      "source": "GitHub + local 2026-09-17"
+    },
+    {
+      "file": "radik-zagirov-p-action-ontology-runtimes-2026.md",
+      "title": "Radik Zagirov - Palantir Action Ontology for agent runtimes",
+      "tags": [
+        "action-ontology",
+        "runtime-enforcement",
+        "dynamic-actions",
+        "external-verification",
+        "agentiqa"
+      ],
+      "source": "LinkedIn Agentiqa 2026-09-17"
+    },
+    {
+      "title": "Action Ontology Runtimes: Constraining Agent Execution with State Machines",
+      "file": "wiki/action-ontology-runtimes-agent-execution-2026.md",
+      "tags": [
+        "agentiqa",
+        "action-ontology",
+        "runtime-verification",
+        "state-machine",
+        "enterprise-agents"
+      ],
+      "created": "2026-09-17"
     }
   ],
   "raw_count": 221,
