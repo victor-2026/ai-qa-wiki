@@ -2528,6 +2528,43 @@
         "verifier-pattern"
       ],
       "created": "2026-09-17"
+    },
+    {
+      "file": "typesafe-jev-judgment-service-gates-2026.md",
+      "title": "TypeSafe Jev - judgment-as-service for gates (via Paluy)",
+      "tags": [
+        "judgment-service",
+        "calibrated-confidence",
+        "guardrails",
+        "model-routing",
+        "typesafe"
+      ],
+      "source": "LinkedIn Paluy 2026-09-18"
+    },
+    {
+      "file": "living-documentation-moldable-development-jit-2026.md",
+      "title": "Living Documentation + Moldable Development (JIT learning)",
+      "tags": [
+        "living-documentation",
+        "moldable-development",
+        "jit-learning",
+        "executable-specs",
+        "onboarding"
+      ],
+      "source": "user material 2026-09-18"
+    },
+    {
+      "file": "devtool-gtm-engineered-word-of-mouth-2026.md",
+      "title": "Engineered word-of-mouth - dev-tool GTM playbook (TypeSafe case)",
+      "tags": [
+        "gtm",
+        "word-of-mouth",
+        "devtool",
+        "launch",
+        "bench-format"
+      ],
+      "source": "wiki synthesis 2026-09-19",
+      "dir": "wiki"
     }
   ],
   "raw_count": 221,
