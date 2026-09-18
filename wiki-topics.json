@@ -2515,6 +2515,19 @@
         "enterprise-agents"
       ],
       "created": "2026-09-17"
+    },
+    {
+      "title": "BrowserStack Blog — Breakpoint 2026 & Test Companion",
+      "file": "wiki/browserstack-blog-breakpoint-2026-test-companion.md",
+      "tags": [
+        "browserstack",
+        "breakpoint-2026",
+        "test-companion",
+        "ai-testing",
+        "mcp",
+        "verifier-pattern"
+      ],
+      "created": "2026-09-17"
     }
   ],
   "raw_count": 221,
