@@ -1,2572 +1,2107 @@
 {
-  "topics": [
-    {
-      "file": "wiki/21-cfr-part-11-electronic-records-2026.html",
-      "title": "21 Cfr Part 11 Electronic Records 2026",
-      "desc": "source: \"21-cfr-part-11-electronic-records-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/3-ai-test-tools-orangehrm-comparison-2026.html",
-      "title": "3 Ai Test Tools Orangehrm Comparison 2026",
-      "desc": "source: \"3-ai-test-tools-orangehrm-comparison-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/30-ai-questions-manual-qa-2026.html",
-      "title": "30 AI-Focused Interview Questions for Manual QA",
-      "desc": "title: \"30 AI-Focused Interview Questions for Manual QA\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/30questiontomodernmanualqa.html",
-      "title": "AI‑Enhanced Manual QA – Interview Framework",
-      "desc": "source: \"30 question to modern manual QA.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/6aiconceptsyoumustmastertobuildproduction-readyaisystems.html",
-      "title": "6Aiconceptsyoumustmastertobuildproduction Readyaisystems",
-      "desc": "source: \"6 AI Concepts You Must Master to Build Production-Ready AI Systems.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/7-layer-llm-testing-framework-2026.html",
-      "title": "7-Layer Testing Framework for Public-Facing LLMs",
-      "desc": "title: \"7-Layer Testing Framework for Public-Facing LLMs\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Agentic Development Lifecycle (ADLC).html",
-      "title": "Agentic Development Lifecycle (Adlc)",
-      "desc": "title: \"Agentic Development Lifecycle (Adlc)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/EARS и BDD.html",
-      "title": "EARS и BDD: От требований к тестам",
-      "desc": "title: \"EARS и BDD: От требований к тестам\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Mutation-testing-advanced-playwright.html",
-      "title": "Advanced Mutation Testing with Playwright",
-      "desc": "title: \"Advanced Mutation Testing with Playwright\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Mutation-testing-without-code.html",
-      "title": "Мутационное тестирование без доступа к коду",
-      "desc": "title: \"Мутационное тестирование без доступа к коду\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/README.html",
-      "title": "AI QA Wiki — навигация по корню",
-      "desc": "299 файлов, плоская структура — так задумано: Obsidian-вики с `[[wiki/...]]`-ссылками, поиск через `wiki-topics.json` / ",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ad-hoc-testing-guide.html",
-      "title": "Ad Hoc Testing",
-      "desc": "source: \"ad-hoc-testing-guide.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agent-comparison-benchmark.html",
-      "title": "Сравнительное тестирование агентов (benchmark)",
-      "desc": "title: \"Сравнительное тестирование агентов (benchmark)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agent-skills-specification.html",
-      "title": "Agent Skills — экосистема скиллов для AI-агентов",
-      "desc": "title: \"Agent Skills — экосистема скиллов для AI-агентов\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agent-teams-architecture.html",
-      "title": "Agent Teams Architecture",
-      "desc": "title: \"Agent Teams Architecture\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agentic-engineering-hacks.html",
-      "title": "Хаки агентного инжиниринга — 22 приёма для эффективной работы с AI-агентами",
-      "desc": "source: \"hacks_ru.pdf\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agentic-patterns.html",
-      "title": "Agentic Patterns",
-      "desc": "title: \"Agentic Patterns\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agents-discussion-300526.html",
-      "title": "Agents Discussion 300526",
-      "desc": "source: \"Agents-discussion-300526.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/agents-md-discussion.html",
-      "title": "AGENTS.md — 2 итерация: Сравнение предложений",
-      "desc": "title: \"AGENTS.md — 2 итерация: Сравнение предложений\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.html",
-      "title": "AI Agents Replace Team Roles: The 35-Agent Startup Model",
-      "desc": "**Source:** Mogilko, Marina. \"AI Safety Expert: No One Is Ready for What's Coming in 2 Years | Roman Yampolskiy.\" *Silic",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-chaos-testing.html",
-      "title": "AI for Chaos Testing",
-      "desc": "source: \"ai-chaos-testing.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-dlc-process-testing-guardrails-2026.html",
-      "title": "Ai Dlc Process Testing Guardrails 2026",
-      "desc": "source: \"ai-dlc-process-testing-guardrails-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-fluency-interview-2026.html",
-      "title": "AI Fluency: The New Interview Standard",
-      "desc": "title: \"AI Fluency: The New Interview Standard\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-fluency-interview-reform-2026.html",
-      "title": "Ai Fluency Interview Reform 2026",
-      "desc": "source: \"ai-fluency-interview-reform-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-in-qa-issue-17-butch-mayhew-2026.html",
-      "title": "AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)",
-      "desc": "title: \"AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-productivity-paradox-verification-layer-2026.html",
-      "title": "Ai Productivity Paradox Verification Layer 2026",
-      "desc": "source: \"ai-productivity-paradox-verification-layer-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.html",
-      "title": "AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry",
-      "desc": "title: \"AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-qa-exoskeleton-habr.html",
-      "title": "AI-Экзоскелет для QA-Инженера",
-      "desc": "source: \"ai-qa-exoskeleton-habr.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-qa-exoskeleton-launch-habr.html",
-      "title": "AI-Экзоскелет для QA: Запуск за 4 часа",
-      "desc": "source: \"ai-qa-exoskeleton-launch-habr.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-qa-tool-evaluation-mutation-matrix.html",
-      "title": "Ai Qa Tool Evaluation Mutation Matrix",
-      "desc": "source: \"Hands-on QAEverest.ai pilot + methodology (2026-08-26)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-qa-transformation-lead.html",
-      "title": "AI QA Transformation Lead — Role Specialization",
-      "desc": "title: \"AI QA Transformation Lead — Role Specialization\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-regression-testing-workflows.html",
-      "title": "AI Regression Testing Workflows",
-      "desc": "source: \"ai-regression-testing-workflows.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-risk-communication-2026.html",
-      "title": "AI Risk Communication for QA Leaders",
-      "desc": "title: \"AI Risk Communication for QA Leaders\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-roi-regression-testing.html",
-      "title": "Maximizing ROI with AI Functional and Regression Testing",
-      "desc": "source: \"ai-roi-regression-testing.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-agents-review-2026.html",
-      "title": "2026: Обзор и апробация ИИ-агентов для тестирования",
-      "desc": "title: \"2026: Обзор и апробация ИИ-агентов для тестирования\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-effectiveness-papers.html",
-      "title": "AI Testing Effectiveness",
-      "desc": "source: \"ai-testing-effectiveness-papers.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-effectiveness.html",
-      "title": "AI Testing Effectiveness",
-      "desc": "title: \"AI Testing Effectiveness\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-frameworks-complete.html",
-      "title": "AI Testing Frameworks — Complete Technical Reference",
-      "desc": "title: \"AI Testing Frameworks — Complete Technical Reference\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-glossary-n-z.html",
-      "title": "AI Testing Glossary (N–Z)",
-      "desc": "title: \"AI Testing Glossary (N-Z)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-glossary.html",
-      "title": "AI Testing Glossary",
-      "desc": "title: \"AI Testing Glossary\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-map.html",
-      "title": "AI Testing Map",
-      "desc": "title: \"AI Testing Map\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-metrics.html",
-      "title": "AI Testing Metrics",
-      "desc": "title: \"AI Testing Metrics\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-platform-comparison-2026.html",
-      "title": "AI Testing Platform Comparison 2026",
-      "desc": "title: \"AI Testing Platform Comparison 2026\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-tools-2026.html",
-      "title": "AI Tools 2026 — Overview with Advantages",
-      "desc": "title: \"AI Tools 2026 — Overview with Advantages\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/aiengineeringskillsmap-softwareengineeringfundamentals.html",
-      "title": "Aiengineeringskillsmap Softwareengineeringfundamentals",
-      "desc": "source: \"[raw/AI Engineering Skills Map - Software engineering fundamentals.md](../raw/AI%20Engineering%20Skills%20Map%2",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ailist2026.html",
-      "title": "AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants",
-      "desc": "source: \"AI list 2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/alex-barady-ai-builder-9-concepts-2026.html",
-      "title": "Alex Barády: 9 Concepts That Separate AI User from AI Builder",
-      "desc": "title: \"Alex Barády: 9 Concepts That Separate AI User from AI Builder\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/alex-karp-neurodivergent-advantage-2026.html",
-      "title": "Alex Karp Neurodivergent Advantage 2026",
-      "desc": "source: \"alex-karp-neurodivergent-advantage-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/allure-testops-research-2026.html",
-      "title": "Allure TestOps",
-      "desc": "source: \"allure-testops-research-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/andrew-ng-coding-agents-skills-map-2026.html",
-      "title": "Andrew Ng: AI Engineering Skills Map — Using Coding Agents",
-      "desc": "**Source:** https://www.linkedin.com/pulse/ai-engineering-skills-map-using-coding-agents-andrew-ng-h8yxc/ (Andrew Ng, De",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/andrew-ng-loop-engineering-2026.html",
-      "title": "Andrew Ng Loop Engineering 2026",
-      "desc": "source: \"andrew-ng-loop-engineering-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/andrew-ng-openworker-security-agents-2026.html",
-      "title": "Andrew Ng Openworker Security Agents 2026",
-      "desc": "source: \"andrew-ng-openworker-security-agents-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/anti-flakiness-habr.html",
-      "title": "Anti-Flakiness: Best Practices for Reliable Tests",
-      "desc": "source: \"anti-flakiness-habr.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/antigravity-benchmark.html",
-      "title": "Сравнение: OpenCode vs Antigravity (Go migration)",
-      "desc": "title: \"Сравнение: OpenCode vs Antigravity (Go migration)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/anton-gulin-3-layer-ai-qa-architecture.html",
-      "title": "Anton Gulin: 3-Layer AI Test Automation Architecture",
-      "desc": "title: \"Anton Gulin: 3-Layer AI Test Automation Architecture\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/anton-gulin-playwright-vs-cypress-vs-selenium-2026.html",
-      "title": "Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison",
-      "desc": "title: \"Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/anton-gulin-regression-suite-museum-2026.html",
-      "title": "Your Regression Suite Is a Museum: 5 Questions That Decide Delete vs Keep",
-      "desc": "**Source:** https://www.anton.qa/blog/posts/regression-suite-museum (Anton Gulin, AI QA Architect, ex-Apple SDET)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/arxiv-ai-testing-effectiveness-2026.html",
-      "title": "AI Testing Effectiveness",
-      "desc": "source: \"arxiv-ai-testing-effectiveness-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-agent-memory-2026.html",
-      "title": "How to Test AI Agent Memory (Short- and Long-Term)",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-ai-agent-memory",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-agent-regression-2026.html",
-      "title": "Agent Regression Testing: When Your Agent Breaks Without a Deploy",
-      "desc": "**Source:** https://getautonoma.com/blog/agent-regression-testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-agent-reliability-2026.html",
-      "title": "AI Agent Reliability Testing: Catching Silent Failures",
-      "desc": "**Source:** https://getautonoma.com/blog/ai-agent-reliability-testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-agent-simulation-2026.html",
-      "title": "What Is Agent Simulation Testing? A 3-Actor Harness",
-      "desc": "**Source:** https://getautonoma.com/blog/agent-simulation-testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-blog-catalog-all-publications-2026.html",
-      "title": "Autonoma Blog: Complete Publications Catalog (581 Articles)",
-      "desc": "**Source:** https://getautonoma.com/blog",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-crewai-evaluation-2026.html",
-      "title": "CrewAI Evaluation and Testing: How to Test CrewAI Agents",
-      "desc": "**Source:** https://getautonoma.com/blog/crewai-evaluation",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-hallucinations-2026.html",
-      "title": "How to Test for AI Hallucinations: A Code-First Guide",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-for-ai-hallucinations",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-how-to-test-ai-agent-e2e-2026.html",
-      "title": "How to Test an AI Agent (End to End)",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-an-ai-agent",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-langgraph-testing-2026.html",
-      "title": "LangGraph Testing and Debugging: A Practical Guide",
-      "desc": "**Source:** https://getautonoma.com/blog/langgraph-testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-llm-evals-cicd-2026.html",
-      "title": "How to Run LLM Evals in CI/CD",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-run-llm-evals-in-ci-cd",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-llm-unit-testing-2026.html",
-      "title": "LLM Unit Testing: Writing Tests for Your Prompts",
-      "desc": "**Source:** https://getautonoma.com/blog/llm-unit-testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-mcp-server-2026.html",
-      "title": "How to Test an MCP Server: 3 Layers That Actually Work",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-an-mcp-server",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-multi-agent-handoffs-2026.html",
-      "title": "How to Test Multi-Agent Systems (Handoffs and Orchestration)",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-multi-agent-systems",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-multi-turn-conversations-2026.html",
-      "title": "How to Test Multi-Turn Conversations and Context Retention",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-multi-turn-conversations",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-non-deterministic-outputs-2026.html",
-      "title": "How to Test Non-Deterministic AI Outputs",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-non-deterministic-ai-outputs",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-open-source-self-driving-2026.html",
-      "title": "Autonoma Open Source & Architecture (June 2026)",
-      "desc": "title: \"Autonoma Open Source & Architecture (June 2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-orangehrm-setup-notes.html",
-      "title": "Autonoma на OrangeHRM: опыт первой настройки",
-      "desc": "title: \"Autonoma на OrangeHRM: опыт первой настройки\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-qa-ai-feature-2026.html",
-      "title": "How to QA a Generative AI Feature Before You Ship",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-qa-an-ai-feature",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-rag-evaluation-metrics-2026.html",
-      "title": "How to Build a RAG Evaluation Framework in 4 Metrics",
-      "desc": "**Source:** https://getautonoma.com/blog/rag-evaluation-metrics",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-rag-pipeline-2026.html",
-      "title": "How to Test a RAG Pipeline: Two Surfaces, Not One Score",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-a-rag-pipeline",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-rag-retrieval-2026.html",
-      "title": "How to Test if RAG Is Retrieving the Right Context",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-rag-retrieval",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-streaming-responses-2026.html",
-      "title": "How to Test Streaming AI Responses",
-      "desc": "**Source:** https://getautonoma.com/blog/how-to-test-streaming-ai-responses",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-testing-tool-calls-2026.html",
-      "title": "How to Test AI Agents That Take Actions (Tool Calls)",
-      "desc": "**Source:** https://getautonoma.com/blog/testing-ai-agent-tool-calls",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonoma-шагивпайплайне.html",
-      "title": "Autonoma Шагивпайплайне",
-      "desc": "source: \"Autonoma - шаги в пайплайне.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/avito-ai-code-review-llm-pipeline-2026.html",
-      "title": "Avito Ai Code Review Llm Pipeline 2026",
-      "desc": "source: \"https://habr.com/ru/companies/avito/articles/1024954/\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/avito-baas-platform-qa-2026.html",
-      "title": "Avito Baas Platform Qa 2026",
-      "desc": "source: \"https://avito.tech/content/pymlyskp41-qa-na-urovne-platformi-kak-mi-stroili-si\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/bas-dijkstra-learning-takes-time-2026.html",
-      "title": "Learning Takes Time — But Do We Get That Time?",
-      "desc": "**Source:** On Test Automation newsletter (Bas Dijkstra, bas@ontestautomation.com)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/bdd-ai-native-harness.html",
-      "title": "BDD как AI-Native Harness",
-      "desc": "title: \"BDD как AI-Native Harness\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/beyondquality-ai-era-testing-2026.html",
-      "title": "BeyondQuality: QA in the Age of AI-Accelerated Development",
-      "desc": "**Source:** https://beyondquality.org/research/ai-era-testing/ (Vitaly Sharovatov — developer advocate @ Qase + Liliia A",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/boris-cherny-claude-maintains-apps-2026.html",
-      "title": "Boris Cherny Claude Maintains Apps 2026",
-      "desc": "source: \"boris-cherny-claude-maintains-apps-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/brij-kishore-pandey-retroactive-ai-titles-2026.html",
-      "title": "Brij Kishore Pandey Retroactive Ai Titles 2026",
-      "desc": "source: \"brij-kishore-pandey-retroactive-ai-titles-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/browser-ai-testing-agents.html",
-      "title": "Browser-Based AI Testing Agents",
-      "desc": "title: \"Browser-Based AI Testing Agents\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/c4-model-software-architecture.html",
-      "title": "C4 Model — Visualising Software Architecture",
-      "desc": "title: \"C4 Model — Visualising Software Architecture\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/canary-testing-guide.html",
-      "title": "Canary Testing",
-      "desc": "source: \"canary-testing-guide.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/carbon-ai-agentic-verification-harness.html",
-      "title": "Carbon Ai Agentic Verification Harness",
-      "desc": "source: \"CARBON, AI Agentic Verification Harnes.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/claude-code-ci-cd-mcp-2026.html",
-      "title": "Claude Code Ci Cd Mcp 2026",
-      "desc": "source: \"claude-code-ci-cd-mcp-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/claude-code-qa-testing-2026.html",
-      "title": "Claude Code Qa Testing 2026",
-      "desc": "source: \"claude-code-qa-testing-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/claude-code-skill-examples-2026.html",
-      "title": "Claude Code Skill Examples 2026",
-      "desc": "source: \"claude-code-skill-examples-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/claude-code-tests-part1.html",
-      "title": "Writing Tests with Claude Code — Part 1",
-      "desc": "title: \"Writing Tests with Claude Code — Part 1\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/claude-meetup-beginners-beyond-aug2026-summary.html",
-      "title": "Claude for Beginners and Beyond: Meetup Summary (Aug 18, 2026)",
-      "desc": "**Source:** https://lifemichael.com/en/claude-for-beginners-and-beyond-highlights-from-our-latest-meetup/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/comprehension-debt.html",
-      "title": "Comprehension Debt",
-      "desc": "source: \"comprehension-debt.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/consumer-drivencontracttestingpost.html",
-      "title": "Consumer‑Driven Contract Testing",
-      "desc": "source: \"Consumer-driven contract testing (post).md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/context-loss-orchestration-separation-2026.html",
-      "title": "Context Loss Orchestration Separation 2026",
-      "desc": "source: \"context-loss-orchestration-separation-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/copilot-generated-tests-quality-pitfalls-autonoma.html",
-      "title": "Copilot Generated Tests Quality Pitfalls Autonoma",
-      "desc": "source: \"copilot-generated-tests-quality-pitfalls-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/cp-cpm-pfp-monetization-metrics-2026.html",
-      "title": "CPM/CPC/PFP — Модели Монетизации для QA",
-      "desc": "title: \"CPM/CPC/PFP — Модели Монетизации для QA\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/crash-budget-2026.html",
-      "title": "Crash Budget для Mobile Testing",
-      "desc": "title: \"Crash Budget для Mobile Testing\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/csv-validation-iq-oq-pq-2026.html",
-      "title": "Csv Validation Iq Oq Pq 2026",
-      "desc": "source: \"csv-validation-iq-oq-pq-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/cursor-vs-antigravity-autonoma.html",
-      "title": "Cursor Vs Antigravity Autonoma",
-      "desc": "source: \"cursor-vs-antigravity-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/data-testid-react-playwright.html",
-      "title": "data-testid в React: как QA добавлять атрибуты в компоненты",
-      "desc": "title: \"data-testid в React: как QA добавлять атрибуты в компоненты\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/david-burke-death-taxes-software-bugs.html",
-      "title": "Death, Taxes, and Software Bugs",
-      "desc": "**Author:** David Burke (VP of Engineering, ex-testRigor VP)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/desktop-ai-agents-2026.html",
-      "title": "Десктопные AI-агенты для кода (2026)",
-      "desc": "title: \"Десктопные AI-агенты для кода (2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/detox-basics-2026.html",
-      "title": "Detox Basics for React Native Testing",
-      "desc": "title: \"Detox Basics for React Native Testing\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/devqaexpert-blog-catalog-all-publications-2026.html",
-      "title": "DevQAExpert Blog: Evaluation",
-      "desc": "**Source:** https://devqaexpert.com/blog/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.html",
-      "title": "Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22",
-      "desc": "source: \"DevQAExpert - QAEverest import 2000 Cypress tests - confidence score - 2026-08-22.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.html",
-      "title": "Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22",
-      "desc": "source: \"DevQAExpert - QAEverest maintenance tax - intent resolves at runtime - 2026-08-22.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ds-ml-quality-testing-2026.html",
-      "title": "Ds Ml Quality Testing 2026",
-      "desc": "source: \"ds-ml-quality-testing-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/failuremodeandeffectsanalysisfmea.html",
-      "title": "Failuremodeandeffectsanalysisfmea",
-      "desc": "source: \"Failure Mode and Effects Analysis (FMEA).md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/feature-flags-guide.html",
-      "title": "Feature Flags",
-      "desc": "source: \"feature-flags-guide.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/free-ai-services-2026-artem-subbotin.html",
-      "title": "Free Ai Services 2026 Artem Subbotin",
-      "desc": "source: \"free-ai-services-2026-artem-subbotin.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/free-ai-services-list-2026.html",
-      "title": "Free Ai Services List 2026",
-      "desc": "source: \"free-ai-services-list-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/fullstack-verification-mcp-habr.html",
-      "title": "Full-Stack Verification with Playwright Agent and Database",
-      "desc": "source: \"fullstack-verification-mcp-habr.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/go-testing-for-qa-2026.html",
-      "title": "Go Testing For Qa 2026",
-      "desc": "source: \"go-testing-for-qa-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/google-antigravity-qa-2026.html",
-      "title": "Google Antigravity Qa 2026",
-      "desc": "source: \"google-antigravity-qa-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/google-kaggle-agent-skills-whitepaper-2026.html",
-      "title": "Agent Skills – Google/Kaggle Whitepaper (May 2026)",
-      "desc": "source: \"google-kaggle-agent-skills-whitepaper-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/google-tos-2026-restrictions.html",
-      "title": "Google Terms of Service (July 2026) — Restrictions Outside EEA",
-      "desc": "title: \"Google Terms of Service (July 2026) — Restrictions Outside EEA\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/gpt-image-research-mode.html",
-      "title": "GPT Image 2 — Research Before Generation",
-      "desc": "title: \"GPT Image 2 — Research Before Generation\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/graph-engineering-vs-loop-engineering-2026.html",
-      "title": "Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap",
-      "desc": "title: \"Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/hack-n-vibe-bitgn-pac1-agent.html",
-      "title": "Hack N Vibe Bitgn Pac1 Agent",
-      "desc": "source: \"hack-n-vibe-bitgn-pac1-agent.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/hidden-costs-vibe-coded-apps.html",
-      "title": "The Hidden Costs of Vibe-Coded Apps",
-      "desc": "source: \"hidden-costs-vibe-coded-apps.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/how-to-tell-if-tests-are-testing-anything-autonoma.html",
-      "title": "How To Tell If Tests Are Testing Anything Autonoma",
-      "desc": "source: \"how-to-tell-if-tests-are-testing-anything-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/http-query-method-rfc10008-2026.html",
-      "title": "HTTP QUERY Method (RFC 10008, June 2026)",
-      "desc": "title: \"HTTP QUERY Method (RFC 10008, June 2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iclr-2026-agent-benchmarking-self-improvement.html",
-      "title": "Iclr 2026 Agent Benchmarking Self Improvement",
-      "desc": "source: \"iclr-2026-agent-benchmarking-self-improvement.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ilya-kabanov-cybersecurity-ai-cost-2026.html",
-      "title": "Ilya Kabanov Cybersecurity Ai Cost 2026",
-      "desc": "source: \"ilya-kabanov-cybersecurity-ai-cost-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/implement-ai-in-qa-process.html",
-      "title": "Implementing AI in QA Process",
-      "desc": "source: \"implement-ai-in-qa-process.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/improvements-from-bugs.html",
-      "title": "AI-Augmented QA: Process Improvements from Bug Reports",
-      "desc": "title: \"AI-Augmented QA: Process Improvements from Bug Reports\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/industrial-ai-testing-frameworks.html",
-      "title": "Industrial AI Testing Frameworks (2026)",
-      "desc": "title: \"Industrial AI Testing Frameworks (2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/infinite-midwit.html",
-      "title": "Infinite Midwit",
-      "desc": "source: \"infinite-midwit.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.html",
-      "title": "Ishan Anand Llm Persona Feedback Failure Modes 2026",
-      "desc": "source: \"ishan-anand-llm-persona-feedback-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-13485-qms-medical-devices-2026.html",
-      "title": "Iso 13485 Qms Medical Devices 2026",
-      "desc": "source: \"iso-13485-qms-medical-devices-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-14971-risk-management-2026.html",
-      "title": "Iso 14971 Risk Management 2026",
-      "desc": "source: \"iso-14971-risk-management-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-25000-square-quality-2026.html",
-      "title": "ISO/IEC 25000 (SQuaRE) — Software Quality Standards",
-      "desc": "title: \"ISO/IEC 25000 (SQuaRE) — Software Quality Standards\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-26262-functional-safety-testing-2026.html",
-      "title": "Iso 26262 Functional Safety Testing 2026",
-      "desc": "source: \"iso-26262-functional-safety-testing-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-27001-qa-testing-2026.html",
-      "title": "ISO 27001 and QA/Testing",
-      "desc": "title: \"ISO 27001 and QA/Testing\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/iso-9001-qa-testing-2026.html",
-      "title": "ISO 9001:2015 — Quality Management Systems for QA & Testing",
-      "desc": "title: \"ISO 9001:2015 — Quality Management Systems for QA & Testing\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/it-was-always-a-loop.html",
-      "title": "It Was Always a Loop",
-      "desc": "title: \"It Was Always a Loop\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/jeff-nyman-ai-testing-catalog.html",
-      "title": "Jeff Nyman Ai Testing Catalog",
-      "desc": "source: \"jeff-nyman-ai-testing-catalog-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.html",
-      "title": "Jeff Nyman Testing Knowledge Not Just Testing Skill 2026",
-      "desc": "source: \"jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/julia-pottinger-accountable-ai-code-2026.html",
-      "title": "Who Is Accountable for AI-Generated Code?",
-      "desc": "**Source:** https://juliapottinger.com/ (Julia Pottinger, Quality Engineering) — via Software Testing Weekly #325 #3; al",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/julia-pottinger-who-validates-ai-generated-code-2026.html",
-      "title": "Who Validates AI-Generated Code? — Who Is Accountable (Julia Pottinger)",
-      "desc": "**Source:** https://juliapottinger.com/who-validates-ai-generated-code/?utm_source=softwaretestingweekly&utm_medium=emai",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/juliapottinger-blog-catalog-all-publications-2026.html",
-      "title": "Julia Pottinger — Complete Publications Catalog (juliapottinger.com)",
-      "desc": "**Source:** https://juliapottinger.com/articles/ (46 articles, filtered from All / AI / Testing / QA)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/karpathy-autoresearch-agentic-engineering-2026.html",
-      "title": "Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops",
-      "desc": "title: \"Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/keith-klain-testing-mindset-after-all-2026.html",
-      "title": "Apparently We Need a Testing Mindset After All",
-      "desc": "**Source:** https://qualityremarks.com/apparently-we-need-a-testing-mindset-after-all/ (Keith Klain, Quality Remarks)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-blog-catalog-all-publications-2025-2026.html",
-      "title": "Kiro Blog: Complete Publications Catalog with Annotations",
-      "desc": "**Source:** https://kiro.dev/blog",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-bug-fix-paradox-2026.html",
-      "title": "The Bug Fix Paradox: Why AI Agents Keep Breaking Working Code",
-      "desc": "**Source:** https://kiro.dev/blog/bug-fix-paradox/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-continuous-prompt-evaluation-llm-judges-2026.html",
-      "title": "Continuous Prompt Evaluation: LLM Judges and Live Signals",
-      "desc": "**Source:** https://kiro.dev/blog/continuous-prompt-evaluation/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-crew-multi-agent-orchestration-open-source-2026.html",
-      "title": "Kiro Crew: Multi-Agent Orchestration Platform (Open Source)",
-      "desc": "**Source:** https://kiro.dev/blog/introducing-kiro-crew/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-crew-pilot-plan.html",
-      "title": "Kiro Crew Pilot Plan",
-      "desc": "**Goal:** Evaluate Kiro Crew as multi-agent orchestration platform for QA/QE workflows",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-dev-aws-ai-ide-2026.html",
-      "title": "Kiro.dev — AWS Agentic AI IDE (2026)",
-      "desc": "title: \"Kiro.dev — AWS Agentic AI IDE (2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-diagnostics-over-time-agent-quality-2026.html",
-      "title": "Are AI Coding Agents Actually Getting Better? — Six Months of Diagnostics",
-      "desc": "**Source:** https://kiro.dev/blog/diagnostics-over-time/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-openapi-to-testsuite-2026.html",
-      "title": "From OpenAPI/Swagger to Test Suite in Seconds",
-      "desc": "**Source:** https://kiro.dev/blog/from-openapi-swagger-to-test-suite-in-seconds-with-kiro/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-property-based-testing-security-bug-2026.html",
-      "title": "Property-Based Testing Caught a Security Bug I Never Would Have Found",
-      "desc": "**Source:** https://kiro.dev/blog/property-based-testing-fixed-security-bug/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-root-cause-33s-2026.html",
-      "title": "Root Cause in 33 Seconds: How Kiro CLI Saved 4 Years of Build Time",
-      "desc": "**Source:** https://kiro.dev/blog/root-cause-in-33s/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-snyk-guardrails-2026.html",
-      "title": "How Kiro and Snyk Create Multi-Layered Security Guardrails",
-      "desc": "**Source:** https://kiro.dev/blog/kiro-and-snyk-guardrails/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-soc2-planview-automation-2026.html",
-      "title": "Planview Saves 40+ Hours per Audit Cycle with SOC 2 Automation",
-      "desc": "**Source:** https://kiro.dev/blog/automating-soc-2-compliance/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiro-trust-agent-triage-2026.html",
-      "title": "How We Learned to Trust an AI Agent to Triage Production Incidents",
-      "desc": "**Source:** https://kiro.dev/blog/trust-agent-triage/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/kiss-sorcar-agent.html",
-      "title": "KISS Sorcar — Open-Source AI Coding Agent",
-      "desc": "title: \"KISS Sorcar — Open-Source AI Coding Agent\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/krivitsky-agentic-factory-nested-loops-2026.html",
-      "title": "Krivitsky Agentic Factory Nested Loops 2026",
-      "desc": "source: \"krivitsky-agentic-factory-nested-loops-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/lee-robinson-job-tips.html",
-      "title": "Lee Robinson - Как выделиться при поиске работы",
-      "desc": "title: \"Lee Robinson - Как выделиться при поиске работы\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/linkedin-performance-analyzer-2026.html",
-      "title": "Linkedin Performance Analyzer 2026",
-      "desc": "source: \"linkedin-performance-analyzer-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/llm-agents-cicd-cheating-habr.html",
-      "title": "LLM Agents in CI/CD: Why They Choose Cheating Over Problem-Solving",
-      "desc": "source: \"llm-agents-cicd-cheating-habr.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/llm-testing-6-approaches.html",
-      "title": "Testing Large Language Models (LLMs)",
-      "desc": "source: \"llm-testing-6-approaches.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/llms-observability-driven-development.html",
-      "title": "Observability-Driven Development for LLMs",
-      "desc": "source: \"llms-observability-driven-development.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.html",
-      "title": "Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026",
-      "desc": "source: \"loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/maestro-vs-appium-2026.html",
-      "title": "Maestro Vs Appium 2026",
-      "desc": "title: \"Maestro vs Appium — Сравнительный анализ (2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mark-paemaa-automated-testing-confidence-2026.html",
-      "title": "Mark Paemaa Automated Testing Confidence 2026",
-      "desc": "source: \"mark-paemaa-automated-testing-confidence-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/martinfowler-blog-catalog-all-publications-2026.html",
-      "title": "Martin Fowler — Complete Publications Catalog",
-      "desc": "**Source:** https://martinfowler.com (feed.atom)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/martinfowler-making-data-ready-agentic-ai-2026.html",
-      "title": "Making Your Data Ready for Agentic AI (Martin Fowler)",
-      "desc": "**Source:** https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html (Pramod Sadalage & Prem Chandrasekar",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mas-risks.html",
-      "title": "MAS-Pipeline Риски",
-      "desc": "title: \"MAS-Pipeline Риски\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mas-testing-framework-summary.html",
-      "title": "MAS-Testing Framework",
-      "desc": "title: \"MAS-Testing Framework\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mas-testing-framework.html",
-      "title": "MAS-Testing Framework (Conceptual)",
-      "desc": "title: \"MAS-Testing Framework\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mas-vs-swe-comparison.html",
-      "title": "MAS-Pipeline vs SWE-Tester: Comprehensive Comparison",
-      "desc": "title: \"MAS-Pipeline vs SWE-Tester: Comprehensive Comparison\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/matt-robson-human-in-the-loop-ai-testing-2026.html",
-      "title": "Human-in-the-Loop: The Missing Layer in AI-Driven Testing — Matt Robson",
-      "desc": "**Автор:** Matt Robson (AI, Agile & Quality Transformation | Virtuoso QA)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mcp-ucp-protocols-2026.html",
-      "title": "MCP + UCP: Open Protocols for Agentic QA (2026)",
-      "desc": "source: \"mcp-ucp-protocols-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/michael-bolton-systems-thinking-constraints-2026.html",
-      "title": "Michael Bolton Systems Thinking Constraints 2026",
-      "desc": "source: \"michael-bolton-systems-thinking-constraints-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/milko-slavov-two-doors-mcp-2026.html",
-      "title": "Milko Slavov Two Doors Mcp 2026",
-      "desc": "source: \"milko-slavov-two-doors-mcp-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mobile-testing-infrastructure-parallel-2026.html",
-      "title": "Mobile Testing Infrastructure: Parallel Mac + Windows",
-      "desc": "title: \"Mobile Testing Infrastructure: Parallel Mac + Windows\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mobile-testing-windows-server-setup-2026.html",
-      "title": "Windows Server: Mobile Testing Setup",
-      "desc": "title: \"Windows Server: Mobile Testing Setup\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.html",
-      "title": "Modeloptimizingagainstqualitygateinsteadofactualproblem",
-      "desc": "source: \"model optimizing against quality gate instead of actual problem.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/monitoring-observability.html",
-      "title": "Monitoring & Observability for AI Systems",
-      "desc": "title: \"Monitoring & Observability for AI Systems\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/monitoring-vibe-coded-apps.html",
-      "title": "Monitoring for Vibe-Coded Apps",
-      "desc": "source: \"monitoring-vibe-coded-apps.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/mutation-testing-vs-code-coverage-autonoma.html",
-      "title": "Mutation Testing Vs Code Coverage Autonoma",
-      "desc": "source: \"mutation-testing-vs-code-coverage-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/notebooklm-playbook-analysis.html",
-      "title": "SOP: Mutation Testing",
-      "desc": "title: \"Анализ NotebookLM Playbook — что взять к нам\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/notebooklm-three-frameworks-scenario.html",
-      "title": "Notebooklm Three Frameworks Scenario",
-      "desc": "source: \"notebooklm-three-frameworks-scenario.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/notebooklm_agent.html",
-      "title": "NotebookLM Agent Navigation",
-      "desc": "source: \"NOTEBOOKLM_AGENT.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/notion-ai-agentic-features-2026.html",
-      "title": "Notion AI Agentic Features 2026",
-      "desc": "title: \"Notion AI Agentic Features 2026\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/notion-christina-muehller-outreach-2026-06-10.html",
-      "title": "Notion AI Agentic Features Outreach",
-      "desc": "source: \"notion-christina-muehller-outreach-2026-06-10.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/notion-kanban-bot-setup-2026.html",
-      "title": "Notion Kanban + Bot Integration Setup",
-      "desc": "title: \"Notion Kanban + Bot Integration Setup\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/obsidian-scam-audit-2026.html",
-      "title": "Obsidian Scam Audit 2026",
-      "desc": "source: \"obsidian-scam-audit-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/obsidian-security-checklist.html",
-      "title": "Obsidian Security Checklist",
-      "desc": "title: \"Obsidian Security Checklist\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/obsidian-skills-kepano.html",
-      "title": "Obsidian Skills by Steph Ango (kepano)",
-      "desc": "title: \"Obsidian Skills by Steph Ango (kepano)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/offline-evaluation-trajectories-2026.html",
-      "title": "Offline Evaluation of AI Test Agents with Trajectories",
-      "desc": "source: \"offline-evaluation-trajectories-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/opencode-openrouter-qa-2026.html",
-      "title": "Agent Profile: Solo QA Automation Engineer",
-      "desc": "source: \"opencode-openrouter-qa-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/opencode-skill-creator.html",
-      "title": "opencode-skill-creator: Eval-Driven Skill Development",
-      "desc": "title: \"opencode-skill-creator: Eval-Driven Skill Development\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/opencode-telegram-bot.html",
-      "title": "Telegram Bot для OpenCode",
-      "desc": "title: \"Telegram Bot для OpenCode\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/opencode-vs-claude-comparative-test.html",
-      "title": "Сравнительное Тестирование: OpenCode vs Claude Code",
-      "desc": "source: \"opencode-vs-claude-comparative-test.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/openrouter-fusion-multi-model-deliberation-2026.html",
-      "title": "OpenRouter Fusion – Multi‑Model Deliberation",
-      "desc": "source: \"openrouter-fusion-multi-model-deliberation-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/orangehrm-54-to-581-upgrade.html",
-      "title": "OrangeHRM 5.4 to 5.8.1 Upgrade: Challenges and Solutions",
-      "desc": "source: \"orangehrm-5.4-to-5.8.1-upgrade.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/orangepro-risk-based-coverage-2026.html",
-      "title": "OrangePro — Risk-Based Coverage Layer (Aamir Siddiqui)",
-      "desc": "**Source:** OrangePro blog, \"The Night We Stopped Shipping With Crossed Fingers\" (Aamir Siddiqui, 8 min read, via user-p",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pact-contract-testing-guide-2026.html",
-      "title": "Pact Contract Testing — Полное руководство",
-      "desc": "title: \"Pact Contract Testing — Полное руководство\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/passmark-ai-regression.html",
-      "title": "Passmark AI Regression Testing Engine",
-      "desc": "source: \"passmark-ai-regression.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pbt-llm-code-generation.html",
-      "title": "Property-Generated Solver: PBT for LLM Code Generation",
-      "desc": "source: \"pbt-llm-code-generation.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/perplexity-agent-skills.html",
-      "title": "Perplexity Agent Skills Guide",
-      "desc": "title: \"Perplexity Agent Skills Guide\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pi-image-generation-2026.html",
-      "title": "Pi Image Generation via OpenRouter (and Gamma)",
-      "desc": "**Source:** https://openrouter.ai/models (424 models, 18 `:free`; image pricing via `google/gemini-*-image` etc.) + `pi-",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pi-opencode-integration-2026.html",
-      "title": "Pi ↔ OpenCode Integration",
-      "desc": "**Source:** https://github.com/nicobailon/pi-subagents + https://opencode.ai/docs + Zalando agentic snapshot (MCP proxy/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pi-subagents-2026.html",
-      "title": "pi-subagents",
-      "desc": "**Source:** https://github.com/nicobailon/pi-subagents (Pi extension for async subagent delegation)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pipeline-triad-pattern.html",
-      "title": "Pipeline Triad Pattern",
-      "desc": "source: \"pipeline-triad-pattern.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/playwright-test-agents-2026.html",
-      "title": "Playwright Test Agents (2026)",
-      "desc": "title: \"Playwright Test Agents (2026)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/post-about-contract-testing-guide.html",
-      "title": "Contract Testing: Consumer-Driven, Bi-Directional, and When to Use Each",
-      "desc": "title: \"Contract Testing: Consumer-Driven, Bi-Directional, and When to Use Each\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/postman-blog-catalog-all-publications-2026.html",
-      "title": "Postman Blog — Complete Publications Catalog",
-      "desc": "**Source:** https://blog.postman.com/ (All Things API: News, Tutorials & More)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/prachi-dahibhate-james-bach-rst-2026.html",
-      "title": "Prachi Dahibhate James Bach Rst 2026",
-      "desc": "source: \"prachi-dahibhate-james-bach-rst-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/practitest-state-of-testing-2026.html",
-      "title": "PractiTest State of Testing 2026 — 13th Annual Report",
-      "desc": "**URL:** https://www.practitest.com/state-of-testing/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/prompt-tips-and-skills.html",
-      "title": "Prompt Tips & Agent Skills Architecture",
-      "desc": "title: \"Prompt Tips & Agent Skills Architecture\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/promptfoo-eval-suite.html",
-      "title": "Promptfoo Eval Suite for AI QA Wiki",
-      "desc": "title: \"Promptfoo Eval Suite for AI QA Wiki\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-ai-transition-guide.html",
-      "title": "QA Skills → AI Roles Transition Guide",
-      "desc": "title: \"QA Skills → AI Roles Transition Guide\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-ds-collaboration-patterns-2026.html",
-      "title": "QA + Data Science Collaboration Patterns",
-      "desc": "title: \"QA + Data Science Collaboration Patterns\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-in-the-ai-era.html",
-      "title": "QA in the AI Era",
-      "desc": "source: \"qa-in-the-ai-era.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-metrics-dashboard.html",
-      "title": "QA Metrics Dashboard — Setup Notes",
-      "desc": "title: \"QA Metrics Dashboard — Setup Notes\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-prompt-engineering-guide.html",
-      "title": "Prompt Engineering for QA Professionals",
-      "desc": "source: \"qa-prompt-engineering-guide.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-topics.html",
-      "title": "QA Topics - Comprehensive Guide",
-      "desc": "title: \"QA Topics - Comprehensive Guide\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.html",
-      "title": "Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25",
-      "desc": "source: \"Hands-on QAEverest.ai pilot 2026-08-25 (victor-2026/qaeverset-pilot-mini)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.html",
-      "title": "QBurst: Quality Engineering Framework for Validating Agent Behavior",
-      "desc": "**Source:** https://www.qburst.com/blog/2026/09/a-quality-engineering-framework-for-validating-agent-behavior/ (Milan Th",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/quality-characteristics.html",
-      "title": "AI Quality Characteristics",
-      "desc": "title: \"AI Quality Characteristics\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qualityremarks-blog-catalog-all-publications-2026.html",
-      "title": "Quality Remarks — Complete Publications Catalog (Keith Klain)",
-      "desc": "**Source:** https://qualityremarks.com/ (Quality Remarks, Keith Klain — technology leader, Chartered Management Consulta",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/rag-evaluation-ragas.html",
-      "title": "RAG Evaluation Using Ragas",
-      "desc": "source: \"rag-evaluation-ragas.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/red-teaming-tests.html",
-      "title": "Red-Teaming Tests for Wiki LLM",
-      "desc": "title: \"Red-Teaming Tests for Wiki LLM\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/regression-checklist-llm-ci-2026.html",
-      "title": "Regression Checklist Llm Ci 2026",
-      "desc": "source: \"regression-checklist-llm-ci-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/rick-crawford-qe-structural-problem-2026.html",
-      "title": "Your QE Program Has a Structural Problem, and AI Just Made It Visible",
-      "desc": "**Source:** https://blog.postman.com/your-qe-program-has-a-structural-problem-and-ai-just-made-it-visible/ (Rick Crawfor",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.html",
-      "title": "Rinat Abdullin Bdd Vs Sdd Ai Native Harness",
-      "desc": "source: \"rinat-abdullin-bdd-vs-sdd-ai-native-harness.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/risk-based-testing-skill.html",
-      "title": "Risk Based Testing Skill",
-      "desc": "title: \"Risk Based Testing Skill\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/rotation-without-relevance-preseed-mutant-filtering-2026.html",
-      "title": "Rotation Without Relevance: Why Mutants Must Be Filtered Before Seeding",
-      "desc": "**Source:** QAEverest pilot (2026-09-02/03) + external mutation-testing literature",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/rtm-matrix-habr.html",
-      "title": "Requirements Traceability Matrix (RTM): A Tester's Navigator",
-      "desc": "source: \"rtm-matrix-habr.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ruben-hassid-master-ai-claude-tips.html",
-      "title": "Master AI Before It Masters You — 27 Claude Tips",
-      "desc": "title: \"Master AI Before It Masters You — 27 Claude Tips\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.html",
-      "title": "Ruslan Desyatnikov Qa Director Elimination Virus 2026",
-      "desc": "source: \"ruslan-desyatnikov-qa-director-elimination-virus-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ruvnet-agentic-stack-2026.html",
-      "title": "rUv (ruvnet) — Agentic Stack",
-      "desc": "**Source:** https://ruv.io/ (Reuven Cohen) + https://github.com/ruvnet (11.3k followers, 214 repos, 172k stars)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/self-healing-tests.html",
-      "title": "Self-Healing Tests — Why It's a Bad Idea",
-      "desc": "title: \"Self-Healing Tests — Why It's a Bad Idea\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/self-review-loop.html",
-      "title": "Self-Review Loop — Make AI Verify Its Own Work",
-      "desc": "title: \"Self-Review Loop — Make AI Verify Its Own Work\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/sergey-yudin-neurolegal-verified-citations-2026.html",
-      "title": "Sergey Yudin Neurolegal Verified Citations 2026",
-      "desc": "source: \"sergey-yudin-neurolegal-verified-citations-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/shcherbinin-tg-understand-code-debate-2026.html",
-      "title": "Shcherbinin Tg Understand Code Debate 2026",
-      "desc": "source: \"shcherbinin-tg-understand-code-debate-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/slopcodebench-2026.html",
-      "title": "SlopCodeBench",
-      "desc": "**Source:** https://www.scbench.ai (SprocketLab, v1.0)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/software-testing-weekly-newsletter-2026.html",
-      "title": "Software Testing Weekly — обзор ресурса",
-      "desc": "**URL:** https://softwaretestingweekly.com",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/software-testing-with-generative-ai.html",
-      "title": "Software Testing with Generative AI",
-      "desc": "source: \"software-testing-with-generative-ai.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/splunk-odd-explained.html",
-      "title": "Observability-Driven Development (ODD)",
-      "desc": "source: \"splunk-odd-explained.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/state-of-digital-quality-2026.html",
-      "title": "State of Digital Quality 2026 — AI Testing Report",
-      "desc": "title: \"State of Digital Quality 2026 — AI Testing Report\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/stephen-platten-stoic-tester-profile-2026.html",
-      "title": "Stephen Platten Stoic Tester Profile 2026",
-      "desc": "source: \"stephen-platten-stoic-tester-profile-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/stoic-tester-goodharts-law-ai-evaluation-2026.html",
-      "title": "Stoic Tester Goodharts Law Ai Evaluation 2026",
-      "desc": "source: \"stoic-tester-goodharts-law-ai-evaluation-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/stratoplan-management-2026.html",
-      "title": "Stratoplan Management 2026 — Обзор конференции",
-      "desc": "title: \"Stratoplan Management 2026 — Обзор конференции\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/swe-tester-framework.html",
-      "title": "SWE-Tester Framework",
-      "desc": "title: \"SWE-Tester Framework\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/test-automation-fundamentals-revisited.html",
-      "title": "The Fundamentals of Test Automation Revisited",
-      "desc": "title: \"The Fundamentals of Test Automation Revisited\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/test-automation-learning-path.html",
-      "title": "Test Automation Learning Path — E-book Summary",
-      "desc": "title: \"Test Automation Learning Path — E-book Summary\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/test-automation-quadrant.html",
-      "title": "The Test Automation Quadrant",
-      "desc": "title: \"The Test Automation Quadrant\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/test-management.html",
-      "title": "Test Management & Traceability",
-      "desc": "title: \"Test Management & Traceability\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/test-rocket-pyramid-ai-era-2026.html",
-      "title": "Test Rocket: Rethinking the Test Pyramid for the AI Era",
-      "desc": "**Source:** https://dev.to/sudokar/test-rocket-rethinking-the-test-pyramid-for-the-ai-era-2d6n (DEV, Aug 18, 2026) + Hac",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testerstories-blog-catalog-all-publications-2026.html",
-      "title": "Tester Stories — Complete Publications Catalog (Jeff Nyman)",
-      "desc": "**Source:** https://testerstories.com/ (Stories from a Software Tester, Jeff Nyman)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-agent-tool-calls-autonoma.html",
-      "title": "Testing Ai Agent Tool Calls Autonoma",
-      "desc": "source: \"testing-ai-agent-tool-calls-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-book-evidence-foundations.html",
-      "title": "Testing AI: Evidence Foundations",
-      "desc": "This page summarizes Chapters 1-8 of Jason Arbon's *Testing AI*. The summaries use the official public Knowledge Edition",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-book-generated-code-confidence-engineer.html",
-      "title": "Testing AI: Generated Code and the Confidence Engineer",
-      "desc": "This page summarizes Chapters 9-11 and the public brief on AI review loops with coding agents.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-book-index.html",
-      "title": "Testing AI by Jason Arbon: Wiki Index",
-      "desc": "**Book:** *Testing AI: Engineering Confidence in Non-Deterministic Systems*",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-book-playbook-future.html",
-      "title": "Testing AI: Governance, Playbook and Future",
-      "desc": "This page summarizes Chapters 19-21 and the most useful public appendices.",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-book-security-dynamic-systems.html",
-      "title": "Testing AI: Data, Security and Dynamic Systems",
-      "desc": "This page summarizes Chapters 12-18. Chapters 14-16 are more specialized, but the shared principle remains useful: treat",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-ai-generated-auth-code-autonoma.html",
-      "title": "Testing Ai Generated Auth Code Autonoma",
-      "desc": "source: \"testing-ai-generated-auth-code-autonoma.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-maturity-model-tmm-2026.html",
-      "title": "Testing Maturity Model (TMM/TMMi)",
-      "desc": "title: \"Testing Maturity Model (TMM/TMMi)\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-stability.html",
-      "title": "Test Stability & Anti-Flakiness",
-      "desc": "title: \"Test Stability & Anti-Flakiness\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testing-strategies.html",
-      "title": "AI Testing Strategies",
-      "desc": "title: \"AI Testing Strategies\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testmu-ai-formerly-lambdatest-2026.html",
-      "title": "TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform",
-      "desc": "title: \"TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testmuai-agentic-regression-testing-2026.html",
-      "title": "Agentic Regression Testing: What to Delegate, What to Verify",
-      "desc": "**Source:** https://www.testmuai.com/blog/agentic-regression-testing/ (TestMu AI, formerly LambdaTest)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testmuai-blog-catalog-all-publications-2026.html",
-      "title": "TestMu AI Blog: Complete Publications Catalog",
-      "desc": "**Source:** https://www.testmuai.com/blog/ (TestMu AI, formerly LambdaTest)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testrigor-blog-catalog-all-publications-2026.html",
-      "title": "testRigor Blog: Complete Publications Catalog",
-      "desc": "**Source:** https://testrigor.com/blog/",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/the2026aitestingfrontier-astrategicevaluationofautonomousqalifecycleplatforms.html",
-      "title": "The2026Aitestingfrontier Astrategicevaluationofautonomousqalifecycleplatforms",
-      "desc": "source: \"The 2026 AI Testing Frontier - A Strategic Evaluation of Autonomous QA Lifecycle Platforms.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/three-way-comparison.html",
-      "title": "3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework",
-      "desc": "title: \"3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/toe2eornottoe2e-ontestautomation.html",
-      "title": "Toe2Eornottoe2E Ontestautomation",
-      "desc": "source: \"To E2E or not to E2E - On Test Automation.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/token-economy-claude-code-2026.html",
-      "title": "Как экономить токены в Claude Code",
-      "desc": "title: \"Как экономить токены в Claude Code\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/toloka-llm-qa-agent-verification-2026.html",
-      "title": "Toloka Llm Qa Agent Verification 2026",
-      "desc": "source: \"toloka-llm-qa-agent-verification-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/tony-seale-multi-agent-semantic-web-2026.html",
-      "title": "Tony Seale: Multi-Agent Systems and the Semantic Web",
-      "desc": "**Source:** LinkedIn post, Tony Seale (The Knowledge Graph Guy), ~2026-09-03/04",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/topics-map.html",
-      "title": "AI/QA Testing Topics Map",
-      "desc": "title: \"AI/QA Testing Topics Map\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/trickcatcher-bug-detection.html",
-      "title": "TrickCatcher: LLM-Powered Bug Detection in Plausible Programs",
-      "desc": "source: \"trickcatcher-bug-detection.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/vector-databases-fintech-2026.html",
-      "title": "Vector Databases in Fintech",
-      "desc": "title: \"Vector Databases in Fintech\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/vibe-coding-links.html",
-      "title": "Vibe Coding and Agentic Engineering",
-      "desc": "source: \"vibe-coding-links.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/vibe-coding-vs-spec-driven.html",
-      "title": "Vibe Coding vs Spec-Driven Development",
-      "desc": "source: \"vibe-coding-vs-spec-driven.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/vibe-wipe-coding-guide.html",
-      "title": "Vibe Wipe Coding Guide",
-      "desc": "title: \"Vibe Wipe Coding Guide\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/video-capabilities-opencode-free.html",
-      "title": "Video Capabilities in OpenCode Free",
-      "desc": "title: \"Video Capabilities in OpenCode Free\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/virto-commerce-integration-glossary-2026.html",
-      "title": "Virto Commerce Integration Glossary 2026",
-      "desc": "source: \"virto-commerce-integration-glossary-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/virtuoso-blog-catalog-all-publications-2026.html",
-      "title": "Virtuoso QA Blog — Complete Publications Catalog",
-      "desc": "**Source:** https://www.virtuosoqa.com/blog (Our Blog: the latest from Virtuoso)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/virustotal-usage-2026.html",
-      "title": "VirusTotal — Практическое руководство",
-      "desc": "title: \"VirusTotal — Практическое руководство\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/wayne-roseberry-testers-do-more-than-users-2026.html",
-      "title": "Wayne Roseberry Testers Do More Than Users 2026",
-      "desc": "source: \"wayne-roseberry-testers-do-more-than-users-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/webtestbench-ai-web-testing.html",
-      "title": "WebTestBench: AI Agents for Web Testing",
-      "desc": "source: \"webtestbench-ai-web-testing.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/weekly-time-planner-prd-example.html",
-      "title": "Weekly Time Planner — PRD Example",
-      "desc": "title: \"Weekly Time Planner — PRD Example\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/what-is-software-testing.html",
-      "title": "Software Testing",
-      "desc": "source: \"what-is-software-testing.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/winteringham-prompts-readme.html",
-      "title": "Software Testing with Generative AI",
-      "desc": "source: \"winteringham-prompts-readme.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/winteringham-prompts.html",
-      "title": "Software Testing with Generative AI",
-      "desc": "source: \"winteringham-prompts.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/wipe-coding-transition-en.html",
-      "title": "Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks",
-      "desc": "title: \"Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/wipe-coding-transition.html",
-      "title": "Переход от вайб- к вайп-кодингу: benefits, challenges and risks",
-      "desc": "title: \"Переход от вайб- к вайп-кодингу: benefits, challenges and risks\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/zalando-agentic-engineering-snapshot-2026.html",
-      "title": "Agentic Engineering at Zalando: a snapshot (2026-08-14)",
-      "desc": "**Author:** Bartosz Ocytko (Executive Principal Engineer, Zalando)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/какэкономитьтокенывclaudecode.html",
-      "title": "Какэкономитьтокенывclaudecode",
-      "desc": "source: \"Как экономить токены в Claude Code.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.html",
-      "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
-      "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Chaos-Engineering.html",
-      "title": "Chaos Engineering (Хаос-инжиниринг)",
-      "desc": "definition + cross-links — controlled failure injection, resilience testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Fuzzing.html",
-      "title": "Fuzzing (Фаззинг)",
-      "desc": "definition + cross-links — mutation/generation/coverage-guided fuzzing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/API-Testing.html",
-      "title": "API Testing (Тестирование API)",
-      "desc": "definition + cross-links — request/response validation, contract testing",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Test-Reliability.html",
-      "title": "Test Reliability (Надёжность тестов)",
-      "desc": "definition + cross-links — flakiness, reproducibility, stability metrics",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Black-Box-Testing.html",
-      "title": "Black Box Testing (Тестирование чёрного ящика)",
-      "desc": "definition + cross-links — behavioral testing without code access",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/Network-Interception.html",
-      "title": "Network Interception (Перехват сетевых запросов)",
-      "desc": "definition + cross-links — Playwright route, MSW, mock API responses",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/metamorphic-tests-comparison.html",
-      "title": "Metamorphic Testing — Сравнение подходов",
-      "desc": "definition + cross-links — metamorphic relations, oracle problem",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/aria-qa-data-automation-agent-2026.html",
-      "title": "ARIA — QA Data Automation Agent (Agentic RAG + LLM Judge)",
-      "desc": "arxiv 2609.04913 — agentic RAG for tabular QA, reflection mechanism, LLM-Judge verification",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/spaceducking-test-feels-like-autopilot-2026.html",
-      "title": "SpaceDucking — Test Feels Like Autopilot",
-      "desc": "MoT article — 98% manual testing replaced by AI agents, tester as orchestrator",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/integration-testing-systems-stitching-2026.html",
-      "title": "Integration Testing — Systems Stitching Guide",
-      "desc": "TestMu AI guide — when/why/how to test component interactions, service virtualization",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/from-ai-agent-demo-to-production-2026.html",
-      "title": "From AI Agent Demo to Production",
-      "desc": "InfoQ Jul 2026 — demo-to-production gap, observability, guardrails, cost control, HITL",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/openai-wiki-incident-2026.html",
-      "title": "OpenAI Wiki Incident (July 2026)",
-      "desc": "TechCrunch Sep 2026 — AI-generated Wikipedia edits caused ChatGPT bugs, feedback loop",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/beyond-zero-google-experimentation-culture-2026.html",
-      "title": "Beyond Zero — Google's Experimentation Culture",
-      "desc": "Google Research 2026 — experimentation velocity, psychological safety, data-driven culture",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/cappy-small-scorer-boosting-llm-2024.html",
-      "title": "Cappy — Small Scorer Boosting Multi-Task LLMs",
-      "desc": "NeurIPS 2023 / Google Research — 360M param scorer outperforms 175B LLMs, lightweight verification",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/rag-evaluation.html",
-      "title": "RAG Evaluation — How to Test Retrieval-Augmented Generation",
-      "desc": "RAG eval dimensions: retrieval quality, generation quality, faithfulness, frameworks (Ragas, LLM-as-Judge)",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ui-fuzzing.html",
-      "title": "UI Fuzzing — Mutation Through Input",
-      "desc": "Fuzz testing web UI: random, boundary, regression, OWASP patterns; Playwright code examples",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/autonomous-testing-agent-fastest-feedback-2026.html",
-      "title": "Autonomous Testing Agent — Fastest Feedback Cycles (KaneAI + HyperExecute)",
-      "desc": "TestMu AI — GenAI-native agent plans/runs/heals tests, 70% faster with HyperExecute cloud",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/efficient-performance-testing-grid-cloud-2026.html",
-      "title": "Efficient Performance Testing Grid in the Cloud — HyperExecute",
-      "desc": "TestMu AI — AI-native orchestration, 70% faster, auto-split, FailFast, AI RCA, 3K browsers",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/observatory-weekly-quality-gaps-2026.html",
-      "title": "Observatory Weekly: Quality Gaps, Claude QA Skills, Testing Mindset",
-      "desc": "MoT Sep 2026 — community links: quality gaps, Claude Code QA skills, testing mindset debate",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/distributed-llm-inference-swarmllm-2026.html",
-      "title": "Distributed P2P LLM Inference — SwarmLLM",
-      "desc": "Nehanth Narendrula / Red Hat AI — browser P2P LLM via WebRTC, room-code based, MIT open source",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/verification-completeness-testing-paradox-2026.html",
-      "title": "Verification Completeness — The Testing Paradox",
-      "desc": "William Tran + Iosif Itkin LinkedIn thread — you can't fully verify anything, the scarce skill is knowing which tests to scrutinize",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/15-best-agentic-ai-testing-tools-2026.html",
-      "title": "15 Best Agentic AI Testing Tools — September 2026",
-      "desc": "TestMu AI ranking — Kane CLI, QA Wolf, Checksum, testRigor, mabl, Applitools + 9 more",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/visual-regression-testing-complete-guide-2026.html",
-      "title": "Visual Regression Testing — Complete Guide",
-      "desc": "TestMu AI SmartUI — 5 comparison methods, Visual AI, CI/CD integration, 95% false-positive reduction",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/evolving-quality-ai-testing-community-2026.html",
-      "title": "Evolving Quality with AI Testing — Community Reflection",
-      "desc": "Rosie Sherry (MoT CEO) — test automation bias, QA doesn't own automation, models need rewriting",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/meta-muse-personal-ai-agent-2026.html",
-      "title": "Meta Muse — Personal AI Agent (Consumer)",
-      "desc": "Meta Sep 2026 — Muse Spark model, Secure VM, Sentinel agent, $18B settlement context",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/building-professional-resilience-qa-2026.html",
-      "title": "Building Professional Resilience — Career Guide for QA",
-      "desc": "Shawn Vernier (MoT) — shift-left career development, MVI, 3 pillars, job loss preparation",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/recorder-locator-quality-playwright-cli-2026-09.html",
-      "title": "Recorder locator quality: playwright-cli 0.1.19 vs human POMs",
-      "desc": "Micro-probe 2026-09-09: testid>role priority, M1 kills role-based, M7 attribute-rename proposal",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/ai-testing-tools-landscape-hands-on-2026-09.html",
-      "title": "AI Testing Tools Landscape — hands-on pilots and verdicts",
-      "desc": "2026-09-09: T1/T2/T3 tiers, 9 clusters, matrix with verdicts, pilot queue, monthly review",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/executor-evaluator-split-zagirov-2026-09.html",
-      "title": "Executor/evaluator split — Zagirov (Agentiqa) architecture post",
-      "desc": "2026-09-09: blind execution, hetero audit, terminal states, append-only evidence + mapping vs our M1-M6",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/lifemichael-develop-with-ai-monthly-review-2026-08.md",
-      "title": "LifeMichael Develop-with-AI Monthly Review (Aug 2026): orchestration era",
-      "desc": "2026-09-11: Kiro Crew, Devin, Opus 5, JetBrains Context, cyber-eval incidents, swarm economics + XtremeAI Nov 24",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testkube-four-layers-ai-testing-2026-08.html",
-      "title": "Testkube: testing AI systems across all four layers",
-      "desc": "2026-08-28: infra/model/agent/app layers, tools per layer, thresholds, honesty notes",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testkube-smart-suites-test-selection-2026-04.html",
-      "title": "Testkube: smart suites, AI-driven test selection",
-      "desc": "2026-04-22: diff classification, dual mode (smart + scheduled full), prompt quality critical",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testkube-local-vs-frontier-models-2026-07.html",
-      "title": "Testkube: local vs frontier models for test analysis",
-      "desc": "2026-07-29: hybrid doctrine validating our free-first architecture",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/klain-testing-mindset-evaluator-independence-2026-08.html",
-      "title": "Klain: testing mindset vindicated by evaluator-independence research",
-      "desc": "2026-08: self-preference, preference leakage, judge survey + vocabulary mapping old-new",
-      "tag": "Wiki"
-    },
-    {
-      "file": "zborovsky-ai-chief-of-staff-doordash-2026.md",
-      "title": "AI Chief of Staff — личный AI-агент Димы Зборовского (DoorDash)",
-      "tags": [
-        "ai-agent",
-        "personal-productivity",
-        "brief",
-        "debrief",
-        "memory",
-        "claude-code",
-        "doordash"
-      ],
-      "source": "AI Skills Conference"
-    },
-    {
-      "file": "jay-aigner-humans-hold-green-light-2026.md",
-      "title": "Humans hold the green light - Jay Aigner thread (self-testing AIетами)",
-      "tags": [
-        "verification-harness",
-        "attestation",
-        "mutation-score",
-        "self-testing-ai",
-        "green-light",
-        "linkedin-thread"
-      ],
-      "source": "LinkedIn JDAQA 2026-09-15"
-    },
-    {
-      "file": "radik-zagirov-agent-hallucinated-execution-ledger-gate-2026.md",
-      "title": "Agent hallucinated execution chain - Radik Zagirov ledger gate (Agentiqa)",
-      "tags": [
-        "agent-hallucination",
-        "event-ledger",
-        "reconciliation-gate",
-        "evidence-gate",
-        "runtime-enforcement",
-        "agentiqa"
-      ],
-      "source": "LinkedIn Agentiqa 2026-09-15"
-    },
-    {
-      "file": "ivan-davidov-agentic-playwright-context-engineering-2026.md",
-      "title": "Ivan Davidov - context engineering for QA agents (void, rot, progressive disclosure)",
-      "tags": [
-        "context-engineering",
-        "progressive-disclosure",
-        "agentic-playwright",
-        "orchestration",
-        "verifier",
-        "referee"
-      ],
-      "source": "YouTube Codemify interview 2026"
-    },
-    {
-      "file": "addy-osmani-anthropic-verification-floor-skill-decay-2026.md",
-      "title": "Addy Osmani (Anthropic) - verification is the floor, skill decay",
-      "tags": [
-        "verification",
-        "skill-decay",
-        "deliberate-mastery",
-        "attestor",
-        "codify-lessons",
-        "anthropic"
-      ],
-      "source": "LinkedIn 2026-09-08"
-    },
-    {
-      "file": "kiro-llm-judge-pipeline-eval-loop-2026.md",
-      "title": "Kiro LLM-judge pipeline - eval loop on real conversations (-32%)",
-      "tags": [
-        "llm-as-judge",
-        "eval-loop",
-        "rubric",
-        "verification",
-        "cohort-testing",
-        "kiro"
-      ],
-      "source": "LinkedIn Kiro 2026-08"
-    },
-    {
-      "file": "michael-bolton-whereas-critical-thinking-experts-2026.md",
-      "title": "Michael Bolton - WHeReAS critical thinking vs experts (RST)",
-      "tags": [
-        "critical-thinking",
-        "whereas",
-        "rst",
-        "attestation",
-        "halo-effect",
-        "vendor-claims"
-      ],
-      "source": "LinkedIn Bolton 2026-09-15"
-    },
-    {
-      "file": "james-bach-testing-ai-metamorphic-oracle-2026.md",
-      "title": "James Bach - Testing AI beyond test cases (metamorphic, oracle problem)",
-      "tags": [
-        "metamorphic-testing",
-        "oracle-problem",
-        "llm-as-judge",
-        "judge-bias",
-        "rst",
-        "hyundai-case"
-      ],
-      "source": "YouTube talk 2026"
-    },
-    {
-      "file": "addy-osmani-month-digest-verification-gates-2026-09.md",
-      "title": "Addy Osmani month digest - verification, gates, mutation mentions (Anthropic)",
-      "tags": [
-        "anthropic",
-        "month-digest",
-        "test-impact-analysis",
-        "mutation-testing",
-        "tiered-gates",
-        "config-rot",
-        "loop-engineering"
-      ],
-      "source": "LinkedIn copy 2026-09-15"
-    },
-    {
-      "file": "addy-osmani-brownfield-agentic-engineering-2026.md",
-      "title": "Addy Osmani - Brownfield Agentic Engineering (zones, characterization tests, migration blindness)",
-      "tags": [
-        "brownfield",
-        "zones-green-yellow-red",
-        "characterization-tests",
-        "migration-blindness",
-        "agentic-engineering",
-        "blast-radius",
-        "anthropic"
-      ],
-      "source": "Substack 2026-09-14"
-    },
-    {
-      "file": "bach-bolton-amodei-pace-frontier-evaluators-2026.md",
-      "title": "Bach + Bolton teardown - Amodei pace the frontier, embedded evaluators",
-      "tags": [
-        "amodei",
-        "embedded-evaluators",
-        "attestor",
-        "who-pays",
-        "regulatory-capture",
-        "risk-commensurate-testing"
-      ],
-      "source": "YouTube Bach/Bolton 2026"
-    },
-    {
-      "file": "siniouguine-accio-silent-incompleteness-pricing-2026.md",
-      "title": "Siniouguine - Accio silent incompleteness + outcome pricing (Alibaba)",
-      "tags": [
-        "silent-incompleteness",
-        "outcome-pricing",
-        "closed-network",
-        "done-criteria",
-        "cross-domain"
-      ],
-      "source": "LinkedIn Virto 2026-09-15"
-    },
-    {
-      "file": "colantonio-perf-value-ai-cost-savings-2026.md",
-      "title": "Colantonio/Selvaraj - perf testing value as AI-cost savings",
-      "tags": [
-        "perf-testing",
-        "token-economics",
-        "value-framing",
-        "testguild"
-      ],
-      "source": "LinkedIn TestGuild 2026-09-15"
-    },
-    {
-      "file": "pusuluri-oracle-independence-healing-boundary-2026.md",
-      "title": "Pusuluri (AscendQE) - oracle independence + self-healing boundary",
-      "tags": [
-        "oracle-independence",
-        "self-healing",
-        "requirements",
-        "vendor-eval",
-        "ascendqe"
-      ],
-      "source": "LinkedIn AscendQE 2026-09-15"
-    },
-    {
-      "file": "addy-osmani-agentic-autonomy-levels-2026.md",
-      "title": "Addy Osmani - Agentic Autonomy Levels (6 levels, 2 axes, 4 anti-patterns)",
-      "tags": [
-        "autonomy-levels",
-        "agency-axis",
-        "orchestration-axis",
-        "calibrated-autonomy",
-        "agent-contract",
-        "anthropic"
-      ],
-      "source": "Substack 2026-07-03"
-    },
-    {
-      "file": "addy-osmani-human-judgment-software-factory-2026.md",
-      "title": "Addy Osmani - Human judgment relocates in the software factory",
-      "tags": [
-        "human-judgment",
-        "software-factory",
-        "verification-budget",
-        "comprehension-debt",
-        "runs-taxonomy",
-        "anthropic"
-      ],
-      "source": "Substack 2026-08-21"
-    },
-    {
-      "file": "addy-osmani-agentic-code-quality-2026.md",
-      "title": "Addy Osmani - Agentic Code Quality (constraints = quality gates)",
-      "tags": [
-        "constraints",
-        "quality-gates",
-        "back-pressure",
-        "mutation-testing",
-        "verification-scaling",
-        "anthropic"
-      ],
-      "source": "Substack 2026-08-08"
-    },
-    {
-      "file": "addy-osmani-software-factories-light-and-dark-2026.md",
-      "title": "Addy Osmani - Software Factories Light and Dark (comprehension debt, back pressure)",
-      "tags": [
-        "dark-factory",
-        "lit-factory",
-        "comprehension-debt",
-        "back-pressure",
-        "outer-loop",
-        "anthropic"
-      ],
-      "source": "Substack 2026-07-22"
-    },
-    {
-      "file": "addy-osmani-own-the-outer-loop-2026.md",
-      "title": "Addy Osmani - Own the Outer Loop (answerability, verdict, cognitive surrender)",
-      "tags": [
-        "outer-loop",
-        "answerability",
-        "verdict",
-        "cognitive-surrender",
-        "cognitive-debt",
-        "taste",
-        "anthropic"
-      ],
-      "source": "Substack 2026-07-09"
-    },
-    {
-      "file": "testers-ai-ten-minute-tester-workshop-2026.md",
-      "title": "testers.ai Ten Minute Tester - human vs AI field study (1 vs 16 defect families)",
-      "tags": [
-        "human-vs-ai",
-        "field-study",
-        "coverage-gap",
-        "usability",
-        "breadth-vs-depth",
-        "testers-ai"
-      ],
-      "source": "testers.ai workshop 2026-09-16"
-    },
-    {
-      "file": "beecommerce-12-agents-5-layers-2026.md",
-      "title": "BeeCommerce - 12 AI agents, 5 layers, context-as-a-service (Polish software house)",
-      "tags": [
-        "software-factory",
-        "context-management",
-        "quality-gates",
-        "read-only-agents",
-        "escalation",
-        "kubernetes",
-        "ecommerce"
-      ],
-      "source": "beecommerce.pl 2026-04-20"
-    },
-    {
-      "file": "contextqa-ai-agent-testing-platform-2026.md",
-      "title": "ContextQA - AI Agent Testing Platform (enterprise, Agentic Quality Tour)",
-      "tags": [
-        "ai-agent-testing",
-        "production-readiness",
-        "trust-validation",
-        "no-code",
-        "enterprise",
-        "market-landscape"
-      ],
-      "source": "LinkedIn posts 2026-08/09"
-    },
-    {
-      "file": "adamtornhill-practices-abandoned-agents-2026.md",
-      "title": "Adam Tornhill - Practices I Abandoned with Agents (TDD → e2e boundaries)",
-      "tags": [
-        "tdd",
-        "agentic-coding",
-        "e2e-tests",
-        "human-agent-boundary",
-        "double-entry-bookkeeping",
-        "tooling-enforcement",
-        "codescene"
-      ],
-      "source": "substack 2026-09-03"
-    },
-    {
-      "file": "raw/testmuai-llm-evaluation-vs-e2e-agent-testing-2026.md",
-      "title": "TestMu AI - LLM Evaluation vs E2E Agent Testing (eval=score, test=verdict)",
-      "tags": [
-        "llm-eval",
-        "e2e-testing",
-        "agent-testing",
-        "production-readiness",
-        "green-yellow-red"
-      ],
-      "source": "testmuai.com 2026-09-13"
-    },
-    {
-      "file": "raw/testmuai-finance-ai-agent-compliance-testing-2026.md",
-      "title": "TestMu AI - Finance AI Agent Compliance Testing (FINRA, attestation pattern)",
-      "tags": [
-        "compliance",
-        "finra",
-        "attestation",
-        "agent-output",
-        "regulation"
-      ],
-      "source": "testmuai.com 2026-09-14"
-    },
-    {
-      "file": "raw/antongulin-save-failed-playwright-test-trace-2026.md",
-      "title": "Anton Gulin - Save Clues from Failed Playwright Test (retain-on-failure, evidence chain)",
-      "tags": [
-        "playwright",
-        "evidence-chain",
-        "trace",
-        "debugging",
-        "retain-on-failure"
-      ],
-      "source": "anton.qa 2026-09-16"
-    },
-    {
-      "file": "raw/bach-jensen-safety-debate-2026.md",
-      "title": "Bach vs Jensen - AI Safety as Engineering vs Market Failure",
-      "tags": [
-        "ai-safety",
-        "market-failure",
-        "regulation",
-        "governance",
-        "dreamforce"
-      ],
-      "source": "LinkedIn 2026-09-17"
-    },
-    {
-      "file": "raw/boris-cherney-claude-code-tips-2026.md",
-      "title": "Boris Cherny - Claude Code Practical Tips (Anthropic, agentic loop, CLAUDE.md, permissions)",
-      "tags": [
-        "claude-code",
-        "agentic-coding",
-        "cld-md",
-        "permissions",
-        "self-check",
-        "iteration",
-        "anthropic"
-      ],
-      "source": "youtube 2026"
-    },
-    {
-      "file": "raw/keithklain-death-by-thousand-prompts-2026.md",
-      "title": "Keith Klain - Death by a Thousand Prompts (more tests ≠ better testing)",
-      "tags": [
-        "testing-theater",
-        "ai-safety",
-        "eval-critique",
-        "independence",
-        "amodei"
-      ],
-      "source": "qualityremarks.com 2026-09-14"
-    },
-    {
-      "file": "raw/michaela-greiler-scope-model-code-oversight-2026.md",
-      "title": "Michaela Greiler - SCOPE Model (Code Review → Code Oversight)",
-      "tags": [
-        "code-review",
-        "oversight",
-        "agent-generated-tests",
-        "staged-escalation",
-        "scope-model"
-      ],
-      "source": "ministryoftesting.com 2026-09-16"
-    },
-    {
-      "file": "schaper-harness-effectiveness-check-2026.md",
-      "title": "Schaper - harness effectiveness check (scheduled re-measurement)",
-      "tags": [
-        "effectiveness-check",
-        "re-measurement",
-        "model-routing",
-        "harness",
-        "calibration"
-      ],
-      "source": "LinkedIn via Perplexity 2026-09"
-    },
-    {
-      "file": "no-human-read-csharp-gates-sealed-suite-2026.md",
-      "title": "No-human-read C# experiment - gates, sealed suite, mutation 19 vs 34",
-      "tags": [
-        "sealed-suite",
-        "mutation-score",
-        "false-pass",
-        "oracle-first",
-        "amdahl",
-        "no-reading",
-        "variance"
-      ],
-      "source": "YouTube series finale 2026"
-    },
-    {
-      "file": "matthias-schaper-author-harness-measurement-2026.md",
-      "title": "Matthias Schaper - author profile (harness engineering, measurement)",
-      "tags": [
-        "author-profile",
-        "harness",
-        "measurement",
-        "nightly-sweep",
-        "mcp-audit",
-        "routing"
-      ],
-      "source": "LinkedIn 53 posts 2026-09"
-    },
-    {
-      "file": "cyboflow-verification-patterns-changelog-2026.md",
-      "title": "CyboFlow - verification patterns from changelog (553 entries)",
-      "tags": [
-        "cyboflow",
-        "verify-harness",
-        "eval-jury",
-        "lane-triage",
-        "blocked-failed",
-        "runbook",
-        "approve-gate"
-      ],
-      "source": "cyboflow.com/changelog 2026-09-16"
-    },
-    {
-      "file": "test-editing-agent-colantonio-pettersson-2026.md",
-      "title": "Test-editing agent (Colantonio/Pettersson) - failure mode",
-      "tags": [
-        "test-editing",
-        "oracle-independence",
-        "assertion-stability",
-        "testguild"
-      ],
-      "source": "LinkedIn TestGuild 2026-09-17"
-    },
-    {
-      "title": "Agentics Foundation Serbia — YouTube Channel Catalog",
-      "file": "wiki/agentics-foundation-serbia-youtube-2025-2026.md",
-      "tags": [
-        "agentic-qe",
-        "serbia",
-        "agentics-foundation",
-        "youtube",
-        "dragan-spiridonov",
-        "meetup"
-      ],
-      "created": "2026-09-17"
-    },
-    {
-      "file": "virto-qa-surface-recon-2026-09-17.md",
-      "title": "Virto QA surface recon - vc-mcp-testing-module map",
-      "tags": [
-        "virto",
-        "recon",
-        "csv-suites",
-        "ci-twins",
-        "partner-packs"
-      ],
-      "source": "GitHub + local 2026-09-17"
-    },
-    {
-      "file": "radik-zagirov-p-action-ontology-runtimes-2026.md",
-      "title": "Radik Zagirov - Palantir Action Ontology for agent runtimes",
-      "tags": [
-        "action-ontology",
-        "runtime-enforcement",
-        "dynamic-actions",
-        "external-verification",
-        "agentiqa"
-      ],
-      "source": "LinkedIn Agentiqa 2026-09-17"
-    },
-    {
-      "title": "Action Ontology Runtimes: Constraining Agent Execution with State Machines",
-      "file": "wiki/action-ontology-runtimes-agent-execution-2026.md",
-      "tags": [
-        "agentiqa",
-        "action-ontology",
-        "runtime-verification",
-        "state-machine",
-        "enterprise-agents"
-      ],
-      "created": "2026-09-17"
-    },
-    {
-      "title": "BrowserStack Blog — Breakpoint 2026 & Test Companion",
-      "file": "wiki/browserstack-blog-breakpoint-2026-test-companion.md",
-      "tags": [
-        "browserstack",
-        "breakpoint-2026",
-        "test-companion",
-        "ai-testing",
-        "mcp",
-        "verifier-pattern"
-      ],
-      "created": "2026-09-17"
-    },
-    {
-      "file": "typesafe-jev-judgment-service-gates-2026.md",
-      "title": "TypeSafe Jev - judgment-as-service for gates (via Paluy)",
-      "tags": [
-        "judgment-service",
-        "calibrated-confidence",
-        "guardrails",
-        "model-routing",
-        "typesafe"
-      ],
-      "source": "LinkedIn Paluy 2026-09-18"
-    },
-    {
-      "file": "living-documentation-moldable-development-jit-2026.md",
-      "title": "Living Documentation + Moldable Development (JIT learning)",
-      "tags": [
-        "living-documentation",
-        "moldable-development",
-        "jit-learning",
-        "executable-specs",
-        "onboarding"
-      ],
-      "source": "user material 2026-09-18"
-    },
-    {
-      "file": "devtool-gtm-engineered-word-of-mouth-2026.md",
-      "title": "Engineered word-of-mouth - dev-tool GTM playbook (TypeSafe case)",
-      "tags": [
-        "gtm",
-        "word-of-mouth",
-        "devtool",
-        "launch",
-        "bench-format"
-      ],
-      "source": "wiki synthesis 2026-09-19",
-      "dir": "wiki"
-    }
-  ],
-  "raw_count": 221,
-  "updated": "2026-09-16"
+ "topics": [
+  {
+   "file": "wiki/15-best-agentic-ai-testing-tools-2026.html",
+   "title": "15 Best Agentic AI Testing Tools — September 2026",
+   "desc": "> TestMu AI (formerly LambdaTest), Sep 5, 2026. Author: Samyak Goyal (Kane CLI engineer), Reviewer: Salman Khan.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/21-cfr-part-11-electronic-records-2026.html",
+   "title": "21 Cfr Part 11 Electronic Records 2026",
+   "desc": "source: \"21-cfr-part-11-electronic-records-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/3-ai-test-tools-orangehrm-comparison-2026.html",
+   "title": "3 Ai Test Tools Orangehrm Comparison 2026",
+   "desc": "source: \"3-ai-test-tools-orangehrm-comparison-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/30-ai-questions-manual-qa-2026.html",
+   "title": "30 AI-Focused Interview Questions for Manual QA",
+   "desc": "title: \"30 AI-Focused Interview Questions for Manual QA\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/30questiontomodernmanualqa.html",
+   "title": "AI‑Enhanced Manual QA – Interview Framework",
+   "desc": "source: \"30 question to modern manual QA.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/6aiconceptsyoumustmastertobuildproduction-readyaisystems.html",
+   "title": "6Aiconceptsyoumustmastertobuildproduction Readyaisystems",
+   "desc": "source: \"6 AI Concepts You Must Master to Build Production-Ready AI Systems.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/7-layer-llm-testing-framework-2026.html",
+   "title": "7-Layer Testing Framework for Public-Facing LLMs",
+   "desc": "title: \"7-Layer Testing Framework for Public-Facing LLMs\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/API-Testing.html",
+   "title": "API Testing (Тестирование API)",
+   "desc": "**Определение:** Проверка API (Application Programming Interface) на корректность, производительность, безопасность и со",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Agentic Development Lifecycle (ADLC).html",
+   "title": "Agentic Development Lifecycle (Adlc)",
+   "desc": "title: \"Agentic Development Lifecycle (Adlc)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Black-Box-Testing.html",
+   "title": "Black Box Testing (Тестирование «чёрного ящика»)",
+   "desc": "**Определение:** Тестирование без доступа к исходному коду, архитектуре или внутренней логике системы. Тестер работает т",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Chaos-Engineering.html",
+   "title": "Chaos Engineering (Хаос-инжиниринг)",
+   "desc": "**Определение:** Дисциплина экспериментирования с системами для выявления слабых мест через контролируемые сбои. Цель — ",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/EARS и BDD.html",
+   "title": "EARS и BDD: От требований к тестам",
+   "desc": "title: \"EARS и BDD: От требований к тестам\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Fuzzing.html",
+   "title": "Fuzzing (Фаззинг)",
+   "desc": "**Определение:** Автоматизированный метод тестирования, при котором система получает массовые случайные, некорректные ил",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Mutation-testing-advanced-playwright.html",
+   "title": "Advanced Mutation Testing with Playwright",
+   "desc": "title: \"Advanced Mutation Testing with Playwright\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Mutation-testing-without-code.html",
+   "title": "Мутационное тестирование без доступа к коду",
+   "desc": "title: \"Мутационное тестирование без доступа к коду\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Network-Interception.html",
+   "title": "Network Interception (Перехват сетевых запросов)",
+   "desc": "**Определение:** Перехват и модификация HTTP/HTTPS-запросов во время тестирования для имитации серверных ответов, ошибок",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/README.html",
+   "title": "AI QA Wiki — навигация по корню",
+   "desc": "299 файлов, плоская структура — так задумано: Obsidian-вики с `[[wiki/...]]`-ссылками, поиск через `wiki-topics.json` / ",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/Test-Reliability.html",
+   "title": "Test Reliability (Надёжность тестов)",
+   "desc": "**Определение:** Способность тест-сьюты давать воспроизводимые, стабильные результаты без ложноположительных и ложноотри",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/action-ontology-runtimes-agent-execution-2026.html",
+   "title": "Action Ontology Runtimes: Constraining Agent Execution with State Machines",
+   "desc": "title: \"Action Ontology Runtimes: Constraining Agent Execution with State Machines\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ad-hoc-testing-guide.html",
+   "title": "Ad Hoc Testing",
+   "desc": "source: \"ad-hoc-testing-guide.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/addy-osmani-agentic-autonomy-levels-2026.html",
+   "title": "Addy Osmani — Agentic Autonomy Levels (2026)",
+   "desc": "**Source:** https://addyo.substack.com/p/agentic-autonomy-levels",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/addy-osmani-agentic-code-quality-2026.html",
+   "title": "Addy Osmani — Agentic Code Quality (2026)",
+   "desc": "**Source:** https://addyo.substack.com/p/agentic-code-quality",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/addy-osmani-brownfield-agentic-engineering-2026.html",
+   "title": "Addy Osmani — Brownfield Agentic Engineering (2026)",
+   "desc": "**Source:** https://addyo.substack.com/p/brownfield-agentic-engineering",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/addy-osmani-human-judgment-software-factory-2026.html",
+   "title": "Addy Osmani — Human Judgment Doesn't Leave. It Relocates. (2026)",
+   "desc": "**Source:** https://addyo.substack.com/p/human-judgment-doesnt-leave-the-software",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/addy-osmani-own-the-outer-loop-2026.html",
+   "title": "Addy Osmani — Own the Outer Loop (2026)",
+   "desc": "**Source:** https://addyo.substack.com/p/own-the-outer-loop",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/addy-osmani-software-factories-light-and-dark-2026.html",
+   "title": "Addy Osmani — Software Factories, Light and Dark (2026)",
+   "desc": "**Source:** https://addyo.substack.com/p/software-factories-light-and-dark",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agent-comparison-benchmark.html",
+   "title": "Сравнительное тестирование агентов (benchmark)",
+   "desc": "title: \"Сравнительное тестирование агентов (benchmark)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agent-skills-specification.html",
+   "title": "Agent Skills — экосистема скиллов для AI-агентов",
+   "desc": "title: \"Agent Skills — экосистема скиллов для AI-агентов\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agent-teams-architecture.html",
+   "title": "Agent Teams Architecture",
+   "desc": "title: \"Agent Teams Architecture\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agentic-engineering-hacks.html",
+   "title": "Хаки агентного инжиниринга — 22 приёма для эффективной работы с AI-агентами",
+   "desc": "source: \"hacks_ru.pdf\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agentic-patterns.html",
+   "title": "Agentic Patterns",
+   "desc": "title: \"Agentic Patterns\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agentics-foundation-serbia-youtube-2025-2026.html",
+   "title": "Agentics Foundation Serbia — YouTube Channel",
+   "desc": "title: Agentics Foundation Serbia — YouTube Channel Catalog",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agents-discussion-300526.html",
+   "title": "Agents Discussion 300526",
+   "desc": "source: \"Agents-discussion-300526.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/agents-md-discussion.html",
+   "title": "AGENTS.md — 2 итерация: Сравнение предложений",
+   "desc": "title: \"AGENTS.md — 2 итерация: Сравнение предложений\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.html",
+   "title": "AI Agents Replace Team Roles: The 35-Agent Startup Model",
+   "desc": "**Source:** Mogilko, Marina. \"AI Safety Expert: No One Is Ready for What's Coming in 2 Years | Roman Yampolskiy.\" *Silic",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-chaos-testing.html",
+   "title": "AI for Chaos Testing",
+   "desc": "source: \"ai-chaos-testing.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-dlc-process-testing-guardrails-2026.html",
+   "title": "Ai Dlc Process Testing Guardrails 2026",
+   "desc": "source: \"ai-dlc-process-testing-guardrails-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-fluency-interview-2026.html",
+   "title": "AI Fluency: The New Interview Standard",
+   "desc": "title: \"AI Fluency: The New Interview Standard\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-fluency-interview-reform-2026.html",
+   "title": "Ai Fluency Interview Reform 2026",
+   "desc": "source: \"ai-fluency-interview-reform-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-in-qa-issue-17-butch-mayhew-2026.html",
+   "title": "AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)",
+   "desc": "title: \"AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-productivity-paradox-verification-layer-2026.html",
+   "title": "Ai Productivity Paradox Verification Layer 2026",
+   "desc": "source: \"ai-productivity-paradox-verification-layer-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.html",
+   "title": "AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry",
+   "desc": "title: \"AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-qa-exoskeleton-habr.html",
+   "title": "AI-Экзоскелет для QA-Инженера",
+   "desc": "source: \"ai-qa-exoskeleton-habr.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-qa-exoskeleton-launch-habr.html",
+   "title": "AI-Экзоскелет для QA: Запуск за 4 часа",
+   "desc": "source: \"ai-qa-exoskeleton-launch-habr.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-qa-tool-evaluation-mutation-matrix.html",
+   "title": "Ai Qa Tool Evaluation Mutation Matrix",
+   "desc": "source: \"Hands-on QAEverest.ai pilot + methodology (2026-08-26)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-qa-transformation-lead.html",
+   "title": "AI QA Transformation Lead — Role Specialization",
+   "desc": "title: \"AI QA Transformation Lead — Role Specialization\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-regression-testing-workflows.html",
+   "title": "AI Regression Testing Workflows",
+   "desc": "source: \"ai-regression-testing-workflows.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-risk-communication-2026.html",
+   "title": "AI Risk Communication for QA Leaders",
+   "desc": "title: \"AI Risk Communication for QA Leaders\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-roi-regression-testing.html",
+   "title": "Maximizing ROI with AI Functional and Regression Testing",
+   "desc": "source: \"ai-roi-regression-testing.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-agents-review-2026.html",
+   "title": "2026: Обзор и апробация ИИ-агентов для тестирования",
+   "desc": "title: \"2026: Обзор и апробация ИИ-агентов для тестирования\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-effectiveness-papers.html",
+   "title": "AI Testing Effectiveness",
+   "desc": "source: \"ai-testing-effectiveness-papers.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-effectiveness.html",
+   "title": "AI Testing Effectiveness",
+   "desc": "title: \"AI Testing Effectiveness\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-frameworks-complete.html",
+   "title": "AI Testing Frameworks — Complete Technical Reference",
+   "desc": "title: \"AI Testing Frameworks — Complete Technical Reference\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-glossary-n-z.html",
+   "title": "AI Testing Glossary (N–Z)",
+   "desc": "title: \"AI Testing Glossary (N-Z)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-glossary.html",
+   "title": "AI Testing Glossary",
+   "desc": "title: \"AI Testing Glossary\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-map.html",
+   "title": "AI Testing Map",
+   "desc": "title: \"AI Testing Map\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-metrics.html",
+   "title": "AI Testing Metrics",
+   "desc": "title: \"AI Testing Metrics\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-platform-comparison-2026.html",
+   "title": "AI Testing Platform Comparison 2026",
+   "desc": "title: \"AI Testing Platform Comparison 2026\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-testing-tools-landscape-hands-on-2026-09.html",
+   "title": "AI Testing Tools Landscape — Hands-On Pilots & Verdicts (2026-09-09)",
+   "desc": "**What this is:** our independent map — tools WE piloted (with verdicts) + tools researched (vendor claims, discounted).",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ai-tools-2026.html",
+   "title": "AI Tools 2026 — Overview with Advantages",
+   "desc": "title: \"AI Tools 2026 — Overview with Advantages\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/aiengineeringskillsmap-softwareengineeringfundamentals.html",
+   "title": "Aiengineeringskillsmap Softwareengineeringfundamentals",
+   "desc": "source: \"[raw/AI Engineering Skills Map - Software engineering fundamentals.md](../raw/AI%20Engineering%20Skills%20Map%2",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ailist2026.html",
+   "title": "AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants",
+   "desc": "source: \"AI list 2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/alex-barady-ai-builder-9-concepts-2026.html",
+   "title": "Alex Barády: 9 Concepts That Separate AI User from AI Builder",
+   "desc": "title: \"Alex Barády: 9 Concepts That Separate AI User from AI Builder\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/alex-karp-neurodivergent-advantage-2026.html",
+   "title": "Alex Karp Neurodivergent Advantage 2026",
+   "desc": "source: \"alex-karp-neurodivergent-advantage-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/allure-testops-research-2026.html",
+   "title": "Allure TestOps",
+   "desc": "source: \"allure-testops-research-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/andrew-ng-coding-agents-skills-map-2026.html",
+   "title": "Andrew Ng: AI Engineering Skills Map — Using Coding Agents",
+   "desc": "**Source:** https://www.linkedin.com/pulse/ai-engineering-skills-map-using-coding-agents-andrew-ng-h8yxc/ (Andrew Ng, De",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/andrew-ng-loop-engineering-2026.html",
+   "title": "Andrew Ng Loop Engineering 2026",
+   "desc": "source: \"andrew-ng-loop-engineering-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/andrew-ng-openworker-security-agents-2026.html",
+   "title": "Andrew Ng Openworker Security Agents 2026",
+   "desc": "source: \"andrew-ng-openworker-security-agents-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/anti-flakiness-habr.html",
+   "title": "Anti-Flakiness: Best Practices for Reliable Tests",
+   "desc": "source: \"anti-flakiness-habr.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/antigravity-benchmark.html",
+   "title": "Сравнение: OpenCode vs Antigravity (Go migration)",
+   "desc": "title: \"Сравнение: OpenCode vs Antigravity (Go migration)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/anton-gulin-3-layer-ai-qa-architecture.html",
+   "title": "Anton Gulin: 3-Layer AI Test Automation Architecture",
+   "desc": "title: \"Anton Gulin: 3-Layer AI Test Automation Architecture\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/anton-gulin-playwright-vs-cypress-vs-selenium-2026.html",
+   "title": "Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison",
+   "desc": "title: \"Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/anton-gulin-regression-suite-museum-2026.html",
+   "title": "Your Regression Suite Is a Museum: 5 Questions That Decide Delete vs Keep",
+   "desc": "**Source:** https://www.anton.qa/blog/posts/regression-suite-museum (Anton Gulin, AI QA Architect, ex-Apple SDET)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/aria-qa-data-automation-agent-2026.html",
+   "title": "ARIA — QA Data Automation Agent (Agentic RAG + LLM Judge)",
+   "desc": "> arxiv.org/abs/2609.04913 (Sep 2026). Authors: Qixiao Zhang, Yuxin Wang, Yifei Li, Xiao Yu, Haotian Li, Yue Liu, Xin Li",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/arxiv-ai-testing-effectiveness-2026.html",
+   "title": "AI Testing Effectiveness",
+   "desc": "source: \"arxiv-ai-testing-effectiveness-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-agent-memory-2026.html",
+   "title": "How to Test AI Agent Memory (Short- and Long-Term)",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-ai-agent-memory",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-agent-regression-2026.html",
+   "title": "Agent Regression Testing: When Your Agent Breaks Without a Deploy",
+   "desc": "**Source:** https://getautonoma.com/blog/agent-regression-testing",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-agent-reliability-2026.html",
+   "title": "AI Agent Reliability Testing: Catching Silent Failures",
+   "desc": "**Source:** https://getautonoma.com/blog/ai-agent-reliability-testing",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-agent-simulation-2026.html",
+   "title": "What Is Agent Simulation Testing? A 3-Actor Harness",
+   "desc": "**Source:** https://getautonoma.com/blog/agent-simulation-testing",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-blog-catalog-all-publications-2026.html",
+   "title": "Autonoma Blog: Complete Publications Catalog (581 Articles)",
+   "desc": "**Source:** https://getautonoma.com/blog",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-crewai-evaluation-2026.html",
+   "title": "CrewAI Evaluation and Testing: How to Test CrewAI Agents",
+   "desc": "**Source:** https://getautonoma.com/blog/crewai-evaluation",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-hallucinations-2026.html",
+   "title": "How to Test for AI Hallucinations: A Code-First Guide",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-for-ai-hallucinations",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-how-to-test-ai-agent-e2e-2026.html",
+   "title": "How to Test an AI Agent (End to End)",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-an-ai-agent",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-langgraph-testing-2026.html",
+   "title": "LangGraph Testing and Debugging: A Practical Guide",
+   "desc": "**Source:** https://getautonoma.com/blog/langgraph-testing",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-llm-evals-cicd-2026.html",
+   "title": "How to Run LLM Evals in CI/CD",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-run-llm-evals-in-ci-cd",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-llm-unit-testing-2026.html",
+   "title": "LLM Unit Testing: Writing Tests for Your Prompts",
+   "desc": "**Source:** https://getautonoma.com/blog/llm-unit-testing",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-mcp-server-2026.html",
+   "title": "How to Test an MCP Server: 3 Layers That Actually Work",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-an-mcp-server",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-multi-agent-handoffs-2026.html",
+   "title": "How to Test Multi-Agent Systems (Handoffs and Orchestration)",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-multi-agent-systems",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-multi-turn-conversations-2026.html",
+   "title": "How to Test Multi-Turn Conversations and Context Retention",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-multi-turn-conversations",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-non-deterministic-outputs-2026.html",
+   "title": "How to Test Non-Deterministic AI Outputs",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-non-deterministic-ai-outputs",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-open-source-self-driving-2026.html",
+   "title": "Autonoma Open Source & Architecture (June 2026)",
+   "desc": "title: \"Autonoma Open Source & Architecture (June 2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-orangehrm-setup-notes.html",
+   "title": "Autonoma на OrangeHRM: опыт первой настройки",
+   "desc": "title: \"Autonoma на OrangeHRM: опыт первой настройки\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-qa-ai-feature-2026.html",
+   "title": "How to QA a Generative AI Feature Before You Ship",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-qa-an-ai-feature",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-rag-evaluation-metrics-2026.html",
+   "title": "How to Build a RAG Evaluation Framework in 4 Metrics",
+   "desc": "**Source:** https://getautonoma.com/blog/rag-evaluation-metrics",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-rag-pipeline-2026.html",
+   "title": "How to Test a RAG Pipeline: Two Surfaces, Not One Score",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-a-rag-pipeline",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-rag-retrieval-2026.html",
+   "title": "How to Test if RAG Is Retrieving the Right Context",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-rag-retrieval",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-streaming-responses-2026.html",
+   "title": "How to Test Streaming AI Responses",
+   "desc": "**Source:** https://getautonoma.com/blog/how-to-test-streaming-ai-responses",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-testing-tool-calls-2026.html",
+   "title": "How to Test AI Agents That Take Actions (Tool Calls)",
+   "desc": "**Source:** https://getautonoma.com/blog/testing-ai-agent-tool-calls",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonoma-шагивпайплайне.html",
+   "title": "Autonoma Шагивпайплайне",
+   "desc": "source: \"Autonoma - шаги в пайплайне.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/autonomous-testing-agent-fastest-feedback-2026.html",
+   "title": "Autonomous Testing Agent — Fastest Feedback Cycles for Complex Systems",
+   "desc": "> TestMu AI (formerly LambdaTest), Sep 2026. Product: **KaneAI** + **HyperExecute**. Source: testmuai.com/blog",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/avito-ai-code-review-llm-pipeline-2026.html",
+   "title": "Avito Ai Code Review Llm Pipeline 2026",
+   "desc": "source: \"https://habr.com/ru/companies/avito/articles/1024954/\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/avito-baas-platform-qa-2026.html",
+   "title": "Avito Baas Platform Qa 2026",
+   "desc": "source: \"https://avito.tech/content/pymlyskp41-qa-na-urovne-platformi-kak-mi-stroili-si\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/bas-dijkstra-learning-takes-time-2026.html",
+   "title": "Learning Takes Time — But Do We Get That Time?",
+   "desc": "**Source:** On Test Automation newsletter (Bas Dijkstra, bas@ontestautomation.com)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/bdd-ai-native-harness.html",
+   "title": "BDD как AI-Native Harness",
+   "desc": "title: \"BDD как AI-Native Harness\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/beyond-zero-google-experimentation-culture-2026.html",
+   "title": "Beyond Zero — Google's Experimentation Culture",
+   "desc": "> Google (2026). Author: Nicole Pearson. URL: https://research.google/blog/beyond-zero-the-culture-of-experimentation-at",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/beyondquality-ai-era-testing-2026.html",
+   "title": "BeyondQuality: QA in the Age of AI-Accelerated Development",
+   "desc": "**Source:** https://beyondquality.org/research/ai-era-testing/ (Vitaly Sharovatov — developer advocate @ Qase + Liliia A",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/bolton-bach-llm-sandwich-hygiene-protocol-2026.html",
+   "title": "Bolton & Bach: LLM Sandwich Test (2026-09-19)",
+   "desc": "title: \"Bolton & Bach: LLM Sandwich Test и ментальная гигиена против антропоморфизации\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/boris-cherny-claude-maintains-apps-2026.html",
+   "title": "Boris Cherny Claude Maintains Apps 2026",
+   "desc": "source: \"boris-cherny-claude-maintains-apps-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/brij-kishore-pandey-retroactive-ai-titles-2026.html",
+   "title": "Brij Kishore Pandey Retroactive Ai Titles 2026",
+   "desc": "source: \"brij-kishore-pandey-retroactive-ai-titles-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/browser-ai-testing-agents.html",
+   "title": "Browser-Based AI Testing Agents",
+   "desc": "title: \"Browser-Based AI Testing Agents\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/browserstack-blog-breakpoint-2026-test-companion.html",
+   "title": "BrowserStack Blog — Breakpoint 2026 & Test Companion",
+   "desc": "title: \"BrowserStack Blog — Breakpoint 2026 & Test Companion\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/building-professional-resilience-qa-2026.html",
+   "title": "Building Professional Resilience — Career Guide for QA",
+   "desc": "> Ministry of Testing, Sep 8, 2026. Author: Shawn Vernier (Quality Engineer).",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/c4-model-software-architecture.html",
+   "title": "C4 Model — Visualising Software Architecture",
+   "desc": "title: \"C4 Model — Visualising Software Architecture\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/canary-testing-guide.html",
+   "title": "Canary Testing",
+   "desc": "source: \"canary-testing-guide.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/cappy-small-scorer-boosting-llm-2024.html",
+   "title": "Cappy — Small Scorer Boosting Multi-Task LLMs",
+   "desc": "> Google Research (Mar 2024). Authors: Bowen Tan, Yun Zhu, Lijuan Liu, Eric Xing, Zhiting Hu, Jindong Chen. NeurIPS 2023",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/carbon-ai-agentic-verification-harness.html",
+   "title": "Carbon Ai Agentic Verification Harness",
+   "desc": "source: \"CARBON, AI Agentic Verification Harnes.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/claude-code-ci-cd-mcp-2026.html",
+   "title": "Claude Code Ci Cd Mcp 2026",
+   "desc": "source: \"claude-code-ci-cd-mcp-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/claude-code-qa-testing-2026.html",
+   "title": "Claude Code Qa Testing 2026",
+   "desc": "source: \"claude-code-qa-testing-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/claude-code-skill-examples-2026.html",
+   "title": "Claude Code Skill Examples 2026",
+   "desc": "source: \"claude-code-skill-examples-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/claude-code-tests-part1.html",
+   "title": "Writing Tests with Claude Code — Part 1",
+   "desc": "title: \"Writing Tests with Claude Code — Part 1\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/claude-meetup-beginners-beyond-aug2026-summary.html",
+   "title": "Claude for Beginners and Beyond: Meetup Summary (Aug 18, 2026)",
+   "desc": "**Source:** https://lifemichael.com/en/claude-for-beginners-and-beyond-highlights-from-our-latest-meetup/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/comprehension-debt.html",
+   "title": "Comprehension Debt",
+   "desc": "source: \"comprehension-debt.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/consumer-drivencontracttestingpost.html",
+   "title": "Consumer‑Driven Contract Testing",
+   "desc": "source: \"Consumer-driven contract testing (post).md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/context-loss-orchestration-separation-2026.html",
+   "title": "Context Loss Orchestration Separation 2026",
+   "desc": "source: \"context-loss-orchestration-separation-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/copilot-generated-tests-quality-pitfalls-autonoma.html",
+   "title": "Copilot Generated Tests Quality Pitfalls Autonoma",
+   "desc": "source: \"copilot-generated-tests-quality-pitfalls-autonoma.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/cp-cpm-pfp-monetization-metrics-2026.html",
+   "title": "CPM/CPC/PFP — Модели Монетизации для QA",
+   "desc": "title: \"CPM/CPC/PFP — Модели Монетизации для QA\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/crash-budget-2026.html",
+   "title": "Crash Budget для Mobile Testing",
+   "desc": "title: \"Crash Budget для Mobile Testing\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/csv-validation-iq-oq-pq-2026.html",
+   "title": "Csv Validation Iq Oq Pq 2026",
+   "desc": "source: \"csv-validation-iq-oq-pq-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/cursor-vs-antigravity-autonoma.html",
+   "title": "Cursor Vs Antigravity Autonoma",
+   "desc": "source: \"cursor-vs-antigravity-autonoma.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/data-testid-react-playwright.html",
+   "title": "data-testid в React: как QA добавлять атрибуты в компоненты",
+   "desc": "title: \"data-testid в React: как QA добавлять атрибуты в компоненты\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/david-burke-death-taxes-software-bugs.html",
+   "title": "Death, Taxes, and Software Bugs",
+   "desc": "**Author:** David Burke (VP of Engineering, ex-testRigor VP)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/desktop-ai-agents-2026.html",
+   "title": "Десктопные AI-агенты для кода (2026)",
+   "desc": "title: \"Десктопные AI-агенты для кода (2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/detox-basics-2026.html",
+   "title": "Detox Basics for React Native Testing",
+   "desc": "title: \"Detox Basics for React Native Testing\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/devqaexpert-blog-catalog-all-publications-2026.html",
+   "title": "DevQAExpert Blog: Evaluation",
+   "desc": "**Source:** https://devqaexpert.com/blog/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.html",
+   "title": "Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22",
+   "desc": "source: \"DevQAExpert - QAEverest import 2000 Cypress tests - confidence score - 2026-08-22.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.html",
+   "title": "Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22",
+   "desc": "source: \"DevQAExpert - QAEverest maintenance tax - intent resolves at runtime - 2026-08-22.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/devtool-gtm-engineered-word-of-mouth-2026.html",
+   "title": "Engineered Word-of-Mouth: Dev-Tool Growth Playbook (TypeSafe AI Case, Sep 2026)",
+   "desc": "Case material: TypeSafe AI Jev launch (250K waitlist, 40K Discord, #1 HN, founder + hands-on posts 15–19.09.2026). Raw n",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/distributed-llm-inference-swarmllm-2026.html",
+   "title": "Distributed P2P LLM Inference — SwarmLLM",
+   "desc": "> Nehanth Narendrula (@Nehanth), ML @ Red Hat AI. MIT-licensed open-source project. 250k+ views, 10.7 tokens/s.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ds-ml-quality-testing-2026.html",
+   "title": "Ds Ml Quality Testing 2026",
+   "desc": "source: \"ds-ml-quality-testing-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/efficient-performance-testing-grid-cloud-2026.html",
+   "title": "Efficient Performance Testing Grid in the Cloud — HyperExecute",
+   "desc": "> TestMu AI (formerly LambdaTest), Sep 2026. Product: **HyperExecute**. Source: testmuai.com/blog",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/evolving-quality-ai-testing-community-2026.html",
+   "title": "Evolving Quality with AI Testing — Community Reflection",
+   "desc": "> Ministry of Testing Moments, Sep 8, 2026. Author: Rosie Sherry (CEO & Founder, Ministry of Testing).",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/executor-evaluator-split-zagirov-2026-09.html",
+   "title": "Executor/Evaluator Split: Radik Zagirov (Agentiqa) Architecture Post (2026-09-09)",
+   "desc": "**Source:** Radik Zagirov (Co-Founder & CEO, Agentiqa) LinkedIn post, 2026-09-09 (~33m before capture). Thesis: same mod",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/failuremodeandeffectsanalysisfmea.html",
+   "title": "Failuremodeandeffectsanalysisfmea",
+   "desc": "source: \"Failure Mode and Effects Analysis (FMEA).md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/feature-flags-guide.html",
+   "title": "Feature Flags",
+   "desc": "source: \"feature-flags-guide.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/free-ai-services-2026-artem-subbotin.html",
+   "title": "Free Ai Services 2026 Artem Subbotin",
+   "desc": "source: \"free-ai-services-2026-artem-subbotin.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/free-ai-services-list-2026.html",
+   "title": "Free Ai Services List 2026",
+   "desc": "source: \"free-ai-services-list-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/from-ai-agent-demo-to-production-2026.html",
+   "title": "From AI Agent Demo to Production",
+   "desc": "> InfoQ (Jul 2026). Authors: Bernardo Aceituno, Maxime Lagrange, Adil Zinebi. URL: https://www.infoq.com/articles/ai-age",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/fullstack-verification-mcp-habr.html",
+   "title": "Full-Stack Verification with Playwright Agent and Database",
+   "desc": "source: \"fullstack-verification-mcp-habr.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/go-testing-for-qa-2026.html",
+   "title": "Go Testing For Qa 2026",
+   "desc": "source: \"go-testing-for-qa-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/google-antigravity-qa-2026.html",
+   "title": "Google Antigravity Qa 2026",
+   "desc": "source: \"google-antigravity-qa-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/google-kaggle-agent-skills-whitepaper-2026.html",
+   "title": "Agent Skills – Google/Kaggle Whitepaper (May 2026)",
+   "desc": "source: \"google-kaggle-agent-skills-whitepaper-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/google-tos-2026-restrictions.html",
+   "title": "Google Terms of Service (July 2026) — Restrictions Outside EEA",
+   "desc": "title: \"Google Terms of Service (July 2026) — Restrictions Outside EEA\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/gpt-image-research-mode.html",
+   "title": "GPT Image 2 — Research Before Generation",
+   "desc": "title: \"GPT Image 2 — Research Before Generation\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/graph-engineering-vs-loop-engineering-2026.html",
+   "title": "Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap",
+   "desc": "title: \"Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/hack-n-vibe-bitgn-pac1-agent.html",
+   "title": "Hack N Vibe Bitgn Pac1 Agent",
+   "desc": "source: \"hack-n-vibe-bitgn-pac1-agent.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/hidden-costs-vibe-coded-apps.html",
+   "title": "The Hidden Costs of Vibe-Coded Apps",
+   "desc": "source: \"hidden-costs-vibe-coded-apps.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/how-to-tell-if-tests-are-testing-anything-autonoma.html",
+   "title": "How To Tell If Tests Are Testing Anything Autonoma",
+   "desc": "source: \"how-to-tell-if-tests-are-testing-anything-autonoma.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/http-query-method-rfc10008-2026.html",
+   "title": "HTTP QUERY Method (RFC 10008, June 2026)",
+   "desc": "title: \"HTTP QUERY Method (RFC 10008, June 2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iclr-2026-agent-benchmarking-self-improvement.html",
+   "title": "Iclr 2026 Agent Benchmarking Self Improvement",
+   "desc": "source: \"iclr-2026-agent-benchmarking-self-improvement.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ilya-kabanov-cybersecurity-ai-cost-2026.html",
+   "title": "Ilya Kabanov Cybersecurity Ai Cost 2026",
+   "desc": "source: \"ilya-kabanov-cybersecurity-ai-cost-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/implement-ai-in-qa-process.html",
+   "title": "Implementing AI in QA Process",
+   "desc": "source: \"implement-ai-in-qa-process.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/improvements-from-bugs.html",
+   "title": "AI-Augmented QA: Process Improvements from Bug Reports",
+   "desc": "title: \"AI-Augmented QA: Process Improvements from Bug Reports\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/industrial-ai-testing-frameworks.html",
+   "title": "Industrial AI Testing Frameworks (2026)",
+   "desc": "title: \"Industrial AI Testing Frameworks (2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/infinite-midwit.html",
+   "title": "Infinite Midwit",
+   "desc": "source: \"infinite-midwit.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/integration-testing-systems-stitching-2026.html",
+   "title": "Integration Testing — Systems Stitching Guide",
+   "desc": "> TestMu AI (Sep 2026). URL: https://testmu.ai/testing/integration-testing/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.html",
+   "title": "Ishan Anand Llm Persona Feedback Failure Modes 2026",
+   "desc": "source: \"ishan-anand-llm-persona-feedback-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iso-13485-qms-medical-devices-2026.html",
+   "title": "Iso 13485 Qms Medical Devices 2026",
+   "desc": "source: \"iso-13485-qms-medical-devices-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iso-14971-risk-management-2026.html",
+   "title": "Iso 14971 Risk Management 2026",
+   "desc": "source: \"iso-14971-risk-management-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iso-25000-square-quality-2026.html",
+   "title": "ISO/IEC 25000 (SQuaRE) — Software Quality Standards",
+   "desc": "title: \"ISO/IEC 25000 (SQuaRE) — Software Quality Standards\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iso-26262-functional-safety-testing-2026.html",
+   "title": "Iso 26262 Functional Safety Testing 2026",
+   "desc": "source: \"iso-26262-functional-safety-testing-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iso-27001-qa-testing-2026.html",
+   "title": "ISO 27001 and QA/Testing",
+   "desc": "title: \"ISO 27001 and QA/Testing\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/iso-9001-qa-testing-2026.html",
+   "title": "ISO 9001:2015 — Quality Management Systems for QA & Testing",
+   "desc": "title: \"ISO 9001:2015 — Quality Management Systems for QA & Testing\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/it-was-always-a-loop.html",
+   "title": "It Was Always a Loop",
+   "desc": "title: \"It Was Always a Loop\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/jason-arbon-how-ai-tests-software-2026.html",
+   "title": "Jason Arbon: How AI Tests Software (first reading draft, 2026-09)",
+   "desc": "title: \"Jason Arbon: How AI Tests Software (бета: AI Checks, AI Tests, AI Test Harness, AI Confidence)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/jeff-nyman-ai-testing-catalog.html",
+   "title": "Jeff Nyman Ai Testing Catalog",
+   "desc": "source: \"jeff-nyman-ai-testing-catalog-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.html",
+   "title": "Jeff Nyman Testing Knowledge Not Just Testing Skill 2026",
+   "desc": "source: \"jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/jev-jason-arbon-playwright-bounded-exploration.html",
+   "title": "Jason Arbon: Jev в Playwright-браузере (2026-09)",
+   "desc": "title: \"Jason Arbon: Jev в Playwright-цикле (bounded adaptive exploration)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/julia-pottinger-accountable-ai-code-2026.html",
+   "title": "Who Is Accountable for AI-Generated Code?",
+   "desc": "**Source:** https://juliapottinger.com/ (Julia Pottinger, Quality Engineering) — via Software Testing Weekly #325 #3; al",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/julia-pottinger-who-validates-ai-generated-code-2026.html",
+   "title": "Who Validates AI-Generated Code? — Who Is Accountable (Julia Pottinger)",
+   "desc": "**Source:** https://juliapottinger.com/who-validates-ai-generated-code/?utm_source=softwaretestingweekly&utm_medium=emai",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/juliapottinger-blog-catalog-all-publications-2026.html",
+   "title": "Julia Pottinger — Complete Publications Catalog (juliapottinger.com)",
+   "desc": "**Source:** https://juliapottinger.com/articles/ (46 articles, filtered from All / AI / Testing / QA)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/karpathy-autoresearch-agentic-engineering-2026.html",
+   "title": "Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops",
+   "desc": "title: \"Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/keith-klain-testing-mindset-after-all-2026.html",
+   "title": "Apparently We Need a Testing Mindset After All",
+   "desc": "**Source:** https://qualityremarks.com/apparently-we-need-a-testing-mindset-after-all/ (Keith Klain, Quality Remarks)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-blog-catalog-all-publications-2025-2026.html",
+   "title": "Kiro Blog: Complete Publications Catalog with Annotations",
+   "desc": "**Source:** https://kiro.dev/blog",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-bug-fix-paradox-2026.html",
+   "title": "The Bug Fix Paradox: Why AI Agents Keep Breaking Working Code",
+   "desc": "**Source:** https://kiro.dev/blog/bug-fix-paradox/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-continuous-prompt-evaluation-llm-judges-2026.html",
+   "title": "Continuous Prompt Evaluation: LLM Judges and Live Signals",
+   "desc": "**Source:** https://kiro.dev/blog/continuous-prompt-evaluation/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-crew-multi-agent-orchestration-open-source-2026.html",
+   "title": "Kiro Crew: Multi-Agent Orchestration Platform (Open Source)",
+   "desc": "**Source:** https://kiro.dev/blog/introducing-kiro-crew/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-crew-pilot-plan.html",
+   "title": "Kiro Crew Pilot Plan",
+   "desc": "**Goal:** Evaluate Kiro Crew as multi-agent orchestration platform for QA/QE workflows",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-dev-aws-ai-ide-2026.html",
+   "title": "Kiro.dev — AWS Agentic AI IDE (2026)",
+   "desc": "title: \"Kiro.dev — AWS Agentic AI IDE (2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-diagnostics-over-time-agent-quality-2026.html",
+   "title": "Are AI Coding Agents Actually Getting Better? — Six Months of Diagnostics",
+   "desc": "**Source:** https://kiro.dev/blog/diagnostics-over-time/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-openapi-to-testsuite-2026.html",
+   "title": "From OpenAPI/Swagger to Test Suite in Seconds",
+   "desc": "**Source:** https://kiro.dev/blog/from-openapi-swagger-to-test-suite-in-seconds-with-kiro/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-property-based-testing-security-bug-2026.html",
+   "title": "Property-Based Testing Caught a Security Bug I Never Would Have Found",
+   "desc": "**Source:** https://kiro.dev/blog/property-based-testing-fixed-security-bug/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-root-cause-33s-2026.html",
+   "title": "Root Cause in 33 Seconds: How Kiro CLI Saved 4 Years of Build Time",
+   "desc": "**Source:** https://kiro.dev/blog/root-cause-in-33s/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-snyk-guardrails-2026.html",
+   "title": "How Kiro and Snyk Create Multi-Layered Security Guardrails",
+   "desc": "**Source:** https://kiro.dev/blog/kiro-and-snyk-guardrails/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-soc2-planview-automation-2026.html",
+   "title": "Planview Saves 40+ Hours per Audit Cycle with SOC 2 Automation",
+   "desc": "**Source:** https://kiro.dev/blog/automating-soc-2-compliance/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiro-trust-agent-triage-2026.html",
+   "title": "How We Learned to Trust an AI Agent to Triage Production Incidents",
+   "desc": "**Source:** https://kiro.dev/blog/trust-agent-triage/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/kiss-sorcar-agent.html",
+   "title": "KISS Sorcar — Open-Source AI Coding Agent",
+   "desc": "title: \"KISS Sorcar — Open-Source AI Coding Agent\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/klain-testing-mindset-evaluator-independence-2026-08.html",
+   "title": "Testing Mindset Vindicated: Klain on Evaluator Independence (2026-08)",
+   "desc": "**Source:** Keith Klain (Technology Leader, AI Assurance) LinkedIn post + https://qualityremarks.com/apparently-we-need-",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/krivitsky-agentic-factory-nested-loops-2026.html",
+   "title": "Krivitsky Agentic Factory Nested Loops 2026",
+   "desc": "source: \"krivitsky-agentic-factory-nested-loops-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/lee-robinson-job-tips.html",
+   "title": "Lee Robinson - Как выделиться при поиске работы",
+   "desc": "title: \"Lee Robinson - Как выделиться при поиске работы\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/lifemichael-develop-with-ai-monthly-review-2026-08.html",
+   "title": "LifeMichael Develop-with-AI Monthly Review (Aug 2026): Orchestration Era",
+   "desc": "**Source:** https://www.linkedin.com/pulse/develop-ai-monthly-review-lifemichael-rwcif/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/linkedin-performance-analyzer-2026.html",
+   "title": "Linkedin Performance Analyzer 2026",
+   "desc": "source: \"linkedin-performance-analyzer-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/llm-agents-cicd-cheating-habr.html",
+   "title": "LLM Agents in CI/CD: Why They Choose Cheating Over Problem-Solving",
+   "desc": "source: \"llm-agents-cicd-cheating-habr.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/llm-testing-6-approaches.html",
+   "title": "Testing Large Language Models (LLMs)",
+   "desc": "source: \"llm-testing-6-approaches.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/llms-observability-driven-development.html",
+   "title": "Observability-Driven Development for LLMs",
+   "desc": "source: \"llms-observability-driven-development.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.html",
+   "title": "Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026",
+   "desc": "source: \"loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/maestro-vs-appium-2026.html",
+   "title": "Maestro Vs Appium 2026",
+   "desc": "title: \"Maestro vs Appium — Сравнительный анализ (2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mark-paemaa-automated-testing-confidence-2026.html",
+   "title": "Mark Paemaa Automated Testing Confidence 2026",
+   "desc": "source: \"mark-paemaa-automated-testing-confidence-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/martinfowler-blog-catalog-all-publications-2026.html",
+   "title": "Martin Fowler — Complete Publications Catalog",
+   "desc": "**Source:** https://martinfowler.com (feed.atom)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/martinfowler-making-data-ready-agentic-ai-2026.html",
+   "title": "Making Your Data Ready for Agentic AI (Martin Fowler)",
+   "desc": "**Source:** https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html (Pramod Sadalage & Prem Chandrasekar",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mas-risks.html",
+   "title": "MAS-Pipeline Риски",
+   "desc": "title: \"MAS-Pipeline Риски\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mas-testing-framework-summary.html",
+   "title": "MAS-Testing Framework",
+   "desc": "title: \"MAS-Testing Framework\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mas-testing-framework.html",
+   "title": "MAS-Testing Framework (Conceptual)",
+   "desc": "title: \"MAS-Testing Framework\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mas-vs-swe-comparison.html",
+   "title": "MAS-Pipeline vs SWE-Tester: Comprehensive Comparison",
+   "desc": "title: \"MAS-Pipeline vs SWE-Tester: Comprehensive Comparison\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/matt-robson-human-in-the-loop-ai-testing-2026.html",
+   "title": "Human-in-the-Loop: The Missing Layer in AI-Driven Testing — Matt Robson",
+   "desc": "**Автор:** Matt Robson (AI, Agile & Quality Transformation | Virtuoso QA)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mcp-ucp-protocols-2026.html",
+   "title": "MCP + UCP: Open Protocols for Agentic QA (2026)",
+   "desc": "source: \"mcp-ucp-protocols-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/meta-muse-personal-ai-agent-2026.html",
+   "title": "Meta Muse — Personal AI Agent (Consumer)",
+   "desc": "> Meta, Sep 2026. Multiple sources: TechCrunch (Sep 8), The Verge (Sep 8). Muse Spark model.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/metamorphic-tests-comparison.html",
+   "title": "Metamorphic Testing — Сравнение подходов",
+   "desc": "**Определение:** Метаморфное тестирование — метод для систем, где «правильный ответ» неизвестен (oracle problem). Вместо",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/michael-bolton-systems-thinking-constraints-2026.html",
+   "title": "Michael Bolton Systems Thinking Constraints 2026",
+   "desc": "source: \"michael-bolton-systems-thinking-constraints-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/milko-slavov-two-doors-mcp-2026.html",
+   "title": "Milko Slavov Two Doors Mcp 2026",
+   "desc": "source: \"milko-slavov-two-doors-mcp-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mobile-testing-infrastructure-parallel-2026.html",
+   "title": "Mobile Testing Infrastructure: Parallel Mac + Windows",
+   "desc": "title: \"Mobile Testing Infrastructure: Parallel Mac + Windows\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mobile-testing-windows-server-setup-2026.html",
+   "title": "Windows Server: Mobile Testing Setup",
+   "desc": "title: \"Windows Server: Mobile Testing Setup\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.html",
+   "title": "Modeloptimizingagainstqualitygateinsteadofactualproblem",
+   "desc": "source: \"model optimizing against quality gate instead of actual problem.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/monitoring-observability.html",
+   "title": "Monitoring & Observability for AI Systems",
+   "desc": "title: \"Monitoring & Observability for AI Systems\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/monitoring-vibe-coded-apps.html",
+   "title": "Monitoring for Vibe-Coded Apps",
+   "desc": "source: \"monitoring-vibe-coded-apps.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/mutation-testing-vs-code-coverage-autonoma.html",
+   "title": "Mutation Testing Vs Code Coverage Autonoma",
+   "desc": "source: \"mutation-testing-vs-code-coverage-autonoma.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/notebooklm-playbook-analysis.html",
+   "title": "SOP: Mutation Testing",
+   "desc": "title: \"Анализ NotebookLM Playbook — что взять к нам\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/notebooklm-three-frameworks-scenario.html",
+   "title": "Notebooklm Three Frameworks Scenario",
+   "desc": "source: \"notebooklm-three-frameworks-scenario.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/notebooklm_agent.html",
+   "title": "NotebookLM Agent Navigation",
+   "desc": "source: \"NOTEBOOKLM_AGENT.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/notion-ai-agentic-features-2026.html",
+   "title": "Notion AI Agentic Features 2026",
+   "desc": "title: \"Notion AI Agentic Features 2026\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/notion-christina-muehller-outreach-2026-06-10.html",
+   "title": "Notion AI Agentic Features Outreach",
+   "desc": "source: \"notion-christina-muehller-outreach-2026-06-10.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/notion-kanban-bot-setup-2026.html",
+   "title": "Notion Kanban + Bot Integration Setup",
+   "desc": "title: \"Notion Kanban + Bot Integration Setup\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/observatory-weekly-quality-gaps-2026.html",
+   "title": "Observatory Weekly: Quality Gaps, Claude QA Skills, the Testing Mindset",
+   "desc": "> Ministry of Testing (MoT), Sep 4, 2026. Author: Rosie Sherry. URL: ministryoftesting.com/newsletter/observatory-weekly",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/obsidian-scam-audit-2026.html",
+   "title": "Obsidian Scam Audit 2026",
+   "desc": "source: \"obsidian-scam-audit-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/obsidian-security-checklist.html",
+   "title": "Obsidian Security Checklist",
+   "desc": "title: \"Obsidian Security Checklist\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/obsidian-skills-kepano.html",
+   "title": "Obsidian Skills by Steph Ango (kepano)",
+   "desc": "title: \"Obsidian Skills by Steph Ango (kepano)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/offline-evaluation-trajectories-2026.html",
+   "title": "Offline Evaluation of AI Test Agents with Trajectories",
+   "desc": "source: \"offline-evaluation-trajectories-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/openai-wiki-incident-2026.html",
+   "title": "OpenAI Wiki Incident (July 2026)",
+   "desc": "> TechCrunch (Sep 2, 2026). Author: Maxwell Zeff. URL: https://techcrunch.com/2026/09/02/openai-says-its-chatgpt-bugs-we",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/opencode-openrouter-qa-2026.html",
+   "title": "Agent Profile: Solo QA Automation Engineer",
+   "desc": "source: \"opencode-openrouter-qa-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/opencode-skill-creator.html",
+   "title": "opencode-skill-creator: Eval-Driven Skill Development",
+   "desc": "title: \"opencode-skill-creator: Eval-Driven Skill Development\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/opencode-telegram-bot.html",
+   "title": "Telegram Bot для OpenCode",
+   "desc": "title: \"Telegram Bot для OpenCode\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/opencode-vs-claude-comparative-test.html",
+   "title": "Сравнительное Тестирование: OpenCode vs Claude Code",
+   "desc": "source: \"opencode-vs-claude-comparative-test.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/openrouter-fusion-multi-model-deliberation-2026.html",
+   "title": "OpenRouter Fusion – Multi‑Model Deliberation",
+   "desc": "source: \"openrouter-fusion-multi-model-deliberation-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/orangehrm-54-to-581-upgrade.html",
+   "title": "OrangeHRM 5.4 to 5.8.1 Upgrade: Challenges and Solutions",
+   "desc": "source: \"orangehrm-5.4-to-5.8.1-upgrade.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/orangepro-risk-based-coverage-2026.html",
+   "title": "OrangePro — Risk-Based Coverage Layer (Aamir Siddiqui)",
+   "desc": "**Source:** OrangePro blog, \"The Night We Stopped Shipping With Crossed Fingers\" (Aamir Siddiqui, 8 min read, via user-p",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/pact-contract-testing-guide-2026.html",
+   "title": "Pact Contract Testing — Полное руководство",
+   "desc": "title: \"Pact Contract Testing — Полное руководство\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/passmark-ai-regression.html",
+   "title": "Passmark AI Regression Testing Engine",
+   "desc": "source: \"passmark-ai-regression.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/pbt-llm-code-generation.html",
+   "title": "Property-Generated Solver: PBT for LLM Code Generation",
+   "desc": "source: \"pbt-llm-code-generation.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/perplexity-agent-skills.html",
+   "title": "Perplexity Agent Skills Guide",
+   "desc": "title: \"Perplexity Agent Skills Guide\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/pi-image-generation-2026.html",
+   "title": "Pi Image Generation via OpenRouter (and Gamma)",
+   "desc": "**Source:** https://openrouter.ai/models (424 models, 18 `:free`; image pricing via `google/gemini-*-image` etc.) + `pi-",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/pi-opencode-integration-2026.html",
+   "title": "Pi ↔ OpenCode Integration",
+   "desc": "**Source:** https://github.com/nicobailon/pi-subagents + https://opencode.ai/docs + Zalando agentic snapshot (MCP proxy/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/pi-subagents-2026.html",
+   "title": "pi-subagents",
+   "desc": "**Source:** https://github.com/nicobailon/pi-subagents (Pi extension for async subagent delegation)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/pipeline-triad-pattern.html",
+   "title": "Pipeline Triad Pattern",
+   "desc": "source: \"pipeline-triad-pattern.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/playwright-test-agents-2026.html",
+   "title": "Playwright Test Agents (2026)",
+   "desc": "title: \"Playwright Test Agents (2026)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/post-about-contract-testing-guide.html",
+   "title": "Contract Testing: Consumer-Driven, Bi-Directional, and When to Use Each",
+   "desc": "title: \"Contract Testing: Consumer-Driven, Bi-Directional, and When to Use Each\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/postman-blog-catalog-all-publications-2026.html",
+   "title": "Postman Blog — Complete Publications Catalog",
+   "desc": "**Source:** https://blog.postman.com/ (All Things API: News, Tutorials & More)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/prachi-dahibhate-james-bach-rst-2026.html",
+   "title": "Prachi Dahibhate James Bach Rst 2026",
+   "desc": "source: \"prachi-dahibhate-james-bach-rst-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/practitest-state-of-testing-2026.html",
+   "title": "PractiTest State of Testing 2026 — 13th Annual Report",
+   "desc": "**URL:** https://www.practitest.com/state-of-testing/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/prompt-tips-and-skills.html",
+   "title": "Prompt Tips & Agent Skills Architecture",
+   "desc": "title: \"Prompt Tips & Agent Skills Architecture\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/promptfoo-eval-suite.html",
+   "title": "Promptfoo Eval Suite for AI QA Wiki",
+   "desc": "title: \"Promptfoo Eval Suite for AI QA Wiki\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qa-ai-transition-guide.html",
+   "title": "QA Skills → AI Roles Transition Guide",
+   "desc": "title: \"QA Skills → AI Roles Transition Guide\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qa-ds-collaboration-patterns-2026.html",
+   "title": "QA + Data Science Collaboration Patterns",
+   "desc": "title: \"QA + Data Science Collaboration Patterns\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qa-in-the-ai-era.html",
+   "title": "QA in the AI Era",
+   "desc": "source: \"qa-in-the-ai-era.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qa-metrics-dashboard.html",
+   "title": "QA Metrics Dashboard — Setup Notes",
+   "desc": "title: \"QA Metrics Dashboard — Setup Notes\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qa-prompt-engineering-guide.html",
+   "title": "Prompt Engineering for QA Professionals",
+   "desc": "source: \"qa-prompt-engineering-guide.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qa-topics.html",
+   "title": "QA Topics - Comprehensive Guide",
+   "desc": "title: \"QA Topics - Comprehensive Guide\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.html",
+   "title": "Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25",
+   "desc": "source: \"Hands-on QAEverest.ai pilot 2026-08-25 (victor-2026/qaeverset-pilot-mini)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.html",
+   "title": "QBurst: Quality Engineering Framework for Validating Agent Behavior",
+   "desc": "**Source:** https://www.qburst.com/blog/2026/09/a-quality-engineering-framework-for-validating-agent-behavior/ (Milan Th",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/quality-characteristics.html",
+   "title": "AI Quality Characteristics",
+   "desc": "title: \"AI Quality Characteristics\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/qualityremarks-blog-catalog-all-publications-2026.html",
+   "title": "Quality Remarks — Complete Publications Catalog (Keith Klain)",
+   "desc": "**Source:** https://qualityremarks.com/ (Quality Remarks, Keith Klain — technology leader, Chartered Management Consulta",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/rag-evaluation-ragas.html",
+   "title": "RAG Evaluation Using Ragas",
+   "desc": "source: \"rag-evaluation-ragas.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/rag-evaluation.html",
+   "title": "RAG Evaluation — How to Test Retrieval-Augmented Generation",
+   "desc": "RAG (Retrieval-Augmented Generation) systems combine retrieval (finding relevant documents) with generation (LLM produci",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/recorder-locator-quality-playwright-cli-2026-09.html",
+   "title": "Recorder Locator Quality: playwright-cli 0.1.19 vs Human POMs (2026-09-09)",
+   "desc": "**Source:** hands-on micro-probe (Victor) following Anton Gulin's [browser-task-to-playwright-test](https://www.anton.qa",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/red-teaming-tests.html",
+   "title": "Red-Teaming Tests for Wiki LLM",
+   "desc": "title: \"Red-Teaming Tests for Wiki LLM\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/regression-checklist-llm-ci-2026.html",
+   "title": "Regression Checklist Llm Ci 2026",
+   "desc": "source: \"regression-checklist-llm-ci-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/rick-crawford-qe-structural-problem-2026.html",
+   "title": "Your QE Program Has a Structural Problem, and AI Just Made It Visible",
+   "desc": "**Source:** https://blog.postman.com/your-qe-program-has-a-structural-problem-and-ai-just-made-it-visible/ (Rick Crawfor",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.html",
+   "title": "Rinat Abdullin Bdd Vs Sdd Ai Native Harness",
+   "desc": "source: \"rinat-abdullin-bdd-vs-sdd-ai-native-harness.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/risk-based-testing-skill.html",
+   "title": "Risk Based Testing Skill",
+   "desc": "title: \"Risk Based Testing Skill\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/rotation-without-relevance-preseed-mutant-filtering-2026.html",
+   "title": "Rotation Without Relevance: Why Mutants Must Be Filtered Before Seeding",
+   "desc": "**Source:** QAEverest pilot (2026-09-02/03) + external mutation-testing literature",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/rtm-matrix-habr.html",
+   "title": "Requirements Traceability Matrix (RTM): A Tester's Navigator",
+   "desc": "source: \"rtm-matrix-habr.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ruben-hassid-master-ai-claude-tips.html",
+   "title": "Master AI Before It Masters You — 27 Claude Tips",
+   "desc": "title: \"Master AI Before It Masters You — 27 Claude Tips\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.html",
+   "title": "Ruslan Desyatnikov Qa Director Elimination Virus 2026",
+   "desc": "source: \"ruslan-desyatnikov-qa-director-elimination-virus-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ruvnet-agentic-stack-2026.html",
+   "title": "rUv (ruvnet) — Agentic Stack",
+   "desc": "**Source:** https://ruv.io/ (Reuven Cohen) + https://github.com/ruvnet (11.3k followers, 214 repos, 172k stars)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/self-healing-tests.html",
+   "title": "Self-Healing Tests — Why It's a Bad Idea",
+   "desc": "title: \"Self-Healing Tests — Why It's a Bad Idea\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/self-review-loop.html",
+   "title": "Self-Review Loop — Make AI Verify Its Own Work",
+   "desc": "title: \"Self-Review Loop — Make AI Verify Its Own Work\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/sergey-yudin-neurolegal-verified-citations-2026.html",
+   "title": "Sergey Yudin Neurolegal Verified Citations 2026",
+   "desc": "source: \"sergey-yudin-neurolegal-verified-citations-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/shcherbinin-tg-understand-code-debate-2026.html",
+   "title": "Shcherbinin Tg Understand Code Debate 2026",
+   "desc": "source: \"shcherbinin-tg-understand-code-debate-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/slopcodebench-2026.html",
+   "title": "SlopCodeBench",
+   "desc": "**Source:** https://www.scbench.ai (SprocketLab, v1.0)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/software-testing-weekly-newsletter-2026.html",
+   "title": "Software Testing Weekly — обзор ресурса",
+   "desc": "**URL:** https://softwaretestingweekly.com",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/software-testing-with-generative-ai.html",
+   "title": "Software Testing with Generative AI",
+   "desc": "source: \"software-testing-with-generative-ai.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/spaceducking-test-feels-like-autopilot-2026.html",
+   "title": "SpaceDucking — \"Test Feels Like Autopilot\"",
+   "desc": "> Ministry of Testing (2026). Author: Sathish. Published: Sep 9, 2026.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/splunk-odd-explained.html",
+   "title": "Observability-Driven Development (ODD)",
+   "desc": "source: \"splunk-odd-explained.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/state-of-digital-quality-2026.html",
+   "title": "State of Digital Quality 2026 — AI Testing Report",
+   "desc": "title: \"State of Digital Quality 2026 — AI Testing Report\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/stephen-platten-stoic-tester-profile-2026.html",
+   "title": "Stephen Platten Stoic Tester Profile 2026",
+   "desc": "source: \"stephen-platten-stoic-tester-profile-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/stoic-tester-goodharts-law-ai-evaluation-2026.html",
+   "title": "Stoic Tester Goodharts Law Ai Evaluation 2026",
+   "desc": "source: \"stoic-tester-goodharts-law-ai-evaluation-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/stratoplan-management-2026.html",
+   "title": "Stratoplan Management 2026 — Обзор конференции",
+   "desc": "title: \"Stratoplan Management 2026 — Обзор конференции\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/swe-tester-framework.html",
+   "title": "SWE-Tester Framework",
+   "desc": "title: \"SWE-Tester Framework\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/test-automation-fundamentals-revisited.html",
+   "title": "The Fundamentals of Test Automation Revisited",
+   "desc": "title: \"The Fundamentals of Test Automation Revisited\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/test-automation-learning-path.html",
+   "title": "Test Automation Learning Path — E-book Summary",
+   "desc": "title: \"Test Automation Learning Path — E-book Summary\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/test-automation-quadrant.html",
+   "title": "The Test Automation Quadrant",
+   "desc": "title: \"The Test Automation Quadrant\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/test-management.html",
+   "title": "Test Management & Traceability",
+   "desc": "title: \"Test Management & Traceability\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/test-rocket-pyramid-ai-era-2026.html",
+   "title": "Test Rocket: Rethinking the Test Pyramid for the AI Era",
+   "desc": "**Source:** https://dev.to/sudokar/test-rocket-rethinking-the-test-pyramid-for-the-ai-era-2d6n (DEV, Aug 18, 2026) + Hac",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testers-ai-ten-minute-tester-workshop-2026.html",
+   "title": "testers.ai — Ten Minute Tester Workshop (2026)",
+   "desc": "**Source:** https://testers.ai/workshop/#startForm",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testerstories-blog-catalog-all-publications-2026.html",
+   "title": "Tester Stories — Complete Publications Catalog (Jeff Nyman)",
+   "desc": "**Source:** https://testerstories.com/ (Stories from a Software Tester, Jeff Nyman)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-agent-tool-calls-autonoma.html",
+   "title": "Testing Ai Agent Tool Calls Autonoma",
+   "desc": "source: \"testing-ai-agent-tool-calls-autonoma.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-book-evidence-foundations.html",
+   "title": "Testing AI: Evidence Foundations",
+   "desc": "This page summarizes Chapters 1-8 of Jason Arbon's *Testing AI*. The summaries use the official public Knowledge Edition",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-book-generated-code-confidence-engineer.html",
+   "title": "Testing AI: Generated Code and the Confidence Engineer",
+   "desc": "This page summarizes Chapters 9-11 and the public brief on AI review loops with coding agents.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-book-index.html",
+   "title": "Testing AI by Jason Arbon: Wiki Index",
+   "desc": "**Book:** *Testing AI: Engineering Confidence in Non-Deterministic Systems*",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-book-playbook-future.html",
+   "title": "Testing AI: Governance, Playbook and Future",
+   "desc": "This page summarizes Chapters 19-21 and the most useful public appendices.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-book-security-dynamic-systems.html",
+   "title": "Testing AI: Data, Security and Dynamic Systems",
+   "desc": "This page summarizes Chapters 12-18. Chapters 14-16 are more specialized, but the shared principle remains useful: treat",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-ai-generated-auth-code-autonoma.html",
+   "title": "Testing Ai Generated Auth Code Autonoma",
+   "desc": "source: \"testing-ai-generated-auth-code-autonoma.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-maturity-model-tmm-2026.html",
+   "title": "Testing Maturity Model (TMM/TMMi)",
+   "desc": "title: \"Testing Maturity Model (TMM/TMMi)\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-stability.html",
+   "title": "Test Stability & Anti-Flakiness",
+   "desc": "title: \"Test Stability & Anti-Flakiness\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testing-strategies.html",
+   "title": "AI Testing Strategies",
+   "desc": "title: \"AI Testing Strategies\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testkube-four-layers-ai-testing-2026-08.html",
+   "title": "Testing AI Systems Across All Four Layers — Testkube (2026-08-28)",
+   "desc": "**Source:** Atulpriya Sharma (Sr Dev Advocate, Testkube) https://testkube.io/blog/testing-ai-systems-four-layers — compa",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testkube-local-vs-frontier-models-2026-07.html",
+   "title": "Local vs Frontier Models for Test Analysis — Testkube (2026-07-29)",
+   "desc": "**Source:** Sonali Srivastava (Tech Evangelist, Testkube) https://testkube.io/blog/local-vs-frontier-models-test-analysi",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testkube-smart-suites-test-selection-2026-04.html",
+   "title": "Smart Suites: AI-Driven Test Selection — Testkube (2026-04-22)",
+   "desc": "**Source:** Sarvani Yallapragada (Dev Advocate, Testkube) https://testkube.io/blog/ai-driven-test-selection-smart-suites",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testmu-ai-formerly-lambdatest-2026.html",
+   "title": "TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform",
+   "desc": "title: \"TestMu AI (formerly LambdaTest) — Full-Stack Agentic AI Quality Engineering Platform\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testmuai-agentic-regression-testing-2026.html",
+   "title": "Agentic Regression Testing: What to Delegate, What to Verify",
+   "desc": "**Source:** https://www.testmuai.com/blog/agentic-regression-testing/ (TestMu AI, formerly LambdaTest)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testmuai-blog-catalog-all-publications-2026.html",
+   "title": "TestMu AI Blog: Complete Publications Catalog",
+   "desc": "**Source:** https://www.testmuai.com/blog/ (TestMu AI, formerly LambdaTest)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/testrigor-blog-catalog-all-publications-2026.html",
+   "title": "testRigor Blog: Complete Publications Catalog",
+   "desc": "**Source:** https://testrigor.com/blog/",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/the2026aitestingfrontier-astrategicevaluationofautonomousqalifecycleplatforms.html",
+   "title": "The2026Aitestingfrontier Astrategicevaluationofautonomousqalifecycleplatforms",
+   "desc": "source: \"The 2026 AI Testing Frontier - A Strategic Evaluation of Autonomous QA Lifecycle Platforms.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/three-way-comparison.html",
+   "title": "3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework",
+   "desc": "title: \"3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/toe2eornottoe2e-ontestautomation.html",
+   "title": "Toe2Eornottoe2E Ontestautomation",
+   "desc": "source: \"To E2E or not to E2E - On Test Automation.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/token-economy-claude-code-2026.html",
+   "title": "Как экономить токены в Claude Code",
+   "desc": "title: \"Как экономить токены в Claude Code\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/toloka-llm-qa-agent-verification-2026.html",
+   "title": "Toloka Llm Qa Agent Verification 2026",
+   "desc": "source: \"toloka-llm-qa-agent-verification-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/tony-seale-multi-agent-semantic-web-2026.html",
+   "title": "Tony Seale: Multi-Agent Systems and the Semantic Web",
+   "desc": "**Source:** LinkedIn post, Tony Seale (The Knowledge Graph Guy), ~2026-09-03/04",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/topics-map.html",
+   "title": "AI/QA Testing Topics Map",
+   "desc": "title: \"AI/QA Testing Topics Map\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/trickcatcher-bug-detection.html",
+   "title": "TrickCatcher: LLM-Powered Bug Detection in Plausible Programs",
+   "desc": "source: \"trickcatcher-bug-detection.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ui-fuzzing.html",
+   "title": "UI Fuzzing — Mutation Through Input",
+   "desc": "Fuzz testing for web UI: inject malformed, unexpected, or boundary-breaking data into forms, search fields, file uploads",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/vector-databases-fintech-2026.html",
+   "title": "Vector Databases in Fintech",
+   "desc": "title: \"Vector Databases in Fintech\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/verification-completeness-testing-paradox-2026.html",
+   "title": "Verification Completeness — The Testing Paradox",
+   "desc": "> Thread: William Tran → Iosif Itkin, LinkedIn (Sep 2026). Core theme: you can't fully verify anything.",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/vibe-coding-links.html",
+   "title": "Vibe Coding and Agentic Engineering",
+   "desc": "source: \"vibe-coding-links.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/vibe-coding-vs-spec-driven.html",
+   "title": "Vibe Coding vs Spec-Driven Development",
+   "desc": "source: \"vibe-coding-vs-spec-driven.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/vibe-wipe-coding-guide.html",
+   "title": "Vibe Wipe Coding Guide",
+   "desc": "title: \"Vibe Wipe Coding Guide\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/video-capabilities-opencode-free.html",
+   "title": "Video Capabilities in OpenCode Free",
+   "desc": "title: \"Video Capabilities in OpenCode Free\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/virto-commerce-integration-glossary-2026.html",
+   "title": "Virto Commerce Integration Glossary 2026",
+   "desc": "source: \"virto-commerce-integration-glossary-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/virtuoso-blog-catalog-all-publications-2026.html",
+   "title": "Virtuoso QA Blog — Complete Publications Catalog",
+   "desc": "**Source:** https://www.virtuosoqa.com/blog (Our Blog: the latest from Virtuoso)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/virustotal-usage-2026.html",
+   "title": "VirusTotal — Практическое руководство",
+   "desc": "title: \"VirusTotal — Практическое руководство\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/visual-regression-testing-complete-guide-2026.html",
+   "title": "Visual Regression Testing — Complete Guide",
+   "desc": "> TestMu AI (updated Sep 8, 2026). Authors: Veethee Dixit, Parth Mistry (SmartUI engineer).",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/wayne-roseberry-testers-do-more-than-users-2026.html",
+   "title": "Wayne Roseberry Testers Do More Than Users 2026",
+   "desc": "source: \"wayne-roseberry-testers-do-more-than-users-2026.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/webtestbench-ai-web-testing.html",
+   "title": "WebTestBench: AI Agents for Web Testing",
+   "desc": "source: \"webtestbench-ai-web-testing.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/weekly-time-planner-prd-example.html",
+   "title": "Weekly Time Planner — PRD Example",
+   "desc": "title: \"Weekly Time Planner — PRD Example\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/what-is-software-testing.html",
+   "title": "Software Testing",
+   "desc": "source: \"what-is-software-testing.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/winteringham-prompts-readme.html",
+   "title": "Software Testing with Generative AI",
+   "desc": "source: \"winteringham-prompts-readme.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/winteringham-prompts.html",
+   "title": "Software Testing with Generative AI",
+   "desc": "source: \"winteringham-prompts.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/wipe-coding-transition-en.html",
+   "title": "Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks",
+   "desc": "title: \"Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/wipe-coding-transition.html",
+   "title": "Переход от вайб- к вайп-кодингу: benefits, challenges and risks",
+   "desc": "title: \"Переход от вайб- к вайп-кодингу: benefits, challenges and risks\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/zalando-agentic-engineering-snapshot-2026.html",
+   "title": "Agentic Engineering at Zalando: a snapshot (2026-08-14)",
+   "desc": "**Author:** Bartosz Ocytko (Executive Principal Engineer, Zalando)",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/какэкономитьтокенывclaudecode.html",
+   "title": "Какэкономитьтокенывclaudecode",
+   "desc": "source: \"Как экономить токены в Claude Code.md\"",
+   "tag": "Wiki"
+  },
+  {
+   "file": "wiki/ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.html",
+   "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
+   "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
+   "tag": "Wiki"
+  },
+  "applitools-probabilistic-validation-gap-2026"
+ ],
+ "raw_count": 224,
+ "updated": "2026-09-20"
 }
