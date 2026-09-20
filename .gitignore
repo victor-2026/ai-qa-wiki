@@ -37,3 +37,6 @@ venv/
 
 ## Obsidian (internal state, never commit)
 .obsidian/
+
+## Session Archive (private transcripts - never commit)
+/session-archive/

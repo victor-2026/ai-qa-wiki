@@ -440,3 +440,9 @@ All 7 marked [x] items processed:
 - Transcripts via youtube-transcript-api, evaluated full-read before save (davidov 80% fluff cut).
 - Not saved (thin): testRigor agentic-QA promo, IcebergQA STARWEST promo (Arbon talk = radar), Lew PNSQC (quote → Articles/quotes.md instead).
 - Open: Amodei Sept 2026 primary ingest · Colantonio episode link · Arbon STARWEST transcript watch.
+
+## 2026-09-20 00:24 — Bolton/Bach sandwich test + FlowScout paradigm
+- Note created: `wiki/bolton-bach-llm-sandwich-hygiene-protocol-2026.md` — 19.09 experiment (gpt-6-astra friendly tone vs gpt3.5-16k honest refusal; strict non-anthropomorphic instructions -> (c) "not applicable + reformulation"; visible reasoning optimizes tone not truth; "Astra now worse for truth/reliability"). Bach mental hygiene protocol included. Cross-links: green-dashboard trap, oracle design, "unreproducible = doesn't count".
+- Heusser tangent saved (The Great AI Escape / HuggingFarce, xndev.com 19.09): recurring hype pattern, HF break-in report non-reproducible, burden of proof shifted.
+- Section added: FlowScout (Igor Akymenko crawler) = live sober/literal QA tool — "never asserts anything", honest CAPTCHA-reject. Repo + pilot catalog pointer (Positions-CV-CL).
+- index updated (348 topics). Pilot execution delegated to another window.
