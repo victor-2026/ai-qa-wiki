@@ -41,3 +41,4 @@ Three innovations (launch 14.09.2026):
 - [[testing-ai-book-evidence-foundations]] — evidence vs claims
 - Article 26/27 (Articles project) — vendor eval, green-dashboard trap
 - [[visual-regression-testing-complete-guide-2026]]
+- [[browserstack-blog-breakpoint-2026-test-companion]] — Test Companion self-healing claims, MCP Server integration = same vendor route
