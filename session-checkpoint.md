@@ -446,3 +446,11 @@ All 7 marked [x] items processed:
 - Heusser tangent saved (The Great AI Escape / HuggingFarce, xndev.com 19.09): recurring hype pattern, HF break-in report non-reproducible, burden of proof shifted.
 - Section added: FlowScout (Igor Akymenko crawler) = live sober/literal QA tool — "never asserts anything", honest CAPTCHA-reject. Repo + pilot catalog pointer (Positions-CV-CL).
 - index updated (348 topics). Pilot execution delegated to another window.
+
+## 2026-09-21 — W5 handover CLOSED: BrowserStack wiki finished + registry fix (commit 84e4a67)
+- Handover from Articles (77ef3bd): "finish + commit BrowserStack wiki in ai-qa-wiki". Owner was window 5 → DONE.
+- `wiki/browserstack-blog-breakpoint-2026-test-companion.md` already complete (112 lines, pushed 158e817). Found registry bugs and fixed:
+  1. BrowserStack entry desc = frontmatter instead of description → corrected.
+  2. Applitools wiki (20.09, `applitools-probabilistic-validation-gap-2026.md`) was MISSING from wiki-topics.json — file existed, index claimed 351 but real count 350 → entry added.
+  - Cross-link added Applitools → BrowserStack (verbatim + cross-route).
+- Registry now valid JSON, topics 350 → 352, commit `84e4a67`, pushed to origin/main.
