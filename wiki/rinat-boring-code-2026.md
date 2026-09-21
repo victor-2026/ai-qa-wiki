@@ -54,7 +54,6 @@ tags: [ai-coding, verification, evals, agent-testing]
 - [[testing-agents]] / `testing-agents.md` - эволюция тестирования агентов
 - [[autonoma-llm-evals-cicd]] - evals в CI/CD как gate
 - [[prune4web-llm-filter-2026]] - не заставляй читать DOM, не заставляй читать и код
-- **Agentiqa pilot** (Positions-CV-CL vault, `company/pilots/Agentiqa/index.md`): тот же тезис - независимо проверяющий агент, а не читающий код
 
 ---
 
