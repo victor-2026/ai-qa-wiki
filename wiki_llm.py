@@ -13,6 +13,8 @@ Usage:
     python3 wiki_llm.py --update-index --git-push        — Regenerate + push to GitHub
     python3 wiki_llm.py --sync-links                     — Rebuild all backlinks across wiki
     python3 wiki_llm.py --sync-links --git-push          — Sync links + push
+    python3 wiki_llm.py --lint                           — Deterministic health check (or wiki_lint.py)
+    python3 wiki_llm.py --lint --git-push                — Lint + push report
 
 Models (cost per 1M tokens):
   openai/gpt-oss-120b     $0.15/$0.60 — cheap, good for ingest (DEFAULT)
@@ -36,6 +38,8 @@ RAW_DIR = PROJECT_DIR / "raw"
 WIKI_DIR = PROJECT_DIR / "wiki"
 OUTPUTS_DIR = PROJECT_DIR / "outputs"
 LOG_FILE = PROJECT_DIR / "wiki_llm.log"
+WIKI_LOG = WIKI_DIR / "log.md"
+LINT_REPORT_DIR = OUTPUTS_DIR
 
 # Backlinks section markers (managed by script, do not edit manually)
 BACKLINK_HEADING = "### Backlinks"
@@ -60,6 +64,20 @@ def log_run(mode: str, topic: str, status: str, output: str = ""):
     line = f"[{datetime.now().isoformat()}] {mode} | {topic[:80]} | {status} | {output[:80]}"
     with open(LOG_FILE, "a") as f:
         f.write(line + "\n")
+
+
+def append_wiki_log(action: str, detail: str = ""):
+    """Append an entry to the persistent wiki/log.md (append-only operation log)."""
+    WIKI_LOG.parent.mkdir(exist_ok=True)
+    existing = WIKI_LOG.read_text(encoding="utf-8", errors="ignore") if WIKI_LOG.exists() else ""
+    line = f"- {datetime.now().strftime('%Y-%m-%d %H:%M')} — {action}"
+    if detail:
+        line += f" — {detail}"
+    with open(WIKI_LOG, "a", encoding="utf-8") as f:
+        if existing and not existing.endswith("\n"):
+            f.write("\n")
+        f.write(line + "\n")
+    log_run("wiki-log", action, "ok", detail)
 
 
 def get_groq_key():
@@ -199,6 +217,7 @@ def sync_all_backlinks():
         count += 1
     print(f"✅ Backlinks synced for {count} pages")
     log_run("sync-links", f"{count} pages", "ok")
+    append_wiki_log("sync-links", f"{count} pages")
 
 
 def build_context(files: list, max_chars: int = 4000) -> str:
@@ -308,6 +327,7 @@ ingested: "{datetime.now().strftime('%Y-%m-%d')}"
     wiki_path.write_text(content, encoding="utf-8")
     print(f"✅ Saved to: wiki/{wiki_name}")
     log_run("ingest", raw_path.name, "ok", f"wiki/{wiki_name}")
+    append_wiki_log("ingest", f"raw/{raw_path.name} → wiki/{wiki_name}")
 
     # Add backlinks to related pages
     if related:
@@ -315,6 +335,7 @@ ingested: "{datetime.now().strftime('%Y-%m-%d')}"
         for r in related:
             update_backlinks_for_page(r["path"])
         print(f"🔗 Backlinks updated for {len(related)} related page(s)")
+        append_wiki_log("backlinks", f"{len(related)} related pages for wiki/{wiki_name}")
 
     return wiki_path
 
@@ -394,6 +415,7 @@ def ingest_all(model: str = ""):
             fail += 1
     print(f"\n✅ {ok} ingested, ❌ {fail} failed")
     log_run("ingest-all", f"{ok} ok, {fail} fail", "ok")
+    append_wiki_log("ingest-all", f"{ok} ingested, {fail} failed")
 
 
 def update_index():
@@ -436,6 +458,7 @@ def update_index():
     dst.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"📋 wiki-topics.json: {len(topics)} topics, {raw_count} raw sources")
     log_run("update-index", f"{len(topics)} topics", "ok")
+    append_wiki_log("update-index", f"{len(topics)} topics, {raw_count} raw")
 
 
 def git_push(files: list, message: str = ""):
@@ -483,6 +506,22 @@ def main():
         if git_push_flag:
             update_index()
             git_push(["wiki/", "wiki-topics.json"], "chore(wiki): sync backlinks")
+        return
+
+    if args[0] == "--lint":
+        import subprocess
+        lint_args = " ".join(a for a in args[1:] if a != "--git-push")
+        try:
+            r = subprocess.run(["python3", str(PROJECT_DIR / "wiki_lint.py")] + (lint_args.split() if lint_args else []),
+                               cwd=PROJECT_DIR, capture_output=True, text=True)
+            print(r.stdout)
+            if r.stderr:
+                print(r.stderr, file=sys.stderr)
+        except FileNotFoundError:
+            print("❌ wiki_lint.py not found — run python3 wiki_lint.py")
+        if git_push_flag:
+            update_index()
+            git_push(["outputs/", "wiki/", "wiki-topics.json"], "chore(wiki): run lint")
         return
 
     if args[0] == "--ingest-all":

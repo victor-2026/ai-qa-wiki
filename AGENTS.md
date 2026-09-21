@@ -79,9 +79,16 @@ ai-qa-wiki/
 - All answers cite sources
 - Wiki entries have examples
 - Contradictions flagged for human review
-- Monthly consistency check (lint):
-  - Wiki: contradicting entries, broken links
-  - AGENTS.md: no dated facts, ≤ 32 KiB, commands still valid
+- Health check — automated (replaces manual lint ritual):
+  ```bash
+  python3 wiki_lint.py                 # deterministic: broken links, orphans, stubs, raw→wiki, dupes
+  python3 wiki_lint.py --json          # machine-readable
+  python3 wiki_llm.py --lint --git-push  # run + push report to outputs/lint-report-*.md
+  ```
+  - Written to `outputs/lint-report-YYYY-MM-DD.md`
+  - Exit: 1 = broken links (fix first), 2 = orphans/stubs/missing, 3 = informational
+  - Contradiction scan между связанными страницами — (LLM-слой, roadmap, сейчас детерминированная часть)
+- `wiki/log.md` — append-only operation log, авто-пишется скриптом при ingest/update-index/sync-links; человек дописывает вручную для wiki-only правок
 
 ## Backup Rules
 

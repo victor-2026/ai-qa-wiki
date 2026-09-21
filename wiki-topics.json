@@ -1273,9 +1273,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/llm-wiki-pattern-2026.html",
+      "title": "LLM Wiki Pattern (Karpathy): Mechanics & Our Delta",
+      "desc": "**Source:** https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f (April 2026, 16M+ views, 5K+ stars gist)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/llms-observability-driven-development.html",
       "title": "Observability-Driven Development for LLMs",
       "desc": "source: \"llms-observability-driven-development.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/log.html",
+      "title": "Wiki Log",
+      "desc": "Append-only operation log (auto-written by `wiki_llm.py`; human convention: append manually for wiki-only edits).",
       "tag": "Wiki"
     },
     {

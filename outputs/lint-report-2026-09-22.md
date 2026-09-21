@@ -1,0 +1,366 @@
+# Wiki Lint Report — 2026-09-22
+
+- Timestamp: 2026-09-22T01:35:53.123481
+- Wiki pages: 374
+- Internal links OK: 0
+- Broken links: 10
+- Orphans: 251
+- Stubs (<200 chars): 0
+- Raw without wiki: 71
+- Duplicate-ish stems: 0
+
+## Broken links
+- `3-ai-test-tools-orangehrm-comparison-2026.md` → `wiki/not
+
+
+
+
+
+
+
+---
+*Source: [raw/3-ai-test-tools-orangehrm-comparison-2026.md](../raw/3-ai-test-tools-orangehrm-comparison-2026.md` (wiki target missing)
+- `boris-cherny-claude-maintains-apps-2026.md` → `wiki/radik-zagirov-rotting-gate-2026.md` (wiki target missing)
+- `google-kaggle-agent-skills-whitepaper-2026.md` → `wiki/
+
+---
+*Source: [raw/google-kaggle-agent-skills-whitepaper-2026.md](../raw/google-kaggle-agent-skills-whitepaper-2026.md` (wiki target missing)
+- `ilya-kabanov-cybersecurity-ai-cost-2026.md` → `wiki/radik-zagirov-rotting-gate-2026.md` (wiki target missing)
+- `ishan-anand-llm-persona-feedback-failure-modes-2026.md` → `wiki/llm-testing-six-approaches-2026.md` (wiki target missing)
+- `ishan-anand-llm-persona-feedback-failure-modes-2026.md` → `wiki/your-agent-found-5-bugs-2026.md` (wiki target missing)
+- `jev-openai-proprietary-beaten-open-source-2026.md` → `wiki/typesafe-jev-judgment-service-gates-2026.md` (wiki target missing)
+- `opencode-jev-113-free-system-one-model-2026.md` → `wiki/typesafe-jev-judgment-service-gates-2026.md` (wiki target missing)
+- `ruben-hassid-jev-internet-moment-setup-2026.md` → `wiki/typesafe-jev-judgment-service-gates-2026.md` (wiki target missing)
+- `testing-ai-agent-tool-calls-autonoma.md` → `wiki/copilot-generated-tests-quality-pitfalls-auton
+
+
+
+
+---
+*Source: [raw/testing-ai-agent-tool-calls-autonoma.md](../raw/testing-ai-agent-tool-calls-autonoma.md` (wiki target missing)
+
+## Orphans (no inbound links)
+- 15-best-agentic-ai-testing-tools-2026.md
+- 30questiontomodernmanualqa.md
+- 6aiconceptsyoumustmastertobuildproduction-readyaisystems.md
+- API-Testing.md
+- Agentic Development Lifecycle (ADLC).md
+- Black-Box-Testing.md
+- Chaos-Engineering.md
+- EARS и BDD.md
+- Fuzzing.md
+- Mutation-testing-without-code.md
+- Network-Interception.md
+- Test-Reliability.md
+- action-ontology-runtimes-agent-execution-2026.md
+- ad-hoc-testing-guide.md
+- addy-osmani-agentic-autonomy-levels-2026.md
+- addy-osmani-agentic-code-quality-2026.md
+- addy-osmani-brownfield-agentic-engineering-2026.md
+- addy-osmani-human-judgment-software-factory-2026.md
+- addy-osmani-own-the-outer-loop-2026.md
+- addy-osmani-software-factories-light-and-dark-2026.md
+- agent-comparison-benchmark.md
+- agent-skills-specification.md
+- agent-teams-architecture.md
+- agentic-engineering-hacks.md
+- agentic-patterns.md
+- agents-discussion-300526.md
+- ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.md
+- ai-chaos-testing.md
+- ai-fluency-interview-reform-2026.md
+- ai-qa-exoskeleton-habr.md
+- ai-qa-exoskeleton-launch-habr.md
+- ai-regression-testing-workflows.md
+- ai-risk-communication-2026.md
+- ai-roi-regression-testing.md
+- ai-testing-effectiveness-papers.md
+- ai-testing-effectiveness.md
+- ai-testing-glossary-n-z.md
+- ai-testing-map.md
+- ai-testing-metrics.md
+- ai-testing-platform-comparison-2026.md
+- allure-testops-research-2026.md
+- anti-flakiness-habr.md
+- antigravity-benchmark.md
+- anton-gulin-playwright-vs-cypress-vs-selenium-2026.md
+- anton-gulin-regression-suite-museum-2026.md
+- applitools-probabilistic-validation-gap-2026.md
+- aria-qa-data-automation-agent-2026.md
+- autonoma-agent-memory-2026.md
+- autonoma-agent-regression-2026.md
+- autonoma-agent-reliability-2026.md
+- autonoma-agent-simulation-2026.md
+- autonoma-blog-catalog-all-publications-2026.md
+- autonoma-crewai-evaluation-2026.md
+- autonoma-hallucinations-2026.md
+- autonoma-how-to-test-ai-agent-e2e-2026.md
+- autonoma-langgraph-testing-2026.md
+- autonoma-llm-evals-cicd-2026.md
+- autonoma-llm-unit-testing-2026.md
+- autonoma-mcp-server-2026.md
+- autonoma-multi-agent-handoffs-2026.md
+- autonoma-multi-turn-conversations-2026.md
+- autonoma-non-deterministic-outputs-2026.md
+- autonoma-orangehrm-setup-notes.md
+- autonoma-qa-ai-feature-2026.md
+- autonoma-rag-evaluation-metrics-2026.md
+- autonoma-rag-pipeline-2026.md
+- autonoma-rag-retrieval-2026.md
+- autonoma-streaming-responses-2026.md
+- autonoma-testing-tool-calls-2026.md
+- autonomous-testing-agent-fastest-feedback-2026.md
+- avito-ai-code-review-llm-pipeline-2026.md
+- avito-baas-platform-qa-2026.md
+- bas-dijkstra-learning-takes-time-2026.md
+- bdd-ai-native-harness.md
+- beyond-zero-google-experimentation-culture-2026.md
+- bolton-bach-llm-sandwich-hygiene-protocol-2026.md
+- browser-ai-testing-agents.md
+- building-professional-resilience-qa-2026.md
+- c4-model-software-architecture.md
+- canary-testing-guide.md
+- cappy-small-scorer-boosting-llm-2024.md
+- claude-code-tests-part1.md
+- claude-meetup-beginners-beyond-aug2026-summary.md
+- consumer-drivencontracttestingpost.md
+- context-loss-orchestration-separation-2026.md
+- cp-cpm-pfp-monetization-metrics-2026.md
+- crash-budget-2026.md
+- csv-validation-iq-oq-pq-2026.md
+- data-testid-react-playwright.md
+- david-burke-death-taxes-software-bugs.md
+- detox-basics-2026.md
+- devqaexpert-blog-catalog-all-publications-2026.md
+- devtool-gtm-engineered-word-of-mouth-2026.md
+- distributed-llm-inference-swarmllm-2026.md
+- ds-ml-quality-testing-2026.md
+- efficient-performance-testing-grid-cloud-2026.md
+- engineering-standards-ai-development-compound-2026.md
+- everyinc-compound-engineering-loop-2026.md
+- evolving-quality-ai-testing-community-2026.md
+- executor-evaluator-split-zagirov-2026-09.md
+- failuremodeandeffectsanalysisfmea.md
+- feature-flags-guide.md
+- free-ai-services-2026-artem-subbotin.md
+- free-ai-services-list-2026.md
+- from-ai-agent-demo-to-production-2026.md
+- fullstack-verification-mcp-habr.md
+- go-testing-for-qa-2026.md
+- google-tos-2026-restrictions.md
+- gpt-image-research-mode.md
+- hack-n-vibe-bitgn-pac1-agent.md
+- hidden-costs-vibe-coded-apps.md
+- http-query-method-rfc10008-2026.md
+- implement-ai-in-qa-process.md
+- infinite-midwit.md
+- integration-testing-systems-stitching-2026.md
+- iso-26262-functional-safety-testing-2026.md
+- jason-arbon-how-ai-tests-software-2026.md
+- julia-pottinger-accountable-ai-code-2026.md
+- julia-pottinger-who-validates-ai-generated-code-2026.md
+- juliapottinger-blog-catalog-all-publications-2026.md
+- kiro-blog-catalog-all-publications-2025-2026.md
+- kiro-bug-fix-paradox-2026.md
+- kiro-continuous-prompt-evaluation-llm-judges-2026.md
+- kiro-crew-multi-agent-orchestration-open-source-2026.md
+- kiro-crew-pilot-plan.md
+- kiro-diagnostics-over-time-agent-quality-2026.md
+- kiro-openapi-to-testsuite-2026.md
+- kiro-property-based-testing-security-bug-2026.md
+- kiro-root-cause-33s-2026.md
+- kiro-snyk-guardrails-2026.md
+- kiro-soc2-planview-automation-2026.md
+- klain-testing-mindset-evaluator-independence-2026-08.md
+- lee-robinson-job-tips.md
+- linkedin-performance-analyzer-2026.md
+- llm-agents-cicd-cheating-habr.md
+- llm-testing-6-approaches.md
+- llm-wiki-pattern-2026.md
+- llms-observability-driven-development.md
+- maestro-vs-appium-2026.md
+- martinfowler-blog-catalog-all-publications-2026.md
+- mas-risks.md
+- mas-vs-swe-comparison.md
+- matt-robson-human-in-the-loop-ai-testing-2026.md
+- meta-muse-personal-ai-agent-2026.md
+- metamorphic-tests-comparison.md
+- mobile-testing-infrastructure-parallel-2026.md
+- mobile-testing-windows-server-setup-2026.md
+- monitoring-vibe-coded-apps.md
+- notebooklm-playbook-analysis.md
+- notebooklm-three-frameworks-scenario.md
+- notebooklm_agent.md
+- notion-christina-muehller-outreach-2026-06-10.md
+- notion-kanban-bot-setup-2026.md
+- observatory-weekly-quality-gaps-2026.md
+- obsidian-scam-audit-2026.md
+- obsidian-security-checklist.md
+- obsidian-skills-kepano.md
+- openai-wiki-incident-2026.md
+- opencode-openrouter-qa-2026.md
+- opencode-skill-creator.md
+- opencode-telegram-bot.md
+- opencode-vs-claude-comparative-test.md
+- orangehrm-54-to-581-upgrade.md
+- orangepro-risk-based-coverage-2026.md
+- pact-contract-testing-guide-2026.md
+- passmark-ai-regression.md
+- pbt-llm-code-generation.md
+- pi-image-generation-2026.md
+- pi-opencode-integration-2026.md
+- pi-subagents-2026.md
+- pipeline-triad-pattern.md
+- playwright-test-agents-2026.md
+- post-about-contract-testing-guide.md
+- postman-blog-catalog-all-publications-2026.md
+- practitest-state-of-testing-2026.md
+- promptfoo-eval-suite.md
+- qa-ds-collaboration-patterns-2026.md
+- qa-in-the-ai-era.md
+- qa-metrics-dashboard.md
+- qa-prompt-engineering-guide.md
+- qa-topics.md
+- qburst-quality-engineering-framework-validating-agent-behavior-2026.md
+- qualityremarks-blog-catalog-all-publications-2026.md
+- rag-evaluation-ragas.md
+- rag-evaluation.md
+- recorder-locator-quality-playwright-cli-2026-09.md
+- red-teaming-tests.md
+- rick-crawford-qe-structural-problem-2026.md
+- rinat-ERC-winner-deep-dive-2026.md
+- rinat-abdullin-bdd-vs-sdd-ai-native-harness.md
+- rinat-abdullin-blog-catalog-all-publications-2026.md
+- rinat-ai-coding-kata-2026.md
+- rinat-boring-code-2026.md
+- rinat-erc-2026.md
+- rinat-llm-benchmarks-2026.md
+- rinat-sgr-2026.md
+- rinat-sgr-adaptive-planning-2026.md
+- risk-based-testing-skill.md
+- rmorison-six-layer-ai-architecture-2026.md
+- rotation-without-relevance-preseed-mutant-filtering-2026.md
+- rtm-matrix-habr.md
+- runtime-authorization-ai-agents-2026.md
+- ruvnet-agentic-stack-2026.md
+- self-healing-tests.md
+- self-review-loop.md
+- sergey-yudin-neurolegal-verified-citations-2026.md
+- shcherbinin-tg-understand-code-debate-2026.md
+- slopcodebench-2026.md
+- software-testing-weekly-newsletter-2026.md
+- software-testing-with-generative-ai.md
+- spaceducking-test-feels-like-autopilot-2026.md
+- splunk-odd-explained.md
+- state-of-digital-quality-2026.md
+- stratoplan-management-2026.md
+- swe-proof-machine-checked-proofs-2026.md
+- test-automation-fundamentals-revisited.md
+- test-automation-quadrant.md
+- test-management.md
+- test-rocket-pyramid-ai-era-2026.md
+- testers-ai-ten-minute-tester-workshop-2026.md
+- testerstories-blog-catalog-all-publications-2026.md
+- testing-ai-book-security-dynamic-systems.md
+- testing-maturity-model-tmm-2026.md
+- testing-strategies.md
+- testkube-four-layers-ai-testing-2026-08.md
+- testkube-local-vs-frontier-models-2026-07.md
+- testkube-smart-suites-test-selection-2026-04.md
+- testmu-ai-formerly-lambdatest-2026.md
+- testmuai-blog-catalog-all-publications-2026.md
+- testrigor-blog-catalog-all-publications-2026.md
+- the-batch-371-deeplearning-ai-2026.md
+- toe2eornottoe2e-ontestautomation.md
+- tony-seale-multi-agent-semantic-web-2026.md
+- trickcatcher-bug-detection.md
+- ui-fuzzing.md
+- verification-completeness-testing-paradox-2026.md
+- vibe-coding-links.md
+- vibe-coding-vs-spec-driven.md
+- vibe-wipe-coding-guide.md
+- video-capabilities-opencode-free.md
+- virtuoso-blog-catalog-all-publications-2026.md
+- virustotal-usage-2026.md
+- visual-regression-testing-complete-guide-2026.md
+- webtestbench-ai-web-testing.md
+- weekly-time-planner-prd-example.md
+- what-is-software-testing.md
+- winteringham-prompts-readme.md
+- winteringham-prompts.md
+- wipe-coding-transition.md
+- zalando-agentic-engineering-snapshot-2026.md
+- ошибкикоторыеснижаютохватпубликацийвlinkedlnна50-95.md
+
+## Raw without wiki
+- AI DLC (AI-driven development lifecycle).md
+- AI Engineering Skills Map - Building and Deploying.md
+- AI Engineering Skills Map - The Map.md
+- AI Engineering Skills Map - Using coding agents.md
+- Agent Skills (05.26) от Google и Kaggle.md
+- CARBON, AI Agentic Verification Harnes.md
+- Family.Connect by Ivan Alekseev.md
+- Graph Engineering vs Loop Engineering - The 2026 Agent Roadmap.md
+- It Was Always a Loop.md
+- Karpathy Just Turned One GPU Into a Research Lab.md
+- Keith Klain - Testing Mindset After All - 2026.md
+- Master AI before it masters you.md
+- Mutation Testing Playwright Front-End.md
+- Wayne Roseberry - post 22.08.md
+- adamtornhill-practices-abandoned-agents-2026.md
+- addy-osmani-anthropic-verification-floor-skill-decay-2026.md
+- addy-osmani-month-digest-verification-gates-2026-09.md
+- ai-in-qa-issue-17-butch-mayhew-2026-07-06.md
+- alex-barady-9-concepts-ai-builder-2026.md
+- antongulin-save-failed-playwright-test-trace-2026.md
+- autonoma-agent-regression-testing-2026.md
+- autonoma-agent-simulation-testing-2026.md
+- autonoma-ai-agent-reliability-testing-2026.md
+- autonoma-how-to-test-ai-agent-memory-2026.md
+- autonoma-how-to-test-an-ai-agent-2026.md
+- autonoma-how-to-test-multi-agent-systems-2026.md
+- autonoma-llm-evals-ci-cd-2026.md
+- autonoma-non-deterministic-ai-outputs-2026.md
+- autonoma-streaming-ai-responses-2026.md
+- autonoma-testing-ai-agent-tool-calls-2026.md
+- bach-bolton-amodei-pace-frontier-evaluators-2026.md
+- bach-jensen-safety-debate-2026.md
+- beecommerce-12-agents-5-layers-2026.md
+- boris-cherney-claude-code-tips-2026.md
+- colantonio-perf-value-ai-cost-savings-2026.md
+- contextqa-ai-agent-testing-platform-2026.md
+- cyboflow-verification-patterns-changelog-2026.md
+- everyinc-compound-engineering-plugin-loop-2026.md
+- ivan-davidov-agentic-playwright-context-engineering-2026.md
+- james-bach-testing-ai-metamorphic-oracle-2026.md
+- jay-aigner-humans-hold-green-light-2026.md
+- keithklain-death-by-thousand-prompts-2026.md
+- kiro-continuous-prompt-evaluation-2026.md
+- kiro-diagnostics-over-time-2026.md
+- kiro-llm-judge-pipeline-eval-loop-2026.md
+- living-documentation-moldable-development-jit-2026.md
+- matthias-schaper-author-harness-measurement-2026.md
+- michael-bolton-whereas-critical-thinking-experts-2026.md
+- michaela-greiler-scope-model-code-oversight-2026.md
+- mogilko-yampolskiy-35-ai-employees-2026.md
+- no-human-read-csharp-gates-sealed-suite-2026.md
+- pusuluri-oracle-independence-healing-boundary-2026.md
+- radik-zagirov-action-ontology-runtimes-2026.md
+- radik-zagirov-agent-hallucinated-execution-ledger-gate-2026.md
+- radik-zagirov-p-action-ontology-runtimes-2026.md
+- rmorison-engineering-standards-six-layer-ai-architecture-2026.md
+- ruvnet-overview-2026.md
+- schaper-harness-effectiveness-check-2026.md
+- siniouguine-accio-silent-incompleteness-pricing-2026.md
+- test-editing-agent-colantonio-pettersson-2026.md
+- testmuai-finance-ai-agent-compliance-testing-2026.md
+- testmuai-llm-evaluation-vs-e2e-agent-testing-2026.md
+- testrigor-agentic-qa-2026.md
+- testrigor-claude-code-2026.md
+- testrigor-different-evals-agentic-ai-2026.md
+- testrigor-rag-vs-agentic-rag-mcp-2026.md
+- testrigor-testing-agentic-ai-erp-2026.md
+- typesafe-jev-judgment-service-gates-2026.md
+- virto-qa-surface-recon-2026-09-17.md
+- zborovsky-ai-chief-of-staff-doordash-2026.md
+- Закон Конвея и Обратный маневр Конвея.md
