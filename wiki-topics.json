@@ -2059,6 +2059,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/the-batch-371-deeplearning-ai-2026.html",
+      "title": "The Batch 371 Deeplearning Ai 2026",
+      "desc": "source: \"the-batch-371-deeplearning-ai-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/the2026aitestingfrontier-astrategicevaluationofautonomousqalifecycleplatforms.html",
       "title": "The2026Aitestingfrontier Astrategicevaluationofautonomousqalifecycleplatforms",
       "desc": "source: \"The 2026 AI Testing Frontier - A Strategic Evaluation of Autonomous QA Lifecycle Platforms.md\"",
@@ -2239,6 +2245,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 234,
+  "raw_count": 235,
   "updated": "2026-09-22"
 }
