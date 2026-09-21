@@ -454,3 +454,9 @@ All 7 marked [x] items processed:
   2. Applitools wiki (20.09, `applitools-probabilistic-validation-gap-2026.md`) was MISSING from wiki-topics.json — file existed, index claimed 351 but real count 350 → entry added.
   - Cross-link added Applitools → BrowserStack (verbatim + cross-route).
 - Registry now valid JSON, topics 350 → 352, commit `84e4a67`, pushed to origin/main.
+
+## 2026-09-21 11:47 - Digest 21.09: SWE-Proof + Runtime Authorization (037bc6f)
+- Digest 2026-09-21 parsed (5 from 289). 2 saved, rest skip/POM low.
+- NEW wiki `swe-proof-machine-checked-proofs-2026.md` (arxiv 2609.21190, 2026-09-18): 500 SWE-bench issues formally verified; 25-50% of test-passing patches admit counterexamples (green suite != correctness, independent academic backup for Article 27); 62% of self-authored specs pass audit; spec faithfulness open problem.
+- NEW wiki `runtime-authorization-ai-agents-2026.md` (arxiv 2609.14744, 2026-09-18): post-fulfillment activation gap, provenance-bounded runtime auth (quarantine-resolve-activate), envelope, 8 safety props, MCP-to-Docker.
+- Registry: topics 351 -> 353, JSON valid. Commit `037bc6f`, pushed origin/main. Cross-links: mutation-matrix / verification-layer / Andrew Ng security / MCP habr.
