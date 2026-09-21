@@ -22,7 +22,7 @@
 | 1 | Sep 21, 2026 | [We Tested Jev on 100 Real Agent Calls](https://archestra.ai/blog/we-tested-jev-on-100-real-agent-calls) | Testing/Evals | HIGH | ✅ ingested → [wiki/archestra-jev-100-agent-calls-benchmark-2026.md](wiki/archestra-jev-100-agent-calls-benchmark-2026.md) + quotes.md |
 | 2 | Sep 10, 2026 | [We Fix Small Bugs by Dropping a 🦀 in Slack](https://archestra.ai/blog/fixing-small-bugs-from-a-slack-thread) | Security | HIGH | ✅ ingested → [wiki/archestra-crab-bot-slack-agent-2026.md](wiki/archestra-crab-bot-slack-agent-2026.md) (agent self-review loop + OpenAPPA IFC) |
 | 3 | Aug 12, 2026 | [Skills Aren't Prompts. They Can Run Code.](https://archestra.ai/blog/skills-arent-prompts-they-can-run-code) | Security | HIGH | ✅ ingested → [wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md) (log-as-truth sandbox, "skills carry the contract") |
-| 4 | Jul 20, 2026 | [We Debug Our AI Harness on Weak Models on Purpose](https://archestra.ai/blog/we-debug-our-ai-harness-on-weak-models-on-purpose) | Testing/Evals | HIGH | SKIM (weak models find harness bugs; nightly 26-task bench) — directly our mutation-matrix intuition |
+| 4 | Jul 20, 2026 | [We Debug Our AI Harness on Weak Models on Purpose](https://archestra.ai/blog/we-debug-our-ai-harness-on-weak-models-on-purpose) | Testing/Evals | HIGH | ✅ ingested → [wiki/archestra-debug-harness-weak-models-2026.md](wiki/archestra-debug-harness-weak-models-2026.md) + quotes.md. Weak models as smoke-alarm; 26-task nightly bench; deterministic grader, hidden ground truth, full trajectory vs score; bugs found table; cost/capability cross-rank |
 | 5 | Oct 13, 2025 | [The Archestra Dual LLM Pattern (Guess Who?)](https://archestra.ai/blog/dual-llm) | Security | HIGH | FULL READ (prompt-injection defense via dual-LLM; "author vs examiner" sister pattern) |
 
 ## TIER 2: MEDIUM RELEVANCE (Feature Covers)
@@ -86,3 +86,10 @@
 ---
 
 *Источники: [raw/archestra-jev-100-agent-calls-benchmark-2026.md](raw/archestra-jev-100-agent-calls-benchmark-2026.md), [raw/archestra-crab-bot-slack-agent-2026.md](raw/archestra-crab-bot-slack-agent-2026.md), [raw/archestra-skills-aren-t-prompts-code-sandbox-2026.md](raw/archestra-skills-aren-t-prompts-code-sandbox-2026.md)*
+
+<!-- backlinks-start -->
+### Backlinks
+- [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+- [Archestra Jev 100 Agent Calls Benchmark 2026](wiki/archestra-jev-100-agent-calls-benchmark-2026.md)
+- [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)
+<!-- backlinks-end -->
