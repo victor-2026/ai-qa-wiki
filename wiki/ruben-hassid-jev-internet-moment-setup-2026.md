@@ -94,10 +94,14 @@ A composite prompt chain (Claude Code + GitHub + Vercel + Apify 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [Master AI Before It Masters You — 27 Claude Tips](wiki/ruben-hassid-master-ai-claude-tips.md)
 - [Opencode Jev 113 Free System One Model 2026](wiki/opencode-jev-113-free-system-one-model-2026.md)
+- [Typesafe Jev Judgment Service Gates 2026](wiki/typesafe-jev-judgment-service-gates-2026.md)
 <!-- backlinks-end -->
