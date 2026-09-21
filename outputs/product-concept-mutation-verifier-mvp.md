@@ -129,3 +129,28 @@ verdictgate/  (новый репо victor-2026/verdictgate, свой AGENTS.md)
 3. ~~Название~~ → ✅ verdictgate (см. §12, коллизии проверены).
 4. B2 Medium: **зафиксирована Позиция C** — дефолт строгий (≤5% при N≥20 / max 1 + recorded decision при N<20), вендорский вариант (1/60) = именованный профиль для сравнительных прогонов (в v0.2+); B0/B1 zero-tolerance неконфигурируем. Финальное решение после Article 27 / первой платной аттестации.
 5. ~~Новый репо сейчас или после MVP-сигнала?~~ → ✅ override юзера 2026-09-15: приватный репо сейчас (victor-2026/verdictgate), публичный после Article 27.
+
+---
+
+## 13. Пилотные кандидаты — кого ищем (правило 2026-09-21)
+
+**Правило:** пилот для VerdictGate берем из компаний с **verdict-слоем** (генерируют тесты И выносят оценку качества: score/confidence, PR-рекомендации, "все зеленое" отчет, флаги/варенниге). Пропускаем **orchestration-слой** (исполняют тесты, агрегируют результаты, но не судят о качестве приложения).
+
+**Фит-критерий (порядок важности):**
+1. Есть AI-вердикт о качестве ПО (score/confidence/селекторы/PR-фиксы) - это мутируется
+2. Вердикт воспроизводим локально/в pilot-кластере (не только SaaS со слепым CI)
+3. Есть история кейсов/vendor, на которой можно строить публикацию (у нас - вне пилота, в статьях про вендоров)
+
+**Кандидаты (профиль):**
+
+| Компания | Слой | VerdictGate-фит | Статус |
+|---|---|---|---|
+| QAEverest | verdict (Trust Scorecard, sensitivity) | ✅ эталон | пилот сделан (M0-M6, 6/6 c 0/4→3/3, sign-off 07.09) |
+| Agentiqa | verdict (flows-not-UI, gating) | ✅ | пилот сделан (0/6 survived) |
+| testRigor | verdict (plain-English NLP, heals) | ✅ | пилот сделан (M0-M4, review effort col) |
+| Testkube (incl. Testkube AI) | **orchestration** (Control Plane + Agents, tool-agnostic executor; AI agents открывают PR с фиксами) | ⚠️ частичный: мутируется только AI-фикс-PR (верен ли фикс, не сломал ли соседнее), НЕ score о качестве | **не primary** — verdict-слоя нет, это executor |
+| Autonoma | verdict (codebase-aware agents) | ✅ потенциально | backlog |
+| Mabl (agentic, Active Coverage) | verdict (self-heal+workflow) | ✅ потенциально | backlog |
+| Testsigma (NLP codeless) | verdict | ⚠️ NLP-оркестрация, verdict слабее | наблюдать |
+
+**Правило для ищущих:** при встречающихся AI-тестинг-компаниях сначала классифицировать слой (verdict vs orchestration). Orchestration-слой = кандидат в "why-not-X" строку §3, не в пилот. Verdict-слой = кандидат в пилот (в очредь). Запись 2026-09-21: Testkube классифицирован как orchestration, в пилот не идет.
