@@ -242,3 +242,10 @@
 [2026-09-21T19:49:37.356437] update-index | 367 topics | ok | 
 [2026-09-21T19:50:42.990739] sync-links | 368 pages | ok | 
 [2026-09-21T19:50:43.230329] update-index | 368 topics | ok | 
+[2026-09-22T00:47:57.924502] ingest | archestra-jev-100-agent-calls-benchmark-2026.md | ok | wiki/archestra-jev-100-agent-calls-benchmark-2026.md
+[2026-09-22T00:48:10.921680] update-index | 369 topics | ok | 
+[2026-09-22T00:48:26.646762] sync-links | 369 pages | ok | 
+[2026-09-22T00:50:02.306647] ingest | archestra-crab-bot-slack-agent-2026.md | ok | wiki/archestra-crab-bot-slack-agent-2026.md
+[2026-09-22T00:50:06.227846] ingest | archestra-skills-aren-t-prompts-code-sandbox-2026.md | ok | wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md
+[2026-09-22T00:50:37.188517] update-index | 372 topics | ok | 
+[2026-09-22T00:50:49.459242] sync-links | 372 pages | ok | 

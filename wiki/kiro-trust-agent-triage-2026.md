@@ -88,3 +88,12 @@ Agent does triage today; increasingly repairs (drafting code reviews for fixes b
 - Corrections → lessons mirrors mutation-matrix learned_patterns.json — curated, not auto-appended.
 
 *Ingested: 2026-08-30*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+<!-- backlinks-end -->

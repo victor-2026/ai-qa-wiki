@@ -71,6 +71,12 @@ tags: [claude-code]
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AGENTS.md — 2 итерация: Сравнение предложений](wiki/agents-md-discussion.md)

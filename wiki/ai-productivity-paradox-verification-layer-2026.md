@@ -95,6 +95,12 @@ QA reading: stage 3‑4 on Jones scale = where QA earns its keep (verification o
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework](wiki/three-way-comparison.md)

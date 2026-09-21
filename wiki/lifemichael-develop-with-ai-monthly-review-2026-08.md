@@ -42,3 +42,12 @@ Single coding agents → **orchestrated multi-agent platforms** (decompose, para
 - [ ] Re-run eval harness spot-checks on Claude Opus 5 (item 3)
 - [ ] Watch XtremeAI 2026 proceedings (Nov 24) for agent-eval content
 - [ ] Track Kiro Crew for a future pilot (open-source, persistent agents)
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)
+<!-- backlinks-end -->

@@ -64,6 +64,12 @@ A former OpenAI researcher (Diogo Almeida, ChatGPT/GPT-4/RLHF co-inventor) spent
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Andrew Ng: AI Engineering Skills Map — Using Coding Agents](wiki/andrew-ng-coding-agents-skills-map-2026.md)

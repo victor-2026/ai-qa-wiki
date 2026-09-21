@@ -68,3 +68,12 @@
 Pilot ONLY if both hold: **(a) self-serve cheap** (trial without sales cycle, local or cloud target we control) AND **(b) our method has teeth** (executable output we can mutate, or countable claims: precision, heal rate, FP rate). Else: peer/content track only, no pilot.
 - TM cores (TestRail/Testomat/Qase-management), grands (Mabl enterprise, BrowserStack), waitlists → content/peer, not pilots. Narrow evaluable surfaces (Qase MCP) are the exception, as micro-probes.
 - Precedent: Notion AI (heavy + nothing to mutate → trial closed, reopen only on work encounter).
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+<!-- backlinks-end -->

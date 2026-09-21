@@ -61,6 +61,12 @@ A small, controlled QAEverest.ai pilot on a public GitHub Pages stand (`victor-2
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

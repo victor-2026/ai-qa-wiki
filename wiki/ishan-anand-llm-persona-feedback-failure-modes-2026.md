@@ -47,6 +47,12 @@ Talk by Ishan Anand on using LLMs for persona feedback, shared via LinkedIn (htt
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

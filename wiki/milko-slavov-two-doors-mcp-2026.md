@@ -43,6 +43,12 @@ Moat isn't another chat box or credit wallet. It's data, workflows, permissions,
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)

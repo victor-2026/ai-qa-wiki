@@ -50,6 +50,12 @@ AI Architect Brij Kishore Pandey (736K LinkedIn, 7h, 81 reactions) cites Stanfor
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

@@ -445,6 +445,30 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/archestra-blog-catalog-2026.html",
+      "title": "Archestra Blog: Complete Publications Catalog with Annotations",
+      "desc": "**Source:** https://archestra.ai/blog",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/archestra-crab-bot-slack-agent-2026.html",
+      "title": "Archestra Crab Bot Slack Agent 2026",
+      "desc": "source: \"archestra-crab-bot-slack-agent-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/archestra-jev-100-agent-calls-benchmark-2026.html",
+      "title": "Archestra Jev 100 Agent Calls Benchmark 2026",
+      "desc": "source: \"archestra-jev-100-agent-calls-benchmark-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.html",
+      "title": "Archestra Skills Aren T Prompts Code Sandbox 2026",
+      "desc": "source: \"archestra-skills-aren-t-prompts-code-sandbox-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/aria-qa-data-automation-agent-2026.html",
       "title": "ARIA — QA Data Automation Agent (Agentic RAG + LLM Judge)",
       "desc": "> arxiv.org/abs/2609.04913 (Sep 2026). Authors: Qixiao Zhang, Yuxin Wang, Yifei Li, Xiao Yu, Haotian Li, Yue Liu, Xin Li",
@@ -2209,6 +2233,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 230,
-  "updated": "2026-09-21"
+  "raw_count": 233,
+  "updated": "2026-09-22"
 }
