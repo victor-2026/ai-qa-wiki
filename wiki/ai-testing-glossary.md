@@ -394,3 +394,13 @@ type: glossary
 ## Продолжение
 
 N–Z: [[wiki/ai-testing-glossary-n-z]]
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
+- [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
+<!-- backlinks-end -->

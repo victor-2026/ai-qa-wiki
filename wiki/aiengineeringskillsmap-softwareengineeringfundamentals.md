@@ -73,3 +73,23 @@ By coupling these fundamentals with agentic coding, developers become **“guide
 - [AI QA Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md) — methodology B applied to QAEverest
 - [Google/Kaggle Agent Skills Whitepaper](wiki/google-kaggle-agent-skills-whitepaper-2026.md) — SKILL.md format, context-rot testing
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md) — human gatekeeping, eval harnesses
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
+- [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
+- [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
+- [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
+- [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)
+- [Andrew Ng Openworker Security Agents 2026](wiki/andrew-ng-openworker-security-agents-2026.md)
+- [Krivitsky Agentic Factory Nested Loops 2026](wiki/krivitsky-agentic-factory-nested-loops-2026.md)
+- [Monitoring & Observability for AI Systems](wiki/monitoring-observability.md)
+- [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
+- [Testing AI: Governance, Playbook and Future](wiki/testing-ai-book-playbook-future.md)
+- [Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks](wiki/wipe-coding-transition-en.md)
+- [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
+<!-- backlinks-end -->

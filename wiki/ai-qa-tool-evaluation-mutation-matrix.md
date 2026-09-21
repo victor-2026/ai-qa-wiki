@@ -75,3 +75,21 @@ Implication: the mutation matrix moved from external audit to built-in product m
 
 ---
 *Source: hands-on pilot 2026-08-25/26 · tracked in `Private/Positions-CV-CL/outreach/active/Rupesh_Kabra/`*
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Advanced Mutation Testing with Playwright](wiki/Mutation-testing-advanced-playwright.md)
+- [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
+- [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
+- [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)
+- [Andrew Ng Openworker Security Agents 2026](wiki/andrew-ng-openworker-security-agents-2026.md)
+- [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
+- [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
+- [Michael Bolton Systems Thinking Constraints 2026](wiki/michael-bolton-systems-thinking-constraints-2026.md)
+- [Prachi Dahibhate James Bach Rst 2026](wiki/prachi-dahibhate-james-bach-rst-2026.md)
+- [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
+<!-- backlinks-end -->

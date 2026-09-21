@@ -43,3 +43,16 @@ Engineering Team Lead Mark Paemaa (2026-08-27, https://www.linkedin.com/pulse/au
 ---
 
 *Source: Mark Paemaa LinkedIn Pulse 2026-08-27 via https://www.linkedin.com/pulse/automated-testing-isnt-finding-bugs-mark-paemaa-akphc/ · Ingested 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Alex Karp Neurodivergent Advantage 2026](wiki/alex-karp-neurodivergent-advantage-2026.md)
+- [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
+- [Brij Kishore Pandey Retroactive Ai Titles 2026](wiki/brij-kishore-pandey-retroactive-ai-titles-2026.md)
+- [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+- [Jeff Nyman Testing Knowledge Not Just Testing Skill 2026](wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md)
+<!-- backlinks-end -->

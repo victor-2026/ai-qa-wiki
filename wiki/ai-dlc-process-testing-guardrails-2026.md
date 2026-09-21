@@ -79,3 +79,21 @@ AI‑DLC treats software delivery as a **process‑centric** pipeline where auto
 - [Ruslan Desyatnikov: QA Director Elimination Virus](wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md) — governance: who owns the verdict when AI validates itself
 - [Loris Bartolini: Banking RAG Adversarial Testing](wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md) — adversarial dimension catches what fidelity metrics miss
 - [Radik Zagirov: Model Optimizing Against Quality Gate](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md) — external verifier must not share context with generator
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
+- [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
+- [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
+- [Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026](wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md)
+- [Michael Bolton Systems Thinking Constraints 2026](wiki/michael-bolton-systems-thinking-constraints-2026.md)
+- [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
+- [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
+- [Ruslan Desyatnikov Qa Director Elimination Virus 2026](wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md)
+- [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
+<!-- backlinks-end -->

@@ -847,6 +847,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/engineering-standards-ai-development-compound-2026.html",
+      "title": "Engineering Standards Ai Development Compound 2026",
+      "desc": "source: \"engineering-standards-ai-development-compound-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/everyinc-compound-engineering-loop-2026.html",
+      "title": "EveryInc: Compound Engineering Loop",
+      "desc": "title: \"EveryInc: Compound Engineering Loop (brainstorm → plan → work → simplify → review → compound)\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/evolving-quality-ai-testing-community-2026.html",
       "title": "Evolving Quality with AI Testing — Community Reflection",
       "desc": "> Ministry of Testing Moments, Sep 8, 2026. Author: Rosie Sherry (CEO & Founder, Ministry of Testing).",
@@ -1066,6 +1078,12 @@
       "file": "wiki/jev-jason-arbon-playwright-bounded-exploration.html",
       "title": "Jason Arbon: Jev в Playwright-браузере (2026-09)",
       "desc": "title: \"Jason Arbon: Jev в Playwright-цикле (bounded adaptive exploration)\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/jev-openai-proprietary-beaten-open-source-2026.html",
+      "title": "Jev Openai Proprietary Beaten Open Source 2026",
+      "desc": "source: \"jev-openai-proprietary-beaten-open-source-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -1429,6 +1447,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/opencode-jev-113-free-system-one-model-2026.html",
+      "title": "Opencode Jev 113 Free System One Model 2026",
+      "desc": "source: \"user-notes (2026-09-21)\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/opencode-openrouter-qa-2026.html",
       "title": "Agent Profile: Solo QA Automation Engineer",
       "desc": "source: \"opencode-openrouter-qa-2026.md\"",
@@ -1579,6 +1603,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qa-is-dead-orchestrating-quality-2026.html",
+      "title": "QA Is Dead: Orchestrating Quality Across AI Engineering Teams",
+      "desc": "source: \"qa-is-dead-orchestrating-quality-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qa-metrics-dashboard.html",
       "title": "QA Metrics Dashboard — Setup Notes",
       "desc": "title: \"QA Metrics Dashboard — Setup Notes\"",
@@ -1717,6 +1747,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/rmorison-six-layer-ai-architecture-2026.html",
+      "title": "rmorison: Six-Layer AI Architecture",
+      "desc": "title: \"rmorison: Six-Layer AI Architecture for AI-Forward Engineering\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/rotation-without-relevance-preseed-mutant-filtering-2026.html",
       "title": "Rotation Without Relevance: Why Mutants Must Be Filtered Before Seeding",
       "desc": "**Source:** QAEverest pilot (2026-09-02/03) + external mutation-testing literature",
@@ -1726,6 +1762,12 @@
       "file": "wiki/rtm-matrix-habr.html",
       "title": "Requirements Traceability Matrix (RTM): A Tester's Navigator",
       "desc": "source: \"rtm-matrix-habr.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ruben-hassid-jev-internet-moment-setup-2026.html",
+      "title": "Ruben Hassid Jev Internet Moment Setup 2026",
+      "desc": "source: \"ruben-hassid-jev-internet-moment-setup-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2167,6 +2209,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 224,
+  "raw_count": 230,
   "updated": "2026-09-21"
 }

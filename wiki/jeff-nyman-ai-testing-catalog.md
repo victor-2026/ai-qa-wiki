@@ -66,3 +66,14 @@ ingested: "2026-09-01"
 ---
 
 *Source: https://testerstories.com/category/ai/ai-and-testing/ and page 2 · Ingested 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Ishan Anand Llm Persona Feedback Failure Modes 2026](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md)
+- [Jeff Nyman Testing Knowledge Not Just Testing Skill 2026](wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md)
+<!-- backlinks-end -->

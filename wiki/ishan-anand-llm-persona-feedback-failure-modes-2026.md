@@ -42,3 +42,16 @@ Talk by Ishan Anand on using LLMs for persona feedback, shared via LinkedIn (htt
 ---
 
 *Source: Ishan Anand talk via https://lnkd.in/gNWQZJHm · Ingested 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Alex Karp Neurodivergent Advantage 2026](wiki/alex-karp-neurodivergent-advantage-2026.md)
+- [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
+- [Jeff Nyman Ai Testing Catalog](wiki/jeff-nyman-ai-testing-catalog.md)
+- [Prachi Dahibhate James Bach Rst 2026](wiki/prachi-dahibhate-james-bach-rst-2026.md)
+<!-- backlinks-end -->

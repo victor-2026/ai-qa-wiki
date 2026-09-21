@@ -139,6 +139,12 @@ Chapters 19-21 close the loop:
 - [Testing AI book index in this wiki](testing-ai-book-index.md)
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)

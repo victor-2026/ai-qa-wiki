@@ -131,3 +131,15 @@ Log ten slowest regression tests for 2 weeks: which failed, what changed in brea
 ---
 
 *Ingested: 2026-09-03*
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
+<!-- backlinks-end -->

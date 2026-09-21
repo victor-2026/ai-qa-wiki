@@ -185,7 +185,4 @@ Human → Decision
 
 
 
-<!-- backlinks-start -->
-### Backlinks
-- [Apparently We Need a Testing Mindset After All (Klain)](wiki/keith-klain-testing-mindset-after-all-2026.md)
-<!-- backlinks-end -->
+

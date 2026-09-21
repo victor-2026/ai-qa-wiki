@@ -89,3 +89,15 @@ This validates two-debts thesis: specs alone insufficient, even when precise.
 ---
 
 *Ingested: 2026-09-03 · Via beyondquality.org 8-page hub + analysis-agents.md + Vitaly LinkedIn post 11m (11m ago, #BeyondQuality)*
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
+<!-- backlinks-end -->

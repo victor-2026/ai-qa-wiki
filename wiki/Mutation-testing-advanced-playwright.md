@@ -477,8 +477,15 @@ Meta's открытый вызов сообществу (FSE 2025): генери
 - **Suite segmentation** — мутации гонять ночью, скоупом на файлы из `git log` последнего коммита.
 - **Deterministic UI virtualization** — мокать бэкенд локально через Playwright mock orchestration, убирать сетевой флакинес.
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
 - [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 - [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)

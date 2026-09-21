@@ -64,3 +64,13 @@ Jev - модель TypeSafe AI для **структурированных ре�
 - Заметка-референс. Jev API пока без широкого доступа ("только анонсы") - самопроверка отложена до получения доступа
 - Арбон типа: IcebergQA/Jank.AI на радаре (STARWEST)
 - Потенциальная статья: bounded adaptive exploration как компромисс между free-form AI-тестами и детерминированными мутациями
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
+- [Opencode Jev 113 Free System One Model 2026](wiki/opencode-jev-113-free-system-one-model-2026.md)
+- [Ruben Hassid Jev Internet Moment Setup 2026](wiki/ruben-hassid-jev-internet-moment-setup-2026.md)
+<!-- backlinks-end -->

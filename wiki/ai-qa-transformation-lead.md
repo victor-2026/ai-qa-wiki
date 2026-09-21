@@ -74,6 +74,12 @@ This role addresses all four by **starting small, measuring rigorously, and scal
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)](wiki/ai-in-qa-issue-17-butch-mayhew-2026.md)

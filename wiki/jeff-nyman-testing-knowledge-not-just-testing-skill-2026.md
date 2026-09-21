@@ -63,3 +63,15 @@ Take borrowed knowledge away: developer -> untestable function; tester -> suite 
 ---
 
 *Source: Jeff Nyman 2026-09-01 via https://testerstories.com/2026/09/testing-knowledge-isnt-just-a-testing-skill/ and https://lnkd.in/gU8rM_Tx · Ingested 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)
+- [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+- [Jeff Nyman Ai Testing Catalog](wiki/jeff-nyman-ai-testing-catalog.md)
+- [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)
+<!-- backlinks-end -->

@@ -45,3 +45,15 @@ AI Architect Brij Kishore Pandey (736K LinkedIn, 7h, 81 reactions) cites Stanfor
 ---
 
 *Source: Brij Kishore Pandey LinkedIn (7h) via Stanford/NBER 29.4M profiles · Ingested 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
+- [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+- [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)
+<!-- backlinks-end -->

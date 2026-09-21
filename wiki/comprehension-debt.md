@@ -38,3 +38,15 @@ Comprehension debt refers to the hidden cost of relying on Large Language Models
 - `wiki/addy-osmani-brownfield-agentic-engineering-2026.md` — Brownfield zones + characterization tests are the structural mitigation for comprehension debt.
 - `wiki/addy-osmani-anthropic-verification-floor-skill-decay-2026.md` — Skill decay is the personal-cost side of comprehension debt.
 - Term origin: [Addy Osmani substack](https://addyo.substack.com/i/185933546/comprehension-debt-a-hidden-cost-we-dont-track) (coined by Jeremy Twei).
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
+<!-- backlinks-end -->

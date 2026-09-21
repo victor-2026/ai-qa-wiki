@@ -75,6 +75,12 @@ ISO/IEC 27001 is the international standard for Information Security Management 
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)

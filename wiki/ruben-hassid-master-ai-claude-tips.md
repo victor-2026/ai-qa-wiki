@@ -78,3 +78,12 @@ Publish, share the link. The other person uses Claude through your app.
 | Project file overload | Directly relevant to Virto OZ KB governance — too much context = generic answers |
 
 *Processed: 2026-07-30 from raw/Master AI before it masters you.md*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Ruben Hassid Jev Internet Moment Setup 2026](wiki/ruben-hassid-jev-internet-moment-setup-2026.md)
+<!-- backlinks-end -->

@@ -50,6 +50,15 @@ Apple shipped Safari MCP server — AI agents can now inspect live browsers nati
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [AI QA Transformation Lead — Role Specialization](wiki/ai-qa-transformation-lead.md)
+- [KISS Sorcar — Open-Source AI Coding Agent](wiki/kiss-sorcar-agent.md)
+- [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)
 <!-- backlinks-end -->

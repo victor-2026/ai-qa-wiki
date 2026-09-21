@@ -42,3 +42,11 @@ Palantir CEO Alex Karp (Business Insider interview, 2026) names two categories s
 ---
 
 *Source: Alex Karp (Palantir) via Business Insider, shared as Russian summary 2026-09-01 · Ingested 2026-09-01*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+- [Ishan Anand Llm Persona Feedback Failure Modes 2026](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md)
+- [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)
+<!-- backlinks-end -->

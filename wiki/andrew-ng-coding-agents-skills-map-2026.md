@@ -92,3 +92,15 @@ Greenfield prototype: loose prompt-spec + `worker` builds + `reviewer` checks + 
 ---
 
 *Ingested: 2026-09-04 · Full text via webfetch (LinkedIn login wall bypassed for body)*
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
+<!-- backlinks-end -->

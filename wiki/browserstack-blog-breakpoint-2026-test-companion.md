@@ -110,3 +110,19 @@ BrowserStack's agentic AI for test automation in IDE. Key stat: AI coding agents
 - **Greiler SCOPE** — "AI is a skill amplifier, not a replacement for judgment" = same framing
 - **Agentics Foundation Serbia** — Multi-agent swarms = QE Fleet pattern (Explorer/Attacker/Observer)
 - **Tornhill** — "Its greatest danger is what it convinces you to stop questioning" = comprehension debt
+
+
+
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
+- [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
+<!-- backlinks-end -->

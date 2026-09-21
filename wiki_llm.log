@@ -229,3 +229,16 @@
 [2026-09-19T23:42:22.556599] update-index | 348 topics | ok | 
 [2026-09-20T10:36:25.408181] update-index | 349 topics | ok | 
 [2026-09-20T10:52:19.663689] update-index | 350 topics | ok | 
+[2026-09-21T16:17:40.385839] update-index | 361 topics | ok | 
+[2026-09-21T18:57:58.360584] ingest | jev-openai-proprietary-beaten-open-source-2026.md | ok | wiki/jev-openai-proprietary-beaten-open-source-2026.md
+[2026-09-21T18:58:03.441908] update-index | 362 topics | ok | 
+[2026-09-21T19:08:11.393757] ingest | engineering-standards-ai-development-compound-2026.md | ok | wiki/engineering-standards-ai-development-compound-2026.md
+[2026-09-21T19:08:23.351235] update-index | 363 topics | ok | 
+[2026-09-21T19:40:36.629452] ingest | qa-is-dead-orchestrating-quality-2026.md | ok | wiki/qa-is-dead-orchestrating-quality-2026.md
+[2026-09-21T19:40:44.644980] update-index | 366 topics | ok | 
+[2026-09-21T19:42:54.806714] ingest | ruben-hassid-jev-internet-moment-setup-2026.md | ok | wiki/ruben-hassid-jev-internet-moment-setup-2026.md
+[2026-09-21T19:43:00.331414] update-index | 367 topics | ok | 
+[2026-09-21T19:49:37.079118] sync-links | 367 pages | ok | 
+[2026-09-21T19:49:37.356437] update-index | 367 topics | ok | 
+[2026-09-21T19:50:42.990739] sync-links | 368 pages | ok | 
+[2026-09-21T19:50:43.230329] update-index | 368 topics | ok | 

@@ -57,3 +57,15 @@ A small, controlled QAEverest.ai pilot on a public GitHub Pages stand (`victor-2
 
 ---
 *Source: hands-on pilot 2026-08-25 · `victor-2026/qaeverset-pilot-mini` · tracked in `Private/Positions-CV-CL/outreach/active/Rupesh_Kabra/`*
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
+- [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
+- [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
+- [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
+<!-- backlinks-end -->

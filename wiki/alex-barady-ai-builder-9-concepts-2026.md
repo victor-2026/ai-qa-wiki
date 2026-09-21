@@ -85,6 +85,18 @@ This framework can be used for:
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [How To Tell If Tests Are Testing Anything Autonoma](wiki/how-to-tell-if-tests-are-testing-anything-autonoma.md)
+- [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
+- [MCP + UCP: Open Protocols for Agentic QA (2026)](wiki/mcp-ucp-protocols-2026.md)
+- [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)
+- [QA Skills → AI Roles Transition Guide](wiki/qa-ai-transition-guide.md)
+- [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

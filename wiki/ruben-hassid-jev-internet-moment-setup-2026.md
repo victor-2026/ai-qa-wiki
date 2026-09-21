@@ -1,0 +1,97 @@
+---
+source: "ruben-hassid-jev-internet-moment-setup-2026.md"
+ingested: "2026-09-21"
+---
+
+## Ruben Hassid – Jev “Internet moment” (2026‑09‑21)
+
+### Summary
+Ruben Hassid introduced a low‑cost, plug‑in‑driven workflow he calls the **“Internet moment”** for the AI industry. By wiring the **Typesafe Jev** judgment service into Claude Code or Codex, developers can obtain millisecond‑fast decisions for any downstream task while spending only a few dollars in cloud credits. The post outlines a six‑step setup and demonstrates three concrete pipelines – LinkedIn outreach classification, Gmail contact cleanup, and a full‑stack “overwhelm” automation that stitches together Claude, GitHub, Vercel and Apify.
+
+---
+
+### Positioning
+* **Internet moment** – a phrase that captures the shift from raw LLM generation to instant, service‑level judgment.  
+* **Jev** – a *judgment‑as‑a‑service* (JaaS) component that returns calibrated scores, boolean choices and confidence levels.  
+* Market promise: “If you configure it right, you’ll have the AI‑engineer’s stack for 2028” – a hype‑discount framing that stresses near‑zero marginal cost (≈ $5 free credit, “hard to spend more”).
+
+---
+
+### Setup Overview
+| Step | Action |
+|------|--------|
+| 1 | Join the Typesafe wait‑list ( `typesafe.ai` ). |
+| 2 | Open Claude Code or Codex. |
+| 3 | Select a low‑cost model variant (Opus 5‑Low / Sol‑Low). |
+| 4 | Install the Typesafe skill via the plug‑in marketplace (`plugin marketplace add typesafe-ai/skills`). |
+| 5 | Activate the `/typesafe` command. |
+| 6 | Provide the API key once, grant permission, and start with the $5 free credit. |
+
+The entire flow is copy‑and‑paste friendly, requiring only a single API key and a few clicks.
+
+---
+
+### Core Concepts
+| Concept | Meaning |
+|---------|---------|
+| **Judgment‑as‑a‑Service (JaaS)** | A micro‑service that evaluates inputs and returns structured decisions (choice, score, boolean, confidence). |
+| **Plugin‑driven distribution** | Claude Code/Codex expose Jev through a skill plug‑in, making the service instantly reachable from any code cell. |
+| **Calibrated confidence** | Unlike raw LLM output, Jev supplies a probability‑based certainty metric, enabling safer automation. |
+| **Cost‑effective scaling** | The $5 starter credit and low‑price model tiers keep per‑decision cost in the sub‑cent range, aligning with the “20‑200× cheaper” claim from earlier benchmarks. |
+
+---
+
+### Use Cases
+
+#### 1. LinkedIn Outreach Classification
+1. Export connections & invitations (≈ 38 k rows).  
+2. Connect Claude to GitHub, Vercel and Apify; enrich the CSV via Apify’s API.  
+3. Upload the enriched file to Jev; it tags each contact as *high‑value*, *medium*, or *low* with confidence scores.  
+4. Review the short‑list before launching a targeted outreach campaign.
+
+*Direct relevance*: Mirrors Victor’s outreach pipeline – replace ad‑hoc LLM prompts with Jev’s deterministic scoring.
+
+#### 2. Gmail Contact Cleanup
+1. Export Google Contacts → “Other contacts”.  
+2. Feed the CSV into Claude Code; Jev sorts entries into **Keep**, **Review**, **Remove** buckets.  
+3. Human reviewer validates the “Remove” list, preventing accidental deletions.
+
+#### 3. “Overwhelm” End‑to‑End Automation
+A composite prompt chain (Claude Code + GitHub + Vercel + Apify + Jev) that processes arbitrary data sources, enriches them, and applies judgment in under a minute. The full prompt script is published in Ruben’s newsletter (link in post).
+
+---
+
+### Practical Applications
+* **Outbound sales & recruiting** – rapid qualification of large prospect lists without manual triage.  
+* **Data hygiene** – automated deduplication and relevance scoring for contact databases.  
+* **Workflow orchestration** – embed Jev as a decision node in CI/CD pipelines, serverless functions, or no‑code automations.  
+* **Cost‑controlled experimentation** – start with $5 credit, observe spend, and scale only if confidence thresholds meet business criteria.
+
+---
+
+### Benefits & Limitations
+* **Pros** – millisecond latency, transparent confidence, plug‑in simplicity, negligible cost.  
+* **Cons** – still dependent on external APIs (Claude, Apify); limited to the capabilities of the low‑cost model variants; requires careful prompt engineering for domain‑specific judgments.
+
+---
+
+### See also
+- [TypeSafe Jev — judgment-as-service for gates (Paluy, Sharpe, Watsche hands-on)](wiki/typesafe-jev-judgment-service-gates-2026.md)
+- [Jev: Proprietary Beaten by Open-Source? (Charly Wargnier)](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
+- [Jason Arbon: Jev в Playwright-цикле (bounded adaptive exploration)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)
+- [Ruben Hassid: Master AI — Claude tips](wiki/ruben-hassid-master-ai-claude-tips.md)
+
+---
+*Source: [raw/ruben-hassid-jev-internet-moment-setup-2026.md](../raw/ruben-hassid-jev-internet-moment-setup-2026.md) · Generated by wiki_llm.py (Groq)*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)
+- [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
+- [Master AI Before It Masters You — 27 Claude Tips](wiki/ruben-hassid-master-ai-claude-tips.md)
+- [Opencode Jev 113 Free System One Model 2026](wiki/opencode-jev-113-free-system-one-model-2026.md)
+<!-- backlinks-end -->

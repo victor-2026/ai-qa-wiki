@@ -109,6 +109,12 @@ Humans still own: risk definition, evidence review, release decisions.
 - [[people/anton-gulin]] — полный профиль автора
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)

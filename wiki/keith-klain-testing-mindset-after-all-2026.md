@@ -90,3 +90,14 @@ Additional takeaway: independent testing = different assumptions, risk models, p
 Additional takeaway: independent testing = different assumptions, risk models, purpose — not just different person.
 
 *Ingested: 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
+- [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
+- [Testing AI: Generated Code and the Confidence Engineer](wiki/testing-ai-book-generated-code-confidence-engineer.md)
+<!-- backlinks-end -->

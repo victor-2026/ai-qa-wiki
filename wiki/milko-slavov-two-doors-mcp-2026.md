@@ -38,3 +38,13 @@ Moat isn't another chat box or credit wallet. It's data, workflows, permissions,
 ---
 
 *Source: Milko Slavov LinkedIn (1d) via PostHog MCP example · Ingested 2026-09-01*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
+- [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+<!-- backlinks-end -->

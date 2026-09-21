@@ -106,10 +106,15 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
-- [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [MAS-Testing Framework (Conceptual)](wiki/mas-testing-framework.md)
 - [Monitoring & Observability for AI Systems](wiki/monitoring-observability.md)
