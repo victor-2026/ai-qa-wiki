@@ -1,43 +1,13 @@
 # Wiki Lint Report — 2026-09-22
 
-- Timestamp: 2026-09-22T01:35:53.123481
-- Wiki pages: 374
-- Internal links OK: 0
-- Broken links: 10
-- Orphans: 251
+- Timestamp: 2026-09-22T01:46:54.117252
+- Wiki pages: 375
+- Internal links OK: 719
+- Broken links: 0
+- Orphans: 249
 - Stubs (<200 chars): 0
-- Raw without wiki: 71
+- Raw without wiki: 70
 - Duplicate-ish stems: 0
-
-## Broken links
-- `3-ai-test-tools-orangehrm-comparison-2026.md` → `wiki/not
-
-
-
-
-
-
-
----
-*Source: [raw/3-ai-test-tools-orangehrm-comparison-2026.md](../raw/3-ai-test-tools-orangehrm-comparison-2026.md` (wiki target missing)
-- `boris-cherny-claude-maintains-apps-2026.md` → `wiki/radik-zagirov-rotting-gate-2026.md` (wiki target missing)
-- `google-kaggle-agent-skills-whitepaper-2026.md` → `wiki/
-
----
-*Source: [raw/google-kaggle-agent-skills-whitepaper-2026.md](../raw/google-kaggle-agent-skills-whitepaper-2026.md` (wiki target missing)
-- `ilya-kabanov-cybersecurity-ai-cost-2026.md` → `wiki/radik-zagirov-rotting-gate-2026.md` (wiki target missing)
-- `ishan-anand-llm-persona-feedback-failure-modes-2026.md` → `wiki/llm-testing-six-approaches-2026.md` (wiki target missing)
-- `ishan-anand-llm-persona-feedback-failure-modes-2026.md` → `wiki/your-agent-found-5-bugs-2026.md` (wiki target missing)
-- `jev-openai-proprietary-beaten-open-source-2026.md` → `wiki/typesafe-jev-judgment-service-gates-2026.md` (wiki target missing)
-- `opencode-jev-113-free-system-one-model-2026.md` → `wiki/typesafe-jev-judgment-service-gates-2026.md` (wiki target missing)
-- `ruben-hassid-jev-internet-moment-setup-2026.md` → `wiki/typesafe-jev-judgment-service-gates-2026.md` (wiki target missing)
-- `testing-ai-agent-tool-calls-autonoma.md` → `wiki/copilot-generated-tests-quality-pitfalls-auton
-
-
-
-
----
-*Source: [raw/testing-ai-agent-tool-calls-autonoma.md](../raw/testing-ai-agent-tool-calls-autonoma.md` (wiki target missing)
 
 ## Orphans (no inbound links)
 - 15-best-agentic-ai-testing-tools-2026.md
@@ -139,7 +109,6 @@
 - engineering-standards-ai-development-compound-2026.md
 - everyinc-compound-engineering-loop-2026.md
 - evolving-quality-ai-testing-community-2026.md
-- executor-evaluator-split-zagirov-2026-09.md
 - failuremodeandeffectsanalysisfmea.md
 - feature-flags-guide.md
 - free-ai-services-2026-artem-subbotin.md
@@ -175,7 +144,6 @@
 - lee-robinson-job-tips.md
 - linkedin-performance-analyzer-2026.md
 - llm-agents-cicd-cheating-habr.md
-- llm-testing-6-approaches.md
 - llm-wiki-pattern-2026.md
 - llms-observability-driven-development.md
 - maestro-vs-appium-2026.md
@@ -360,7 +328,14 @@
 - testrigor-different-evals-agentic-ai-2026.md
 - testrigor-rag-vs-agentic-rag-mcp-2026.md
 - testrigor-testing-agentic-ai-erp-2026.md
-- typesafe-jev-judgment-service-gates-2026.md
 - virto-qa-surface-recon-2026-09-17.md
 - zborovsky-ai-chief-of-staff-doordash-2026.md
 - Закон Конвея и Обратный маневр Конвея.md
+
+## Trend across runs
+
+| Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |
+|-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|
+| 2026-09-22 | 375 | 719 | 0 | 249 | 0 | 70 | 0 | — | — |
+
+Delta columns relative to previous run. First run has no deltas.

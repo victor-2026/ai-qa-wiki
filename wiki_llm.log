@@ -253,3 +253,10 @@
 [2026-09-22T01:03:28.643574] update-index | 373 topics | ok | 
 [2026-09-22T01:07:26.688620] ingest | the-batch-371-deeplearning-ai-2026.md | ok | wiki/the-batch-371-deeplearning-ai-2026.md
 [2026-09-22T01:07:36.444806] update-index | 374 topics | ok | 
+[2026-09-22T01:34:59.361817] update-index | 376 topics | ok | 
+[2026-09-22T01:34:59.362605] wiki-log | update-index | ok | 376 topics, 235 raw
+[2026-09-22T01:35:06.320917] update-index | 376 topics | ok | 
+[2026-09-22T01:35:06.321318] wiki-log | update-index | ok | 376 topics, 235 raw
+[2026-09-22T01:46:32.360495] ingest | typesafe-jev-judgment-service-gates-2026.md | ok | wiki/typesafe-jev-judgment-service-gates-2026.md
+[2026-09-22T01:46:32.361508] wiki-log | ingest | ok | raw/typesafe-jev-judgment-service-gates-2026.md → wiki/typesafe-jev-judgment-ser
+[2026-09-22T01:46:32.557305] wiki-log | backlinks | ok | 5 related pages for wiki/typesafe-jev-judgment-service-gates-2026.md

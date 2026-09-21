@@ -7,3 +7,6 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-22 — lint — first run: 0 broken-ok, ~211 orphans, 0 stubs, 71 missing raw (see outputs/lint-report-2026-09-22.md)
 - 2026-09-22 01:34 — update-index — 376 topics, 235 raw
 - 2026-09-22 01:35 — update-index — 376 topics, 235 raw
+- 2026-09-22 01:46 — ingest — raw/typesafe-jev-judgment-service-gates-2026.md → wiki/typesafe-jev-judgment-service-gates-2026.md
+- 2026-09-22 01:46 — backlinks — 5 related pages for wiki/typesafe-jev-judgment-service-gates-2026.md
+- 2026-09-22 — lint — trend table added; broken-link fix: 4 repointed, ingest typesafe-jev; report now shows 719 links OK / 0 broken / 249 orphans / 70 missing

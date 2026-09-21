@@ -36,8 +36,8 @@ Talk by Ishan Anand on using LLMs for persona feedback, shared via LinkedIn (htt
 ## Cross-links
 - [Prachi/Bach RST](wiki/prachi-dahibhate-james-bach-rst-2026.md) — Testing vs Checking; magic testing box
 - [AI QA Evidence Layer](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md) — Downstream QA validation vs model evals
-- [LLM Testing - Six Approaches](wiki/llm-testing-six-approaches-2026.md) — LLM-as-Judge, Golden Dataset, boundary prompts
-- [Article 20 - False Discovery](wiki/your-agent-found-5-bugs-2026.md) — 80% false discovery when verifier shares context
+- [LLM Testing - Six Approaches](wiki/llm-testing-6-approaches.md) — LLM-as-Judge, Golden Dataset, boundary prompts
+- [Article 20 - False Discovery](wiki/executor-evaluator-split-zagirov-2026-09.md) — 80% false discovery when verifier shares context
 
 ---
 

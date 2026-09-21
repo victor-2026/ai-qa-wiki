@@ -38,7 +38,7 @@ Creator and Head of Claude Code at Anthropic (Boris Cherny) describes experiment
 ## Cross-links
 - [Andrew Ng Loop Engineering](wiki/andrew-ng-loop-engineering-2026.md) — three loops, evals
 - [Ishan Anand Persona Feedback](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md) — sampling != significance, prompt sensitivity
-- [Radik Zagirov - Rotting Gate](wiki/radik-zagirov-rotting-gate-2026.md) — verifier must be external, state verification
+- [Radik Zagirov - Rotting Gate](wiki/executor-evaluator-split-zagirov-2026-09.md) — verifier must be external, state verification
 - [AI QA Evidence Layer](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md) — passive layer, confirm/dismiss
 
 ---

@@ -48,7 +48,7 @@ Agent identity example: $2.9B acquiring agent-identity startups in 2026 - must b
 ## Cross-links
 - [Andrew Ng Loop Engineering](wiki/andrew-ng-loop-engineering-2026.md) — generation cheap, verification bottleneck
 - [Boris Cherny Claude Maintains Apps](wiki/boris-cherny-claude-maintains-apps-2026.md) — 388 PRs, 180 merged, tuning cost
-- [Radik Zagirov Rotting Gate](wiki/radik-zagirov-rotting-gate-2026.md) — verifier must be external
+- [Radik Zagirov Rotting Gate](wiki/executor-evaluator-split-zagirov-2026-09.md) — verifier must be external
 - [Article 16 - Productivity Paradox](wiki/ai-productivity-paradox-verification-layer-2026.md) — cost curves diverge
 
 ---

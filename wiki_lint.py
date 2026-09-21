@@ -38,7 +38,7 @@ RAW_DIR = PROJECT_DIR / "raw"
 OUTPUTS_DIR = PROJECT_DIR / "outputs"
 REPORT_DIR = OUTPUTS_DIR
 
-INTERNAL_LINK_RE = re.compile(r"\[[^\]]*\]\(((?:wiki|raw)/[^)#]+)\.md(?:#[\w-]+)?\)")
+INTERNAL_LINK_RE = re.compile(r"\[[^\]]*\]\(((?:wiki|raw)/[^)#\s]+)\.md(?:#[\w-]+)?\)")
 SKIP_FILES = {"log.md", "README.md", "index.md"}
 
 
@@ -77,14 +77,15 @@ def all_wiki_pages() -> list:
     return sorted(p for p in WIKI_DIR.glob("*.md") if p.name not in SKIP_FILES)
 
 
-def check_broken_links() -> (list, list):
-    """Returns (broken, ok_count). A link to wiki/x.md or raw/x.md is broken if file missing."""
+def check_broken_links() -> (list, int):
+    """Returns (broken, total). A link to wiki/x.md or raw/x.md is broken if file missing."""
     existing_wiki = {p.name for p in WIKI_DIR.glob("*.md")}
     existing_raw = {p.name for p in RAW_DIR.iterdir() if p.is_file()}
     broken = []
-    ok = 0
+    total = 0
     for p in all_wiki_pages():
         for link in internal_links(read_page(p)):
+            total += 1
             if link.startswith("wiki/"):
                 target = link[len("wiki/"):]
                 if target not in existing_wiki:
@@ -93,9 +94,7 @@ def check_broken_links() -> (list, list):
                 target = link[len("raw/"):]
                 if target not in existing_raw:
                     broken.append((p.name, link, "raw target missing"))
-            else:
-                ok += 1
-    return broken, ok
+    return broken, total
 
 
 def inbound_links() -> dict:
@@ -155,7 +154,7 @@ def check_dupes() -> list:
 
 
 def run_all(verbose: bool = True) -> dict:
-    broken, ok_links = check_broken_links()
+    broken, total_links = check_broken_links()
     orphans = check_orphans()
     stubs = check_stubs()
     missing = check_missing_raw()
@@ -164,7 +163,7 @@ def run_all(verbose: bool = True) -> dict:
     report = {
         "timestamp": datetime.datetime.now().isoformat(),
         "wiki_pages": len(all_wiki_pages()),
-        "internal_links_ok": ok_links,
+        "internal_links_ok": total_links - len(broken),
         "broken_links": broken,
         "orphans": orphans,
         "stubs": stubs,
@@ -173,7 +172,7 @@ def run_all(verbose: bool = True) -> dict:
     }
     if verbose:
         print(f"\n🔍 Wiki lint ({report['wiki_pages']} pages)")
-        print(f"  ✅ Internal links OK: {ok_links}")
+        print(f"  ✅ Internal links OK: {report['internal_links_ok']}")
         print(f"  ❌ Broken links: {len(broken)}")
         for p, l, why in broken:
             print(f"      {p} → {l} ({why})")
@@ -196,6 +195,55 @@ def run_all(verbose: bool = True) -> dict:
         for a, b in dupes[:30]:
             print(f"      {a} ↔ {b}")
     return report
+
+
+def parse_history() -> list:
+    """Parse previous lint-report-*.md files (excluding today's) into per-date metric rows."""
+    today = datetime.date.today().isoformat()
+    rows = []
+    pats = {
+        "pages": re.compile(r"^- Wiki pages: (\d+)$", re.M),
+        "links": re.compile(r"^- Internal links OK: (\d+)$", re.M),
+        "broken": re.compile(r"^- Broken links: (\d+)$", re.M),
+        "orphans": re.compile(r"^- Orphans: (\d+)$", re.M),
+        "stubs": re.compile(r"^- Stubs \(<200 chars\): (\d+)$", re.M),
+        "missing": re.compile(r"^- Raw without wiki: (\d+)$", re.M),
+        "dupes": re.compile(r"^- Duplicate-ish stems: (\d+)$", re.M),
+    }
+    for f in sorted(REPORT_DIR.glob("lint-report-*.md")):
+        date = f.stem.replace("lint-report-", "")
+        if date >= today:
+            continue
+        content = f.read_text(encoding="utf-8", errors="ignore")
+        row = {"date": date}
+        ok = True
+        for key, pat in pats.items():
+            m = pat.search(content)
+            if not m:
+                ok = False
+                break
+            row[key] = int(m.group(1))
+        if ok:
+            rows.append(row)
+    return rows
+
+
+def trend_lines(history: list) -> list:
+    """Render history as a compact markdown table (oldest → newest), plus deltas."""
+    header = "| Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |"
+    sep = "|-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|"
+    out = [header, sep]
+    prev = None
+    for row in history:
+        d_or = f"{row['orphans'] - prev['orphans']:+d}" if prev else "—"
+        d_mi = f"{row['missing'] - prev['missing']:+d}" if prev else "—"
+        out.append(
+            f"| {row['date']} | {row['pages']} | {row['links']} | {row['broken']} "
+            f"| {row['orphans']} | {row['stubs']} | {row['missing']} | {row['dupes']} "
+            f"| {d_or} | {d_mi} |"
+        )
+        prev = row
+    return out
 
 
 def write_report(report: dict) -> Path:
@@ -237,6 +285,24 @@ def write_report(report: dict) -> Path:
         for a, b in report["dupes"]:
             lines.append(f"- {a} ↔ {b}")
         lines.append("")
+    # Trend history (this run appended as the latest row)
+    history = parse_history()
+    history.append({
+        "date": today,
+        "pages": report["wiki_pages"],
+        "links": report["internal_links_ok"],
+        "broken": len(report["broken_links"]),
+        "orphans": len(report["orphans"]),
+        "stubs": len(report["stubs"]),
+        "missing": len(report["missing_raw"]),
+        "dupes": len(report["dupes"]),
+    })
+    lines.append("## Trend across runs")
+    lines.append("")
+    lines.extend(trend_lines(history))
+    lines.append("")
+    lines.append("Delta columns relative to previous run. First run has no deltas.")
+    lines.append("")
     dst.write_text("\n".join(lines), encoding="utf-8")
     return dst
 
