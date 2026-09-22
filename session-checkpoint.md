@@ -490,3 +490,8 @@ All 7 marked [x] items processed:
 - wiki pages ×5 ingested via wiki_llm.py (topics 378→384, raw 236→241). Catalog `wiki/qodo-blog-catalog-all-publications-2024-2026.md` (TIER 1 ×5 ingested, TIER 1.5 ×13 next candidates incl. why-ai-self-review-fails, contract-verification-across-repos, RAG-removal story, rules lifecycle, context engine; 37 HIGH total).
 - Cross-links: backlinks auto-updated on 5 pages. digest-config.json (Articles) receives feed `qodo` (weight 0.9 + browser UA) — digest worker per-source user_agent support added in daily-digest.py.
 - Quotes: 16 → Articles/quotes.md "Independent verification layer / generator vs grader (Qodo)".
+
+## 2026-09-22 15:30 - Qodo Software Map ingested (Article 29 candidate)
+- `raw/qodo-software-map-risk-across-repos-2026.md` + `wiki/qodo-software-map-risk-across-repos-2026.md` (Itamar Friedman 22.09, live beta).
+- Thesis: "you cannot govern a system you cannot see"; Faros numbers (files/PR +59.7%, files/dev/mo +149.9%, incidents/PR +242.7% at high AI adoption); blast radius per repo + contract tracking + risk heat map = Article 29 candidate (risk-tiering across repos, contract seams where attestor adds value).
+- Catalog Tier 1.5 row #19 linked. topics 384→386, raw 241→242.

@@ -1123,6 +1123,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/jev-performance-benchmark-2026.html",
+      "title": "Jev Performance Benchmark (2026-09-22)",
+      "desc": "**Jev (TypeSafe System One) vs Pi/openrouter fallback** — 50 findings classified.",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/julia-pottinger-accountable-ai-code-2026.html",
       "title": "Who Is Accountable for AI-Generated Code?",
       "desc": "**Source:** https://juliapottinger.com/ (Julia Pottinger, Quality Engineering) — via Software Testing Weekly #325 #3; al",
@@ -1708,6 +1714,12 @@
       "file": "wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.html",
       "title": "Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale",
       "desc": "source: \"qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-software-map-risk-across-repos-2026.html",
+      "title": "Qodo Software Map Risk Across Repos 2026",
+      "desc": "source: \"qodo-software-map-risk-across-repos-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2305,6 +2317,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 241,
+  "raw_count": 242,
   "updated": "2026-09-22"
 }

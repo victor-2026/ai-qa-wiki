@@ -42,6 +42,7 @@
 | 16 | [How to Catch AI-Generated Bugs with Layered Code Review](https://www.qodo.ai/blog/how-to-catch-ai-generated-bugs-with-layered-code-review/) | FULL READ |
 | 17 | [Code-Aware Agentic AI: The System Approach](https://www.qodo.ai/blog/code-aware-agentic-ai-the-system-approach/) | FULL READ — separation of generation vs integrity |
 | 18 | [QuickTest: When Your System Is an Agent, You Need a Different Benchmark](https://www.qodo.ai/blog/when-your-system-is-an-agent-you-need-a-different-benchmark/) | FULL READ |
+| 19 | Sep 22, 2026 | [Introducing the Software Map in Qodo: Risk, Mapped Across Every Repo](https://www.qodo.ai/blog/introducing-qodos-software-map/) | ✅ ingested → [wiki/qodo-software-map-risk-across-repos-2026.md](wiki/qodo-software-map-risk-across-repos-2026.md) — "you cannot govern a system you cannot see"; Faros files/PR +59.7%, files/dev/mo +149.9%, incidents/PR +242.7%; risk heat map + blast radius per repo = Article 29 candidate (risk-tiering across repos; contract seams) |
 
 ## TIER 2: MEDIUM RELEVANCE (themes, by category)
 
@@ -114,8 +115,18 @@
 
 *Источники: [raw/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md](raw/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md), [raw/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md](raw/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md), [raw/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md](raw/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md), [raw/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md](raw/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md), [raw/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md](raw/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md)*
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
+- [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
+- [Qodo When Claude Code Reviews Its Own Pr Who Reviews Claude](wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md)
+- [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 <!-- backlinks-end -->
