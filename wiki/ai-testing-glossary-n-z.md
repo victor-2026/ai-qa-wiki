@@ -99,6 +99,8 @@ type: glossary
 
 ### RAG (Retrieval-Augmented Generation)
 **Definition:** Технология позволяющая LLM "подсматривать" во внешнюю документацию.
+**Архитектура для чайников:** 3 этапа — embeddings (текст → вектор) → semantic search (vector DB, cosine similarity, top-K) → generation с найденным контекстом.
+**Связан:** [[wiki/rag-architecture-for-beginners]]
 
 ### Red Teaming
 **Definition:** Оценка безопасности AI через симуляцию атак.
@@ -247,6 +249,12 @@ type: glossary
 ### Verbosity (code verbosity)
 **Definition:** Многословие кода - метрика эрозии в SlopCodeBench (наряду с dead branches); растет в 75% траекторий агентов.
 **Связан:** [[wiki/slopcodebench-2026]]
+
+### Vector Database
+**Definition:** БД для семантического поиска — хранит embeddings (векторы) и ищет по близости (cosine similarity), а не по точному совпадению.
+**Примеры:** pgvector (в PostgreSQL), Chroma, FAISS, Milvus, Pinecone, Qdrant.
+**Зачем:** большой корпус (10k+ документов), когда линейный перебор медленный.
+**Связан:** [[wiki/rag-architecture-for-beginners]], [[wiki/vector-databases-fintech-2026]]
 
 ---
 

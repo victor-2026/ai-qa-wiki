@@ -817,6 +817,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/database-design-for-beginners.html",
+      "title": "Database Design (Relational & Non-Relational) for Beginners",
+      "desc": "title: \"Database Design (Relational & Non-Relational) for Beginners\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/david-burke-death-taxes-software-bugs.html",
       "title": "Death, Taxes, and Software Bugs",
       "desc": "**Author:** David Burke (VP of Engineering, ex-testRigor VP)",
@@ -904,6 +910,12 @@
       "file": "wiki/failuremodeandeffectsanalysisfmea.html",
       "title": "Failuremodeandeffectsanalysisfmea",
       "desc": "source: \"Failure Mode and Effects Analysis (FMEA).md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/fastapi-backend-for-beginners.html",
+      "title": "FastAPI Backend for Beginners",
+      "desc": "title: \"FastAPI Backend for Beginners\"",
       "tag": "Wiki"
     },
     {
@@ -1363,6 +1375,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/mcp-model-context-protocol-for-beginners.html",
+      "title": "MCP (Model Context Protocol) for Beginners",
+      "desc": "title: \"MCP (Model Context Protocol) for Beginners\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/mcp-ucp-protocols-2026.html",
       "title": "MCP + UCP: Open Protocols for Agentic QA (2026)",
       "desc": "source: \"mcp-ucp-protocols-2026.md\"",
@@ -1744,6 +1762,12 @@
       "file": "wiki/qualityremarks-blog-catalog-all-publications-2026.html",
       "title": "Quality Remarks — Complete Publications Catalog (Keith Klain)",
       "desc": "**Source:** https://qualityremarks.com/ (Quality Remarks, Keith Klain — technology leader, Chartered Management Consulta",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/rag-architecture-for-beginners.html",
+      "title": "RAG Architecture for Beginners",
+      "desc": "title: \"RAG Architecture for Beginners\"",
       "tag": "Wiki"
     },
     {

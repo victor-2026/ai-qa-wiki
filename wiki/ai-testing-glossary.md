@@ -266,6 +266,11 @@ type: glossary
 **Definition:** Правило флаки - при подозрении на инфраструктурный флак (напр. vision-таймаут на зеленом шаге): 1 автоматический реран, оба прогона в evidence pack; добивка до зеленого (re-run-to-green) запрещена явно.
 **Связан:** per-risk-tier-framework (QAEverest)
 
+### FastAPI
+**Definition:** Python REST-фреймворк (Starlette + Pydantic). Автодокументация OpenAPI на /docs, декларативная валидация моделей, async.
+**Зачем QA:** мгновенные mock/fake-серверы для тестов, контракт из /openapi.json, TestClient + pytest.
+**Связан:** [[wiki/fastapi-backend-for-beginners]]
+
 ---
 
 ## G
@@ -381,6 +386,16 @@ type: glossary
 **Почему важно:** Покрытие ≠ качество
 **Цель:** 80%+
 
+### MCP (Model Context Protocol)
+**Definition:** Открытый стандарт подключения LLM-агентов к инструментам/данным (Anthropic, 2024): клиент ↔ сервер по JSON-RPC (stdio или HTTP/SSE). «USB для AI».
+**Чем тестировать:** протокол (tools/list, tools/call), корректность инструментов, разрешения/безопасность, edge-cases сети.
+**Связан:** [[wiki/mcp-model-context-protocol-for-beginners]]
+
+### MongoDB
+**Definition:** Документная (NoSQL) БД — гибкая схема, JSON-подобные документы, вложенные структуры, горизонтальный шардинг.
+**QA-риски:** слабая типизация → тесты на наличие/типы полей; каскады и целостность сам не хранит.
+**Связан:** [[wiki/database-design-for-beginners]]
+
 ### Medallion architecture
 **Definition:** Медальонная архитектура - Bronze (сырое, immutable) → Silver (валидировано, там quarantine) → Gold (сертифицировано, только его видят агенты) → Adaptive Gold (агенты курируют).
 **Связан:** [[wiki/martinfowler-making-data-ready-agentic-ai-2026]]
@@ -394,6 +409,9 @@ type: glossary
 ## Продолжение
 
 N–Z: [[wiki/ai-testing-glossary-n-z]]
+
+
+
 
 
 
