@@ -260,3 +260,8 @@
 [2026-09-22T01:46:32.360495] ingest | typesafe-jev-judgment-service-gates-2026.md | ok | wiki/typesafe-jev-judgment-service-gates-2026.md
 [2026-09-22T01:46:32.361508] wiki-log | ingest | ok | raw/typesafe-jev-judgment-service-gates-2026.md → wiki/typesafe-jev-judgment-ser
 [2026-09-22T01:46:32.557305] wiki-log | backlinks | ok | 5 related pages for wiki/typesafe-jev-judgment-service-gates-2026.md
+[2026-09-22T13:22:07.343989] ingest | flowscout-akymenko-kanaris-thread-2026-09-22.md | ok | wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md
+[2026-09-22T13:22:07.345180] wiki-log | ingest | ok | raw/flowscout-akymenko-kanaris-thread-2026-09-22.md → wiki/flowscout-akymenko-ka
+[2026-09-22T13:22:07.528484] wiki-log | backlinks | ok | 5 related pages for wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md
+[2026-09-22T13:24:31.610184] update-index | 378 topics | ok | 
+[2026-09-22T13:24:31.619321] wiki-log | update-index | ok | 378 topics, 236 raw

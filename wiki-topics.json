@@ -913,6 +913,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/flowscout-akymenko-kanaris-thread-2026-09-22.html",
+      "title": "Flowscout Akymenko Kanaris Thread 2026 09 22",
+      "desc": "source: \"flowscout-akymenko-kanaris-thread-2026-09-22.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/free-ai-services-2026-artem-subbotin.html",
       "title": "Free Ai Services 2026 Artem Subbotin",
       "desc": "source: \"free-ai-services-2026-artem-subbotin.md\"",
@@ -2125,6 +2131,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/typesafe-jev-judgment-service-gates-2026.html",
+      "title": "Typesafe Jev Judgment Service Gates 2026",
+      "desc": "source: \"typesafe-jev-judgment-service-gates-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ui-fuzzing.html",
       "title": "UI Fuzzing — Mutation Through Input",
       "desc": "Fuzz testing for web UI: inject malformed, unexpected, or boundary-breaking data into forms, search fields, file uploads",
@@ -2257,6 +2269,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 235,
+  "raw_count": 236,
   "updated": "2026-09-22"
 }
