@@ -460,3 +460,14 @@ All 7 marked [x] items processed:
 - NEW wiki `swe-proof-machine-checked-proofs-2026.md` (arxiv 2609.21190, 2026-09-18): 500 SWE-bench issues formally verified; 25-50% of test-passing patches admit counterexamples (green suite != correctness, independent academic backup for Article 27); 62% of self-authored specs pass audit; spec faithfulness open problem.
 - NEW wiki `runtime-authorization-ai-agents-2026.md` (arxiv 2609.14744, 2026-09-18): post-fulfillment activation gap, provenance-bounded runtime auth (quarantine-resolve-activate), envelope, 8 safety props, MCP-to-Docker.
 - Registry: topics 351 -> 353, JSON valid. Commit `037bc6f`, pushed origin/main. Cross-links: mutation-matrix / verification-layer / Andrew Ng security / MCP habr.
+
+## 2026-09-22 02:00 - LLM-wiki pattern + log.md + auto-lint (commits 0587ffb, 609ec89, 05135a7)
+- **wiki/llm-wiki-pattern-2026.md** — суть LLM-wiki Karpathy (3 слоя, compiler-аналогия, Ingest/Query/Lint, «compiled once, kept current») + delta-таблица наша реализация vs механизм (log.md, confidence, contradictions, каскад entity-обновлений, категории). 
+- **wiki/log.md** — append-only операционный лог. Встроен в wiki_llm.py: append_wiki_log() авто-пишет при ingest / ingest-all / sync-links / update-index (новые + человеческие записи вручную).
+- **wiki_lint.py** — авто-health-check ЗАМЕНЯЕТ ручной воскресный линт ритуал: битые внутренние ссылки, orphans (нет inbound), stubs (<200 chars), raw без wiki, дубли-стемы. Отчёт → outputs/lint-report-YYYY-MM-DD.md, exit-коды 1/2/3, --summary/--json. Через wiki_llm.py --lint (wrapper) или напрямую.
+- **Trend across runs**: отчёт теперь парсит предыдущие lint-report-*.md и добавляет таблицу трендов + дельты orphans/missing к прошлому прогону (видно из одного файла). Internal links OK = total−broken (баг fixed).
+- **Реальные находки линтера исправлены**: 6 битых ссылок → 4 репоинта (radik-zagirov-rotting-gate → executor-evaluator-split-zagirov; llm-testing-six-approaches → llm-testing-6-approaches; your-agent-found-5-bugs → executor-evaluator-split-zagirov) + ингест raw/typesafe-jev-judgment-service-gates-2026.md (страница существовала на ссылках, но не была заведена; 5 backlinks).
+- **Итоговое состояние**: 375 страниц, 719 внутренних ссылок OK, 0 битых, 249 orphans, 0 stubs, 70 missing raw, темы 376.
+- **AGENTS.md** (Quality Standards): секция auto health-check + log.md. **~/.opencode-memory.md**: договорённость «Wiki health check — авто» + команда wiki_lint.py в инструментах.
+- Commits: 0587ffb (pattern+log+lint), 609ec89 (trend + link fixes + typesafe-jev), 05135a7 (backlink sync). Все push → origin/main.
+- **Open**: contradiction-скан через LLM остался roadmap; orphans 249 — кандидаты на кросс-линковку (связность); 70 missing raw.

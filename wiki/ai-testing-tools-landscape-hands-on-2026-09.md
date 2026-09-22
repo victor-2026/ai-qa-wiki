@@ -73,7 +73,11 @@ Pilot ONLY if both hold: **(a) self-serve cheap** (trial without sales cycle, lo
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+- [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
 <!-- backlinks-end -->

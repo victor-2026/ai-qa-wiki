@@ -88,3 +88,8 @@ Open-source crawler-агент (Apache-2.0, Playwright), обходящий жи
 3. Принимать истории о поведении ИИ без полного промпта + setup (non-reproducible claim)
 4. Антропоморфизировать (scheming, motivation) вместо "реакция на текст"
 5. Судить "лучше/хуже" модели по свежести версии, а не по sober/literal режиму
+
+<!-- backlinks-start -->
+### Backlinks
+- [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
+<!-- backlinks-end -->
