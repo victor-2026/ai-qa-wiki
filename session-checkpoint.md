@@ -500,3 +500,14 @@ All 7 marked [x] items processed:
 - Session: Qodo Source Triage completed (5+1 ingested, catalog 395 posts, digest feed, 16 quotes) + Software Map Article 29 candidate.
 - Commits: 22a3f4a (Qodo triage batch), 79fdf1f (Software Map). Now topics 386, raw 242.
 - Next: 29 variant C source material ready (risk heat map across repos from Software Map wiki).
+
+## 2026-09-22 23:55 - Skill pages 101-beginner-* (4 pages, glossary + index updated)
+- Admin request: прокачать skills для резюме (RAG arch, MCP familiarity, FastAPI, relational/non-relational DB design) + примеры для чайников.
+- Created 4 pages renamed to 101-beginner-* pattern for findability:
+  - wiki/101-beginner-rag-architecture.md (3-stage pipeline, embeddings, cosine similarity, vector DB, semantic search optimization)
+  - wiki/101-beginner-mcp.md (client/server, tools/resources/prompts, JSON-RPC, what to test)
+  - wiki/101-beginner-fastapi.md (example API, Pydantic, TestClient, mock servers)
+  - wiki/101-beginner-database-design.md (SQL vs NoSQL, constraints, cascades, migrations, pytest example)
+- Glossary: +6 terms (FastAPI, MCP, MongoDB, Vector DB; RAG expanded) with links to new pages.
+- topics 386→390, raw 242 (unchanged). Broken links 0. Commits: b9e9fbd (pages+glossary), 402bd5e (renames to 101-beginner-* + links).
+- Next: apply same 101-beginner-* findability if more beginner pages are requested; radar quotes (Testkube AI Test Creation, Codemify live, BitGN DDD) live in Articles quotes.md.
