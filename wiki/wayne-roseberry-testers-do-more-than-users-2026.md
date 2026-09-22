@@ -70,6 +70,9 @@ Wayne Roseberry argues that testing is far more than mimicking ordinary user beh
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)

@@ -49,6 +49,9 @@ Skills shift the focus from “can the model follow a prompt?” to “does the 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agentics Foundation Serbia — YouTube Channel](wiki/agentics-foundation-serbia-youtube-2025-2026.md)

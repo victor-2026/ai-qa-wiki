@@ -96,6 +96,9 @@ All of this can be triggered with a single command (`/carbon`) that may run for 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [2026: Обзор и апробация ИИ-агентов для тестирования](wiki/ai-testing-agents-review-2026.md)

@@ -58,11 +58,15 @@ Creator and Head of Claude Code at Anthropic (Boris Cherny) describes experiment
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)
 - [Brij Kishore Pandey Retroactive Ai Titles 2026](wiki/brij-kishore-pandey-retroactive-ai-titles-2026.md)
+- [Executor/Evaluator Split: Radik Zagirov (Agentiqa) Architecture Post (2026-09-09)](wiki/executor-evaluator-split-zagirov-2026-09.md)
 - [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
 - [Ishan Anand Llm Persona Feedback Failure Modes 2026](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md)
 - [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)

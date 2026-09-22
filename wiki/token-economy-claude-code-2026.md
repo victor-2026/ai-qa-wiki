@@ -100,6 +100,9 @@ Claude Code шлёт промпты, оптимизированные под Ant
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Какэкономитьтокенывclaudecode](wiki/какэкономитьтокенывclaudecode.md)

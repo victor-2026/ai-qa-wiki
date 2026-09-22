@@ -269,7 +269,7 @@ type: glossary
 ### FastAPI
 **Definition:** Python REST-фреймворк (Starlette + Pydantic). Автодокументация OpenAPI на /docs, декларативная валидация моделей, async.
 **Зачем QA:** мгновенные mock/fake-серверы для тестов, контракт из /openapi.json, TestClient + pytest.
-**Связан:** [[wiki/fastapi-backend-for-beginners]]
+**Связан:** [[wiki/101-beginner-fastapi]]
 
 ---
 
@@ -389,12 +389,12 @@ type: glossary
 ### MCP (Model Context Protocol)
 **Definition:** Открытый стандарт подключения LLM-агентов к инструментам/данным (Anthropic, 2024): клиент ↔ сервер по JSON-RPC (stdio или HTTP/SSE). «USB для AI».
 **Чем тестировать:** протокол (tools/list, tools/call), корректность инструментов, разрешения/безопасность, edge-cases сети.
-**Связан:** [[wiki/mcp-model-context-protocol-for-beginners]]
+**Связан:** [[wiki/101-beginner-mcp]]
 
 ### MongoDB
 **Definition:** Документная (NoSQL) БД — гибкая схема, JSON-подобные документы, вложенные структуры, горизонтальный шардинг.
 **QA-риски:** слабая типизация → тесты на наличие/типы полей; каскады и целостность сам не хранит.
-**Связан:** [[wiki/database-design-for-beginners]]
+**Связан:** [[wiki/101-beginner-database-design]]
 
 ### Medallion architecture
 **Definition:** Медальонная архитектура - Bronze (сырое, immutable) → Silver (валидировано, там quarantine) → Gold (сертифицировано, только его видят агенты) → Adaptive Gold (агенты курируют).

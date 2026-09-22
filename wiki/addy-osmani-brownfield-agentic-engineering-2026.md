@@ -132,3 +132,12 @@ Track: lead time, review minutes, human interventions, escaped defects, rollback
 - `wiki/comprehension-debt.md` — comprehension debt (origination: Addy's substack). Brownfield patterns are the mitigation: zones + characterization tests prevent comprehension debt from accumulating.
 - `wiki/addy-osmani-anthropic-verification-floor-skill-decay-2026.md` — skill decay. Brownfield zones answer "where can agents work safely" while skill decay answers "why human verification still matters."
 - `wiki/addy-osmani-month-digest-verification-gates-2026-09.md` — month digest with tiered gates, config rot, loop engineering. Zones are the practical implementation of those tiered gates.
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
+<!-- backlinks-end -->

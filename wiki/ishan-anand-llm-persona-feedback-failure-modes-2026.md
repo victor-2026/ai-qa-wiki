@@ -56,6 +56,9 @@ Talk by Ishan Anand on using LLMs for persona feedback, shared via LinkedIn (htt
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
@@ -64,4 +67,5 @@ Talk by Ishan Anand on using LLMs for persona feedback, shared via LinkedIn (htt
 - [Executor/Evaluator Split: Radik Zagirov (Agentiqa) Architecture Post (2026-09-09)](wiki/executor-evaluator-split-zagirov-2026-09.md)
 - [Jeff Nyman Ai Testing Catalog](wiki/jeff-nyman-ai-testing-catalog.md)
 - [Prachi Dahibhate James Bach Rst 2026](wiki/prachi-dahibhate-james-bach-rst-2026.md)
+- [Testing Large Language Models (LLMs)](wiki/llm-testing-6-approaches.md)
 <!-- backlinks-end -->

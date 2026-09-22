@@ -25,3 +25,10 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-22 14:31 — backlinks — 5 related pages for wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md
 - 2026-09-22 14:35 — update-index — 384 topics, 241 raw
 - 2026-09-22 14:36 — sync-links — 384 pages
+- 2026-09-22 14:49 — ingest — raw/qodo-software-map-risk-across-repos-2026.md → wiki/qodo-software-map-risk-across-repos-2026.md
+- 2026-09-22 14:49 — backlinks — 5 related pages for wiki/qodo-software-map-risk-across-repos-2026.md
+- 2026-09-22 14:49 — update-index — 386 topics, 242 raw
+- 2026-09-22 14:50 — sync-links — 386 pages
+- 2026-09-22 14:51 — update-index — 386 topics, 242 raw
+- 2026-09-22 20:57 — update-index — 390 topics, 242 raw
+- 2026-09-22 23:48 — update-index — 390 topics, 242 raw

@@ -72,6 +72,9 @@ Jev там, где в коде нужно решение по нечетким �
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)

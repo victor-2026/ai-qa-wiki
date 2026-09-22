@@ -121,6 +121,9 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

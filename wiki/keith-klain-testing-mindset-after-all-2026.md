@@ -104,6 +104,9 @@ Additional takeaway: independent testing = different assumptions, risk models, p
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)

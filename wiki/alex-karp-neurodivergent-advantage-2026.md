@@ -53,6 +53,9 @@ Palantir CEO Alex Karp (Business Insider interview, 2026) names two categories s
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)

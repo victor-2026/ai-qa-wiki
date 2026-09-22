@@ -296,6 +296,9 @@ MAS — не инструмент, а архитектурный паттерн:
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)

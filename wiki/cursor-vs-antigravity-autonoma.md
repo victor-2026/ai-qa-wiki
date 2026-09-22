@@ -83,6 +83,9 @@ Both tools require an **independent behavioral verification layer** (e.g., E2E t
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [30 AI-Focused Interview Questions for Manual QA](wiki/30-ai-questions-manual-qa-2026.md)

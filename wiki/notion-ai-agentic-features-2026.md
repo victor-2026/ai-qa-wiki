@@ -220,6 +220,9 @@ Trial не продлен: штука тяжелая (credits + vendor lock-in +
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)

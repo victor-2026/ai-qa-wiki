@@ -90,9 +90,13 @@
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
 - [Archestra Jev 100 Agent Calls Benchmark 2026](wiki/archestra-jev-100-agent-calls-benchmark-2026.md)
 - [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)
+- [Archestra: Debugging the AI Harness on Weak Models (2024‑2026)](wiki/archestra-debug-harness-weak-models-2026.md)
 <!-- backlinks-end -->

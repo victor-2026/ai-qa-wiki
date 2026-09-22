@@ -149,6 +149,9 @@ Chapters 9-11 change the unit of QA from "did the generated code compile?" to "w
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Apparently We Need a Testing Mindset After All](wiki/keith-klain-testing-mindset-after-all-2026.md)

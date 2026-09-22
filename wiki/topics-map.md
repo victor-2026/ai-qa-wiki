@@ -183,6 +183,9 @@ AI-generated code?       → TrickCatcher
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
