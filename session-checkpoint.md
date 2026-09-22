@@ -495,3 +495,8 @@ All 7 marked [x] items processed:
 - `raw/qodo-software-map-risk-across-repos-2026.md` + `wiki/qodo-software-map-risk-across-repos-2026.md` (Itamar Friedman 22.09, live beta).
 - Thesis: "you cannot govern a system you cannot see"; Faros numbers (files/PR +59.7%, files/dev/mo +149.9%, incidents/PR +242.7% at high AI adoption); blast radius per repo + contract tracking + risk heat map = Article 29 candidate (risk-tiering across repos, contract seams where attestor adds value).
 - Catalog Tier 1.5 row #19 linked. topics 384→386, raw 241→242.
+
+## 2026-09-22 16:13 - CHECKPOINT (session close)
+- Session: Qodo Source Triage completed (5+1 ingested, catalog 395 posts, digest feed, 16 quotes) + Software Map Article 29 candidate.
+- Commits: 22a3f4a (Qodo triage batch), 79fdf1f (Software Map). Now topics 386, raw 242.
+- Next: 29 variant C source material ready (risk heat map across repos from Software Map wiki).
