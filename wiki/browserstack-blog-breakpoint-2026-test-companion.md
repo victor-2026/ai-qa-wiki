@@ -130,8 +130,12 @@ BrowserStack's agentic AI for test automation in IDE. Key stat: AI coding agents
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
 <!-- backlinks-end -->

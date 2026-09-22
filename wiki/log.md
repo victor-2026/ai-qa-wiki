@@ -13,3 +13,15 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-22 13:22 — ingest — raw/flowscout-akymenko-kanaris-thread-2026-09-22.md → wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md
 - 2026-09-22 13:22 — backlinks — 5 related pages for wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md
 - 2026-09-22 13:24 — update-index — 378 topics, 236 raw
+- 2026-09-22 14:30 — ingest — raw/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md → wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md
+- 2026-09-22 14:30 — backlinks — 5 related pages for wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md
+- 2026-09-22 14:30 — ingest — raw/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md → wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md
+- 2026-09-22 14:30 — backlinks — 5 related pages for wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md
+- 2026-09-22 14:30 — ingest — raw/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md → wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md
+- 2026-09-22 14:30 — backlinks — 5 related pages for wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md
+- 2026-09-22 14:30 — ingest — raw/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md → wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md
+- 2026-09-22 14:30 — backlinks — 5 related pages for wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md
+- 2026-09-22 14:31 — ingest — raw/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md → wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md
+- 2026-09-22 14:31 — backlinks — 5 related pages for wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md
+- 2026-09-22 14:35 — update-index — 384 topics, 241 raw
+- 2026-09-22 14:36 — sync-links — 384 pages

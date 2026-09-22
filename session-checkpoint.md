@@ -478,3 +478,15 @@ All 7 marked [x] items processed:
 - **Article gold:** Kanaris "undiscovered vs uncovered" = our discovery/verification gap language; Igor "here is what this identity could reach, in this system state" = bounded claims for VerdictGate; honest-vs-invented = Article 26 evidence (Sarang found real bug, not invented).
 - Quotes: 7 added → Articles/quotes.md "Honest QA tools / undiscovered vs uncovered" section. Digest: +source "flowscout-alternateqa" (manual, no RSS). Outreach + pilot catalog updated (Positions b326885), cross-link bolton-bach already present.
 - Lint-relevant: fixed unclosed BrowserStack link in ingested page (that's exactly the class wiki_lint catches).
+
+## 2026-09-22 15:00 - Qodo Source Triage (Company First) [Sources; 5 ingest + catalog]
+- Qodo (ex-Codium, 30.09.2024 rename; Qodo Gen = ex-Codiumate, Qodo Merge = ex-PR-Agent; Context Engine, Rules, Software Map; ~$120.6M funding; HQ NY + Israel, 100-150 engineers). Blog = 395 posts, RSS https://www.qodo.ai/feed/ works ONLY with browser User-Agent (Cloudflare 403 otherwise); sitemap post-sitemap.xml (saved /tmp/qodo-blog-urls.txt).
+- `raw/qodo-*.md` ×5 created (fetch via curl browser-UA + BeautifulSoup extract from `.ds-block-single-post__content`):
+  1. ai-gave-teams-velocity-the-governance-harness-comes-next (Itamar Friedman CEO, 2026-06-23; Faros 2026: incidents/PR +242%, time in review +441%, bugs/dev +54%; maturity advantage gone at AI scale)
+  2. why-your-ai-coding-agent-shouldnt-review-its-own-code...verification-layer (2026-06-30; Gartner June 2026 Code Review Agent Example Vendor; iterative self-refine → critical vulns +33% in 5 rounds)
+  3. ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it (comprehension, review-as-responsibility-boundary, risk visibility, automation-preserves-discernment; "you can't govern what you don't measure")
+  4. building-the-verification-layer...code-standards (verification layer = multiplier; alpha/beta/GA progressive rigor; Goodhart; Walmart humans-in-loop; spec-is-source-of-truth)
+  5. when-claude-code-reviews-its-own-pr-who-reviews-claude (live experiment: Claude Code judge filtered below-80 and suppressed a TOCTOU security bug; Qodo surfaced as Action Required; "judge as filter" vs "judge as responsibility router")
+- wiki pages ×5 ingested via wiki_llm.py (topics 378→384, raw 236→241). Catalog `wiki/qodo-blog-catalog-all-publications-2024-2026.md` (TIER 1 ×5 ingested, TIER 1.5 ×13 next candidates incl. why-ai-self-review-fails, contract-verification-across-repos, RAG-removal story, rules lifecycle, context engine; 37 HIGH total).
+- Cross-links: backlinks auto-updated on 5 pages. digest-config.json (Articles) receives feed `qodo` (weight 0.9 + browser UA) — digest worker per-source user_agent support added in daily-digest.py.
+- Quotes: 16 → Articles/quotes.md "Independent verification layer / generator vs grader (Qodo)".

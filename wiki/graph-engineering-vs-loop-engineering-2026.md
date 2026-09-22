@@ -128,6 +128,9 @@ Split → N параллельных веток → merge. Например, з�
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [It Was Always a Loop](wiki/it-was-always-a-loop.md)

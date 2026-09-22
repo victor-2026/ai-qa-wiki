@@ -87,6 +87,9 @@
 
 *Источники: [raw/archestra-jev-100-agent-calls-benchmark-2026.md](raw/archestra-jev-100-agent-calls-benchmark-2026.md), [raw/archestra-crab-bot-slack-agent-2026.md](raw/archestra-crab-bot-slack-agent-2026.md), [raw/archestra-skills-aren-t-prompts-code-sandbox-2026.md](raw/archestra-skills-aren-t-prompts-code-sandbox-2026.md)*
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)

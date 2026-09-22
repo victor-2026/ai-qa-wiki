@@ -1,10 +1,10 @@
 # Wiki Lint Report — 2026-09-22
 
-- Timestamp: 2026-09-22T01:46:54.117252
-- Wiki pages: 375
-- Internal links OK: 719
+- Timestamp: 2026-09-22T14:36:02.028298
+- Wiki pages: 382
+- Internal links OK: 784
 - Broken links: 0
-- Orphans: 249
+- Orphans: 245
 - Stubs (<200 chars): 0
 - Raw without wiki: 70
 - Duplicate-ish stems: 0
@@ -34,7 +34,6 @@
 - agent-skills-specification.md
 - agent-teams-architecture.md
 - agentic-engineering-hacks.md
-- agentic-patterns.md
 - agents-discussion-300526.md
 - ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.md
 - ai-chaos-testing.md
@@ -76,7 +75,6 @@
 - autonoma-qa-ai-feature-2026.md
 - autonoma-rag-evaluation-metrics-2026.md
 - autonoma-rag-pipeline-2026.md
-- autonoma-rag-retrieval-2026.md
 - autonoma-streaming-responses-2026.md
 - autonoma-testing-tool-calls-2026.md
 - autonomous-testing-agent-fastest-feedback-2026.md
@@ -85,7 +83,6 @@
 - bas-dijkstra-learning-takes-time-2026.md
 - bdd-ai-native-harness.md
 - beyond-zero-google-experimentation-culture-2026.md
-- bolton-bach-llm-sandwich-hygiene-protocol-2026.md
 - browser-ai-testing-agents.md
 - building-professional-resilience-qa-2026.md
 - c4-model-software-architecture.md
@@ -129,7 +126,6 @@
 - julia-pottinger-accountable-ai-code-2026.md
 - julia-pottinger-who-validates-ai-generated-code-2026.md
 - juliapottinger-blog-catalog-all-publications-2026.md
-- kiro-blog-catalog-all-publications-2025-2026.md
 - kiro-bug-fix-paradox-2026.md
 - kiro-continuous-prompt-evaluation-llm-judges-2026.md
 - kiro-crew-multi-agent-orchestration-open-source-2026.md
@@ -190,6 +186,7 @@
 - qa-prompt-engineering-guide.md
 - qa-topics.md
 - qburst-quality-engineering-framework-validating-agent-behavior-2026.md
+- qodo-blog-catalog-all-publications-2024-2026.md
 - qualityremarks-blog-catalog-all-publications-2026.md
 - rag-evaluation-ragas.md
 - rag-evaluation.md
@@ -207,7 +204,6 @@
 - rinat-sgr-adaptive-planning-2026.md
 - risk-based-testing-skill.md
 - rmorison-six-layer-ai-architecture-2026.md
-- rotation-without-relevance-preseed-mutant-filtering-2026.md
 - rtm-matrix-habr.md
 - runtime-authorization-ai-agents-2026.md
 - ruvnet-agentic-stack-2026.md
@@ -336,6 +332,6 @@
 
 | Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |
 |-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|
-| 2026-09-22 | 375 | 719 | 0 | 249 | 0 | 70 | 0 | — | — |
+| 2026-09-22 | 382 | 784 | 0 | 245 | 0 | 70 | 0 | — | — |
 
 Delta columns relative to previous run. First run has no deltas.

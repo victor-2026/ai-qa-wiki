@@ -62,6 +62,9 @@ Prachi Dahibhate's "Testing Today" piece profiles James Bach and the Rapid Softw
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)

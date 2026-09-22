@@ -52,6 +52,9 @@ Comprehension debt refers to the hidden cost of relying on Large Language Models
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)

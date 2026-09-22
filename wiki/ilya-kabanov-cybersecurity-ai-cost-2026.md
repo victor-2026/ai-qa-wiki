@@ -65,6 +65,9 @@ Agent identity example: $2.9B acquiring agent-identity startups in 2026 - must b
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
@@ -72,6 +75,7 @@ Agent identity example: $2.9B acquiring agent-identity startups in 2026 - must b
 - [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)
 - [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
 - [Brij Kishore Pandey Retroactive Ai Titles 2026](wiki/brij-kishore-pandey-retroactive-ai-titles-2026.md)
+- [Executor/Evaluator Split: Radik Zagirov (Agentiqa) Architecture Post (2026-09-09)](wiki/executor-evaluator-split-zagirov-2026-09.md)
 - [Jeff Nyman Testing Knowledge Not Just Testing Skill 2026](wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md)
 - [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)
 - [Milko Slavov Two Doors Mcp 2026](wiki/milko-slavov-two-doors-mcp-2026.md)

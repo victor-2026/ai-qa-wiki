@@ -230,9 +230,20 @@ The official Knowledge Edition is a set of short, citable briefs, not the comple
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
 - [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
+- [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
 <!-- backlinks-end -->

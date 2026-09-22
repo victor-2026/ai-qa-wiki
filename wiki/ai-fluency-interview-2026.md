@@ -276,6 +276,9 @@ QA/Automation roles explicitly included в пилот Google (L3–L4). Этот
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)

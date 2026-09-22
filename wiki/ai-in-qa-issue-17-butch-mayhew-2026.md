@@ -62,6 +62,9 @@ Apple shipped Safari MCP server — AI agents can now inspect live browsers nati
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Transformation Lead — Role Specialization](wiki/ai-qa-transformation-lead.md)

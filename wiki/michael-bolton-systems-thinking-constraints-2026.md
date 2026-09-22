@@ -52,6 +52,9 @@ Bolton (co-author of Rapid Software Testing with James Bach) applies general sys
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)

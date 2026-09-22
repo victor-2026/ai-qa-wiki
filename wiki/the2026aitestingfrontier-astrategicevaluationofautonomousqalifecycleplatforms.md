@@ -44,6 +44,9 @@ The 2026 AI Testing Frontier marks a significant shift in the QA landscape, with
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)

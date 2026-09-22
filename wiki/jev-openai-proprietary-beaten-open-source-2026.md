@@ -70,6 +70,9 @@ A former OpenAI researcher (Diogo Almeida, ChatGPT/GPT-4/RLHF co-inventor) spent
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Andrew Ng: AI Engineering Skills Map — Using Coding Agents](wiki/andrew-ng-coding-agents-skills-map-2026.md)
@@ -80,4 +83,5 @@ A former OpenAI researcher (Diogo Almeida, ChatGPT/GPT-4/RLHF co-inventor) spent
 - [Opencode Jev 113 Free System One Model 2026](wiki/opencode-jev-113-free-system-one-model-2026.md)
 - [Ruben Hassid Jev Internet Moment Setup 2026](wiki/ruben-hassid-jev-internet-moment-setup-2026.md)
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
+- [Typesafe Jev Judgment Service Gates 2026](wiki/typesafe-jev-judgment-service-gates-2026.md)
 <!-- backlinks-end -->

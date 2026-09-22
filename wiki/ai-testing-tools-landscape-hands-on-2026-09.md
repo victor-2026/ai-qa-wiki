@@ -76,8 +76,19 @@ Pilot ONLY if both hold: **(a) self-serve cheap** (trial without sales cycle, lo
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
 - [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
+- [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
+- [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 <!-- backlinks-end -->

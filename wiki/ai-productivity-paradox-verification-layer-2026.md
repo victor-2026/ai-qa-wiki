@@ -101,6 +101,15 @@ QA reading: stage 3‑4 on Jones scale = where QA earns its keep (verification o
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework](wiki/three-way-comparison.md)
@@ -113,4 +122,6 @@ QA reading: stage 3‑4 on Jones scale = where QA earns its keep (verification o
 - [Michael Bolton Systems Thinking Constraints 2026](wiki/michael-bolton-systems-thinking-constraints-2026.md)
 - [Offline Evaluation of AI Test Agents with Trajectories](wiki/offline-evaluation-trajectories-2026.md)
 - [Prachi Dahibhate James Bach Rst 2026](wiki/prachi-dahibhate-james-bach-rst-2026.md)
+- [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 <!-- backlinks-end -->

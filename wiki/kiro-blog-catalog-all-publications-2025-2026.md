@@ -235,3 +235,19 @@ Frontier team lets CLI triage prod tickets: 2:33 AM alarm → 2:46 AM (13m35s) d
 ---
 
 *Compiled: 2026-08-30*
+
+
+
+
+
+
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
+- [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
+<!-- backlinks-end -->

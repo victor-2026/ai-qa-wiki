@@ -74,6 +74,9 @@ Take borrowed knowledge away: developer -> untestable function; tester -> suite 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)

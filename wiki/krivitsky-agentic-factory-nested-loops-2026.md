@@ -58,6 +58,9 @@ Krivitsky frames agentic AI as three **nested** work-and-learning loops, each wr
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)

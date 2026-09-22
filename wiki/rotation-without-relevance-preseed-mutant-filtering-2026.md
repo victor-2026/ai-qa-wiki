@@ -127,6 +127,9 @@ Stage 2 scales horizontally, not vertically: same ~20 protocol per app across th
 *Wiki note 2026-09-04 · answers "is rotation-without-relevance a known problem?" — yes: equivalent/low-utility mutants + unselective operators; the fix the field converged on is filtering/selection **before** execution (Google arid+targeted, Cerebro static, ML pre-filters). Our gate is the UI-test instance.*
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)

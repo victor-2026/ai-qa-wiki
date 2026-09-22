@@ -28,3 +28,11 @@ Is the auditor's silence on UI-level defects (missing button text, duplicate fie
 - Method: [[ai-qa-tool-evaluation-mutation-matrix]]
 - Qase deterministic gates: https://www.qase.io/blog/test-management-for-ai-coding-agents/
 - Article 26 (playbook, unpublished — link after 14.09 release); DevAssure Antigravity post (URL TBD)
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
+- [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+- [Ishan Anand Llm Persona Feedback Failure Modes 2026](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md)
+<!-- backlinks-end -->

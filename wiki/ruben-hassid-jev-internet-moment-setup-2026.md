@@ -97,6 +97,9 @@ A composite prompt chain (Claude Code + GitHub + Vercel + Apify 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)

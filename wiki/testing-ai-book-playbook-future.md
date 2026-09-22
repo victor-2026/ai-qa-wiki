@@ -151,6 +151,9 @@ Chapters 19-21 close the loop:
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)

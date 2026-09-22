@@ -93,7 +93,14 @@ Agent does triage today; increasingly repairs (drafting code reviews for fixes b
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+- [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 <!-- backlinks-end -->

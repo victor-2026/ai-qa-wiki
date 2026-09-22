@@ -69,9 +69,13 @@ Jev там, где в коде нужно решение по нечетким �
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [Ruben Hassid Jev Internet Moment Setup 2026](wiki/ruben-hassid-jev-internet-moment-setup-2026.md)
+- [Typesafe Jev Judgment Service Gates 2026](wiki/typesafe-jev-judgment-service-gates-2026.md)
 <!-- backlinks-end -->

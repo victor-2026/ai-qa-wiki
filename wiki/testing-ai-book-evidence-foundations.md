@@ -272,6 +272,18 @@ The practical output is a small evidence system, not a larger pile of tests.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
@@ -281,5 +293,8 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
+- [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
+- [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

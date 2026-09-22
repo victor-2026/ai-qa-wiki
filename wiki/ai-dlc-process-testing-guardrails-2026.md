@@ -90,6 +90,18 @@ AI‑DLC treats software delivery as a **process‑centric** pipeline where auto
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
@@ -100,6 +112,9 @@ AI‑DLC treats software delivery as a **process‑centric** pipeline where auto
 - [Michael Bolton Systems Thinking Constraints 2026](wiki/michael-bolton-systems-thinking-constraints-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
 - [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
+- [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
+- [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
+- [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 - [Ruslan Desyatnikov Qa Director Elimination Virus 2026](wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md)
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
 <!-- backlinks-end -->
