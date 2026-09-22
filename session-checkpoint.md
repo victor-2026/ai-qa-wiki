@@ -471,3 +471,10 @@ All 7 marked [x] items processed:
 - **AGENTS.md** (Quality Standards): секция auto health-check + log.md. **~/.opencode-memory.md**: договорённость «Wiki health check — авто» + команда wiki_lint.py в инструментах.
 - Commits: 0587ffb (pattern+log+lint), 609ec89 (trend + link fixes + typesafe-jev), 05135a7 (backlink sync). Все push → origin/main.
 - **Open**: contradiction-скан через LLM остался roadmap; orphans 249 — кандидаты на кросс-линковку (связность); 70 missing raw.
+
+## 2026-09-22 03:05 - Karpathy pattern + lint (completed 02:00) + FlowScout Kanaris thread triage (commits 7b2bf3d, 142fffd)
+- Earlier today (02:00): llm-wiki-pattern-2026.md, wiki/log.md (append-only), wiki_lint.py (auto health check, trend table, exit codes), fixed 6 broken links, typesafe-jev ingest. State: 376 topics, 375 pages, 0 broken.
+- **FlowScout thread 2026-09-22 ingested** (raw+wiki, topics 376→378, raw 235→236): Igor Akymenko post + Paul Kanaris critique ("undiscovered vs uncovered behavior") + Igor's honest unsolved residue (run-condition visibility, config-scoped change detection, multi-actor handoffs, one-shot irreversible transitions, time-dependent flows) + Sarang U. real overlay bug (pointer-events:auto).
+- **Article gold:** Kanaris "undiscovered vs uncovered" = our discovery/verification gap language; Igor "here is what this identity could reach, in this system state" = bounded claims for VerdictGate; honest-vs-invented = Article 26 evidence (Sarang found real bug, not invented).
+- Quotes: 7 added → Articles/quotes.md "Honest QA tools / undiscovered vs uncovered" section. Digest: +source "flowscout-alternateqa" (manual, no RSS). Outreach + pilot catalog updated (Positions b326885), cross-link bolton-bach already present.
+- Lint-relevant: fixed unclosed BrowserStack link in ingested page (that's exactly the class wiki_lint catches).
