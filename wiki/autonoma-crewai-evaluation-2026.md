@@ -89,3 +89,9 @@
 - Deep dive: [CrewAI Evaluation raw](https://getautonoma.com/blog/crewai-evaluation), [Agent Simulation Testing](https://getautonoma.com/blog/agent-simulation-testing)
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Securing AI Agents – The DPACT Framework](wiki/infoq-dpact-framework-ai-agents-2026.md)
+<!-- backlinks-end -->

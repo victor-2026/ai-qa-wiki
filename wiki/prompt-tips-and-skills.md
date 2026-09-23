@@ -259,11 +259,27 @@ Fix any issues: wrong locators, missing assertions, no time.sleep."
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)](wiki/ai-in-qa-issue-17-butch-mayhew-2026.md)
 - [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
+- [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
+- [Connect the Dots (CoD): Training LLMs for Long‑Lifecycle Agents](wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md)
 - [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
+- [Klain Turns Out Testing Is Hard 2026](wiki/klain-turns-out-testing-is-hard-2026.md)
 - [MCP + UCP: Open Protocols for Agentic QA (2026)](wiki/mcp-ucp-protocols-2026.md)
+- [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)
 <!-- backlinks-end -->

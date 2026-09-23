@@ -52,12 +52,16 @@ Skills shift the focus from “can the model follow a prompt?” to “does the 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agentics Foundation Serbia — YouTube Channel](wiki/agentics-foundation-serbia-youtube-2025-2026.md)
 - [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Archestra Blog: Complete Publications Catalog with Annotations](wiki/archestra-blog-catalog-2026.md)
 - [Archestra Jev 100 Agent Calls Benchmark 2026](wiki/archestra-jev-100-agent-calls-benchmark-2026.md)
+- [Connect the Dots (CoD): Training LLMs for Long‑Lifecycle Agents](wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md)
 - [LifeMichael Develop-with-AI Monthly Review (Aug 2026): Orchestration Era](wiki/lifemichael-develop-with-ai-monthly-review-2026-08.md)
 - [Testing AI by Jason Arbon: Wiki Index](wiki/testing-ai-book-index.md)
 - [Testing Ai Agent Tool Calls Autonoma](wiki/testing-ai-agent-tool-calls-autonoma.md)

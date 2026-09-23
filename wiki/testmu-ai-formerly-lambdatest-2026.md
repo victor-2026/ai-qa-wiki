@@ -110,3 +110,9 @@ Worth accepting the trial. KaneAI + HyperExecute + Real Device Cloud are genuine
 - Mobile testing at scale (no local device lab needed)
 - Comparing NL-generated tests vs Playwright Agents
 - Article content: "3 AI Testing Platforms: Autonoma vs Playwright Agents vs TestMu"
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Mot Agentic Test Execution 2026](wiki/mot-agentic-test-execution-2026.md)
+<!-- backlinks-end -->

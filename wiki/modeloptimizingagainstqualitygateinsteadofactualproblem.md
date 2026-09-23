@@ -69,12 +69,16 @@ By enforcing **external, state‑focused, and context‑free verification**, dev
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Apparently We Need a Testing Mindset After All](wiki/keith-klain-testing-mindset-after-all-2026.md)
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)
+- [Infoq Google Ax Orchestrator 2026](wiki/infoq-google-ax-orchestrator-2026.md)
 - [Testing AI by Jason Arbon: Wiki Index](wiki/testing-ai-book-index.md)
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
 <!-- backlinks-end -->

@@ -32,3 +32,30 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-22 14:51 — update-index — 386 topics, 242 raw
 - 2026-09-22 20:57 — update-index — 390 topics, 242 raw
 - 2026-09-22 23:48 — update-index — 390 topics, 242 raw
+- 2026-09-23 00:05 — update-index — 391 topics, 242 raw
+- 2026-09-23 17:20 — ingest — raw/klain-one-loop-after-another-2026.md → wiki/klain-one-loop-after-another-2026.md
+- 2026-09-23 17:20 — backlinks — 5 related pages for wiki/klain-one-loop-after-another-2026.md
+- 2026-09-23 17:20 — ingest — raw/klain-turns-out-testing-is-hard-2026.md → wiki/klain-turns-out-testing-is-hard-2026.md
+- 2026-09-23 17:20 — backlinks — 5 related pages for wiki/klain-turns-out-testing-is-hard-2026.md
+- 2026-09-23 17:20 — ingest — raw/mot-agentic-test-execution-2026.md → wiki/mot-agentic-test-execution-2026.md
+- 2026-09-23 17:20 — backlinks — 5 related pages for wiki/mot-agentic-test-execution-2026.md
+- 2026-09-23 17:20 — ingest — raw/infoq-dpact-framework-ai-agents-2026.md → wiki/infoq-dpact-framework-ai-agents-2026.md
+- 2026-09-23 17:20 — backlinks — 5 related pages for wiki/infoq-dpact-framework-ai-agents-2026.md
+- 2026-09-23 17:20 — ingest — raw/verge-un-ai-safeguards-cant-wait-2026.md → wiki/verge-un-ai-safeguards-cant-wait-2026.md
+- 2026-09-23 17:20 — backlinks — 5 related pages for wiki/verge-un-ai-safeguards-cant-wait-2026.md
+- 2026-09-23 17:20 — ingest — raw/infoq-adk-kotlin-1-0-2026.md → wiki/infoq-adk-kotlin-1-0-2026.md
+- 2026-09-23 17:20 — backlinks — 5 related pages for wiki/infoq-adk-kotlin-1-0-2026.md
+- 2026-09-23 17:22 — update-index — 397 topics, 248 raw
+- 2026-09-23 17:25 — ingest — raw/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md → wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md
+- 2026-09-23 17:25 — backlinks — 5 related pages for wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md
+- 2026-09-23 17:25 — ingest — raw/arxiv-law-of-stop-interruptibility-2026.md → wiki/arxiv-law-of-stop-interruptibility-2026.md
+- 2026-09-23 17:25 — backlinks — 5 related pages for wiki/arxiv-law-of-stop-interruptibility-2026.md
+- 2026-09-23 17:25 — ingest — raw/arxiv-connect-the-dots-long-lifecycle-agents-2026.md → wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md
+- 2026-09-23 17:25 — backlinks — 5 related pages for wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md
+- 2026-09-23 17:25 — ingest — raw/infoq-google-ax-orchestrator-2026.md → wiki/infoq-google-ax-orchestrator-2026.md
+- 2026-09-23 17:25 — backlinks — 5 related pages for wiki/infoq-google-ax-orchestrator-2026.md
+- 2026-09-23 17:26 — ingest — raw/verge-rabbit-os3-agent-2026.md → wiki/verge-rabbit-os3-agent-2026.md
+- 2026-09-23 17:26 — backlinks — 5 related pages for wiki/verge-rabbit-os3-agent-2026.md
+- 2026-09-23 17:26 — ingest — raw/mot-ai-generated-tests-mocks-2026.md → wiki/mot-ai-generated-tests-mocks-2026.md
+- 2026-09-23 17:26 — backlinks — 5 related pages for wiki/mot-ai-generated-tests-mocks-2026.md
+- 2026-09-23 17:26 — update-index — 403 topics, 254 raw

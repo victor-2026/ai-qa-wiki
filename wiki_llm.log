@@ -284,3 +284,58 @@
 [2026-09-22T14:35:53.499460] wiki-log | update-index | ok | 384 topics, 241 raw
 [2026-09-22T14:36:28.909050] sync-links | 384 pages | ok | 
 [2026-09-22T14:36:28.910509] wiki-log | sync-links | ok | 384 pages
+[2026-09-22T14:49:46.376965] ingest | qodo-software-map-risk-across-repos-2026.md | ok | wiki/qodo-software-map-risk-across-repos-2026.md
+[2026-09-22T14:49:46.378168] wiki-log | ingest | ok | raw/qodo-software-map-risk-across-repos-2026.md → wiki/qodo-software-map-risk-ac
+[2026-09-22T14:49:46.564712] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-software-map-risk-across-repos-2026.md
+[2026-09-22T14:49:54.166877] update-index | 386 topics | ok | 
+[2026-09-22T14:49:54.167268] wiki-log | update-index | ok | 386 topics, 242 raw
+[2026-09-22T14:50:06.163148] sync-links | 386 pages | ok | 
+[2026-09-22T14:50:06.163619] wiki-log | sync-links | ok | 386 pages
+[2026-09-22T14:51:49.004326] update-index | 386 topics | ok | 
+[2026-09-22T14:51:49.004920] wiki-log | update-index | ok | 386 topics, 242 raw
+[2026-09-22T20:57:32.952597] update-index | 390 topics | ok | 
+[2026-09-22T20:57:32.953691] wiki-log | update-index | ok | 390 topics, 242 raw
+[2026-09-22T23:48:01.310159] update-index | 390 topics | ok | 
+[2026-09-22T23:48:01.311582] wiki-log | update-index | ok | 390 topics, 242 raw
+[2026-09-23T00:05:28.892440] update-index | 391 topics | ok | 
+[2026-09-23T00:05:28.893779] wiki-log | update-index | ok | 391 topics, 242 raw
+[2026-09-23T17:20:15.454210] ingest | klain-one-loop-after-another-2026.md | ok | wiki/klain-one-loop-after-another-2026.md
+[2026-09-23T17:20:15.455115] wiki-log | ingest | ok | raw/klain-one-loop-after-another-2026.md → wiki/klain-one-loop-after-another-202
+[2026-09-23T17:20:15.641470] wiki-log | backlinks | ok | 5 related pages for wiki/klain-one-loop-after-another-2026.md
+[2026-09-23T17:20:18.973809] ingest | klain-turns-out-testing-is-hard-2026.md | ok | wiki/klain-turns-out-testing-is-hard-2026.md
+[2026-09-23T17:20:18.974302] wiki-log | ingest | ok | raw/klain-turns-out-testing-is-hard-2026.md → wiki/klain-turns-out-testing-is-ha
+[2026-09-23T17:20:19.160120] wiki-log | backlinks | ok | 5 related pages for wiki/klain-turns-out-testing-is-hard-2026.md
+[2026-09-23T17:20:23.367724] ingest | mot-agentic-test-execution-2026.md | ok | wiki/mot-agentic-test-execution-2026.md
+[2026-09-23T17:20:23.368198] wiki-log | ingest | ok | raw/mot-agentic-test-execution-2026.md → wiki/mot-agentic-test-execution-2026.md
+[2026-09-23T17:20:23.653320] wiki-log | backlinks | ok | 5 related pages for wiki/mot-agentic-test-execution-2026.md
+[2026-09-23T17:20:27.327675] ingest | infoq-dpact-framework-ai-agents-2026.md | ok | wiki/infoq-dpact-framework-ai-agents-2026.md
+[2026-09-23T17:20:27.328158] wiki-log | ingest | ok | raw/infoq-dpact-framework-ai-agents-2026.md → wiki/infoq-dpact-framework-ai-agen
+[2026-09-23T17:20:27.574645] wiki-log | backlinks | ok | 5 related pages for wiki/infoq-dpact-framework-ai-agents-2026.md
+[2026-09-23T17:20:40.726511] ingest | verge-un-ai-safeguards-cant-wait-2026.md | ok | wiki/verge-un-ai-safeguards-cant-wait-2026.md
+[2026-09-23T17:20:40.727894] wiki-log | ingest | ok | raw/verge-un-ai-safeguards-cant-wait-2026.md → wiki/verge-un-ai-safeguards-cant-
+[2026-09-23T17:20:40.990703] wiki-log | backlinks | ok | 5 related pages for wiki/verge-un-ai-safeguards-cant-wait-2026.md
+[2026-09-23T17:20:54.681833] ingest | infoq-adk-kotlin-1-0-2026.md | ok | wiki/infoq-adk-kotlin-1-0-2026.md
+[2026-09-23T17:20:54.683157] wiki-log | ingest | ok | raw/infoq-adk-kotlin-1-0-2026.md → wiki/infoq-adk-kotlin-1-0-2026.md
+[2026-09-23T17:20:54.879933] wiki-log | backlinks | ok | 5 related pages for wiki/infoq-adk-kotlin-1-0-2026.md
+[2026-09-23T17:22:20.156780] update-index | 397 topics | ok | 
+[2026-09-23T17:22:20.157631] wiki-log | update-index | ok | 397 topics, 248 raw
+[2026-09-23T17:25:33.103852] ingest | arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md | ok | wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md
+[2026-09-23T17:25:33.108373] wiki-log | ingest | ok | raw/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md → wiki/arxiv-rebui
+[2026-09-23T17:25:33.934335] wiki-log | backlinks | ok | 5 related pages for wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.
+[2026-09-23T17:25:38.245089] ingest | arxiv-law-of-stop-interruptibility-2026.md | ok | wiki/arxiv-law-of-stop-interruptibility-2026.md
+[2026-09-23T17:25:38.245621] wiki-log | ingest | ok | raw/arxiv-law-of-stop-interruptibility-2026.md → wiki/arxiv-law-of-stop-interrup
+[2026-09-23T17:25:38.540245] wiki-log | backlinks | ok | 5 related pages for wiki/arxiv-law-of-stop-interruptibility-2026.md
+[2026-09-23T17:25:42.286770] ingest | arxiv-connect-the-dots-long-lifecycle-agents-2026.md | ok | wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md
+[2026-09-23T17:25:42.287856] wiki-log | ingest | ok | raw/arxiv-connect-the-dots-long-lifecycle-agents-2026.md → wiki/arxiv-connect-th
+[2026-09-23T17:25:42.640681] wiki-log | backlinks | ok | 5 related pages for wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md
+[2026-09-23T17:25:46.415703] ingest | infoq-google-ax-orchestrator-2026.md | ok | wiki/infoq-google-ax-orchestrator-2026.md
+[2026-09-23T17:25:46.416242] wiki-log | ingest | ok | raw/infoq-google-ax-orchestrator-2026.md → wiki/infoq-google-ax-orchestrator-202
+[2026-09-23T17:25:46.640325] wiki-log | backlinks | ok | 5 related pages for wiki/infoq-google-ax-orchestrator-2026.md
+[2026-09-23T17:26:00.052390] ingest | verge-rabbit-os3-agent-2026.md | ok | wiki/verge-rabbit-os3-agent-2026.md
+[2026-09-23T17:26:00.053451] wiki-log | ingest | ok | raw/verge-rabbit-os3-agent-2026.md → wiki/verge-rabbit-os3-agent-2026.md
+[2026-09-23T17:26:00.316020] wiki-log | backlinks | ok | 5 related pages for wiki/verge-rabbit-os3-agent-2026.md
+[2026-09-23T17:26:14.203474] ingest | mot-ai-generated-tests-mocks-2026.md | ok | wiki/mot-ai-generated-tests-mocks-2026.md
+[2026-09-23T17:26:14.204013] wiki-log | ingest | ok | raw/mot-ai-generated-tests-mocks-2026.md → wiki/mot-ai-generated-tests-mocks-202
+[2026-09-23T17:26:14.423421] wiki-log | backlinks | ok | 5 related pages for wiki/mot-ai-generated-tests-mocks-2026.md
+[2026-09-23T17:26:19.529396] update-index | 403 topics | ok | 
+[2026-09-23T17:26:19.529872] wiki-log | update-index | ok | 403 topics, 254 raw

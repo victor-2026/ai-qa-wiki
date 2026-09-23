@@ -109,7 +109,11 @@ This validates two-debts thesis: specs alone insufficient, even when precise.
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Klain Turns Out Testing Is Hard 2026](wiki/klain-turns-out-testing-is-hard-2026.md)
 - [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
 <!-- backlinks-end -->

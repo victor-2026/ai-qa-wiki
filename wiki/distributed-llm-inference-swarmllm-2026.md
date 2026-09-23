@@ -197,3 +197,9 @@ A peer-to-peer inference engine that runs a large language model (e.g., Qwen 3.8
 > **Action:** Wait to see if he responds. If public post → potential comment (Prong C). If private → peer exchange invitation.
 > 
 > **See also:** [[Test-Reliability]], [[llm-testing]]
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Verge Rabbit Os3 Agent 2026](wiki/verge-rabbit-os3-agent-2026.md)
+<!-- backlinks-end -->

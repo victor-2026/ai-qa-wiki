@@ -92,3 +92,13 @@
 - Deep dive: [How to Test Multi-Turn Conversations raw](https://getautonoma.com/blog/how-to-test-multi-turn-conversations), [How to Test AI Agent Memory](https://getautonoma.com/blog/how-to-test-ai-agent-memory)
 
 *Ingested: 2026-08-31*
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
+- [Mot Ai Generated Tests Mocks 2026](wiki/mot-ai-generated-tests-mocks-2026.md)
+<!-- backlinks-end -->

@@ -1,0 +1,64 @@
+---
+source: "klain-turns-out-testing-is-hard-2026.md"
+ingested: "2026-09-23"
+---
+
+## Keith Klain — *Turns Out Testing Is Hard* (2026‑09‑21)
+
+**Author:** Keith Klain (Quality Remarks)  
+**Source:** <https://qualityremarks.com/turns-out-testing-is-hard/>  
+**Related study:** “A Large‑Scale Empirical Study of Quality Assurance Practices and Gaps in AI Agents” (arXiv:2609.17698) – analysis of 157 open‑source LLM‑based agent projects.
+
+### Summary  
+Klain’s companion post to *One Loop After Another* reveals that, despite a proliferation of test artifacts, systematic testing of autonomous agents remains scarce. The underlying research examined code, configuration, documentation, CI pipelines and deployment artefacts of 157 agent repositories. While most projects included basic functional tests (87 % = 137/157) and many added security‑oriented checks (60 % = 95/157), only a handful actually exercised the full *model‑to‑action* workflow that defines an agent’s behaviour in the wild. Merely inspecting output strings is insufficient; the critical moment is when the model’s predictions are turned into tool calls, API requests, state updates, or privilege changes. Klain names this missing layer **system testing** and warns that developers often overlook it because they are unaware of the need, lack concrete methods, or feel pressured by rapid “agentification” of software.
+
+A notable side‑note is the coining of **novelty laundering** – the practice of repackaging well‑known ideas under buzzwords and presenting them as new contributions. Klain argues that many “new” agent‑testing techniques are simply re‑branded versions of classic system‑level testing.
+
+### Key Concepts  
+
+| Concept | Meaning & Relevance |
+|---------|---------------------|
+| **Novelty laundering** | Re‑branding established ideas without acknowledging prior work; hampers cumulative knowledge. |
+| **System testing (for agents)** | End‑to‑end validation of the *model → tool → API → state* pipeline, covering every “chain” through which an agent’s decision propagates. |
+| **Execution surfaces** | Points where the model’s output is executed (e.g., shell commands, code generation). |
+| **Safeguards** | Runtime checks that enforce policy, rate limits, or permission constraints. |
+| **Model‑to‑process chains** | Sequences linking model inference to external processes (e.g., database writes). |
+| **Extension‑to‑authority chains** | Paths where plug‑in extensions acquire elevated privileges. |
+| **Workspace‑to‑persistent‑state chains** | Transitions from transient memory to durable storage. |
+| **Session‑to‑action chains** | Mapping of a conversational turn into concrete actions. |
+| **Mode‑switch‑to‑privilege chains** | Situations where a change in operating mode (e.g., “debug”) escalates capabilities. |
+
+### Practical Applications  
+
+1. **Designing Test Suites**  
+   - Build *end‑to‑end* test scenarios that trigger each chain type.  
+   - Use mock services to simulate external APIs, then assert correct state transitions and privilege handling.  
+
+2. **CI Integration**  
+   - Extend existing CI pipelines to run system‑level tests on every push, not only unit or functional checks.  
+   - Flag missing coverage of any chain as a failure, encouraging developers to fill gaps early.  
+
+3. **Security & Safety Audits**  
+   - Include explicit prompt‑injection, jailbreak, and adversarial tests (currently present in only 5 % of projects).  
+   - Automate red‑team style fuzzing of tool‑call generation to surface privilege‑escalation paths.  
+
+4. **Documentation & Knowledge Transfer**  
+   - Record the intended flow of each agent (model → tool → state) in a “chain map” alongside the code.  
+   - Reference prior work on system testing to avoid novelty laundering and accelerate adoption of proven practices.  
+
+5. **Governance Alignment**  
+   - Communicate the cost of omitted system testing to stakeholders; frame it as a risk‑mitigation investment rather than a slowdown.  
+
+By treating the agent’s full execution pipeline as a first‑class testing target, teams can close the most critical quality gaps highlighted by Klain’s study.
+
+---
+
+### See also
+- [`wiki/beyondquality-ai-era-testing-2026.md`](wiki/beyondquality-ai-era-testing-2026.md) – BeyondQuality: QA in the Age of AI‑Accelerated Development  
+- [`wiki/prompt-tips-and-skills.md`](wiki/prompt-tips-and-skills.md) – Prompt Tips & Agent Skills Architecture  
+- [`wiki/testing-ai-book-evidence-foundations.md`](wiki/testing-ai-book-evidence-foundations.md) – Testing AI: Evidence Foundations  
+- [`wiki/testing-ai-book-playbook-future.md`](wiki/testing-ai-book-playbook-future.md) – Testing AI: Governance, Playbook and Future  
+- [`wiki/slopcodebench-2026.md`](wiki/slopcodebench-2026.md) – SlopCodeBench: Measuring Code Erosion in Iteratively Extended Agents  
+
+---
+*Source: [raw/klain-turns-out-testing-is-hard-2026.md](../raw/klain-turns-out-testing-is-hard-2026.md) · Generated by wiki_llm.py (Groq)*

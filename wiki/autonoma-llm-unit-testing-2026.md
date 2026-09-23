@@ -94,3 +94,9 @@ Decision tree from raw: exact schema/substring → deterministic → correct ans
 
 ---
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Mot Ai Generated Tests Mocks 2026](wiki/mot-ai-generated-tests-mocks-2026.md)
+<!-- backlinks-end -->

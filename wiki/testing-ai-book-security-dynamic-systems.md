@@ -186,3 +186,9 @@ Chapters 12-18 expand the test surface beyond the model output:
 - [Official Knowledge Edition index](https://www.testingaibook.com/knowledge/index.html)
 - [Full author draft preview](https://icebergqa.com/book/draft.html)
 - [Testing AI book index in this wiki](testing-ai-book-index.md)
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Verge Rabbit Os3 Agent 2026](wiki/verge-rabbit-os3-agent-2026.md)
+<!-- backlinks-end -->

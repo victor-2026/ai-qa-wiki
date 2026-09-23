@@ -99,12 +99,16 @@ All of this can be triggered with a single command (`/carbon`) that may run for 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [2026: Обзор и апробация ИИ-агентов для тестирования](wiki/ai-testing-agents-review-2026.md)
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Anton Gulin: 3-Layer AI Test Automation Architecture](wiki/anton-gulin-3-layer-ai-qa-architecture.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
+- [Mot Agentic Test Execution 2026](wiki/mot-agentic-test-execution-2026.md)
 - [Offline Evaluation of AI Test Agents with Trajectories](wiki/offline-evaluation-trajectories-2026.md)
 - [Testing Ai Agent Tool Calls Autonoma](wiki/testing-ai-agent-tool-calls-autonoma.md)
 <!-- backlinks-end -->

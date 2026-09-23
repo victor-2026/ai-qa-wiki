@@ -86,10 +86,17 @@ Both tools require an **independent behavioral verification layer** (e.g., E2E t
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [30 AI-Focused Interview Questions for Manual QA](wiki/30-ai-questions-manual-qa-2026.md)
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)
+- [Infoq Google Ax Orchestrator 2026](wiki/infoq-google-ax-orchestrator-2026.md)
 - [OpenRouter Fusion – Multi‑Model Deliberation](wiki/openrouter-fusion-multi-model-deliberation-2026.md)
 - [Testing Ai Generated Auth Code Autonoma](wiki/testing-ai-generated-auth-code-autonoma.md)
 - [Transition from Vibe to Wipe Coding: Benefits, Challenges and Risks](wiki/wipe-coding-transition-en.md)

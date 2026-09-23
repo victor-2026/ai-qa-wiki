@@ -95,3 +95,9 @@ This counters "we don't write ASM anymore, specs only" — ASM abstraction hides
 ---
 
 *Ingested: 2026-09-03 · Via scbench.ai (overview, top10, featured) + paper arXiv 2603.24755 + Vitaly LinkedIn post 11m (11m ago)*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Klain Turns Out Testing Is Hard 2026](wiki/klain-turns-out-testing-is-hard-2026.md)
+<!-- backlinks-end -->

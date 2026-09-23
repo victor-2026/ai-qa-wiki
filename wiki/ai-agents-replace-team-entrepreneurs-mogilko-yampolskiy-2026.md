@@ -109,3 +109,12 @@ For QA engineers, the "network" is **institutional knowledge that compounds over
 - Related wiki: [andrew-ng-loop-engineering-2026.md](andrew-ng-loop-engineering-2026.md) (3 nested loops, developer-as-QA)
 - Related wiki: [krivitsky-agentic-factory-nested-loops-2026.md](krivitsky-agentic-factory-nested-loops-2026.md) (coding/feature/impact loops)
 - QA evidence layer: [ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md](ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+
+
+
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
+<!-- backlinks-end -->

@@ -90,3 +90,9 @@ Linear pipeline: planner → research → drafting.
 - Evidence: [AI QA Evidence Layer](ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md) — contract/routing/sequence = model eval; product effect = downstream validation; `ai-qa-tool-evaluation-mutation-matrix.md` as method for testing the testing tool itself
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Securing AI Agents – The DPACT Framework](wiki/infoq-dpact-framework-ai-agents-2026.md)
+<!-- backlinks-end -->

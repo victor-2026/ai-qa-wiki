@@ -133,7 +133,11 @@ Stage 2 scales horizontally, not vertically: same ~20 protocol per app across th
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
 - [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
 <!-- backlinks-end -->

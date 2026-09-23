@@ -511,6 +511,24 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.html",
+      "title": "Connect the Dots (CoD): Training LLMs for Long‑Lifecycle Agents",
+      "desc": "source: \"arxiv-connect-the-dots-long-lifecycle-agents-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/arxiv-law-of-stop-interruptibility-2026.html",
+      "title": "Arxiv Law Of Stop Interruptibility 2026",
+      "desc": "source: \"arxiv-law-of-stop-interruptibility-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.html",
+      "title": "Arxiv Rebuild Dossier Mechanically Enforced Specs 2026",
+      "desc": "source: \"arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/autonoma-agent-memory-2026.html",
       "title": "How to Test AI Agent Memory (Short- and Long-Term)",
       "desc": "**Source:** https://getautonoma.com/blog/how-to-test-ai-agent-memory",
@@ -1063,6 +1081,24 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/infoq-adk-kotlin-1-0-2026.html",
+      "title": "Infoq Adk Kotlin 1 0 2026",
+      "desc": "source: \"infoq-adk-kotlin-1-0-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/infoq-dpact-framework-ai-agents-2026.html",
+      "title": "Securing AI Agents – The DPACT Framework",
+      "desc": "source: \"infoq-dpact-framework-ai-agents-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/infoq-google-ax-orchestrator-2026.html",
+      "title": "Infoq Google Ax Orchestrator 2026",
+      "desc": "source: \"infoq-google-ax-orchestrator-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/integration-testing-systems-stitching-2026.html",
       "title": "Integration Testing — Systems Stitching Guide",
       "desc": "> TestMu AI (Sep 2026). URL: https://testmu.ai/testing/integration-testing/",
@@ -1267,9 +1303,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/klain-one-loop-after-another-2026.html",
+      "title": "Klain One Loop After Another 2026",
+      "desc": "source: \"klain-one-loop-after-another-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/klain-testing-mindset-evaluator-independence-2026-08.html",
       "title": "Testing Mindset Vindicated: Klain on Evaluator Independence (2026-08)",
       "desc": "**Source:** Keith Klain (Technology Leader, AI Assurance) LinkedIn post + https://qualityremarks.com/apparently-we-need-",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/klain-turns-out-testing-is-hard-2026.html",
+      "title": "Klain Turns Out Testing Is Hard 2026",
+      "desc": "source: \"klain-turns-out-testing-is-hard-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -1444,6 +1492,18 @@
       "file": "wiki/monitoring-vibe-coded-apps.html",
       "title": "Monitoring for Vibe-Coded Apps",
       "desc": "source: \"monitoring-vibe-coded-apps.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/mot-agentic-test-execution-2026.html",
+      "title": "Mot Agentic Test Execution 2026",
+      "desc": "source: \"mot-agentic-test-execution-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/mot-ai-generated-tests-mocks-2026.html",
+      "title": "Mot Ai Generated Tests Mocks 2026",
+      "desc": "source: \"mot-ai-generated-tests-mocks-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2227,6 +2287,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/verge-rabbit-os3-agent-2026.html",
+      "title": "Verge Rabbit Os3 Agent 2026",
+      "desc": "source: \"verge-rabbit-os3-agent-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/verge-un-ai-safeguards-cant-wait-2026.html",
+      "title": "Verge Un Ai Safeguards Cant Wait 2026",
+      "desc": "source: \"verge-un-ai-safeguards-cant-wait-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/verification-completeness-testing-paradox-2026.html",
       "title": "Verification Completeness — The Testing Paradox",
       "desc": "> Thread: William Tran → Iosif Itkin, LinkedIn (Sep 2026). Core theme: you can't fully verify anything.",
@@ -2347,6 +2419,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 242,
+  "raw_count": 254,
   "updated": "2026-09-23"
 }

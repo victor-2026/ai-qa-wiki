@@ -71,6 +71,9 @@ Agent identity example: $2.9B acquiring agent-identity startups in 2026 - must b
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
@@ -82,4 +85,5 @@ Agent identity example: $2.9B acquiring agent-identity startups in 2026 - must b
 - [Jeff Nyman Testing Knowledge Not Just Testing Skill 2026](wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md)
 - [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)
 - [Milko Slavov Two Doors Mcp 2026](wiki/milko-slavov-two-doors-mcp-2026.md)
+- [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)
 <!-- backlinks-end -->

@@ -70,6 +70,9 @@ By making the expected behavior explicit and testing it at the system level, tea
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI-Augmented QA: Process Improvements from Bug Reports](wiki/improvements-from-bugs.md)
@@ -77,4 +80,5 @@ By making the expected behavior explicit and testing it at the system level, tea
 - [Copilot Generated Tests Quality Pitfalls Autonoma](wiki/copilot-generated-tests-quality-pitfalls-autonoma.md)
 - [Cursor Vs Antigravity Autonoma](wiki/cursor-vs-antigravity-autonoma.md)
 - [MAS-Testing Framework (Conceptual)](wiki/mas-testing-framework.md)
+- [Mot Ai Generated Tests Mocks 2026](wiki/mot-ai-generated-tests-mocks-2026.md)
 <!-- backlinks-end -->

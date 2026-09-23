@@ -1,10 +1,10 @@
-# Wiki Lint Report — 2026-09-22
+# Wiki Lint Report — 2026-09-23
 
-- Timestamp: 2026-09-22T23:48:04.565261
-- Wiki pages: 388
-- Internal links OK: 845
+- Timestamp: 2026-09-23T17:31:49.185007
+- Wiki pages: 401
+- Internal links OK: 947
 - Broken links: 0
-- Orphans: 248
+- Orphans: 240
 - Stubs (<200 chars): 0
 - Raw without wiki: 70
 - Duplicate-ish stems: 0
@@ -38,7 +38,6 @@
 - agent-teams-architecture.md
 - agentic-engineering-hacks.md
 - agents-discussion-300526.md
-- ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.md
 - ai-chaos-testing.md
 - ai-fluency-interview-reform-2026.md
 - ai-qa-exoskeleton-habr.md
@@ -59,20 +58,17 @@
 - anton-gulin-regression-suite-museum-2026.md
 - applitools-probabilistic-validation-gap-2026.md
 - aria-qa-data-automation-agent-2026.md
+- arxiv-law-of-stop-interruptibility-2026.md
 - autonoma-agent-memory-2026.md
 - autonoma-agent-regression-2026.md
 - autonoma-agent-reliability-2026.md
 - autonoma-agent-simulation-2026.md
 - autonoma-blog-catalog-all-publications-2026.md
-- autonoma-crewai-evaluation-2026.md
 - autonoma-hallucinations-2026.md
 - autonoma-how-to-test-ai-agent-e2e-2026.md
 - autonoma-langgraph-testing-2026.md
 - autonoma-llm-evals-cicd-2026.md
-- autonoma-llm-unit-testing-2026.md
 - autonoma-mcp-server-2026.md
-- autonoma-multi-agent-handoffs-2026.md
-- autonoma-multi-turn-conversations-2026.md
 - autonoma-non-deterministic-outputs-2026.md
 - autonoma-orangehrm-setup-notes.md
 - autonoma-qa-ai-feature-2026.md
@@ -103,7 +99,6 @@
 - detox-basics-2026.md
 - devqaexpert-blog-catalog-all-publications-2026.md
 - devtool-gtm-engineered-word-of-mouth-2026.md
-- distributed-llm-inference-swarmllm-2026.md
 - ds-ml-quality-testing-2026.md
 - efficient-performance-testing-grid-cloud-2026.md
 - engineering-standards-ai-development-compound-2026.md
@@ -132,7 +127,6 @@
 - juliapottinger-blog-catalog-all-publications-2026.md
 - kiro-bug-fix-paradox-2026.md
 - kiro-continuous-prompt-evaluation-llm-judges-2026.md
-- kiro-crew-multi-agent-orchestration-open-source-2026.md
 - kiro-crew-pilot-plan.md
 - kiro-diagnostics-over-time-agent-quality-2026.md
 - kiro-openapi-to-testsuite-2026.md
@@ -171,7 +165,6 @@
 - opencode-telegram-bot.md
 - opencode-vs-claude-comparative-test.md
 - orangehrm-54-to-581-upgrade.md
-- orangepro-risk-based-coverage-2026.md
 - pact-contract-testing-guide-2026.md
 - passmark-ai-regression.md
 - pbt-llm-code-generation.md
@@ -214,7 +207,6 @@
 - self-review-loop.md
 - sergey-yudin-neurolegal-verified-citations-2026.md
 - shcherbinin-tg-understand-code-debate-2026.md
-- slopcodebench-2026.md
 - software-testing-weekly-newsletter-2026.md
 - software-testing-with-generative-ai.md
 - spaceducking-test-feels-like-autopilot-2026.md
@@ -234,10 +226,10 @@
 - testkube-four-layers-ai-testing-2026-08.md
 - testkube-local-vs-frontier-models-2026-07.md
 - testkube-smart-suites-test-selection-2026-04.md
-- testmu-ai-formerly-lambdatest-2026.md
 - testmuai-blog-catalog-all-publications-2026.md
 - testrigor-blog-catalog-all-publications-2026.md
 - the-batch-371-deeplearning-ai-2026.md
+- tiago-gomes-qa-evolutionary-architecture-2026.md
 - toe2eornottoe2e-ontestautomation.md
 - tony-seale-multi-agent-semantic-web-2026.md
 - trickcatcher-bug-detection.md
@@ -336,5 +328,6 @@
 | Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |
 |-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|
 | 2026-09-22 | 388 | 845 | 0 | 248 | 0 | 70 | 0 | — | — |
+| 2026-09-23 | 401 | 947 | 0 | 240 | 0 | 70 | 0 | -8 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.
