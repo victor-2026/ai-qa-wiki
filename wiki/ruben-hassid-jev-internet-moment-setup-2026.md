@@ -110,4 +110,5 @@ A composite prompt chain (Claude Code + GitHub + Vercel + Apify 
 - [Master AI Before It Masters You — 27 Claude Tips](wiki/ruben-hassid-master-ai-claude-tips.md)
 - [Opencode Jev 113 Free System One Model 2026](wiki/opencode-jev-113-free-system-one-model-2026.md)
 - [Typesafe Jev Judgment Service Gates 2026](wiki/typesafe-jev-judgment-service-gates-2026.md)
+- [Jev Open Source Alternatives 2026](wiki/jev-open-source-alternatives-2026.md)
 <!-- backlinks-end -->
