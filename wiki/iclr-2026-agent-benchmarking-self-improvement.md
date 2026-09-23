@@ -130,14 +130,45 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
+- [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
+- [Amazon Science Building Trust Into Ai 2026](wiki/amazon-science-building-trust-into-ai-2026.md)
+- [Amazon Science Patient Agent Bench 2026](wiki/amazon-science-patient-agent-bench-2026.md)
+- [Amazon Science Real World Grounding Agentic Ai 2026](wiki/amazon-science-real-world-grounding-agentic-ai-2026.md)
+- [Amazon Science When Llm Judges Agree 2026](wiki/amazon-science-when-llm-judges-agree-2026.md)
+- [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
 - [Connect the Dots (CoD): Training LLMs for Long‑Lifecycle Agents](wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md)
 - [MAS-Testing Framework (Conceptual)](wiki/mas-testing-framework.md)
 - [Monitoring & Observability for AI Systems](wiki/monitoring-observability.md)
+- [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
 - [Toloka Llm Qa Agent Verification 2026](wiki/toloka-llm-qa-agent-verification-2026.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

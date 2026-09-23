@@ -91,3 +91,9 @@
 - Deep dive: [Agent Regression Testing raw](https://getautonoma.com/blog/agent-regression-testing), [LLM Evals in CI/CD](https://getautonoma.com/blog/llm-evals-ci-cd), [Reliability Testing](https://getautonoma.com/blog/ai-agent-reliability-testing)
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
+<!-- backlinks-end -->

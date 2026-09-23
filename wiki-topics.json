@@ -415,6 +415,60 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/amazon-science-automated-reasoning-decade-2026.html",
+      "title": "Amazon Science Automated Reasoning Decade 2026",
+      "desc": "source: \"amazon-science-automated-reasoning-decade-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-blog-catalog-2026.html",
+      "title": "Amazon Science Blog: Catalog for AI-QA (2026)",
+      "desc": "**Source:** https://www.amazon.science/blog/ + RSS `https://www.amazon.science/index.rss` (HTTP 200 with plain curl, no ",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.html",
+      "title": "Amazon Science Bridging Intent Execution Agentic Systems 2026",
+      "desc": "source: \"amazon-science-bridging-intent-execution-agentic-systems-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-building-trust-into-ai-2026.html",
+      "title": "Amazon Science Building Trust Into Ai 2026",
+      "desc": "source: \"amazon-science-building-trust-into-ai-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-ground-truth-is-a-process-2026.html",
+      "title": "Amazon Science: Ground Truth Is a Process, Not a Dataset",
+      "desc": "source: \"amazon-science-ground-truth-is-a-process-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-patient-agent-bench-2026.html",
+      "title": "Amazon Science Patient Agent Bench 2026",
+      "desc": "source: \"amazon-science-patient-agent-bench-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-real-world-grounding-agentic-ai-2026.html",
+      "title": "Amazon Science Real World Grounding Agentic Ai 2026",
+      "desc": "source: \"amazon-science-real-world-grounding-agentic-ai-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-sop-bench-agents-business-procedures-2026.html",
+      "title": "SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures",
+      "desc": "source: \"amazon-science-sop-bench-agents-business-procedures-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-when-llm-judges-agree-2026.html",
+      "title": "Amazon Science When Llm Judges Agree 2026",
+      "desc": "source: \"amazon-science-when-llm-judges-agree-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/andrew-ng-coding-agents-skills-map-2026.html",
       "title": "Andrew Ng: AI Engineering Skills Map — Using Coding Agents",
       "desc": "**Source:** https://www.linkedin.com/pulse/ai-engineering-skills-map-using-coding-agents-andrew-ng-h8yxc/ (Andrew Ng, De",
@@ -820,6 +874,12 @@
       "file": "wiki/carbon-ai-agentic-verification-harness.html",
       "title": "Carbon Ai Agentic Verification Harness",
       "desc": "source: \"CARBON, AI Agentic Verification Harnes.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/cige-an-agentic-ai-test-case-standard-2026.html",
+      "title": "Cige An Agentic Ai Test Case Standard 2026",
+      "desc": "source: \"cige-an-agentic-ai-test-case-standard-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2575,6 +2635,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 276,
-  "updated": "2026-09-23"
+  "raw_count": 286,
+  "updated": "2026-09-24"
 }

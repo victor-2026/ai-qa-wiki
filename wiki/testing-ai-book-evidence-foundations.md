@@ -335,11 +335,37 @@ The practical output is a small evidence system, not a larger pile of tests.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
+- [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
+- [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
+- [Amazon Science Building Trust Into Ai 2026](wiki/amazon-science-building-trust-into-ai-2026.md)
+- [Amazon Science When Llm Judges Agree 2026](wiki/amazon-science-when-llm-judges-agree-2026.md)
+- [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
 - [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
 - [Bach Slop Coding Responsible Testers 2025](wiki/bach-slop-coding-responsible-testers-2025.md)
@@ -359,5 +385,6 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
+- [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

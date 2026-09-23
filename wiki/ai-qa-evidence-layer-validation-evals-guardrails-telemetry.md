@@ -377,10 +377,35 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
+- [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
+- [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
+- [Amazon Science Building Trust Into Ai 2026](wiki/amazon-science-building-trust-into-ai-2026.md)
+- [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
 - [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
 - [Bach Everyone Not Responsible Quality 2026](wiki/bach-everyone-not-responsible-quality-2026.md)
@@ -411,6 +436,7 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Qodo When Claude Code Reviews Its Own Pr Who Reviews Claude](wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
 - [Responsibility Is the Human Moat – Principles of Responsible Work v2.0](wiki/bach-responsibility-human-moat-prw-v2-2026.md)
+- [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
 - [Satisfice Blog Catalog 2026](wiki/satisfice-blog-catalog-2026.md)
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)

@@ -94,3 +94,9 @@ Support agent with `lookup` + `refund` tools:
 - Deeper: [Agent Simulation Testing](https://getautonoma.com/blog/agent-simulation-testing), [Agent Regression Testing](https://getautonoma.com/blog/agent-regression-testing), [Reliability Testing](https://getautonoma.com/blog/ai-agent-reliability-testing)
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Amazon Science When Llm Judges Agree 2026](wiki/amazon-science-when-llm-judges-agree-2026.md)
+<!-- backlinks-end -->

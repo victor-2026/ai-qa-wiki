@@ -288,8 +288,12 @@ Frontier team lets CLI triage prod tickets: 2:33 AM alarm → 2:46 AM (13m35s) d
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
 - [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
 - [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)

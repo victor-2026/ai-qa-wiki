@@ -112,3 +112,26 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-23 23:11 — ingest — raw/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md → wiki/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md
 - 2026-09-23 23:11 — backlinks — 5 related pages for wiki/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md
 - 2026-09-23 23:11 — update-index — 429 topics, 276 raw
+- 2026-09-23 23:55 — ingest — raw/cige-an-agentic-ai-test-case-standard-2026.md → wiki/cige-an-agentic-ai-test-case-standard-2026.md
+- 2026-09-23 23:55 — backlinks — 5 related pages for wiki/cige-an-agentic-ai-test-case-standard-2026.md
+- 2026-09-23 23:55 — update-index — 430 topics, 278 raw
+- 2026-09-24 00:09 — ingest — raw/amazon-science-when-llm-judges-agree-2026.md → wiki/amazon-science-when-llm-judges-agree-2026.md
+- 2026-09-24 00:09 — backlinks — 5 related pages for wiki/amazon-science-when-llm-judges-agree-2026.md
+- 2026-09-24 00:09 — update-index — 431 topics, 279 raw
+- 2026-09-24 00:10 — ingest — raw/amazon-science-building-trust-into-ai-2026.md → wiki/amazon-science-building-trust-into-ai-2026.md
+- 2026-09-24 00:10 — backlinks — 5 related pages for wiki/amazon-science-building-trust-into-ai-2026.md
+- 2026-09-24 00:10 — update-index — 432 topics, 280 raw
+- 2026-09-24 00:12 — ingest — raw/amazon-science-ground-truth-is-a-process-2026.md → wiki/amazon-science-ground-truth-is-a-process-2026.md
+- 2026-09-24 00:12 — backlinks — 5 related pages for wiki/amazon-science-ground-truth-is-a-process-2026.md
+- 2026-09-24 00:12 — ingest — raw/amazon-science-sop-bench-agents-business-procedures-2026.md → wiki/amazon-science-sop-bench-agents-business-procedures-2026.md
+- 2026-09-24 00:12 — backlinks — 5 related pages for wiki/amazon-science-sop-bench-agents-business-procedures-2026.md
+- 2026-09-24 00:12 — ingest — raw/amazon-science-automated-reasoning-decade-2026.md → wiki/amazon-science-automated-reasoning-decade-2026.md
+- 2026-09-24 00:12 — backlinks — 5 related pages for wiki/amazon-science-automated-reasoning-decade-2026.md
+- 2026-09-24 00:13 — ingest — raw/amazon-science-patient-agent-bench-2026.md → wiki/amazon-science-patient-agent-bench-2026.md
+- 2026-09-24 00:13 — backlinks — 5 related pages for wiki/amazon-science-patient-agent-bench-2026.md
+- 2026-09-24 00:13 — ingest — raw/amazon-science-real-world-grounding-agentic-ai-2026.md → wiki/amazon-science-real-world-grounding-agentic-ai-2026.md
+- 2026-09-24 00:13 — backlinks — 5 related pages for wiki/amazon-science-real-world-grounding-agentic-ai-2026.md
+- 2026-09-24 00:14 — ingest — raw/amazon-science-bridging-intent-execution-agentic-systems-2026.md → wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md
+- 2026-09-24 00:14 — backlinks — 5 related pages for wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md
+- 2026-09-24 00:14 — update-index — 438 topics, 286 raw
+- 2026-09-24 00:14 — update-index — 439 topics, 286 raw

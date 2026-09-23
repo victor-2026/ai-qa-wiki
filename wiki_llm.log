@@ -423,3 +423,40 @@
 [2026-09-23T23:11:03.191852] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-when-your-system-is-an-agent-you-need-a-different-
 [2026-09-23T23:11:10.332577] update-index | 429 topics | ok | 
 [2026-09-23T23:11:10.333065] wiki-log | update-index | ok | 429 topics, 276 raw
+[2026-09-23T23:55:52.102190] ingest | cige-an-agentic-ai-test-case-standard-2026.md | ok | wiki/cige-an-agentic-ai-test-case-standard-2026.md
+[2026-09-23T23:55:52.103447] wiki-log | ingest | ok | raw/cige-an-agentic-ai-test-case-standard-2026.md → wiki/cige-an-agentic-ai-test
+[2026-09-23T23:55:52.297711] wiki-log | backlinks | ok | 5 related pages for wiki/cige-an-agentic-ai-test-case-standard-2026.md
+[2026-09-23T23:55:52.501546] update-index | 430 topics | ok | 
+[2026-09-23T23:55:52.502254] wiki-log | update-index | ok | 430 topics, 278 raw
+[2026-09-24T00:09:30.879916] ingest | amazon-science-when-llm-judges-agree-2026.md | ok | wiki/amazon-science-when-llm-judges-agree-2026.md
+[2026-09-24T00:09:30.880514] wiki-log | ingest | ok | raw/amazon-science-when-llm-judges-agree-2026.md → wiki/amazon-science-when-llm-
+[2026-09-24T00:09:31.211164] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-when-llm-judges-agree-2026.md
+[2026-09-24T00:09:31.484547] update-index | 431 topics | ok | 
+[2026-09-24T00:09:31.485463] wiki-log | update-index | ok | 431 topics, 279 raw
+[2026-09-24T00:10:22.493703] ingest | amazon-science-building-trust-into-ai-2026.md | ok | wiki/amazon-science-building-trust-into-ai-2026.md
+[2026-09-24T00:10:22.495219] wiki-log | ingest | ok | raw/amazon-science-building-trust-into-ai-2026.md → wiki/amazon-science-building
+[2026-09-24T00:10:22.781594] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-building-trust-into-ai-2026.md
+[2026-09-24T00:10:23.110353] update-index | 432 topics | ok | 
+[2026-09-24T00:10:23.111042] wiki-log | update-index | ok | 432 topics, 280 raw
+[2026-09-24T00:12:51.256896] ingest | amazon-science-ground-truth-is-a-process-2026.md | ok | wiki/amazon-science-ground-truth-is-a-process-2026.md
+[2026-09-24T00:12:51.257985] wiki-log | ingest | ok | raw/amazon-science-ground-truth-is-a-process-2026.md → wiki/amazon-science-groun
+[2026-09-24T00:12:51.526666] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-ground-truth-is-a-process-2026.md
+[2026-09-24T00:12:54.736343] ingest | amazon-science-sop-bench-agents-business-procedures-2026.md | ok | wiki/amazon-science-sop-bench-agents-business-procedures-2026.md
+[2026-09-24T00:12:54.736857] wiki-log | ingest | ok | raw/amazon-science-sop-bench-agents-business-procedures-2026.md → wiki/amazon-sc
+[2026-09-24T00:12:54.980386] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-sop-bench-agents-business-procedures-202
+[2026-09-24T00:12:58.655599] ingest | amazon-science-automated-reasoning-decade-2026.md | ok | wiki/amazon-science-automated-reasoning-decade-2026.md
+[2026-09-24T00:12:58.656060] wiki-log | ingest | ok | raw/amazon-science-automated-reasoning-decade-2026.md → wiki/amazon-science-auto
+[2026-09-24T00:12:58.890077] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-automated-reasoning-decade-2026.md
+[2026-09-24T00:13:32.641962] ingest | amazon-science-patient-agent-bench-2026.md | ok | wiki/amazon-science-patient-agent-bench-2026.md
+[2026-09-24T00:13:32.644479] wiki-log | ingest | ok | raw/amazon-science-patient-agent-bench-2026.md → wiki/amazon-science-patient-age
+[2026-09-24T00:13:32.923871] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-patient-agent-bench-2026.md
+[2026-09-24T00:13:47.073273] ingest | amazon-science-real-world-grounding-agentic-ai-2026.md | ok | wiki/amazon-science-real-world-grounding-agentic-ai-2026.md
+[2026-09-24T00:13:47.073853] wiki-log | ingest | ok | raw/amazon-science-real-world-grounding-agentic-ai-2026.md → wiki/amazon-science
+[2026-09-24T00:13:47.290243] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-real-world-grounding-agentic-ai-2026.md
+[2026-09-24T00:14:21.601108] ingest | amazon-science-bridging-intent-execution-agentic-systems-2026.md | ok | wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md
+[2026-09-24T00:14:21.602686] wiki-log | ingest | ok | raw/amazon-science-bridging-intent-execution-agentic-systems-2026.md → wiki/amaz
+[2026-09-24T00:14:21.909281] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-bridging-intent-execution-agentic-system
+[2026-09-24T00:14:22.123369] update-index | 438 topics | ok | 
+[2026-09-24T00:14:22.123750] wiki-log | update-index | ok | 438 topics, 286 raw
+[2026-09-24T00:14:40.462524] update-index | 439 topics | ok | 
+[2026-09-24T00:14:40.462980] wiki-log | update-index | ok | 439 topics, 286 raw
