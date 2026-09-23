@@ -6,8 +6,11 @@ Checks (all deterministic, no LLM context):
   1. Broken internal links in wiki/ (links to wiki/*.md and raw/*.md that don't exist)
   2. Orphan pages (wiki/*.md with no inbound links from any other wiki page)
   3. Stub pages (<200 chars of content, excluding frontmatter/footers)
-  4. Raw files without a wiki counterpart (uses wiki_llm.missing_raw_files)
-  5. Duplicate titles (near-identical stems that may be dupes)
+4. Raw files without a wiki counterpart (uses wiki_llm.missing_raw_files)
+5. Duplicate titles (near-identical stems that may be dupes)
+6. Quotes verity (W5, 2026-09-23): quoted strings 40+ chars need a source URL/Source
+   marker within +-3 lines; if a same-stem raw file exists the quote must occur
+   in it verbatim. P2 severity.
 
 Usage:
     python3 wiki_lint.py                      — run ALL checks, print summary
@@ -153,12 +156,86 @@ def check_dupes() -> list:
     return dupes
 
 
+QUOTE_RE = re.compile(r'[«“"]([^«“”"]{40,}?)[»”"]')
+URL_RE = re.compile(r"https?://\S+")
+FENCED_CODE_RE = re.compile(r"```.*?```", re.S)
+INLINE_CODE_RE = re.compile(r"`[^`\n]+`")
+
+
+def strip_code(content: str) -> str:
+    """Remove fenced + inline code so literals (CSV values, commands) aren't read as quotes."""
+    content = FENCED_CODE_RE.sub("", content)
+    return INLINE_CODE_RE.sub("", content)
+
+
+def norm(s: str) -> str:
+    return re.sub(r"\s+", " ", s).strip().lower()
+
+
+def check_quotes_verity() -> list:
+    """Two-tier quote check (W5 proposal, 2026-09-23 — catches fabricated quotes).
+    Tier 1: quoted string (40+ chars) must have a source URL or 'Source' marker
+            within +-3 lines. Tier 2: if a same-stem raw file exists, the quote's
+            first 80 chars (normalized) must occur in it verbatim.
+    Returns [(page, quote_preview, kind)] where kind is 'no-source' or 'not-in-raw'."""
+    issues = []
+    raw_cache = {}
+    for p in all_wiki_pages():
+        content = strip_code(strip_boilerplate(read_page(p)))
+        page_refs_ok = bool(
+            re.search(r"(?im)^#{1,3}\s+.*(reference|source)", content)
+            and URL_RE.search(content)
+        )
+        lines = content.split("\n")
+        seen = set()
+        for i, ln in enumerate(lines):
+            if ln.lstrip().startswith("!"):
+                continue  # image markup, not prose quotes
+            for m in QUOTE_RE.finditer(ln):
+                q = norm(m.group(1))
+                if not q or q in seen:
+                    continue
+                if re.search(r"\.md\b|/", q):
+                    continue  # filenames/paths, not quotes
+                seen.add(q)
+                window = "\n".join(lines[max(0, i - 3):i + 4])
+                has_src = bool(
+                    URL_RE.search(window)
+                    or re.search(r"(?i)\bsource\b", window)
+                    or page_refs_ok
+                )
+                attr_nearby = bool(
+                    re.search(r"[—–-]\s*[A-ZА-ЯЁ][\w.,() ]{1,50}", window)
+                    or re.search(r"(?i)\bsource\b|https?://", window)
+                )
+                if not has_src:
+                    issues.append((p.name, q[:80], "no-source"))
+                    continue
+                stem = p.stem
+                if stem not in raw_cache:
+                    raw_cache[stem] = None
+                    for cand in (RAW_DIR / (stem + ".md"), RAW_DIR / (stem + ".txt")):
+                        if cand.exists():
+                            raw_cache[stem] = norm(read_page(cand))
+                            break
+                raw_text = raw_cache[stem]
+                if (
+                    raw_text is not None
+                    and attr_nearby
+                    and i >= 12
+                    and q[:80] not in raw_text
+                ):
+                    issues.append((p.name, q[:80], "not-in-raw"))
+    return issues
+
+
 def run_all(verbose: bool = True) -> dict:
     broken, total_links = check_broken_links()
     orphans = check_orphans()
     stubs = check_stubs()
     missing = check_missing_raw()
     dupes = check_dupes()
+    quotes = check_quotes_verity()
 
     report = {
         "timestamp": datetime.datetime.now().isoformat(),
@@ -169,6 +246,7 @@ def run_all(verbose: bool = True) -> dict:
         "stubs": stubs,
         "missing_raw": missing,
         "dupes": dupes,
+        "quotes_verity": quotes,
     }
     if verbose:
         print(f"\n🔍 Wiki lint ({report['wiki_pages']} pages)")
@@ -194,6 +272,11 @@ def run_all(verbose: bool = True) -> dict:
         print(f"  🔁 Duplicate-ish stems: {len(dupes)}")
         for a, b in dupes[:30]:
             print(f"      {a} ↔ {b}")
+        print(f"  💬 Quotes verity issues: {len(quotes)}")
+        for p, q, kind in quotes[:30]:
+            print(f"      {p} [{kind}]: {q}…")
+        if len(quotes) > 30:
+            print(f"      … and {len(quotes)-30} more")
     return report
 
 
@@ -209,6 +292,7 @@ def parse_history() -> list:
         "stubs": re.compile(r"^- Stubs \(<200 chars\): (\d+)$", re.M),
         "missing": re.compile(r"^- Raw without wiki: (\d+)$", re.M),
         "dupes": re.compile(r"^- Duplicate-ish stems: (\d+)$", re.M),
+        "quotes": re.compile(r"^- Quotes verity issues: (\d+)$", re.M),
     }
     for f in sorted(REPORT_DIR.glob("lint-report-*.md")):
         date = f.stem.replace("lint-report-", "")
@@ -259,6 +343,7 @@ def write_report(report: dict) -> Path:
     lines.append(f"- Stubs (<200 chars): {len(report['stubs'])}")
     lines.append(f"- Raw without wiki: {len(report['missing_raw'])}")
     lines.append(f"- Duplicate-ish stems: {len(report['dupes'])}")
+    lines.append(f"- Quotes verity issues: {len(report['quotes_verity'])}")
     lines.append("")
     if report["broken_links"]:
         lines.append("## Broken links")
@@ -285,6 +370,11 @@ def write_report(report: dict) -> Path:
         for a, b in report["dupes"]:
             lines.append(f"- {a} ↔ {b}")
         lines.append("")
+    if report["quotes_verity"]:
+        lines.append("## Quotes verity (no-source | not-in-raw)")
+        for p, q, kind in report["quotes_verity"]:
+            lines.append(f"- `{p}` [{kind}]: {q}…")
+        lines.append("")
     # Trend history (this run appended as the latest row)
     history = parse_history()
     history.append({
@@ -296,6 +386,7 @@ def write_report(report: dict) -> Path:
         "stubs": len(report["stubs"]),
         "missing": len(report["missing_raw"]),
         "dupes": len(report["dupes"]),
+        "quotes": len(report["quotes_verity"]),
     })
     lines.append("## Trend across runs")
     lines.append("")
@@ -310,9 +401,10 @@ def write_report(report: dict) -> Path:
 def exit_code(report: dict) -> int:
     if report["broken_links"]:
         return 1
-    if report["orphans"] or report["stubs"] or report["missing_raw"]:
+    hard_quote_hits = [x for x in report["quotes_verity"] if x[2] == "not-in-raw"]
+    if report["orphans"] or report["stubs"] or report["missing_raw"] or hard_quote_hits:
         return 2
-    return 3 if report["dupes"] else 0
+    return 3 if (report["dupes"] or report["quotes_verity"]) else 0
 
 
 def main():
