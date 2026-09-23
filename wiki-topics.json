@@ -691,6 +691,54 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/bach-10x-claims-skeptical-inquiry-2026.html",
+      "title": "Bach 10X Claims Skeptical Inquiry 2026",
+      "desc": "source: \"bach-10x-claims-skeptical-inquiry-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-ai-writing-policy-psa-2026.html",
+      "title": "Bach Ai Writing Policy Psa 2026",
+      "desc": "source: \"bach-ai-writing-policy-psa-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-everyone-not-responsible-quality-2026.html",
+      "title": "Bach Everyone Not Responsible Quality 2026",
+      "desc": "source: \"bach-everyone-not-responsible-quality-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-kpis-not-quality-2026.html",
+      "title": "Bach Kpis Not Quality 2026",
+      "desc": "source: \"bach-kpis-not-quality-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-perfect-job-ai-quality-engineering-2026.html",
+      "title": "Bach Perfect Job Ai Quality Engineering 2026",
+      "desc": "source: \"bach-perfect-job-ai-quality-engineering-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-responsibility-human-moat-prw-v2-2026.html",
+      "title": "Responsibility Is the Human Moat – Principles of Responsible Work v2.0",
+      "desc": "source: \"bach-responsibility-human-moat-prw-v2-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-responsible-quality-engineering-2026.html",
+      "title": "Bach Responsible Quality Engineering 2026",
+      "desc": "source: \"bach-responsible-quality-engineering-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bach-slop-coding-responsible-testers-2025.html",
+      "title": "Bach Slop Coding Responsible Testers 2025",
+      "desc": "source: \"bach-slop-coding-responsible-testers-2025.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/bas-dijkstra-learning-takes-time-2026.html",
       "title": "Learning Takes Time — But Do We Get That Time?",
       "desc": "**Source:** On Test Automation newsletter (Bas Dijkstra, bas@ontestautomation.com)",
@@ -1975,6 +2023,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/satisfice-blog-catalog-2026.html",
+      "title": "Satisfice Blog Catalog 2026",
+      "desc": "source: \"satisfice-blog-catalog-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/self-healing-tests.html",
       "title": "Self-Healing Tests — Why It's a Bad Idea",
       "desc": "title: \"Self-Healing Tests — Why It's a Bad Idea\"",
@@ -2419,6 +2473,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 254,
+  "raw_count": 262,
   "updated": "2026-09-23"
 }

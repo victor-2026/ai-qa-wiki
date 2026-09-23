@@ -1,10 +1,10 @@
 # Wiki Lint Report — 2026-09-23
 
-- Timestamp: 2026-09-23T17:31:49.185007
-- Wiki pages: 401
-- Internal links OK: 947
+- Timestamp: 2026-09-23T18:05:56.969962
+- Wiki pages: 410
+- Internal links OK: 1057
 - Broken links: 0
-- Orphans: 240
+- Orphans: 236
 - Stubs (<200 chars): 0
 - Raw without wiki: 70
 - Duplicate-ish stems: 0
@@ -62,11 +62,8 @@
 - autonoma-agent-memory-2026.md
 - autonoma-agent-regression-2026.md
 - autonoma-agent-reliability-2026.md
-- autonoma-agent-simulation-2026.md
 - autonoma-blog-catalog-all-publications-2026.md
-- autonoma-hallucinations-2026.md
 - autonoma-how-to-test-ai-agent-e2e-2026.md
-- autonoma-langgraph-testing-2026.md
 - autonoma-llm-evals-cicd-2026.md
 - autonoma-mcp-server-2026.md
 - autonoma-non-deterministic-outputs-2026.md
@@ -123,7 +120,6 @@
 - jason-arbon-how-ai-tests-software-2026.md
 - jev-performance-benchmark-2026.md
 - julia-pottinger-accountable-ai-code-2026.md
-- julia-pottinger-who-validates-ai-generated-code-2026.md
 - juliapottinger-blog-catalog-all-publications-2026.md
 - kiro-bug-fix-paradox-2026.md
 - kiro-continuous-prompt-evaluation-llm-judges-2026.md
@@ -328,6 +324,6 @@
 | Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |
 |-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|
 | 2026-09-22 | 388 | 845 | 0 | 248 | 0 | 70 | 0 | — | — |
-| 2026-09-23 | 401 | 947 | 0 | 240 | 0 | 70 | 0 | -8 | +0 |
+| 2026-09-23 | 410 | 1057 | 0 | 236 | 0 | 70 | 0 | -12 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.

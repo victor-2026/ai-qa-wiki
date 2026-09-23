@@ -59,3 +59,21 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-23 17:26 — ingest — raw/mot-ai-generated-tests-mocks-2026.md → wiki/mot-ai-generated-tests-mocks-2026.md
 - 2026-09-23 17:26 — backlinks — 5 related pages for wiki/mot-ai-generated-tests-mocks-2026.md
 - 2026-09-23 17:26 — update-index — 403 topics, 254 raw
+- 2026-09-23 17:50 — ingest — raw/bach-responsible-quality-engineering-2026.md → wiki/bach-responsible-quality-engineering-2026.md
+- 2026-09-23 17:50 — backlinks — 5 related pages for wiki/bach-responsible-quality-engineering-2026.md
+- 2026-09-23 17:50 — update-index — 404 topics, 255 raw
+- 2026-09-23 18:04 — ingest — raw/bach-responsibility-human-moat-prw-v2-2026.md → wiki/bach-responsibility-human-moat-prw-v2-2026.md
+- 2026-09-23 18:04 — backlinks — 5 related pages for wiki/bach-responsibility-human-moat-prw-v2-2026.md
+- 2026-09-23 18:04 — ingest — raw/bach-perfect-job-ai-quality-engineering-2026.md → wiki/bach-perfect-job-ai-quality-engineering-2026.md
+- 2026-09-23 18:04 — backlinks — 5 related pages for wiki/bach-perfect-job-ai-quality-engineering-2026.md
+- 2026-09-23 18:04 — ingest — raw/bach-10x-claims-skeptical-inquiry-2026.md → wiki/bach-10x-claims-skeptical-inquiry-2026.md
+- 2026-09-23 18:04 — backlinks — 5 related pages for wiki/bach-10x-claims-skeptical-inquiry-2026.md
+- 2026-09-23 18:04 — ingest — raw/bach-everyone-not-responsible-quality-2026.md → wiki/bach-everyone-not-responsible-quality-2026.md
+- 2026-09-23 18:04 — backlinks — 5 related pages for wiki/bach-everyone-not-responsible-quality-2026.md
+- 2026-09-23 18:05 — ingest — raw/bach-ai-writing-policy-psa-2026.md → wiki/bach-ai-writing-policy-psa-2026.md
+- 2026-09-23 18:05 — backlinks — 5 related pages for wiki/bach-ai-writing-policy-psa-2026.md
+- 2026-09-23 18:05 — ingest — raw/bach-slop-coding-responsible-testers-2025.md → wiki/bach-slop-coding-responsible-testers-2025.md
+- 2026-09-23 18:05 — backlinks — 5 related pages for wiki/bach-slop-coding-responsible-testers-2025.md
+- 2026-09-23 18:05 — ingest — raw/bach-kpis-not-quality-2026.md → wiki/bach-kpis-not-quality-2026.md
+- 2026-09-23 18:05 — backlinks — 5 related pages for wiki/bach-kpis-not-quality-2026.md
+- 2026-09-23 18:05 — update-index — 412 topics, 262 raw

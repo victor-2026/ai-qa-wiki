@@ -339,3 +339,31 @@
 [2026-09-23T17:26:14.423421] wiki-log | backlinks | ok | 5 related pages for wiki/mot-ai-generated-tests-mocks-2026.md
 [2026-09-23T17:26:19.529396] update-index | 403 topics | ok | 
 [2026-09-23T17:26:19.529872] wiki-log | update-index | ok | 403 topics, 254 raw
+[2026-09-23T17:50:50.218309] ingest | bach-responsible-quality-engineering-2026.md | ok | wiki/bach-responsible-quality-engineering-2026.md
+[2026-09-23T17:50:50.219706] wiki-log | ingest | ok | raw/bach-responsible-quality-engineering-2026.md → wiki/bach-responsible-quality
+[2026-09-23T17:50:50.429307] wiki-log | backlinks | ok | 5 related pages for wiki/bach-responsible-quality-engineering-2026.md
+[2026-09-23T17:50:53.277563] update-index | 404 topics | ok | 
+[2026-09-23T17:50:53.278061] wiki-log | update-index | ok | 404 topics, 255 raw
+[2026-09-23T18:04:40.488018] ingest | bach-responsibility-human-moat-prw-v2-2026.md | ok | wiki/bach-responsibility-human-moat-prw-v2-2026.md
+[2026-09-23T18:04:40.489286] wiki-log | ingest | ok | raw/bach-responsibility-human-moat-prw-v2-2026.md → wiki/bach-responsibility-hum
+[2026-09-23T18:04:40.701693] wiki-log | backlinks | ok | 5 related pages for wiki/bach-responsibility-human-moat-prw-v2-2026.md
+[2026-09-23T18:04:44.145380] ingest | bach-perfect-job-ai-quality-engineering-2026.md | ok | wiki/bach-perfect-job-ai-quality-engineering-2026.md
+[2026-09-23T18:04:44.146099] wiki-log | ingest | ok | raw/bach-perfect-job-ai-quality-engineering-2026.md → wiki/bach-perfect-job-ai-q
+[2026-09-23T18:04:44.351347] wiki-log | backlinks | ok | 5 related pages for wiki/bach-perfect-job-ai-quality-engineering-2026.md
+[2026-09-23T18:04:47.451771] ingest | bach-10x-claims-skeptical-inquiry-2026.md | ok | wiki/bach-10x-claims-skeptical-inquiry-2026.md
+[2026-09-23T18:04:47.452242] wiki-log | ingest | ok | raw/bach-10x-claims-skeptical-inquiry-2026.md → wiki/bach-10x-claims-skeptical-i
+[2026-09-23T18:04:47.685961] wiki-log | backlinks | ok | 5 related pages for wiki/bach-10x-claims-skeptical-inquiry-2026.md
+[2026-09-23T18:04:55.881938] ingest | bach-everyone-not-responsible-quality-2026.md | ok | wiki/bach-everyone-not-responsible-quality-2026.md
+[2026-09-23T18:04:55.882490] wiki-log | ingest | ok | raw/bach-everyone-not-responsible-quality-2026.md → wiki/bach-everyone-not-respo
+[2026-09-23T18:04:56.081552] wiki-log | backlinks | ok | 5 related pages for wiki/bach-everyone-not-responsible-quality-2026.md
+[2026-09-23T18:05:30.050630] ingest | bach-ai-writing-policy-psa-2026.md | ok | wiki/bach-ai-writing-policy-psa-2026.md
+[2026-09-23T18:05:30.051090] wiki-log | ingest | ok | raw/bach-ai-writing-policy-psa-2026.md → wiki/bach-ai-writing-policy-psa-2026.md
+[2026-09-23T18:05:30.249806] wiki-log | backlinks | ok | 5 related pages for wiki/bach-ai-writing-policy-psa-2026.md
+[2026-09-23T18:05:33.165698] ingest | bach-slop-coding-responsible-testers-2025.md | ok | wiki/bach-slop-coding-responsible-testers-2025.md
+[2026-09-23T18:05:33.166280] wiki-log | ingest | ok | raw/bach-slop-coding-responsible-testers-2025.md → wiki/bach-slop-coding-respons
+[2026-09-23T18:05:33.367171] wiki-log | backlinks | ok | 5 related pages for wiki/bach-slop-coding-responsible-testers-2025.md
+[2026-09-23T18:05:46.322460] ingest | bach-kpis-not-quality-2026.md | ok | wiki/bach-kpis-not-quality-2026.md
+[2026-09-23T18:05:46.323358] wiki-log | ingest | ok | raw/bach-kpis-not-quality-2026.md → wiki/bach-kpis-not-quality-2026.md
+[2026-09-23T18:05:46.546288] wiki-log | backlinks | ok | 5 related pages for wiki/bach-kpis-not-quality-2026.md
+[2026-09-23T18:05:53.953038] update-index | 412 topics | ok | 
+[2026-09-23T18:05:53.953553] wiki-log | update-index | ok | 412 topics, 262 raw
