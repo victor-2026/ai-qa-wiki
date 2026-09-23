@@ -60,11 +60,15 @@ By treating governance as a first‑class platform component, organisations can 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Testing Tools Landscape — Hands-On Pilots & Verdicts (2026-09-09)](wiki/ai-testing-tools-landscape-hands-on-2026-09.md)
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
+- [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
 - [How We Learned to Trust an AI Agent to Triage Production Incidents](wiki/kiro-trust-agent-triage-2026.md)
 - [Kiro Blog: Complete Publications Catalog with Annotations](wiki/kiro-blog-catalog-all-publications-2025-2026.md)
 - [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)

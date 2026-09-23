@@ -91,3 +91,9 @@ Recommended loop for implementation: `clarify → scout → worker → fresh rev
 ---
 
 *Ingested: 2026-09-03 · Via GitHub README + banner + docs links; install `pi install npm:pi-subagents`*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Qodo The Next Generation Of Ai Code Review From Isolated To System Intelligence](wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md)
+<!-- backlinks-end -->

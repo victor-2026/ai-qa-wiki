@@ -338,10 +338,55 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
+- [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
+- [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
+- [Bach Everyone Not Responsible Quality 2026](wiki/bach-everyone-not-responsible-quality-2026.md)
+- [Bach Kpis Not Quality 2026](wiki/bach-kpis-not-quality-2026.md)
+- [Bach Responsible Quality Engineering 2026](wiki/bach-responsible-quality-engineering-2026.md)
+- [Bach Slop Coding Responsible Testers 2025](wiki/bach-slop-coding-responsible-testers-2025.md)
 - [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
 - [Brij Kishore Pandey Retroactive Ai Titles 2026](wiki/brij-kishore-pandey-retroactive-ai-titles-2026.md)
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)
@@ -359,8 +404,14 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Mot Ai Generated Tests Mocks 2026](wiki/mot-ai-generated-tests-mocks-2026.md)
 - [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
+- [Qodo Tests Are Not Enough Why Code Integrity Matters](wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md)
+- [Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out](wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md)
 - [Qodo When Claude Code Reviews Its Own Pr Who Reviews Claude](wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md)
+- [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
+- [Responsibility Is the Human Moat – Principles of Responsible Work v2.0](wiki/bach-responsibility-human-moat-prw-v2-2026.md)
+- [Satisfice Blog Catalog 2026](wiki/satisfice-blog-catalog-2026.md)
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 - [Toloka Llm Qa Agent Verification 2026](wiki/toloka-llm-qa-agent-verification-2026.md)

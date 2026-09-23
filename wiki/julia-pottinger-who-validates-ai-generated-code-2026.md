@@ -137,3 +137,9 @@ AI changed writer, not answerer. Teams generating most code aren't trouble; team
 ---
 
 *Ingested: 2026-09-03 · Full fetch of UTM alias who-validates → Who Is Accountable; alias noted as same content*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Bach Everyone Not Responsible Quality 2026](wiki/bach-everyone-not-responsible-quality-2026.md)
+<!-- backlinks-end -->

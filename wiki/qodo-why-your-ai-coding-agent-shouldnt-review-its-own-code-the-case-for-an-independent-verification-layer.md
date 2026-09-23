@@ -63,6 +63,9 @@ Recent research and industry surveys show that AI‑generated code often carries
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Testing Tools Landscape — Hands-On Pilots & Verdicts (2026-09-09)](wiki/ai-testing-tools-landscape-hands-on-2026-09.md)
@@ -70,5 +73,6 @@ Recent research and industry surveys show that AI‑generated code often carries
 - [Agentics Foundation Serbia — YouTube Channel](wiki/agentics-foundation-serbia-youtube-2025-2026.md)
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)
+- [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
 <!-- backlinks-end -->

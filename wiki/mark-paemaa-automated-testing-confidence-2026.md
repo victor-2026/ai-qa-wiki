@@ -60,6 +60,9 @@ Engineering Team Lead Mark Paemaa (2026-08-27, https://www.linkedin.com/pulse/au
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alex Karp Neurodivergent Advantage 2026](wiki/alex-karp-neurodivergent-advantage-2026.md)
@@ -67,4 +70,5 @@ Engineering Team Lead Mark Paemaa (2026-08-27, https://www.linkedin.com/pulse/au
 - [Brij Kishore Pandey Retroactive Ai Titles 2026](wiki/brij-kishore-pandey-retroactive-ai-titles-2026.md)
 - [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
 - [Jeff Nyman Testing Knowledge Not Just Testing Skill 2026](wiki/jeff-nyman-testing-knowledge-not-just-testing-skill-2026.md)
+- [Qodo Tests Are Not Enough Why Code Integrity Matters](wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md)
 <!-- backlinks-end -->

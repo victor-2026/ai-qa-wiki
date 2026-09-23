@@ -91,3 +91,9 @@
 - Deep dive: [LangGraph Testing raw](https://getautonoma.com/blog/langgraph-testing), [Agent Simulation Testing](https://getautonoma.com/blog/agent-simulation-testing)
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
+<!-- backlinks-end -->

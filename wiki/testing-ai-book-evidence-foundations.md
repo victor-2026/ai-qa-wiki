@@ -299,12 +299,50 @@ The practical output is a small evidence system, not a larger pile of tests.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+- [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
+- [Bach Slop Coding Responsible Testers 2025](wiki/bach-slop-coding-responsible-testers-2025.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
@@ -312,7 +350,14 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
 - [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
+- [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
+- [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
+- [Qodo The Ai Code Quality Gap What 100 Engineering Leaders Told Us](wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md)
+- [Qodo The Next Generation Of Ai Code Review From Isolated To System Intelligence](wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md)
+- [Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out](wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md)
+- [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
+- [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

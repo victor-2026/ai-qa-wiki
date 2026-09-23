@@ -77,3 +77,38 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-23 18:05 — ingest — raw/bach-kpis-not-quality-2026.md → wiki/bach-kpis-not-quality-2026.md
 - 2026-09-23 18:05 — backlinks — 5 related pages for wiki/bach-kpis-not-quality-2026.md
 - 2026-09-23 18:05 — update-index — 412 topics, 262 raw
+- 2026-09-23 20:33 — update-index — 413 topics, 262 raw
+- 2026-09-23 20:36 — update-index — 413 topics, 262 raw
+- 2026-09-23 21:38 — update-index — 414 topics, 262 raw
+- 2026-09-23 21:47 — update-index — 414 topics, 262 raw
+- 2026-09-23 22:29 — update-index — 415 topics, 262 raw
+- 2026-09-23 22:29 — update-index — 415 topics, 262 raw
+- 2026-09-23 23:06 — ingest — raw/qodo-state-of-ai-code-quality-report-2026.md → wiki/qodo-state-of-ai-code-quality-report-2026.md
+- 2026-09-23 23:06 — backlinks — 5 related pages for wiki/qodo-state-of-ai-code-quality-report-2026.md
+- 2026-09-23 23:06 — ingest — raw/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md → wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md
+- 2026-09-23 23:06 — backlinks — 5 related pages for wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md
+- 2026-09-23 23:06 — ingest — raw/qodo-tests-are-not-enough-why-code-integrity-matters.md → wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md
+- 2026-09-23 23:06 — backlinks — 5 related pages for wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md
+- 2026-09-23 23:06 — ingest — raw/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md → wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md
+- 2026-09-23 23:06 — backlinks — 5 related pages for wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md
+- 2026-09-23 23:07 — ingest — raw/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md → wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md
+- 2026-09-23 23:07 — backlinks — 5 related pages for wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md
+- 2026-09-23 23:07 — ingest — raw/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md → wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md
+- 2026-09-23 23:07 — backlinks — 5 related pages for wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md
+- 2026-09-23 23:08 — ingest — raw/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md → wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md
+- 2026-09-23 23:08 — backlinks — 5 related pages for wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md
+- 2026-09-23 23:08 — ingest — raw/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md → wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md
+- 2026-09-23 23:08 — backlinks — 5 related pages for wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md
+- 2026-09-23 23:08 — ingest — raw/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md → wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md
+- 2026-09-23 23:08 — backlinks — 5 related pages for wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md
+- 2026-09-23 23:09 — ingest — raw/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md → wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md
+- 2026-09-23 23:09 — backlinks — 5 related pages for wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md
+- 2026-09-23 23:09 — ingest — raw/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md → wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md
+- 2026-09-23 23:09 — backlinks — 5 related pages for wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md
+- 2026-09-23 23:09 — ingest — raw/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md → wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md
+- 2026-09-23 23:09 — backlinks — 5 related pages for wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md
+- 2026-09-23 23:10 — ingest — raw/qodo-code-aware-agentic-ai-the-system-approach.md → wiki/qodo-code-aware-agentic-ai-the-system-approach.md
+- 2026-09-23 23:10 — backlinks — 5 related pages for wiki/qodo-code-aware-agentic-ai-the-system-approach.md
+- 2026-09-23 23:11 — ingest — raw/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md → wiki/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md
+- 2026-09-23 23:11 — backlinks — 5 related pages for wiki/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md
+- 2026-09-23 23:11 — update-index — 429 topics, 276 raw

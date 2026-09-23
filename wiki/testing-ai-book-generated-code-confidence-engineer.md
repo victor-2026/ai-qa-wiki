@@ -152,7 +152,15 @@ Chapters 9-11 change the unit of QA from "did the generated code compile?" to "w
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Apparently We Need a Testing Mindset After All](wiki/keith-klain-testing-mindset-after-all-2026.md)
+- [Qodo Tests Are Not Enough Why Code Integrity Matters](wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md)
+- [Qodo The Next Generation Of Ai Code Review From Isolated To System Intelligence](wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md)
 <!-- backlinks-end -->

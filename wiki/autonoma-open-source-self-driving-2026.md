@@ -251,10 +251,14 @@ $ npx @autonoma-ai/planner@latest
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
 - [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)
+- [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)

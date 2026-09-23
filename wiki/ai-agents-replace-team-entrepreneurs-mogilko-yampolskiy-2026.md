@@ -114,7 +114,15 @@ For QA engineers, the "network" is **institutional knowledge that compounds over
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
+- [Bach Responsible Quality Engineering 2026](wiki/bach-responsible-quality-engineering-2026.md)
+- [Qodo The Multi Agent Revolution Why Software Engineering Principles Must Govern Ai Systems](wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md)
 <!-- backlinks-end -->

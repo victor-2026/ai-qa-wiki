@@ -1273,6 +1273,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/kiran-sahu-myelin-foundry-ai-qa-profile-2026.html",
+      "title": "Kiran Sahu — AI Quality Engineering Manager (Myelin Foundry)",
+      "desc": "source: \"kiran-sahu-myelin-foundry-ai-qa-profile-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/kiro-blog-catalog-all-publications-2025-2026.html",
       "title": "Kiro Blog: Complete Publications Catalog with Annotations",
       "desc": "**Source:** https://kiro.dev/blog",
@@ -1855,15 +1861,99 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qodo-code-aware-agentic-ai-the-system-approach.html",
+      "title": "Minimal hello‑world agent (illustrative)",
+      "desc": "source: \"qodo-code-aware-agentic-ai-the-system-approach.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.html",
+      "title": "Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity",
+      "desc": "source: \"qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.html",
+      "title": "Qodo How Qodo Builds The Wisdom To Govern Part 2 The Rules Lifecycle System",
+      "desc": "source: \"qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.html",
+      "title": "Qodo How Qodo Builds The Wisdom To Govern The Context Engine",
+      "desc": "source: \"qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.html",
+      "title": "Qodo How To Catch Ai Generated Bugs With Layered Code Review",
+      "desc": "source: \"qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.html",
+      "title": "Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance",
+      "desc": "source: \"qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qodo-software-map-risk-across-repos-2026.html",
       "title": "Qodo Software Map Risk Across Repos 2026",
       "desc": "source: \"qodo-software-map-risk-across-repos-2026.md\"",
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qodo-state-of-ai-code-quality-report-2026.html",
+      "title": "Qodo 2026 State of AI Code Quality Report",
+      "desc": "source: \"qodo-state-of-ai-code-quality-report-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-tests-are-not-enough-why-code-integrity-matters.html",
+      "title": "Qodo Tests Are Not Enough Why Code Integrity Matters",
+      "desc": "source: \"qodo-tests-are-not-enough-why-code-integrity-matters.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.html",
+      "title": "Qodo The Ai Code Quality Gap What 100 Engineering Leaders Told Us",
+      "desc": "source: \"qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.html",
+      "title": "Qodo The Multi Agent Revolution Why Software Engineering Principles Must Govern Ai Systems",
+      "desc": "source: \"qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.html",
+      "title": "Qodo The Next Generation Of Ai Code Review From Isolated To System Intelligence",
+      "desc": "source: \"qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.html",
+      "title": "Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out",
+      "desc": "source: \"qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.html",
       "title": "Qodo When Claude Code Reviews Its Own Pr Who Reviews Claude",
       "desc": "source: \"qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.html",
+      "title": "Qodo: When Your System Is an Agent, You Need a Different Benchmark",
+      "desc": "source: \"qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.html",
+      "title": "Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems",
+      "desc": "source: \"qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md\"",
       "tag": "Wiki"
     },
     {
@@ -2485,6 +2575,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 262,
+  "raw_count": 276,
   "updated": "2026-09-23"
 }

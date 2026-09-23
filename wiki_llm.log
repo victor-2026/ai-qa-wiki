@@ -367,3 +367,59 @@
 [2026-09-23T18:05:46.546288] wiki-log | backlinks | ok | 5 related pages for wiki/bach-kpis-not-quality-2026.md
 [2026-09-23T18:05:53.953038] update-index | 412 topics | ok | 
 [2026-09-23T18:05:53.953553] wiki-log | update-index | ok | 412 topics, 262 raw
+[2026-09-23T20:33:35.125168] update-index | 413 topics | ok | 
+[2026-09-23T20:33:35.128865] wiki-log | update-index | ok | 413 topics, 262 raw
+[2026-09-23T20:36:43.553717] update-index | 413 topics | ok | 
+[2026-09-23T20:36:43.554467] wiki-log | update-index | ok | 413 topics, 262 raw
+[2026-09-23T21:38:43.147863] update-index | 414 topics | ok | 
+[2026-09-23T21:38:43.149418] wiki-log | update-index | ok | 414 topics, 262 raw
+[2026-09-23T21:47:09.038552] update-index | 414 topics | ok | 
+[2026-09-23T21:47:09.039588] wiki-log | update-index | ok | 414 topics, 262 raw
+[2026-09-23T22:29:22.482748] update-index | 415 topics | ok | 
+[2026-09-23T22:29:22.483569] wiki-log | update-index | ok | 415 topics, 262 raw
+[2026-09-23T22:29:31.044152] update-index | 415 topics | ok | 
+[2026-09-23T22:29:31.044602] wiki-log | update-index | ok | 415 topics, 262 raw
+[2026-09-23T23:06:14.232918] ingest | qodo-state-of-ai-code-quality-report-2026.md | ok | wiki/qodo-state-of-ai-code-quality-report-2026.md
+[2026-09-23T23:06:14.234328] wiki-log | ingest | ok | raw/qodo-state-of-ai-code-quality-report-2026.md → wiki/qodo-state-of-ai-code-qu
+[2026-09-23T23:06:14.504091] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-state-of-ai-code-quality-report-2026.md
+[2026-09-23T23:06:17.992165] ingest | qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md | ok | wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems
+[2026-09-23T23:06:17.993556] wiki-log | ingest | ok | raw/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.
+[2026-09-23T23:06:18.243506] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-why-ai-self-review-fails-the-technical-case-for-in
+[2026-09-23T23:06:21.404260] ingest | qodo-tests-are-not-enough-why-code-integrity-matters.md | ok | wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md
+[2026-09-23T23:06:21.404918] wiki-log | ingest | ok | raw/qodo-tests-are-not-enough-why-code-integrity-matters.md → wiki/qodo-tests-ar
+[2026-09-23T23:06:21.659209] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md
+[2026-09-23T23:06:56.157994] ingest | qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity | ok | wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-vel
+[2026-09-23T23:06:56.159029] wiki-log | ingest | ok | raw/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velo
+[2026-09-23T23:06:56.447395] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-contract-verification-across-repos-catching-breaki
+[2026-09-23T23:07:10.781487] ingest | qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md | ok | wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md
+[2026-09-23T23:07:10.786350] wiki-log | ingest | ok | raw/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md → wiki/
+[2026-09-23T23:07:11.752870] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leade
+[2026-09-23T23:07:26.750407] ingest | qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md | ok | wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md
+[2026-09-23T23:07:26.750871] wiki-log | ingest | ok | raw/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md → wiki/qodo-
+[2026-09-23T23:07:27.015558] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-e
+[2026-09-23T23:08:01.436762] ingest | qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md | ok | wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system
+[2026-09-23T23:08:01.437963] wiki-log | ingest | ok | raw/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.
+[2026-09-23T23:08:01.720407] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-ru
+[2026-09-23T23:08:15.715671] ingest | qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern- | ok | wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-go
+[2026-09-23T23:08:15.716242] wiki-log | ingest | ok | raw/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-gov
+[2026-09-23T23:08:15.998618] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-the-multi-agent-revolution-why-software-engineerin
+[2026-09-23T23:08:50.000531] ingest | qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence. | ok | wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intellig
+[2026-09-23T23:08:50.001457] wiki-log | ingest | ok | raw/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intellige
+[2026-09-23T23:08:50.315306] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-the-next-generation-of-ai-code-review-from-isolate
+[2026-09-23T23:09:03.867458] ingest | qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md | ok | wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md
+[2026-09-23T23:09:03.867932] wiki-log | ingest | ok | raw/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md → wik
+[2026-09-23T23:09:04.115714] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-qualit
+[2026-09-23T23:09:38.424276] ingest | qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took- | ok | wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-
+[2026-09-23T23:09:38.424979] wiki-log | ingest | ok | raw/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-t
+[2026-09-23T23:09:38.689565] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-re
+[2026-09-23T23:09:52.658522] ingest | qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md | ok | wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md
+[2026-09-23T23:09:52.659705] wiki-log | ingest | ok | raw/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md → wiki/qodo-
+[2026-09-23T23:09:52.989691] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-r
+[2026-09-23T23:10:27.170415] ingest | qodo-code-aware-agentic-ai-the-system-approach.md | ok | wiki/qodo-code-aware-agentic-ai-the-system-approach.md
+[2026-09-23T23:10:27.170928] wiki-log | ingest | ok | raw/qodo-code-aware-agentic-ai-the-system-approach.md → wiki/qodo-code-aware-age
+[2026-09-23T23:10:27.386435] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-code-aware-agentic-ai-the-system-approach.md
+[2026-09-23T23:11:01.485236] ingest | qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md | ok | wiki/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md
+[2026-09-23T23:11:01.489263] wiki-log | ingest | ok | raw/qodo-when-your-system-is-an-agent-you-need-a-different-benchmark.md → wiki/q
+[2026-09-23T23:11:03.191852] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-when-your-system-is-an-agent-you-need-a-different-
+[2026-09-23T23:11:10.332577] update-index | 429 topics | ok | 
+[2026-09-23T23:11:10.333065] wiki-log | update-index | ok | 429 topics, 276 raw

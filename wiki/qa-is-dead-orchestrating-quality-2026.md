@@ -82,9 +82,13 @@ By treating validation as the primary lever rather than an after‑thought, orga
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agentic Regression Testing: What to Delegate, What to Verify](wiki/testmuai-agentic-regression-testing-2026.md)
+- [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
 - [BeyondQuality: QA in the Age of AI-Accelerated Development](wiki/beyondquality-ai-era-testing-2026.md)
 - [BrowserStack Blog — Breakpoint 2026 & Test Companion](wiki/browserstack-blog-breakpoint-2026-test-companion.md)
 - [Comprehension Debt](wiki/comprehension-debt.md)

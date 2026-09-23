@@ -94,3 +94,9 @@
 - Deep dive: [Agent Simulation Testing raw](https://getautonoma.com/blog/agent-simulation-testing), [Testing an MCP Server](https://getautonoma.com/blog/how-to-test-an-mcp-server)
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
+<!-- backlinks-end -->
