@@ -415,6 +415,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/alternateqa-simulator-kanaris-thread-2026-09-23.html",
+      "title": "Alternateqa Simulator Kanaris Thread 2026 09 23",
+      "desc": "source: \"alternateqa-simulator-kanaris-thread-2026-09-23.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/amazon-science-automated-reasoning-decade-2026.html",
       "title": "Amazon Science Automated Reasoning Decade 2026",
       "desc": "source: \"amazon-science-automated-reasoning-decade-2026.md\"",
@@ -439,6 +445,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/amazon-science-diverse-reasoning-traces-2026.html",
+      "title": "Amazon Science Diverse Reasoning Traces 2026",
+      "desc": "source: \"amazon-science-diverse-reasoning-traces-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-ec2-verified-isolation-engine-2026.html",
+      "title": "Amazon Science Ec2 Verified Isolation Engine 2026",
+      "desc": "source: \"amazon-science-ec2-verified-isolation-engine-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/amazon-science-ground-truth-is-a-process-2026.html",
       "title": "Amazon Science: Ground Truth Is a Process, Not a Dataset",
       "desc": "source: \"amazon-science-ground-truth-is-a-process-2026.md\"",
@@ -457,9 +475,27 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/amazon-science-research-agents-overfit-2026.html",
+      "title": "Why Machine‑Learning Research Agents Don’t Overfit",
+      "desc": "source: \"amazon-science-research-agents-overfit-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/amazon-science-sop-bench-agents-business-procedures-2026.html",
       "title": "SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures",
       "desc": "source: \"amazon-science-sop-bench-agents-business-procedures-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-token-ids-agentic-rl-2026.html",
+      "title": "Amazon Science Token Ids Agentic Rl 2026",
+      "desc": "source: \"amazon-science-token-ids-agentic-rl-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/amazon-science-verus-provably-correct-rust-2026.html",
+      "title": "Amazon Science Verus Provably Correct Rust 2026",
+      "desc": "source: \"amazon-science-verus-provably-correct-rust-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -1909,9 +1945,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.html",
+      "title": "Qodo Already Fixed Too Late What 90 Open Source Repos Tell Us About Code Review Blind Spots",
+      "desc": "source: \"qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qodo-blog-catalog-all-publications-2024-2026.html",
       "title": "Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)",
       "desc": "**Source:** https://www.qodo.ai/blog/ + sitemap `post-sitemap.xml` (saved `/tmp/qodo-blog-urls.txt`)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-building-an-adaptive-router-for-code-review-depth.html",
+      "title": "Qodo Building An Adaptive Router For Code Review Depth",
+      "desc": "source: \"qodo-building-an-adaptive-router-for-code-review-depth.md\"",
       "tag": "Wiki"
     },
     {
@@ -1924,6 +1972,12 @@
       "file": "wiki/qodo-code-aware-agentic-ai-the-system-approach.html",
       "title": "Minimal hello‑world agent (illustrative)",
       "desc": "source: \"qodo-code-aware-agentic-ai-the-system-approach.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.html",
+      "title": "Qodo Codex Cli Gpt 5 3 Said This Pr Was Safe Qodo 2 0 Strongly Disagreed",
+      "desc": "source: \"qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md\"",
       "tag": "Wiki"
     },
     {
@@ -1951,9 +2005,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qodo-human-reviews-were-never-the-safest-option.html",
+      "title": "Qodo Human Reviews Were Never The Safest Option",
+      "desc": "source: \"qodo-human-reviews-were-never-the-safest-option.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.html",
       "title": "Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance",
       "desc": "source: \"qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-single-agent-vs-multi-agent-code-review.html",
+      "title": "Qodo Single Agent Vs Multi Agent Code Review",
+      "desc": "source: \"qodo-single-agent-vs-multi-agent-code-review.md\"",
       "tag": "Wiki"
     },
     {
@@ -1993,6 +2059,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.html",
+      "title": "Qodo The Right Depth For Every Pr Introducing Review Effort Modes",
+      "desc": "source: \"qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.html",
       "title": "Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out",
       "desc": "source: \"qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md\"",
@@ -2017,9 +2089,27 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.html",
+      "title": "Qodo Why Code Review Needs Its Own Ai With State Of The Art Precision Recall",
+      "desc": "source: \"qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.html",
+      "title": "Why Static AI Rule Files (e.g., AGENTS.md) Fail and What Actually Works",
+      "desc": "source: \"qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.html",
       "title": "Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer",
       "desc": "source: \"qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.html",
+      "title": "Qodo – Adaptive Rules for AI‑Assisted Code",
+      "desc": "source: \"qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md\"",
       "tag": "Wiki"
     },
     {
@@ -2497,6 +2587,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/valentina-jemuovic-optivem-atdd-profile-2026.html",
+      "title": "Valentina Jemuović — Founder & Technical Coach, Optivem",
+      "desc": "source: \"valentina-jemuovic-optivem-atdd-profile-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/vector-databases-fintech-2026.html",
       "title": "Vector Databases in Fintech",
       "desc": "title: \"Vector Databases in Fintech\"",
@@ -2635,6 +2731,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 286,
+  "raw_count": 301,
   "updated": "2026-09-24"
 }

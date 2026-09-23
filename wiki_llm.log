@@ -460,3 +460,52 @@
 [2026-09-24T00:14:22.123750] wiki-log | update-index | ok | 438 topics, 286 raw
 [2026-09-24T00:14:40.462524] update-index | 439 topics | ok | 
 [2026-09-24T00:14:40.462980] wiki-log | update-index | ok | 439 topics, 286 raw
+[2026-09-24T00:22:14.629087] ingest | amazon-science-research-agents-overfit-2026.md | ok | wiki/amazon-science-research-agents-overfit-2026.md
+[2026-09-24T00:22:14.630423] wiki-log | ingest | ok | raw/amazon-science-research-agents-overfit-2026.md → wiki/amazon-science-researc
+[2026-09-24T00:22:14.953092] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-research-agents-overfit-2026.md
+[2026-09-24T00:22:18.405860] ingest | amazon-science-verus-provably-correct-rust-2026.md | ok | wiki/amazon-science-verus-provably-correct-rust-2026.md
+[2026-09-24T00:22:18.413196] wiki-log | ingest | ok | raw/amazon-science-verus-provably-correct-rust-2026.md → wiki/amazon-science-ver
+[2026-09-24T00:22:19.434638] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-verus-provably-correct-rust-2026.md
+[2026-09-24T00:22:33.980077] ingest | amazon-science-token-ids-agentic-rl-2026.md | ok | wiki/amazon-science-token-ids-agentic-rl-2026.md
+[2026-09-24T00:22:33.980639] wiki-log | ingest | ok | raw/amazon-science-token-ids-agentic-rl-2026.md → wiki/amazon-science-token-ids-
+[2026-09-24T00:22:34.344237] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-token-ids-agentic-rl-2026.md
+[2026-09-24T00:23:08.397614] ingest | amazon-science-ec2-verified-isolation-engine-2026.md | ok | wiki/amazon-science-ec2-verified-isolation-engine-2026.md
+[2026-09-24T00:23:08.400350] wiki-log | ingest | ok | raw/amazon-science-ec2-verified-isolation-engine-2026.md → wiki/amazon-science-e
+[2026-09-24T00:23:08.837740] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-ec2-verified-isolation-engine-2026.md
+[2026-09-24T00:23:11.911147] ingest | amazon-science-diverse-reasoning-traces-2026.md | ok | wiki/amazon-science-diverse-reasoning-traces-2026.md
+[2026-09-24T00:23:11.927526] wiki-log | ingest | ok | raw/amazon-science-diverse-reasoning-traces-2026.md → wiki/amazon-science-divers
+[2026-09-24T00:23:12.485770] wiki-log | backlinks | ok | 5 related pages for wiki/amazon-science-diverse-reasoning-traces-2026.md
+[2026-09-24T00:23:47.193839] ingest | qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md | ok | wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recal
+[2026-09-24T00:23:47.194389] wiki-log | ingest | ok | raw/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall
+[2026-09-24T00:23:47.504841] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the
+[2026-09-24T00:24:00.890770] ingest | qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md | ok | wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md
+[2026-09-24T00:24:00.891272] wiki-log | ingest | ok | raw/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md 
+[2026-09-24T00:24:01.132956] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-s
+[2026-09-24T00:24:34.916320] ingest | qodo-human-reviews-were-never-the-safest-option.md | ok | wiki/qodo-human-reviews-were-never-the-safest-option.md
+[2026-09-24T00:24:34.918487] wiki-log | ingest | ok | raw/qodo-human-reviews-were-never-the-safest-option.md → wiki/qodo-human-reviews
+[2026-09-24T00:24:35.973841] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-human-reviews-were-never-the-safest-option.md
+[2026-09-24T00:24:50.223345] ingest | qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review- | ok | wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-re
+[2026-09-24T00:24:50.224358] wiki-log | ingest | ok | raw/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-rev
+[2026-09-24T00:24:50.487797] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-already-fixed-too-late-what-90-open-source-repos-t
+[2026-09-24T00:25:25.812727] ingest | qodo-single-agent-vs-multi-agent-code-review.md | ok | wiki/qodo-single-agent-vs-multi-agent-code-review.md
+[2026-09-24T00:25:25.815001] wiki-log | ingest | ok | raw/qodo-single-agent-vs-multi-agent-code-review.md → wiki/qodo-single-agent-vs-
+[2026-09-24T00:25:26.097595] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-single-agent-vs-multi-agent-code-review.md
+[2026-09-24T00:25:39.822990] ingest | qodo-building-an-adaptive-router-for-code-review-depth.md | ok | wiki/qodo-building-an-adaptive-router-for-code-review-depth.md
+[2026-09-24T00:25:39.823523] wiki-log | ingest | ok | raw/qodo-building-an-adaptive-router-for-code-review-depth.md → wiki/qodo-buildi
+[2026-09-24T00:25:40.115634] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-building-an-adaptive-router-for-code-review-depth.
+[2026-09-24T00:26:13.801098] ingest | qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md | ok | wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md
+[2026-09-24T00:26:13.801639] wiki-log | ingest | ok | raw/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md → wiki/
+[2026-09-24T00:26:14.088032] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-the-right-depth-for-every-pr-introducing-review-ef
+[2026-09-24T00:26:27.662053] ingest | qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md | ok | wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md
+[2026-09-24T00:26:27.662518] wiki-log | ingest | ok | raw/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md 
+[2026-09-24T00:26:27.879038] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adap
+[2026-09-24T00:27:01.765648] ingest | qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works | ok | wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-
+[2026-09-24T00:27:01.767526] wiki-log | ingest | ok | raw/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-w
+[2026-09-24T00:27:02.621728] wiki-log | backlinks | ok | 5 related pages for wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failin
+[2026-09-24T00:27:30.071630] ingest | alternateqa-simulator-kanaris-thread-2026-09-23.md | ok | wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md
+[2026-09-24T00:27:30.072342] wiki-log | ingest | ok | raw/alternateqa-simulator-kanaris-thread-2026-09-23.md → wiki/alternateqa-simula
+[2026-09-24T00:27:30.286099] wiki-log | backlinks | ok | 5 related pages for wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md
+[2026-09-24T00:27:30.462745] update-index | 455 topics | ok | 
+[2026-09-24T00:27:30.463275] wiki-log | update-index | ok | 455 topics, 301 raw
+[2026-09-24T00:28:03.628847] update-index | 455 topics | ok | 
+[2026-09-24T00:28:03.629523] wiki-log | update-index | ok | 455 topics, 301 raw

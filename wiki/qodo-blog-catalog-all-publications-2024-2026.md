@@ -3,7 +3,7 @@
 **Source:** https://www.qodo.ai/blog/ + sitemap `post-sitemap.xml` (saved `/tmp/qodo-blog-urls.txt`)
 **Company:** Qodo (ex-Codium, renamed 30.09.2024) — AI code quality & governance platform. HQ New York + Tel Aviv (~100-150 engineers). Products: **Qodo Gen** (ex-Codiumate, IDE agent + CLI), **Qodo Merge** (ex-PR-Agent, AI code review), Context Engine, Agentic Toolbox, Rules system, Software Map. ~$120.6M total funding. Founded by Itamar Friedman (CEO) + Dedy Kredo (CPO).
 **RSS:** https://www.qodo.ai/feed/ (works ONLY with browser User-Agent — Cloudflare 403 otherwise) → added to digest-config.json
-**Last updated:** 2026-09-23 (TIER 1.5 #6-18 all ingested + State of AI Code Quality Report 2026 ingested; 20 wiki pages + catalog in Qodo cluster)
+**Last updated:** 2026-09-24 (TIER 1.5 #6-18 + TIER 2 FULL READ x9 all ingested + State of AI Code Quality Report 2026; 29 articles + catalog in Qodo cluster)
 
 ---
 
@@ -56,16 +56,16 @@
 
 ### Code Review (70 posts, ~30 medium)
 - [Static Code Analyzers vs AI Code Reviewers](https://www.qodo.ai/blog/static-code-analyzers-vs-ai-code-reviewers-best-choice/) — SKIM
-- [Why Code Review Needs Its Own AI](https://www.qodo.ai/blog/why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall/) — FULL READ
-- [Codex CLI: GPT-5.3 Said This PR Was Safe. Qodo 2.0 Strongly Disagreed.](https://www.qodo.ai/blog/codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed/) — FULL READ (live counter-example)
-- [Human Reviews Were Never the Safest Option](https://www.qodo.ai/blog/human-reviews-were-never-the-safest-option/) — FULL READ (evidence)
-- [Already Fixed, Too Late: What 90 Open-Source Repos Tell Us About Code Review Blind Spots](https://www.qodo.ai/blog/already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots/) — FULL READ
+- [Why Code Review Needs Its Own AI](https://www.qodo.ai/blog/why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall/) — ✅ ingested → [wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md](wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md)
+- [Codex CLI: GPT-5.3 Said This PR Was Safe. Qodo 2.0 Strongly Disagreed.](https://www.qodo.ai/blog/codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed/) — ✅ ingested → [wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md](wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md) (live counter-example)
+- [Human Reviews Were Never the Safest Option](https://www.qodo.ai/blog/human-reviews-were-never-the-safest-option/) — ✅ ingested → [wiki/qodo-human-reviews-were-never-the-safest-option.md](wiki/qodo-human-reviews-were-never-the-safest-option.md) (evidence)
+- [Already Fixed, Too Late: What 90 Open-Source Repos Tell Us About Code Review Blind Spots](https://www.qodo.ai/blog/already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots/) — ✅ ingested → [wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md](wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md)
 - [Reviewing React Code with AI: Spotting Unstable Components](https://www.qodo.ai/blog/reviewing-react-code-with-ai-spotting-unstable-components-before-production/) — SKIM
-- [Single Agent vs Multi-Agent Code Review](https://www.qodo.ai/blog/single-agent-vs-multi-agent-code-review/) — FULL READ
-- [Building an Adaptive Router for Code Review Depth](https://www.qodo.ai/blog/building-an-adaptive-router-for-code-review-depth/) — FULL READ (progressive rigor)
-- [The Right Depth for Every PR: Review Effort Modes](https://www.qodo.ai/blog/the-right-depth-for-every-pr-introducing-review-effort-modes/) — FULL READ (effort = risk-tiering)
-- [Your Cursor Rules Won't Scale: Adaptive Rules System](https://www.qodo.ai/blog/your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system/) — FULL READ
-- [Why Static AI Rule Files Like AGENTS.md Are Failing and What Actually Works](https://www.qodo.ai/blog/why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works/) — FULL READ (AGENTS.md counterpoint!)
+- [Single Agent vs Multi-Agent Code Review](https://www.qodo.ai/blog/single-agent-vs-multi-agent-code-review/) — ✅ ingested → [wiki/qodo-single-agent-vs-multi-agent-code-review.md](wiki/qodo-single-agent-vs-multi-agent-code-review.md)
+- [Building an Adaptive Router for Code Review Depth](https://www.qodo.ai/blog/building-an-adaptive-router-for-code-review-depth/) — ✅ ingested → [wiki/qodo-building-an-adaptive-router-for-code-review-depth.md](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md) (progressive rigor)
+- [The Right Depth for Every PR: Review Effort Modes](https://www.qodo.ai/blog/the-right-depth-for-every-pr-introducing-review-effort-modes/) — ✅ ingested → [wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md](wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md) (effort = risk-tiering)
+- [Your Cursor Rules Won't Scale: Adaptive Rules System](https://www.qodo.ai/blog/your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system/) — ✅ ingested → [wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
+- [Why Static AI Rule Files Like AGENTS.md Are Failing and What Actually Works](https://www.qodo.ai/blog/why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works/) — ✅ ingested → [wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md](wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md) (AGENTS.md counterpoint!)
 
 ### Testing (73 posts, mostly QA-automation evergreen)
 - [Qodo Gen: Evolving AI Test Generation to Agentic Workflows](https://www.qodo.ai/blog/qodo-gen-1-0-evolving-ai-test-generation-to-agentic-workflows/) — SKIM
@@ -156,16 +156,42 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo Already Fixed Too Late What 90 Open Source Repos Tell Us About Code Review Blind Spots](wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md)
+- [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)
 - [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
+- [Qodo Codex Cli Gpt 5 3 Said This Pr Was Safe Qodo 2 0 Strongly Disagreed](wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md)
+- [Qodo How Qodo Builds The Wisdom To Govern Part 2 The Rules Lifecycle System](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md)
 - [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
+- [Qodo How To Catch Ai Generated Bugs With Layered Code Review](wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md)
+- [Qodo Human Reviews Were Never The Safest Option](wiki/qodo-human-reviews-were-never-the-safest-option.md)
 - [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
 - [Qodo The Ai Code Quality Gap What 100 Engineering Leaders Told Us](wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md)
+- [Qodo The Multi Agent Revolution Why Software Engineering Principles Must Govern Ai Systems](wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md)
 - [Qodo When Claude Code Reviews Its Own Pr Who Reviews Claude](wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md)
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
+- [Qodo – Adaptive Rules for AI‑Assisted Code](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 - [Verge Rabbit Os3 Agent 2026](wiki/verge-rabbit-os3-agent-2026.md)
 - [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)

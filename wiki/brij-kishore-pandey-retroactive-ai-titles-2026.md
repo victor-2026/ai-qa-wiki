@@ -62,9 +62,13 @@ AI Architect Brij Kishore Pandey (736K LinkedIn, 7h, 81 reactions) cites Stanfor
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
+- [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)
 - [Boris Cherny Claude Maintains Apps 2026](wiki/boris-cherny-claude-maintains-apps-2026.md)
 - [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
 - [Mark Paemaa Automated Testing Confidence 2026](wiki/mark-paemaa-automated-testing-confidence-2026.md)

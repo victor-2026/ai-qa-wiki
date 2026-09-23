@@ -260,10 +260,14 @@ The official Knowledge Edition is a set of short, citable briefs, not the comple
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
 - [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
+- [Amazon Science Verus Provably Correct Rust 2026](wiki/amazon-science-verus-provably-correct-rust-2026.md)
 - [Amazon Science When Llm Judges Agree 2026](wiki/amazon-science-when-llm-judges-agree-2026.md)
 - [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)

@@ -1499,6 +1499,12 @@ github-actions:
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)
@@ -1509,6 +1515,7 @@ github-actions:
 - [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
 - [Infoq Google Ax Orchestrator 2026](wiki/infoq-google-ax-orchestrator-2026.md)
 - [Mot Agentic Test Execution 2026](wiki/mot-agentic-test-execution-2026.md)
+- [Qodo Codex Cli Gpt 5 3 Said This Pr Was Safe Qodo 2 0 Strongly Disagreed](wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md)
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)
 - [Responsibility Is the Human Moat – Principles of Responsible Work v2.0](wiki/bach-responsibility-human-moat-prw-v2-2026.md)
 - [Testing Ai Generated Auth Code Autonoma](wiki/testing-ai-generated-auth-code-autonoma.md)

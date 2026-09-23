@@ -2,7 +2,7 @@
 
 **Source:** https://www.amazon.science/blog/ + RSS `https://www.amazon.science/index.rss` (HTTP 200 with plain curl, no UA tricks needed; full-text `content:encoded`, ~25-item window May-Sep 2026, saved `/var/folders/kl/2pdh9p0j585dv40l78p7wkch0000gn/T/opencode/amazon_science.rss` on 2026-09-23)
 **Company:** Amazon Science (AWS/AGI) — research blog, ICML papers, benchmarks, verification. Not a vendor pitch channel: peer-reviewed-grade content with numbers.
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24 (TIER 1.5 all ingested; 13 articles + catalog)
 
 ---
 
@@ -26,15 +26,15 @@
 | 7 | Jun 8, 2026 | [Bridging Intent and Execution in Agentic Systems](https://www.amazon.science/blog/bridging-intent-and-execution-in-agentic-systems) | ✅ ingested → [wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md) — intent/execution gap, CIGE language |
 | 8 | May 4, 2026 | [Building Trust into AI (Responsible-AI Pipeline)](https://www.amazon.science/blog/building-trust-into-ai) | ✅ ingested → [wiki/amazon-science-building-trust-into-ai-2026.md](wiki/amazon-science-building-trust-into-ai-2026.md) — 4-phase RAI pipeline, judge-in-RLHF, red-teaming |
 
-## TIER 1.5: MEDIUM — candidates for next ingest
+## TIER 1.5: MEDIUM — all ingested 2026-09-24
 
 | Title | Date | Note |
 |-------|------|------|
-| [Why Don't Machine Learning Research Agents Overfit?](https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit) | Sep 10, 2026 | agent evals |
-| [Developing Provably Correct Rust Code with Verus](https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus) | Aug 31, 2026 | provably-correct code precedent |
-| [Capturing Token IDs During Agentic Interactions for Better RL](https://www.amazon.science/blog/capturing-token-ids-during-agentic-interactions-for-better-reinforcement-learning) | Jul 9, 2026 | agent telemetry |
-| [EC2's Formally Verified Isolation Engine](https://www.amazon.science/blog/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation) | Jun 10, 2026 | formal verification precedent |
-| [Diverse Reasoning Traces Teach LLMs to Make Better Decisions](https://www.amazon.science/blog/diverse-reasoning-traces-teach-llms-to-make-better-decisions) | May 26, 2026 | diversity ~ judge diversity |
+| [Why Don't Machine Learning Research Agents Overfit?](https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit) | Sep 10, 2026 | ✅ ingested → [wiki/amazon-science-research-agents-overfit-2026.md](wiki/amazon-science-research-agents-overfit-2026.md) |
+| [Developing Provably Correct Rust Code with Verus](https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus) | Aug 31, 2026 | ✅ ingested → [wiki/amazon-science-verus-provably-correct-rust-2026.md](wiki/amazon-science-verus-provably-correct-rust-2026.md) |
+| [Capturing Token IDs During Agentic Interactions for Better RL](https://www.amazon.science/blog/capturing-token-ids-during-agentic-interactions-for-better-reinforcement-learning) | Jul 9, 2026 | ✅ ingested → [wiki/amazon-science-token-ids-agentic-rl-2026.md](wiki/amazon-science-token-ids-agentic-rl-2026.md) |
+| [EC2's Formally Verified Isolation Engine](https://www.amazon.science/blog/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation) | Jun 10, 2026 | ✅ ingested → [wiki/amazon-science-ec2-verified-isolation-engine-2026.md](wiki/amazon-science-ec2-verified-isolation-engine-2026.md) |
+| [Diverse Reasoning Traces Teach LLMs to Make Better Decisions](https://www.amazon.science/blog/diverse-reasoning-traces-teach-llms-to-make-better-decisions) | May 26, 2026 | ✅ ingested → [wiki/amazon-science-diverse-reasoning-traces-2026.md](wiki/amazon-science-diverse-reasoning-traces-2026.md) |
 
 ## TIER 3: SKIP
 
@@ -52,7 +52,15 @@
 
 ## Digest
 
-- Feed: `https://www.amazon.science/index.rss` (plain curl OK, full-text) → кандидат в `digest-config.json` (Articles repo) как `amazon-science`, вес по аналогии с qodo/testkube. Ручной fallback: страница https://www.amazon.science/blog/
+- Feed: `https://www.amazon.science/index.rss` (plain curl OK, full-text) → добавлен в `digest-config.json` (Articles repo) вручную 2026-09-24 как `amazon-science`, weight 0.9. Ручной fallback: страница https://www.amazon.science/blog/
 - Проверка 2026-09-23: HTTP 200, 25 items (15 мая - 21 сент 2026), каждый с title/link/pubDate/description/full content:encoded.
 
 *Источники: [raw/amazon-science-when-llm-judges-agree-2026.md](raw/amazon-science-when-llm-judges-agree-2026.md), [raw/amazon-science-building-trust-into-ai-2026.md](raw/amazon-science-building-trust-into-ai-2026.md), [raw/amazon-science-ground-truth-is-a-process-2026.md](raw/amazon-science-ground-truth-is-a-process-2026.md), [raw/amazon-science-sop-bench-agents-business-procedures-2026.md](raw/amazon-science-sop-bench-agents-business-procedures-2026.md), [raw/amazon-science-automated-reasoning-decade-2026.md](raw/amazon-science-automated-reasoning-decade-2026.md), [raw/amazon-science-patient-agent-bench-2026.md](raw/amazon-science-patient-agent-bench-2026.md), [raw/amazon-science-real-world-grounding-agentic-ai-2026.md](raw/amazon-science-real-world-grounding-agentic-ai-2026.md), [raw/amazon-science-bridging-intent-execution-agentic-systems-2026.md](raw/amazon-science-bridging-intent-execution-agentic-systems-2026.md)*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
+- [Amazon Science Ec2 Verified Isolation Engine 2026](wiki/amazon-science-ec2-verified-isolation-engine-2026.md)
+- [Amazon Science Patient Agent Bench 2026](wiki/amazon-science-patient-agent-bench-2026.md)
+<!-- backlinks-end -->

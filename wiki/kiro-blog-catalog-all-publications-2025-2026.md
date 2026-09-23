@@ -291,16 +291,32 @@ Frontier team lets CLI triage prod tickets: 2:33 AM alarm → 2:46 AM (13m35s) d
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Amazon Science Ec2 Verified Isolation Engine 2026](wiki/amazon-science-ec2-verified-isolation-engine-2026.md)
 - [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
+- [Qodo Already Fixed Too Late What 90 Open Source Repos Tell Us About Code Review Blind Spots](wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md)
 - [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
 - [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
 - [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
 - [Qodo The Multi Agent Revolution Why Software Engineering Principles Must Govern Ai Systems](wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md)
+- [Qodo The Right Depth For Every Pr Introducing Review Effort Modes](wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md)
 - [Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out](wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md)
 - [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
+- [Qodo – Adaptive Rules for AI‑Assisted Code](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
 - [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)

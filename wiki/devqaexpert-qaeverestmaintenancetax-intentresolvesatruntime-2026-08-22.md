@@ -61,12 +61,16 @@ DevQAExpert’s QAEverest platform tackles the “maintenance tax” that plague
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [2026: Обзор и апробация ИИ-агентов для тестирования](wiki/ai-testing-agents-review-2026.md)
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Advanced Mutation Testing with Playwright](wiki/Mutation-testing-advanced-playwright.md)
 - [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)
+- [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
 - [QA Skills → AI Roles Transition Guide](wiki/qa-ai-transition-guide.md)
 - [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)

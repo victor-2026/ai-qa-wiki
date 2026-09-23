@@ -356,6 +356,24 @@ The practical output is a small evidence system, not a larger pile of tests.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
@@ -364,6 +382,9 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
 - [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
 - [Amazon Science Building Trust Into Ai 2026](wiki/amazon-science-building-trust-into-ai-2026.md)
+- [Amazon Science Diverse Reasoning Traces 2026](wiki/amazon-science-diverse-reasoning-traces-2026.md)
+- [Amazon Science Ec2 Verified Isolation Engine 2026](wiki/amazon-science-ec2-verified-isolation-engine-2026.md)
+- [Amazon Science Verus Provably Correct Rust 2026](wiki/amazon-science-verus-provably-correct-rust-2026.md)
 - [Amazon Science When Llm Judges Agree 2026](wiki/amazon-science-when-llm-judges-agree-2026.md)
 - [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
@@ -375,12 +396,14 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Klain Turns Out Testing Is Hard 2026](wiki/klain-turns-out-testing-is-hard-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)
 - [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
 - [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
 - [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
 - [Qodo The Ai Code Quality Gap What 100 Engineering Leaders Told Us](wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md)
 - [Qodo The Next Generation Of Ai Code Review From Isolated To System Intelligence](wiki/qodo-the-next-generation-of-ai-code-review-from-isolated-to-system-intelligence.md)
+- [Qodo The Right Depth For Every Pr Introducing Review Effort Modes](wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md)
 - [Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out](wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md)
 - [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)

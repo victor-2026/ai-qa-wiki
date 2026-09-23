@@ -96,7 +96,19 @@ Decision tree from raw: exact schema/substring → deterministic → correct ans
 *Ingested: 2026-08-31*
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Mot Ai Generated Tests Mocks 2026](wiki/mot-ai-generated-tests-mocks-2026.md)
+- [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)
+- [Qodo Codex Cli Gpt 5 3 Said This Pr Was Safe Qodo 2 0 Strongly Disagreed](wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md)
+- [Qodo The Right Depth For Every Pr Introducing Review Effort Modes](wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md)
 <!-- backlinks-end -->

@@ -135,3 +135,35 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-24 00:14 — backlinks — 5 related pages for wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md
 - 2026-09-24 00:14 — update-index — 438 topics, 286 raw
 - 2026-09-24 00:14 — update-index — 439 topics, 286 raw
+- 2026-09-24 00:22 — ingest — raw/amazon-science-research-agents-overfit-2026.md → wiki/amazon-science-research-agents-overfit-2026.md
+- 2026-09-24 00:22 — backlinks — 5 related pages for wiki/amazon-science-research-agents-overfit-2026.md
+- 2026-09-24 00:22 — ingest — raw/amazon-science-verus-provably-correct-rust-2026.md → wiki/amazon-science-verus-provably-correct-rust-2026.md
+- 2026-09-24 00:22 — backlinks — 5 related pages for wiki/amazon-science-verus-provably-correct-rust-2026.md
+- 2026-09-24 00:22 — ingest — raw/amazon-science-token-ids-agentic-rl-2026.md → wiki/amazon-science-token-ids-agentic-rl-2026.md
+- 2026-09-24 00:22 — backlinks — 5 related pages for wiki/amazon-science-token-ids-agentic-rl-2026.md
+- 2026-09-24 00:23 — ingest — raw/amazon-science-ec2-verified-isolation-engine-2026.md → wiki/amazon-science-ec2-verified-isolation-engine-2026.md
+- 2026-09-24 00:23 — backlinks — 5 related pages for wiki/amazon-science-ec2-verified-isolation-engine-2026.md
+- 2026-09-24 00:23 — ingest — raw/amazon-science-diverse-reasoning-traces-2026.md → wiki/amazon-science-diverse-reasoning-traces-2026.md
+- 2026-09-24 00:23 — backlinks — 5 related pages for wiki/amazon-science-diverse-reasoning-traces-2026.md
+- 2026-09-24 00:23 — ingest — raw/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md → wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md
+- 2026-09-24 00:23 — backlinks — 5 related pages for wiki/qodo-why-code-review-needs-its-own-ai-with-state-of-the-art-precision-recall.md
+- 2026-09-24 00:24 — ingest — raw/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md → wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md
+- 2026-09-24 00:24 — backlinks — 5 related pages for wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md
+- 2026-09-24 00:24 — ingest — raw/qodo-human-reviews-were-never-the-safest-option.md → wiki/qodo-human-reviews-were-never-the-safest-option.md
+- 2026-09-24 00:24 — backlinks — 5 related pages for wiki/qodo-human-reviews-were-never-the-safest-option.md
+- 2026-09-24 00:24 — ingest — raw/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md → wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md
+- 2026-09-24 00:24 — backlinks — 5 related pages for wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md
+- 2026-09-24 00:25 — ingest — raw/qodo-single-agent-vs-multi-agent-code-review.md → wiki/qodo-single-agent-vs-multi-agent-code-review.md
+- 2026-09-24 00:25 — backlinks — 5 related pages for wiki/qodo-single-agent-vs-multi-agent-code-review.md
+- 2026-09-24 00:25 — ingest — raw/qodo-building-an-adaptive-router-for-code-review-depth.md → wiki/qodo-building-an-adaptive-router-for-code-review-depth.md
+- 2026-09-24 00:25 — backlinks — 5 related pages for wiki/qodo-building-an-adaptive-router-for-code-review-depth.md
+- 2026-09-24 00:26 — ingest — raw/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md → wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md
+- 2026-09-24 00:26 — backlinks — 5 related pages for wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md
+- 2026-09-24 00:26 — ingest — raw/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md → wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md
+- 2026-09-24 00:26 — backlinks — 5 related pages for wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md
+- 2026-09-24 00:27 — ingest — raw/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md → wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md
+- 2026-09-24 00:27 — backlinks — 5 related pages for wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md
+- 2026-09-24 00:27 — ingest — raw/alternateqa-simulator-kanaris-thread-2026-09-23.md → wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md
+- 2026-09-24 00:27 — backlinks — 5 related pages for wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md
+- 2026-09-24 00:27 — update-index — 455 topics, 301 raw
+- 2026-09-24 00:28 — update-index — 455 topics, 301 raw

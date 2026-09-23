@@ -105,9 +105,13 @@ Agent does triage today; increasingly repairs (drafting code reviews for fixes b
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
+- [Qodo Single Agent Vs Multi Agent Code Review](wiki/qodo-single-agent-vs-multi-agent-code-review.md)
 - [Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out](wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 <!-- backlinks-end -->

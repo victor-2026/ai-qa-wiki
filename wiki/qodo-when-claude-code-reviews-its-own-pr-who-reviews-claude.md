@@ -63,9 +63,13 @@ In a controlled experiment Claude Code both authored and reviewed a `pythonic_
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Andrew Ng: AI Engineering Skills Map — Using Coding Agents](wiki/andrew-ng-coding-agents-skills-map-2026.md)
 - [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)
+- [Qodo Codex Cli Gpt 5 3 Said This Pr Was Safe Qodo 2 0 Strongly Disagreed](wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md)
 <!-- backlinks-end -->

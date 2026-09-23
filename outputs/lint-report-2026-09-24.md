@@ -1,14 +1,14 @@
 # Wiki Lint Report — 2026-09-24
 
-- Timestamp: 2026-09-24T00:14:41.012975
-- Wiki pages: 437
-- Internal links OK: 1290
+- Timestamp: 2026-09-24T00:28:04.255272
+- Wiki pages: 453
+- Internal links OK: 1437
 - Broken links: 0
-- Orphans: 230
+- Orphans: 227
 - Stubs (<200 chars): 0
 - Raw without wiki: 70
 - Duplicate-ish stems: 0
-- Quotes verity issues: 407
+- Quotes verity issues: 410
 
 ## Orphans (no inbound links)
 - 101-beginner-database-design.md
@@ -53,7 +53,6 @@
 - ai-testing-metrics.md
 - ai-testing-platform-comparison-2026.md
 - allure-testops-research-2026.md
-- amazon-science-blog-catalog-2026.md
 - anti-flakiness-habr.md
 - antigravity-benchmark.md
 - anton-gulin-playwright-vs-cypress-vs-selenium-2026.md
@@ -125,7 +124,6 @@
 - kiro-diagnostics-over-time-agent-quality-2026.md
 - kiro-openapi-to-testsuite-2026.md
 - kiro-property-based-testing-security-bug-2026.md
-- kiro-root-cause-33s-2026.md
 - kiro-snyk-guardrails-2026.md
 - kiro-soc2-planview-automation-2026.md
 - klain-testing-mindset-evaluator-independence-2026-08.md
@@ -165,7 +163,6 @@
 - pi-opencode-integration-2026.md
 - pipeline-triad-pattern.md
 - playwright-test-agents-2026.md
-- post-about-contract-testing-guide.md
 - postman-blog-catalog-all-publications-2026.md
 - practitest-state-of-testing-2026.md
 - promptfoo-eval-suite.md
@@ -190,7 +187,6 @@
 - rinat-llm-benchmarks-2026.md
 - rinat-sgr-2026.md
 - rinat-sgr-adaptive-planning-2026.md
-- risk-based-testing-skill.md
 - rmorison-six-layer-ai-architecture-2026.md
 - rtm-matrix-habr.md
 - runtime-authorization-ai-agents-2026.md
@@ -225,6 +221,7 @@
 - tony-seale-multi-agent-semantic-web-2026.md
 - trickcatcher-bug-detection.md
 - ui-fuzzing.md
+- valentina-jemuovic-optivem-atdd-profile-2026.md
 - verification-completeness-testing-paradox-2026.md
 - vibe-coding-links.md
 - vibe-coding-vs-spec-driven.md
@@ -401,6 +398,7 @@
 - `alex-barady-ai-builder-9-concepts-2026.md` [no-source]: alex barády: 9 concepts that separate ai user from ai builder…
 - `alex-barady-ai-builder-9-concepts-2026.md` [no-source]: people spend months perfecting prompts and ignore the infrastructure, evaluation…
 - `alex-barady-ai-builder-9-concepts-2026.md` [no-source]: i operate at builder level across all 9 concepts…
+- `amazon-science-research-agents-overfit-2026.md` [no-source]: resnet‑50 + adamw, lr = 3e‑4, cosine decay…
 - `amazon-science-when-llm-judges-agree-2026.md` [no-source]: 8 correlated votes ≈ 3 independent votes…
 - `andrew-ng-loop-engineering-2026.md` [no-source]: if the system repeatedly runs into problems, build a set of evals…
 - `andrew-ng-loop-engineering-2026.md` [no-source]: so developer qa time dropped. but self-testing = *checking*, not *testing* (bach…
@@ -636,7 +634,9 @@
 - `qodo-code-aware-agentic-ai-the-system-approach.md` [no-source]: where is the retry logic for payment processing?…
 - `qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md` [no-source]: changed request field ; still generates . regenerate sdk and update usage before…
 - `qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md` [no-source]: no contract change without consumer acknowledgment…
+- `qodo-human-reviews-were-never-the-safest-option.md` [no-source]: human reviews were never the safest option…
 - `qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md` [no-source]: all database calls must be wrapped in a retry block…
+- `qodo-single-agent-vs-multi-agent-code-review.md` [no-source]: all prs touching the payment sdk must pass the security agent…
 - `qodo-state-of-ai-code-quality-report-2026.md` [no-source]: reviewing the right ai‑generated code at scale…
 - `qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md` [no-source]: faster delivery **without** breaking things.…
 - `qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md` [no-source]: replace raw path string with validated object…
@@ -728,6 +728,6 @@
 | Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |
 |-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|
 | 2026-09-23 | 427 | 1190 | 0 | 233 | 0 | 70 | 0 | — | — |
-| 2026-09-24 | 437 | 1290 | 0 | 230 | 0 | 70 | 0 | -3 | +0 |
+| 2026-09-24 | 453 | 1437 | 0 | 227 | 0 | 70 | 0 | -6 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.

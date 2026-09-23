@@ -1,0 +1,67 @@
+---
+source: "qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md"
+ingested: "2026-09-24"
+---
+
+# Qodo – Adaptive Rules for AI‑Assisted Code  
+
+**Date:** 23 Sep 2026 – *Your Cursor Rules Won’t Scale*  
+
+---
+
+## Summary  
+
+Static markdown files (e.g., `.cursorrules`, `best‑practices.md`) cannot keep pace with the velocity of AI‑generated code. When thousands of pull requests are produced each quarter, scattered standards become a liability: conflicts go unnoticed, decay is silent, and there is no way to measure the impact of a rule. Qodo’s answer is a **living rules system** that discovers, maintains, measures, and enforces standards automatically across every AI coding tool in the development pipeline.
+
+---
+
+## Key Concepts  
+
+| Concept | What it means | Why it matters |
+|---------|---------------|----------------|
+| **Auto‑Discovery** | A Rules Discovery Agent scans the codebase, PR history, and reviewer comments to propose rule candidates (e.g., “prefer early returns”). | Rules reflect actual team behavior instead of imagined best‑practices. |
+| **Self‑Health Monitoring** | A Rules Expert Agent continuously checks for conflicts, duplicates, inactivity, and noise, flagging rules that need deprecation or merging. | Prevents rule rot and eliminates contradictory guidance. |
+| **Analytics‑Backed Value** | Dashboards expose adoption rates, violation trends, fix rates, and overall impact. | Turns vague standards into measurable outcomes that leaders can act on. |
+| **Cross‑Tool Enforcement** | One source‑of‑truth exports to IDE extensions, CI checks, and AI assistants such as Cursor, GitHub Copilot, and Claude. | Guarantees consistent guidance regardless of where code is written or reviewed. |
+| **Closed‑Loop Lifecycle** | Discover → Measure → Evolve → Enforce → Review → (repeat). | Guarantees that rules evolve as the codebase and team priorities change. |
+
+---
+
+## Practical Applications  
+
+1. **Bootstrapping Standards** – When a new project is onboarded, the discovery agent extracts existing conventions (naming, security checks, architectural patterns) and creates an initial rule set without manual effort.  
+
+2. **Continuous Governance** – As developers push code, Qodo flags violations in the IDE with actionable remediation steps; the same checks appear in pull‑request reviews, preventing regressions before merge.  
+
+3. **Conflict Resolution** – If two rules clash (e.g., “use tabs” vs. “use spaces”), the expert agent surfaces the conflict, allowing a quick decision to merge, prioritize, or retire one rule.  
+
+4. **Data‑Driven Rule Pruning** – Analytics reveal rules that generate many violations but have low fix rates, indicating noise. Teams can deprecate such rules, reducing cognitive load.  
+
+5. **Organization‑Wide Consistency** – By exporting the central rule catalog to every AI coding assistant, large enterprises avoid fragmented standards across monorepos, micro‑services, or independent teams.  
+
+6. **Leadership Insight** – Engineering managers view trend charts to assess whether rule adoption improves over time, supporting evidence‑based process improvements.  
+
+---
+
+## How Qodo Implements the System  
+
+1. **Rules Discovery Agent** – Parses source files, PR diffs, and reviewer comments; clusters recurring patterns; proposes rule drafts.  
+2. **Rules Expert Agent** – Runs periodic health checks, detecting contradictions, duplicates, decay, and high‑noise rules.  
+3. **Enforcement Layer** – Injects rule checks into IDE plugins, pre‑commit hooks, and CI pipelines; provides structured remediation guidance.  
+4. **Analytics Dashboard** – Visualizes adoption, violation clusters, fix velocity, and rule impact; supports export for reporting.  
+5. **Export Engine** – Generates compatible configuration files for Cursor, Copilot, Claude, and any tool that consumes markdown‑style rule definitions.  
+
+The result is a **self‑sustaining governance loop** where institutional knowledge becomes automated, measurable, and continuously refined.
+
+---
+
+### See also  
+
+- [Qodo Blog: Complete Publications Catalog (2024‑2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)  
+- [Qodo – The Multi‑Agent Revolution: Why Software‑Engineering Principles Must Govern AI Systems](wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md)  
+- [Qodo – How Qodo Builds the Wisdom to Govern – Part 2: The Rules Lifecycle System](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-part-2-the-rules-lifecycle-system.md)  
+- [Kiro Blog: Complete Publications Catalog (2025‑2026)](wiki/kiro-blog-catalog-all-publications-2025-2026.md)  
+- [Qodo – How to Catch AI‑Generated Bugs with Layered Code Review](wiki/qodo-how-to-catch-ai-generated-bugs-with-layered-code-review.md)  
+
+---
+*Source: [raw/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md](../raw/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md) · Generated by wiki_llm.py (Groq)*

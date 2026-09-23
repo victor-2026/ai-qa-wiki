@@ -181,9 +181,13 @@ AI coding tools generate application code, NOT operational infrastructure:
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
+- [Amazon Science Diverse Reasoning Traces 2026](wiki/amazon-science-diverse-reasoning-traces-2026.md)
 - [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
 - [Qodo The Multi Agent Revolution Why Software Engineering Principles Must Govern Ai Systems](wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md)
 <!-- backlinks-end -->

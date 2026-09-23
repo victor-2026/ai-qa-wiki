@@ -398,6 +398,39 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
@@ -405,6 +438,7 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
 - [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
 - [Amazon Science Building Trust Into Ai 2026](wiki/amazon-science-building-trust-into-ai-2026.md)
+- [Amazon Science Diverse Reasoning Traces 2026](wiki/amazon-science-diverse-reasoning-traces-2026.md)
 - [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
 - [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
@@ -429,9 +463,13 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Mot Ai Generated Tests Mocks 2026](wiki/mot-ai-generated-tests-mocks-2026.md)
 - [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
+- [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)
+- [Qodo Codex Cli Gpt 5 3 Said This Pr Was Safe Qodo 2 0 Strongly Disagreed](wiki/qodo-codex-cli-gpt-5-3-said-this-pr-was-safe-qodo-2-0-strongly-disagreed.md)
 - [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
+- [Qodo Human Reviews Were Never The Safest Option](wiki/qodo-human-reviews-were-never-the-safest-option.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
 - [Qodo Tests Are Not Enough Why Code Integrity Matters](wiki/qodo-tests-are-not-enough-why-code-integrity-matters.md)
+- [Qodo The Right Depth For Every Pr Introducing Review Effort Modes](wiki/qodo-the-right-depth-for-every-pr-introducing-review-effort-modes.md)
 - [Qodo We Built A State Of The Art Rag System For Code Review In Qodo 2 4 We Took Most Of It Out](wiki/qodo-we-built-a-state-of-the-art-rag-system-for-code-review-in-qodo-2-4-we-took-most-of-it-out.md)
 - [Qodo When Claude Code Reviews Its Own Pr Who Reviews Claude](wiki/qodo-when-claude-code-reviews-its-own-pr-who-reviews-claude.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
@@ -442,4 +480,5 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 - [Toloka Llm Qa Agent Verification 2026](wiki/toloka-llm-qa-agent-verification-2026.md)
 - [Virto Commerce Integration Glossary 2026](wiki/virto-commerce-integration-glossary-2026.md)
+- [Why Static AI Rule Files (e.g., AGENTS.md) Fail and What Actually Works](wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md)
 <!-- backlinks-end -->

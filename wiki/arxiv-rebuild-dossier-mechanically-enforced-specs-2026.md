@@ -56,10 +56,14 @@ A stronger model repeated the full process three times without failure, whereas 
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Agents Replace Team Roles: The 35-Agent Startup Model](wiki/ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.md)
 - [Amazon Science Patient Agent Bench 2026](wiki/amazon-science-patient-agent-bench-2026.md)
+- [Amazon Science Verus Provably Correct Rust 2026](wiki/amazon-science-verus-provably-correct-rust-2026.md)
 - [How to Test Multi-Turn Conversations and Context Retention](wiki/autonoma-multi-turn-conversations-2026.md)
 - [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
 - [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)

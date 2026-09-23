@@ -154,12 +154,16 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Alex Barády: 9 Concepts That Separate AI User from AI Builder](wiki/alex-barady-ai-builder-9-concepts-2026.md)
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
 - [Amazon Science Building Trust Into Ai 2026](wiki/amazon-science-building-trust-into-ai-2026.md)
+- [Amazon Science Diverse Reasoning Traces 2026](wiki/amazon-science-diverse-reasoning-traces-2026.md)
 - [Amazon Science Patient Agent Bench 2026](wiki/amazon-science-patient-agent-bench-2026.md)
 - [Amazon Science Real World Grounding Agentic Ai 2026](wiki/amazon-science-real-world-grounding-agentic-ai-2026.md)
 - [Amazon Science When Llm Judges Agree 2026](wiki/amazon-science-when-llm-judges-agree-2026.md)

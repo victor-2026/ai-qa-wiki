@@ -93,7 +93,14 @@
 *Ingested: 2026-08-31*
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
+- [Amazon Science Verus Provably Correct Rust 2026](wiki/amazon-science-verus-provably-correct-rust-2026.md)
 <!-- backlinks-end -->

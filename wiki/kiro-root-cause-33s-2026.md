@@ -88,3 +88,9 @@ Additional note: combine with mutation testing — C/¬C partition becomes mutan
 Note: 33s wall-clock excludes human build/validation — end-to-end with review ~5-10m, still order-of-magnitude faster than manual days.
 
 *Ingested: 2026-08-30*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Qodo Single Agent Vs Multi Agent Code Review](wiki/qodo-single-agent-vs-multi-agent-code-review.md)
+<!-- backlinks-end -->
