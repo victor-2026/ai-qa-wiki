@@ -91,6 +91,9 @@ Implication: the mutation matrix moved from external audit to built-in product m
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
@@ -101,6 +104,7 @@ Implication: the mutation matrix moved from external audit to built-in product m
 - [Andrew Ng Openworker Security Agents 2026](wiki/andrew-ng-openworker-security-agents-2026.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
 - [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
+- [Jay Aigner Surface Vs Trust 2026](wiki/jay-aigner-surface-vs-trust-2026.md)
 - [Michael Bolton Systems Thinking Constraints 2026](wiki/michael-bolton-systems-thinking-constraints-2026.md)
 - [Prachi Dahibhate James Bach Rst 2026](wiki/prachi-dahibhate-james-bach-rst-2026.md)
 - [Qaeverest Pilot Handson Import Confidence Human Gate 2026 08 25](wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md)

@@ -59,7 +59,11 @@ Networking company, cross-team integration leaks. One week: ~1,000 stories/artif
 - Articles 22/26/27: external-vendor seam (22), break-the-tool (26), verify-don't-trust (27) — OrangePro is itself a vendor tool to be broken on purpose.
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Jay Aigner Surface Vs Trust 2026](wiki/jay-aigner-surface-vs-trust-2026.md)
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
 <!-- backlinks-end -->

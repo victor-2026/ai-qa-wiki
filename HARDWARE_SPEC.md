@@ -27,20 +27,26 @@
   - Qdrant vector database
   - Docker (qa-automation-sandbox)
 
-### Model Capacity:
+### Model Capacity (факт 2026-09-24, 20 моделей через LAN+VPN):
 
 | Model | Size | Fits? | Purpose |
 |-------|------|-------|---------|
+| **llama3.3:70b-instruct-q4_K_M** | ~42GB | ✅ Yes (64GB RAM) | Флагман Q&A/English, квант решил вопрос GPU |
+| **gpt-oss:20b** | ~13GB | ✅ Yes | Open-weights флагман средний |
+| **playwright-32b-q4** | ~19GB | ✅ Yes | Playwright-тесты (кастом) |
+| **deepseek-r1:14b / :7b** | ~8GB / ~4GB | ✅ Yes | Reasoning EN |
+| **qwen2.5:14b** | ~8GB | ✅ Yes | Русский #1 |
+| **deepseek-coder-v2:16b (+lite)** | ~8GB | ✅ Yes | Кодинг |
+| **qwen2.5-coder:7b (+instruct, +playwright-test)** | ~4GB | ✅ Yes | Кодинг/тесты |
+| **mistral-nemo / starcoder2:7b / codeqwen** | ~4-7GB | ✅ Yes | Код-альтернативы |
+| **llama3.2-vision / minicpm-v** | ~7GB / ~5GB | ✅ Yes | Vision |
+| **llama3.2:3b / qwen2.5:3b(+32k) / tinyllama** | ~1-2GB | ✅ Yes | Быстрые тесты |
 | **kimi-k2.6:cloud** | ~32GB+ | ☁️ Cloud only | Agentic coding |
-| **llama3.3:70b** | ~40GB | ✅ Yes (64GB) | Q&A, Russian |
-| **deepseek-r1:14b** | ~9GB | ✅ Yes | English tasks |
-| **qwen2.5:14b** | ~9GB | ✅ Yes | Russian text |
-| **llama3.2:3b** | ~2GB | ✅ Yes | Quick tests |
 
 ### Network:
-- **Local IP:** 192.168.1.224
-- **ZeroTier VPN:** 10.24.175.30 (accessible from MacBook)
-- **Ollama API:** `http://192.168.1.224:11434`
+- **Local IP (DHCP, меняется):** 192.168.1.209 (LAN-кабель, проверено 2026-09-24) или 192.168.1.224 (WiFi, запись от 2026-04-30)
+- **ZeroTier VPN:** 10.24.175.30 (доступен с MacBook, ping 5.6ms, проверено 2026-09-24)
+- **Ollama API:** `http://192.168.1.209:11434` (LAN, ping 2ms) или `http://10.24.175.30:11434` (VPN fallback)
 - **Docker:** qa-automation-sandbox (backend, frontend, db)
 
 ---
@@ -110,14 +116,15 @@
 
 ## Model Deployment Strategy
 
-### PC-224 (Local Models):
+### PC-224 (Local Models, endpoint LAN `http://192.168.1.209:11434` / VPN `http://10.24.175.30:11434`):
 
 | Model | Command | API Endpoint |
 |-------|---------|---------------|
-| **qwen2.5:14b** | `ollama run qwen2.5:14b` | `http://192.168.1.224:11434` |
-| **deepseek-r1:14b** | `ollama run deepseek-r1:14b` | `http://192.168.1.224:11434` |
-| **llama3.2-vision** | `ollama run llama3.2-vision` | `http://192.168.1.224:11434` |
-| **llama3.3:70b** | `ollama run llama3.3:70b --gpu` | Needs GPU |
+| **qwen2.5:14b** | `ollama run qwen2.5:14b` | LAN / VPN :11434 |
+| **deepseek-r1:14b** | `ollama run deepseek-r1:14b` | LAN / VPN :11434 |
+| **llama3.2-vision / minicpm-v** | `ollama run llama3.2-vision` | LAN / VPN :11434 |
+| **llama3.3:70b-instruct-q4_K_M** | `ollama run llama3.3:70b-instruct-q4_K_M` | LAN / VPN :11434 (CPU+RAM, медленно) |
+| **coders (qwen2.5-coder, deepseek-coder-v2, starcoder2, codeqwen)** | `ollama run <name>` | LAN / VPN :11434 |
 
 ### Cloud Models (via Ollama Cloud):
 

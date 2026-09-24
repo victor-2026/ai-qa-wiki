@@ -94,3 +94,9 @@ Adversarial specifics delegated: `how-to-test-for-prompt-injection` for payload 
 
 ---
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Shrm Ai Field Manual Hr Use Cases 2026](wiki/shrm-ai-field-manual-hr-use-cases-2026.md)
+<!-- backlinks-end -->

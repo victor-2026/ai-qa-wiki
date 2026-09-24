@@ -449,6 +449,12 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
@@ -471,6 +477,7 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Connect the Dots (CoD): Training LLMs for Long‑Lifecycle Agents](wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
 - [Devqaexpert Qaeverestmaintenancetax Intentresolvesatruntime 2026 08 22](wiki/devqaexpert-qaeverestmaintenancetax-intentresolvesatruntime-2026-08-22.md)
+- [Grzegorz Laya Router River Raid 2026](wiki/grzegorz-laya-router-river-raid-2026.md)
 - [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
 - [Infoq Google Ax Orchestrator 2026](wiki/infoq-google-ax-orchestrator-2026.md)
 - [Ishan Anand Llm Persona Feedback Failure Modes 2026](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md)
@@ -495,6 +502,7 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Responsibility Is the Human Moat – Principles of Responsible Work v2.0](wiki/bach-responsibility-human-moat-prw-v2-2026.md)
 - [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
 - [Satisfice Blog Catalog 2026](wiki/satisfice-blog-catalog-2026.md)
+- [Shrm Ai Field Manual Hr Use Cases 2026](wiki/shrm-ai-field-manual-hr-use-cases-2026.md)
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 - [Toloka Llm Qa Agent Verification 2026](wiki/toloka-llm-qa-agent-verification-2026.md)

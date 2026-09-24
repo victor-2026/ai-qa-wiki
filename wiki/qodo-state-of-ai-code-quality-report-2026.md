@@ -69,8 +69,13 @@ As AI agents assume more of the development lifecycle, verification will increas
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Jay Aigner Surface Vs Trust 2026](wiki/jay-aigner-surface-vs-trust-2026.md)
+- [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)
 - [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)
 - [Qodo The Ai Code Quality Gap What 100 Engineering Leaders Told Us](wiki/qodo-the-ai-code-quality-gap-what-100-engineering-leaders-told-us.md)
 <!-- backlinks-end -->

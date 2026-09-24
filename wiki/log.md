@@ -201,3 +201,13 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-24 18:31 — ingest — raw/applitools-deterministic-guardrails-whitepaper-2026.md → wiki/applitools-deterministic-guardrails-whitepaper-2026.md
 - 2026-09-24 18:31 — backlinks — 5 related pages for wiki/applitools-deterministic-guardrails-whitepaper-2026.md
 - 2026-09-24 18:31 — update-index — 469 topics, 316 raw
+- 2026-09-24 20:28 — ingest — raw/shrm-ai-field-manual-hr-use-cases-2026.md → wiki/shrm-ai-field-manual-hr-use-cases-2026.md
+- 2026-09-24 20:28 — backlinks — 5 related pages for wiki/shrm-ai-field-manual-hr-use-cases-2026.md
+- 2026-09-24 20:28 — update-index — 470 topics, 317 raw
+- 2026-09-24 21:03 — ingest — raw/grzegorz-laya-router-river-raid-2026.md → wiki/grzegorz-laya-router-river-raid-2026.md
+- 2026-09-24 21:03 — backlinks — 5 related pages for wiki/grzegorz-laya-router-river-raid-2026.md
+- 2026-09-24 21:03 — update-index — 471 topics, 318 raw
+- 2026-09-24 23:00 — ingest — raw/jay-aigner-surface-vs-trust-2026.md → wiki/jay-aigner-surface-vs-trust-2026.md
+- 2026-09-24 23:00 — backlinks — 5 related pages for wiki/jay-aigner-surface-vs-trust-2026.md
+- 2026-09-24 23:00 — update-index — 473 topics, 319 raw
+- 2026-09-24 23:58 — update-index — 474 topics, 319 raw

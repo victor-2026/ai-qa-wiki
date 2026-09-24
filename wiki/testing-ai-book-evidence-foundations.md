@@ -386,6 +386,12 @@ The practical output is a small evidence system, not a larger pile of tests.
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
@@ -403,6 +409,7 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Bach Ai Writing Policy Psa 2026](wiki/bach-ai-writing-policy-psa-2026.md)
 - [Bach Slop Coding Responsible Testers 2025](wiki/bach-slop-coding-responsible-testers-2025.md)
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)
+- [Grzegorz Laya Router River Raid 2026](wiki/grzegorz-laya-router-river-raid-2026.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [Kaggle Benchmarks Track Evals 2026](wiki/kaggle-benchmarks-track-evals-2026.md)
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
@@ -422,5 +429,6 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
 - [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
+- [Shrm Ai Field Manual Hr Use Cases 2026](wiki/shrm-ai-field-manual-hr-use-cases-2026.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
 <!-- backlinks-end -->

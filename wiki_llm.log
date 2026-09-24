@@ -564,3 +564,20 @@
 [2026-09-24T18:31:26.039433] wiki-log | backlinks | ok | 5 related pages for wiki/applitools-deterministic-guardrails-whitepaper-2026.md
 [2026-09-24T18:31:26.827682] update-index | 469 topics | ok | 
 [2026-09-24T18:31:26.829235] wiki-log | update-index | ok | 469 topics, 316 raw
+[2026-09-24T20:28:41.109777] ingest | shrm-ai-field-manual-hr-use-cases-2026.md | ok | wiki/shrm-ai-field-manual-hr-use-cases-2026.md
+[2026-09-24T20:28:41.111104] wiki-log | ingest | ok | raw/shrm-ai-field-manual-hr-use-cases-2026.md → wiki/shrm-ai-field-manual-hr-use
+[2026-09-24T20:28:41.507528] wiki-log | backlinks | ok | 5 related pages for wiki/shrm-ai-field-manual-hr-use-cases-2026.md
+[2026-09-24T20:28:41.795141] update-index | 470 topics | ok | 
+[2026-09-24T20:28:41.795927] wiki-log | update-index | ok | 470 topics, 317 raw
+[2026-09-24T21:03:57.114968] ingest | grzegorz-laya-router-river-raid-2026.md | ok | wiki/grzegorz-laya-router-river-raid-2026.md
+[2026-09-24T21:03:57.116277] wiki-log | ingest | ok | raw/grzegorz-laya-router-river-raid-2026.md → wiki/grzegorz-laya-router-river-ra
+[2026-09-24T21:03:57.974056] wiki-log | backlinks | ok | 5 related pages for wiki/grzegorz-laya-router-river-raid-2026.md
+[2026-09-24T21:03:58.353165] update-index | 471 topics | ok | 
+[2026-09-24T21:03:58.354031] wiki-log | update-index | ok | 471 topics, 318 raw
+[2026-09-24T23:00:05.743280] ingest | jay-aigner-surface-vs-trust-2026.md | ok | wiki/jay-aigner-surface-vs-trust-2026.md
+[2026-09-24T23:00:05.745526] wiki-log | ingest | ok | raw/jay-aigner-surface-vs-trust-2026.md → wiki/jay-aigner-surface-vs-trust-2026.
+[2026-09-24T23:00:06.892403] wiki-log | backlinks | ok | 5 related pages for wiki/jay-aigner-surface-vs-trust-2026.md
+[2026-09-24T23:00:08.280054] update-index | 473 topics | ok | 
+[2026-09-24T23:00:08.281622] wiki-log | update-index | ok | 473 topics, 319 raw
+[2026-09-24T23:58:29.027763] update-index | 474 topics | ok | 
+[2026-09-24T23:58:29.029031] wiki-log | update-index | ok | 474 topics, 319 raw

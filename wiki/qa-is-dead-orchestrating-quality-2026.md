@@ -85,6 +85,9 @@ By treating validation as the primary lever rather than an after‑thought, orga
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agentic Regression Testing: What to Delegate, What to Verify](wiki/testmuai-agentic-regression-testing-2026.md)
@@ -92,5 +95,6 @@ By treating validation as the primary lever rather than an after‑thought, orga
 - [BeyondQuality: QA in the Age of AI-Accelerated Development](wiki/beyondquality-ai-era-testing-2026.md)
 - [BrowserStack Blog — Breakpoint 2026 & Test Companion](wiki/browserstack-blog-breakpoint-2026-test-companion.md)
 - [Comprehension Debt](wiki/comprehension-debt.md)
+- [Jay Aigner Surface Vs Trust 2026](wiki/jay-aigner-surface-vs-trust-2026.md)
 - [The2026Aitestingfrontier Astrategicevaluationofautonomousqalifecycleplatforms](wiki/the2026aitestingfrontier-astrategicevaluationofautonomousqalifecycleplatforms.md)
 <!-- backlinks-end -->

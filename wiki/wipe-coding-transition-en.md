@@ -181,9 +181,13 @@ Use vibe coding for prototyping. Use wipe-coding for production.
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
 - [Cursor Vs Antigravity Autonoma](wiki/cursor-vs-antigravity-autonoma.md)
+- [Shrm Ai Field Manual Hr Use Cases 2026](wiki/shrm-ai-field-manual-hr-use-cases-2026.md)
 <!-- backlinks-end -->

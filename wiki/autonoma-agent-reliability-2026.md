@@ -90,3 +90,9 @@ Instrumentation minimum for a usable trajectory log: exact input (prompt/history
 - Deeper: [Agent Regression Testing](https://getautonoma.com/blog/agent-regression-testing), [Agent Simulation Testing](https://getautonoma.com/blog/agent-simulation-testing), [arXiv:2602.16666](https://arxiv.org/abs/2602.16666), [AgentAssay:2603.02601](https://arxiv.org/abs/2603.02601)
 
 *Ingested: 2026-08-31*
+
+
+<!-- backlinks-start -->
+### Backlinks
+- [Grzegorz Laya Router River Raid 2026](wiki/grzegorz-laya-router-river-raid-2026.md)
+<!-- backlinks-end -->

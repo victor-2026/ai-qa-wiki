@@ -1225,6 +1225,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/grzegorz-laya-router-river-raid-2026.html",
+      "title": "Grzegorz Laya Router River Raid 2026",
+      "desc": "source: \"grzegorz-laya-router-river-raid-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/hack-n-vibe-bitgn-pac1-agent.html",
       "title": "Hack N Vibe Bitgn Pac1 Agent",
       "desc": "source: \"hack-n-vibe-bitgn-pac1-agent.md\"",
@@ -1366,6 +1372,18 @@
       "file": "wiki/jason-arbon-how-ai-tests-software-2026.html",
       "title": "Jason Arbon: How AI Tests Software (first reading draft, 2026-09)",
       "desc": "title: \"Jason Arbon: How AI Tests Software (бета: AI Checks, AI Tests, AI Test Harness, AI Confidence)\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/jay-aigner-surface-vs-trust-2026.html",
+      "title": "Jay Aigner Surface Vs Trust 2026",
+      "desc": "source: \"jay-aigner-surface-vs-trust-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/jdaqa-quality-debt-company-profile-2026.html",
+      "title": "JDAQA — Quality Debt Company Profile (Philadelphia, 2026-09-24)",
+      "desc": "**Company:** JDAQA (https://jdaqa.com/), Philadelphia PA, CEO Jay Aigner (\"QA is Dead\", First Customer Podcast host). Po",
       "tag": "Wiki"
     },
     {
@@ -2377,6 +2395,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/shrm-ai-field-manual-hr-use-cases-2026.html",
+      "title": "Shrm Ai Field Manual Hr Use Cases 2026",
+      "desc": "source: \"shrm-ai-field-manual-hr-use-cases-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/slopcodebench-2026.html",
       "title": "SlopCodeBench",
       "desc": "**Source:** https://www.scbench.ai (SprocketLab, v1.0)",
@@ -2617,6 +2641,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/tier-model-selection-matrix-2026.html",
+      "title": "Tier → Model → Threshold: Judge Selection Matrix (2026-09-24)",
+      "desc": "**Purpose:** which judge model for which risk tier, with measured bars. Operationalizes per-risk-tier gates (B0-B3) for ",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/toe2eornottoe2e-ontestautomation.html",
       "title": "Toe2Eornottoe2E Ontestautomation",
       "desc": "source: \"To E2E or not to E2E - On Test Automation.md\"",
@@ -2815,6 +2845,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 316,
+  "raw_count": 319,
   "updated": "2026-09-24"
 }
