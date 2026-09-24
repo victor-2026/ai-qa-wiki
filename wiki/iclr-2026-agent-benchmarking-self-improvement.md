@@ -157,6 +157,9 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
@@ -170,6 +173,7 @@ A Habr article demonstrated using an LLM as a **post‑hoc QA filter** that flag
 - [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
 - [Connect the Dots (CoD): Training LLMs for Long‑Lifecycle Agents](wiki/arxiv-connect-the-dots-long-lifecycle-agents-2026.md)
+- [Kaggle Benchmarks Track Evals 2026](wiki/kaggle-benchmarks-track-evals-2026.md)
 - [MAS-Testing Framework (Conceptual)](wiki/mas-testing-framework.md)
 - [Monitoring & Observability for AI Systems](wiki/monitoring-observability.md)
 - [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)

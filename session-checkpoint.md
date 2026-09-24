@@ -511,3 +511,47 @@ All 7 marked [x] items processed:
 - Glossary: +6 terms (FastAPI, MCP, MongoDB, Vector DB; RAG expanded) with links to new pages.
 - topics 386→390, raw 242 (unchanged). Broken links 0. Commits: b9e9fbd (pages+glossary), 402bd5e (renames to 101-beginner-* + links).
 - Next: apply same 101-beginner-* findability if more beginner pages are requested; radar quotes (Testkube AI Test Creation, Codemify live, BitGN DDD) live in Articles quotes.md.
+
+## 2026-09-24 00:30 - CHECKPOINT (mega ingest day: Qodo + Amazon + CIGE + simulator + profiles)
+
+**Commits (all pushed):** a8fd422 TesterArmy catalog; ac19124 Qodo report + TIER 1.5 (13) + Kiran Sahu profile; e2b1a7c Amazon cluster (8) + CIGE paper; e3b3f39 Amazon TIER 1.5 (5) + Qodo TIER 2 (9) + simulator + Valentina. Topics 414→455, raw 262→301. Lint broken 0 each round. 5 foreign files (bach x3, mas-vs-swe, satisfice) excluded every time - other window's re-ingest, left unstaged.
+
+**Ingested:** Qodo State of AI Quality report (89%/3.7%/26% numbers, directional), Qodo TIER 1.5 #6-18 + TIER 2 FULL READ x9 (catalogs updated), Amazon Science x13 + blog catalog (RSS index.rss verified 200 full-text, 25 items), CIGE paper (Amazon QRS 2026, intent-stable/execution-repairable = heal-must-preserve-verdict), AlternateQA simulator thread (not a duplicate of flowscout thread - new artifact + Kanaris outside-practice thesis).
+
+**Profiles:** TesterArmy (YC P26), Kiran Sahu (Myelin Foundry, fabrications cleaned before commit: refresh-labs link, slug URLs), Valentina Jemuovic (Optivem, Kraljevo Serbia). Connect notes drafted for Kiran Sahu + Valentina (user sends).
+
+**Triage verdicts:** Amsterdam vacancy skip (2x); Testkube NO pilot (orchestration layer, rule 2026-09-21 holds; GA 22.09 changes nothing); Valentina NO pilot (coaching, no product) but outreach candidate; AlternateQA simulator = related not duplicate.
+
+**Digest:** amazon-science entry added to digest-config.json by user manually (verified, weight 0.9). Optivem Journal RSS unchecked.
+
+**Outreach/misc:** QA Leadership Summit watchlist given (AWS CIGE #1, multi-agent workshop #2, keynote #3, career skip).
+
+**Next:** Leonardo Lanni vs Victor profile comparison (freelance mechanics to borrow); commit routine holds (stage-all minus foreign, spot-check deletions); backup per AGENTS.md.
+
+**Correction 2026-09-24 (Leonardo thread):** model wrongly called qa-cube "Victor's vehicle" - qa-cube is Vadim Glushonkov's pilot tool that Victor EVALUATES (listed correctly in his Experience as evaluated tool). No vehicle bridge exists. Stale line "собственный qa-cube" in Session 127+ global memory flagged for human fix (memory file not editable by AI).
+**Geo 2026-09-24 (user):** relocation to Cyprus/Georgia/Montenegro possible AND desirable, visas unlikely (not willingness). On-site list in Open-to box stands. Overrides Sophia-eval "no relocation" (was eval-specific set, not general constraint).
+**Profile fixes applied by user:** Company → Independent AI Quality Engineering Practice; Services cut; top-skills reorder; recruiters-only Open-to. Pending: articles number 30+ (About line), titles trim (drop Senior Test Lead, add AI title), remote minus US/UAE.
+
+## 2026-09-24 - Leonardo Lanni comparison + Victor profile fixes (all applied)
+
+**Comparison (freelance mechanics, Track 1 intact):** Leonardo wins on packaging (QA-Roots vehicle, 6 buyer-readable services, 2-skill crispness, patents/langs/countries scan); Victor wins on substance (numbers, artifacts, AI-native, attestation). Takes applied: services 10→5 (Software Testing, IT Consulting, Training, Project Management, Management Consulting), top-skills with Mutation Testing first, geo/lang scan noted.
+
+**Profile final state (user applied):** About 30+ articles (was 20+, Experience already 30 - fixed with exact replacement string); Company renamed (duplication gone); Open-to recruiters-only (correct call); titles trimmed to 3 (Senior Test Lead dropped); remote minus US/UAE; AI title NOT addable (taxonomy has only fluffy AI Manager roles - skipped deliberately); self-employed KEPT over freelance (leadership positioning; company field carries vehicle logic); relocation = yes/desirable, visas unlikely (on-site CY/GE/ME list stands); About + Experience + header reviewed, consistent.
+
+**Micro-trim left:** Experience "(self-employed, remote)" duplicates type/location fields - suggested cut, user decision.
+
+**Baseline for 07.10 restart:** 557 views / 2,131 impressions / 75 search appearances per 7d on content pause.
+
+**No repo commits in this thread** (profile work = LinkedIn UI + checkpoint lines only). Next commit picks up unstaged checkpoint edits.
+
+## 2026-09-24 - W4 pilots README proposal (reviewed + applied, uncommitted)
+
+**Review:** all 4 findings verified verbatim against company/pilots/README.md (Positions-CV-CL): KISS/Sorcar+Applitools+Kiro = executed with empty cells; 5 tooling rows as used-subjects; roster rules duplicated lines 3/29.
+**Applied** (user-authorized, owner W3 to actualize): 3 sections (Matrix pilots 11 rows untouched incl. qa-cube / Evaluated otherwise with evaluated+TBD / Tooling used), one-line status dictionary with evaluated definition, dupe rules removed. Diff verified: data rows intact.
+**Not committed** (other repo + чужое дерево: DevQaExpert, binaries, checkpoint +461 - hands off). W3 open items: fill 3 TBD resumes, Jev row fate (`used` in Matrix section, kept deliberately - live catalog + lead).
+
+## 2026-09-24 - Split decision: pilots → W3 separate project, outreach stays here (pending W3 stop)
+
+**User decision (to execute with W3 when it stops):** company/pilots becomes a separate project owned by W3; outreach stays with this window. Move only if nothing breaks.
+**Blast radius counted:** ai-qa-wiki → pilots links = 3 files (2 just fixed for DevQaExpert rename); Positions internal `company/pilots` refs = 12 files (Rupesh x3, Igor, Maksim, DevAssure held, +); pilots/README internal `pilots/X` links = 9 (relative - survive a move as a unit); scripts referencing pilots = 0.
+**Options:** A) separate GitHub repo - max breakage (all relative links die, URL rewrite needed); B) top-level move inside repo - medium (3+12 path-prefix fixes, mechanical bulk replace); C) no move, ownership by convention - 0 breakage. Recommendation: C now, B only with W3 stopped + bulk-replace script; A overkill without permissions/visibility need. Note: split complicates person↔pilots↔wiki cross-linking (this window's function) - cross-repo links already fragile plain text.

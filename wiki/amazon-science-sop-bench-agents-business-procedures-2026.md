@@ -60,13 +60,18 @@ SOP‑Bench is an open‑source framework that turns authentic standard‑operat
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [AI Testing Tools Landscape — Hands-On Pilots & Verdicts (2026-09-09)](wiki/ai-testing-tools-landscape-hands-on-2026-09.md)
 - [Agentics Foundation Serbia — YouTube Channel](wiki/agentics-foundation-serbia-youtube-2025-2026.md)
+- [Amazon Science Blog: Catalog for AI-QA (2026)](wiki/amazon-science-blog-catalog-2026.md)
 - [Amazon Science Patient Agent Bench 2026](wiki/amazon-science-patient-agent-bench-2026.md)
 - [Amazon Science Real World Grounding Agentic Ai 2026](wiki/amazon-science-real-world-grounding-agentic-ai-2026.md)
 - [Iclr 2026 Agent Benchmarking Self Improvement](wiki/iclr-2026-agent-benchmarking-self-improvement.md)
+- [Kaggle Benchmarks Track Evals 2026](wiki/kaggle-benchmarks-track-evals-2026.md)
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
 <!-- backlinks-end -->

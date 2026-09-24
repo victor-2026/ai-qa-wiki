@@ -32,7 +32,7 @@ Moat isn't another chat box or credit wallet. It's data, workflows, permissions,
 
 ## Cross-links
 - [Boris Cherny - Claude Maintains Apps](wiki/boris-cherny-claude-maintains-apps-2026.md) — native agent loop, 388 PRs
-- [QAEverest Verification 7.1.1](../../Positions-CV-CL/company/pilots/DevQaExpert/index.md) — MCP + reliability layer as moat
+- [QAEverest Verification 7.1.1](../../Positions-CV-CL/company/pilots/DevQaExpert%20(QAEverest-%3Ego%20to%20Rupesh%20catalog)/index.md) — MCP + reliability layer as moat
 - [Ilya Kabanov - Hygiene vs Hype](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md) — moat is boring reliable execution, not hype
 
 ---

@@ -167,3 +167,6 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-24 00:27 — backlinks — 5 related pages for wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md
 - 2026-09-24 00:27 — update-index — 455 topics, 301 raw
 - 2026-09-24 00:28 — update-index — 455 topics, 301 raw
+- 2026-09-24 01:53 — ingest — raw/kaggle-benchmarks-track-evals-2026.md → wiki/kaggle-benchmarks-track-evals-2026.md
+- 2026-09-24 01:53 — backlinks — 5 related pages for wiki/kaggle-benchmarks-track-evals-2026.md
+- 2026-09-24 01:53 — update-index — 456 topics, 302 raw

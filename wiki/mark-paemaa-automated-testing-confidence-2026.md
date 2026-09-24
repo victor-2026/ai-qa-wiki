@@ -35,7 +35,7 @@ Engineering Team Lead Mark Paemaa (2026-08-27, https://www.linkedin.com/pulse/au
 ---
 
 ## Cross-links
-- [QAEverest Verification 7.1.1 Trust Scorecard](../../Positions-CV-CL/company/pilots/DevQaExpert/index.md) — confidence as gate, not green tick
+- [QAEverest Verification 7.1.1 Trust Scorecard](../../Positions-CV-CL/company/pilots/DevQaExpert%20(QAEverest-%3Ego%20to%20Rupesh%20catalog)/index.md) — confidence as gate, not green tick
 - [Ilya Kabanov - Hygiene vs AI Hype](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md) — boring hygiene that builds confidence vs vendor hype
 - [Boris Cherny - Claude Maintains Apps](wiki/boris-cherny-claude-maintains-apps-2026.md) — tests as production code at scale (388 PRs)
 - [Article 27 - Guided QA Engineer](../../Articles/linkedin-posts/Quality-Operating-Model/27-guided-qa-engineer.md) — QA investigates risks, not re-runs checks

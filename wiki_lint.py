@@ -3,7 +3,8 @@
 wiki_lint.py — Deterministic health check for the AI QA Wiki (replaces manual Sunday ritual).
 
 Checks (all deterministic, no LLM context):
-  1. Broken internal links in wiki/ (links to wiki/*.md and raw/*.md that don't exist)
+  1. Broken links in wiki/ (wiki/*.md, raw/*.md, plus cross-repo ../../Positions-CV-CL|Articles links
+     and github.com/victor-2026/positions-cv-cl-private/blob/main links, resolved to local paths)
   2. Orphan pages (wiki/*.md with no inbound links from any other wiki page)
   3. Stub pages (<200 chars of content, excluding frontmatter/footers)
 4. Raw files without a wiki counterpart (uses wiki_llm.missing_raw_files)
@@ -22,7 +23,7 @@ Usage:
 
 Exit codes:
     0 clean / nothing to fix
-    1 P1 issues found (broken internal links)
+    1 P1 issues found (broken links, incl. cross-repo)
     2 P2 issues found (orphans / stubs / missing)
     3 P3 only (informational)
 
@@ -34,6 +35,7 @@ import sys
 import json
 import datetime
 from pathlib import Path
+from urllib.parse import unquote
 
 PROJECT_DIR = Path(__file__).parent
 WIKI_DIR = PROJECT_DIR / "wiki"
@@ -43,6 +45,16 @@ REPORT_DIR = OUTPUTS_DIR
 
 INTERNAL_LINK_RE = re.compile(r"\[[^\]]*\]\(((?:wiki|raw)/[^)#\s]+)\.md(?:#[\w-]+)?\)")
 SKIP_FILES = {"log.md", "README.md", "index.md"}
+
+# Cross-repo links: ../../Positions-CV-CL|Articles relative paths and absolute
+# github URLs of the private repo, resolved to local checkouts. Bases missing
+# on disk (other machines) => check skipped, never a false positive.
+CROSS_REPO_RE = re.compile(r"\[[^\]]*\]\((\.\./\.\./(Positions-CV-CL|Articles)/(?:[^)\s]|\([^)]*\))+?\.md)(?:#[\w-]+)?\)")
+GITHUB_CROSS_RE = re.compile(r"\[[^\]]*\]\(https://github\.com/victor-2026/positions-cv-cl-private/blob/main/([^)\s]+?\.md)(?:#[\w-]+)?\)")
+CROSS_REPO_BASES = {
+    "Positions-CV-CL": Path("/Users/victor/Private/Positions-CV-CL"),
+    "Articles": Path("/Users/victor/Projects/Articles"),
+}
 
 
 def read_page(path: Path) -> str:
@@ -76,18 +88,38 @@ def internal_links(content: str) -> list:
     return [m.group(1) + ".md" for m in INTERNAL_LINK_RE.finditer(content)]
 
 
+def cross_repo_links(content: str) -> list:
+    """Returns [(raw_link, local_target_Path)]. Unresolvable bases are skipped."""
+    out = []
+    for m in CROSS_REPO_RE.finditer(content):
+        raw, vault = m.group(1), m.group(2)
+        base = CROSS_REPO_BASES.get(vault)
+        if base is None or not base.is_dir():
+            continue
+        rel = "/".join(raw.split("/")[3:])
+        out.append((raw, base / unquote(rel)))
+    base = CROSS_REPO_BASES["Positions-CV-CL"]
+    if base.is_dir():
+        for m in GITHUB_CROSS_RE.finditer(content):
+            raw = m.group(1)
+            out.append(("github:" + raw, base / unquote(raw)))
+    return out
+
+
 def all_wiki_pages() -> list:
     return sorted(p for p in WIKI_DIR.glob("*.md") if p.name not in SKIP_FILES)
 
 
 def check_broken_links() -> (list, int):
-    """Returns (broken, total). A link to wiki/x.md or raw/x.md is broken if file missing."""
+    """Returns (broken, total). wiki/raw targets checked by name; cross-repo
+    targets resolved to local paths (skipped when base checkout is absent)."""
     existing_wiki = {p.name for p in WIKI_DIR.glob("*.md")}
     existing_raw = {p.name for p in RAW_DIR.iterdir() if p.is_file()}
     broken = []
     total = 0
     for p in all_wiki_pages():
-        for link in internal_links(read_page(p)):
+        content = read_page(p)
+        for link in internal_links(content):
             total += 1
             if link.startswith("wiki/"):
                 target = link[len("wiki/"):]
@@ -97,6 +129,10 @@ def check_broken_links() -> (list, int):
                 target = link[len("raw/"):]
                 if target not in existing_raw:
                     broken.append((p.name, link, "raw target missing"))
+        for raw, target in cross_repo_links(content):
+            total += 1
+            if not target.is_file():
+                broken.append((p.name, raw, "cross-repo target missing"))
     return broken, total
 
 

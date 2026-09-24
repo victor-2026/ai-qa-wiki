@@ -1,0 +1,61 @@
+---
+source: "kaggle-benchmarks-track-evals-2026.md"
+ingested: "2026-09-24"
+---
+
+## Kaggle Benchmarks Track – Crowdsourced Eval Infrastructure (2026‑09‑24)
+
+### Summary  
+Kaggle’s 2026 “Benchmarks” track introduces an open‑source SDK that lets anyone design, run, and share evaluations for large language models (LLMs) and generative AI systems at no cost. The platform bundles three flagship benchmark suites—**FACTS**, **Enterprise Operations Bench**, and a **Research‑Grants** program—each targeting a distinct evaluation niche (factual grounding, domain‑specific workflow execution, and novel benchmark creation). While Kaggle continues to host massive amounts of data, notebooks, and competitions, the Benchmarks track is the only component relevant to our own evaluation‑infrastructure work.
+
+### Key Concepts  
+
+| Concept | Description | Relevance to Our Work |
+|---|---|---|
+| **Kaggle Benchmarks SDK** | A free, open‑source toolkit for defining custom evaluation pipelines, collecting model outputs, and aggregating verdicts. | Potential back‑end for running our mutation‑gated or evidence‑bar evals without building a bespoke runner. |
+| **FACTS Benchmark Suite** | Joint effort by Google DeepMind & Google Research to measure factual accuracy and grounding of generative models. | Direct comparison point for our evidence‑based evaluation doctrine; can serve as a baseline for grounding‑focused research. |
+| **Enterprise Operations Bench (IBM Research)** | Simulates real‑world enterprise workflows (e.g., SOP compliance) to test agentic LLMs in operational contexts. | Provides a ready‑made workflow‑centric methodology that aligns with our SOP‑Bench and agentic‑task evaluation ambitions. |
+| **Benchmark Research Grants** | Funding mechanism that supplies compute and infrastructure to teams developing new benchmark concepts. | A future channel for supporting our mutation‑gated verdict research or other novel evaluation ideas. |
+| **ARC Prize 2026** (peripheral) | Large‑scale reasoning competition with multi‑tier prize pools. | Though not a direct benchmark, its reasoning focus may inspire future extensions of our evaluation suite. |
+
+### Practical Applications  
+
+1. **Grounding & Factuality Checks**  
+   - Deploy the FACTS suite to validate our evidence‑bar metrics on public LLMs.  
+   - Use the results to refine prompt‑engineering strategies that improve factual recall.  
+
+2. **Agentic Workflow Evaluation**  
+   - Adopt the Enterprise Operations benchmark’s workflow templates for testing autonomous agents against real‑world SOPs.  
+   - Integrate its task‑sequencing logic with our own agentic‑test‑case standard (CIGE‑2026).  
+
+3. **Rapid Prototyping of New Benchmarks**  
+   - Leverage the open SDK to spin up custom evals (e.g., mutation‑gated verdicts) without writing low‑level orchestration code.  
+   - Submit promising prototypes to the Kaggle Research Grants pipeline for compute sponsorship.  
+
+4. **Community‑Driven Benchmark Expansion**  
+   - Publish our custom evals on Kaggle’s marketplace, inviting external contributors to extend or stress‑test them.  
+   - Harvest crowd‑sourced verdicts to enrich our evidence‑based evaluation datasets.  
+
+5. **Cross‑Platform Comparison**  
+   - Run parallel evaluations on Kaggle Benchmarks and our internal suite to identify systematic divergences.  
+   - Use discrepancies to pinpoint gaps in our current metrics (e.g., missing intent‑execution signals).  
+
+### Outlook & Next Steps  
+
+- **Hands‑on SDK Review** – Allocate a short sprint to integrate the Kaggle SDK with our CI pipeline and run a pilot on a small LLM.  
+- **Benchmark Mapping** – Align FACTS and Enterprise Ops tasks with existing test cases in our CIGE‑2026 standard, noting coverage gaps.  
+- **Grant Exploration** – Draft a proposal for a mutation‑gated evaluation benchmark to submit to the Kaggle Research Grants program.  
+
+*Results Log* – No outcomes recorded as of 2026‑09‑24; future entries will be appended here.
+
+---  
+
+### See also  
+- [`wiki/iclr-2026-agent-benchmarking-self-improvement.md`](wiki/iclr-2026-agent-benchmarking-self-improvement.md) – Agent benchmarking and self‑improvement studies.  
+- [`wiki/testing-ai-book-evidence-foundations.md`](wiki/testing-ai-book-evidence-foundations.md) – Foundations of evidence‑based AI testing.  
+- [`wiki/amazon-science-sop-bench-agents-business-procedures-2026.md`](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md) – SOP‑Bench for business‑procedure agents.  
+- [`wiki/cige-an-agentic-ai-test-case-standard-2026.md`](wiki/cige-an-agentic-ai-test-case-standard-2026.md) – Standardized test‑case format for agentic AI.  
+- [`wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md`](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md) – Intent‑execution bridging in agentic systems.  
+
+---
+*Source: [raw/kaggle-benchmarks-track-evals-2026.md](../raw/kaggle-benchmarks-track-evals-2026.md) · Generated by wiki_llm.py (Groq)*

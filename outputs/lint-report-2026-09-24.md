@@ -1,8 +1,8 @@
 # Wiki Lint Report — 2026-09-24
 
-- Timestamp: 2026-09-24T00:28:04.255272
-- Wiki pages: 453
-- Internal links OK: 1437
+- Timestamp: 2026-09-24T04:25:14.250458
+- Wiki pages: 454
+- Internal links OK: 1465
 - Broken links: 0
 - Orphans: 227
 - Stubs (<200 chars): 0
@@ -728,6 +728,6 @@
 | Run | Pages | Links OK | Broken | Orphans | Stubs | Missing raw | Dupes | delta orphans | delta missing |
 |-----|-------|----------|--------|---------|-------|-------------|-------|----------------|---------------|
 | 2026-09-23 | 427 | 1190 | 0 | 233 | 0 | 70 | 0 | — | — |
-| 2026-09-24 | 453 | 1437 | 0 | 227 | 0 | 70 | 0 | -6 | +0 |
+| 2026-09-24 | 454 | 1465 | 0 | 227 | 0 | 70 | 0 | -6 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.

@@ -1357,6 +1357,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/kaggle-benchmarks-track-evals-2026.html",
+      "title": "Kaggle Benchmarks Track Evals 2026",
+      "desc": "source: \"kaggle-benchmarks-track-evals-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/karpathy-autoresearch-agentic-engineering-2026.html",
       "title": "Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops",
       "desc": "title: \"Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops\"",
@@ -2731,6 +2737,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 301,
+  "raw_count": 302,
   "updated": "2026-09-24"
 }
