@@ -189,3 +189,15 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-24 14:25 — backlinks — 5 related pages for wiki/codescene-agentic-coding-best-practices-2026.md
 - 2026-09-24 14:25 — update-index — 464 topics, 310 raw
 - 2026-09-24 14:26 — update-index — 465 topics, 310 raw
+- 2026-09-24 14:52 — ingest — raw/haim-pattern-matching-agent-control-2026.md → wiki/haim-pattern-matching-agent-control-2026.md
+- 2026-09-24 14:52 — backlinks — 5 related pages for wiki/haim-pattern-matching-agent-control-2026.md
+- 2026-09-24 14:52 — update-index — 466 topics, 311 raw
+- 2026-09-24 14:54 — ingest — raw/radik-darwin-godel-verification-gate-2026.md → wiki/radik-darwin-godel-verification-gate-2026.md
+- 2026-09-24 14:54 — backlinks — 5 related pages for wiki/radik-darwin-godel-verification-gate-2026.md
+- 2026-09-24 14:54 — update-index — 467 topics, 312 raw
+- 2026-09-24 17:36 — ingest — raw/exactpro-introduction-ai-testing-book-2025.md → wiki/exactpro-introduction-ai-testing-book-2025.md
+- 2026-09-24 17:36 — backlinks — 5 related pages for wiki/exactpro-introduction-ai-testing-book-2025.md
+- 2026-09-24 17:36 — update-index — 468 topics, 314 raw
+- 2026-09-24 18:31 — ingest — raw/applitools-deterministic-guardrails-whitepaper-2026.md → wiki/applitools-deterministic-guardrails-whitepaper-2026.md
+- 2026-09-24 18:31 — backlinks — 5 related pages for wiki/applitools-deterministic-guardrails-whitepaper-2026.md
+- 2026-09-24 18:31 — update-index — 469 topics, 316 raw

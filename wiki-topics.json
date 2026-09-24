@@ -553,6 +553,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/applitools-deterministic-guardrails-whitepaper-2026.html",
+      "title": "Applitools Deterministic Guardrails Whitepaper 2026",
+      "desc": "source: \"applitools-deterministic-guardrails-whitepaper-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/applitools-probabilistic-validation-gap-2026.html",
       "title": "Applitools: Probabilistic Validation Gap and Deterministic Visual AI (2026-09-14)",
       "desc": "**Source:** https://app14743.cloudwayssites.com/blog/probabilistic-validation-gap-agentic-sdlc/ (published 2026-09-14, T",
@@ -1129,6 +1135,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/exactpro-introduction-ai-testing-book-2025.html",
+      "title": "Exactpro Introduction Ai Testing Book 2025",
+      "desc": "source: \"exactpro-introduction-ai-testing-book-2025.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/executor-evaluator-split-zagirov-2026-09.html",
       "title": "Executor/Evaluator Split: Radik Zagirov (Agentiqa) Architecture Post (2026-09-09)",
       "desc": "**Source:** Radik Zagirov (Co-Founder & CEO, Agentiqa) LinkedIn post, 2026-09-09 (~33m before capture). Thesis: same mod",
@@ -1216,6 +1228,12 @@
       "file": "wiki/hack-n-vibe-bitgn-pac1-agent.html",
       "title": "Hack N Vibe Bitgn Pac1 Agent",
       "desc": "source: \"hack-n-vibe-bitgn-pac1-agent.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/haim-pattern-matching-agent-control-2026.html",
+      "title": "Haim Pattern Matching Agent Control 2026",
+      "desc": "source: \"haim-pattern-matching-agent-control-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2179,6 +2197,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/radik-darwin-godel-verification-gate-2026.html",
+      "title": "Radik Darwin Godel Verification Gate 2026",
+      "desc": "source: \"radik-darwin-godel-verification-gate-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/rag-evaluation-ragas.html",
       "title": "RAG Evaluation Using Ragas",
       "desc": "source: \"rag-evaluation-ragas.md\"",
@@ -2791,6 +2815,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 310,
+  "raw_count": 316,
   "updated": "2026-09-24"
 }
