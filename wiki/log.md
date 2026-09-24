@@ -170,3 +170,22 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-24 01:53 — ingest — raw/kaggle-benchmarks-track-evals-2026.md → wiki/kaggle-benchmarks-track-evals-2026.md
 - 2026-09-24 01:53 — backlinks — 5 related pages for wiki/kaggle-benchmarks-track-evals-2026.md
 - 2026-09-24 01:53 — update-index — 456 topics, 302 raw
+- 2026-09-24 05:25 — ingest — raw/vadim-g-relations-qa-multiagent-case-2026.md → wiki/vadim-g-relations-qa-multiagent-case-2026.md
+- 2026-09-24 05:25 — backlinks — 5 related pages for wiki/vadim-g-relations-qa-multiagent-case-2026.md
+- 2026-09-24 05:25 — update-index — 457 topics, 303 raw
+- 2026-09-24 14:23 — ingest — raw/codescene-case-study-refactoring-at-scale-agents-2026.md → wiki/codescene-case-study-refactoring-at-scale-agents-2026.md
+- 2026-09-24 14:23 — backlinks — 5 related pages for wiki/codescene-case-study-refactoring-at-scale-agents-2026.md
+- 2026-09-24 14:23 — ingest — raw/codescene-deterministic-code-health-gate-2026.md → wiki/codescene-deterministic-code-health-gate-2026.md
+- 2026-09-24 14:23 — backlinks — 5 related pages for wiki/codescene-deterministic-code-health-gate-2026.md
+- 2026-09-24 14:24 — ingest — raw/codescene-codehealth-prerequisite-compass-agents-2026.md → wiki/codescene-codehealth-prerequisite-compass-agents-2026.md
+- 2026-09-24 14:24 — backlinks — 5 related pages for wiki/codescene-codehealth-prerequisite-compass-agents-2026.md
+- 2026-09-24 14:24 — ingest — raw/codescene-deterministic-pr-refactoring-agents-2026.md → wiki/codescene-deterministic-pr-refactoring-agents-2026.md
+- 2026-09-24 14:24 — backlinks — 5 related pages for wiki/codescene-deterministic-pr-refactoring-agents-2026.md
+- 2026-09-24 14:25 — ingest — raw/codescene-token-usage-unhealthy-code-2026.md → wiki/codescene-token-usage-unhealthy-code-2026.md
+- 2026-09-24 14:25 — backlinks — 5 related pages for wiki/codescene-token-usage-unhealthy-code-2026.md
+- 2026-09-24 14:25 — ingest — raw/codescene-legacy-ai-ready-benchmarks-2026.md → wiki/codescene-legacy-ai-ready-benchmarks-2026.md
+- 2026-09-24 14:25 — backlinks — 5 related pages for wiki/codescene-legacy-ai-ready-benchmarks-2026.md
+- 2026-09-24 14:25 — ingest — raw/codescene-agentic-coding-best-practices-2026.md → wiki/codescene-agentic-coding-best-practices-2026.md
+- 2026-09-24 14:25 — backlinks — 5 related pages for wiki/codescene-agentic-coding-best-practices-2026.md
+- 2026-09-24 14:25 — update-index — 464 topics, 310 raw
+- 2026-09-24 14:26 — update-index — 465 topics, 310 raw

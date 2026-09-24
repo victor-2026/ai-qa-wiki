@@ -254,6 +254,12 @@ $ npx @autonoma-ai/planner@latest
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)
@@ -261,6 +267,7 @@ $ npx @autonoma-ai/planner@latest
 - [Bach 10X Claims Skeptical Inquiry 2026](wiki/bach-10x-claims-skeptical-inquiry-2026.md)
 - [Claude Code Ci Cd Mcp 2026](wiki/claude-code-ci-cd-mcp-2026.md)
 - [Claude Code Skill Examples 2026](wiki/claude-code-skill-examples-2026.md)
+- [Codescene Deterministic Code Health Gate 2026](wiki/codescene-deterministic-code-health-gate-2026.md)
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)
 - [MCP + UCP: Open Protocols for Agentic QA (2026)](wiki/mcp-ucp-protocols-2026.md)

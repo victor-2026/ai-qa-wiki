@@ -23,7 +23,7 @@ tags: [people, profile, ai-qa, genai, rag, llm-validation, edge-ai, automotive]
 | **Специализация** | GenAI, RAG & LLM Validation, Edge AI Testing, Automation Strategy, Automotive AI QA | [LinkedIn](https://www.linkedin.com/) ✅ |
 | **Локация** | Bengaluru, Karnataka, India (on-site) | [LinkedIn block](https://www.linkedin.com/) ✅ |
 | **Образование** | Maharshi Dayanand University, BE Computer Science (2006–2010) | [LinkedIn](https://www.linkedin.com/) ✅ |
-| **Тип профиля** | Сообщество: STeP-IN Summit 2026 — Wall of Honor, 6-й год подряд хост, первая AI-сессия; MoTaverse + Test Automation community | [STeP-IN block](https://www.linkedin.com/) ✅ |
+| **Тип профиля** | Сообщество: STeP-IN Summit (хост; первая AI-сессия); MoTaverse + Test Automation community. ⚠️ из смешанного блока, hosting-лет и Wall of Honor НЕ его: Wall of Honor 2026 получил другой человек (поправка от Kiran, 2026-09-24) | LinkedIn block ⚠️ + личная поправка ✅ |
 | **Публичности** | QATR (QA on the Rocks, Moolya) участие; обучающий контент по QA (Corporate Trainer, Educator) | [QATR/Moolya block](https://www.linkedin.com/) ✅ |
 
 ---
@@ -43,7 +43,8 @@ tags: [people, profile, ai-qa, genai, rag, llm-validation, edge-ai, automotive]
 
 ## Активность в сообществе (вторая линия контакта)
 
-- **STeP-IN Summit 2026** — Wall of Honor; 6 лет подряд в роли хоста; первый доклад по AI-тестированию. [STeP-IN block](https://www.linkedin.com/) ✅
+- **STeP-IN Summit** — хост; первая AI-сессия. Wall of Honor 2026 — НЕ его (личная поправка 2026-09-24, награда ушла другому). ⚠️ детали хостинга из смешанного блока, не перепроверены.
+- **Outreach 2026-09-24:** connect note отправлен (ошибочное поздравление с Wall of Honor - Kiran поправил). Его ответ: QA + AI + dev совместно строят фреймворк под каждое новое приложение; каждая разработка = новая тест-стратегия + метрики accuracy. Пригласил к specific questions. Follow-up отправлен (признание ошибки + вопрос: faithfulness/relevancy vs domain KPIs + ownership verdicts). Ждем ответ.
 - **QATR — QA on the Rocks (Moolya)** — панель "One Tester, Ten Agents": обсуждение того, как агенты меняют роль тестировщиков в SDLC с GenAI. [QATR block](https://www.linkedin.com/) ✅
 - **TestArmy (YC P26)** — компания из того же дня ингейта; репост Kiran Sahu не подтвержден дословно по блоку ⚠️. [TesterArmy profile](wiki/testerarmy-qa-agent-yc-p26-2026.md) — связанная запись
 

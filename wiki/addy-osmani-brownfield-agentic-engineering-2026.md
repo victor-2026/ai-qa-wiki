@@ -143,8 +143,15 @@ Track: lead time, review minutes, human interventions, escaped defects, rollback
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Codescene Deterministic Code Health Gate 2026](wiki/codescene-deterministic-code-health-gate-2026.md)
 - [Qodo Introducing Qodo 2 4 The Next Layer Of Code Quality Governance](wiki/qodo-introducing-qodo-2-4-the-next-layer-of-code-quality-governance.md)
 - [Qodo Software Map Risk Across Repos 2026](wiki/qodo-software-map-risk-across-repos-2026.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)

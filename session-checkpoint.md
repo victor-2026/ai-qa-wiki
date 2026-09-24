@@ -548,7 +548,26 @@ All 7 marked [x] items processed:
 
 **Review:** all 4 findings verified verbatim against company/pilots/README.md (Positions-CV-CL): KISS/Sorcar+Applitools+Kiro = executed with empty cells; 5 tooling rows as used-subjects; roster rules duplicated lines 3/29.
 **Applied** (user-authorized, owner W3 to actualize): 3 sections (Matrix pilots 11 rows untouched incl. qa-cube / Evaluated otherwise with evaluated+TBD / Tooling used), one-line status dictionary with evaluated definition, dupe rules removed. Diff verified: data rows intact.
+## 2026-09-24 - W4 pilots README proposal (reviewed + applied, uncommitted)
+
+**Review:** all 4 findings verified verbatim against company/pilots/README.md (Positions-CV-CL): KISS/Sorcar+Applitools+Kiro = executed with empty cells; 5 tooling rows as used-subjects; roster rules duplicated lines 3/29.
+**Applied** (user-authorized, owner W3 to actualize): 3 sections (Matrix pilots 11 rows untouched incl. qa-cube / Evaluated otherwise with evaluated+TBD / Tooling used), one-line status dictionary with evaluated definition, dupe rules removed. Diff verified: data rows intact.
 **Not committed** (other repo + чужое дерево: DevQaExpert, binaries, checkpoint +461 - hands off). W3 open items: fill 3 TBD resumes, Jev row fate (`used` in Matrix section, kept deliberately - live catalog + lead).
+
+## 2026-09-24 - Kaggle triage + pilots split analysis + cross-repo lint (commit 82aacd8)
+
+**Kaggle:** homepage paste triaged - only Benchmarks track ours (FACTS grounding, Enterprise Ops workflows, open SDK, grants; rest SKIP). [[kaggle-benchmarks-track-evals-2026]] with Results-log section for future outcomes.
+**Positions-CV-CL (my responsibility, "чужие" retracted):** DevQaExpert renamed by user - all 5 files intact in new dir, 3 links fixed (2 ai-qa-wiki + README href had extra %20, checkpoint:166 left as history). Binaries: CV pdf moved to packet (user-confirmed), qa-cube test artifacts safe to ignore. qa-cube gitignore proposal given (playwright-report/, test-results/, __pycache__/*.pyc + rm --cached 3 files); h4_stats_results (1.1M) left for W3. Positions checkpoint +489 = qa-cube Phase 1-3 + H4 + gotcha-10 (read 2238-2567 first).
+**Split decision:** pilots→W3 separate project, outreach stays here (pending W3 stop). Blast radius: ai-qa-wiki 3 links, Positions internal 12 refs, README 9 relative, scripts 0. Options A (separate repo, max break) / B (top-level move + bulk replace) / C (convention, 0 break) - recommended C now. Cross-vault rule: absolute github URLs > relative fs paths (404 outside repo).
+**wiki_lint.py:** cross-repo check implemented (P1, bases skipped when absent); paren-in-URL bug caught and fixed during negative test. Lint clean, broken 0.
+**Commit 82aacd8 pushed** (Kaggle + DevQaExpert links + lint). 5 foreign excluded again. Leonardo profile work + geo/relocation decisions in previous section.
+
+## 2026-09-24 - Kiran Sahu reply: attribution error caught by contact
+
+**What happened:** connect note congratulated Kiran on STeP-IN Wall of Honor. He replied: award went to someone else, not him. Root cause: original pasted block mixed multiple people's content; Wall of Honor was never his. Same fabrication class as Gotcha #1, caught externally this time.
+**Fixed:** profile downgraded (Wall of Honor removed, hosting details → ⚠️ unconfirmed), outreach log added.
+**His substance:** QA+AI+dev jointly structure framework per new app; each development = new test strategy + accuracy metrics; invited specific questions. Reply drafted (acknowledge + one specific Q on RAG metrics/ownership), user sends.
+**Rule reinforced:** mixed LinkedIn pastes (post + profile + related people) must be split per-person BEFORE drafting; congrats-lines only on self-stated achievements.
 
 ## 2026-09-24 - Split decision: pilots → W3 separate project, outreach stays here (pending W3 stop)
 

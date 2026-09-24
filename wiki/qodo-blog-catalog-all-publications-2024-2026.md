@@ -174,8 +174,12 @@
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Minimal hello‑world agent (illustrative)](wiki/qodo-code-aware-agentic-ai-the-system-approach.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
 - [Qodo Already Fixed Too Late What 90 Open Source Repos Tell Us About Code Review Blind Spots](wiki/qodo-already-fixed-too-late-what-90-open-source-repos-tell-us-about-code-review-blind-spots.md)
 - [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)

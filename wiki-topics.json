@@ -949,6 +949,54 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/codescene-agentic-coding-best-practices-2026.html",
+      "title": "Codescene Agentic Coding Best Practices 2026",
+      "desc": "source: \"codescene-agentic-coding-best-practices-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-blog-catalog-ai-2026.html",
+      "title": "CodeScene Blog: AI-Vein Catalog 2026 (Code Health + Agentic Refactoring)",
+      "desc": "**Source:** https://codescene.com/blog/ (HubSpot, archive 2018-2026, hundreds of posts) + RSS `https://codescene.com/blo",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-case-study-refactoring-at-scale-agents-2026.html",
+      "title": "Codescene Case Study Refactoring At Scale Agents 2026",
+      "desc": "source: \"codescene-case-study-refactoring-at-scale-agents-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-codehealth-prerequisite-compass-agents-2026.html",
+      "title": "CodeScene: CodeHealth as a Prerequisite and Compass for Coding Agents",
+      "desc": "source: \"codescene-codehealth-prerequisite-compass-agents-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-deterministic-code-health-gate-2026.html",
+      "title": "Codescene Deterministic Code Health Gate 2026",
+      "desc": "source: \"codescene-deterministic-code-health-gate-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-deterministic-pr-refactoring-agents-2026.html",
+      "title": "CodeScene – Deterministic PR Refactoring Agents (2026)",
+      "desc": "source: \"codescene-deterministic-pr-refactoring-agents-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-legacy-ai-ready-benchmarks-2026.html",
+      "title": "CodeScene: Making Legacy Code AI‑Ready – Benchmarks on Agentic Refactoring (2026)",
+      "desc": "source: \"codescene-legacy-ai-ready-benchmarks-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/codescene-token-usage-unhealthy-code-2026.html",
+      "title": "CodeScene – Unhealthy Code Burns Tokens (2026)",
+      "desc": "source: \"codescene-token-usage-unhealthy-code-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/comprehension-debt.html",
       "title": "Comprehension Debt",
       "desc": "source: \"comprehension-debt.md\"",
@@ -2593,6 +2641,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/vadim-g-relations-qa-multiagent-case-2026.html",
+      "title": "Vadim G Relations Qa Multiagent Case 2026",
+      "desc": "source: \"vadim-g-relations-qa-multiagent-case-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/valentina-jemuovic-optivem-atdd-profile-2026.html",
       "title": "Valentina Jemuović — Founder & Technical Coach, Optivem",
       "desc": "source: \"valentina-jemuovic-optivem-atdd-profile-2026.md\"",
@@ -2737,6 +2791,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 302,
+  "raw_count": 310,
   "updated": "2026-09-24"
 }
