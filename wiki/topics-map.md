@@ -186,6 +186,14 @@ AI-generated code?       → TrickCatcher
 
 
 
+## See also
+
+- [Maximizing ROI with AI Functional and Regression Testing](wiki/ai-roi-regression-testing.md)
+- [AI Testing Metrics](wiki/ai-testing-metrics.md)
+- [QA Topics - Comprehensive Guide](wiki/qa-topics.md)
+- [AI Testing Strategies](wiki/testing-strategies.md)
+- [TrickCatcher: LLM-Powered Bug Detection in Plausible Programs](wiki/trickcatcher-bug-detection.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)

@@ -106,6 +106,10 @@ Regression crawling с Comet — это **исследовательское т�
 
 
 
+## See also
+
+- [NotebookLM Agent Navigation](wiki/notebooklm_agent.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)

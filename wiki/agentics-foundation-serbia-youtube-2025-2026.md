@@ -292,6 +292,17 @@ First meetup after summer break. Codex CLI added next to Claude Code. Fable 5.1 
 
 
 
+
+
+
+
+
+
+## See also
+
+- [Claude for Beginners and Beyond: Meetup Summary (Aug 18, 2026)](wiki/claude-meetup-beginners-beyond-aug2026-summary.md)
+- [Video Capabilities in OpenCode Free](wiki/video-capabilities-opencode-free.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
@@ -307,5 +318,6 @@ First meetup after summer break. Codex CLI added next to Claude Code. Fable 5.1 
 - [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
+- [Syam Zero Qa Codeless Dead 2026](wiki/syam-zero-qa-codeless-dead-2026.md)
 - [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)
 <!-- backlinks-end -->

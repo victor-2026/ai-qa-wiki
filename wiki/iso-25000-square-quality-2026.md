@@ -119,6 +119,10 @@ ISO/IEC 25000 (SQuaRE — Software product Quality Requirements and Evaluation) 
 
 
 
+## See also
+
+- [ISO 26262 – Функциональная безопасность дорожных транспортных средств](wiki/iso-26262-functional-safety-testing-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)

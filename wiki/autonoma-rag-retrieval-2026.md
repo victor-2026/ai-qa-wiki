@@ -105,6 +105,11 @@
 
 
 
+## See also
+
+- [How to Test a RAG Pipeline: Two Surfaces, Not One Score](wiki/autonoma-rag-pipeline-2026.md)
+- [How to Test Streaming AI Responses](wiki/autonoma-streaming-responses-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)

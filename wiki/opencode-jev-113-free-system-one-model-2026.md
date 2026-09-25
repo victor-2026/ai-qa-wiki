@@ -75,6 +75,11 @@ Jev там, где в коде нужно решение по нечетким �
 
 
 
+## See also
+
+- [Jason Arbon: How AI Tests Software (бета: AI Checks, AI Tests, AI Test Harness, ](wiki/jason-arbon-how-ai-tests-software-2026.md)
+- [Jev Performance Benchmark (2026-09-22)](wiki/jev-performance-benchmark-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)

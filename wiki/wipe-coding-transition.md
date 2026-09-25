@@ -144,3 +144,7 @@ Agentic подход для production AI разработки с Human Gates н
 ---
 
 *Updated: 2026-05-10*
+
+## See also
+
+- [Vibe Wipe Coding Guide](wiki/vibe-wipe-coding-guide.md)

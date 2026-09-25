@@ -121,6 +121,13 @@ Diagnostic + additive adoption. Start: freshness SLAs, quarantine gates (pricing
 
 
 
+
+
+
+## See also
+
+- [Tony Seale: Multi-Agent Systems and the Semantic Web](wiki/tony-seale-multi-agent-semantic-web-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)

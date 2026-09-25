@@ -169,6 +169,12 @@ Three fundamentally different approaches in different planes:
 
 
 
+## See also
+
+- [AI Testing Map](wiki/ai-testing-map.md)
+- [State of Digital Quality 2026 — AI Testing Report](wiki/state-of-digital-quality-2026.md)
+- [SWE-Proof: Machine-Checked Proofs for LLM Code (2026-09-18)](wiki/swe-proof-machine-checked-proofs-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)

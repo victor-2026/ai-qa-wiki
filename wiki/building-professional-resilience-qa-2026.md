@@ -78,3 +78,7 @@ Testing early and often catches issues before they're expensive. The same applie
 - Author: Shawn Vernier, Quality Engineer
 - Tags: #career-resilience, #job-loss, #shift-left, #qa-career, #professional-development, #ministry-of-testing
 - See also: [[Test-Reliability]], [[ai-agents-testing-tools-2026]], [[william_tran]]
+
+## See also
+
+- [Evolving Quality with AI Testing — Community Reflection](wiki/evolving-quality-ai-testing-community-2026.md)

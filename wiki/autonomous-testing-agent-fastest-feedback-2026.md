@@ -61,3 +61,13 @@ User input (NL, PRD, ticket, screenshot)
 - Product pages: `/kane-ai`, `/hyperexecute`, `/agentic-cloud`
 - Tags: #kaneai, #agentic-testing, #autonomous-testing, #hyperexecute, #testmu-ai, #ai-qa-agent, #feedback-cycle
 - See also: [[Test-Reliability]], [[llm-testing]], [[mas-testing-framework]], [[Observatory Weekly]]
+
+
+## See also
+
+- [Efficient Performance Testing Grid in the Cloud — HyperExecute](wiki/efficient-performance-testing-grid-cloud-2026.md)
+
+<!-- backlinks-start -->
+### Backlinks
+- [Testmuai Playwright Ai Agents Mcp 2026](wiki/testmuai-playwright-ai-agents-mcp-2026.md)
+<!-- backlinks-end -->

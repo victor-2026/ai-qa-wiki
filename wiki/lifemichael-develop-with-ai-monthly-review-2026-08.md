@@ -53,6 +53,10 @@ Single coding agents → **orchestrated multi-agent platforms** (decompose, para
 
 
 
+## See also
+
+- [Claude for Beginners and Beyond: Meetup Summary (Aug 18, 2026)](wiki/claude-meetup-beginners-beyond-aug2026-summary.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)

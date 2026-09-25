@@ -20,3 +20,7 @@
 
 - Sibling pieces: four-layers (orchestration), smart-suites (selection), delivery-pipelines (thresholds)
 - Our mapping: AGENTS.md free-first section, openrouter-guard.sh, context-engineering skill
+
+## See also
+
+- [Smart Suites: AI-Driven Test Selection — Testkube (2026-04-22)](wiki/testkube-smart-suites-test-selection-2026-04.md)

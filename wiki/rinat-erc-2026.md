@@ -78,3 +78,7 @@ tags: [rag, evals, benchmark, competition]
 
 ### Источник
 - [Enterprise RAG Challenge](https://abdullin.com/erc/) (2025-03-13)
+
+## See also
+
+- [How I Won the Enterprise RAG Challenge (Ilya Rice)](wiki/rinat-ERC-winner-deep-dive-2026.md)

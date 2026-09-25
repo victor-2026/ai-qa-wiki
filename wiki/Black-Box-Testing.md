@@ -13,3 +13,7 @@
 ---
 
 *Теги: #Black-Box-Testing #Behavioral #Specification #Observer*
+
+## See also
+
+- [API Testing (Тестирование API)](wiki/API-Testing.md)

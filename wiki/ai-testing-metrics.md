@@ -128,3 +128,8 @@ For detecting bugs in plausible programs:
 - raw/trickcatcher-bug-detection.md
 - raw/ai-roi-regression-testing.md
 - raw/webtestbench-ai-web-testing.md
+
+## See also
+
+- [QA + Data Science Collaboration Patterns](wiki/qa-ds-collaboration-patterns-2026.md)
+- [WebTestBench: AI Agents for Web Testing](wiki/webtestbench-ai-web-testing.md)

@@ -19,3 +19,8 @@ Agent reads latest commit diff via GitHub MCP, classifies every changed line (fu
 
 - Four-layers piece (orchestration context), delivery-pipelines (thresholds), quality-gates post
 - Our mapping: per-risk-tier framework (selection by risk), QAEverest sensitivity (14/18), Agentiqa M2 (trivial → silent PASS)
+
+## See also
+
+- [Testing AI Systems Across All Four Layers — Testkube (2026-08-28)](wiki/testkube-four-layers-ai-testing-2026-08.md)
+- [Local vs Frontier Models for Test Analysis — Testkube (2026-07-29)](wiki/testkube-local-vs-frontier-models-2026-07.md)

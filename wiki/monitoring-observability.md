@@ -184,6 +184,12 @@ AI coding tools generate application code, NOT operational infrastructure:
 
 
 
+## See also
+
+- [Observability-Driven Development for LLMs](wiki/llms-observability-driven-development.md)
+- [Monitoring for Vibe-Coded Apps](wiki/monitoring-vibe-coded-apps.md)
+- [Observability-Driven Development (ODD)](wiki/splunk-odd-explained.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)

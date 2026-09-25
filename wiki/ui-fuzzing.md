@@ -128,3 +128,8 @@ test('XSS in bio is escaped', async ({ page }) => {
 
 ## Source
 - Tags: #fuzzing, #ui-testing, #xss, #security, #boundary-testing, #owasp, #playwright
+
+## See also
+
+- [Мутационное тестирование без доступа к коду](wiki/Mutation-testing-without-code.md)
+- [Recorder Locator Quality: playwright-cli 0.1.19 vs Human POMs (2026-09-09)](wiki/recorder-locator-quality-playwright-cli-2026-09.md)

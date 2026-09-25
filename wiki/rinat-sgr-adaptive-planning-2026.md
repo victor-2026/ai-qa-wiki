@@ -83,3 +83,7 @@ Politely rejected skynet@y.com request
 ### Источник
 - [SGR Adaptive Planning](https://abdullin.com/schema-guided-reasoning/adaptive-planning) (2025)
 - Demo source: SGR Demo (business assistant, ~160 lines Python) + Gist
+
+## See also
+
+- [Schema-Guided Reasoning (SGR)](wiki/rinat-sgr-2026.md)

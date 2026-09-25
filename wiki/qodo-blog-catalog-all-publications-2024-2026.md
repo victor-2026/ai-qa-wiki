@@ -177,6 +177,12 @@
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Minimal hello‑world agent (illustrative)](wiki/qodo-code-aware-agentic-ai-the-system-approach.md)
@@ -197,6 +203,9 @@
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [Qodo – Adaptive Rules for AI‑Assisted Code](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
+- [Qodo 2026 State of AI Code Quality Report](wiki/qodo-state-of-ai-code-quality-report-2026.md)
 - [Verge Rabbit Os3 Agent 2026](wiki/verge-rabbit-os3-agent-2026.md)
 - [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)
+- [Why Static AI Rule Files (e.g., AGENTS.md) Fail and What Actually Works](wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md)
+- [Zero Outage Ontology Multi Compliance 2026](wiki/zero-outage-ontology-multi-compliance-2026.md)
 <!-- backlinks-end -->

@@ -78,3 +78,7 @@ Refactor spec to use existing POM methods. Заменить все raw page.fill
 - [ ] CLAUDE.md symlink → AGENTS.md
 - [ ] Git commit для стартовой точки
 - [ ] `outputs/agent-comparison/round-1.md` для результатов
+
+## See also
+
+- [Сравнительное Тестирование: OpenCode vs Claude Code](wiki/opencode-vs-claude-comparative-test.md)

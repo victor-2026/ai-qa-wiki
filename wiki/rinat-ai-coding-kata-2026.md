@@ -57,3 +57,7 @@ AI + Coding приносит пользу на задачах прототипи
 
 ### Источник
 - [AI+Coding Kata (2025)](https://abdullin.com/ai-coding/kata-1/) (Published April 06, 2025)
+
+## See also
+
+- [We Never Wanted Human Code](wiki/rinat-boring-code-2026.md)

@@ -97,6 +97,12 @@
 *Ingested: 2026-08-31*
 
 
+## See also
+
+- [How to Test a RAG Pipeline: Two Surfaces, Not One Score](wiki/autonoma-rag-pipeline-2026.md)
+- [RAG Evaluation Using Ragas](wiki/rag-evaluation-ragas.md)
+- [Testing AI Systems Across All Four Layers — Testkube (2026-08-28)](wiki/testkube-four-layers-ai-testing-2026-08.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)

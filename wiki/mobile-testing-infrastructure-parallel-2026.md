@@ -47,3 +47,9 @@ BrowserStack, Sauce Labs, LambdaTest, Maestro Cloud — альтернатива
 ## TL;DR
 
 Appium — единственный seamless remote execution: Mac(Win) → iOS, Win → Android, один код, два сервера. Maestro и Detox — локально на каждой платформе.
+
+## See also
+
+- [Detox Basics for React Native Testing](wiki/detox-basics-2026.md)
+- [Maestro vs Appium — Сравнительный анализ (2026)](wiki/maestro-vs-appium-2026.md)
+- [Windows Server: Mobile Testing Setup](wiki/mobile-testing-windows-server-setup-2026.md)

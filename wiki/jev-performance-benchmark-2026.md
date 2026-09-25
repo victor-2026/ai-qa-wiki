@@ -35,3 +35,7 @@ Use Jev as primary classifier. Keep Pi/openrouter only as emergency fallback for
 
 *Benchmark run: 2026-09-22, W3 Sprint Day 3*
 *Related: `docs/jev-patterns.md` (custom schemas for FlowScout/OrangePro/OrangeHRM)*
+
+## See also
+
+- [Tier → Model → Threshold: Judge Selection Matrix (2026-09-24)](wiki/tier-model-selection-matrix-2026.md)

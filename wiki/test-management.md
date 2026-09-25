@@ -160,3 +160,7 @@ CHANGED REQ-01 (Login)
 ## Sources
 
 - raw/rtm-matrix-habr.md
+
+## See also
+
+- [Requirements Traceability Matrix (RTM): A Tester's Navigator](wiki/rtm-matrix-habr.md)

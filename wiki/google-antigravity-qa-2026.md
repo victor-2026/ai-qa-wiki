@@ -73,6 +73,10 @@ Antigravity 2.0 (May 2026) is powerful but **no longer free for real work**.
 
 
 
+## See also
+
+- [Сравнение: OpenCode vs Antigravity (Go migration)](wiki/antigravity-benchmark.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AGENTS.md — 2 итерация: Сравнение предложений](wiki/agents-md-discussion.md)

@@ -409,6 +409,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/alexandra-gyetvai-catalog-2026.html",
+      "title": "Alexandra Gyetvai — Talks & Posts Catalog (talent engineering, AI in HR)",
+      "desc": "**Who:** Head of Operations @ Superlinked (VC-backed AI startup); ex-talent advisor, ex-greehill, ex-EU Commission; news",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/allure-testops-research-2026.html",
       "title": "Allure TestOps",
       "desc": "source: \"allure-testops-research-2026.md\"",
@@ -1159,6 +1165,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.html",
+      "title": "Filip Hric Playwright Cli Jev Vs Mcp 2026",
+      "desc": "source: \"filip-hric-playwright-cli-jev-vs-mcp-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/flowscout-akymenko-kanaris-thread-2026-09-22.html",
       "title": "Flowscout Akymenko Kanaris Thread 2026 09 22",
       "desc": "source: \"flowscout-akymenko-kanaris-thread-2026-09-22.md\"",
@@ -1192,6 +1204,12 @@
       "file": "wiki/go-testing-for-qa-2026.html",
       "title": "Go Testing For Qa 2026",
       "desc": "source: \"go-testing-for-qa-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/gold-labeling-assessor-protocol-2026.html",
+      "title": "Gold-Labeling Assessor Protocol: Taxonomy, Boundary Rules, Calibration (2026-09-25)",
+      "desc": "**Source of truth:** `Positions-CV-CL/company/pilots/Jev/labeling-guideline-v1.md` (W3 zone; gold-n30 set: E1-E10 e2e-su",
       "tag": "Wiki"
     },
     {
@@ -1264,6 +1282,12 @@
       "file": "wiki/iclr-2026-agent-benchmarking-self-improvement.html",
       "title": "Iclr 2026 Agent Benchmarking Self Improvement",
       "desc": "source: \"iclr-2026-agent-benchmarking-self-improvement.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/igor-engine-vs-car-ship-decision-2026.html",
+      "title": "Igor Engine Vs Car Ship Decision 2026",
+      "desc": "source: \"igor-engine-vs-car-ship-decision-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -1366,6 +1390,12 @@
       "file": "wiki/it-was-always-a-loop.html",
       "title": "It Was Always a Loop",
       "desc": "title: \"It Was Always a Loop\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/ivan-qa-queue-shift-4000-2026.html",
+      "title": "Ivan Qa Queue Shift 4000 2026",
+      "desc": "source: \"ivan-qa-queue-shift-4000-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -1567,6 +1597,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/konstantin-hekajev-e2e-changes-2026.html",
+      "title": "Konstantin Hekajev E2E Changes 2026",
+      "desc": "source: \"konstantin-hekajev-e2e-changes-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/krivitsky-agentic-factory-nested-loops-2026.html",
       "title": "Krivitsky Agentic Factory Nested Loops 2026",
       "desc": "source: \"krivitsky-agentic-factory-nested-loops-2026.md\"",
@@ -1756,6 +1792,18 @@
       "file": "wiki/mutation-testing-vs-code-coverage-autonoma.html",
       "title": "Mutation Testing Vs Code Coverage Autonoma",
       "desc": "source: \"mutation-testing-vs-code-coverage-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/nace-drex-diffusion-decision-model-2026.html",
+      "title": "Nace Drex Diffusion Decision Model 2026",
+      "desc": "source: \"nace-drex-diffusion-decision-model-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/niluka-guardrail-qa-framework-2026.html",
+      "title": "Niluka Guardrail Qa Framework 2026",
+      "desc": "source: \"niluka-guardrail-qa-framework-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2209,6 +2257,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qualitymax-independent-verifier-profile-2026.html",
+      "title": "Qualitymax Independent Verifier Profile 2026",
+      "desc": "source: \"qualitymax-independent-verifier-profile-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qualityremarks-blog-catalog-all-publications-2026.html",
       "title": "Quality Remarks — Complete Publications Catalog (Keith Klain)",
       "desc": "**Source:** https://qualityremarks.com/ (Quality Remarks, Keith Klain — technology leader, Chartered Management Consulta",
@@ -2455,6 +2509,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/superlinked-inference-company-profile-2026.html",
+      "title": "Superlinked — Open-Source Inference Engine for Agents (Company Profile 2026-09-25)",
+      "desc": "**Company:** Superlinked (https://superlinked.com/) — open-source inference engine (SIE) for AI agents. GitHub superlink",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/swe-proof-machine-checked-proofs-2026.html",
       "title": "SWE-Proof: Machine-Checked Proofs for LLM Code (2026-09-18)",
       "desc": "**Source:** https://arxiv.org/abs/2609.21190 (Ma, Mikek, Li, Erata, Zhang, Shui, Tehrani, Huan, Ramanathan, Sojoudi, Zho",
@@ -2464,6 +2524,12 @@
       "file": "wiki/swe-tester-framework.html",
       "title": "SWE-Tester Framework",
       "desc": "title: \"SWE-Tester Framework\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/syam-zero-qa-codeless-dead-2026.html",
+      "title": "Syam Zero Qa Codeless Dead 2026",
+      "desc": "source: \"syam-zero-qa-codeless-dead-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2611,6 +2677,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/testmuai-playwright-ai-agents-mcp-2026.html",
+      "title": "Testmuai Playwright Ai Agents Mcp 2026",
+      "desc": "source: \"testmuai-playwright-ai-agents-mcp-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/testrigor-blog-catalog-all-publications-2026.html",
       "title": "testRigor Blog: Complete Publications Catalog",
       "desc": "**Source:** https://testrigor.com/blog/",
@@ -2665,6 +2737,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/tony-seale-jev-ontologies-neural-symbolic-2026.html",
+      "title": "Tony Seale – Jev, Ontologies and the Neural‑Symbolic Loop (2024‑09‑25)",
+      "desc": "source: \"tony-seale-jev-ontologies-neural-symbolic-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/tony-seale-multi-agent-semantic-web-2026.html",
       "title": "Tony Seale: Multi-Agent Systems and the Semantic Web",
       "desc": "**Source:** LinkedIn post, Tony Seale (The Knowledge Graph Guy), ~2026-09-03/04",
@@ -2704,6 +2782,12 @@
       "file": "wiki/valentina-jemuovic-optivem-atdd-profile-2026.html",
       "title": "Valentina Jemuović — Founder & Technical Coach, Optivem",
       "desc": "source: \"valentina-jemuovic-optivem-atdd-profile-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/valerii-opus55-upgrade-checklist-2026.html",
+      "title": "Valerii Opus55 Upgrade Checklist 2026",
+      "desc": "source: \"valerii-opus55-upgrade-checklist-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2833,6 +2917,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/zero-outage-ontology-multi-compliance-2026.html",
+      "title": "Zero Outage Ontology Multi Compliance 2026",
+      "desc": "source: \"zero-outage-ontology-multi-compliance-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/какэкономитьтокенывclaudecode.html",
       "title": "Какэкономитьтокенывclaudecode",
       "desc": "source: \"Как экономить токены в Claude Code.md\"",
@@ -2845,6 +2935,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 319,
-  "updated": "2026-09-24"
+  "raw_count": 332,
+  "updated": "2026-09-25"
 }

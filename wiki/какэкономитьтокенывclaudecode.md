@@ -83,6 +83,10 @@ tags: [claude-code]
 
 
 
+## See also
+
+- [Как сохранять контекст в AI‑IDE без compact‑сжатия](wiki/context-loss-orchestration-separation-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AGENTS.md — 2 итерация: Сравнение предложений](wiki/agents-md-discussion.md)

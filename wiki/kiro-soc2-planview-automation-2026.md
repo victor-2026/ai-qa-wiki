@@ -92,3 +92,7 @@ Planview expanding to other use cases (infra monitoring agent querying CloudWatc
 ---
 
 *Ingested: 2026-08-30*
+
+## See also
+
+- [How Kiro and Snyk Create Multi-Layered Security Guardrails](wiki/kiro-snyk-guardrails-2026.md)

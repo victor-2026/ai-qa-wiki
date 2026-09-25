@@ -92,3 +92,7 @@ Rapidly growing tech company generating large codebase portions via Kiro: securi
 4. Weekly: `snyk aibom --html` + archive for audit. Low effort, high leverage.
 
 *Ingested: 2026-08-30*
+
+## See also
+
+- [Planview Saves 40+ Hours per Audit Cycle with SOC 2 Automation](wiki/kiro-soc2-planview-automation-2026.md)

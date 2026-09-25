@@ -99,3 +99,7 @@ created by a human
 - `red-teaming-tests.md` — red teaming methodology
 
 **Updated:** 2026-06-24
+
+## See also
+
+- [Weekly Time Planner — PRD Example](wiki/weekly-time-planner-prd-example.md)

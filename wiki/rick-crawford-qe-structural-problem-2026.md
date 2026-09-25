@@ -94,3 +94,7 @@ Additional takeaway: independent testing = different assumptions, risk models, p
 Additional takeaway: independent testing = different assumptions, risk models, purpose — not just different person.
 
 *Ingested: 2026-09-01*
+
+## See also
+
+- [Software Testing Weekly — обзор ресурса](wiki/software-testing-weekly-newsletter-2026.md)

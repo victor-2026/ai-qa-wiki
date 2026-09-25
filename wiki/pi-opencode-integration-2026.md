@@ -115,3 +115,7 @@ Pi-subagents details: `pi install npm:pi-subagents` (only step), `maxSubagentSpa
 ---
 
 *Ingested: 2026-09-03 · Via pi-subagents README + opencode.ai/docs + Zalando MCP proxy pattern; no native pi↔opencode wire, integration via files/MCP/CLI*
+
+## See also
+
+- [Agentic Engineering at Zalando: a snapshot (2026-08-14)](wiki/zalando-agentic-engineering-snapshot-2026.md)

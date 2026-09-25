@@ -89,3 +89,7 @@ Use property-aware flow when: bug has clear C, fix is functional, regression ris
 Additional note: combine with mutation testing — C/¬C partition becomes mutant kill/preserve oracle.
 
 *Ingested: 2026-08-30*
+
+## See also
+
+- [Property-Based Testing Caught a Security Bug I Never Would Have Found](wiki/kiro-property-based-testing-security-bug-2026.md)

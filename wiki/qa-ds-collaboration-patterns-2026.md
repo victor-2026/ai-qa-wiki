@@ -69,3 +69,8 @@ QA and Data Science teams operate with different mindsets: DS optimizes for mode
 - `wiki/ds-ml-quality-testing-2026.md` — 4-level testing model
 - `wiki/ai-testing-metrics.md` — Metrics for AI systems
 - `wiki/quality-characteristics.md` — AI quality attributes (ISO 25010)
+
+## See also
+
+- [AI Risk Communication for QA Leaders](wiki/ai-risk-communication-2026.md)
+- [DS/ML Quality Assurance – краткое руководство для QA‑инженеров](wiki/ds-ml-quality-testing-2026.md)

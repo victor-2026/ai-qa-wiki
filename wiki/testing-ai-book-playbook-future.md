@@ -169,10 +169,14 @@ Chapters 19-21 close the loop:
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Aiengineeringskillsmap Softwareengineeringfundamentals](wiki/aiengineeringskillsmap-softwareengineeringfundamentals.md)
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
 - [Klain Turns Out Testing Is Hard 2026](wiki/klain-turns-out-testing-is-hard-2026.md)
+- [Nace Drex Diffusion Decision Model 2026](wiki/nace-drex-diffusion-decision-model-2026.md)
 - [Qodo How Qodo Builds The Wisdom To Govern The Context Engine](wiki/qodo-how-qodo-builds-the-wisdom-to-govern-the-context-engine.md)
 <!-- backlinks-end -->

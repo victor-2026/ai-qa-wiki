@@ -188,6 +188,10 @@ Source: [arxiv-ai-testing-effectiveness-2026.md](wiki/arxiv-ai-testing-effective
 
 
 
+## See also
+
+- [MAS-Pipeline Риски](wiki/mas-risks.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Testing Effectiveness](wiki/arxiv-ai-testing-effectiveness-2026.md)

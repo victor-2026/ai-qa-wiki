@@ -95,3 +95,7 @@
 
 ---
 *Ingested: 2026-08-31*
+
+## See also
+
+- [RAG Evaluation — How to Test Retrieval-Augmented Generation](wiki/rag-evaluation.md)

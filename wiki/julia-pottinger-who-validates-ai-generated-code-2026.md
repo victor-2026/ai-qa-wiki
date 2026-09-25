@@ -142,6 +142,11 @@ AI changed writer, not answerer. Teams generating most code aren't trouble; team
 
 
 
+## See also
+
+- [Who Is Accountable for AI-Generated Code?](wiki/julia-pottinger-accountable-ai-code-2026.md)
+- [Julia Pottinger — Complete Publications Catalog (juliapottinger.com)](wiki/juliapottinger-blog-catalog-all-publications-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Bach Everyone Not Responsible Quality 2026](wiki/bach-everyone-not-responsible-quality-2026.md)

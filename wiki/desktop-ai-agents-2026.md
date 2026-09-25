@@ -182,6 +182,11 @@ Augment Code ($30/mo), Sourcegraph Cody ($9/mo), Aider (open source), Cline (ope
 
 
 
+## See also
+
+- [Сравнительное тестирование агентов (benchmark)](wiki/agent-comparison-benchmark.md)
+- [Сравнение: OpenCode vs Antigravity (Go migration)](wiki/antigravity-benchmark.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)

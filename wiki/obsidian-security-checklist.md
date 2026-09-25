@@ -83,3 +83,8 @@ python3 ~/scripts/obsidian-security-check.py
 
 - `raw/obsidian-scam-audit-2026.md` — full story
 - `wiki/obsidian-skills-kepano.md` — legitimate Obsidian usage
+
+## See also
+
+- [Obsidian Scam – Fake QA Audit Using Malicious Community Plugins](wiki/obsidian-scam-audit-2026.md)
+- [Obsidian Skills by Steph Ango (kepano)](wiki/obsidian-skills-kepano.md)

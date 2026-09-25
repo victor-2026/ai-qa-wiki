@@ -92,7 +92,15 @@ Instrumentation minimum for a usable trajectory log: exact input (prompt/history
 *Ingested: 2026-08-31*
 
 
+
+
+
+## See also
+
+- [How to Test AI Agents That Take Actions (Tool Calls)](wiki/autonoma-testing-tool-calls-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Grzegorz Laya Router River Raid 2026](wiki/grzegorz-laya-router-river-raid-2026.md)
+- [Syam Zero Qa Codeless Dead 2026](wiki/syam-zero-qa-codeless-dead-2026.md)
 <!-- backlinks-end -->

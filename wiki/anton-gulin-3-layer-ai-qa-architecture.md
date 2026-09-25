@@ -127,6 +127,10 @@ Humans still own: risk definition, evidence review, release decisions.
 
 
 
+## See also
+
+- [Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison](wiki/anton-gulin-playwright-vs-cypress-vs-selenium-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)

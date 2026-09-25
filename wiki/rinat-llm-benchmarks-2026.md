@@ -56,3 +56,7 @@ tags: [llm-evals, benchmarks, agent-testing]
 ### Источник
 - [Evaluating LLM in business workloads](https://abdullin.com/llm-benchmarks)
 - via /search-index.jsonl (url: /llm-benchmarks)
+
+## See also
+
+- [Rinat Abdullin Blog: Complete Publications Catalog](wiki/rinat-abdullin-blog-catalog-all-publications-2026.md)

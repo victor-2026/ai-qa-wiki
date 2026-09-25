@@ -137,6 +137,10 @@ Live examples:
 
 
 
+## See also
+
+- [Tier → Model → Threshold: Judge Selection Matrix (2026-09-24)](wiki/tier-model-selection-matrix-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Blog: Complete Publications Catalog with Annotations](wiki/archestra-blog-catalog-2026.md)

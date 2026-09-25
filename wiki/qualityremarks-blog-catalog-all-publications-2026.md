@@ -91,3 +91,7 @@
 ---
 
 *Compiled: 2026-09-03 · Base page for https://qualityremarks.com/ + detailed wiki for testing-mindset (UTM alias noted)*
+
+## See also
+
+- [Testing Mindset Vindicated: Klain on Evaluator Independence (2026-08)](wiki/klain-testing-mindset-evaluator-independence-2026-08.md)

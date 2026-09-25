@@ -120,3 +120,7 @@ Reference: [[llm-testing]], [[known_patterns|Pattern: llm_filter_approach]]
 - Reference: `raw/rag-evaluation-ragas.md` (BeyondQuality Research)
 - See also: [[rag-evaluation-ragas]], [[llm-testing]], [[mas-testing-framework]], [[Test-Reliability]]
 - Tags: #rag, #evaluation, #retrieval, #faithfulness, #llm-judge, #chunking
+
+## See also
+
+- [RAG Evaluation Using Ragas](wiki/rag-evaluation-ragas.md)

@@ -109,6 +109,10 @@ This framework can be used for:
 
 
 
+## See also
+
+- [Allure TestOps](wiki/allure-testops-research-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)

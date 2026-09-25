@@ -255,6 +255,13 @@ Drop partition = instant operation.
 
 
 
+## See also
+
+- [Anti-Flakiness: Best Practices for Reliable Tests](wiki/anti-flakiness-habr.md)
+- [Your Regression Suite Is a Museum: 5 Questions That Decide Delete vs Keep](wiki/anton-gulin-regression-suite-museum-2026.md)
+- [Pact Contract Testing — Полное руководство](wiki/pact-contract-testing-guide-2026.md)
+- [UI Fuzzing — Mutation Through Input](wiki/ui-fuzzing.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)

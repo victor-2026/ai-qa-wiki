@@ -98,3 +98,8 @@
 
 ---
 *Ingested: 2026-08-31*
+
+## See also
+
+- [MCP (Model Context Protocol) for Beginners](wiki/101-beginner-mcp.md)
+- [How to Test Streaming AI Responses](wiki/autonoma-streaming-responses-2026.md)

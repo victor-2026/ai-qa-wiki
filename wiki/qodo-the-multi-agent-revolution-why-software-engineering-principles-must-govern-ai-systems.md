@@ -80,6 +80,9 @@ Qodo argues that the next leap in AI‑assisted development comes from **multi�
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Agents Replace Team Roles: The 35-Agent Startup Model](wiki/ai-agents-replace-team-entrepreneurs-mogilko-yampolskiy-2026.md)
@@ -87,6 +90,7 @@ Qodo argues that the next leap in AI‑assisted development comes from **multi�
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
 - [CodeScene: CodeHealth as a Prerequisite and Compass for Coding Agents](wiki/codescene-codehealth-prerequisite-compass-agents-2026.md)
 - [CodeScene – Deterministic PR Refactoring Agents (2026)](wiki/codescene-deterministic-pr-refactoring-agents-2026.md)
+- [Ivan Qa Queue Shift 4000 2026](wiki/ivan-qa-queue-shift-4000-2026.md)
 - [Kiro Blog: Complete Publications Catalog with Annotations](wiki/kiro-blog-catalog-all-publications-2025-2026.md)
 - [Monitoring & Observability for AI Systems](wiki/monitoring-observability.md)
 - [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)

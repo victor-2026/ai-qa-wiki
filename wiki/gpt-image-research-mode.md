@@ -111,3 +111,7 @@ Text-based portfolio is cleaner and more professional:
 **Tags:** #ai-image #gpt-image #research #image-generation
 **Source:** Twitter/X thread (2026-05-14)
 **Updated:** 2026-05-14
+
+## See also
+
+- [Pi Image Generation via OpenRouter (and Gamma)](wiki/pi-image-generation-2026.md)

@@ -99,3 +99,10 @@ Still important:
 ---
 
 *From RSS: https://www.ontestautomation.com/feed.xml*
+
+## See also
+
+- [Learning Takes Time — But Do We Get That Time?](wiki/bas-dijkstra-learning-takes-time-2026.md)
+- [Writing Tests with Claude Code — Part 1](wiki/claude-code-tests-part1.md)
+- [Self-Healing Tests — Why It's a Bad Idea](wiki/self-healing-tests.md)
+- [The Test Automation Quadrant](wiki/test-automation-quadrant.md)

@@ -29,6 +29,10 @@ P.S. This is one of many heuristics and is one that is often overlooked in my op
 You can see the full skill here:https://github.com/codescene-oss/codescene-mcp-server/blob/main/skills/risk-based-testing-with-code-health/SKILL.md
 [[ai-testing-effectiveness]] [[ai-testing-skill]] 
 
+## See also
+
+- [The Test Automation Quadrant](wiki/test-automation-quadrant.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)

@@ -93,3 +93,8 @@ Engineers own: decide whether it's the right way, verify diagnosis + implementat
 - `wiki/addy-osmani-own-the-outer-loop-2026.md` — accountability, answerability, 12 pillars
 - `wiki/addy-osmani-brownfield-agentic-engineering-2026.md` — brownfield = lit factory territory
 - `wiki/comprehension-debt.md` — the debt dark factories accumulate
+
+## See also
+
+- [Addy Osmani — Human Judgment Doesn't Leave. It Relocates. (2026)](wiki/addy-osmani-human-judgment-software-factory-2026.md)
+- [Addy Osmani — Own the Outer Loop (2026)](wiki/addy-osmani-own-the-outer-loop-2026.md)

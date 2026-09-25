@@ -57,6 +57,11 @@ The field of AI testing effectiveness has seen significant advancements in recen
 
 
 
+## See also
+
+- [AI Testing Effectiveness](wiki/ai-testing-effectiveness-papers.md)
+- [AI Testing Effectiveness](wiki/ai-testing-effectiveness.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [MAS-Testing Framework](wiki/mas-testing-framework-summary.md)

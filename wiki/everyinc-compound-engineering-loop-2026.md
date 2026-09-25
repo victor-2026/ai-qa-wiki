@@ -34,3 +34,8 @@ Knowledge from each cycle written to `docs/solutions/` so next agent starts smar
 ## Links
 - Repo: https://github.com/EveryInc/compound-engineering-plugin
 - Six-layer: https://github.com/rmorison/engineering-standards
+
+## See also
+
+- [engineering standards ai development compound 2026](wiki/engineering-standards-ai-development-compound-2026.md)
+- [rmorison: Six-Layer AI Architecture for AI-Forward Engineering](wiki/rmorison-six-layer-ai-architecture-2026.md)

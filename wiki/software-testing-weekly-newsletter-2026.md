@@ -121,3 +121,8 @@ Postman Field CTO: AI × PR-velocity вскрыл 6 структурных ра�
 - `agent-skills-specification.md` — Agent skills, MCP
 
 Добавлено: 2026-09-01
+
+## See also
+
+- [Your Regression Suite Is a Museum: 5 Questions That Decide Delete vs Keep](wiki/anton-gulin-regression-suite-museum-2026.md)
+- [Test Rocket: Rethinking the Test Pyramid for the AI Era](wiki/test-rocket-pyramid-ai-era-2026.md)

@@ -233,6 +233,10 @@ Methods like **LoRA** для быстрого дообучения:
 
 
 
+## See also
+
+- [SWE-Proof: Machine-Checked Proofs for LLM Code (2026-09-18)](wiki/swe-proof-machine-checked-proofs-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)

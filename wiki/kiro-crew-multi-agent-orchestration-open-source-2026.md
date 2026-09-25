@@ -123,6 +123,10 @@ Kiro Crew is an **open-source multi-agent orchestration platform** built on Kiro
 *Ingested: 2026-08-30*
 
 
+## See also
+
+- [Kiro Crew Pilot Plan](wiki/kiro-crew-pilot-plan.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Securing AI Agents – The DPACT Framework](wiki/infoq-dpact-framework-ai-agents-2026.md)

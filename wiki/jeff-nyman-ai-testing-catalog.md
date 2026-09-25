@@ -83,6 +83,10 @@ ingested: "2026-09-01"
 
 
 
+## See also
+
+- [Tester Stories — Complete Publications Catalog (Jeff Nyman)](wiki/testerstories-blog-catalog-all-publications-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

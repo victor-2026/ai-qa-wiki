@@ -257,3 +257,7 @@ tests:
 **Tags:** #promptfoo #eval #llm-comparison #wiki #groq #qa  
 **Related:** [[prompt-tips-and-skills]] [[metamorphic-tests-comparison]] [[qa-ai-transition-guide]]  
 **Updated:** 2026-05-05
+
+## See also
+
+- [Metamorphic Testing — Сравнение подходов](wiki/metamorphic-tests-comparison.md)

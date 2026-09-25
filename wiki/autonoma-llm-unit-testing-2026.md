@@ -108,6 +108,10 @@ Decision tree from raw: exact schema/substring → deterministic → correct ans
 
 
 
+## See also
+
+- [Promptfoo Eval Suite for AI QA Wiki](wiki/promptfoo-eval-suite.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Grzegorz Laya Router River Raid 2026](wiki/grzegorz-laya-router-river-raid-2026.md)

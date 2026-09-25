@@ -119,6 +119,9 @@ QA reading: stage 3‑4 on Jones scale = where QA earns its keep (verification o
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [3-Way Comparison: MAS-Pipeline vs SWE-Tester vs Applause Framework](wiki/three-way-comparison.md)
@@ -126,6 +129,7 @@ QA reading: stage 3‑4 on Jones scale = where QA earns its keep (verification o
 - [Andrew Ng Loop Engineering 2026](wiki/andrew-ng-loop-engineering-2026.md)
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)
 - [Ilya Kabanov Cybersecurity Ai Cost 2026](wiki/ilya-kabanov-cybersecurity-ai-cost-2026.md)
+- [Ivan Qa Queue Shift 4000 2026](wiki/ivan-qa-queue-shift-4000-2026.md)
 - [Krivitsky Agentic Factory Nested Loops 2026](wiki/krivitsky-agentic-factory-nested-loops-2026.md)
 - [Loris Bartolini Jean Yves Garcin Banking Rag Adversarial Testing 2026](wiki/loris-bartolini-jean-yves-garcin-banking-rag-adversarial-testing-2026.md)
 - [Michael Bolton Systems Thinking Constraints 2026](wiki/michael-bolton-systems-thinking-constraints-2026.md)

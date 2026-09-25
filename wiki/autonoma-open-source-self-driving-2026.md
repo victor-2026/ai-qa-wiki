@@ -263,6 +263,13 @@ $ npx @autonoma-ai/planner@latest
 
 
 
+
+
+
+## See also
+
+- [Autonoma на OrangeHRM: опыт первой настройки](wiki/autonoma-orangehrm-setup-notes.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Productivity Paradox Verification Layer 2026](wiki/ai-productivity-paradox-verification-layer-2026.md)

@@ -173,3 +173,8 @@ Download реализован ✅. Осталось:
 - 🔄 Нет WatchPaths, HealthCheck, os_log, скрипта установки
 
 **Источник:** Реализация на базе OpenCode 1.14.41, python-telegram-bot 22.7, Python 3.12.
+
+## See also
+
+- [OpenCode + OpenRouter для QA‑тестирования (2026)](wiki/opencode-openrouter-qa-2026.md)
+- [VirusTotal — Практическое руководство](wiki/virustotal-usage-2026.md)

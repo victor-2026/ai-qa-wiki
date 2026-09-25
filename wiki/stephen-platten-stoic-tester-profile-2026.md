@@ -130,6 +130,13 @@ Stephen Platten blends a military‑grade engineering background with a modern f
 
 
 
+
+
+
+## See also
+
+- [AI‑Enhanced Manual QA – Interview Framework](wiki/30questiontomodernmanualqa.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [30 AI-Focused Interview Questions for Manual QA](wiki/30-ai-questions-manual-qa-2026.md)
@@ -138,6 +145,7 @@ Stephen Platten blends a military‑grade engineering background with a modern f
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
 - [Apparently We Need a Testing Mindset After All](wiki/keith-klain-testing-mindset-after-all-2026.md)
 - [Bach Responsible Quality Engineering 2026](wiki/bach-responsible-quality-engineering-2026.md)
+- [Igor Engine Vs Car Ship Decision 2026](wiki/igor-engine-vs-car-ship-decision-2026.md)
 - [QA Skills → AI Roles Transition Guide](wiki/qa-ai-transition-guide.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 - [Vector Databases in Fintech](wiki/vector-databases-fintech-2026.md)

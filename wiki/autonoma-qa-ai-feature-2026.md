@@ -96,6 +96,10 @@ Adversarial specifics delegated: `how-to-test-for-prompt-injection` for payload 
 *Ingested: 2026-08-31*
 
 
+## See also
+
+- [How to Run LLM Evals in CI/CD](wiki/autonoma-llm-evals-cicd-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Shrm Ai Field Manual Hr Use Cases 2026](wiki/shrm-ai-field-manual-hr-use-cases-2026.md)

@@ -62,8 +62,16 @@ Networking company, cross-team integration leaks. One week: ~1,000 stories/artif
 
 
 
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Ivan Qa Queue Shift 4000 2026](wiki/ivan-qa-queue-shift-4000-2026.md)
 - [Jay Aigner Surface Vs Trust 2026](wiki/jay-aigner-surface-vs-trust-2026.md)
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
+- [Syam Zero Qa Codeless Dead 2026](wiki/syam-zero-qa-codeless-dead-2026.md)
 <!-- backlinks-end -->

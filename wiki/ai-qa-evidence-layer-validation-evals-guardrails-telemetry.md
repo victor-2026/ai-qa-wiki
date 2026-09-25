@@ -455,6 +455,13 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 
 
 
+
+
+
+## See also
+
+- [QBurst: Quality Engineering Framework for Validating Agent Behavior](wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Dlc Process Testing Guardrails 2026](wiki/ai-dlc-process-testing-guardrails-2026.md)
@@ -506,6 +513,7 @@ In the Article 14 experiment, mutation and contract results are downstream QA ev
 - [Stephen Platten Stoic Tester Profile 2026](wiki/stephen-platten-stoic-tester-profile-2026.md)
 - [Stoic Tester Goodharts Law Ai Evaluation 2026](wiki/stoic-tester-goodharts-law-ai-evaluation-2026.md)
 - [Toloka Llm Qa Agent Verification 2026](wiki/toloka-llm-qa-agent-verification-2026.md)
+- [Valerii Opus55 Upgrade Checklist 2026](wiki/valerii-opus55-upgrade-checklist-2026.md)
 - [Virto Commerce Integration Glossary 2026](wiki/virto-commerce-integration-glossary-2026.md)
 - [Why Static AI Rule Files (e.g., AGENTS.md) Fail and What Actually Works](wiki/qodo-why-static-ai-rule-files-like-agents-md-are-failing-and-what-actually-works.md)
 <!-- backlinks-end -->

@@ -156,6 +156,10 @@ Windsurf **не применялся для тестирования или ге
 
 
 
+## See also
+
+- [From OpenAPI/Swagger to Test Suite in Seconds](wiki/kiro-openapi-to-testsuite-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)

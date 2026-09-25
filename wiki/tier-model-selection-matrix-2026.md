@@ -29,7 +29,7 @@
 3. Cheapest model clearing the tier bar wins the tier. Re-run on task change (choice is measured, not declared).
 
 ## See also
-
+- [Local vs Frontier Models for Test Analysis — Testkube (2026-07-29)](wiki/testkube-local-vs-frontier-models-2026-07.md)
 - Per-risk-tier framework v0.3 (Positions-CV-CL outreach/active/Rupesh_Kabra) — tiers and gates
 - [[rotation-without-relevance-preseed-mutant-filtering-2026]] — stratified sampling ~20 + OrangeHRM tier map
 - [[jev-open-source-alternatives-2026]] — candidate judges (SemIf, GLiClass, Laya, OpenJevPro)

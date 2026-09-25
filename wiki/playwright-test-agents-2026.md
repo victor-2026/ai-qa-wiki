@@ -108,3 +108,9 @@ Playwright Test Agents — это MAS-пайплайн родной для Playw
 5. **Человек** — review + critical decisions
 
 Источник: https://playwright.dev/docs/test-agents
+
+## See also
+
+- [Autonoma на OrangeHRM: опыт первой настройки](wiki/autonoma-orangehrm-setup-notes.md)
+- [Browser-Based AI Testing Agents](wiki/browser-ai-testing-agents.md)
+- [Три AI‑тестовых фреймворка: MAS, Playwright Agents и 3‑слойная архитектура Антон](wiki/notebooklm-three-frameworks-scenario.md)

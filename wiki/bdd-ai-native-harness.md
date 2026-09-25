@@ -44,3 +44,8 @@ BDD (Given-When-Then) превращает требования в **испол�
 ## Источники
 - Rinat Abdullin (@llm_under_hood), 2026-06
 - Hack'n'Vibe (@hack_n_vibe) — RULES.md как BDD-like проверки
+
+## See also
+
+- [EARS и BDD: От требований к тестам](wiki/EARS и BDD.md)
+- [SDD vs BDD – AI‑Native Harness](wiki/rinat-abdullin-bdd-vs-sdd-ai-native-harness.md)

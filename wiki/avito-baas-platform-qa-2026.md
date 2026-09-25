@@ -111,3 +111,8 @@ Avito построил платформу **BaaS (Backoffice as a Service)** —
 ---
 
 *Source: Avito Tech Blog, 2026 (дата не указана, найдено 2026-07-06)*
+
+## See also
+
+- [AI-ревью кода через LLM в Avito: архитектура, метрики, полезность](wiki/avito-ai-code-review-llm-pipeline-2026.md)
+- [Go‑тестирование для QA‑инженеров](wiki/go-testing-for-qa-2026.md)

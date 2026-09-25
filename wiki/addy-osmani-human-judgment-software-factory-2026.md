@@ -70,3 +70,9 @@ Pair with per-stage timing; a manual run isn't finished when the factory stops b
 - `wiki/addy-osmani-own-the-outer-loop-2026.md` — deeper on accountability/answerability
 - `wiki/addy-osmani-software-factories-light-and-dark-2026.md` — dark factory = comprehension debt accelerator
 - `wiki/comprehension-debt.md` — the debt itself
+
+## See also
+
+- [Addy Osmani — Agentic Code Quality (2026)](wiki/addy-osmani-agentic-code-quality-2026.md)
+- [Addy Osmani — Own the Outer Loop (2026)](wiki/addy-osmani-own-the-outer-loop-2026.md)
+- [Addy Osmani — Software Factories, Light and Dark (2026)](wiki/addy-osmani-software-factories-light-and-dark-2026.md)

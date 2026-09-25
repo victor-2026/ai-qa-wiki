@@ -110,3 +110,9 @@ Brownfield = frontier for factories. Must: turn implicit knowledge into explicit
 - `wiki/addy-osmani-software-factories-light-and-dark-2026.md` — dark factory, comprehension debt
 - `wiki/addy-osmani-agentic-autonomy-levels-2026.md` — six levels of autonomy
 - `wiki/comprehension-debt.md` — the debt itself
+
+## See also
+
+- [Addy Osmani — Agentic Autonomy Levels (2026)](wiki/addy-osmani-agentic-autonomy-levels-2026.md)
+- [Addy Osmani — Human Judgment Doesn't Leave. It Relocates. (2026)](wiki/addy-osmani-human-judgment-software-factory-2026.md)
+- [Addy Osmani — Software Factories, Light and Dark (2026)](wiki/addy-osmani-software-factories-light-and-dark-2026.md)

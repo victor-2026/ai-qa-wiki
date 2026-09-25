@@ -159,5 +159,6 @@ npx opencode-skill-creator install --global
 - [Anthropic original (Claude Code)](https://github.com/anthropics/skills/tree/main/skills/skill-creator)
 - [Anton Gulin — anton.qa](https://www.anton.qa)
 
+## See also
 
-
+- [Agent Skills — экосистема скиллов для AI-агентов](wiki/agent-skills-specification.md)

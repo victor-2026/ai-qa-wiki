@@ -160,8 +160,19 @@ Log ten slowest regression tests for 2 weeks: which failed, what changed in brea
 
 
 
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
+- [Filip Hric Playwright Cli Jev Vs Mcp 2026](wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.md)
 - [QA Is Dead: Orchestrating Quality Across AI Engineering Teams](wiki/qa-is-dead-orchestrating-quality-2026.md)
 - [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)
+- [Testmuai Playwright Ai Agents Mcp 2026](wiki/testmuai-playwright-ai-agents-mcp-2026.md)
 <!-- backlinks-end -->

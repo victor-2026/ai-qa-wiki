@@ -21,3 +21,9 @@
 ---
 
 *Теги: #Fuzzing #Security #Input-Testing #Mutation #Boundary*
+
+## See also
+
+- [API Testing (Тестирование API)](wiki/API-Testing.md)
+- [Black Box Testing (Тестирование «чёрного ящика»)](wiki/Black-Box-Testing.md)
+- [Chaos Engineering (Хаос-инжиниринг)](wiki/Chaos-Engineering.md)

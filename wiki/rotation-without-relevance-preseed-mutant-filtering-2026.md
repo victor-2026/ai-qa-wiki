@@ -139,9 +139,13 @@ Stage 2 scales horizontally, not vertically: same ~20 protocol per app across th
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)
 - [Arxiv Rebuild Dossier Mechanically Enforced Specs 2026](wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md)
+- [Filip Hric Playwright Cli Jev Vs Mcp 2026](wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.md)
 - [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
 <!-- backlinks-end -->

@@ -282,6 +282,10 @@ QA/Automation roles explicitly included в пилот Google (L3–L4). Этот
 
 
 
+## See also
+
+- [AI Fluency — Новый стандарт интервью в техническом найме](wiki/ai-fluency-interview-reform-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Regression Checklist Llm Ci 2026](wiki/regression-checklist-llm-ci-2026.md)

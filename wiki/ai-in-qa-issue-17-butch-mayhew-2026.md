@@ -68,6 +68,10 @@ Apple shipped Safari MCP server — AI agents can now inspect live browsers nati
 
 
 
+## See also
+
+- [Anton Gulin: Playwright vs Cypress vs Selenium 2026 — Definitive Comparison](wiki/anton-gulin-playwright-vs-cypress-vs-selenium-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Transformation Lead — Role Specialization](wiki/ai-qa-transformation-lead.md)

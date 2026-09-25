@@ -99,8 +99,20 @@
 
 
 
+
+
+
+
+
+
+## See also
+
+- [How to Run LLM Evals in CI/CD](wiki/autonoma-llm-evals-cicd-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Bridging Intent Execution Agentic Systems 2026](wiki/amazon-science-bridging-intent-execution-agentic-systems-2026.md)
 - [Amazon Science Verus Provably Correct Rust 2026](wiki/amazon-science-verus-provably-correct-rust-2026.md)
+- [Igor Engine Vs Car Ship Decision 2026](wiki/igor-engine-vs-car-ship-decision-2026.md)
+- [Syam Zero Qa Codeless Dead 2026](wiki/syam-zero-qa-codeless-dead-2026.md)
 <!-- backlinks-end -->

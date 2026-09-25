@@ -48,3 +48,8 @@ Adopt explicit six-layer naming in docs? Already have it implicitly. The value: 
 ## Links
 - Repo: https://github.com/rmorison/engineering-standards
 - Compound: https://github.com/EveryInc/compound-engineering-plugin
+
+## See also
+
+- [engineering standards ai development compound 2026](wiki/engineering-standards-ai-development-compound-2026.md)
+- [EveryInc: Compound Engineering Loop (brainstorm → plan → work → simplify → revie](wiki/everyinc-compound-engineering-loop-2026.md)

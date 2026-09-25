@@ -83,3 +83,7 @@ Correctness is one dimension. Also: maintainability, performance, security, effi
 - `wiki/addy-osmani-human-judgment-software-factory-2026.md` — verification budget, factory taxonomy
 - `wiki/addy-osmani-agentic-autonomy-levels-2026.md` — autonomy levels mapped to verification
 - `wiki/addy-osmani-brownfield-agentic-engineering-2026.md` — zones as constraint levels
+
+## See also
+
+- [Addy Osmani — Agentic Autonomy Levels (2026)](wiki/addy-osmani-agentic-autonomy-levels-2026.md)

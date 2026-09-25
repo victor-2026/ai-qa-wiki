@@ -116,3 +116,7 @@ Autonoma не распознал, что OrangeHRM — PHP/Symfony, и сген�
 ## Update (June 2026)
 
 Autonoma went source-available (BSL 1.1, Apache 2.0 in 2028) with a new self-driving architecture and a Claude Code plugin (6-step Test Planner). The old pipeline (described above) is deprecated. See [Autonoma Open Source & Architecture](./autonoma-open-source-self-driving-2026.md) for full details.
+
+## See also
+
+- [OrangeHRM 5.4 to 5.8.1 Upgrade: Challenges and Solutions](wiki/orangehrm-54-to-581-upgrade.md)

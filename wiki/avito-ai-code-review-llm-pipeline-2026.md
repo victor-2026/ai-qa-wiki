@@ -98,3 +98,7 @@ ML Pipeline — 3 этапа:
 ---
 
 *Source: Habr, AvitoTech, 2026-04-20*
+
+## See also
+
+- [QA платформы BaaS в Avito: подходы, архитектура, инсайты](wiki/avito-baas-platform-qa-2026.md)

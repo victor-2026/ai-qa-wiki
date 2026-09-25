@@ -117,6 +117,10 @@ Auditors focus on **traceability**, **logical justification of acceptability**, 
 
 
 
+## See also
+
+- [Failure Mode and Effects Analysis (FMEA) в QA‑тестировании](wiki/failuremodeandeffectsanalysisfmea.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Quality Characteristics](wiki/quality-characteristics.md)

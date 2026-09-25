@@ -172,3 +172,7 @@ rm -rf ~/.config/opencode/skills/my-skill
 - [Документация Claude Code Skills](https://code.claude.com/docs/en/skills)
 - [aitmpl.com/skills](https://aitmpl.com/skills) — каталог скиллов
 - [skills.sh](https://skills.sh) — каталог скиллов
+
+## See also
+
+- [opencode-skill-creator: Eval-Driven Skill Development](wiki/opencode-skill-creator.md)

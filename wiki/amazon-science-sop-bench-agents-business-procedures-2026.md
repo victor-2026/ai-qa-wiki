@@ -63,6 +63,10 @@ SOP‑Bench is an open‑source framework that turns authentic standard‑operat
 
 
 
+## See also
+
+- [Анализ NotebookLM Playbook — что взять к нам](wiki/notebooklm-playbook-analysis.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

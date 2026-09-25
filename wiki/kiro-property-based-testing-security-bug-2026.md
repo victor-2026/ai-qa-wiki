@@ -91,3 +91,8 @@ With attacker-controlled strings, non-string `apiKey` could inject into prototyp
 - Encode requirement as property in spec doc — makes hypothesis and test co-evolve.
 
 *Ingested: 2026-08-30*
+
+## See also
+
+- [The Bug Fix Paradox: Why AI Agents Keep Breaking Working Code](wiki/kiro-bug-fix-paradox-2026.md)
+- [Property-Generated Solver: PBT for LLM Code Generation](wiki/pbt-llm-code-generation.md)

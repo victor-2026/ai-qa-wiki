@@ -299,6 +299,14 @@ MAS — не инструмент, а архитектурный паттерн:
 
 
 
+
+
+
+## See also
+
+- [AI Testing Platform Comparison 2026](wiki/ai-testing-platform-comparison-2026.md)
+- [Playwright Test Agents (2026)](wiki/playwright-test-agents-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Carbon Ai Agentic Verification Harness](wiki/carbon-ai-agentic-verification-harness.md)

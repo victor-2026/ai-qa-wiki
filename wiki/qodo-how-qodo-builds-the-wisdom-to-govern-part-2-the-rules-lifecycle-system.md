@@ -67,9 +67,13 @@ All rules retain a pointer to their originating file or comment, enabling “whe
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)
 - [Qodo Human Reviews Were Never The Safest Option](wiki/qodo-human-reviews-were-never-the-safest-option.md)
 - [Qodo – Adaptive Rules for AI‑Assisted Code](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
+- [Zero Outage Ontology Multi Compliance 2026](wiki/zero-outage-ontology-multi-compliance-2026.md)
 <!-- backlinks-end -->

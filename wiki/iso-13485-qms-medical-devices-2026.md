@@ -104,6 +104,11 @@ ISO 13485 is the international standard that defines a quality‑management sy
 
 
 
+## See also
+
+- [CSV Validation Protocols – IQ, OQ, PQ](wiki/csv-validation-iq-oq-pq-2026.md)
+- [ISO 26262 – Функциональная безопасность дорожных транспортных средств](wiki/iso-26262-functional-safety-testing-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [ISO 9001:2015 — Quality Management Systems for QA & Testing](wiki/iso-9001-qa-testing-2026.md)

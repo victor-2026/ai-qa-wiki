@@ -277,6 +277,12 @@ Fix any issues: wrong locators, missing assertions, no time.sleep."
 
 
 
+## See also
+
+- [Agent Skills — экосистема скиллов для AI-агентов](wiki/agent-skills-specification.md)
+- [Kiro Crew Pilot Plan](wiki/kiro-crew-pilot-plan.md)
+- [opencode-skill-creator: Eval-Driven Skill Development](wiki/opencode-skill-creator.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI in QA Issue #17 — Butch Mayhew (Jul 6, 2026)](wiki/ai-in-qa-issue-17-butch-mayhew-2026.md)

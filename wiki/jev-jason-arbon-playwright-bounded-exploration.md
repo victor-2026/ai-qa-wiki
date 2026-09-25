@@ -80,6 +80,10 @@ Jev - модель TypeSafe AI для **структурированных ре�
 
 
 
+## See also
+
+- [Jason Arbon: How AI Tests Software (бета: AI Checks, AI Tests, AI Test Harness, ](wiki/jason-arbon-how-ai-tests-software-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jev Openai Proprietary Beaten Open Source 2026](wiki/jev-openai-proprietary-beaten-open-source-2026.md)

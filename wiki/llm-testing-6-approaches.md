@@ -36,6 +36,10 @@ These approaches can be applied in various scenarios, such as:
 
 
 
+## See also
+
+- [NotebookLM Agent Navigation](wiki/notebooklm_agent.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ishan Anand Llm Persona Feedback Failure Modes 2026](wiki/ishan-anand-llm-persona-feedback-failure-modes-2026.md)

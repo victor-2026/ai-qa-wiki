@@ -163,3 +163,9 @@ Maestro выиграл тестовое потому что "fast and reliable" 
 Maestro догоняет по функциональности, но остаётся нишевым для простых E2E. Appium 3.x де-факто standard для enterprise mobile automation. Ключевое преимущество Maestro в 2026 — **MCP сервер** (AI Agents могут писать и чинить YAML flows), чего у Appium нет.
 
 Если interviewer спрашивает про mobile testing — Maestro для "быстро и стабильно", Appium для "всё остальное".
+
+## See also
+
+- [Detox Basics for React Native Testing](wiki/detox-basics-2026.md)
+- [Mobile Testing Infrastructure: Parallel Mac + Windows](wiki/mobile-testing-infrastructure-parallel-2026.md)
+- [Windows Server: Mobile Testing Setup](wiki/mobile-testing-windows-server-setup-2026.md)

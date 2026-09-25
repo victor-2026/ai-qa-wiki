@@ -154,6 +154,11 @@ Consumer                    PactFlow                     Provider
 #contract-testing #pact #pactflow #microservices #api-testing #integration-testing
 
 
+## See also
+
+- [Consumer‑Driven Contract Testing](wiki/consumer-drivencontracttestingpost.md)
+- [Pact Contract Testing — Полное руководство](wiki/pact-contract-testing-guide-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)

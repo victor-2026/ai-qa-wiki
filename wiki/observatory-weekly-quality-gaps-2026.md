@@ -45,3 +45,7 @@ Weekly MoT Observatory roundup of community links covering quality gaps, Claude-
 - Author: Rosie Sherry (CEO & Founder, Ministry of Testing)
 - Tags: #observatory, #ministry-of-testing, #quality-gaps, #claude-qa, #testing-mindset, #q-skills, #mot-2026
 - See also: [[universal-qa-expert]], [[keith-klain]], [[matt-robson-human-in-the-loop]], [[Test-Reliability]]
+
+## See also
+
+- [Evolving Quality with AI Testing — Community Reflection](wiki/evolving-quality-ai-testing-community-2026.md)

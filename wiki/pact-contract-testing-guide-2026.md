@@ -551,3 +551,7 @@ jobs:
 ## Tags
 
 #pact #contract-testing #cdct #microservices #api-testing
+
+## See also
+
+- [Consumer‑Driven Contract Testing](wiki/consumer-drivencontracttestingpost.md)

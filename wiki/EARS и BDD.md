@@ -127,3 +127,7 @@ Scenario: Insufficient funds
 - [Conduct of Code — EARS to BDD transition (C#/SpecFlow)](https://conductofcode.io/post/easy-approach-to-requirements-syntax-and-the-segue-to-behavior-driven-development)
 - [Dev TLDRLSS — Что такое EARS и BDD (рус., 2026)](https://dev.tldrlss.com/ru/article/2026/02/whats-bdd-and-ears-sdd-scenario/)
 - [MBSE.dev — Improving Requirements Engineering with EARS (2024)](https://mbse.dev/improving-requirements-engineering-with-ears-easy-approach-to-requirements-syntax/)
+
+## See also
+
+- [BDD как AI-Native Harness](wiki/bdd-ai-native-harness.md)

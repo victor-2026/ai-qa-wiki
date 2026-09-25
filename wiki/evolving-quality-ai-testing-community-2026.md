@@ -31,3 +31,9 @@ A reflection on AI testing tools: the author wants to explore all of them but do
 - Platform: MoTaverse (Ministry of Testing community)
 - Tags: #ai-testing, #test-automation, #quality-engineering, #mot, #rosie-sherry, #community, #test-automation-fatigue
 - See also: [[observatory-weekly-quality-gaps-2026]], [[Test-Reliability]], [[william_tran]]
+
+## See also
+
+- [Building Professional Resilience — Career Guide for QA](wiki/building-professional-resilience-qa-2026.md)
+- [Observatory Weekly: Quality Gaps, Claude QA Skills, the Testing Mindset](wiki/observatory-weekly-quality-gaps-2026.md)
+- [Verification Completeness — The Testing Paradox](wiki/verification-completeness-testing-paradox-2026.md)

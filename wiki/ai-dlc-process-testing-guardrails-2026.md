@@ -135,6 +135,9 @@ AI‑DLC treats software delivery as a **process‑centric** pipeline where auto
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
@@ -154,4 +157,5 @@ AI‑DLC treats software delivery as a **process‑centric** pipeline where auto
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 - [Ruslan Desyatnikov Qa Director Elimination Virus 2026](wiki/ruslan-desyatnikov-qa-director-elimination-virus-2026.md)
 - [Testing AI: Evidence Foundations](wiki/testing-ai-book-evidence-foundations.md)
+- [Zero Outage Ontology Multi Compliance 2026](wiki/zero-outage-ontology-multi-compliance-2026.md)
 <!-- backlinks-end -->

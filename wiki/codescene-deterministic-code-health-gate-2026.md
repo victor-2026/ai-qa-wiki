@@ -46,6 +46,10 @@ By treating code health as an enforceable, deterministic contract rather than a 
 
 
 
+## See also
+
+- [CodeScene Blog: AI-Vein Catalog 2026 (Code Health + Agentic Refactoring)](wiki/codescene-blog-catalog-ai-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Addy Osmani — Brownfield Agentic Engineering (2026)](wiki/addy-osmani-brownfield-agentic-engineering-2026.md)

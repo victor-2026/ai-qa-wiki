@@ -1,0 +1,41 @@
+---
+source: "testmuai-playwright-ai-agents-mcp-2026.md"
+ingested: "2026-09-25"
+---
+
+## TestMu AI – Playwright AI Agents, MCP & Self‑Healing  
+*Parth Mistry – 23 Sep 2026*  
+
+### Summary  
+TestMu AI (the former LambdaTest) extends Playwright’s built‑in **Planner / Generator / Healer** agents with a vendor‑neutral methodology that separates deterministic test execution from AI‑driven reasoning. The approach is anchored by the **MCP doctrine**, the **KaneAI / Kane CLI** toolchain, and strict governance rules (SSO / storageState, reviewable‑unit ownership, and local‑only healing). Together they provide a reproducible, auditable regression pipeline while still exploiting large‑language‑model (LLM) assistance for authoring, diagnosis and self‑healing.
+
+### Key Concepts  
+
+| Concept | What it means | Implications |
+|---------|---------------|--------------|
+| **Determinism split** | Playwright runs are fully deterministic; LLM reasoning is confined to test creation and failure analysis. | Execution latency and cost are predictable; AI is never on the critical path of a regression run. |
+| **Healer local‑only caveat** | Automated locator fixes are applied only to local browsers. The healed suite must be re‑executed on a real grid (Safari, legacy Edge, etc.) before the changes are accepted. | Guarantees that “quick‑fix” healing does not mask cross‑browser regressions. |
+| **SSO / storageState** | Bot‑protection blocks agents; the workaround is to seed an authenticated session (storageState) or use a non‑prod credential flag. | Authentication becomes a test‑design concern, not a limitation of the AI agents. |
+| **Reviewable unit = committed code** | Every PR that introduces a locator, wait or assertion must be explained by the author. Silent self‑healing that rewrites locators without human sign‑off is prohibited. | Preserves the attestation step that underpins test trustworthiness. |
+| **Durable context** | Agents are defined once (AGENTS.md) and reused across prompts; the skill set of the coding‑agent matters more than the specific product used. | Encourages a reusable knowledge base and reduces prompt‑churn. |
+| **KaneAI** | NL → executable steps with intent‑based element resolution, multi‑framework export, two‑way NL/code editing, auto‑RCA, bug‑ticket generation, and integrated API/DB/WCAG/visual checks. | Provides a single source of truth for test intent and verification. |
+| **Kane CLI** | Runs NL objectives in a real Chrome session, emits NDJSON, exits with POSIX codes (0‑3) for CI gating, and can export Playwright scripts. Low‑confidence matches are rejected automatically. | Enables a CLI‑first verification flow that can be baked into CI pipelines. |
+| **ZeroStep (DEAD)** | DNS for ZeroStep expired in Aug 2026; suites that depended on it need a new authoring layer. | Highlights the risk of tightly coupled third‑party services. |
+
+### Practical Applications  
+
+1. **Regression Pipelines** – Combine deterministic Playwright runs with AI‑generated test scripts. Use the **determinism split** to keep execution costs stable while leveraging LLMs for test authoring and root‑cause analysis.  
+2. **Self‑Healing with Governance** – Allow the Healer to suggest locator fixes locally; enforce a grid re‑run step before merging. This satisfies compliance teams that require human attestation.  
+3. **CI Integration** – Adopt **Kane CLI** in the build chain. Its POSIX exit codes let pipelines automatically block builds on low‑confidence AI suggestions, while successful runs export Playwright code for downstream jobs.  
+4. **Secure Authenticated Flows** – Seed storageState files for SSO‑protected apps (e.g., OrangeHRM, FlowScout) to bypass bot‑protection without compromising security.  
+5. **Reusable Agent Skills** – Maintain a central **AGENTS.md** file describing capabilities (e.g., “click‑by‑intent”, “visual‑diff”). New prompts inherit these skills, reducing duplication and improving consistency.  
+
+### See also  
+- [`wiki/testmu-ai-formerly-lambdatest-2026.md`](wiki/testmu-ai-formerly-lambdatest-2026.md) – TestMu AI (formerly LambdaTest) – Full‑Stack Agentic AI Quality Engineering Platform  
+- [`wiki/15-best-agentic-ai-testing-tools-2026.md`](wiki/15-best-agentic-ai-testing-tools-2026.md) – 15 Best Agentic AI Testing Tools – September 2026  
+- [`wiki/ai-testing-tools-landscape-hands-on-2026-09.md`](wiki/ai-testing-tools-landscape-hands-on-2026-09.md) – AI Testing Tools Landscape – Hands‑On Pilots & Verdicts  
+- [`wiki/autonomous-testing-agent-fastest-feedback-2026.md`](wiki/autonomous-testing-agent-fastest-feedback-2026.md) – Autonomous Testing Agent – Fastest Feedback Cycles for Complex Systems  
+- [`wiki/testmuai-agentic-regression-testing-2026.md`](wiki/testmuai-agentic-regression-testing-2026.md) – Agentic Regression Testing: What to Delegate, What to Verify  
+
+---
+*Source: [raw/testmuai-playwright-ai-agents-mcp-2026.md](../raw/testmuai-playwright-ai-agents-mcp-2026.md) · Generated by wiki_llm.py (Groq)*

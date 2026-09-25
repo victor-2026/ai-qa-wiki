@@ -24,3 +24,7 @@
 - Demo repos: RAG gate (DeepEval), Ragas example, Promptfoo example (all github.com/kubeshop/testkube-examples)
 - Sibling pieces: delivery-pipelines (thresholds), quality-gates, four-layers part 1 (skipped layers)
 - Our mapping: eval-threshold design (per-risk-tier), LLM-testing skill (6 approaches), Gulin thresholds-before-numbers
+
+## See also
+
+- [Smart Suites: AI-Driven Test Selection — Testkube (2026-04-22)](wiki/testkube-smart-suites-test-selection-2026-04.md)

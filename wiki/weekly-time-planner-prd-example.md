@@ -55,3 +55,7 @@ Google Calendar API quota — 10k req/day. Для личного use case не �
 ## Связанные темы
 - [[wiki/firebase-auth-google-playwright-testing]] — тестирование Google OAuth
 - [[wiki/pbt-invariants]] — PBT для подсчёта времени (сумма != 24h)
+
+## See also
+
+- [Google Terms of Service (July 2026) — Restrictions Outside EEA](wiki/google-tos-2026-restrictions.md)

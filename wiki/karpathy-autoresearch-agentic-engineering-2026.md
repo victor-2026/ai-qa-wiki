@@ -158,6 +158,10 @@ Aider с `--test-cmd` — тот же Ralph Wiggum loop, но для тесто�
 
 
 
+## See also
+
+- [LLM Wiki Pattern (Karpathy): Mechanics & Our Delta](wiki/llm-wiki-pattern-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap](wiki/graph-engineering-vs-loop-engineering-2026.md)

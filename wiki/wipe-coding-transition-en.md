@@ -184,6 +184,11 @@ Use vibe coding for prototyping. Use wipe-coding for production.
 
 
 
+## See also
+
+- [Vibe Wipe Coding Guide](wiki/vibe-wipe-coding-guide.md)
+- [Переход от вайб- к вайп-кодингу: benefits, challenges and risks](wiki/wipe-coding-transition.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [21 Cfr Part 11 Electronic Records 2026](wiki/21-cfr-part-11-electronic-records-2026.md)

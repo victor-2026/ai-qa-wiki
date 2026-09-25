@@ -88,3 +88,9 @@ SGR напрямую усиливает contract-подход из `llm-testing`
 ### Источник
 - [Schema-Guided Reasoning (SGR)](https://abdullin.com/schema-guided-reasoning/) (2025, citation 2025-07)
 - Citation: @misc{abdullin2025sgr, author = {Abdullin, Rinat}, title = {Schema-Guided Reasoning (SGR)}, url = {https://abdullin.com/schema-guided-reasoning/}}
+
+## See also
+
+- [Rinat Abdullin Blog: Complete Publications Catalog](wiki/rinat-abdullin-blog-catalog-all-publications-2026.md)
+- [Evaluating LLM in Business Workloads (LLM Product Benchmarks)](wiki/rinat-llm-benchmarks-2026.md)
+- [SGR Adaptive Planning](wiki/rinat-sgr-adaptive-planning-2026.md)

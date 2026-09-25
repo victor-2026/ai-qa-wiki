@@ -93,3 +93,7 @@ What we're doing about it.
 - `wiki/ai-testing-metrics.md` — Metrics for AI systems
 - `wiki/quality-characteristics.md` — AI quality attributes
 - `wiki/qa-ds-collaboration-patterns-2026.md` — How QA and DS work together
+
+## See also
+
+- [QA + Data Science Collaboration Patterns](wiki/qa-ds-collaboration-patterns-2026.md)

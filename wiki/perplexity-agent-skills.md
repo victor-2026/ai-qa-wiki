@@ -168,6 +168,10 @@ MAS reports now include `gotchas` field:
 
 
 
+## See also
+
+- [Self-Review Loop — Make AI Verify Its Own Work](wiki/self-review-loop.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)

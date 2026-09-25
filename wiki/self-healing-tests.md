@@ -79,3 +79,8 @@ Tests fail to locate elements — even when behavior is correct.
 ---
 
 *From RSS: https://www.ontestautomation.com/feed.xml*
+
+## See also
+
+- [Writing Tests with Claude Code — Part 1](wiki/claude-code-tests-part1.md)
+- [The Fundamentals of Test Automation Revisited](wiki/test-automation-fundamentals-revisited.md)

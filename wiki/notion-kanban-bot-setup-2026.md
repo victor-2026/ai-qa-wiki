@@ -92,3 +92,8 @@ ls ~/Projects/Articles/kanban/
 - **get_opencode_attach()** ищет `lsof | grep "OpenCode.*LISTEN"` — находит Desktop app (порт 63816), но это internal IPC, не session API. `opencode run --attach` выдаёт "Session not found"
 - **Без активной сессии:** задача маркируется как "dispatched" с пометкой "notification only"
 - **Дубликаты в Notion DB:** есть (напр. "Allure/Playwright report" ×2). Созданы при импорте. Скрипт синхронизации отражает как есть
+
+## See also
+
+- [Notion AI Agentic Features Outreach](wiki/notion-christina-muehller-outreach-2026-06-10.md)
+- [Telegram Bot для OpenCode](wiki/opencode-telegram-bot.md)

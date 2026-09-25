@@ -90,3 +90,8 @@ More tests part of answer, but not point. Point = fast, layered system giving AI
 Rocket when fast feedback for agent matters most (inner loop). Mesh when risk profile varies wildly per service. Both beat arbitrary pyramid ratio.
 
 *Ingested: 2026-09-01*
+
+## See also
+
+- [Integration Testing — Systems Stitching Guide](wiki/integration-testing-systems-stitching-2026.md)
+- [Software Testing Weekly — обзор ресурса](wiki/software-testing-weekly-newsletter-2026.md)

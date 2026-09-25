@@ -223,6 +223,11 @@ Trial не продлен: штука тяжелая (credits + vendor lock-in +
 
 
 
+## See also
+
+- [Notion AI Agentic Features Outreach](wiki/notion-christina-muehller-outreach-2026-06-10.md)
+- [Notion Kanban + Bot Integration Setup](wiki/notion-kanban-bot-setup-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Autonoma Шагивпайплайне](wiki/autonoma-шагивпайплайне.md)

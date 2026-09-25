@@ -211,3 +211,36 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-24 23:00 — backlinks — 5 related pages for wiki/jay-aigner-surface-vs-trust-2026.md
 - 2026-09-24 23:00 — update-index — 473 topics, 319 raw
 - 2026-09-24 23:58 — update-index — 474 topics, 319 raw
+- 2026-09-25 00:53 — ingest — raw/igor-engine-vs-car-ship-decision-2026.md → wiki/igor-engine-vs-car-ship-decision-2026.md
+- 2026-09-25 00:53 — backlinks — 5 related pages for wiki/igor-engine-vs-car-ship-decision-2026.md
+- 2026-09-25 00:53 — update-index — 475 topics, 320 raw
+- 2026-09-25 12:03 — update-index — 476 topics, 320 raw
+- 2026-09-25 16:37 — ingest — raw/filip-hric-playwright-cli-jev-vs-mcp-2026.md → wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.md
+- 2026-09-25 16:37 — backlinks — 5 related pages for wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.md
+- 2026-09-25 16:37 — update-index — 478 topics, 321 raw
+- 2026-09-25 16:37 — ingest — raw/tony-seale-jev-ontologies-neural-symbolic-2026.md → wiki/tony-seale-jev-ontologies-neural-symbolic-2026.md
+- 2026-09-25 16:37 — backlinks — 5 related pages for wiki/tony-seale-jev-ontologies-neural-symbolic-2026.md
+- 2026-09-25 16:37 — update-index — 479 topics, 322 raw
+- 2026-09-25 16:39 — ingest — raw/konstantin-hekajev-e2e-changes-2026.md → wiki/konstantin-hekajev-e2e-changes-2026.md
+- 2026-09-25 16:39 — backlinks — 5 related pages for wiki/konstantin-hekajev-e2e-changes-2026.md
+- 2026-09-25 16:39 — update-index — 480 topics, 323 raw
+- 2026-09-25 16:42 — ingest — raw/nace-drex-diffusion-decision-model-2026.md → wiki/nace-drex-diffusion-decision-model-2026.md
+- 2026-09-25 16:42 — backlinks — 5 related pages for wiki/nace-drex-diffusion-decision-model-2026.md
+- 2026-09-25 16:42 — ingest — raw/ivan-qa-queue-shift-4000-2026.md → wiki/ivan-qa-queue-shift-4000-2026.md
+- 2026-09-25 16:42 — backlinks — 5 related pages for wiki/ivan-qa-queue-shift-4000-2026.md
+- 2026-09-25 16:42 — ingest — raw/niluka-guardrail-qa-framework-2026.md → wiki/niluka-guardrail-qa-framework-2026.md
+- 2026-09-25 16:42 — backlinks — 5 related pages for wiki/niluka-guardrail-qa-framework-2026.md
+- 2026-09-25 16:42 — update-index — 483 topics, 326 raw
+- 2026-09-25 18:22 — ingest — raw/testmuai-playwright-ai-agents-mcp-2026.md → wiki/testmuai-playwright-ai-agents-mcp-2026.md
+- 2026-09-25 18:22 — backlinks — 5 related pages for wiki/testmuai-playwright-ai-agents-mcp-2026.md
+- 2026-09-25 18:27 — ingest — raw/zero-outage-ontology-multi-compliance-2026.md → wiki/zero-outage-ontology-multi-compliance-2026.md
+- 2026-09-25 18:27 — backlinks — 5 related pages for wiki/zero-outage-ontology-multi-compliance-2026.md
+- 2026-09-25 18:27 — update-index — 485 topics, 329 raw
+- 2026-09-25 18:31 — ingest — raw/syam-zero-qa-codeless-dead-2026.md → wiki/syam-zero-qa-codeless-dead-2026.md
+- 2026-09-25 18:31 — backlinks — 5 related pages for wiki/syam-zero-qa-codeless-dead-2026.md
+- 2026-09-25 18:31 — ingest — raw/valerii-opus55-upgrade-checklist-2026.md → wiki/valerii-opus55-upgrade-checklist-2026.md
+- 2026-09-25 18:31 — backlinks — 5 related pages for wiki/valerii-opus55-upgrade-checklist-2026.md
+- 2026-09-25 18:31 — ingest — raw/qualitymax-independent-verifier-profile-2026.md → wiki/qualitymax-independent-verifier-profile-2026.md
+- 2026-09-25 18:31 — backlinks — 5 related pages for wiki/qualitymax-independent-verifier-profile-2026.md
+- 2026-09-25 18:31 — update-index — 488 topics, 332 raw
+- 2026-09-25 19:11 — update-index — 489 topics, 332 raw

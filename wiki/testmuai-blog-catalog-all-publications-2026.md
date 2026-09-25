@@ -112,3 +112,13 @@
 ---
 
 *Compiled: 2026-09-03 · Base page for https://www.testmuai.com/blog/ + detailed wiki for agentic-regression-testing (90-120 lines)*
+
+## See also
+
+- [DevQAExpert Blog: Evaluation](wiki/devqaexpert-blog-catalog-all-publications-2026.md)
+- [Martin Fowler — Complete Publications Catalog](wiki/martinfowler-blog-catalog-all-publications-2026.md)
+- [Postman Blog — Complete Publications Catalog](wiki/postman-blog-catalog-all-publications-2026.md)
+- [Quality Remarks — Complete Publications Catalog (Keith Klain)](wiki/qualityremarks-blog-catalog-all-publications-2026.md)
+- [Tester Stories — Complete Publications Catalog (Jeff Nyman)](wiki/testerstories-blog-catalog-all-publications-2026.md)
+- [testRigor Blog: Complete Publications Catalog](wiki/testrigor-blog-catalog-all-publications-2026.md)
+- [Virtuoso QA Blog — Complete Publications Catalog](wiki/virtuoso-blog-catalog-all-publications-2026.md)

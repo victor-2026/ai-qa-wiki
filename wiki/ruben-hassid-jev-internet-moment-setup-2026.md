@@ -103,6 +103,10 @@ A composite prompt chain (Claude Code + GitHub + Vercel + Apify 
 
 
 
+## See also
+
+- [Engineered Word-of-Mouth: Dev-Tool Growth Playbook (TypeSafe AI Case, Sep 2026)](wiki/devtool-gtm-engineered-word-of-mouth-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Jason Arbon: Jev в Playwright-браузере (2026-09)](wiki/jev-jason-arbon-playwright-bounded-exploration.md)

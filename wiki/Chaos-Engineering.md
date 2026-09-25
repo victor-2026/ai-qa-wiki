@@ -18,3 +18,9 @@
 ---
 
 *Теги: #Chaos-Engineering #Resilience #Failure-Injection #Reliability*
+
+## See also
+
+- [Fuzzing (Фаззинг)](wiki/Fuzzing.md)
+- [Test Reliability (Надёжность тестов)](wiki/Test-Reliability.md)
+- [AI for Chaos Testing](wiki/ai-chaos-testing.md)

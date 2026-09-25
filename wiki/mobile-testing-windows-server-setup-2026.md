@@ -42,3 +42,8 @@ Appium — remote server через ZeroTier (`hostname: 10.24.175.30`). Maestro
 `ssh win-server` (key auth, Victor@192.168.1.224)
 
 **Note:** Server currently offline. Setup to be done when powered on.
+
+## See also
+
+- [Maestro vs Appium — Сравнительный анализ (2026)](wiki/maestro-vs-appium-2026.md)
+- [Mobile Testing Infrastructure: Parallel Mac + Windows](wiki/mobile-testing-infrastructure-parallel-2026.md)

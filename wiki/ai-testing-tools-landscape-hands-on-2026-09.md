@@ -103,12 +103,27 @@ Pilot ONLY if both hold: **(a) self-serve cheap** (trial without sales cycle, lo
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
 - [Bach Everyone Not Responsible Quality 2026](wiki/bach-everyone-not-responsible-quality-2026.md)
 - [Flowscout Akymenko Kanaris Thread 2026 09 22](wiki/flowscout-akymenko-kanaris-thread-2026-09-22.md)
+- [Igor Engine Vs Car Ship Decision 2026](wiki/igor-engine-vs-car-ship-decision-2026.md)
 - [Qodo Why Your Ai Coding Agent Shouldnt Review Its Own Code The Case For An Independent Verification Layer](wiki/qodo-why-your-ai-coding-agent-shouldnt-review-its-own-code-the-case-for-an-independent-verification-layer.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
+- [Qualitymax Independent Verifier Profile 2026](wiki/qualitymax-independent-verifier-profile-2026.md)
 - [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
+- [Testmuai Playwright Ai Agents Mcp 2026](wiki/testmuai-playwright-ai-agents-mcp-2026.md)
 <!-- backlinks-end -->

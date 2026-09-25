@@ -94,3 +94,7 @@
 ---
 
 *Compiled: 2026-09-03 · Base page for https://juliapottinger.com + detailed wiki for who-validates alias (90-120 lines) — Issue #325 UTM noted as same content as Who Is Accountable*
+
+## See also
+
+- [Martin Fowler — Complete Publications Catalog](wiki/martinfowler-blog-catalog-all-publications-2026.md)

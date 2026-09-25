@@ -318,6 +318,22 @@ Frontier team lets CLI triage prod tickets: 2:33 AM alarm → 2:46 AM (13m35s) d
 
 
 
+
+
+
+
+
+
+
+
+
+## See also
+
+- [Are AI Coding Agents Actually Getting Better? — Six Months of Diagnostics](wiki/kiro-diagnostics-over-time-agent-quality-2026.md)
+- [From OpenAPI/Swagger to Test Suite in Seconds](wiki/kiro-openapi-to-testsuite-2026.md)
+- [How Kiro and Snyk Create Multi-Layered Security Guardrails](wiki/kiro-snyk-guardrails-2026.md)
+- [Planview Saves 40+ Hours per Audit Cycle with SOC 2 Automation](wiki/kiro-soc2-planview-automation-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Ec2 Verified Isolation Engine 2026](wiki/amazon-science-ec2-verified-isolation-engine-2026.md)
@@ -335,5 +351,8 @@ Frontier team lets CLI triage prod tickets: 2:33 AM alarm → 2:46 AM (13m35s) d
 - [Qodo – Adaptive Rules for AI‑Assisted Code](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
 - [Qodo: AI Gave Teams Velocity – The Governance Harness Comes Next](wiki/qodo-ai-gave-teams-velocity-the-governance-harness-comes-next.md)
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
+- [Qualitymax Independent Verifier Profile 2026](wiki/qualitymax-independent-verifier-profile-2026.md)
+- [Valerii Opus55 Upgrade Checklist 2026](wiki/valerii-opus55-upgrade-checklist-2026.md)
 - [Verge Un Ai Safeguards Cant Wait 2026](wiki/verge-un-ai-safeguards-cant-wait-2026.md)
+- [Zero Outage Ontology Multi Compliance 2026](wiki/zero-outage-ontology-multi-compliance-2026.md)
 <!-- backlinks-end -->

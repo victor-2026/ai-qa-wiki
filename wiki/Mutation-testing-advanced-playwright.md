@@ -495,6 +495,15 @@ Meta's открытый вызов сообществу (FSE 2025): генери
 
 
 
+
+
+
+## See also
+
+- [Мутационное тестирование без доступа к коду](wiki/Mutation-testing-without-code.md)
+- [Recorder Locator Quality: playwright-cli 0.1.19 vs Human POMs (2026-09-09)](wiki/recorder-locator-quality-playwright-cli-2026-09.md)
+- [UI Fuzzing — Mutation Through Input](wiki/ui-fuzzing.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Ai Qa Tool Evaluation Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md)

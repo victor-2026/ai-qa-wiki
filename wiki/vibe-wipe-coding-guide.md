@@ -168,3 +168,10 @@ Wipe-coding (или Flow-state coding) — это стиль разработк�
 2. **Review every change** — Don't let AI run wild
 3. **Test-driven** — Let AI fix until tests pass
 4. **Keep artifacts** — Document decisions for future
+
+## See also
+
+- [The Hidden Costs of Vibe-Coded Apps](wiki/hidden-costs-vibe-coded-apps.md)
+- [Pipeline Triad Pattern](wiki/pipeline-triad-pattern.md)
+- [Vibe Coding vs Spec-Driven Development](wiki/vibe-coding-vs-spec-driven.md)
+- [Переход от вайб- к вайп-кодингу: benefits, challenges and risks](wiki/wipe-coding-transition.md)

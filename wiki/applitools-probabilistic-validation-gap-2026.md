@@ -42,3 +42,8 @@ Three innovations (launch 14.09.2026):
 - Article 26/27 (Articles project) — vendor eval, green-dashboard trap
 - [[visual-regression-testing-complete-guide-2026]]
 - [[browserstack-blog-breakpoint-2026-test-companion]] — Test Companion self-healing claims, MCP Server integration = same vendor route
+
+## See also
+
+- [applitools deterministic guardrails whitepaper 2026](wiki/applitools-deterministic-guardrails-whitepaper-2026.md)
+- [Visual Regression Testing — Complete Guide](wiki/visual-regression-testing-complete-guide-2026.md)

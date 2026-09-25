@@ -89,3 +89,7 @@ After removal: **0% impact on coverage** — tests could be safely removed.
 
 *See Part 2 for improvement process*
 *GitHub: https://github.com/basdijkstra/writing-tests-with-claude-code*
+
+## See also
+
+- [Self-Healing Tests — Why It's a Bad Idea](wiki/self-healing-tests.md)

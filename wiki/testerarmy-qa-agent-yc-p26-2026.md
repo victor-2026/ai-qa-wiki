@@ -82,7 +82,7 @@ tags: [company, catalog, yc, ai-qa, agentic-testing]
 ---
 
 ## См. также
-
+- [Kiran Sahu — AI Quality Engineering Manager, Myelin Foundry (Profile 2026)](wiki/kiran-sahu-myelin-foundry-ai-qa-profile-2026.md)
 - [[qodo-ai-gave-teams-velocity-the-governance-harness-comes-next-2026]]
 - [[autonoma-open-source-self-driving-2026]]
 - [[ruben-hassid-jev-internet-moment-setup-2026]]

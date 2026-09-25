@@ -1,0 +1,730 @@
+{
+ "model": "llama3.2:3b",
+ "method": "generative 1-of-77 judge, temp 0, Qwen-built prompt UNADAPTED (prompt-fit recorded as limitation)",
+ "batch_s": 36.4,
+ "accuracy": "63/90 = 70.0%",
+ "rows": [
+  {
+   "id": "B0-01",
+   "run": 1,
+   "latency_s": 20.09,
+   "got": "Refund_not_showing_up",
+   "gold": "Refund_not_showing_up",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-01",
+   "run": 2,
+   "latency_s": 0.19,
+   "got": "Refund_not_showing_up",
+   "gold": "Refund_not_showing_up",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-01",
+   "run": 3,
+   "latency_s": 0.18,
+   "got": "Refund_not_showing_up",
+   "gold": "Refund_not_showing_up",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-02",
+   "run": 1,
+   "latency_s": 0.35,
+   "got": "Lost_or_stolen_card",
+   "gold": "Lost_or_stolen_card",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-02",
+   "run": 2,
+   "latency_s": 0.16,
+   "got": "Lost_or_stolen_card",
+   "gold": "Lost_or_stolen_card",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-02",
+   "run": 3,
+   "latency_s": 0.17,
+   "got": "Lost_or_stolen_card",
+   "gold": "Lost_or_stolen_card",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-03",
+   "run": 1,
+   "latency_s": 0.26,
+   "got": "Card_not_working",
+   "gold": "Contactless_not_working",
+   "verdict": "MISS->Card_not_working"
+  },
+  {
+   "id": "B0-03",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Card_not_working",
+   "gold": "Contactless_not_working",
+   "verdict": "MISS->Card_not_working"
+  },
+  {
+   "id": "B0-03",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Card_not_working",
+   "gold": "Contactless_not_working",
+   "verdict": "MISS->Card_not_working"
+  },
+  {
+   "id": "B0-04",
+   "run": 1,
+   "latency_s": 0.26,
+   "got": "Transfer_timing",
+   "gold": "Transfer_timing",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-04",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Transfer_timing",
+   "gold": "Transfer_timing",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-04",
+   "run": 3,
+   "latency_s": 0.09,
+   "got": "Transfer_timing",
+   "gold": "Transfer_timing",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-05",
+   "run": 1,
+   "latency_s": 0.29,
+   "got": "Transaction_charged_twice",
+   "gold": "Transaction_charged_twice",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-05",
+   "run": 2,
+   "latency_s": 0.17,
+   "got": "Transaction_charged_twice",
+   "gold": "Transaction_charged_twice",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-05",
+   "run": 3,
+   "latency_s": 0.17,
+   "got": "Transaction_charged_twice",
+   "gold": "Transaction_charged_twice",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-06",
+   "run": 1,
+   "latency_s": 0.22,
+   "got": "Exchange_rate",
+   "gold": "Exchange_rate",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-06",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Exchange_rate",
+   "gold": "Exchange_rate",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-06",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Exchange_rate",
+   "gold": "Exchange_rate",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-07",
+   "run": 1,
+   "latency_s": 0.36,
+   "got": "Passcode_forgotten",
+   "gold": "Passcode_forgotten",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-07",
+   "run": 2,
+   "latency_s": 0.19,
+   "got": "Passcode_forgotten",
+   "gold": "Passcode_forgotten",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-07",
+   "run": 3,
+   "latency_s": 0.17,
+   "got": "Passcode_forgotten",
+   "gold": "Passcode_forgotten",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-08",
+   "run": 1,
+   "latency_s": 0.31,
+   "got": "Card_not_working",
+   "gold": "Report_fraud",
+   "verdict": "MISS->Card_not_working"
+  },
+  {
+   "id": "B0-08",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Card_not_working",
+   "gold": "Report_fraud",
+   "verdict": "MISS->Card_not_working"
+  },
+  {
+   "id": "B0-08",
+   "run": 3,
+   "latency_s": 0.11,
+   "got": "Card_not_working",
+   "gold": "Report_fraud",
+   "verdict": "MISS->Card_not_working"
+  },
+  {
+   "id": "B0-09",
+   "run": 1,
+   "latency_s": 0.24,
+   "got": "Declined_card_payment",
+   "gold": "Declined_card_payment",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-09",
+   "run": 2,
+   "latency_s": 0.14,
+   "got": "Declined_card_payment",
+   "gold": "Declined_card_payment",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-09",
+   "run": 3,
+   "latency_s": 0.14,
+   "got": "Declined_card_payment",
+   "gold": "Declined_card_payment",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-10",
+   "run": 1,
+   "latency_s": 0.29,
+   "got": "Top_up_by_bank_transfer",
+   "gold": "Top_up_by_bank_transfer_charge",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-10",
+   "run": 2,
+   "latency_s": 0.17,
+   "got": "Top_up_by_bank_transfer",
+   "gold": "Top_up_by_bank_transfer_charge",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-10",
+   "run": 3,
+   "latency_s": 0.16,
+   "got": "Top_up_by_bank_transfer",
+   "gold": "Top_up_by_bank_transfer_charge",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-11",
+   "run": 1,
+   "latency_s": 0.24,
+   "got": "Pin_blocked",
+   "gold": "Pin_blocked",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-11",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Pin_blocked",
+   "gold": "Pin_blocked",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-11",
+   "run": 3,
+   "latency_s": 0.1,
+   "got": "Pin_blocked",
+   "gold": "Pin_blocked",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-12",
+   "run": 1,
+   "latency_s": 0.25,
+   "got": "Get_virtual_card",
+   "gold": "Get_disposable_virtual_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-12",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Get_virtual_card",
+   "gold": "Get_disposable_virtual_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-12",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Get_virtual_card",
+   "gold": "Get_disposable_virtual_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-13",
+   "run": 1,
+   "latency_s": 0.3,
+   "got": "Pending_card_payment",
+   "gold": "Pending_card_payment",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-13",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Pending_card_payment",
+   "gold": "Pending_card_payment",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-13",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Pending_card_payment",
+   "gold": "Pending_card_payment",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-14",
+   "run": 1,
+   "latency_s": 0.2,
+   "got": "Change_pin",
+   "gold": "Change_pin",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-14",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Change_pin",
+   "gold": "Change_pin",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-14",
+   "run": 3,
+   "latency_s": 0.09,
+   "got": "Change_pin",
+   "gold": "Change_pin",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-15",
+   "run": 1,
+   "latency_s": 0.24,
+   "got": "Card_swallowed",
+   "gold": "Card_swallowed",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-15",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Card_swallowed",
+   "gold": "Card_swallowed",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-15",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Card_swallowed",
+   "gold": "Card_swallowed",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-16",
+   "run": 1,
+   "latency_s": 0.23,
+   "got": "Exchange_charge",
+   "gold": "Card_payment_fee_charged",
+   "verdict": "MISS->Exchange_charge"
+  },
+  {
+   "id": "B0-16",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Exchange_charge",
+   "gold": "Card_payment_fee_charged",
+   "verdict": "MISS->Exchange_charge"
+  },
+  {
+   "id": "B0-16",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Exchange_charge",
+   "gold": "Card_payment_fee_charged",
+   "verdict": "MISS->Exchange_charge"
+  },
+  {
+   "id": "B0-17",
+   "run": 1,
+   "latency_s": 0.31,
+   "got": "Cancel_transfer",
+   "gold": "Cancel_transfer",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-17",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Cancel_transfer",
+   "gold": "Cancel_transfer",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-17",
+   "run": 3,
+   "latency_s": 0.1,
+   "got": "Cancel_transfer",
+   "gold": "Cancel_transfer",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-18",
+   "run": 1,
+   "latency_s": 0.24,
+   "got": "Verify_my_identity",
+   "gold": "Verify_my_identity",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-18",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Verify_my_identity",
+   "gold": "Verify_my_identity",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-18",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Verify_my_identity",
+   "gold": "Verify_my_identity",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-19",
+   "run": 1,
+   "latency_s": 0.23,
+   "got": "Top_up_failed",
+   "gold": "Top_up_failed",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-19",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Top_up_failed",
+   "gold": "Top_up_failed",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-19",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Top_up_failed",
+   "gold": "Top_up_failed",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-20",
+   "run": 1,
+   "latency_s": 0.33,
+   "got": "Supported_cards_and_currencies",
+   "gold": "Fiat_currency_support",
+   "verdict": "MISS->Supported_cards_and_currencies"
+  },
+  {
+   "id": "B0-20",
+   "run": 2,
+   "latency_s": 0.17,
+   "got": "Supported_cards_and_currencies",
+   "gold": "Fiat_currency_support",
+   "verdict": "MISS->Supported_cards_and_currencies"
+  },
+  {
+   "id": "B0-20",
+   "run": 3,
+   "latency_s": 0.17,
+   "got": "Supported_cards_and_currencies",
+   "gold": "Fiat_currency_support",
+   "verdict": "MISS->Supported_cards_and_currencies"
+  },
+  {
+   "id": "B0-21",
+   "run": 1,
+   "latency_s": 0.25,
+   "got": "Edit_personal_details",
+   "gold": "Edit_personal_details",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-21",
+   "run": 2,
+   "latency_s": 0.13,
+   "got": "Edit_personal_details",
+   "gold": "Edit_personal_details",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-21",
+   "run": 3,
+   "latency_s": 0.13,
+   "got": "Edit_personal_details",
+   "gold": "Edit_personal_details",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-22",
+   "run": 1,
+   "latency_s": 0.38,
+   "got": "Extra_charge_on_statement",
+   "gold": "Extra_charge_on_statement",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-22",
+   "run": 2,
+   "latency_s": 0.15,
+   "got": "Extra_charge_on_statement",
+   "gold": "Extra_charge_on_statement",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-22",
+   "run": 3,
+   "latency_s": 0.15,
+   "got": "Extra_charge_on_statement",
+   "gold": "Extra_charge_on_statement",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-23",
+   "run": 1,
+   "latency_s": 0.26,
+   "got": "Get_physical_card",
+   "gold": "Order_physical_card",
+   "verdict": "MISS->Get_physical_card"
+  },
+  {
+   "id": "B0-23",
+   "run": 2,
+   "latency_s": 0.12,
+   "got": "Get_physical_card",
+   "gold": "Order_physical_card",
+   "verdict": "MISS->Get_physical_card"
+  },
+  {
+   "id": "B0-23",
+   "run": 3,
+   "latency_s": 0.12,
+   "got": "Get_physical_card",
+   "gold": "Order_physical_card",
+   "verdict": "MISS->Get_physical_card"
+  },
+  {
+   "id": "B0-24",
+   "run": 1,
+   "latency_s": 0.29,
+   "got": "Apple_pay_or_google_pay",
+   "gold": "Apple_pay_or_google_pay",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-24",
+   "run": 2,
+   "latency_s": 0.17,
+   "got": "Apple_pay_or_google_pay",
+   "gold": "Apple_pay_or_google_pay",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-24",
+   "run": 3,
+   "latency_s": 0.17,
+   "got": "Apple_pay_or_google_pay",
+   "gold": "Apple_pay_or_google_pay",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-25",
+   "run": 1,
+   "latency_s": 0.19,
+   "got": "Failed_transfer",
+   "gold": "Failed_transfer",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-25",
+   "run": 2,
+   "latency_s": 0.11,
+   "got": "Failed_transfer",
+   "gold": "Failed_transfer",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-25",
+   "run": 3,
+   "latency_s": 0.1,
+   "got": "Failed_transfer",
+   "gold": "Failed_transfer",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-26",
+   "run": 1,
+   "latency_s": 0.22,
+   "got": "Country_support",
+   "gold": "Country_support",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-26",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Country_support",
+   "gold": "Country_support",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-26",
+   "run": 3,
+   "latency_s": 0.1,
+   "got": "Country_support",
+   "gold": "Country_support",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-27",
+   "run": 1,
+   "latency_s": 0.36,
+   "got": "Lost_or_stolen_card",
+   "gold": "Lost_or_stolen_phone",
+   "verdict": "MISS->Lost_or_stolen_card"
+  },
+  {
+   "id": "B0-27",
+   "run": 2,
+   "latency_s": 0.17,
+   "got": "Lost_or_stolen_card",
+   "gold": "Lost_or_stolen_phone",
+   "verdict": "MISS->Lost_or_stolen_card"
+  },
+  {
+   "id": "B0-27",
+   "run": 3,
+   "latency_s": 0.17,
+   "got": "Lost_or_stolen_card",
+   "gold": "Lost_or_stolen_phone",
+   "verdict": "MISS->Lost_or_stolen_card"
+  },
+  {
+   "id": "B0-28",
+   "run": 1,
+   "latency_s": 0.22,
+   "got": "Terminate_account",
+   "gold": "Terminate_account",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-28",
+   "run": 2,
+   "latency_s": 0.1,
+   "got": "Terminate_account",
+   "gold": "Terminate_account",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-28",
+   "run": 3,
+   "latency_s": 0.1,
+   "got": "Terminate_account",
+   "gold": "Terminate_account",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-29",
+   "run": 1,
+   "latency_s": 0.46,
+   "got": "Transfer_not_received_by_recipient",
+   "gold": "Transfer_not_received_by_recipient",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-29",
+   "run": 2,
+   "latency_s": 0.2,
+   "got": "Transfer_not_received_by_recipient",
+   "gold": "Transfer_not_received_by_recipient",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-29",
+   "run": 3,
+   "latency_s": 0.19,
+   "got": "Transfer_not_received_by_recipient",
+   "gold": "Transfer_not_received_by_recipient",
+   "verdict": "HIT"
+  },
+  {
+   "id": "B0-30",
+   "run": 1,
+   "latency_s": 0.32,
+   "got": "Unable_to_verify_identity",
+   "gold": "why_verify_identity",
+   "verdict": "MISS->Unable_to_verify_identity"
+  },
+  {
+   "id": "B0-30",
+   "run": 2,
+   "latency_s": 0.15,
+   "got": "Unable_to_verify_identity",
+   "gold": "why_verify_identity",
+   "verdict": "MISS->Unable_to_verify_identity"
+  },
+  {
+   "id": "B0-30",
+   "run": 3,
+   "latency_s": 0.15,
+   "got": "Unable_to_verify_identity",
+   "gold": "why_verify_identity",
+   "verdict": "MISS->Unable_to_verify_identity"
+  }
+ ],
+ "partial": false,
+ "digest": "a80c4f17acd55265feec403c"
+}

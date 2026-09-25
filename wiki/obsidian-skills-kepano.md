@@ -175,7 +175,8 @@ git clone https://github.com/kepano/obsidian-skills.git ~/.opencode/skills/obsid
 ---
 
 ## См. также
-
+- [Obsidian Scam – Fake QA Audit Using Malicious Community Plugins](wiki/obsidian-scam-audit-2026.md)
+- [Obsidian Security Checklist](wiki/obsidian-security-checklist.md)
 - [[agent-skills-specification]] — спецификация Agent Skills
 - [[obsidian-bases-plan]] — план создания Bases для wiki
 - [[HARDWARE_SPEC.md]] — настройка Obsidian Skills в opencode

@@ -65,3 +65,13 @@ Agentic AI testing tools author a test from stated intent, run it against the li
 - Author: Samyak Goyal, Senior Member of Technical Staff at TestMu AI
 - Tags: #agentic-testing, #test-automation, #kane-ai, #testmu, #ai-agents, #testing-tools-2026
 - See also: [[Test-Reliability]], [[llm-testing]], [[keith-klain]], [[matt-robson-human-in-the-loop]]
+
+
+## See also
+
+- [AI Testing Platform Comparison 2026](wiki/ai-testing-platform-comparison-2026.md)
+
+<!-- backlinks-start -->
+### Backlinks
+- [Testmuai Playwright Ai Agents Mcp 2026](wiki/testmuai-playwright-ai-agents-mcp-2026.md)
+<!-- backlinks-end -->

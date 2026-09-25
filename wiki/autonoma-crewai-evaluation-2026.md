@@ -91,6 +91,10 @@
 *Ingested: 2026-08-31*
 
 
+## See also
+
+- [Agent Teams Architecture](wiki/agent-teams-architecture.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Securing AI Agents – The DPACT Framework](wiki/infoq-dpact-framework-ai-agents-2026.md)

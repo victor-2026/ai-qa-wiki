@@ -174,6 +174,11 @@ tags: [qa]
 
 
 
+## See also
+
+- [Learning Takes Time — But Do We Get That Time?](wiki/bas-dijkstra-learning-takes-time-2026.md)
+- [The Fundamentals of Test Automation Revisited](wiki/test-automation-fundamentals-revisited.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Devqaexpert Qaeverestimport2000Cypresstests Confidencescore 2026 08 22](wiki/devqaexpert-qaeverestimport2000cypresstests-confidencescore-2026-08-22.md)

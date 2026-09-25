@@ -317,6 +317,12 @@ assert "testing" in answer.lower()
 
 
 
+## See also
+
+- [Metamorphic Testing — Сравнение подходов](wiki/metamorphic-tests-comparison.md)
+- [Promptfoo Eval Suite for AI QA Wiki](wiki/promptfoo-eval-suite.md)
+- [Red-Teaming Tests for Wiki LLM](wiki/red-teaming-tests.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI Landscape 2026: From “ChatGPT‑Everything” to Specialized Assistants](wiki/ailist2026.md)

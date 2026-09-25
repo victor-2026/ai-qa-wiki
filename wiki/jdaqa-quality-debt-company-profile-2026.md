@@ -29,7 +29,7 @@
 - Quality Debt Score (their metric) vs our evidence packs: different epistemics (assessment judgment vs reproduced verdicts) - note the gap, do not conflate.
 
 ## See also
-
+- [Valentina Jemuović — Founder & Technical Coach, Optivem (ATDD/TDD in Legacy Code](wiki/valentina-jemuovic-optivem-atdd-profile-2026.md)
 - [[qa-is-dead-orchestrating-quality-2026]] — co-piece with Ole Lensmar
 - [[jay-aigner-surface-vs-trust-2026]] — surface/trust thesis
 - [[testkube-smart-suites-test-selection-2026-04]] — Testkube methodology side

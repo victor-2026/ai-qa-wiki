@@ -71,3 +71,8 @@ await smartuiSnapshot(page, 'selenium-playground-home');
 - URL: testmuai.com/learning-hub/visual-regression-testing/
 - See also: [[Test-Reliability]], [[ui-fuzzing]], [[applitools-autonomous]]
 - Tags: #visual-regression, #visual-testing, #smartui, #testmu-ai, #cognitive-vision, #ci-cd
+
+## See also
+
+- [applitools deterministic guardrails whitepaper 2026](wiki/applitools-deterministic-guardrails-whitepaper-2026.md)
+- [Applitools: Probabilistic Validation Gap and Deterministic Visual AI (2026-09-14](wiki/applitools-probabilistic-validation-gap-2026.md)

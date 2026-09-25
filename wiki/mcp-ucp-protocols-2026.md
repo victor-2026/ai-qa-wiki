@@ -62,8 +62,8 @@ MCP is already the de‑facto way for an AI agent to control test tools (Playwri
 
 ---
 
-## See also  
-
+## See also
+- [MCP (Model Context Protocol) for Beginners](wiki/101-beginner-mcp.md)
 - [Prompt Tips & Agent Skills Architecture](wiki/prompt-tips-and-skills.md)  
 - [Autonoma Open Source & Architecture (June 2026)](wiki/autonoma-open-source-self-driving-2026.md)  
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)  

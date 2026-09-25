@@ -94,8 +94,12 @@ Same prompt changes: -32% behavioral on one model version vs -4% on another. New
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Patient Agent Bench 2026](wiki/amazon-science-patient-agent-bench-2026.md)
 - [Qodo Why Ai Self Review Fails The Technical Case For Independent Ai Systems](wiki/qodo-why-ai-self-review-fails-the-technical-case-for-independent-ai-systems.md)
+- [Valerii Opus55 Upgrade Checklist 2026](wiki/valerii-opus55-upgrade-checklist-2026.md)
 <!-- backlinks-end -->

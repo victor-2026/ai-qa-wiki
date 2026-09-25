@@ -51,3 +51,7 @@ Meta just settled a **$18 billion multistate lawsuit** over social media consume
 - Meta: https://ai.meta.com/muse/
 - Tags: #meta-muse, #ai-agent, #consumer-ai, #privacy, #security-testing, #trust, #meta-2026
 - See also: [[llm-testing]], [[Test-Reliability]], [[agent-jailbroken-eval-said-it-passed]]
+
+## See also
+
+- [the batch 371 deeplearning ai 2026](wiki/the-batch-371-deeplearning-ai-2026.md)

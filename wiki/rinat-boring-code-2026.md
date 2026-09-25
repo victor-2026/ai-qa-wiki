@@ -60,3 +60,7 @@ tags: [ai-coding, verification, evals, agent-testing]
 ### Источник
 - [We never wanted human code](https://abdullin.com/ai-coding/boring-code/) (2026)
 - Полный текст индексирован в /search-index.jsonl
+
+## See also
+
+- [AI+Coding Kata (2025)](wiki/rinat-ai-coding-kata-2026.md)

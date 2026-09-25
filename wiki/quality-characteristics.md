@@ -176,6 +176,10 @@ AI "games" the metrics rather than achieving intent.
 
 
 
+## See also
+
+- [AI Risk Communication for QA Leaders](wiki/ai-risk-communication-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)

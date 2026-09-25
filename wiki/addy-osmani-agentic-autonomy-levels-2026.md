@@ -77,3 +77,7 @@ Mean time between interventions, longest successful unattended run, sandbox vs e
 - `wiki/addy-osmani-brownfield-agentic-engineering-2026.md` — zones as practical autonomy mapping
 - `wiki/addy-osmani-human-judgment-software-factory-2026.md` — where humans go in the factory
 - `wiki/addy-osmani-own-the-outer-loop-2026.md` — accountability at the boundary
+
+## See also
+
+- [Addy Osmani — Agentic Code Quality (2026)](wiki/addy-osmani-agentic-code-quality-2026.md)

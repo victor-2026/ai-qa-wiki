@@ -392,6 +392,21 @@ The practical output is a small evidence system, not a larger pile of tests.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agent Skills – Google/Kaggle Whitepaper (May 2026)](wiki/google-kaggle-agent-skills-whitepaper-2026.md)
@@ -415,6 +430,7 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
 - [Klain Turns Out Testing Is Hard 2026](wiki/klain-turns-out-testing-is-hard-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
+- [Nace Drex Diffusion Decision Model 2026](wiki/nace-drex-diffusion-decision-model-2026.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)
 - [Qodo Building An Adaptive Router For Code Review Depth](wiki/qodo-building-an-adaptive-router-for-code-review-depth.md)
 - [Qodo Building The Verification Layer How Implementing Code Standards Unlock Ai Code At Scale](wiki/qodo-building-the-verification-layer-how-implementing-code-standards-unlock-ai-code-at-scale.md)
@@ -430,5 +446,8 @@ The practical output is a small evidence system, not a larger pile of tests.
 - [Qodo: Contract Verification Across Repositories – Catching Breaking Changes at AI Velocity](wiki/qodo-contract-verification-across-repos-catching-breaking-changes-at-ai-velocity.md)
 - [SOP‑Bench: Benchmarking AI Agents on Real‑World Business Procedures](wiki/amazon-science-sop-bench-agents-business-procedures-2026.md)
 - [Shrm Ai Field Manual Hr Use Cases 2026](wiki/shrm-ai-field-manual-hr-use-cases-2026.md)
+- [Tony Seale – Jev, Ontologies and the Neural‑Symbolic Loop (2024‑09‑25)](wiki/tony-seale-jev-ontologies-neural-symbolic-2026.md)
+- [Valerii Opus55 Upgrade Checklist 2026](wiki/valerii-opus55-upgrade-checklist-2026.md)
 - [Wayne Roseberry Testers Do More Than Users 2026](wiki/wayne-roseberry-testers-do-more-than-users-2026.md)
+- [Zero Outage Ontology Multi Compliance 2026](wiki/zero-outage-ontology-multi-compliance-2026.md)
 <!-- backlinks-end -->

@@ -193,3 +193,7 @@ test('Проверка теста на падение сервера (500)', asy
 
 ---
 *Теги: #Mutation-Testing #Test-Quality #Black-Box-Testing #Chaos-Engineering #API-Testing*
+
+## See also
+
+- [Network Interception (Перехват сетевых запросов)](wiki/Network-Interception.md)

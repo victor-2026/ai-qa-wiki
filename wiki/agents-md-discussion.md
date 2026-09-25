@@ -241,6 +241,11 @@ Boundaries таблица — **единственный пункт с абсо�
 
 
 
+## See also
+
+- [Agents Discussion 300526](wiki/agents-discussion-300526.md)
+- [Анализ NotebookLM Playbook — что взять к нам](wiki/notebooklm-playbook-analysis.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Google Antigravity Qa 2026](wiki/google-antigravity-qa-2026.md)

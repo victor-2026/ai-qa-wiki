@@ -177,6 +177,13 @@ tags: [qa]
 
 
 
+## See also
+
+- [Agent Teams Architecture](wiki/agent-teams-architecture.md)
+- [AI Testing Map](wiki/ai-testing-map.md)
+- [MAS-Pipeline Риски](wiki/mas-risks.md)
+- [State of Digital Quality 2026 — AI Testing Report](wiki/state-of-digital-quality-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Iso 14971 Risk Management 2026](wiki/iso-14971-risk-management-2026.md)

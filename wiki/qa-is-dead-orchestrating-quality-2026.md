@@ -88,6 +88,10 @@ By treating validation as the primary lever rather than an after‑thought, orga
 
 
 
+## See also
+
+- [JDAQA — Quality Debt Company Profile (Philadelphia, 2026-09-24)](wiki/jdaqa-quality-debt-company-profile-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Agentic Regression Testing: What to Delegate, What to Verify](wiki/testmuai-agentic-regression-testing-2026.md)

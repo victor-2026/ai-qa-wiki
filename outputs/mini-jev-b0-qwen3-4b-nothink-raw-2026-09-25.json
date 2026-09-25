@@ -1,0 +1,730 @@
+{
+ "host": "http://192.168.1.209:11434",
+ "model": "qwen3:4b",
+ "method": "generative 1-of-77 judge, temp 0, case-insensitive scoring",
+ "note": "B0-30 gold lowercase in handover vs Capitalized label; scored case-insensitively",
+ "batch_s": 176.2,
+ "accuracy": "0/90",
+ "rows": [
+  {
+   "id": "B0-01",
+   "run": 1,
+   "latency_s": 1.97,
+   "got": "Let",
+   "gold": "Refund_not_showing_up",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-01",
+   "run": 2,
+   "latency_s": 1.82,
+   "got": "Let",
+   "gold": "Refund_not_showing_up",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-01",
+   "run": 3,
+   "latency_s": 1.95,
+   "got": "Let",
+   "gold": "Refund_not_showing_up",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-02",
+   "run": 1,
+   "latency_s": 2.01,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Lost_or_stolen_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-02",
+   "run": 2,
+   "latency_s": 1.77,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Lost_or_stolen_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-02",
+   "run": 3,
+   "latency_s": 1.79,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Lost_or_stolen_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-03",
+   "run": 1,
+   "latency_s": 1.9,
+   "got": "Let",
+   "gold": "Contactless_not_working",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-03",
+   "run": 2,
+   "latency_s": 1.74,
+   "got": "Let",
+   "gold": "Contactless_not_working",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-03",
+   "run": 3,
+   "latency_s": 1.84,
+   "got": "Let",
+   "gold": "Contactless_not_working",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-04",
+   "run": 1,
+   "latency_s": 2.12,
+   "got": "We need to classify this message into exactly one of the labels.",
+   "gold": "Transfer_timing",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-04",
+   "run": 2,
+   "latency_s": 1.98,
+   "got": "We need to classify this message into exactly one of the labels.",
+   "gold": "Transfer_timing",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-04",
+   "run": 3,
+   "latency_s": 1.92,
+   "got": "We need to classify this message into exactly one of the labels.",
+   "gold": "Transfer_timing",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-05",
+   "run": 1,
+   "latency_s": 2.17,
+   "got": "Let's",
+   "gold": "Transaction_charged_twice",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-05",
+   "run": 2,
+   "latency_s": 1.91,
+   "got": "Let's",
+   "gold": "Transaction_charged_twice",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-05",
+   "run": 3,
+   "latency_s": 2.14,
+   "got": "Let's",
+   "gold": "Transaction_charged_twice",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-06",
+   "run": 1,
+   "latency_s": 2.16,
+   "got": "Let's look",
+   "gold": "Exchange_rate",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-06",
+   "run": 2,
+   "latency_s": 1.95,
+   "got": "Let's look",
+   "gold": "Exchange_rate",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-06",
+   "run": 3,
+   "latency_s": 1.92,
+   "got": "Let's look",
+   "gold": "Exchange_rate",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-07",
+   "run": 1,
+   "latency_s": 2.2,
+   "got": "We need to classify the message into exactly one of the labels",
+   "gold": "Passcode_forgotten",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-07",
+   "run": 2,
+   "latency_s": 1.95,
+   "got": "We need to classify the message into exactly one of the labels",
+   "gold": "Passcode_forgotten",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-07",
+   "run": 3,
+   "latency_s": 1.93,
+   "got": "We need to classify the message into exactly one of the labels",
+   "gold": "Passcode_forgotten",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-08",
+   "run": 1,
+   "latency_s": 2.04,
+   "got": "Let's analyze the",
+   "gold": "Report_fraud",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-08",
+   "run": 2,
+   "latency_s": 1.97,
+   "got": "Let's analyze the",
+   "gold": "Report_fraud",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-08",
+   "run": 3,
+   "latency_s": 1.95,
+   "got": "Let's analyze the",
+   "gold": "Report_fraud",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-09",
+   "run": 1,
+   "latency_s": 1.96,
+   "got": "Let's analyze the message",
+   "gold": "Declined_card_payment",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-09",
+   "run": 2,
+   "latency_s": 1.87,
+   "got": "Let's analyze the message",
+   "gold": "Declined_card_payment",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-09",
+   "run": 3,
+   "latency_s": 2.0,
+   "got": "Let's analyze the message",
+   "gold": "Declined_card_payment",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-10",
+   "run": 1,
+   "latency_s": 1.94,
+   "got": "Let's",
+   "gold": "Top_up_by_bank_transfer_charge",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-10",
+   "run": 2,
+   "latency_s": 1.74,
+   "got": "Let's",
+   "gold": "Top_up_by_bank_transfer_charge",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-10",
+   "run": 3,
+   "latency_s": 1.87,
+   "got": "Let's",
+   "gold": "Top_up_by_bank_transfer_charge",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-11",
+   "run": 1,
+   "latency_s": 2.08,
+   "got": "Let",
+   "gold": "Pin_blocked",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-11",
+   "run": 2,
+   "latency_s": 1.87,
+   "got": "Let",
+   "gold": "Pin_blocked",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-11",
+   "run": 3,
+   "latency_s": 1.97,
+   "got": "Let",
+   "gold": "Pin_blocked",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-12",
+   "run": 1,
+   "latency_s": 2.05,
+   "got": "Let's look at",
+   "gold": "Get_disposable_virtual_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-12",
+   "run": 2,
+   "latency_s": 1.88,
+   "got": "Let's look at",
+   "gold": "Get_disposable_virtual_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-12",
+   "run": 3,
+   "latency_s": 1.91,
+   "got": "Let's look at",
+   "gold": "Get_disposable_virtual_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-13",
+   "run": 1,
+   "latency_s": 2.05,
+   "got": "We need to classify the message into exactly one of the",
+   "gold": "Pending_card_payment",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-13",
+   "run": 2,
+   "latency_s": 1.78,
+   "got": "We need to classify the message into exactly one of the",
+   "gold": "Pending_card_payment",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-13",
+   "run": 3,
+   "latency_s": 1.9,
+   "got": "We need to classify the message into exactly one of the",
+   "gold": "Pending_card_payment",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-14",
+   "run": 1,
+   "latency_s": 2.04,
+   "got": "Let's look at",
+   "gold": "Change_pin",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-14",
+   "run": 2,
+   "latency_s": 1.96,
+   "got": "Let's look at",
+   "gold": "Change_pin",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-14",
+   "run": 3,
+   "latency_s": 2.05,
+   "got": "Let's look at",
+   "gold": "Change_pin",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-15",
+   "run": 1,
+   "latency_s": 2.01,
+   "got": "Let's look",
+   "gold": "Card_swallowed",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-15",
+   "run": 2,
+   "latency_s": 1.88,
+   "got": "Let's look",
+   "gold": "Card_swallowed",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-15",
+   "run": 3,
+   "latency_s": 1.88,
+   "got": "Let's look",
+   "gold": "Card_swallowed",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-16",
+   "run": 1,
+   "latency_s": 1.93,
+   "got": "Let's",
+   "gold": "Card_payment_fee_charged",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-16",
+   "run": 2,
+   "latency_s": 1.74,
+   "got": "Let's",
+   "gold": "Card_payment_fee_charged",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-16",
+   "run": 3,
+   "latency_s": 1.85,
+   "got": "Let's",
+   "gold": "Card_payment_fee_charged",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-17",
+   "run": 1,
+   "latency_s": 2.22,
+   "got": "Let",
+   "gold": "Cancel_transfer",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-17",
+   "run": 2,
+   "latency_s": 1.95,
+   "got": "Let",
+   "gold": "Cancel_transfer",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-17",
+   "run": 3,
+   "latency_s": 1.94,
+   "got": "Let",
+   "gold": "Cancel_transfer",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-18",
+   "run": 1,
+   "latency_s": 2.15,
+   "got": "Let's look at",
+   "gold": "Verify_my_identity",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-18",
+   "run": 2,
+   "latency_s": 1.93,
+   "got": "Let's look at",
+   "gold": "Verify_my_identity",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-18",
+   "run": 3,
+   "latency_s": 1.97,
+   "got": "Let's look at",
+   "gold": "Verify_my_identity",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-19",
+   "run": 1,
+   "latency_s": 2.25,
+   "got": "1",
+   "gold": "Top_up_failed",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-19",
+   "run": 2,
+   "latency_s": 1.94,
+   "got": "1",
+   "gold": "Top_up_failed",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-19",
+   "run": 3,
+   "latency_s": 1.92,
+   "got": "1",
+   "gold": "Top_up_failed",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-20",
+   "run": 1,
+   "latency_s": 2.0,
+   "got": "Let's look at",
+   "gold": "Fiat_currency_support",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-20",
+   "run": 2,
+   "latency_s": 1.86,
+   "got": "Let's look at",
+   "gold": "Fiat_currency_support",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-20",
+   "run": 3,
+   "latency_s": 2.01,
+   "got": "Let's look at",
+   "gold": "Fiat_currency_support",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-21",
+   "run": 1,
+   "latency_s": 2.05,
+   "got": "Let's look at",
+   "gold": "Edit_personal_details",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-21",
+   "run": 2,
+   "latency_s": 1.84,
+   "got": "Let's look at",
+   "gold": "Edit_personal_details",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-21",
+   "run": 3,
+   "latency_s": 1.89,
+   "got": "Let's look at",
+   "gold": "Edit_personal_details",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-22",
+   "run": 1,
+   "latency_s": 2.01,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Extra_charge_on_statement",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-22",
+   "run": 2,
+   "latency_s": 1.76,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Extra_charge_on_statement",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-22",
+   "run": 3,
+   "latency_s": 1.89,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Extra_charge_on_statement",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-23",
+   "run": 1,
+   "latency_s": 2.07,
+   "got": "Let's",
+   "gold": "Order_physical_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-23",
+   "run": 2,
+   "latency_s": 1.79,
+   "got": "Let's",
+   "gold": "Order_physical_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-23",
+   "run": 3,
+   "latency_s": 1.9,
+   "got": "Let's",
+   "gold": "Order_physical_card",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-24",
+   "run": 1,
+   "latency_s": 2.15,
+   "got": "Let's look at the",
+   "gold": "Apple_pay_or_google_pay",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-24",
+   "run": 2,
+   "latency_s": 1.92,
+   "got": "Let's look at the",
+   "gold": "Apple_pay_or_google_pay",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-24",
+   "run": 3,
+   "latency_s": 1.97,
+   "got": "Let's look at the",
+   "gold": "Apple_pay_or_google_pay",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-25",
+   "run": 1,
+   "latency_s": 2.08,
+   "got": "Let's look at the labels and",
+   "gold": "Failed_transfer",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-25",
+   "run": 2,
+   "latency_s": 1.91,
+   "got": "Let's look at the labels and",
+   "gold": "Failed_transfer",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-25",
+   "run": 3,
+   "latency_s": 1.89,
+   "got": "Let's look at the labels and",
+   "gold": "Failed_transfer",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-26",
+   "run": 1,
+   "latency_s": 2.09,
+   "got": "Let's look at",
+   "gold": "Country_support",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-26",
+   "run": 2,
+   "latency_s": 1.94,
+   "got": "Let's look at",
+   "gold": "Country_support",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-26",
+   "run": 3,
+   "latency_s": 1.97,
+   "got": "Let's look at",
+   "gold": "Country_support",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-27",
+   "run": 1,
+   "latency_s": 2.05,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Lost_or_stolen_phone",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-27",
+   "run": 2,
+   "latency_s": 1.73,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Lost_or_stolen_phone",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-27",
+   "run": 3,
+   "latency_s": 1.86,
+   "got": "We need to classify this message into exactly one of the",
+   "gold": "Lost_or_stolen_phone",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-28",
+   "run": 1,
+   "latency_s": 2.1,
+   "got": "Let's look at",
+   "gold": "Terminate_account",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-28",
+   "run": 2,
+   "latency_s": 1.91,
+   "got": "Let's look at",
+   "gold": "Terminate_account",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-28",
+   "run": 3,
+   "latency_s": 1.93,
+   "got": "Let's look at",
+   "gold": "Terminate_account",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-29",
+   "run": 1,
+   "latency_s": 2.15,
+   "got": "We need to classify this message into exactly",
+   "gold": "Transfer_not_received_by_recipient",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-29",
+   "run": 2,
+   "latency_s": 1.84,
+   "got": "We need to classify this message into exactly",
+   "gold": "Transfer_not_received_by_recipient",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-29",
+   "run": 3,
+   "latency_s": 1.94,
+   "got": "We need to classify this message into exactly",
+   "gold": "Transfer_not_received_by_recipient",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-30",
+   "run": 1,
+   "latency_s": 2.15,
+   "got": "We need to classify this message into exactly one of the labels.",
+   "gold": "why_verify_identity",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-30",
+   "run": 2,
+   "latency_s": 1.85,
+   "got": "We need to classify this message into exactly one of the labels.",
+   "gold": "why_verify_identity",
+   "verdict": "UNPARSEABLE"
+  },
+  {
+   "id": "B0-30",
+   "run": 3,
+   "latency_s": 2.05,
+   "got": "We need to classify this message into exactly one of the labels.",
+   "gold": "why_verify_identity",
+   "verdict": "UNPARSEABLE"
+  }
+ ]
+}

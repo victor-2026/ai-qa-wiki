@@ -182,7 +182,6 @@ Human → Decision
 **Status:** Research only, not implemented
 **Updated:** 2026-05-14
 
+## See also
 
-
-
-
+- [Self-Review Loop — Make AI Verify Its Own Work](wiki/self-review-loop.md)

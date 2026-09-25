@@ -89,3 +89,7 @@ Booking system: `AppState.bookings` dict + `search_flights` / `book_flight` / `g
 - External: [Autonoma repo — testing-ai-agent-tool-calls](https://github.com/Autonoma-Tools/testing-ai-agent-tool-calls), [Testing MCP Server](https://getautonoma.com/blog/how-to-test-an-mcp-server), [LangGraph Testing](https://getautonoma.com/blog/langgraph-testing)
 
 *Ingested: 2026-08-31*
+
+## See also
+
+- [How to Test an MCP Server: 3 Layers That Actually Work](wiki/autonoma-mcp-server-2026.md)

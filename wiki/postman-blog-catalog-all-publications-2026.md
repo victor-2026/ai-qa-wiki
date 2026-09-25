@@ -108,3 +108,9 @@
 ---
 
 *Compiled: 2026-09-03 · Base page for https://blog.postman.com/ + detailed wiki for QE structural problem (your UTM link is alias of Part 1)*
+
+## See also
+
+- [Quality Remarks — Complete Publications Catalog (Keith Klain)](wiki/qualityremarks-blog-catalog-all-publications-2026.md)
+- [Your QE Program Has a Structural Problem, and AI Just Made It Visible](wiki/rick-crawford-qe-structural-problem-2026.md)
+- [TestMu AI Blog: Complete Publications Catalog](wiki/testmuai-blog-catalog-all-publications-2026.md)

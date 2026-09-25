@@ -61,6 +61,10 @@ Creator and Head of Claude Code at Anthropic (Boris Cherny) describes experiment
 
 
 
+## See also
+
+- [Crash Budget для Mobile Testing](wiki/crash-budget-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)

@@ -65,3 +65,7 @@ Total: 11 экспериментов. За час нашёл >123 (оба 33h - 
 ### Источник
 - [Ilya Rice: How I Won the Enterprise RAG Challenge](https://abdullin.com/ilya/how-to-build-best-rag/) + [source code](https://github.com/...)
 - ERC hub: https://abdullin.com/erc/
+
+## See also
+
+- [Enterprise RAG Challenge](wiki/rinat-erc-2026.md)

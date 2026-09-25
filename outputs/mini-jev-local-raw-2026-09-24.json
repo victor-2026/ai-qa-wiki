@@ -1,0 +1,156 @@
+{
+ "host": "http://192.168.1.209:11434",
+ "model": "qwen2.5:3b",
+ "method": "generative judge, temp 0, NOT logprob readout",
+ "batch_s": 106.3,
+ "throughput_cps": 0.2,
+ "rows": [
+  {
+   "finding": 1,
+   "run": 1,
+   "latency_s": 104.12,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 1,
+   "run": 2,
+   "latency_s": 0.09,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 1,
+   "run": 3,
+   "latency_s": 0.09,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 2,
+   "run": 1,
+   "latency_s": 0.16,
+   "severity": "P2",
+   "fp": "no"
+  },
+  {
+   "finding": 2,
+   "run": 2,
+   "latency_s": 0.09,
+   "severity": "P2",
+   "fp": "no"
+  },
+  {
+   "finding": 2,
+   "run": 3,
+   "latency_s": 0.09,
+   "severity": "P2",
+   "fp": "no"
+  },
+  {
+   "finding": 3,
+   "run": 1,
+   "latency_s": 0.18,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 3,
+   "run": 2,
+   "latency_s": 0.08,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 3,
+   "run": 3,
+   "latency_s": 0.09,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 4,
+   "run": 1,
+   "latency_s": 0.18,
+   "severity": "NOISE",
+   "fp": "no"
+  },
+  {
+   "finding": 4,
+   "run": 2,
+   "latency_s": 0.09,
+   "severity": "NOISE",
+   "fp": "no"
+  },
+  {
+   "finding": 4,
+   "run": 3,
+   "latency_s": 0.09,
+   "severity": "NOISE",
+   "fp": "no"
+  },
+  {
+   "finding": 5,
+   "run": 1,
+   "latency_s": 0.18,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 5,
+   "run": 2,
+   "latency_s": 0.09,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 5,
+   "run": 3,
+   "latency_s": 0.08,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 6,
+   "run": 1,
+   "latency_s": 0.15,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 6,
+   "run": 2,
+   "latency_s": 0.09,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 6,
+   "run": 3,
+   "latency_s": 0.08,
+   "severity": "P1",
+   "fp": "no"
+  },
+  {
+   "finding": 7,
+   "run": 1,
+   "latency_s": 0.15,
+   "severity": "P2",
+   "fp": "no"
+  },
+  {
+   "finding": 7,
+   "run": 2,
+   "latency_s": 0.08,
+   "severity": "P2",
+   "fp": "no"
+  },
+  {
+   "finding": 7,
+   "run": 3,
+   "latency_s": 0.08,
+   "severity": "P2",
+   "fp": "no"
+  }
+ ]
+}

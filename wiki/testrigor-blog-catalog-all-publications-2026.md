@@ -123,3 +123,11 @@
 ---
 
 *Compiled: 2026-08-31 · Analogous to [Kiro catalog](kiro-blog-catalog-all-publications-2025-2026.md) and [Autonoma catalog](autonoma-blog-catalog-all-publications-2026.md)*
+
+## See also
+
+- [DevQAExpert Blog: Evaluation](wiki/devqaexpert-blog-catalog-all-publications-2026.md)
+- [Julia Pottinger — Complete Publications Catalog (juliapottinger.com)](wiki/juliapottinger-blog-catalog-all-publications-2026.md)
+- [Postman Blog — Complete Publications Catalog](wiki/postman-blog-catalog-all-publications-2026.md)
+- [TestMu AI Blog: Complete Publications Catalog](wiki/testmuai-blog-catalog-all-publications-2026.md)
+- [Virtuoso QA Blog — Complete Publications Catalog](wiki/virtuoso-blog-catalog-all-publications-2026.md)

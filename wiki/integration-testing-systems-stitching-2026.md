@@ -33,3 +33,8 @@ Mocking external dependencies to test integration points without full dependency
 - URL: https://testmu.ai/testing/integration-testing/
 - Tags: #integration-testing, #service-virtualization, #testing-pyramid, #contract-testing
 - See also: [[API-Testing]], [[Contract-Testing]], [[Test-Reliability]]
+
+## See also
+
+- [Test Rocket: Rethinking the Test Pyramid for the AI Era](wiki/test-rocket-pyramid-ai-era-2026.md)
+- [toe2eornottoe2e ontestautomation](wiki/toe2eornottoe2e-ontestautomation.md)

@@ -107,6 +107,13 @@ Additional takeaway: independent testing = different assumptions, risk models, p
 
 
 
+## See also
+
+- [Who Is Accountable for AI-Generated Code?](wiki/julia-pottinger-accountable-ai-code-2026.md)
+- [Testing Mindset Vindicated: Klain on Evaluator Independence (2026-08)](wiki/klain-testing-mindset-evaluator-independence-2026-08.md)
+- [Observatory Weekly: Quality Gaps, Claude QA Skills, the Testing Mindset](wiki/observatory-weekly-quality-gaps-2026.md)
+- [Your QE Program Has a Structural Problem, and AI Just Made It Visible](wiki/rick-crawford-qe-structural-problem-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)

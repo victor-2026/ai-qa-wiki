@@ -123,3 +123,7 @@ Research on 67 OSS projects found:
 - [[wiki/ai-testing-metrics]] — Metrics deep dive
 - [[wiki/testing-strategies]] — Testing strategies
 - [[wiki/agentic-patterns]] — Agent patterns
+
+## See also
+
+- [AI Testing Effectiveness](wiki/ai-testing-effectiveness-papers.md)

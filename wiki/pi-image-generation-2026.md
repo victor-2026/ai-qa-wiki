@@ -92,3 +92,10 @@ Gamma cost separate (Gamma Pro $10/mo unlimited or per-deck $0.20) — not OpenR
 ---
 
 *Ingested: 2026-09-03 · Via openrouter.ai/api/v1/models (424, 18 free) + pi-subagents README + openrouter-guard 1$/0.5$*
+
+## See also
+
+- [GPT Image 2 — Research Before Generation](wiki/gpt-image-research-mode.md)
+- [OpenCode + OpenRouter для QA‑тестирования (2026)](wiki/opencode-openrouter-qa-2026.md)
+- [Pi ↔ OpenCode Integration](wiki/pi-opencode-integration-2026.md)
+- [Video Capabilities in OpenCode Free](wiki/video-capabilities-opencode-free.md)

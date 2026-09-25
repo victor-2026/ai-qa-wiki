@@ -581,3 +581,57 @@
 [2026-09-24T23:00:08.281622] wiki-log | update-index | ok | 473 topics, 319 raw
 [2026-09-24T23:58:29.027763] update-index | 474 topics | ok | 
 [2026-09-24T23:58:29.029031] wiki-log | update-index | ok | 474 topics, 319 raw
+[2026-09-25T00:53:48.769382] ingest | igor-engine-vs-car-ship-decision-2026.md | ok | wiki/igor-engine-vs-car-ship-decision-2026.md
+[2026-09-25T00:53:48.770247] wiki-log | ingest | ok | raw/igor-engine-vs-car-ship-decision-2026.md → wiki/igor-engine-vs-car-ship-deci
+[2026-09-25T00:53:49.018066] wiki-log | backlinks | ok | 5 related pages for wiki/igor-engine-vs-car-ship-decision-2026.md
+[2026-09-25T00:53:49.251778] update-index | 475 topics | ok | 
+[2026-09-25T00:53:49.252322] wiki-log | update-index | ok | 475 topics, 320 raw
+[2026-09-25T12:03:32.988906] update-index | 476 topics | ok | 
+[2026-09-25T12:03:32.989603] wiki-log | update-index | ok | 476 topics, 320 raw
+[2026-09-25T16:37:09.223335] ingest | filip-hric-playwright-cli-jev-vs-mcp-2026.md | ok | wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.md
+[2026-09-25T16:37:09.223867] wiki-log | ingest | ok | raw/filip-hric-playwright-cli-jev-vs-mcp-2026.md → wiki/filip-hric-playwright-cl
+[2026-09-25T16:37:09.536568] wiki-log | backlinks | ok | 5 related pages for wiki/filip-hric-playwright-cli-jev-vs-mcp-2026.md
+[2026-09-25T16:37:09.876177] update-index | 478 topics | ok | 
+[2026-09-25T16:37:09.876650] wiki-log | update-index | ok | 478 topics, 321 raw
+[2026-09-25T16:37:46.493910] ingest | tony-seale-jev-ontologies-neural-symbolic-2026.md | ok | wiki/tony-seale-jev-ontologies-neural-symbolic-2026.md
+[2026-09-25T16:37:46.494623] wiki-log | ingest | ok | raw/tony-seale-jev-ontologies-neural-symbolic-2026.md → wiki/tony-seale-jev-onto
+[2026-09-25T16:37:46.746823] wiki-log | backlinks | ok | 5 related pages for wiki/tony-seale-jev-ontologies-neural-symbolic-2026.md
+[2026-09-25T16:37:46.992405] update-index | 479 topics | ok | 
+[2026-09-25T16:37:46.992864] wiki-log | update-index | ok | 479 topics, 322 raw
+[2026-09-25T16:39:45.337342] ingest | konstantin-hekajev-e2e-changes-2026.md | ok | wiki/konstantin-hekajev-e2e-changes-2026.md
+[2026-09-25T16:39:45.338311] wiki-log | ingest | ok | raw/konstantin-hekajev-e2e-changes-2026.md → wiki/konstantin-hekajev-e2e-changes
+[2026-09-25T16:39:45.584825] wiki-log | backlinks | ok | 5 related pages for wiki/konstantin-hekajev-e2e-changes-2026.md
+[2026-09-25T16:39:45.798858] update-index | 480 topics | ok | 
+[2026-09-25T16:39:45.799414] wiki-log | update-index | ok | 480 topics, 323 raw
+[2026-09-25T16:42:50.972743] ingest | nace-drex-diffusion-decision-model-2026.md | ok | wiki/nace-drex-diffusion-decision-model-2026.md
+[2026-09-25T16:42:50.973619] wiki-log | ingest | ok | raw/nace-drex-diffusion-decision-model-2026.md → wiki/nace-drex-diffusion-decisi
+[2026-09-25T16:42:51.291581] wiki-log | backlinks | ok | 5 related pages for wiki/nace-drex-diffusion-decision-model-2026.md
+[2026-09-25T16:42:54.618363] ingest | ivan-qa-queue-shift-4000-2026.md | ok | wiki/ivan-qa-queue-shift-4000-2026.md
+[2026-09-25T16:42:54.618941] wiki-log | ingest | ok | raw/ivan-qa-queue-shift-4000-2026.md → wiki/ivan-qa-queue-shift-4000-2026.md
+[2026-09-25T16:42:54.912711] wiki-log | backlinks | ok | 5 related pages for wiki/ivan-qa-queue-shift-4000-2026.md
+[2026-09-25T16:42:58.315758] ingest | niluka-guardrail-qa-framework-2026.md | ok | wiki/niluka-guardrail-qa-framework-2026.md
+[2026-09-25T16:42:58.318505] wiki-log | ingest | ok | raw/niluka-guardrail-qa-framework-2026.md → wiki/niluka-guardrail-qa-framework-2
+[2026-09-25T16:42:58.741070] wiki-log | backlinks | ok | 5 related pages for wiki/niluka-guardrail-qa-framework-2026.md
+[2026-09-25T16:42:59.107266] update-index | 483 topics | ok | 
+[2026-09-25T16:42:59.107775] wiki-log | update-index | ok | 483 topics, 326 raw
+[2026-09-25T18:22:36.569545] ingest | testmuai-playwright-ai-agents-mcp-2026.md | ok | wiki/testmuai-playwright-ai-agents-mcp-2026.md
+[2026-09-25T18:22:36.570705] wiki-log | ingest | ok | raw/testmuai-playwright-ai-agents-mcp-2026.md → wiki/testmuai-playwright-ai-agen
+[2026-09-25T18:22:36.814333] wiki-log | backlinks | ok | 5 related pages for wiki/testmuai-playwright-ai-agents-mcp-2026.md
+[2026-09-25T18:27:00.377833] ingest | zero-outage-ontology-multi-compliance-2026.md | ok | wiki/zero-outage-ontology-multi-compliance-2026.md
+[2026-09-25T18:27:00.378805] wiki-log | ingest | ok | raw/zero-outage-ontology-multi-compliance-2026.md → wiki/zero-outage-ontology-mu
+[2026-09-25T18:27:00.608406] wiki-log | backlinks | ok | 5 related pages for wiki/zero-outage-ontology-multi-compliance-2026.md
+[2026-09-25T18:27:00.811489] update-index | 485 topics | ok | 
+[2026-09-25T18:27:00.811989] wiki-log | update-index | ok | 485 topics, 329 raw
+[2026-09-25T18:31:50.968692] ingest | syam-zero-qa-codeless-dead-2026.md | ok | wiki/syam-zero-qa-codeless-dead-2026.md
+[2026-09-25T18:31:50.969914] wiki-log | ingest | ok | raw/syam-zero-qa-codeless-dead-2026.md → wiki/syam-zero-qa-codeless-dead-2026.md
+[2026-09-25T18:31:51.199026] wiki-log | backlinks | ok | 5 related pages for wiki/syam-zero-qa-codeless-dead-2026.md
+[2026-09-25T18:31:54.215535] ingest | valerii-opus55-upgrade-checklist-2026.md | ok | wiki/valerii-opus55-upgrade-checklist-2026.md
+[2026-09-25T18:31:54.217227] wiki-log | ingest | ok | raw/valerii-opus55-upgrade-checklist-2026.md → wiki/valerii-opus55-upgrade-check
+[2026-09-25T18:31:54.721895] wiki-log | backlinks | ok | 5 related pages for wiki/valerii-opus55-upgrade-checklist-2026.md
+[2026-09-25T18:31:58.489650] ingest | qualitymax-independent-verifier-profile-2026.md | ok | wiki/qualitymax-independent-verifier-profile-2026.md
+[2026-09-25T18:31:58.490363] wiki-log | ingest | ok | raw/qualitymax-independent-verifier-profile-2026.md → wiki/qualitymax-independen
+[2026-09-25T18:31:58.773233] wiki-log | backlinks | ok | 5 related pages for wiki/qualitymax-independent-verifier-profile-2026.md
+[2026-09-25T18:31:59.110840] update-index | 488 topics | ok | 
+[2026-09-25T18:31:59.130623] wiki-log | update-index | ok | 488 topics, 332 raw
+[2026-09-25T19:11:46.942902] update-index | 489 topics | ok | 
+[2026-09-25T19:11:46.943797] wiki-log | update-index | ok | 489 topics, 332 raw

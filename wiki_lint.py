@@ -33,6 +33,8 @@ Output: outputs/lint-report-YYYY-MM-DD.md (always written).
 import re
 import sys
 import json
+import math
+import time
 import datetime
 from pathlib import Path
 from urllib.parse import unquote
@@ -157,6 +159,127 @@ def check_orphans() -> list:
         if p.stem not in incoming:
             orphans.append(p.name)
     return orphans
+
+
+STOPWORDS = frozenset("""
+the and or of to in is are was were be been on at for with by from as an a it its this that
+these those we you they he she our your their not no yes if then than so such can will would
+should could may into over under between through during per via vs de la el в и или на с по для
+как что это все есть было будет при или уже же не ни от до без над под про между через при
+""".split())
+
+FOREIGN_SKIP = {
+    "bach-10x-claims-skeptical-inquiry-2026.md",
+    "bach-ai-writing-policy-psa-2026.md",
+    "bach-kpis-not-quality-2026.md",
+    "mas-vs-swe-comparison.md",
+    "satisfice-blog-catalog-2026.md",
+}
+
+
+def page_terms(content: str) -> dict:
+    words = re.findall(r"[a-zа-яё]{3,}", content.lower())
+    tf = {}
+    for w in words:
+        if w not in STOPWORDS:
+            tf[w] = tf.get(w, 0) + 1
+    return tf
+
+
+def page_title(path: Path, content: str) -> str:
+    m = re.search(r"^title:\s*[\"']?(.+?)[\"']?\s*$", content, re.M)
+    if m:
+        return m.group(1).strip()[:80]
+    m = re.search(r"^#\s+(.+?)\s*$", content, re.M)
+    if m:
+        return m.group(1).strip()[:80]
+    return path.stem.replace("-", " ").replace("_", " ")
+
+
+def fix_orphans(dry_run=True, limit=None, min_score=0.05, max_links=3,
+                skip_fresh_min=30, min_body_chars=200) -> list:
+    """Rank orphan→hub candidates by TF-IDF cosine. Returns plan list of
+    (orphan, hub, score). With dry_run=False, appends See-also bullets to hubs.
+    Skips foreign-owned and freshly-modified files. Hubs only (orphans untouched)."""
+    pages = all_wiki_pages()
+    orphans = check_orphans()
+    bodies = {}
+    for p in pages:
+        bodies[p.name] = strip_boilerplate(read_page(p))
+    df = {}
+    tfs = {}
+    for name, body in bodies.items():
+        tf = page_terms(body)
+        tfs[name] = tf
+        for w in tf:
+            df[w] = df.get(w, 0) + 1
+    n = max(len(pages), 1)
+
+    def vec(name):
+        tf = tfs[name]
+        total = sum(tf.values()) or 1
+        return {w: (c / total) * math.log(n / df[w]) for w, c in tf.items()}
+
+    def cosine(a, b):
+        dot = sum(v * b.get(w, 0.0) for w, v in a.items())
+        na = math.sqrt(sum(v * v for v in a.values())) or 1.0
+        nb = math.sqrt(sum(v * v for v in b.values())) or 1.0
+        return dot / (na * nb)
+
+    now = time.time()
+    fresh = set()
+    for p in pages:
+        try:
+            if now - p.stat().st_mtime < skip_fresh_min * 60:
+                fresh.add(p.name)
+        except OSError:
+            pass
+    vecs = {name: vec(name) for name in bodies}
+    plan = []
+    targets = orphans if limit is None else orphans[:limit]
+    for oname in targets:
+        if oname in FOREIGN_SKIP:
+            continue
+        scored = []
+        for hname in bodies:
+            if hname == oname or hname in FOREIGN_SKIP or hname in fresh:
+                continue
+            if len(bodies[hname]) < min_body_chars:
+                continue
+            s = cosine(vecs[oname], vecs[hname])
+            if s >= min_score:
+                scored.append((s, hname))
+        scored.sort(reverse=True)
+        for s, hname in scored[:max_links]:
+            plan.append((oname, hname, round(s, 4)))
+    if dry_run:
+        return plan
+    applied = []
+    by_hub = {}
+    for oname, hname, s in plan:
+        by_hub.setdefault(hname, []).append((oname, s))
+    for hname, links in by_hub.items():
+        hp = WIKI_DIR / hname
+        content = read_page(hp)
+        bullets = []
+        for oname, s in links:
+            otitle = page_title(WIKI_DIR / oname, bodies[oname])
+            bullets.append(f"- [{otitle}](wiki/{oname})")
+        if re.search(r"^## See also\s*$", content, re.M):
+            content = re.sub(r"^## See also\s*$", "## See also\n" + "\n".join(bullets),
+                             content, count=1, flags=re.M)
+        elif re.search(r"^## См\. также\s*$", content, re.M):
+            content = re.sub(r"^## См\. также\s*$", "## См. также\n" + "\n".join(bullets),
+                             content, count=1, flags=re.M)
+        elif "<!-- backlinks-start -->" in content:
+            block = "## See also\n\n" + "\n".join(bullets) + "\n\n"
+            content = content.replace("<!-- backlinks-start -->", block + "<!-- backlinks-start -->", 1)
+        else:
+            block = "\n## See also\n\n" + "\n".join(bullets) + "\n"
+            content = content.rstrip("\n") + "\n" + block
+        hp.write_text(content, encoding="utf-8")
+        applied.append((hname, len(links)))
+    return plan
 
 
 def check_stubs(min_chars: int = 200) -> list:
@@ -447,6 +570,25 @@ def main():
     args = sys.argv[1:]
     is_summary = "--summary" in args
     is_json = "--json" in args
+    if "--fix-orphans" in args:
+        dry = "--dry-run" in args
+        limit = None
+        for a in args:
+            if a.startswith("--limit="):
+                try:
+                    limit = int(a.split("=", 1)[1])
+                except ValueError:
+                    pass
+        plan = fix_orphans(dry_run=dry, limit=limit)
+        if dry:
+            print(f"DRY-RUN: {len(plan)} proposed links")
+            for oname, hname, s in plan[:30]:
+                print(f"  {s:.4f}  {hname} -> {oname}")
+            if len(plan) > 30:
+                print(f"  ... and {len(plan) - 30} more")
+        else:
+            print(f"Applied links for {len(plan)} orphan-hub pairs")
+        return
 
     report = run_all(verbose=not is_summary)
 

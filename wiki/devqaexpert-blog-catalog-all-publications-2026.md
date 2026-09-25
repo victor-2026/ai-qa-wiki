@@ -52,3 +52,7 @@ If later vendor publishes technical deep dives (graph-based selection, recall me
 ---
 
 *Compiled: 2026-09-03 · Analogous to [Kiro catalog](kiro-blog-catalog-all-publications-2025-2026.md), [Autonoma catalog](autonoma-blog-catalog-all-publications-2026.md), [testRigor catalog](testrigor-blog-catalog-all-publications-2026.md), [Zalando catalog](zalando-blog-catalog-all-publications-2026.md), [Martin Fowler catalog](martinfowler-blog-catalog-all-publications-2026.md) — but evaluation only, not full ingestion.*
+
+## See also
+
+- [testRigor Blog: Complete Publications Catalog](wiki/testrigor-blog-catalog-all-publications-2026.md)

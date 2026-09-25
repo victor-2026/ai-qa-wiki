@@ -94,6 +94,10 @@ A green trajectory test is not proof of a successful side effect. A green E2E te
 
 
 
+## See also
+
+- [How to Test AI Agents That Take Actions (Tool Calls)](wiki/autonoma-testing-tool-calls-2026.md)
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)
