@@ -1,0 +1,51 @@
+{
+ "rows": [
+  {
+   "event": "load",
+   "latency_s": 9.7
+  },
+  {
+   "id": "F1",
+   "finding": "Forgot password link present but not verified functional",
+   "latency_s": 0.45,
+   "output": "{'severity': 'low'}"
+  },
+  {
+   "id": "F2",
+   "finding": "Login button discovered, risk=safe",
+   "latency_s": 0.34,
+   "output": "{'severity': 'low'}"
+  },
+  {
+   "id": "F3",
+   "finding": "External LinkedIn link marked destructive",
+   "latency_s": 0.42,
+   "output": "{'severity': 'critical'}"
+  },
+  {
+   "id": "F4",
+   "finding": "Password reset Cancel button",
+   "latency_s": 0.42,
+   "output": "{'severity': 'low'}"
+  },
+  {
+   "id": "F5",
+   "finding": "Navigation menu items (Admin, PIM, Leave, Time, etc.)",
+   "latency_s": 0.43,
+   "output": "{'severity': 'low'}"
+  },
+  {
+   "id": "F6",
+   "finding": "Logout button",
+   "latency_s": 0.44,
+   "output": "{'severity': 'low'}"
+  },
+  {
+   "id": "F7",
+   "finding": "OrangeHRM, Inc external link",
+   "latency_s": 0.39,
+   "output": "{'severity': 'info'}"
+  }
+ ],
+ "partial": false
+}

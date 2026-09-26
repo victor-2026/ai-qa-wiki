@@ -334,6 +334,9 @@ Frontier team lets CLI triage prod tickets: 2:33 AM alarm → 2:46 AM (13m35s) d
 - [How Kiro and Snyk Create Multi-Layered Security Guardrails](wiki/kiro-snyk-guardrails-2026.md)
 - [Planview Saves 40+ Hours per Audit Cycle with SOC 2 Automation](wiki/kiro-soc2-planview-automation-2026.md)
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Ec2 Verified Isolation Engine 2026](wiki/amazon-science-ec2-verified-isolation-engine-2026.md)

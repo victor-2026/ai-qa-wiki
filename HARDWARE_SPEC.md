@@ -67,6 +67,12 @@
 2. **Ollama:** `export OLLAMA_HOST=http://10.24.175.30:11434`
 3. **SSH/VPN:** Connects to PC-224
 
+### Departure checklist (roaming, recorded 2026-09-25)
+- ZeroTier autostart on boot BOTH sides (reboot in absence = death, no remote recovery)
+- PC-224: sleep/hibernate OFF, power plugged, Ollama running + autostart
+- Measurement conditions: wall power vs battery changes tok/s — always record power state next to local numbers
+- MacBook spare tier (qwen2.5:3b/1.5b, SemIf lab): continuity triage only, never gold-path without separate validation (freeze creep forbidden)
+
 ### Active Projects:
 - `ai-qa-wiki` (wiki management)
 - `qa-automation-sandbox` (remote testing)

@@ -635,3 +635,11 @@
 [2026-09-25T18:31:59.130623] wiki-log | update-index | ok | 488 topics, 332 raw
 [2026-09-25T19:11:46.942902] update-index | 489 topics | ok | 
 [2026-09-25T19:11:46.943797] wiki-log | update-index | ok | 489 topics, 332 raw
+[2026-09-26T01:48:39.276599] ingest | graphify-codebase-kg-agents-2026.md | ok | wiki/graphify-codebase-kg-agents-2026.md
+[2026-09-26T01:48:39.277528] wiki-log | ingest | ok | raw/graphify-codebase-kg-agents-2026.md → wiki/graphify-codebase-kg-agents-2026.
+[2026-09-26T01:48:39.559063] wiki-log | backlinks | ok | 5 related pages for wiki/graphify-codebase-kg-agents-2026.md
+[2026-09-26T01:48:42.983235] ingest | arxiv-simulation-cx-agents-140m-2026.md | ok | wiki/arxiv-simulation-cx-agents-140m-2026.md
+[2026-09-26T01:48:42.983856] wiki-log | ingest | ok | raw/arxiv-simulation-cx-agents-140m-2026.md → wiki/arxiv-simulation-cx-agents-14
+[2026-09-26T01:48:43.296692] wiki-log | backlinks | ok | 5 related pages for wiki/arxiv-simulation-cx-agents-140m-2026.md
+[2026-09-26T01:49:20.468333] update-index | 491 topics | ok | 
+[2026-09-26T01:49:20.469338] wiki-log | update-index | ok | 491 topics, 334 raw

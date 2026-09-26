@@ -269,6 +269,9 @@ The official Knowledge Edition is a set of short, citable briefs, not the comple
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
@@ -278,6 +281,7 @@ The official Knowledge Edition is a set of short, citable briefs, not the comple
 - [Amazon Science: Ground Truth Is a Process, Not a Dataset](wiki/amazon-science-ground-truth-is-a-process-2026.md)
 - [Archestra Crab Bot Slack Agent 2026](wiki/archestra-crab-bot-slack-agent-2026.md)
 - [Archestra Skills Aren T Prompts Code Sandbox 2026](wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.md)
+- [Graphify Codebase Kg Agents 2026](wiki/graphify-codebase-kg-agents-2026.md)
 - [Grzegorz Laya Router River Raid 2026](wiki/grzegorz-laya-router-river-raid-2026.md)
 - [Modeloptimizingagainstqualitygateinsteadofactualproblem](wiki/modeloptimizingagainstqualitygateinsteadofactualproblem.md)
 - [Qodo Ai Slop Is A Governance Problem Here Are 4 Principles To Fix It](wiki/qodo-ai-slop-is-a-governance-problem-here-are-4-principles-to-fix-it.md)

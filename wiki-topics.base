@@ -23,5 +23,8 @@ views:
       - type
       - updated
       - tags
+    sort:
+      - property: updated
+        direction: ASC
     summaries:
       file.name: Filled

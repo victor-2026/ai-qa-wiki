@@ -50,6 +50,16 @@ By treating QE as a **human‑accountable, tetrad‑driven system**, organizatio
 
 ---
 
+### Verbatim (22 Sep 2026 post, for quotes bank)
+
+- "Quality is value to some person (who matters)."
+- "A responsible process is a process for which some competent human is accountable."
+- "Since an AI tool cannot be accountable for anything, it cannot enact or embody a responsible process."
+- "Quality engineering is the opposite of mere trust. If you trust, you don't *need* to engineer quality."
+- Mismatch taxonomy: Imagination≠Specification (unsaid wants) / Imagination≠Delivery (spec met, need missed) / Specification≠Delivery (defects) / Delivery≠Experience (wrong environment, misuse).
+
+---
+
 ### See also  
 
 - [`AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry`](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)  

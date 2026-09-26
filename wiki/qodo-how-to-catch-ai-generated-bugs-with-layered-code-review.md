@@ -87,9 +87,13 @@ Qodo proposes a **three‑level, independent‑perspective review stack** that i
 
 
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [CodeScene: CodeHealth as a Prerequisite and Compass for Coding Agents](wiki/codescene-codehealth-prerequisite-compass-agents-2026.md)
+- [Graphify Codebase Kg Agents 2026](wiki/graphify-codebase-kg-agents-2026.md)
 - [Qodo Blog: Complete Publications Catalog (395 posts, 2024-2026)](wiki/qodo-blog-catalog-all-publications-2024-2026.md)
 - [Qodo – Adaptive Rules for AI‑Assisted Code](wiki/qodo-your-cursor-rules-wont-scale-ai-code-needs-an-adaptive-rules-system.md)
 <!-- backlinks-end -->

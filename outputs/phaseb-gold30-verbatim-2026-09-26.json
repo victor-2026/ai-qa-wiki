@@ -1,0 +1,815 @@
+{
+ "rows": [
+  {
+   "id": "E1",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 3.82,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E1",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E1",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E2",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.34,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E2",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E2",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E3",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.3,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E3",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E3",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E4",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.27,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E4",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E4",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E5",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E5",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E5",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E6",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.31,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E6",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E6",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E7",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.3,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E7",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.11,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E7",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E8",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.35,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E8",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E8",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E9",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E9",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E9",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E10",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E10",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "E10",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H1",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.26,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H1",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H1",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H2",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.22,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H2",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.08,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H2",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.08,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H3",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.29,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H3",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H3",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H4",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H4",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H4",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H5",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.32,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H5",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H5",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H6",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.19,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H6",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H6",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H7",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.21,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H7",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H7",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H8",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H8",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H8",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H9",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.42,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H9",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.14,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H9",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "H10",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.43,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H10",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "H10",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U1",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.26,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U1",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U1",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U2",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.19,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U2",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U2",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U3",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.19,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U3",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U3",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U4",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.21,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U4",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U4",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U5",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U5",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U5",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U6",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "U6",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "U6",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.08,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "raw": "severity=P2 fp=no"
+  },
+  {
+   "id": "U7",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U7",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U7",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U8",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.22,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U8",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U8",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U9",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.25,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U9",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.1,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U9",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U10",
+   "arm": "L0",
+   "run": 1,
+   "latency_s": 0.3,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U10",
+   "arm": "L0",
+   "run": 2,
+   "latency_s": 0.08,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  },
+  {
+   "id": "U10",
+   "arm": "L0",
+   "run": 3,
+   "latency_s": 0.09,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "raw": "severity=P1 fp=no"
+  }
+ ],
+ "partial": true
+}

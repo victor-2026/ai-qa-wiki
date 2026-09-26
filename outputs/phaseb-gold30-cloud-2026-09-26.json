@@ -1,0 +1,275 @@
+{
+ "rows": [
+  {
+   "id": "E1",
+   "arm": "cloud",
+   "latency_s": 0.78,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.0,
+   "raw": "Severity probs: {'P2': 0.11, 'noise': 0.86, 'P0': 0.0, 'P1': 0.03}"
+  },
+  {
+   "id": "E2",
+   "arm": "cloud",
+   "latency_s": 0.39,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.48,
+   "raw": "Severity probs: {'P2': 0.39, 'P1': 0.04, 'noise': 0.55, 'P0': 0.02}"
+  },
+  {
+   "id": "E3",
+   "arm": "cloud",
+   "latency_s": 0.29,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.49,
+   "raw": "Severity probs: {'P2': 0.41, 'P0': 0.01, 'noise': 0.55, 'P1': 0.03}"
+  },
+  {
+   "id": "E4",
+   "arm": "cloud",
+   "latency_s": 0.28,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.0,
+   "raw": "Severity probs: {'P0': 0.1, 'noise': 0.68, 'P1': 0.08, 'P2': 0.14}"
+  },
+  {
+   "id": "E5",
+   "arm": "cloud",
+   "latency_s": 0.33,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.16,
+   "raw": "Severity probs: {'P2': 0.23, 'P1': 0.08, 'P0': 0.01, 'noise': 0.67}"
+  },
+  {
+   "id": "E6",
+   "arm": "cloud",
+   "latency_s": 0.28,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.61,
+   "raw": "Severity probs: {'P2': 0.1, 'P1': 0.04, 'P0': 0.01, 'noise': 0.85}"
+  },
+  {
+   "id": "E7",
+   "arm": "cloud",
+   "latency_s": 0.42,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.54,
+   "raw": "Severity probs: {'P0': 0.01, 'P1': 0.06, 'noise': 0.89, 'P2': 0.04}"
+  },
+  {
+   "id": "E8",
+   "arm": "cloud",
+   "latency_s": 0.29,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.8,
+   "raw": "Severity probs: {'noise': 0.63, 'P1': 0.13, 'P0': 0.01, 'P2': 0.23}"
+  },
+  {
+   "id": "E9",
+   "arm": "cloud",
+   "latency_s": 0.27,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.68,
+   "raw": "Severity probs: {'P2': 0.41, 'P1': 0.05, 'P0': 0.0, 'noise': 0.54}"
+  },
+  {
+   "id": "E10",
+   "arm": "cloud",
+   "latency_s": 0.26,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.71,
+   "raw": "Severity probs: {'P2': 0.32, 'P0': 0.01, 'noise': 0.63, 'P1': 0.04}"
+  },
+  {
+   "id": "H1",
+   "arm": "cloud",
+   "latency_s": 0.31,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "conf": 0.57,
+   "raw": "Severity probs: {'noise': 0.16, 'P2': 0.75, 'P0': 0.04, 'P1': 0.05}"
+  },
+  {
+   "id": "H2",
+   "arm": "cloud",
+   "latency_s": 0.31,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.67,
+   "raw": "Severity probs: {'P0': 0.0, 'P1': 0.0, 'P2': 0.0, 'noise': 1.0}"
+  },
+  {
+   "id": "H3",
+   "arm": "cloud",
+   "latency_s": 0.3,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.09,
+   "raw": "Severity probs: {'P1': 0.02, 'P0': 0.01, 'noise': 0.79, 'P2': 0.18}"
+  },
+  {
+   "id": "H4",
+   "arm": "cloud",
+   "latency_s": 0.39,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.33,
+   "raw": "Severity probs: {'P0': 0.0, 'noise': 0.99, 'P1': 0.0, 'P2': 0.01}"
+  },
+  {
+   "id": "H5",
+   "arm": "cloud",
+   "latency_s": 0.24,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.0,
+   "raw": "Severity probs: {'P1': 0.0, 'P0': 0.0, 'P2': 0.05, 'noise': 0.95}"
+  },
+  {
+   "id": "H6",
+   "arm": "cloud",
+   "latency_s": 0.37,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.41,
+   "raw": "Severity probs: {'P0': 0.05, 'noise': 0.72, 'P2': 0.2, 'P1': 0.03}"
+  },
+  {
+   "id": "H7",
+   "arm": "cloud",
+   "latency_s": 0.31,
+   "got_sev": "noise",
+   "fp_bool": true,
+   "conf": 0.59,
+   "raw": "Severity probs: {'P1': 0.0, 'P2': 0.18, 'P0': 0.0, 'noise': 0.8200000000000001}"
+  },
+  {
+   "id": "H8",
+   "arm": "cloud",
+   "latency_s": 0.27,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "conf": 0.76,
+   "raw": "Severity probs: {'P1': 0.72, 'noise': 0.01, 'P2': 0.26, 'P0': 0.01}"
+  },
+  {
+   "id": "H9",
+   "arm": "cloud",
+   "latency_s": 0.34,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "conf": 0.25,
+   "raw": "Severity probs: {'P1': 0.89, 'noise': 0.02, 'P2': 0.04, 'P0': 0.05}"
+  },
+  {
+   "id": "H10",
+   "arm": "cloud",
+   "latency_s": 0.41,
+   "got_sev": "P1",
+   "fp_bool": false,
+   "conf": 0.42,
+   "raw": "Severity probs: {'P1': 0.89, 'noise': 0.06, 'P2': 0.02, 'P0': 0.03}"
+  },
+  {
+   "id": "U1",
+   "arm": "cloud",
+   "latency_s": 0.27,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "conf": 0.9,
+   "raw": "Severity probs: {'P2': 0.62, 'P1': 0.01, 'noise': 0.37, 'P0': 0.0}"
+  },
+  {
+   "id": "U2",
+   "arm": "cloud",
+   "latency_s": 0.29,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.8,
+   "raw": "Severity probs: {'P2': 0.43, 'noise': 0.55, 'P0': 0.0, 'P1': 0.02}"
+  },
+  {
+   "id": "U3",
+   "arm": "cloud",
+   "latency_s": 0.36,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.72,
+   "raw": "Severity probs: {'P1': 0.01, 'P2': 0.4, 'P0': 0.0, 'noise': 0.59}"
+  },
+  {
+   "id": "U4",
+   "arm": "cloud",
+   "latency_s": 0.36,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.94,
+   "raw": "Severity probs: {'P2': 0.0, 'P1': 0.0, 'P0': 0.0, 'noise': 1.0}"
+  },
+  {
+   "id": "U5",
+   "arm": "cloud",
+   "latency_s": 0.3,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.25,
+   "raw": "Severity probs: {'P0': 0.01, 'noise': 0.57, 'P1': 0.09, 'P2': 0.33}"
+  },
+  {
+   "id": "U6",
+   "arm": "cloud",
+   "latency_s": 0.36,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.5,
+   "raw": "Severity probs: {'P1': 0.0, 'noise': 0.98, 'P0': 0.0, 'P2': 0.02}"
+  },
+  {
+   "id": "U7",
+   "arm": "cloud",
+   "latency_s": 0.31,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.41,
+   "raw": "Severity probs: {'P0': 0.0, 'noise': 0.61, 'P1': 0.01, 'P2': 0.38}"
+  },
+  {
+   "id": "U8",
+   "arm": "cloud",
+   "latency_s": 0.36,
+   "got_sev": "noise",
+   "fp_bool": false,
+   "conf": 0.46,
+   "raw": "Severity probs: {'P1': 0.14, 'P2': 0.26, 'P0': 0.09, 'noise': 0.51}"
+  },
+  {
+   "id": "U9",
+   "arm": "cloud",
+   "latency_s": 0.35,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "conf": 0.29,
+   "raw": "Severity probs: {'noise': 0.32, 'P0': 0.01, 'P1': 0.07, 'P2': 0.6}"
+  },
+  {
+   "id": "U10",
+   "arm": "cloud",
+   "latency_s": 0.27,
+   "got_sev": "P2",
+   "fp_bool": false,
+   "conf": 0.39,
+   "raw": "Severity probs: {'P0': 0.01, 'noise': 0.2, 'P1': 0.08, 'P2': 0.71}"
+  }
+ ],
+ "partial": true
+}

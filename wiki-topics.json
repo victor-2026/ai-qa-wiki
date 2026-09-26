@@ -631,6 +631,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/arxiv-simulation-cx-agents-140m-2026.html",
+      "title": "Arxiv Simulation Cx Agents 140M 2026",
+      "desc": "source: \"arxiv-simulation-cx-agents-140m-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/autonoma-agent-memory-2026.html",
       "title": "How to Test AI Agent Memory (Short- and Long-Term)",
       "desc": "**Source:** https://getautonoma.com/blog/how-to-test-ai-agent-memory",
@@ -1240,6 +1246,12 @@
       "file": "wiki/graph-engineering-vs-loop-engineering-2026.html",
       "title": "Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap",
       "desc": "title: \"Graph Engineering vs Loop Engineering — The 2026 Agent Roadmap\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/graphify-codebase-kg-agents-2026.html",
+      "title": "Graphify Codebase Kg Agents 2026",
+      "desc": "source: \"graphify-codebase-kg-agents-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2935,6 +2947,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 332,
-  "updated": "2026-09-25"
+  "raw_count": 334,
+  "updated": "2026-09-26"
 }

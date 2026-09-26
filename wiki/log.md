@@ -244,3 +244,8 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-25 18:31 — backlinks — 5 related pages for wiki/qualitymax-independent-verifier-profile-2026.md
 - 2026-09-25 18:31 — update-index — 488 topics, 332 raw
 - 2026-09-25 19:11 — update-index — 489 topics, 332 raw
+- 2026-09-26 01:48 — ingest — raw/graphify-codebase-kg-agents-2026.md → wiki/graphify-codebase-kg-agents-2026.md
+- 2026-09-26 01:48 — backlinks — 5 related pages for wiki/graphify-codebase-kg-agents-2026.md
+- 2026-09-26 01:48 — ingest — raw/arxiv-simulation-cx-agents-140m-2026.md → wiki/arxiv-simulation-cx-agents-140m-2026.md
+- 2026-09-26 01:48 — backlinks — 5 related pages for wiki/arxiv-simulation-cx-agents-140m-2026.md
+- 2026-09-26 01:49 — update-index — 491 topics, 334 raw

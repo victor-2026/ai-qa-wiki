@@ -303,6 +303,9 @@ First meetup after summer break. Codex CLI added next to Claude Code. Fable 5.1 
 - [Claude for Beginners and Beyond: Meetup Summary (Aug 18, 2026)](wiki/claude-meetup-beginners-beyond-aug2026-summary.md)
 - [Video Capabilities in OpenCode Free](wiki/video-capabilities-opencode-free.md)
 
+
+
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Amazon Science Automated Reasoning Decade 2026](wiki/amazon-science-automated-reasoning-decade-2026.md)
@@ -312,6 +315,7 @@ First meetup after summer break. Codex CLI added next to Claude Code. Fable 5.1 
 - [Bach Slop Coding Responsible Testers 2025](wiki/bach-slop-coding-responsible-testers-2025.md)
 - [CodeScene: CodeHealth as a Prerequisite and Compass for Coding Agents](wiki/codescene-codehealth-prerequisite-compass-agents-2026.md)
 - [Codescene Deterministic Code Health Gate 2026](wiki/codescene-deterministic-code-health-gate-2026.md)
+- [Graphify Codebase Kg Agents 2026](wiki/graphify-codebase-kg-agents-2026.md)
 - [Klain One Loop After Another 2026](wiki/klain-one-loop-after-another-2026.md)
 - [Qodo Human Reviews Were Never The Safest Option](wiki/qodo-human-reviews-were-never-the-safest-option.md)
 - [Qodo The Multi Agent Revolution Why Software Engineering Principles Must Govern Ai Systems](wiki/qodo-the-multi-agent-revolution-why-software-engineering-principles-must-govern-ai-systems.md)
