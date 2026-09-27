@@ -613,3 +613,7 @@ All 7 marked [x] items processed:
 **Смысловая связка:** их oracle = LLM-as-judge / средний score - ровно тот класс метрик, который клеймят наши цитаты (pass rate != correctness; verify rather than select). Прямой контраст для Articles 26/28. Если W3 заведёт пилот - наш вклад = cross-check их judge-а на B0-гигиене (label verbatim, void-классы V1-V3).
 
 **Цитаты уже закоммичены:** Articles `c211b01` - wrong-test-bench x2 (Ana Luiza Alkmim) + escalation x2 (Tom Jones), 2026-09-25. Не трогал. Статус: закрыто, ручных шагов нет.
+
+**Коммит:** `2b937a8` запушен в origin/main (32 файла, +2870) - P1-волна digest 25.09 (TestMu/Graphify/arxiv-sim + 2 raw-пары, Bach verbatim), индекс 491/334, этот чекпоинт. Co-owned файлы других окон попали в коммит (outputs phaseb-gold30/gliner, HARDWARE_SPEC, 10 wiki-страниц) - обычная практика этого репо, НО 5 foreign исключены и остались unstaged: bach-10x, bach-ai-writing, bach-kpis, mas-vs-swe-comparison, satisfice-catalog. Их окно закоммитит само.
+
+**Долги на момент чекпоинта:** (1) backup закрыт в этом окне - `~/Backups/ai-qa-wiki/2026-09-26` (24M); (2) `~/.opencode-memory.md` за 09-24/25/26 не обновлялся - не трогал (single-writer: только главное окно или по слову "сессия").
