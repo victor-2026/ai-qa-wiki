@@ -625,6 +625,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/arxiv-price-of-thought-reasoning-economics-2026.html",
+      "title": "Test-time reasoning economics: more thought ≠ more value (2026)",
+      "desc": "**Source:** arXiv 2609.30705 (Jiayi Chen, Guiling Wang, submitted 2026-09-25) — https://arxiv.org/abs/2609.30705 (abstra",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/arxiv-rebuild-dossier-mechanically-enforced-specs-2026.html",
       "title": "Arxiv Rebuild Dossier Mechanically Enforced Specs 2026",
       "desc": "source: \"arxiv-rebuild-dossier-mechanically-enforced-specs-2026.md\"",
@@ -2077,6 +2083,30 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/qawolf-6-types-self-healing-2026.html",
+      "title": "QA Wolf: 6 types of self-healing, diagnosis-first (2026)",
+      "desc": "**Source:** \"The 6 Types of AI Self-Healing in Test Automation\" (John Gluck, 2026-01-28) — https://www.qawolf.com/blog/s",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qawolf-beyond-golden-datasets-2026.html",
+      "title": "QA Wolf vs golden datasets: the anti-gold thesis, answered (2025)",
+      "desc": "**Source:** \"AI prompt evaluations beyond golden datasets\" (Gluck + Nishant Shukla, Sr Director AI, 2025-02-18) — https:",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qawolf-blog-catalog-all-publications-2026.html",
+      "title": "QA Wolf blog — catalog (all publications triaged 2026-09-27)",
+      "desc": "**Source:** https://www.qawolf.com/blog (fetched index ✅ 2026-09-27, ~70 posts). Vendor: QA Wolf (E2E coverage-as-a-serv",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qawolf-semantic-assertions-jev-2026.html",
+      "title": "QA Wolf: semantic assertions with Jev (bounded judgment, 2026)",
+      "desc": "**Source:** QA Wolf blog, \"Semantic assertions: Using Jev to make rigid tests flex\" (Goran Gajic, 2026-09-25) — https://",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.html",
       "title": "QBurst: Quality Engineering Framework for Validating Agent Behavior",
       "desc": "**Source:** https://www.qburst.com/blog/2026/09/a-quality-engineering-framework-for-validating-agent-behavior/ (Milan Th",
@@ -2809,6 +2839,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/verge-openai-agents-bruteforce-un-2026.html",
+      "title": "OpenAI agents vs UNCTAD: creative → deceptive → tool-hijack (2026)",
+      "desc": "**Source:** The Verge, Terrence O'Brien, 2026-09-27 — https://www.theverge.com/ai-artificial-intelligence/1001178/openai",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/verge-rabbit-os3-agent-2026.html",
       "title": "Verge Rabbit Os3 Agent 2026",
       "desc": "source: \"verge-rabbit-os3-agent-2026.md\"",
@@ -2947,6 +2983,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 334,
-  "updated": "2026-09-26"
+  "raw_count": 339,
+  "updated": "2026-09-28"
 }

@@ -617,3 +617,8 @@ All 7 marked [x] items processed:
 **Коммит:** `2b937a8` запушен в origin/main (32 файла, +2870) - P1-волна digest 25.09 (TestMu/Graphify/arxiv-sim + 2 raw-пары, Bach verbatim), индекс 491/334, этот чекпоинт. Co-owned файлы других окон попали в коммит (outputs phaseb-gold30/gliner, HARDWARE_SPEC, 10 wiki-страниц) - обычная практика этого репо, НО 5 foreign исключены и остались unstaged: bach-10x, bach-ai-writing, bach-kpis, mas-vs-swe-comparison, satisfice-catalog. Их окно закоммитит само.
 
 **Долги на момент чекпоинта:** (1) backup закрыт в этом окне - `~/Backups/ai-qa-wiki/2026-09-26` (24M); (2) `~/.opencode-memory.md` за 09-24/25/26 не обновлялся - не трогал (single-writer: только главное окно или по слову "сессия").
+
+**Постскриптум:** `37eea5b` запушен (только этот файл, foreign не тронуты). После него новой работы в этом репо не было — лента/аутрич/пилоты шли в Positions, цитаты в Articles (их забрало другое окно в `2f7cd79`).
+
+## 2026-09-27 - тихо (работы в репо не было)
+- Вся работа 26-27.09 шла в Positions (аутрич-волна `fb7b47f`) и Articles (дайджест/STN/quotes). Здесь изменений нет со вчера. Backup от 26.09 покрывает правило (сегодня/вчера).
