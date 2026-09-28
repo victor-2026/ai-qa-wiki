@@ -622,3 +622,7 @@ All 7 marked [x] items processed:
 
 ## 2026-09-27 - тихо (работы в репо не было)
 - Вся работа 26-27.09 шла в Positions (аутрич-волна `fb7b47f`) и Articles (дайджест/STN/quotes). Здесь изменений нет со вчера. Backup от 26.09 покрывает правило (сегодня/вчера).
+
+## 2026-09-28 - digest wave + QA Wolf batch committed (96be32d, pushed)
+- UNCTAD rogue-ladder + Price-of-Thought (raw+wiki, quotes ×4) + QA Wolf batch (semantic-assertions, 6-types-self-healing, beyond-golden + catalog). Index 497/339, lint broken 0. 5 foreign excluded.
+- Commit message documents the full wave (ingests + skips + catalog).

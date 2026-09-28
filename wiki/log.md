@@ -252,3 +252,4 @@ Append-only operation log (auto-written by `wiki_llm.py`; human convention: appe
 - 2026-09-27 22:55 — update-index — 492 topics, 335 raw
 - 2026-09-27 22:59 — update-index — 495 topics, 337 raw
 - 2026-09-28 13:58 — update-index — 497 topics, 339 raw
+- 2026-09-28 21:55 — update-index — 498 topics, 340 raw

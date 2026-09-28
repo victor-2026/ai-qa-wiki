@@ -1495,6 +1495,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/kandddinsky-2025-rinat-abdullin-when-ddd-met-ai-2026.html",
+      "title": "KanDDDinsky 2025: \"When DDD Met AI\" — Rinat Abdullin (talk summary)",
+      "desc": "**Source:** https://www.youtube.com/watch?v=mdB6KbBeOjc (~50 min, EN auto-transcript, 1386 segments). Raw transcript: `r",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/karpathy-autoresearch-agentic-engineering-2026.html",
       "title": "Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops",
       "desc": "title: \"Karpathy: Autoresearch, Agentic Engineering и Self-Improvement Loops\"",
@@ -2983,6 +2989,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 339,
+  "raw_count": 340,
   "updated": "2026-09-28"
 }

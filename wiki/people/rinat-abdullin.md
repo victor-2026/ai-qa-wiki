@@ -31,3 +31,8 @@
 
 ## Last updated
 2026-06-18 — initial profile
+
+## 2026-09-28 — event-sourcing recipe + HUGSED (W5 intake from feed paste, paste only ⚠️)
+
+Post "How I do event sourcing in 2026, the easy way" (4h): SQLite/Postgres/FoundationDB ACID + read-your-writes + views-replay on startup + HUGSED stack (HTMX + Unix + Go + SQLite + Event-Driven). Tagline on profile: "Founder @ BitGN | Verifying agents" — lane adjacency confirmed.
+QA-relevant points: (5) transient events for non-DB systems used in Given-When-Then specs; (6) full-stack flattening — specs setup events → HTTP calls → assert UI semantic anchors. Deterministic fixtures + semantic assertions, same family as QA Wolf `toSatisfy` and our fixture patterns. No card opened (digest source + wiki-covered; Following, no thread).
