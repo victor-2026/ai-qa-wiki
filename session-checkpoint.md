@@ -626,3 +626,8 @@ All 7 marked [x] items processed:
 ## 2026-09-28 - digest wave + QA Wolf batch committed (96be32d, pushed)
 - UNCTAD rogue-ladder + Price-of-Thought (raw+wiki, quotes ×4) + QA Wolf batch (semantic-assertions, 6-types-self-healing, beyond-golden + catalog). Index 497/339, lint broken 0. 5 foreign excluded.
 - Commit message documents the full wave (ingests + skips + catalog).
+
+## 2026-09-28 - post-commit: KanDDDinsky sources + Rinat comment (uncommitted)
+- Wiki page += canonical YouTube (KanDDDinsky ch, 579 views, 10.09.2026) + slides verified live (74pp image-only) + Rinat comment SENT (W1 merge: W4 antithesis + W5 concrete).
+- people/rinat-abdullin.md += event-sourcing recipe + Sovereign AI thesis.
+- My Deep_Barot-adjacent edit discipline held (pre-read after 2 same-session gotcha-#4 hits: Pettersson restore, Deep_Barot Status restore).

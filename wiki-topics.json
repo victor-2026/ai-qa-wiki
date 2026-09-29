@@ -1497,7 +1497,7 @@
     {
       "file": "wiki/kandddinsky-2025-rinat-abdullin-when-ddd-met-ai-2026.html",
       "title": "KanDDDinsky 2025: \"When DDD Met AI\" — Rinat Abdullin (talk summary)",
-      "desc": "**Source:** https://www.youtube.com/watch?v=mdB6KbBeOjc (~50 min, EN auto-transcript, 1386 segments). Raw transcript: `r",
+      "desc": "**Source:** https://www.youtube.com/watch?v=mdB6KbBeOjc (~50 min, EN auto-transcript, 1386 segments). Canonical: KanDDDi",
       "tag": "Wiki"
     },
     {
@@ -1600,6 +1600,12 @@
       "file": "wiki/kiss-sorcar-agent.html",
       "title": "KISS Sorcar — Open-Source AI Coding Agent",
       "desc": "title: \"KISS Sorcar — Open-Source AI Coding Agent\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/klain-flurry-of-constraints-2026.html",
+      "title": "Klain: governance is a constraint, not a capability (2026)",
+      "desc": "**Source:** \"The Flurry of Constraints\", Quality Remarks, 24.09.2026 — https://qualityremarks.com/the-flurry-of-constrai",
       "tag": "Wiki"
     },
     {
@@ -1864,6 +1870,12 @@
       "file": "wiki/notion-kanban-bot-setup-2026.html",
       "title": "Notion Kanban + Bot Integration Setup",
       "desc": "title: \"Notion Kanban + Bot Integration Setup\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/nvidia-open-agent-safety-platform-2026.html",
+      "title": "Nvidia Open Agent Safety Platform: the industry's engineering answer (2026)",
+      "desc": "**Sources (3, all fetched ✅ 2026-09-29):** CNBC https://www.cnbc.com/2026/09/28/nvidia-releases.html · TechCrunch https:",
       "tag": "Wiki"
     },
     {
@@ -2737,6 +2749,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/tetrascience-company-dossier-2026.html",
+      "title": "TetraScience — company dossier (AI Quality Architect's employer)",
+      "desc": "**Source:** LinkedIn company page paste 2026-09-29 (no page URL captured — ⚠️; all facts from the paste). Tagline: \"Tetr",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/the-batch-371-deeplearning-ai-2026.html",
       "title": "The Batch 371 Deeplearning Ai 2026",
       "desc": "source: \"the-batch-371-deeplearning-ai-2026.md\"",
@@ -2989,6 +3007,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 340,
-  "updated": "2026-09-28"
+  "raw_count": 343,
+  "updated": "2026-09-29"
 }
