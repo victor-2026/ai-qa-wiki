@@ -631,3 +631,6 @@ All 7 marked [x] items processed:
 - Wiki page += canonical YouTube (KanDDDinsky ch, 579 views, 10.09.2026) + slides verified live (74pp image-only) + Rinat comment SENT (W1 merge: W4 antithesis + W5 concrete).
 - people/rinat-abdullin.md += event-sourcing recipe + Sovereign AI thesis.
 - My Deep_Barot-adjacent edit discipline held (pre-read after 2 same-session gotcha-#4 hits: Pettersson restore, Deep_Barot Status restore).
+
+## 2026-09-29 - W5: quiet in wiki (outreach + job-track day)
+- No wiki work this turn (commits 7c1cf7e/298983d already pushed by others as part of shared files). TetraScience dossier + KanDDDinsky updates committed. Open: STN first-items check Wed 30.09 digest.
