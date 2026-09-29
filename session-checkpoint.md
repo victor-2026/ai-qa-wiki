@@ -634,3 +634,6 @@ All 7 marked [x] items processed:
 
 ## 2026-09-29 - W5: quiet in wiki (outreach + job-track day)
 - No wiki work this turn (commits 7c1cf7e/298983d already pushed by others as part of shared files). TetraScience dossier + KanDDDinsky updates committed. Open: STN first-items check Wed 30.09 digest.
+
+## 2026-09-29 - committed 41e7233 (pushed): checkpoint only
+- 5 foreign files left untouched (other window).
