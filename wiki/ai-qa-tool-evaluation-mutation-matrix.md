@@ -72,6 +72,12 @@ Implication: the mutation matrix moved from external audit to built-in product m
 - [AI QA Evidence Layer: Validation, Evals, Guardrails, and Telemetry](wiki/ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 - [Advanced Mutation Testing with Playwright](wiki/Mutation-testing-advanced-playwright.md)
 - Статья 20 (quadrant): FP/FN-угол · Статья 24 (accountability): auditability-угол · Статья 26 (skeleton): публикационный формат
+- [mewt and muton: Trail of Bits Mutation Testing Tools](wiki/mewt-muton-trailofbits-mutation-tools-2025.md)
+- [Pytation: Python Mutation Operators](wiki/pytation-python-mutation-operators-2026.md)
+- [Quantum Mutation Testing](wiki/quantum-mutation-testing-2025.md)
+- [SecMutBench: Security Mutation Testing](wiki/secmutbench-security-mutation-testing-2026.md)
+- [Sting: SWE-bench Mutation Diagnosis](wiki/sting-swebench-mutation-diagnosis-2026.md)
+- [Witness: Predictive Mutation Testing](wiki/witness-predictive-mutation-testing-2026.md)
 
 ---
 *Source: hands-on pilot 2026-08-25/26 · tracked in `Private/Positions-CV-CL/outreach/active/Rupesh_Kabra/`*
@@ -96,6 +102,25 @@ Implication: the mutation matrix moved from external audit to built-in product m
 
 
 
+
+## LLM-Based Mutation Operators (2025-2026)
+
+Traditional mutation matrices use syntax-based operators (locator drift, text change, swap). New LLM-based operators extend the matrix:
+
+| Operator | Description | Not Caught By |
+|----------|-------------|---------------|
+| **Intent mutation** | LLM changes programming intent (spec-level) | Syntax operators |
+| **LLMorpheus mutation** | LLM suggests code replacements | Fixed operator sets |
+| **Boundary mutation** | LLM targets boundary values | Random operators |
+| **Security mutation** | 25 operators for 30 CWE (SecMutBench) | General operators |
+
+**Implication:** The mutation matrix should include LLM-based operators as a separate row/column. A tool that catches syntax mutants but misses intent mutants has a different (and complementary) weakness profile. See [[llmorpheus-llm-mutation-testing-2025]], [[intent-based-mutation-testing-2025]], [[secmutbench-security-mutation-testing-2026]].
+
+**Related methodologies:**
+- [[pytation-python-mutation-operators-2026]] – Python-specific operators extend the matrix to dynamic-language faults
+- [[sting-swebench-mutation-diagnosis-2026]] – Mutation-guided diagnosis reveals benchmark weaknesses (77% SWE-bench)
+- [[witness-predictive-mutation-testing-2026]] – Predictive MT filters mutants before execution
+- [[quantum-mutation-testing-2025]] – Noise-aware mutation analysis for quantum programs
 
 <!-- backlinks-start -->
 ### Backlinks

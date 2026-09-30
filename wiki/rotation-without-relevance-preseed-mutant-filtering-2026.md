@@ -142,6 +142,18 @@ Stage 2 scales horizontally, not vertically: same ~20 protocol per app across th
 
 
 
+## Predictive Mutation Testing (2025-2026)
+
+New approaches predict which tests kill which mutants without executing them:
+
+| Approach | Method | Speedup |
+|----------|--------|---------|
+| **WITNESS** | Classical ML (no GPU) | 65-1722x vs deep learning |
+| **SODA** | Semantic-aware prediction | GPU-based |
+| **MutationBERT** | Deep learning | GPU-based |
+
+**Implication for pre-seed filtering:** Predictive MT can filter mutants before execution, reducing the "rotation without relevance" problem. Instead of running all mutants and filtering survivors, predict which mutants are likely to be killed and focus on those. See [[witness-predictive-mutation-testing-2026]].
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)

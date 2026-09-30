@@ -498,11 +498,37 @@ Meta's открытый вызов сообществу (FSE 2025): генери
 
 
 
+## LLM-Based Mutation Testing (2025-2026)
+
+New approaches use LLMs to generate mutants, tests, and detect equivalents:
+
+| Approach | What LLM Does | Key Result |
+|----------|---------------|------------|
+| **LLMorpheus** | Generates mutants (JS) | $3.62 for 13 packages; 63% survivors are real bugs |
+| **Meta ACH** | Generates tests from mutants | 10,795 classes, 73% acceptance |
+| **MUTGEN** | Mutation feedback in prompts | +13% mutation score with fixing |
+| **Intent-Based MT** | Mutates programming intents | 55% not subsumed by traditional |
+| **Declarative Framework** (Keles, March 2026) | Hand-crafted complex mutations | [arXiv 2603.07065](https://arxiv.org/abs/2603.07065) |
+
+**Mutation 2026 workshop** (ICST, Тэджон, май 2026): параллельный анализ (Rust), кластеризация мутантов графами. [conf.researchr.org](https://conf.researchr.org/home/icst-2026/mutation-2026)
+
+**Implication for Playwright:** LLM-based operators can generate UI-specific mutants (e.g., "swap button visibility condition", "remove validation assertion") that traditional syntax operators miss. See [[llmorpheus-llm-mutation-testing-2025]], [[meta-ach-mutation-guided-llm-2025]], [[wiki/mutgen-mutation-guided-test-generation-2025]], [[intent-based-mutation-testing-2025]].
+
 ## See also
 
 - [Мутационное тестирование без доступа к коду](wiki/Mutation-testing-without-code.md)
 - [Recorder Locator Quality: playwright-cli 0.1.19 vs Human POMs (2026-09-09)](wiki/recorder-locator-quality-playwright-cli-2026-09.md)
 - [UI Fuzzing — Mutation Through Input](wiki/ui-fuzzing.md)
+- [LLMorpheus: LLM Mutation Testing](wiki/llmorpheus-llm-mutation-testing-2025.md)
+- [Meta ACH: Mutation-Guided LLM](wiki/meta-ach-mutation-guided-llm-2025.md)
+- [MUTGEN: Mutation-Guided Test Generation](wiki/mutgen-mutation-guided-test-generation-2025.md)
+- [Intent-Based Mutation Testing](wiki/intent-based-mutation-testing-2025.md)
+- [PyTation: Python Mutation Operators](wiki/pytation-python-mutation-operators-2026.md)
+- [Quantum Mutation Testing](wiki/quantum-mutation-testing-2025.md)
+- [WITNESS: Predictive MT](wiki/witness-predictive-mutation-testing-2026.md)
+- [STING: SWE-bench Diagnosis](wiki/sting-swebench-mutation-diagnosis-2026.md)
+- [SecMutBench: Security MT](wiki/secmutbench-security-mutation-testing-2026.md)
+- [mewt/muton: Trail of Bits Tools](wiki/mewt-muton-trailofbits-mutation-tools-2025.md)
 
 <!-- backlinks-start -->
 ### Backlinks

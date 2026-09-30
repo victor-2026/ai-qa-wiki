@@ -640,3 +640,19 @@ All 7 marked [x] items processed:
 
 ## 2026-09-29 - committed 2f14be7 (pushed): checkpoint only
 - Work this turn was Positions + Articles; wiki quiet. STN Wed-digest watch stands (tomorrow 30.09).
+
+## 2026-09-30 - committed 3863d60 (pushed): checkpoint + QA Wolf MCP + index
+- AIID/STN feeds live in digest 30.09 run (verify items appear). KanDDDinsky + Rinat + TetraScience committed earlier.
+
+## 2026-09-30 - banner D + slides set + Mallare ingest + Igor (W1 window)
+- Banner: variant D (article-8 solid fills blue/green/purple, colors sampled from 8-cover-architecture.png) then C rework (outline cards, user preference). Both shifted right x=380 (avatar overlay clear). Script: outputs/make_linkedin_banner.py (variant_d + slide2-5). Slide3 fixes: STRONG DECOY 22px + ">" instead of "→" (Helvetica.ttc tofu).
+- Slideshow set 5 шт (1584×396): 1=C brand, 2=problem silent green (amber badge), 3=5 scenarios, 4=terminal proof B0 100%, 5=CTA. Article-26 line kept on slide 2 as hook (user decision).
+- Mallare ingest: wiki/qa-ai-engineer-role-mallare-2026.md + topics 505→506, lint exit 2 (systemic no-source noise). Comment SENT (scorecard-needs-own-test). Jason Arbon comment SENT (verdict problem, misses both sides).
+- Alden: follow only, no connect (wait reply → connect with thread ref).
+- CORRECTION (active): Igor Akymenko / FlowScout comms live in THIS window with W1 (not Positions). Victor's 3 remarks on Seeded Controls accepted (blast radius scoping, control difficulty priors, authorship independence rule); contributor scoped Volume VIII (name+link); duplicate sign-in case confirmed. Next: short ack reply draft ready (stress-test next draft, difficulty priors live data). Awaiting user send.
+- CORRECTION (active, 30.09): ALL commercial contacts (pilots + candidates) go through W1. No outreach/commercial logging in foreign windows.
+- Paul Kanaris (QACE Institute, W1 track): sketch approved whole (c59e1e5) + Belgrade warm line on top. Position: peer, no pitch, long-game (governance validation + enterprise proximity). Arc: public pushback on 27th → DM → concrete behavior. W5 drafted, W1 sends.
+- Paul Kanaris final send-text staged (8bd3bc1, verbatim, zero отсебятины): Belgrade line → guards-after-break (ethics before mechanics) → N=1 caveat → substance-gap named in measure → tier-authority at pass bar. W5→W1 handover done; Victor sends manually (no DM tool here); ball then with Paul.
+- W6 handover closed (owner pass): 6 orphan wiki pages de-orphaned via matrix See also (+6) + vs-coverage Tools Landscape mewt link (+1); lint orphans 56→50, broken 0, links 2017→2024; raw_count 349→359. OPEN human-only: raw↔wiki filename mismatch (10 raws still in "Raw without wiki" — rename needs human, raw/ forbidden for AI) + ratify-or-revert decision on W6's raw/ writes.
+- W6 wave fully closed: human renamed 10 raw files (matcher now clean); 9 wiki footers updated to new raw names (mutgen already pointed new); lint broken 0, links 2025, orphans 50 (no new pages in orphans/raw-without-wiki). Remaining human-only: ratify-or-revert decision on W6's raw/ writes.
+- DECISION (human, 30.09): W6's raw/ writes RATIFIED retroactively. Rule-violation case closed; no revert. Reminder for agents: raw/ stays human-only going forward.

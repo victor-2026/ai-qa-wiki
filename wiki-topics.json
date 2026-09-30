@@ -3029,8 +3029,64 @@
       "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
       "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qa-ai-engineer-role-mallare-2026.html",
+      "title": "The QA AI Engineer: role definition from live postings (Alden Mallare, 2026-09-29)",
+      "desc": "source: \"qa-ai-engineer-role-mallare-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/llmorpheus-llm-mutation-testing-2025.md",
+      "title": "LLMorpheus: Mutation Testing Using Large Language Models",
+      "desc": "LLM-based mutant generation for JavaScript; $3.62 for 13 packages; 63% survivors are real bugs"
+    },
+    {
+      "file": "wiki/meta-ach-mutation-guided-llm-2025.md",
+      "title": "Meta ACH: Mutation-Guided LLM Test Generation",
+      "desc": "Meta industrial deployment: 10,795 Kotlin classes, 9,095 mutants, 571 tests, 73% acceptance"
+    },
+    {
+      "file": "wiki/mutgen-mutation-guided-test-generation-2025.md",
+      "title": "MUTGEN: Mutation-Guided Unit Test Generation",
+      "desc": "Mutation feedback in LLM prompts; 204 subjects; +13% mutation score with fixing mechanism"
+    },
+    {
+      "file": "wiki/intent-based-mutation-testing-2025.md",
+      "title": "Intent-Based Mutation Testing",
+      "desc": "LLM mutates programming intents not syntax; 55% not subsumed by traditional operators"
+    },
+    {
+      "file": "wiki/pytation-python-mutation-operators-2026.md",
+      "title": "PyTation: Python-Specific Mutation Operators",
+      "desc": "7 new operators for Python anti-patterns; hybrid static+dynamic analysis; 13 applications"
+    },
+    {
+      "file": "wiki/secmutbench-security-mutation-testing-2026.md",
+      "title": "SecMutBench: Security Mutation Testing",
+      "desc": "25 operators for 30 CWE; LLM security tests overstated 2.2x; best LLM 19.7% vs 47.6% expert"
+    },
+    {
+      "file": "wiki/quantum-mutation-testing-2025.md",
+      "title": "Quantum Mutation Testing",
+      "desc": "41 quantum programs; noise-aware analysis; output-distribution metrics 73% accuracy"
+    },
+    {
+      "file": "wiki/witness-predictive-mutation-testing-2026.md",
+      "title": "WITNESS: Lightweight Predictive Mutation Testing",
+      "desc": "Classical ML kill matrix prediction; 65-1722x faster than deep learning"
+    },
+    {
+      "file": "wiki/sting-swebench-mutation-diagnosis-2026.md",
+      "title": "STING: SWE-bench Mutation Diagnosis",
+      "desc": "77% SWE-bench instances have surviving variants; augmented tests change agent rankings"
+    },
+    {
+      "file": "wiki/mewt-muton-trailofbits-mutation-tools-2025.md",
+      "title": "mewt and muton: Trail of Bits Mutation Tools",
+      "desc": "Go/JS/TS/Rust/Solidity + TON; SQLite resumable campaigns; AGPL-3.0"
     }
   ],
-  "raw_count": 349,
-  "updated": "2026-09-30"
+  "raw_count": 359,
+  "updated": "2026-10-01"
 }
