@@ -31,3 +31,9 @@
 
 - Blog has no visible RSS in the fetched index (Webflow). Digest: manual watch or periodic re-scan — do NOT add a dead feed to digest-config.
 - Person thread: Goran Gajic (2nd, Staff Eng Lead) → `Positions outreach/active/Goran_Gajic/index.md` (no draft yet).
+
+## 2026-09-29 — MCP server launch: "self-driving QA" (W5 intake from LinkedIn post, paste only)
+
+- QA Wolf MCP server for Codex/Claude Code/agents: coding agent passes context (changed files, feature intent) → QA Wolf agent finds coverage, creates/updates/runs tests, investigates failures, files bugs (repro/video/traces/logs) → results back → local agent debugs/fixes/retests. "Putting QA on autopilot."
+- Assessment (not a verdict): separate-vendor agent testing another agent's code PASSES the author≠examiner test at vendor level — BUT the context flows from the coding agent (what changed, what it's supposed to do), which is a contamination vector worth probing (who validates the context?). Same family as TesterArmy npx tools + Agentest CLI (agent-callable testing distribution).
+- Pilot relevance: MCP server is installable tooling → candidate W3 recon subject (like TesterArmy Track A: installs YES, runs MAYBE-gated). Not started, W3 decides. No quotes banked (launch copy, no thesis line).

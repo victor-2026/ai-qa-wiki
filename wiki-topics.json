@@ -211,6 +211,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/agentics-foundation-newsletter-2026-09.html",
+      "title": "Agentics Foundation — September 2026 newsletter (eval-relevant extraction)",
+      "desc": "**Source:** https://www.linkedin.com/pulse/agentics-foundation-september-2026-agentics-org-z30sc/ (Agentics Foundation, ",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/agentics-foundation-serbia-youtube-2025-2026.html",
       "title": "Agentics Foundation Serbia — YouTube Channel",
       "desc": "title: Agentics Foundation Serbia — YouTube Channel Catalog",
@@ -388,6 +394,12 @@
       "file": "wiki/aiengineeringskillsmap-softwareengineeringfundamentals.html",
       "title": "Aiengineeringskillsmap Softwareengineeringfundamentals",
       "desc": "source: \"[raw/AI Engineering Skills Map - Software engineering fundamentals.md](../raw/AI%20Engineering%20Skills%20Map%2",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/aiid-incident-pipeline-matching-2026.html",
+      "title": "AIID: incident pipeline + intended-use matching (2026)",
+      "desc": "**Sources (both fetched ✅ 2026-09-29):** AI-IMCP pipeline (Bilgin/Vieira Machado, Future Society, 29.09) https://inciden",
       "tag": "Wiki"
     },
     {
@@ -1135,6 +1147,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/endform-jev-playwright-driver-2026.html",
+      "title": "Endform: Jev as Playwright driver — 48% with honest failure taxonomy (2026)",
+      "desc": "**Source:** \"Jev can't run Playwright tests\" (Oliver Stenbom, 2026-09-28) — https://endform.dev/blog/jev-playwright-test",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/engineering-standards-ai-development-compound-2026.html",
       "title": "Engineering Standards Ai Development Compound 2026",
       "desc": "source: \"engineering-standards-ai-development-compound-2026.md\"",
@@ -1414,6 +1432,12 @@
       "file": "wiki/ivan-qa-queue-shift-4000-2026.html",
       "title": "Ivan Qa Queue Shift 4000 2026",
       "desc": "source: \"ivan-qa-queue-shift-4000-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/jason-arbon-eurostar-testing-ai-deck-2026.html",
+      "title": "Jason Arbon EuroSTAR deck: testing AI (judge hygiene, full method)",
+      "desc": "**Source:** \"Let's test dark mode...\" no — \"Testing AI: Engineering Confidence in Non-Deterministic Systems\" EuroSTAR ta",
       "tag": "Wiki"
     },
     {
@@ -2751,7 +2775,7 @@
     {
       "file": "wiki/tetrascience-company-dossier-2026.html",
       "title": "TetraScience — company dossier (AI Quality Architect's employer)",
-      "desc": "**Source:** LinkedIn company page paste 2026-09-29 (no page URL captured — ⚠️; all facts from the paste). Tagline: \"Tetr",
+      "desc": "**Sources:** LinkedIn company page https://www.linkedin.com/company/tetrascience/ (paste 29.09) + FLIPR blog https://www",
       "tag": "Wiki"
     },
     {
@@ -3007,6 +3031,6 @@
       "tag": "Wiki"
     }
   ],
-  "raw_count": 343,
-  "updated": "2026-09-29"
+  "raw_count": 349,
+  "updated": "2026-09-30"
 }

@@ -637,3 +637,6 @@ All 7 marked [x] items processed:
 
 ## 2026-09-29 - committed 41e7233 (pushed): checkpoint only
 - 5 foreign files left untouched (other window).
+
+## 2026-09-29 - committed 2f14be7 (pushed): checkpoint only
+- Work this turn was Positions + Articles; wiki quiet. STN Wed-digest watch stands (tomorrow 30.09).
