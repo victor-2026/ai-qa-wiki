@@ -1,5 +1,5 @@
 ---
-source: "mutgen-2025.md"
+source: "mutgen-mutation-guided-test-generation-2025.md"
 ingested: "2026-10-01"
 title: "MUTGEN: Mutation-Guided Unit Test Generation with LLM"
 type: article
@@ -41,4 +41,4 @@ MUTGEN incorporates mutation feedback directly into LLM prompts for test generat
 - [[sting-swebench-mutation-diagnosis-2026]] - Mutation-guided diagnosis
 
 ---
-*Source: [raw/mutgen-2025.md](raw/mutgen-mutation-guided-test-generation-2025.md) · 2025*
+*Source: [raw/mutgen-mutation-guided-test-generation-2025.md](../raw/mutgen-mutation-guided-test-generation-2025.md) · 2025*

@@ -1,5 +1,5 @@
 ---
-source: "sting-swebench-2026.md"
+source: "sting-swebench-mutation-diagnosis-2026.md"
 ingested: "2026-10-01"
 title: "STING: Mutation-Guided Diagnosis of SWE-bench Regression Suites"
 type: article

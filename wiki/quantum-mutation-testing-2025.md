@@ -1,5 +1,5 @@
 ---
-source: "quantum-mt-2025.md"
+source: "quantum-mutation-testing-2025.md"
 ingested: "2026-10-01"
 title: "Quantum Mutation Testing: Empirical Analysis and Noise-Aware Detection"
 type: article

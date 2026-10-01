@@ -1,5 +1,5 @@
 ---
-source: "intent-based-mt-2025.md"
+source: "intent-based-mutation-testing-2025.md"
 ingested: "2026-10-01"
 title: "Intent-Based Mutation Testing: Mutating Programming Intents via LLM"
 type: article
