@@ -3085,8 +3085,14 @@
       "file": "wiki/mewt-muton-trailofbits-mutation-tools-2025.md",
       "title": "mewt and muton: Trail of Bits Mutation Tools",
       "desc": "Go/JS/TS/Rust/Solidity + TON; SQLite resumable campaigns; AGPL-3.0"
+    },
+    {
+      "file": "wiki/zaccarini-outside-eye-assurance-2026.html",
+      "title": "The Outside Eye: independent AI assurance consortium proposal (Tony Zaccarini, 2026-09-29)",
+      "desc": "source: \"zaccarini-outside-eye-assurance-2026.md\"",
+      "tag": "Wiki"
     }
   ],
-  "raw_count": 359,
+  "raw_count": 360,
   "updated": "2026-10-01"
 }
