@@ -7,7 +7,7 @@ tags: [ollama]
 
 # Windows Server: Mobile Testing Setup
 
-**Target:** PC-224 (192.168.1.224, Win 10 Pro, 64GB, ZeroTier 10.24.175.30)
+**Target:** ПК-Ollama (PC-Ollama) (192.168.1.209, Win 10 Pro, 64GB, ZeroTier 10.24.175.30)
 
 ## What's Already Installed
 
@@ -39,7 +39,7 @@ Appium — remote server через ZeroTier (`hostname: 10.24.175.30`). Maestro
 
 ## Access
 
-`ssh win-server` (key auth, Victor@192.168.1.224)
+`ssh win-server` (key auth, Victor@192.168.1.209)
 
 **Note:** Server currently offline. Setup to be done when powered on.
 

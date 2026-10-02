@@ -1,6 +1,6 @@
 # Tier → Model → Threshold: Judge Selection Matrix (2026-09-24)
 
-**Purpose:** which judge model for which risk tier, with measured bars. Operationalizes per-risk-tier gates (B0-B3) for verdict models on PC-224 inventory + cloud APIs. Parent: per-risk-tier framework v0.3 (Positions-CV-CL, Rupesh co-dev); sampling doctrine: rotation-without-relevance (stratified ~20).
+**Purpose:** which judge model for which risk tier, with measured bars. Operationalizes per-risk-tier gates (B0-B3) for verdict models on ПК-Ollama (PC-Ollama) inventory + cloud APIs. Parent: per-risk-tier framework v0.3 (Positions-CV-CL, Rupesh co-dev); sampling doctrine: rotation-without-relevance (stratified ~20).
 **Evidence base:** SemIf site table (0.6B 44/53/41; 2B 69/69/64; 4B 81/77/85; Jev 88.3); Laya README (Banking77 collapse >20 options, soft-acc trail, ECE refit 0.213→0.081); Kev-0.5B (reading 0.75, pattern-match only); Archestra (Jev ~300ms, $0.37/100 calls; Sonnet +5-6pts but all-leak errors); local inventory verified 2026-09-24 (HARDWARE_SPEC.md).
 
 ---

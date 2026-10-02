@@ -106,20 +106,20 @@ A peer-to-peer inference engine that runs a large language model (e.g., Qwen 3.8
 ## Practical Testing Plan — 2-Device Swarm
 
 > **Date:** 2026-09-09  
-> **Goal:** Test SwarmLLM on our hardware (PC-224 + MacBook Pro), validate P2P inference, and document findings.
+> **Goal:** Test SwarmLLM on our hardware (ПК-Ollama + MacBook Pro), validate P2P inference, and document findings.
 
 ### Hardware Available
 
 | Device | RAM | GPU | Role in Swarm |
 |--------|-----|-----|---------------|
-| **PC-224** | 64GB | 6GB VRAM (RTX 3060) | Primary: larger slice, host server |
+| **ПК-Ollama** | 64GB | 6GB VRAM (RTX 3060) | Primary: larger slice, host server |
 | **MacBook Pro** | 16GB | Intel integrated | Secondary: smaller slice |
 
 ### Network
 - **ZeroTier VPN:** `10.24.175.x` — both devices on same virtual LAN
-- **PC-224:** `192.168.1.224` / ZeroTier `10.24.175.30`
+- **ПК-Ollama:** `192.168.1.209` / ZeroTier `10.24.175.30` (renamed 02.10.2026: old `192.168.1.224` dead, box DHCP-moved; name ПК-224/PC-224 retired)
 - **MacBook:** `192.168.1.31` / ZeroTier `10.24.175.x`
-- **Ollama on PC-224:** `http://192.168.1.224:11434`
+- **Ollama on ПК-Ollama:** `http://192.168.1.209:11434`
 
 ### Step-by-Step Plan
 
@@ -129,7 +129,7 @@ A peer-to-peer inference engine that runs a large language model (e.g., Qwen 3.8
    ```
    If WebGPU is available → browser-based SwarmLLM should work.
 
-2. **Clone and run SwarmLLM** on PC-224:
+2. **Clone and run SwarmLLM** on ПК-Ollama:
    ```bash
    git clone https://github.com/Nehanth/swarmllm
    cd swarmllm
@@ -143,7 +143,7 @@ A peer-to-peer inference engine that runs a large language model (e.g., Qwen 3.8
    # Connect to same room via ZeroTier VPN
    ```
 
-4. **Create a room** on PC-224 → join from MacBook with room code
+4. **Create a room** on ПК-Ollama → join from MacBook with room code
 
 5. **Load a model** and observe:
    - Each device downloads its slice
@@ -162,7 +162,7 @@ A peer-to-peer inference engine that runs a large language model (e.g., Qwen 3.8
 |----------|------|-------|
 | **Browser inference** | MLC-LLM/web-llm | npm install @mlc-ai/web-llm, Chrome WebGPU |
 | **Binary P2P** | enapt/SwarmLLM | Rust binary, libp2p, Kademlia DHT |
-| **Ollama distributed** | Ollama multi-GPU | PC-224 only (GPU + CPU split) |
+| **Ollama distributed** | Ollama multi-GPU | ПК-Ollama only (GPU + CPU split) |
 | **Custom WebRTC** | Simple P2P signaling | Manual WebRTC data channel |
 
 ### What to Document
@@ -175,7 +175,7 @@ A peer-to-peer inference engine that runs a large language model (e.g., Qwen 3.8
 - [ ] Network latency metrics (ZeroTier vs local)
 
 ### Expected Outcomes
-- **Best case:** Working P2P inference on PC-224 + MacBook → proof of concept for distributed QA testing
+- **Best case:** Working P2P inference on ПК-Ollama + MacBook → proof of concept for distributed QA testing
 - **Medium case:** Browser-based inference works but P2P has issues → document limitations
 - **Learning case:** Neither works → understand P2P inference barriers, document for future
 
