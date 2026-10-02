@@ -38,6 +38,7 @@
 - **Evidence-цепочка Доути/Touchstone:** реестр + Label — та же идея трассируемости (objective → evidence), но с независимым координатором вместо вендора.
 - **Вопрос Тони — наш вопрос:** "what evidence would convince you that oversight can intervene?" Ответ W1: seeded break, о котором надсмотрщики не знали — интервенция по evidence, а не по расписанию (драфт коммента у W1, отправка за Виктором).
 - **Кросс-волт:** Positions-CV-CL vault — контакта нет (3rd+, диалога нет — карточку не заводим, правило Rinat); Articles vault — кандидат в банк цитат W4.
+- [UK DSIT Introduction to AI assurance (2024)](wiki/dsit-ai-assurance-guide-2024.md) — государственная рамка assurance-техник, в которую ложится консорциум.
 
 ## Relevance
 

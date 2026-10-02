@@ -3115,6 +3115,12 @@
       "title": "Groetz: what PASS means in an agentic world (Hyground self-testing quorum, 2026-10-01)",
       "desc": "source: \"groetz-pass-agentic-world-hyground-2026.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/dsit-ai-assurance-guide-2024.html",
+      "title": "UK DSIT Introduction to AI assurance (2024, gov.uk)",
+      "desc": "source: \"dsit-ai-assurance-guide-2024.md\"",
+      "tag": "Wiki"
     }
   ],
   "raw_count": 360,
