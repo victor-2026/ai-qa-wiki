@@ -305,3 +305,7 @@ promptfoo eval --config red-team-prompts.yaml
 **Tags:** #red-team #security #llm #wiki #prompt-injection  
 **Related:** [[promptfoo-eval-suite]] [[qa-ai-transition-guide]] [[metamorphic-tests-comparison]]  
 **Updated:** 2026-05-05
+
+## See also (2026-10-01)
+- [TestMu AI Agent Red Teaming: 11-row runnable plan](wiki/testmu-agent-red-teaming-11row-2026.md)
+- [Pretext: defeating skill scanners](wiki/pretext-skill-scanner-evasion-2026.md)

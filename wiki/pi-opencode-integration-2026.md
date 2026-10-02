@@ -119,3 +119,4 @@ Pi-subagents details: `pi install npm:pi-subagents` (only step), `maxSubagentSpa
 ## See also
 
 - [Agentic Engineering at Zalando: a snapshot (2026-08-14)](wiki/zalando-agentic-engineering-snapshot-2026.md)
+- [Learn Harness Engineering (walkinglabs, five-subsystem framework)](wiki/learn-harness-engineering-walkinglabs-2026.md)

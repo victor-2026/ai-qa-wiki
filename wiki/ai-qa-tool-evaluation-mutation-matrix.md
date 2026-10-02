@@ -79,6 +79,7 @@ Implication: the mutation matrix moved from external audit to built-in product m
 - [Sting: SWE-bench Mutation Diagnosis](wiki/sting-swebench-mutation-diagnosis-2026.md)
 - [Witness: Predictive Mutation Testing](wiki/witness-predictive-mutation-testing-2026.md)
 - [The Outside Eye: independent AI assurance consortium proposal](wiki/zaccarini-outside-eye-assurance-2026.md)
+- [Groetz: what PASS means in an agentic world (Hyground self-testing quorum)](wiki/groetz-pass-agentic-world-hyground-2026.md)
 
 ---
 *Source: hands-on pilot 2026-08-25/26 · tracked in `Private/Positions-CV-CL/outreach/active/Rupesh_Kabra/`*

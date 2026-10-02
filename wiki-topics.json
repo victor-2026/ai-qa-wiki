@@ -3091,6 +3091,30 @@
       "title": "The Outside Eye: independent AI assurance consortium proposal (Tony Zaccarini, 2026-09-29)",
       "desc": "source: \"zaccarini-outside-eye-assurance-2026.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testmu-agent-red-teaming-11row-2026.html",
+      "title": "TestMu AI Agent Red Teaming: 11-row runnable plan (2026-09-29)",
+      "desc": "source: \"testmu-agent-red-teaming-11row-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/pretext-skill-scanner-evasion-2026.html",
+      "title": "Pretext: defeating skill scanners (arXiv 2609.39607, 2026-09-30)",
+      "desc": "source: \"pretext-skill-scanner-evasion-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/learn-harness-engineering-walkinglabs-2026.html",
+      "title": "Learn Harness Engineering (walkinglabs, 17.8K stars, MIT)",
+      "desc": "source: \"learn-harness-engineering-walkinglabs-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/groetz-pass-agentic-world-hyground-2026.html",
+      "title": "Groetz: what PASS means in an agentic world (Hyground self-testing quorum, 2026-10-01)",
+      "desc": "source: \"groetz-pass-agentic-world-hyground-2026.md\"",
+      "tag": "Wiki"
     }
   ],
   "raw_count": 360,
