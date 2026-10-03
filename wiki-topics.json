@@ -3133,6 +3133,66 @@
       "title": "Fault-Tolerant Budget Conservation in delegation (arXiv 2610.00349)",
       "desc": "source: \"budget-conservation-delegation-arxiv-2026.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testmu-agent-regression-2026.html",
+      "title": "TestMu agent regression testing (companion to 11-row plan, 2026-09-30)",
+      "desc": "source: \"testmu-agent-regression-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/bogacki-response-injection-2006.html",
+      "title": "Response Injection: AOP alternative to classical MT (Bogacki and Walter, 2006)",
+      "desc": "source: \"bogacki-response-injection-2006.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/offutt-weak-vs-strong-mutation.html",
+      "title": "Weak vs strong mutation (Offutt and Lee, Clemson)",
+      "desc": "source: \"offutt-weak-vs-strong-mutation.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/remt-incremental-mutation-zhang-2012.html",
+      "title": "Regression Mutation Testing (Zhang/Marinov/Zhang/Khurshid, ISSTA 2012)",
+      "desc": "source: \"remt-incremental-mutation-zhang-2012.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/reverse-locator-robustness-hooks-2024.html",
+      "title": "Locator robustness via hooks (De Luca/Fasolino/Tramontana, JSS 2024)",
+      "desc": "source: \"reverse-locator-robustness-hooks-2024.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/durability-grader-answer-key-2026.html",
+      "title": "Durability: AI grader needs verified answer key (Floyd, 77 studies, 2026-09-28)",
+      "desc": "source: \"durability-grader-answer-key-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/durability-curve-tests-pass-so-what-2026.html",
+      "title": "Durability Curve: Your Tests Pass. So What? (Harry Floyd, 2026-07-14)",
+      "desc": "source: \"durability-curve-tests-pass-so-what-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/docker-sandbox-kit-permissions-oci-2026.html",
+      "title": "Docker Sandbox Kit: permissions as OCI images (spec v3 to CNCF)",
+      "desc": "source: \"docker-sandbox-kit-permissions-oci-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testkube-governance-as-code-2026.html",
+      "title": "Testkube Governance as Code (2026-09-24)",
+      "desc": "source: \"testkube-governance-as-code-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testkube-agent-execution-boundary-2026.html",
+      "title": "Testkube: where testing AI agents act (boundary over agent, 2026-09-28)",
+      "desc": "source: \"testkube-agent-execution-boundary-2026.md\"",
+      "tag": "Wiki"
     }
   ],
   "raw_count": 360,

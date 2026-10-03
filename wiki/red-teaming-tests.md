@@ -311,3 +311,7 @@ promptfoo eval --config red-team-prompts.yaml
 - [Pretext: defeating skill scanners](wiki/pretext-skill-scanner-evasion-2026.md)
 - [Claude Code 48K-file deletion (Windows junctions)](wiki/claude-code-48k-junction-incident-2026.md)
 - [Fault-Tolerant Budget Conservation in delegation](wiki/budget-conservation-delegation-arxiv-2026.md)
+- [TestMu agent regression testing (companion)](wiki/testmu-agent-regression-2026.md)
+- [Docker Sandbox Kit: permissions as OCI images](wiki/docker-sandbox-kit-permissions-oci-2026.md)
+- [Testkube Governance as Code](wiki/testkube-governance-as-code-2026.md)
+- [Testkube: where testing AI agents act](wiki/testkube-agent-execution-boundary-2026.md)

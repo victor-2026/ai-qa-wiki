@@ -717,3 +717,24 @@ All 7 marked [x] items processed:
 - RULE (active): correspondence drafts use hyphen (-) only, never em/en dashes. Applies to all LinkedIn comments/DMs drafted here. Violation caught 02.10 on Danyil draft - fixed.
 - Danyil tracing post: comment SENT (hyphen-clean version).
 - TODO (upload): LinkedIn cover slideshow 5 slides (C + slide2 problem + slide3 method + slide4 proof + slide5 CTA) — files ready in outputs/, not uploaded yet.
+- Committed a7e5bbf + pushed (5 files: 48k incident, budget arxiv, red-teaming links, topics 524, checkpoint).
+- W1 (7680145): Bas final approved (short confirm); fine-tune firewall explicit everywhere (gate static, GLiNER parked, bench FAIL works for us); numbers into formula (judge ~$0.04, gate ~$0.80/tier → ledger + matrix). Done on my side.
+- W4 request relay (deadline Wed 07.10, slot 08.10): facts needed for Leonardo goodwill note (RMT 1-para, cases, effects, consent coverage, 29th metrics). Routed to W1 (consent + who-answers-what). No draft without facts (anti-fabrication).
+- Article fodder offered (mutation/RMT): A green-lies-systematically, B break-the-judge, C agent-with-rights. All fact-backed from this week's wiki.
+- Bas Dijkstra thread: short confirm reply SENT (yes = mutation testing per kept test + tiered rule, no rebrand).
+- Sibe (Denis track): 11-50 staff, Dover DE HQ, founded 2023, 1.2K followers, 19 members, SolidWorks collab. Outreach draft staged (Kaspersky-roots bridge), not sent.
+- Denis Axyonov: outreach SENT (short version, quality-side angle, stay-in-touch close).
+- STANDING (daily 9:00 digest): each session start -> check ~/Projects/Articles/digests/<today>.md; if newer than last-triaged, triage (12-item format: take/skip + ingest proposals). No self-cron exists — coverage via session starts + user paste. Last triaged: 2026-10-02 (12/743; ingested 48k + budget arxiv).
+- W5->W3 pilot candidate: TestMu Rook CLI (11-row red-team + regression gate). Weight: light-medium (npm install, Node 22+, needs staging agent target). Method: Article-26 style (seeded breaks, per-row evidence, Unable-to-Verify policy). W3 decides/owns execution.
+- W1 Rook verdict (9bbee3d): CONDITIONAL yes - staging target agent must be confirmed first; separate namespace; queued behind D6/bench/Kate unless reprioritized. Rest concur (Sandbox read-only; 48K/Pretext/budget = article fodder, Pretext -> angle B).
+- Janna Loeffler (StarWest recap): NO comment (follow only; US-based; Gulin already owns the thread).
+- Janna Sorting Hat: NO comment (thread already has Paul/Gulin/Janna positions; draft synthesized but declined).
+- Bas Dijkstra thread CLOSED warm (his Q answered, short confirm sent, he thanked). No further action.
+- Vipul Verma thread: deep reply SENT (frozen-runs bar acknowledged; seed-blindness via org separation + out-of-read-scope + rotation + pre-registration). Awaiting reply; bridge to pilot building.
+- BUS 03.10 (Victor mobile, home in 24h, PC-209 OFF): all PC-dependent work PAUSED (KAN-2 probe, Clef pull pilot, GLiNER/BaaS runs). Clef verdict ready: Flash 9B = gate use-case out of box (38.8ms, $0, Apache 2.0, Jev-API); proposal: pull + 1 probe gate-call when PC back. Groetz Governance-as-Code post noted (policy-as-code aligns pre-agreed rules; no action).
+- Testkube double ingest: GaC page + boundary page (reasoning-vs-acting, Gravitee gaps, 4 vendor questions); topics 528, lint broken 0, orphans 50. Uncommitted.
+- Aston Cook thread CLOSED warm (he endorsed mismatch-detector + checklist + seeded cases; judge-first-to-debug). Like it, no reply needed.
+- Bas feed ADDED to digest-config (36 sources) on explicit user order (cross-repo Articles edit; W1 returned confirmation). Validate on next digest run.
+- REvERSE abstracts: paywalled (SD 400, DOI citation-only, Crossref no-abstract). Salvage: 37-ref locator-fragility map from Crossref (Leotta Robula+/Sidereal/multi-locators, Kirinuki COLOR, Nguyen resilient, Stocco Vista, Hammoudi WATERFALL, Yandrapally clues). Reading list staged, full texts pending other channels.
+- Durability wave closed: tests-pass page + lens + Potemkin/tools registry + grader-key note (77 studies, Judge Check); author/method captured; topics 534; lint broken 0, orphans back to 50. Uncommitted.
+- Paul reply SENT publicly (W1 final: concession + capex/opex + regress-terminator, no questions; W1 63f2db1). Ball with Paul. W2 relayed bus-announce as-is (no cross-check; Durability noted for mutations).

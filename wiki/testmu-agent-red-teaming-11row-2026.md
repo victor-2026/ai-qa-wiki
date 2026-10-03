@@ -56,6 +56,7 @@ Runnable-план из 11 сценариев: от planted instruction к misuse
 - **"Grade on what the agent did, not its reply" = наш silent green с другой стороны.** Green reply при выполненной атаке — их базовый кейс, наш — 5/5 green при двух формах.
 - **Unable to Verify вне rate = наш gaps-first.** Невидимое не скорим как защищенное.
 - **Evidence, не написанный агентом = независимый evidence.** Прямая параллель [[ai-qa-tool-evaluation-mutation-matrix]] (внешний оракул) и [[red-teaming-tests]].
+- [[testmu-agent-regression-2026]] — companion тех же авторов: run-over-run гейт (ловит дрейф между версиями, не слепоту внутри).
 - **Judge hijacking warning → наш "проверка проверяющего".** Судья с доступом к инжекту — скомпрометированный судья; seeded breaks для судей — следующий шаг.
 - **Кросс-волт:** Articles vault — статьи 26 (5 сценариев поломок вендора) и 27 (oracle/sign-off); Positions-CV-CL vault — TestMu/Sophia FAIL-кейс (их же Sophia валилась на abstention — vendors preach, product lags).
 

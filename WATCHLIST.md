@@ -1,0 +1,39 @@
+# WATCHLIST — люди и источники под наблюдением (владелец: W5, ревью по воскресеньям)
+
+## Tier 1 — люди (Follow + 🔔 + ручной проход)
+
+| Человек | Почему следим | Статус/трек | Последняя проверка |
+|---------|---------------|-------------|-------------------|
+| Paul Kanaris (QACE) | governance-петля, скетч отправлен, пушбэк идет | W1, мяч у Пола | 2026-10-02 |
+| Andrew Doughty (Virtuoso) | Touchstone, CEO ответил, карточка у W1 | W1, warm | 2026-10-02 |
+| Rudolf Groetz (TestBusters) | Hyground-кворум, инвайт принят, DM отправлен | peer, мяч у него | 2026-10-02 |
+| Fabian Baptista (Abstracta) | Done-владелец, segregation of duties | наблюдение | 2026-10-02 |
+| Leonardo Lanni (QA Roots) | evals-thesis, союзник по 29-й | наблюдение | 2026-10-02 |
+| Bas Dijkstra | PITest-серия, mutation-in-the-loop (ч.2), тред идет | peer, мяч у него | 2026-10-02 |
+| Danyil Zuiev (Maribor) | RAGAS-триаж, входящий 1st | peer, мяч у него | 2026-10-02 |
+| Alden Mallare | prompt-as-asset, QA-AI-Engineer серия | follow, без коннекта | 2026-10-02 |
+| Lisa Crispin | SmartBear-серия (1/3 вышла) | вотч ч.2–3 | 2026-10-02 |
+| Richard Bradshaw | AiT-rebrand, DM-тред теплый | ожидание ответа | 2026-10-02 |
+| Jason Arbon | книга/отзыв 03.10, OpenAI-API тред | отзыв завтра | 2026-10-02 |
+| Igor Akymenko (FlowScout) | Seeded Controls v0.3, Volume VIII | W1 | 2026-10-02 |
+
+## Tier 2 — машинные (RSS/дайджест, без ручной работы)
+
+| Источник | Статус |
+|----------|--------|
+| Bas Dijkstra RSS (`ontestautomation.com/feed.xml`) | отдан владельцу дайджеста 02.10 |
+| TestBusters newsletter | кандидат, RSS проверить |
+| ConfQ анонсы | кандидат |
+| Fastino blog (GLiDE/Jev) | уже в дайджесте |
+| TestMu blog | уже в дайджесте |
+| Decision-модели вотч (Jev-аналоги) | леджер + строка в чекпоинт |
+
+## Tier 3 — фон (serendipity)
+
+Остальное без чувства вины. Попало в ленту — разобрали; нет — не гнали.
+
+## Правила
+
+- Новый человек в Tier 1 — только с причиной и треком (не коллекция).
+- Выпал из диалога на месяц — вниз в Tier 3 или out.
+- Проверка Tier 1: воскресенье, 15 минут, дата в таблице.

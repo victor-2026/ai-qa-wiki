@@ -80,6 +80,8 @@ Implication: the mutation matrix moved from external audit to built-in product m
 - [Witness: Predictive Mutation Testing](wiki/witness-predictive-mutation-testing-2026.md)
 - [The Outside Eye: independent AI assurance consortium proposal](wiki/zaccarini-outside-eye-assurance-2026.md)
 - [Groetz: what PASS means in an agentic world (Hyground self-testing quorum)](wiki/groetz-pass-agentic-world-hyground-2026.md)
+- [Durability Curve: Your Tests Pass. So What? (runnable mutate.py, test_zero demo)](wiki/durability-curve-tests-pass-so-what-2026.md)
+- [Locator robustness via hooks (7 types, 192 changes, hooks win)](wiki/reverse-locator-robustness-hooks-2024.md)
 
 ---
 *Source: hands-on pilot 2026-08-25/26 · tracked in `Private/Positions-CV-CL/outreach/active/Rupesh_Kabra/`*
@@ -117,6 +119,8 @@ Traditional mutation matrices use syntax-based operators (locator drift, text ch
 | **Security mutation** | 25 operators for 30 CWE (SecMutBench) | General operators |
 
 **Implication:** The mutation matrix should include LLM-based operators as a separate row/column. A tool that catches syntax mutants but misses intent mutants has a different (and complementary) weakness profile. See [[llmorpheus-llm-mutation-testing-2025]], [[intent-based-mutation-testing-2025]], [[secmutbench-security-mutation-testing-2026]].
+
+**Fine-tune firewall:** the gate is static with zero dependencies — fine-tuning is a separate experiment on judges, parked for lack of gains (GLiNER arm runs in parallel, not part of the method). Measured economics: judge ~$0.04/verdict, gate ~$0.80/tier; the JEV class (cheap typed verdicts) targets exactly the judge cost.
 
 **Related methodologies:**
 - [[pytation-python-mutation-operators-2026]] – Python-specific operators extend the matrix to dynamic-language faults

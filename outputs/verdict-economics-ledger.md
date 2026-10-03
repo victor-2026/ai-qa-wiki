@@ -5,12 +5,17 @@
 
 | Judge / model | Price | Latency | Quality note | Source | Date |
 |---------------|-------|---------|--------------|--------|------|
+| LLM judge (ours) | ~$0.04/verdict | — | measured | W1-provided (7680145) | 2026-10-02 |
+| VerdictGate gate | ~$0.80/tier | — | static, zero deps; measured | W1-provided (7680145) | 2026-10-02 |
 | local-judge v0 | $0 | 0.1s | baseline | W2-provided | 2026-09 |
 | local-judge v1 | — | 0.28s | — | W2-provided | 2026-09 |
 | local-judge thinking | — | 24s thinking tax | — | W2-provided | 2026-09 |
 | local-judge v2 | — | 0.4s | — | W2-provided | 2026-09 |
 | Jev (TypeSafe AI, via ngrok GW) | $0.042/M in, out free | — | typed verdicts (97% true / 3% false style) | vendor-claim (ngrok newsletter) | 2026-10-01 |
 | GLiDE (Fastino, vs Jev) | — | low (adaptive reasoning) | +6.90 Decision Index (vendor-claim, their harness) | vendor-claim (Fastino post) | 2026-10-01 |
+| Clef Flash 9B (Cloudflare, Ollama, local, text+image) | local ($0) | median 38.8ms / p95 122ms | Qwen3.5-9B finetune, 11GB, 256K ctx; 1 forward pass (3 output tokens); types choice/noul/score; Jev-API compatible (/v1/systemone); Apache 2.0; needs Ollama ≥0.35.1 | vendor-run benchmarks (Cloudflare Decision Index) | 2026-10-03 |
+| Clef 27B (Cloudflare, Ollama, local) | local ($0) | median 209ms / p95 239ms | Qwen3.8-27B, 18GB; tops Decision Index, beats Jev on most | vendor-run benchmarks | 2026-10-03 |
+| Jev (TypeSafe, reference) | $0.042/M in, out free | median 524ms / p95 536ms | baseline the other two beat | vendor-run benchmarks (same table) | 2026-10-03 |
 
 ## Digest-watch: decision models (W5)
 - Track: Jev, GLiDE, analogues (typed-output judges, verdict economics).

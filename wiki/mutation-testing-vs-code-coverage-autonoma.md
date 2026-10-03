@@ -86,6 +86,9 @@ When AI code‑generation is used, coverage often rises while mutation scores st
 - **SWE-bench diagnosis** – 77% instances have surviving variants ([[sting-swebench-mutation-diagnosis-2026]])  
 - **Python-specific operators** – 7 new operators for Python anti-patterns ([[pytation-python-mutation-operators-2026]])  
 - **Trail of Bits tools** – mewt (Go/JS/TS/Rust/Solidity) + muton (TON) ([[mewt-muton-trailofbits-mutation-tools-2025]])  
+- **Response injection (2006)** – AOP mutants without recompilation, 5.1x vs Jester ([Bogacki & Walter](wiki/bogacki-response-injection-2006.md))
+- **Weak vs strong mutation** – weak ≈ strong for non-critical + tiered-strength doctrine ([Offutt & Lee](wiki/offutt-weak-vs-strong-mutation.md))
+- **Regression mutation testing (2012)** – incremental results across versions via dangerous edges + per-mutant prioritization ([Zhang et al.](wiki/remt-incremental-mutation-zhang-2012.md))
 
 ---
 
