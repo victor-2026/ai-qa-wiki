@@ -309,3 +309,5 @@ promptfoo eval --config red-team-prompts.yaml
 ## See also (2026-10-01)
 - [TestMu AI Agent Red Teaming: 11-row runnable plan](wiki/testmu-agent-red-teaming-11row-2026.md)
 - [Pretext: defeating skill scanners](wiki/pretext-skill-scanner-evasion-2026.md)
+- [Claude Code 48K-file deletion (Windows junctions)](wiki/claude-code-48k-junction-incident-2026.md)
+- [Fault-Tolerant Budget Conservation in delegation](wiki/budget-conservation-delegation-arxiv-2026.md)

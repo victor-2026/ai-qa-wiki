@@ -3121,6 +3121,18 @@
       "title": "UK DSIT Introduction to AI assurance (2024, gov.uk)",
       "desc": "source: \"dsit-ai-assurance-guide-2024.md\"",
       "tag": "Wiki"
+    },
+    {
+      "file": "wiki/claude-code-48k-junction-incident-2026.html",
+      "title": "Claude Code 48K-file deletion (Windows junctions, 2026-09)",
+      "desc": "source: \"claude-code-48k-junction-incident-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/budget-conservation-delegation-arxiv-2026.html",
+      "title": "Fault-Tolerant Budget Conservation in delegation (arXiv 2610.00349)",
+      "desc": "source: \"budget-conservation-delegation-arxiv-2026.md\"",
+      "tag": "Wiki"
     }
   ],
   "raw_count": 360,

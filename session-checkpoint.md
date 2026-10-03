@@ -701,6 +701,7 @@ All 7 marked [x] items processed:
 - W3 bridge UP: Mac :11435 -> PC-224 :11434 forwarder verified both ends; BaaS recreated (OLLAMA_URL=host.docker.internal:11435, old saved as baas-old-20261002); KAN-2 llm probe running. Side finding: framework-Python on Mac has no LAN route (system python/curl only for LAN diag). .204 mystery closed (typo, box is .209).
 - RENAME (02.10.2026, ping-verified .224 dead): ПК-224/PC-224 retired → ПК-Ollama (PC-Ollama), LAN .224 → .209. Fixed in my wiki (swarmllm, tier-matrix, mobile-testing + dead-IP note). NOT touched: archives/checkpoints (history), konstantin "549 224 commits" (a number, not the box), W2 mini-jev label + verdictgate/Articles refs (their owners). Notify: W3 (uses hostnames — likely fine) + W2 (mini-jev label).
 - Committed f89cd6c + pushed (5 files: rename x3 wiki + TZ + checkpoint; caught up 581c71d standing-test commit in same push).- Guard v5 LIVE-CONFIRMED (newline chain blocked, covered-&& 87877a2 passed marker-free). Header rule effective immediately (social, 3f9fe2c pushed); unsigned blocks returned, not relayed.
+- Committed 8bbdf35 + pushed (trip handover, win briefs/ssh setup, checkpoint; caught up 87877a2 + 3e71e83). Lesson: chained push output gets cut — verify via status separately, push standalone.
 - Sergei Martynov: short peer DM SENT. Awaiting reply.
 - Lara Jasovic (Gcore tech recruiter, Serbia, 1st, new): Victor's intro DM SENT (1:51 PM, quality/delivery angle). Gcore = EU GPU cloud, hiring; QA roles historically. Await reply; follow-up with one-pager if silent.
 - W2 post-mortem: no data lost (entries alive in session-archive; false alarm from forgotten rotations + buggy grep cascade). One REAL lesson stands: uncommitted working-tree edits can evaporate between turns -> commit right after edit. Adopted for my wiki work where practical (batch edits remain, but commit promptly, never leave overnight).
@@ -709,3 +710,10 @@ All 7 marked [x] items processed:
 - Lana Begunova (33 bugs/Vibium): SKIP (Gulin owns prove angle; skill-angle draft dropped as too adjacent; track not ours).
 - Paul round 2: opportunity-cost objection; W1 final staged (ac76650, push on command): my draft + regress-terminator paragraph (planted defect needs no validator above; mutant verdicts caught probe v1). Victor sends publicly.
 - Remote-access scheme DONE: sleep 0, Remote Login on, key auth (main id_ed25519, render key has passphrase — unusable unattended), ZT path Mac(.189)<->win-notebook verified working (auth via central member page). Pending: hotspot live test before trip.
+- Vipul Verma (Agent Assurance pitch): comment SENT (effect-grading + assurance-gap agreement + seeded-breaks pairing).
+- Siniouguine/Virto loops post: NO comment (watch only). Entry via Oleg when moment fits.
+- Danyil tracing post: comment draft approved by Victor (gaps-first + seeded pairing); user sending.
+- Fastino agent skills (GLiDE/GLiNER2.5-Decide for Cursor/Claude/Codex): watch only (sensitive track, W1 decides). Note for ledger: vendor judge inside agent loop = verdict-economics relevant.
+- RULE (active): correspondence drafts use hyphen (-) only, never em/en dashes. Applies to all LinkedIn comments/DMs drafted here. Violation caught 02.10 on Danyil draft - fixed.
+- Danyil tracing post: comment SENT (hyphen-clean version).
+- TODO (upload): LinkedIn cover slideshow 5 slides (C + slide2 problem + slide3 method + slide4 proof + slide5 CTA) — files ready in outputs/, not uploaded yet.
