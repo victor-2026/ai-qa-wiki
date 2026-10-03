@@ -738,3 +738,5 @@ All 7 marked [x] items processed:
 - REvERSE abstracts: paywalled (SD 400, DOI citation-only, Crossref no-abstract). Salvage: 37-ref locator-fragility map from Crossref (Leotta Robula+/Sidereal/multi-locators, Kirinuki COLOR, Nguyen resilient, Stocco Vista, Hammoudi WATERFALL, Yandrapally clues). Reading list staged, full texts pending other channels.
 - Durability wave closed: tests-pass page + lens + Potemkin/tools registry + grader-key note (77 studies, Judge Check); author/method captured; topics 534; lint broken 0, orphans back to 50. Uncommitted.
 - Paul reply SENT publicly (W1 final: concession + capex/opex + regress-terminator, no questions; W1 63f2db1). Ball with Paul. W2 relayed bus-announce as-is (no cross-check; Durability noted for mutations).
+- Committed 04da011 + pushed (23 files: foundations wave + durability trio + Testkube duo + tracking system + checkpoint).
+- Digest ownership split AGREED: W5 curates sources (adds/evaluates feeds; Bas feed staged as clean +7/-2 diff, uncommitted); pipeline itself (09:00 cron, Groq keys, TG delivery) stays with whoever set it up long ago. W4's "you own digest" answered with this split.
