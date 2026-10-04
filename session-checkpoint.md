@@ -739,4 +739,8 @@ All 7 marked [x] items processed:
 - Durability wave closed: tests-pass page + lens + Potemkin/tools registry + grader-key note (77 studies, Judge Check); author/method captured; topics 534; lint broken 0, orphans back to 50. Uncommitted.
 - Paul reply SENT publicly (W1 final: concession + capex/opex + regress-terminator, no questions; W1 63f2db1). Ball with Paul. W2 relayed bus-announce as-is (no cross-check; Durability noted for mutations).
 - Committed 04da011 + pushed (23 files: foundations wave + durability trio + Testkube duo + tracking system + checkpoint).
+- Committed 06c162c + pushed (checkpoint). False alarm checked: post-04da011 edits all present in tree.
 - Digest ownership split AGREED: W5 curates sources (adds/evaluates feeds; Bas feed staged as clean +7/-2 diff, uncommitted); pipeline itself (09:00 cron, Groq keys, TG delivery) stays with whoever set it up long ago. W4's "you own digest" answered with this split.
+- Paul public comment (Rajjan thread): automation-strategy vs testing-strategy split; strategy-first (workflows/rules/risks/evidence); framework = machinery. Fully aligned with our priorities-as-inputs; logged for track, no engagement (main thread is the DM reply channel).
+- Devoteam Head of QA: CLOSED (rejected 6 months ago).
+- Vipul thread: deep reply #2 SENT (three-way accepted + observed-unflagged to adjudication + shared rule) + liked. W1 (eaaa78d): thread warmth metric (quotes back = landed); joint taxonomy peer lane, no commerce.
