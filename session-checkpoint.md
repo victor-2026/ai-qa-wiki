@@ -751,3 +751,5 @@ All 7 marked [x] items processed:
 - Mo status (W3): exhibit-candidate, second after Rook. 7 human-confirmed bugs via Playwright MCP on mature products; thesis matches Jason/Bas (scripted catches only what's written). Open: who verifies Mo verdicts (Bas asked; our comment stands).
 - Clef Flash pilot: GATE FAIL on GTX 1660 Ti (non-finite logit 4/4 configs = upstream bug, not config; VRAM 7.4/6GB). PARKED per user (model 2 days old; upstream issue drafted unsent). Ledger updated (27B row restored after my overwrite slip + FAIL row added).
 - W1->W3 (67f3497): OpenClaw tree EXISTS on Mac (company/pilots/OpenClaw/openclaw/, tag PRESENT, HEAD 5b08663 toggles-OFF, clean). Recipe: worktree add ../openclaw-rook-target FROM TAG + tree-clean check at handover. (My own verify attempt was permission-rejected; W1 data stands.)
+- W2 fresh session: salvage committed (be82a96, +10 handover consensus). 97% incident closed with zero content loss.
+- Pushed 6196a42 (TRIP-HANDOVER dropped then restored as session-handover template; idea kept: cross-session context transfer).
