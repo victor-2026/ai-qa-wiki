@@ -1,0 +1,103 @@
+{
+  "scorer_version": "0.2.2",
+  "deterministic": true,
+  "b2_band_pct": 5,
+  "b2_small_n_max": 1,
+  "totals": {
+    "rows": 3,
+    "seeded": 3,
+    "caught": 2,
+    "observed_only": 1,
+    "survived": 0,
+    "equivalent": 0
+  },
+  "note": "gates and scores are per-tier by design; no global percentage is computed",
+  "tiers": {
+    "B0": {
+      "label": "Critical",
+      "scope": "payment, auth, credential, data-integrity paths",
+      "seeded": 2,
+      "caught": 1,
+      "observed_only": 1,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 50.0,
+      "survival_rate": 0.0,
+      "gate": "PASS",
+      "gate_detail": "zero-tolerance held (survived 0 of 2)",
+      "signals": [
+        "B0 sign-off additionally requires a confirmatory re-run (two consecutive passing runs)",
+        "mutation score 50.0% below target 90% - mandatory signed Assessor comment",
+        "observed-only 50.0% exceeds budget 10% at survived=0 - signed comment required",
+        "1 observed-only row(s) in B0 - review observed_element evidence (presence review, not budget)"
+      ],
+      "survivors": [],
+      "not_expected": []
+    },
+    "B1": {
+      "label": "High",
+      "scope": "core user journeys, primary CRUD, search, notifications",
+      "seeded": 1,
+      "caught": 1,
+      "observed_only": 0,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 100.0,
+      "survival_rate": 0.0,
+      "gate": "PASS",
+      "gate_detail": "zero-tolerance held (survived 0 of 1)",
+      "signals": [],
+      "survivors": [],
+      "not_expected": []
+    },
+    "B2": {
+      "label": "Medium",
+      "scope": "secondary flows, edge cases",
+      "seeded": 0,
+      "caught": 0,
+      "observed_only": 0,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 0.0,
+      "survival_rate": 0.0,
+      "gate": "NOT EXERCISED",
+      "gate_detail": "no seeded mutants (expected=Y) in this tier",
+      "signals": [],
+      "survivors": [],
+      "not_expected": []
+    },
+    "B3": {
+      "label": "Low",
+      "scope": "cosmetic, copy, layout, non-critical polish",
+      "seeded": 0,
+      "caught": 0,
+      "observed_only": 0,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 0.0,
+      "survival_rate": 0.0,
+      "gate": "NOT EXERCISED",
+      "gate_detail": "no seeded mutants (expected=Y) in this tier",
+      "signals": [],
+      "survivors": [],
+      "not_expected": []
+    }
+  },
+  "fix_first": [],
+  "not_expected_rows": [],
+  "equivalent_rows": [],
+  "observed_rows": [
+    {
+      "mutation_id": "M1",
+      "risk_tier": "B0",
+      "observed_element": "submit-button",
+      "observed_by": "seeded-run",
+      "observed_run_ref": "demo-001",
+      "context": "observed-only"
+    }
+  ],
+  "unexercised_policy_applied": false,
+  "gate_summary": "PASS",
+  "exit_code": 0,
+  "requirements_checked": false
+}

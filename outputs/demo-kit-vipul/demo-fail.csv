@@ -1,0 +1,4 @@
+mutation_id,behavior,operator,risk_tier,expected,suite_result,observed,decision,e_reason,e_assessor,e_basis,observed_by,observed_run_ref,observed_element
+M1,Payment submits successfully,element_remove,B0,Y,pass,,,,,,,,
+M2,Payment rejects invalid card,validation_removed,B0,Y,fail,,,,,,,,
+M3,Login renders username field,id_change,B1,Y,fail,,,,,,,,

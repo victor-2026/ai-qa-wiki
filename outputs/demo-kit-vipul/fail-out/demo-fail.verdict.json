@@ -1,0 +1,101 @@
+{
+  "scorer_version": "0.2.2",
+  "deterministic": true,
+  "b2_band_pct": 5,
+  "b2_small_n_max": 1,
+  "totals": {
+    "rows": 3,
+    "seeded": 3,
+    "caught": 2,
+    "observed_only": 0,
+    "survived": 1,
+    "equivalent": 0
+  },
+  "note": "gates and scores are per-tier by design; no global percentage is computed",
+  "tiers": {
+    "B0": {
+      "label": "Critical",
+      "scope": "payment, auth, credential, data-integrity paths",
+      "seeded": 2,
+      "caught": 1,
+      "observed_only": 0,
+      "survived": 1,
+      "equivalent": 0,
+      "mutation_score": 50.0,
+      "survival_rate": 50.0,
+      "gate": "FAIL",
+      "gate_detail": "zero-tolerance violated: 1 survivor(s) in B0",
+      "signals": [
+        "B0 sign-off additionally requires a confirmatory re-run (two consecutive passing runs)",
+        "mutation score 50.0% below target 90% - mandatory signed Assessor comment"
+      ],
+      "survivors": [
+        {
+          "mutation_id": "M1",
+          "behavior": "Payment submits successfully",
+          "operator": "element_remove",
+          "decision": null
+        }
+      ],
+      "not_expected": []
+    },
+    "B1": {
+      "label": "High",
+      "scope": "core user journeys, primary CRUD, search, notifications",
+      "seeded": 1,
+      "caught": 1,
+      "observed_only": 0,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 100.0,
+      "survival_rate": 0.0,
+      "gate": "PASS",
+      "gate_detail": "zero-tolerance held (survived 0 of 1)",
+      "signals": [],
+      "survivors": [],
+      "not_expected": []
+    },
+    "B2": {
+      "label": "Medium",
+      "scope": "secondary flows, edge cases",
+      "seeded": 0,
+      "caught": 0,
+      "observed_only": 0,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 0.0,
+      "survival_rate": 0.0,
+      "gate": "NOT EXERCISED",
+      "gate_detail": "no seeded mutants (expected=Y) in this tier",
+      "signals": [],
+      "survivors": [],
+      "not_expected": []
+    },
+    "B3": {
+      "label": "Low",
+      "scope": "cosmetic, copy, layout, non-critical polish",
+      "seeded": 0,
+      "caught": 0,
+      "observed_only": 0,
+      "survived": 0,
+      "equivalent": 0,
+      "mutation_score": 0.0,
+      "survival_rate": 0.0,
+      "gate": "NOT EXERCISED",
+      "gate_detail": "no seeded mutants (expected=Y) in this tier",
+      "signals": [],
+      "survivors": [],
+      "not_expected": []
+    }
+  },
+  "fix_first": [
+    "B0 · M1 · Payment submits successfully (element_remove) - SURVIVED, decision: NO RECORDED DECISION"
+  ],
+  "not_expected_rows": [],
+  "equivalent_rows": [],
+  "observed_rows": [],
+  "unexercised_policy_applied": false,
+  "gate_summary": "FAIL",
+  "exit_code": 1,
+  "requirements_checked": false
+}
