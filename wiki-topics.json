@@ -889,6 +889,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/bogacki-response-injection-2006.html",
+      "title": "Response Injection: AOP alternative to classical MT (Bogacki & Walter, 2006)",
+      "desc": "**Source:** `raw/BogackiW06.pdf` (human-added, IFIP SET 2006, Poznan University of Technology)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/bolton-bach-llm-sandwich-hygiene-protocol-2026.html",
       "title": "Bolton & Bach: LLM Sandwich Test (2026-09-19)",
       "desc": "title: \"Bolton & Bach: LLM Sandwich Test и ментальная гигиена против антропоморфизации\"",
@@ -916,6 +922,12 @@
       "file": "wiki/browserstack-blog-breakpoint-2026-test-companion.html",
       "title": "BrowserStack Blog — Breakpoint 2026 & Test Companion",
       "desc": "title: \"BrowserStack Blog — Breakpoint 2026 & Test Companion\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/budget-conservation-delegation-arxiv-2026.html",
+      "title": "Fault-Tolerant Budget Conservation in delegation (arXiv 2610.00349, 2026-09-29)",
+      "desc": "**Authors:** Genliang Zhu, Chu Wang",
       "tag": "Wiki"
     },
     {
@@ -952,6 +964,12 @@
       "file": "wiki/cige-an-agentic-ai-test-case-standard-2026.html",
       "title": "Cige An Agentic Ai Test Case Standard 2026",
       "desc": "source: \"cige-an-agentic-ai-test-case-standard-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/claude-code-48k-junction-incident-2026.html",
+      "title": "Claude Code 48K-file deletion (Windows junctions, 2026-09)",
+      "desc": "**Source:** https://www.techradar.com/pro/security/i-broke-something-a-claude-code-ai-agent-deleted-48-000-files-in-just",
       "tag": "Wiki"
     },
     {
@@ -1093,6 +1111,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/denis-beskov-ai-harness-2026.html",
+      "title": "AI Harness — что это (Денис Бесков, 2026)",
+      "desc": "**Автор:** Денис Бесков (написание со слов владельца)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/denis-beskov-homa-tcp-datacenter-2026.html",
+      "title": "Homa против TCP в дата-центрах (Денис Бесков по The Register, 2026)",
+      "desc": "**Автор разбора:** Денис Бесков (написание со слов владельца)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/desktop-ai-agents-2026.html",
       "title": "Десктопные AI-агенты для кода (2026)",
       "desc": "title: \"Десктопные AI-агенты для кода (2026)\"",
@@ -1135,9 +1165,33 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/docker-sandbox-kit-permissions-oci-2026.html",
+      "title": "Docker Sandbox Kit: permissions as OCI images (spec v3 → CNCF, 2026-10-02)",
+      "desc": "**Source:** https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/ (Claudio Masolo, via Docker blog + WeAreDevelope",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/ds-ml-quality-testing-2026.html",
       "title": "Ds Ml Quality Testing 2026",
       "desc": "source: \"ds-ml-quality-testing-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/dsit-ai-assurance-guide-2024.html",
+      "title": "UK DSIT Introduction to AI assurance (2024-02, gov.uk)",
+      "desc": "**Source:** https://www.gov.uk/government/publications/introduction-to-ai-assurance/introduction-to-ai-assurance (HTML; ",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/durability-curve-tests-pass-so-what-2026.html",
+      "title": "Durability Curve: Your Tests Pass. So What? (Harry Floyd, 2026-07-14)",
+      "desc": "**Author:** Harry Floyd (инди-издание The Durability Curve: сайт + Substack + tools + laws)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/durability-grader-answer-key-2026.html",
+      "title": "Durability: AI grader needs a verified answer key (Floyd, 77 studies, 2026-09-28)",
+      "desc": "**Source:** https://harryfloyd.substack.com/p/your-ai-grader-answer-key (companion: durabilitycurve site version)",
       "tag": "Wiki"
     },
     {
@@ -1279,6 +1333,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/groetz-pass-agentic-world-hyground-2026.html",
+      "title": "Groetz: what PASS means in an agentic world (Hyground self-testing quorum, 2026-10-01)",
+      "desc": "**Author:** Rudolf Groetz (TestBusters/ConfQ), case by Florian Hansen + Beren Van Daele (Hyground AI SRE agent)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/grzegorz-laya-router-river-raid-2026.html",
       "title": "Grzegorz Laya Router River Raid 2026",
       "desc": "source: \"grzegorz-laya-router-river-raid-2026.md\"",
@@ -1378,6 +1438,12 @@
       "file": "wiki/integration-testing-systems-stitching-2026.html",
       "title": "Integration Testing — Systems Stitching Guide",
       "desc": "> TestMu AI (Sep 2026). URL: https://testmu.ai/testing/integration-testing/",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/intent-based-mutation-testing-2025.html",
+      "title": "Intent Based Mutation Testing 2025",
+      "desc": "source: \"intent-based-mutation-testing-2025.md\"",
       "tag": "Wiki"
     },
     {
@@ -1663,6 +1729,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/learn-harness-engineering-walkinglabs-2026.html",
+      "title": "Learn Harness Engineering (walkinglabs, 17.8K stars, MIT)",
+      "desc": "**Source:** https://github.com/walkinglabs/learn-harness-engineering (265 commits, 14 lectures + 8 projects + resource l",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/lee-robinson-job-tips.html",
       "title": "Lee Robinson - Как выделиться при поиске работы",
       "desc": "title: \"Lee Robinson - Как выделиться при поиске работы\"",
@@ -1696,6 +1768,12 @@
       "file": "wiki/llm-wiki-pattern-2026.html",
       "title": "LLM Wiki Pattern (Karpathy): Mechanics & Our Delta",
       "desc": "**Source:** https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f (April 2026, 16M+ views, 5K+ stars gist)",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/llmorpheus-llm-mutation-testing-2025.html",
+      "title": "Llmorpheus Llm Mutation Testing 2025",
+      "desc": "source: \"llmorpheus-llm-mutation-testing-2025.md\"",
       "tag": "Wiki"
     },
     {
@@ -1777,6 +1855,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/meta-ach-mutation-guided-llm-2025.html",
+      "title": "Meta Ach Mutation Guided Llm 2025",
+      "desc": "source: \"meta-ach-mutation-guided-llm-2025.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/meta-muse-personal-ai-agent-2026.html",
       "title": "Meta Muse — Personal AI Agent (Consumer)",
       "desc": "> Meta, Sep 2026. Multiple sources: TechCrunch (Sep 8), The Verge (Sep 8). Muse Spark model.",
@@ -1786,6 +1870,12 @@
       "file": "wiki/metamorphic-tests-comparison.html",
       "title": "Metamorphic Testing — Сравнение подходов",
       "desc": "**Определение:** Метаморфное тестирование — метод для систем, где «правильный ответ» неизвестен (oracle problem). Вместо",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/mewt-muton-trailofbits-mutation-tools-2025.html",
+      "title": "Mewt Muton Trailofbits Mutation Tools 2025",
+      "desc": "source: \"mewt-muton-trailofbits-mutation-tools-2025.md\"",
       "tag": "Wiki"
     },
     {
@@ -1846,6 +1936,12 @@
       "file": "wiki/mutation-testing-vs-code-coverage-autonoma.html",
       "title": "Mutation Testing Vs Code Coverage Autonoma",
       "desc": "source: \"mutation-testing-vs-code-coverage-autonoma.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/mutgen-mutation-guided-test-generation-2025.html",
+      "title": "Mutgen Mutation Guided Test Generation 2025",
+      "desc": "source: \"mutgen-mutation-guided-test-generation-2025.md\"",
       "tag": "Wiki"
     },
     {
@@ -1930,6 +2026,12 @@
       "file": "wiki/offline-evaluation-trajectories-2026.html",
       "title": "Offline Evaluation of AI Test Agents with Trajectories",
       "desc": "source: \"offline-evaluation-trajectories-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/offutt-weak-vs-strong-mutation.html",
+      "title": "Weak vs strong mutation (Offutt & Lee, Clemson — via Mothra/Leonardo)",
+      "desc": "**Source:** `raw/how-strong-is-weak-mutation.pdf` (human-added, 14pp, ACM 10.1145/120807.120826)",
       "tag": "Wiki"
     },
     {
@@ -2065,6 +2167,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/pretext-skill-scanner-evasion-2026.html",
+      "title": "Pretext: defeating skill scanners (arXiv 2609.39607, 2026-09-30)",
+      "desc": "**Authors:** Tobias Kaisar, Aritra Dhar",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/prompt-tips-and-skills.html",
       "title": "Prompt Tips & Agent Skills Architecture",
       "desc": "title: \"Prompt Tips & Agent Skills Architecture\"",
@@ -2074,6 +2182,18 @@
       "file": "wiki/promptfoo-eval-suite.html",
       "title": "Promptfoo Eval Suite for AI QA Wiki",
       "desc": "title: \"Promptfoo Eval Suite for AI QA Wiki\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/pytation-python-mutation-operators-2026.html",
+      "title": "Pytation Python Mutation Operators 2026",
+      "desc": "source: \"pytation-python-mutation-operators-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/qa-ai-engineer-role-mallare-2026.html",
+      "title": "The QA AI Engineer: role definition from live postings (Alden Mallare, 2026-09-29)",
+      "desc": "**Author:** Alden Mallare (Principal Test Architect, Uturn Data Solutions)",
       "tag": "Wiki"
     },
     {
@@ -2353,6 +2473,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/quantum-mutation-testing-2025.html",
+      "title": "Quantum Mutation Testing 2025",
+      "desc": "source: \"quantum-mutation-testing-2025.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/radik-darwin-godel-verification-gate-2026.html",
       "title": "Radik Darwin Godel Verification Gate 2026",
       "desc": "source: \"radik-darwin-godel-verification-gate-2026.md\"",
@@ -2386,6 +2512,18 @@
       "file": "wiki/regression-checklist-llm-ci-2026.html",
       "title": "Regression Checklist Llm Ci 2026",
       "desc": "source: \"regression-checklist-llm-ci-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/remt-incremental-mutation-zhang-2012.html",
+      "title": "Regression Mutation Testing (Zhang/Marinov/Zhang/Khurshid, ISSTA 2012)",
+      "desc": "**Source:** `raw/regression-mutation-testing-567bsssoq1.pdf` (human-added, 12pp; same text: https://lingming.cs.illinois",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/reverse-locator-robustness-hooks-2024.html",
+      "title": "Locator robustness via hooks (De Luca/Fasolino/Tramontana, JSS 2024)",
+      "desc": "**Source:** `raw/robustness of locators GUI.pdf` (human-added, JSS 210, open access CC BY-NC-ND)",
       "tag": "Wiki"
     },
     {
@@ -2509,6 +2647,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/secmutbench-security-mutation-testing-2026.html",
+      "title": "Secmutbench Security Mutation Testing 2026",
+      "desc": "source: \"secmutbench-security-mutation-testing-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/self-healing-tests.html",
       "title": "Self-Healing Tests — Why It's a Bad Idea",
       "desc": "title: \"Self-Healing Tests — Why It's a Bad Idea\"",
@@ -2578,6 +2722,12 @@
       "file": "wiki/stephen-platten-stoic-tester-profile-2026.html",
       "title": "Stephen Platten Stoic Tester Profile 2026",
       "desc": "source: \"stephen-platten-stoic-tester-profile-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/sting-swebench-mutation-diagnosis-2026.html",
+      "title": "Sting Swebench Mutation Diagnosis 2026",
+      "desc": "source: \"sting-swebench-mutation-diagnosis-2026.md\"",
       "tag": "Wiki"
     },
     {
@@ -2725,9 +2875,21 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/testkube-agent-execution-boundary-2026.html",
+      "title": "Testkube: where testing AI agents act (boundary > agent, 2026-09-28)",
+      "desc": "**Author:** Atulpriya Sharma (Sr. Developer Advocate, Testkube)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/testkube-four-layers-ai-testing-2026-08.html",
       "title": "Testing AI Systems Across All Four Layers — Testkube (2026-08-28)",
       "desc": "**Source:** Atulpriya Sharma (Sr Dev Advocate, Testkube) https://testkube.io/blog/testing-ai-systems-four-layers — compa",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testkube-governance-as-code-2026.html",
+      "title": "Testkube Governance as Code (2026-09-24, Sonali Srivastava)",
+      "desc": "**Source:** https://testkube.io/blog/ai-generated-code-governance-as-code",
       "tag": "Wiki"
     },
     {
@@ -2740,6 +2902,18 @@
       "file": "wiki/testkube-smart-suites-test-selection-2026-04.html",
       "title": "Smart Suites: AI-Driven Test Selection — Testkube (2026-04-22)",
       "desc": "**Source:** Sarvani Yallapragada (Dev Advocate, Testkube) https://testkube.io/blog/ai-driven-test-selection-smart-suites",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testmu-agent-red-teaming-11row-2026.html",
+      "title": "TestMu AI Agent Red Teaming: 11-row runnable plan (2026-09-29)",
+      "desc": "**Author:** Vipul Verma (Group SVP Engineering, TestMu AI, ex-LambdaTest), reviewer Anubhav Singhmaar",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/testmu-agent-regression-2026.html",
+      "title": "TestMu agent regression testing (companion to 11-row plan, 2026-09-30)",
+      "desc": "**Author:** Samyak Goyal (SMTS, TestMu/Kane CLI), reviewer Srinivasan Sekhar (Director Eng, ex-Thoughtworks)",
       "tag": "Wiki"
     },
     {
@@ -3007,6 +3181,18 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/witness-predictive-mutation-testing-2026.html",
+      "title": "Witness Predictive Mutation Testing 2026",
+      "desc": "source: \"witness-predictive-mutation-testing-2026.md\"",
+      "tag": "Wiki"
+    },
+    {
+      "file": "wiki/zaccarini-outside-eye-assurance-2026.html",
+      "title": "The Outside Eye: independent AI assurance consortium proposal (Tony Zaccarini, 2026-09-29)",
+      "desc": "**Author:** Tony Zaccarini (working proposal, individual + AIs)",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/zalando-agentic-engineering-snapshot-2026.html",
       "title": "Agentic Engineering at Zalando: a snapshot (2026-08-14)",
       "desc": "**Author:** Bartosz Ocytko (Executive Principal Engineer, Zalando)",
@@ -3029,172 +3215,8 @@
       "title": "Ошибкикоторыеснижаютохватпубликацийвlinkedlnна50 95",
       "desc": "source: \"Ошибки, которые снижают охват публикаций в Linkedln на 50-95%.md\"",
       "tag": "Wiki"
-    },
-    {
-      "file": "wiki/qa-ai-engineer-role-mallare-2026.html",
-      "title": "The QA AI Engineer: role definition from live postings (Alden Mallare, 2026-09-29)",
-      "desc": "source: \"qa-ai-engineer-role-mallare-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/llmorpheus-llm-mutation-testing-2025.md",
-      "title": "LLMorpheus: Mutation Testing Using Large Language Models",
-      "desc": "LLM-based mutant generation for JavaScript; $3.62 for 13 packages; 63% survivors are real bugs"
-    },
-    {
-      "file": "wiki/meta-ach-mutation-guided-llm-2025.md",
-      "title": "Meta ACH: Mutation-Guided LLM Test Generation",
-      "desc": "Meta industrial deployment: 10,795 Kotlin classes, 9,095 mutants, 571 tests, 73% acceptance"
-    },
-    {
-      "file": "wiki/mutgen-mutation-guided-test-generation-2025.md",
-      "title": "MUTGEN: Mutation-Guided Unit Test Generation",
-      "desc": "Mutation feedback in LLM prompts; 204 subjects; +13% mutation score with fixing mechanism"
-    },
-    {
-      "file": "wiki/intent-based-mutation-testing-2025.md",
-      "title": "Intent-Based Mutation Testing",
-      "desc": "LLM mutates programming intents not syntax; 55% not subsumed by traditional operators"
-    },
-    {
-      "file": "wiki/pytation-python-mutation-operators-2026.md",
-      "title": "PyTation: Python-Specific Mutation Operators",
-      "desc": "7 new operators for Python anti-patterns; hybrid static+dynamic analysis; 13 applications"
-    },
-    {
-      "file": "wiki/secmutbench-security-mutation-testing-2026.md",
-      "title": "SecMutBench: Security Mutation Testing",
-      "desc": "25 operators for 30 CWE; LLM security tests overstated 2.2x; best LLM 19.7% vs 47.6% expert"
-    },
-    {
-      "file": "wiki/quantum-mutation-testing-2025.md",
-      "title": "Quantum Mutation Testing",
-      "desc": "41 quantum programs; noise-aware analysis; output-distribution metrics 73% accuracy"
-    },
-    {
-      "file": "wiki/witness-predictive-mutation-testing-2026.md",
-      "title": "WITNESS: Lightweight Predictive Mutation Testing",
-      "desc": "Classical ML kill matrix prediction; 65-1722x faster than deep learning"
-    },
-    {
-      "file": "wiki/sting-swebench-mutation-diagnosis-2026.md",
-      "title": "STING: SWE-bench Mutation Diagnosis",
-      "desc": "77% SWE-bench instances have surviving variants; augmented tests change agent rankings"
-    },
-    {
-      "file": "wiki/mewt-muton-trailofbits-mutation-tools-2025.md",
-      "title": "mewt and muton: Trail of Bits Mutation Tools",
-      "desc": "Go/JS/TS/Rust/Solidity + TON; SQLite resumable campaigns; AGPL-3.0"
-    },
-    {
-      "file": "wiki/zaccarini-outside-eye-assurance-2026.html",
-      "title": "The Outside Eye: independent AI assurance consortium proposal (Tony Zaccarini, 2026-09-29)",
-      "desc": "source: \"zaccarini-outside-eye-assurance-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testmu-agent-red-teaming-11row-2026.html",
-      "title": "TestMu AI Agent Red Teaming: 11-row runnable plan (2026-09-29)",
-      "desc": "source: \"testmu-agent-red-teaming-11row-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/pretext-skill-scanner-evasion-2026.html",
-      "title": "Pretext: defeating skill scanners (arXiv 2609.39607, 2026-09-30)",
-      "desc": "source: \"pretext-skill-scanner-evasion-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/learn-harness-engineering-walkinglabs-2026.html",
-      "title": "Learn Harness Engineering (walkinglabs, 17.8K stars, MIT)",
-      "desc": "source: \"learn-harness-engineering-walkinglabs-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/groetz-pass-agentic-world-hyground-2026.html",
-      "title": "Groetz: what PASS means in an agentic world (Hyground self-testing quorum, 2026-10-01)",
-      "desc": "source: \"groetz-pass-agentic-world-hyground-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/dsit-ai-assurance-guide-2024.html",
-      "title": "UK DSIT Introduction to AI assurance (2024, gov.uk)",
-      "desc": "source: \"dsit-ai-assurance-guide-2024.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/claude-code-48k-junction-incident-2026.html",
-      "title": "Claude Code 48K-file deletion (Windows junctions, 2026-09)",
-      "desc": "source: \"claude-code-48k-junction-incident-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/budget-conservation-delegation-arxiv-2026.html",
-      "title": "Fault-Tolerant Budget Conservation in delegation (arXiv 2610.00349)",
-      "desc": "source: \"budget-conservation-delegation-arxiv-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testmu-agent-regression-2026.html",
-      "title": "TestMu agent regression testing (companion to 11-row plan, 2026-09-30)",
-      "desc": "source: \"testmu-agent-regression-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/bogacki-response-injection-2006.html",
-      "title": "Response Injection: AOP alternative to classical MT (Bogacki and Walter, 2006)",
-      "desc": "source: \"bogacki-response-injection-2006.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/offutt-weak-vs-strong-mutation.html",
-      "title": "Weak vs strong mutation (Offutt and Lee, Clemson)",
-      "desc": "source: \"offutt-weak-vs-strong-mutation.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/remt-incremental-mutation-zhang-2012.html",
-      "title": "Regression Mutation Testing (Zhang/Marinov/Zhang/Khurshid, ISSTA 2012)",
-      "desc": "source: \"remt-incremental-mutation-zhang-2012.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/reverse-locator-robustness-hooks-2024.html",
-      "title": "Locator robustness via hooks (De Luca/Fasolino/Tramontana, JSS 2024)",
-      "desc": "source: \"reverse-locator-robustness-hooks-2024.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/durability-grader-answer-key-2026.html",
-      "title": "Durability: AI grader needs verified answer key (Floyd, 77 studies, 2026-09-28)",
-      "desc": "source: \"durability-grader-answer-key-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/durability-curve-tests-pass-so-what-2026.html",
-      "title": "Durability Curve: Your Tests Pass. So What? (Harry Floyd, 2026-07-14)",
-      "desc": "source: \"durability-curve-tests-pass-so-what-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/docker-sandbox-kit-permissions-oci-2026.html",
-      "title": "Docker Sandbox Kit: permissions as OCI images (spec v3 to CNCF)",
-      "desc": "source: \"docker-sandbox-kit-permissions-oci-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testkube-governance-as-code-2026.html",
-      "title": "Testkube Governance as Code (2026-09-24)",
-      "desc": "source: \"testkube-governance-as-code-2026.md\"",
-      "tag": "Wiki"
-    },
-    {
-      "file": "wiki/testkube-agent-execution-boundary-2026.html",
-      "title": "Testkube: where testing AI agents act (boundary over agent, 2026-09-28)",
-      "desc": "source: \"testkube-agent-execution-boundary-2026.md\"",
-      "tag": "Wiki"
     }
   ],
-  "raw_count": 360,
-  "updated": "2026-10-01"
+  "raw_count": 365,
+  "updated": "2026-10-05"
 }

@@ -28,6 +28,8 @@
 ## Связь
 
 - [[pi-subagents-2026]] / [[pi-opencode-integration-2026]] — наша инфраструктура делегации, которой курс дает теорию.
+- [[denis-beskov-ai-harness-2026]] — русскоязычное определение харнеса (Agent = Model + Harness + Goal, control/execution plane).
+- [AI Harness — определение Бескова (2026)](wiki/denis-beskov-ai-harness-2026.md) — входящая ссылка для связности (формат, видимый wiki_lint).
 - [[ai-qa-tool-evaluation-mutation-matrix]] — verification-слой того же стека идей (независимый оракул).
 - **Кросс-волт:** outputs/tz-small-opencode-orchestrator-draft.md — maker-checker и Flat Fan туда уже вшиты.
 
