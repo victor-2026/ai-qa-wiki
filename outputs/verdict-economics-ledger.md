@@ -17,6 +17,9 @@
 | Clef 27B (Cloudflare, Ollama, local) | local ($0) | median 209ms / p95 239ms | Qwen3.8-27B, 18GB; tops Decision Index, beats Jev on most | vendor-run benchmarks | 2026-10-03 |
 | Clef Flash 9B pilot (ours, GTX 1660 Ti 6GB) | local | FAIL (non-finite logit, 4/4 configs) | VRAM 7.4/6GB over budget; PARKED pending upstream fix (model 2 days old); upstream issue drafted, unsent | W3 pilot | 2026-10-04 |
 | Jev (TypeSafe, reference) | $0.042/M in, out free | median 524ms / p95 536ms | baseline the other two beat | vendor-run benchmarks (same table) | 2026-10-03 |
+| Router economics (Kravchenko/Archestra, turn-0) | — | — | +7.6…+9.2% @c=0.2 (tail 64% hard) → loses −0.2…−4% @c≥0.4 (pre-human-time scope); botched cheap = c+1+h; use: cost-of-wrong-verdict illustration vs judge $0.04 / gate $0.80 | W5-provided 2026-10-05 (figures not verified by W2): https://archestra.ai/blog/routing-coding-agents-on-the-cheap + https://lnkd.in/p/e3dTH79v | 2026-10-01 |
+| Cache-switch tax (Kravchenko/Archestra) | Sonnet $2.09/task vs Opus $1.94 (Databricks) | — | downgrade median 0.83 (not 0.5); cache hit 55%→8% after model switch; use: model-switch tax in tier cost | W5-provided 2026-10-05 (figures not verified by W2; same two links as Router row above) | 2026-10-01 |
+| Delegation supply (Kravchenko/Archestra) | ~5% parent spend ($219/$4.5k) | — | 2/3 context carry; use: delegation for context, not price | W5-provided 2026-10-05 (figures not verified by W2): https://archestra.ai/blog/routing-coding-agents-on-the-cheap | 2026-10-01 |
 
 ## Digest-watch: decision models (W5)
 - Track: Jev, GLiDE, analogues (typed-output judges, verdict economics).
