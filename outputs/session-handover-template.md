@@ -9,7 +9,7 @@ W5, ai-qa-wiki (`/Users/victor/Projects/ai-qa-wiki`). Владелец wiki-сл
 3. Этот файл — сжатый контекст треков.
 
 ## Живые треки (02.10.2026)
-- **Paul Kanaris (W1):** скетч отправлен, пушбэк отбит (2 коммента, knowns/unknowns + opportunity cost). Мяч у Пола.
+- **Paul Kanaris (W1):** раунд 3 — Paul ответил 04.10 3:10 AM (what-vs-why divergence: seeding говорит WHAT, не WHY; invite на compare-notes про gap detecting-vs-understanding). W5-драфт готов, мяч у нас (W1 шлет).
 - **Doughty/Touchstone:** коммент отправлен, CEO ответил (traceability). Карточка `outputs/virtuoso-touchstone-card-w1.md`. Мяч у W1.
 - **Groetz:** инвайт принят (входящий), первый DM отправлен. Коммент под фид-постом в очереди (тайминг Victor).
 - **Crispin:** коммент отправлен (small batches). Части 2–3 на вотче. **Bradshaw:** коммент отправлен. **Aston:** коммент отправлен. **Fabian/Leonardo/Brij:** наблюдение.
