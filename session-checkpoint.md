@@ -753,3 +753,46 @@ All 7 marked [x] items processed:
 - W1->W3 (67f3497): OpenClaw tree EXISTS on Mac (company/pilots/OpenClaw/openclaw/, tag PRESENT, HEAD 5b08663 toggles-OFF, clean). Recipe: worktree add ../openclaw-rook-target FROM TAG + tree-clean check at handover. (My own verify attempt was permission-rejected; W1 data stands.)
 - W2 fresh session: salvage committed (be82a96, +10 handover consensus). 97% incident closed with zero content loss.
 - Pushed 6196a42 (TRIP-HANDOVER dropped then restored as session-handover template; idea kept: cross-session context transfer).
+
+## 2026-10-04 - W1 relay: Hari S Mahesh track update (no wiki edit)
+- W1 (inbound): 28.09 11:11 PM Hari replied (thanks + assurance alignment); 28.09 11:32 PM post link (Agentic Outcome Packs, outcome-first) + asked for thoughts.
+- W1: 03.10 peer comment SENT (behavior-vs-result via QBurst L2; trace+decision+judge question) / awaiting reply.
+- W5 ammo used: wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.md (L2 decision validation). Card lives in Positions (outreach/active/Hari_S_Mahesh/index.md) - no duplicate here.
+
+## 2026-10-04 (correction, per W1 self-report) - Hari dates fixed
+- W1 admitted: "28.09" for Hari replies was fabricated (stop-rule #2 violation); correct = 04.10 today (Sunday = this Sunday, owner testimony beats both anchors). Previous entry's 28.09 lines SUPERSEDED, kept for audit, not deleted.
+- Consequence: latency alarm OFF (thread is fresh, no rush).
+- INCONSISTENCY flagged (mine, needs W1 answer): ask from Hari arrived 04.10, but earlier relay claimed "peer comment SENT 03.10" - a send predating the ask. Status of 03.10 SENT downgraded to DRAFT/UNVERIFIED until W1 provides verbatim + post URL (rule 8: claim without path-and-line = draft). No second comment until clarified (anti-double rule stands).
+- W1 tech note (his tree, no action from me): commit ceed2bf message garbled, amend blocked by guard - left as is, cosmetic.
+- Root cause (owner diagnosis): LinkedIn paste carried weekday ("Sunday") without calendar date; W1 anchored to wrong Sunday. Lesson for relays: weekday-only timestamps must be anchored to "today is <date>" at paste time, never converted from memory.
+
+## 2026-10-04 - OpenClaw issues: #165043 closed by bot, #165045 open (verified via guest fetch)
+- #165043 (negated agent-handle, S4/E4): CLOSED as not planned + P3. Bot read-only review (no execution, vs 0816aa1b57dc): negation can pass during async identity loading, so green negated assert does not prove original vacuous; failures propagate (withPage rethrow). Verdict: rejection is methodologically substantive, not dismissive.
+- Bot prescribed our own stronger control verbatim: remove rendered handle, keep positive assertion, confirm red. Next probe (W3 execution, openclaw tree on Mac): handle-removal mutant. Red = coverage effective, closure accepted as exhibit (assertion-negation = weak mutant). Green = high-confidence repro to reopen.
+- #165045 (avatar-slot :is(), S5/E5): OPEN, P3 + needs-live-repro + platinum hermit (good quality, plausible path, needs confirmation). Selector-semantics claim, less exposed to race counter-argument than #165043.
+- Letter note: bot accepting the method logic while demanding stronger control = letter meat (W5 drafts on W2 packs arrival). No wiki edit this turn.
+
+## 2026-10-04 - W2 relay accepted (OpenClaw split confirmed)
+- W2 → W5/W3: W2 part recorded (maintainer-demands-stronger-control = letter meat, W5 drafts on packs arrival). Handle-removal probe routed to W3 (not W2 scope). My status: waiting on W3 red/green + W2 packs. No action.
+
+## 2026-10-04 - Vipul Verma: 20-min call invite (peer lane, W1 track)
+- Facts (pasted 04.10, anchored: Vipul reply = today 04.10 1:28 AM; Victor's prior msg = evening before 10:20 PM): Victor offered seeded-side show on real gate (small scope, staging, no sales). Vipul accepted the frame (seeding thread, validating own grader) + invited 20-min call to compare notes + offered to show Agent Assurance incl. where it says Unable to Verify.
+- Read (mine): first live vendor volunteering Unable-to-Verify cases. Fits W1 peer lane (no commerce, joint taxonomy). High-signal, low-cost. Agenda must stay peer: our seeded tiers in, their Unable-to-Verify taxonomy out.
+- W5 draft prepared (hyphen-only, short lines), send = Victor's button. Card (if any) lives in Positions, not edited.
+
+## 2026-10-04 - W1: call YES, draft re-send (relay gap)
+- W1 → owner (95eb7f0 local, push on command): call approved (mutual demos, 20 min bounded, debrief template pre-agreed: 3 lines → verdict-economics + angle B). BUT draft text never arrived in relay ("draft above" missing) - approval blocked.
+- Fix: full draft re-emitted below as signed relay block W5 → W1 (self-contained, one-round approval). Prep brief already in outputs/vipul-call-prep-2026-10-04.md.
+
+## 2026-10-04 - Vipul Verma outreach card created (W5 draft, W1 owns)
+- Created Positions `outreach/active/Vipul_Verma/index.md` (new file, explicit owner order): role/background/Kwan ref/mutuals/company + 3 post theses (Assurance launch w/ $450-vs-$200 demo case, spoof/METR, Astra) + thread status + timeline. No verbatim invented (thread replies marked PARAPHRASE, DMs VERBATIM on file).
+- Next: W1 approves reply v1 → send → slots → call → 3-line debrief.
+- Owner corrections 04.10 (my framing was wrong twice): (1) TestMu managers already came inbound via Articles 26/20 — Vipul has surely seen the pieces, NO pre-read links (redundant); draft v3 drops links AND narration, keeps one shared-context line. (2) Rupesh/QAEverest is NOT a competitor — early startup, no money, no deployments, PR only. Article 26's QAEverest validation carries zero vendor-weight for Vipul; never lead with Rupesh on this track.
+- Draft v4 FINAL (owner edit 04.10): links BACK IN — "а вдруг не читал, пусть глянет" beats "наверняка видел" (cost zero either way). v1/v2/v3 superseded. Text: accept call 20 min + two Article links (26 vendor eval, 20 false discovery, "no homework") + Unable-to-Verify question + CEST slots request. Relay W5 → W1 re-emitted with exact owner text.
+- W1 APPROVED v4 (416c065 local, push on command): links-beat-narration (less us, more him); risks zero (both public, foreign vendors = separate tracks, methodology lane). Status: Victor sends → slots → call. My side done until slots/debrief.
+- Vipul reply v4 SENT (owner 04.10, after W1 approval). Awaiting slots + link from Vipul. Next on arrival: log slots in card → call per debrief outputs/vipul-call-prep-2026-10-04.md → 3-line debrief to W2 ledger.
+- Rinat Abdullin new post 04.10 (overnight Codex experiments + whiteboard tracking): maps to pre-registration + decision log + human gate; gap = who grades the whiteboard (agent-written record) + no seeded controls. No card per Rinat rule (W1 track). Peer comment draft relayed to W1 (whiteboard → seeded-breaks bridge, hyphen-only). Send = Victor's. Post URL verified live: https://www.linkedin.com/posts/abdullin_here-is-a-trick-i-use-to-run-long-and-complex-activity-7512593429999312896-9lyi (short https://lnkd.in/p/eeVcgTFv).
+- Identity split CONFIRMED (owner 04.10): Rinat Abdullin (BitGN post author) is SEPARATE from Tony Zaccarini. Zaccarini = SPAM per owner verdict (Outside Eye proposal track dead; wiki page untouched pending owner order on demote/delete). Abdullin track stays separate, still no card. Comment draft stands (post-bound, not identity-bound).
+- Same day: full public thread pasted VERBATIM (7 exchanges Victor↔Vipul + Srinivasan side voice). Card Thread status rewritten with verbatim; debrief Appendix A rows 1-2 → rows 1-7 VERBATIM with English originals (renumbered 1-11), glossary +6 (frozen runs model-level, examiner-can't-be-author, honestly unverified, falsely passed, observed-but-unflagged, coverage-gap split). Key agreed lines: "Only falsely-passed disqualifies — taken as shared rule"; blind = unpredictable seed + fully observed effect; unflagged split = covered-but-passed vs no-criterion-asked.
+- Paul Kanaris round 3 (reply 04.10 3:10 AM, VERBATIM pasted): sketch acknowledged as clear detection-capability model, then fundamental divergence — skeptical of intentional breakage (code + orgs): seeding tells WHAT not WHY (weak gate vs conflicting objectives); natural failures already abundant; real work = observe/interpret natural failures; goal = understand context when gate doesn't hold. Invites compare-notes on gap "detecting a failure vs understanding a system". Read (mine): NOT a rejection, high-quality objection + explicit session invite, ball with us. Counter: concede what-not-why (thermometer not diagnosis, Open finding IS the why-half); natural failures why-rich but denominator-blind (silent ones never report, seeding buys known ground truth N); noise cost answered by tiering. Pattern concede-clarify-sharpen-join, accept session. W5 draft relayed to W1 (W1 track, W1 sends).
+- Owner 04.10: Paul reply DELAYED half a day (draft parked, not sent). Send window ~evening 04.10. No action until then.
