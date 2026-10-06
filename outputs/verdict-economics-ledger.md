@@ -20,6 +20,7 @@
 | Router economics (Kravchenko/Archestra, turn-0) | — | — | +7.6…+9.2% @c=0.2 (tail 64% hard) → loses −0.2…−4% @c≥0.4 (pre-human-time scope); botched cheap = c+1+h; use: cost-of-wrong-verdict illustration vs judge $0.04 / gate $0.80 | W5-provided 2026-10-05 (figures not verified by W2): https://archestra.ai/blog/routing-coding-agents-on-the-cheap + https://lnkd.in/p/e3dTH79v | 2026-10-01 |
 | Cache-switch tax (Kravchenko/Archestra) | Sonnet $2.09/task vs Opus $1.94 (Databricks) | — | downgrade median 0.83 (not 0.5); cache hit 55%→8% after model switch; use: model-switch tax in tier cost | W5-provided 2026-10-05 (figures not verified by W2; same two links as Router row above) | 2026-10-01 |
 | Delegation supply (Kravchenko/Archestra) | ~5% parent spend ($219/$4.5k) | — | 2/3 context carry; use: delegation for context, not price | W5-provided 2026-10-05 (figures not verified by W2): https://archestra.ai/blog/routing-coding-agents-on-the-cheap | 2026-10-01 |
+| Kolibri (Aleph Alpha, open MoE) | local $0 weights Apache 2.0; iron H100-class, NOT 6GB-runnable | — | 78.1B/3.46B act, 1M ctx; abstention-trained; judge-substrate candidate | vendor blog 03.10.2026, verified W2 from primary | 2026-10-03 |
 
 ## Digest-watch: decision models (W5)
 - Track: Jev, GLiDE, analogues (typed-output judges, verdict economics).
