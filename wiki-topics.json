@@ -607,6 +607,12 @@
       "tag": "Wiki"
     },
     {
+      "file": "wiki/archestra-model-routing-dollar-verdict-2026.html",
+      "title": "Archestra: роутер моделей не окупается в долларах (Кравченко, 2026)",
+      "desc": "**Автор:** Arseny Kravchenko (Staff AI/ML, автор книги \"ML System Design\")",
+      "tag": "Wiki"
+    },
+    {
       "file": "wiki/archestra-skills-aren-t-prompts-code-sandbox-2026.html",
       "title": "Archestra Skills Aren T Prompts Code Sandbox 2026",
       "desc": "source: \"archestra-skills-aren-t-prompts-code-sandbox-2026.md\"",
@@ -3218,5 +3224,5 @@
     }
   ],
   "raw_count": 365,
-  "updated": "2026-10-05"
+  "updated": "2026-10-06"
 }
