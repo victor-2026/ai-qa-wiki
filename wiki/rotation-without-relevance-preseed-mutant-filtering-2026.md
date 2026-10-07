@@ -154,6 +154,14 @@ New approaches predict which tests kill which mutants without executing them:
 
 **Implication for pre-seed filtering:** Predictive MT can filter mutants before execution, reducing the "rotation without relevance" problem. Instead of running all mutants and filtering survivors, predict which mutants are likely to be killed and focus on those. See [[witness-predictive-mutation-testing-2026]].
 
+## Миф → реальность (пилот конвенции 07.10)
+
+| Миф | Реальность |
+|---|---|
+| Больше мутантов = лучше тестирование | Релевантность важнее количества: неселективный оператор плодит шум (equivalent/low-utility), а не сигнал |
+| Выживший мутант = баг в продукте | Выживший = вопрос к гейту (слабый ассерт? нерелевантный оператор? no-op?); вердикт после adjudication, не до |
+| Ротация операторов = покрытие | Ротация без relevance-фильтра крутит мутанты вхолостую; сначала mapping scope→operator, потом ротация внутри релевантного набора |
+
 <!-- backlinks-start -->
 ### Backlinks
 - [Alternateqa Simulator Kanaris Thread 2026 09 23](wiki/alternateqa-simulator-kanaris-thread-2026-09-23.md)

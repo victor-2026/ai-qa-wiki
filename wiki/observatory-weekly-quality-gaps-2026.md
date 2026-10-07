@@ -1,5 +1,7 @@
 # Observatory Weekly: Quality Gaps, Claude QA Skills, the Testing Mindset
 
+**Type:** news
+
 > Ministry of Testing (MoT), Sep 4, 2026. Author: Rosie Sherry. URL: ministryoftesting.com/newsletter/observatory-weekly
 
 Weekly MoT Observatory roundup of community links covering quality gaps, Claude-powered QA skills, testing mindset debates, and practical tooling.

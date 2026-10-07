@@ -428,6 +428,7 @@ def update_index():
         title = ""
         desc = ""
         tag = ""
+        ptype = "wiki"
         for line in lines:
             if line.startswith("# ") and not title:
                 title = line.lstrip("# ").strip()
@@ -435,9 +436,14 @@ def update_index():
             title = f.stem.replace("-", " ").replace("_", " ").title()
         for line in lines:
             stripped = line.strip()
+            if stripped.startswith("**Type:**"):
+                v = stripped.split("**Type:**", 1)[1].strip().lower()
+                if v in ("wiki", "news", "discussion"):
+                    ptype = v
             if stripped and not stripped.startswith("#") and not stripped.startswith("---") and not stripped.startswith("**Last"):
-                desc = stripped[:120]
-                break
+                if not desc:
+                    desc = stripped[:120]
+                continue
 
         if f.parent.name != "wiki" and f.parent.name != WIKI_DIR.name:
             tag = f.parent.name.replace("-", " ").title()
@@ -445,7 +451,8 @@ def update_index():
             "file": str(f.relative_to(PROJECT_DIR)).replace(".md", ".html"),
             "title": title,
             "desc": desc or f"{len(content.split())} words",
-            "tag": tag or "Wiki"
+            "tag": tag or "Wiki",
+            "type": ptype
         })
 
     raw_count = len(list(RAW_DIR.glob("*")))
