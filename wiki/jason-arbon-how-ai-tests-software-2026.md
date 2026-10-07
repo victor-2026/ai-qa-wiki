@@ -70,6 +70,7 @@ AI поглощает тест-фреймворки, CI/CD, test management, iss
 - Книга: first reading draft, часть claims требует публичной верификации (TODO стр. 5 самого автора), free edition содержит промо CARBON/IcebergQA/Jank.ai; paid убирает промо, не метод.
 
 ## Связанные заметки
+- [Second edition delta 337 → 488pp (Oct 2026, verified)](wiki/jason-arbon-book-second-edition-delta-2026.md)
 - [[bolton-bach-llm-sandwich-hygiene-protocol-2026]] - evidence discipline, "unreproducible = doesn't count"
 - [[jev-jason-arbon-playwright-bounded-exploration]] - тот же Jev-эксперимент, но по статье/анонсу
 - [[zalando-agentic-engineering-snapshot-2026]] - risk-based PR approval ≈ per-risk-tier gate

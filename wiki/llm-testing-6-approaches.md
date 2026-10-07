@@ -39,6 +39,9 @@ These approaches can be applied in various scenarios, such as:
 ## See also
 
 - [NotebookLM Agent Navigation](wiki/notebooklm_agent.md)
+- [Elastic shared eval framework (Chang, QCon AI 2026)](wiki/elastic-shared-eval-framework-chang-2026.md)
+- [Ken Huang Claude eval hillclimbing note (outline-level)](wiki/kenhuang-claude-eval-hillclimbing-note-2026.md)
+- [Mike Peterson QE GenAI perspective](wiki/mike-peterson-qe-genai-perspective-2026.md)
 
 <!-- backlinks-start -->
 ### Backlinks

@@ -631,6 +631,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/anthropic-spotify-quality-at-ai-speed-2026.html",
+      "title": "Quality at AI Speed: Anthropic CI + Spotify Delivery (STW #329 Pair, Sep 2026)",
+      "desc": "**Sources (both full-text read 2026-10-07, via STW #329 \"Quality at AI Speed\"):** Sachin Malhotra, \"Agentic coding is st",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/anti-flakiness-habr.html",
       "title": "Anti-Flakiness: Best Practices for Reliable Tests",
       "desc": "source: \"anti-flakiness-habr.md\"",
@@ -946,6 +953,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/avito-agents-setup-metrics-review-2026.html",
+      "title": "Avito: агенты, метрики и сетап команд (tech.conf 2026, транскрипт)",
+      "desc": "**Источник:** доклад \"Как меняется разработка и сетап команд с внедрением агентов\" (40:38), Avito.tech.conf 2026. Спикер",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/avito-ai-code-review-llm-pipeline-2026.html",
       "title": "Avito Ai Code Review Llm Pipeline 2026",
       "desc": "source: \"https://habr.com/ru/companies/avito/articles/1024954/\"",
@@ -1072,9 +1086,23 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/breaklight-ai-testing-methodology-whitepaper-2026.html",
+      "title": "Breaklight AI Testing Methodology (Whitepaper, Sep 2026)",
+      "desc": "**Source (link-only ref, no raw file — raw/ stays human-only per 30.09 decision):** Breaklight methodology whitepaper, P",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/brij-kishore-pandey-retroactive-ai-titles-2026.html",
       "title": "Brij Kishore Pandey Retroactive Ai Titles 2026",
       "desc": "source: \"brij-kishore-pandey-retroactive-ai-titles-2026.md\"",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/brijesh-deb-testable-oversight-2026.html",
+      "title": "Brijesh Deb: Testable Human Oversight (Oct 2026, Group Post Note)",
+      "desc": "**Source:** owner-paste from LinkedIn group \"AI Testing & Assurance\" (Klain admin), post ~3d old at 07.10. Author: Brije",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -1411,6 +1439,13 @@
       "file": "wiki/efficient-performance-testing-grid-cloud-2026.html",
       "title": "Efficient Performance Testing Grid in the Cloud — HyperExecute",
       "desc": "> TestMu AI (formerly LambdaTest), Sep 2026. Product: **HyperExecute**. Source: testmuai.com/blog",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/elastic-shared-eval-framework-chang-2026.html",
+      "title": "Elastic Shared Evaluation Framework (Susan Chang, QCon AI / InfoQ, Oct 2026)",
+      "desc": "**Source:** Susan Chang (Principal Data Scientist, Elastic), \"Building Reusable Evaluation Frameworks for Agentic AI Pro",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -1765,6 +1800,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/jason-arbon-book-second-edition-delta-2026.html",
+      "title": "Jason Arbon: Book Second Edition Delta 337 → 488pp (Oct 2026, Verified)",
+      "desc": "**Source:** how-ai-tests-software-victor-ematin-corrected.pdf (14.4 MB, owner-placed in raw/ 07.10), decrypted with orig",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/jason-arbon-eurostar-testing-ai-deck-2026.html",
       "title": "Jason Arbon EuroSTAR deck: testing AI (judge hygiene, full method)",
       "desc": "**Source:** \"Let's test dark mode...\" no — \"Testing AI: Engineering Confidence in Non-Deterministic Systems\" EuroSTAR ta",
@@ -1880,6 +1922,20 @@
       "file": "wiki/keith-klain-testing-mindset-after-all-2026.html",
       "title": "Apparently We Need a Testing Mindset After All",
       "desc": "**Source:** https://qualityremarks.com/apparently-we-need-a-testing-mindset-after-all/ (Keith Klain, Quality Remarks)",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/kenhuang-claude-eval-hillclimbing-note-2026.html",
+      "title": "Ken Huang: Claude Eval Design and Hillclimbing (Note, Outline-Level, Sep 2026)",
+      "desc": "**Source:** Ken Huang, \"Claude Eval Design and Hillclimbing: From Reliable Tests to Better Agents\", Agentic AI Substack,",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/kenhuang-maestro-google-control-roadmap-2026.html",
+      "title": "Ken Huang: MAESTRO + Google AI Control Roadmap (3D Control Model, Oct 2026)",
+      "desc": "**Source:** Ken Huang, \"I Love Google's Agentic AI Security Roadmap: Adding MAESTRO Will Make It More Powerful — An Open",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -2034,6 +2090,13 @@
       "file": "wiki/krivitsky-agentic-factory-nested-loops-2026.html",
       "title": "Krivitsky Agentic Factory Nested Loops 2026",
       "desc": "source: \"krivitsky-agentic-factory-nested-loops-2026.md\"",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/launchdarkly-guarded-release-factory-2026.html",
+      "title": "LaunchDarkly: Guarded-Release Incident + AI Software Factory (Aug 2026)",
+      "desc": "**Source:** Alex Engelberg (Engineer), \"Stories from the Factory Floor: Our AI software factory saved me from an inciden",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -2220,6 +2283,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/mike-peterson-qe-genai-perspective-2026.html",
+      "title": "Mike Peterson: A QE Perspective on Gen AI (Practitioner Intro, Oct 2026)",
+      "desc": "**Source:** Michael Peterson (Principal Software Quality Engineer), \"A QE Perspective on Gen AI\" — short practitioner gu",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/milko-slavov-two-doors-mcp-2026.html",
       "title": "Milko Slavov Two Doors Mcp 2026",
       "desc": "source: \"milko-slavov-two-doors-mcp-2026.md\"",
@@ -2293,6 +2363,13 @@
       "file": "wiki/nace-drex-diffusion-decision-model-2026.html",
       "title": "Nace Drex Diffusion Decision Model 2026",
       "desc": "source: \"nace-drex-diffusion-decision-model-2026.md\"",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/nanomuse-open-personal-agent-2026.html",
+      "title": "NanoMuse — Open-Source Personal Agent (Oct 2026, Watch Note)",
+      "desc": "**Sources (all fetched 2026-10-07):** https://github.com/nano-muse/nanoMuse · paper https://arxiv.org/abs/2610.08699 (re",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -3774,6 +3851,6 @@
       "type": "wiki"
     }
   ],
-  "raw_count": 370,
-  "updated": "2026-10-07"
+  "raw_count": 371,
+  "updated": "2026-10-08"
 }

@@ -81,6 +81,11 @@ tags: [company, catalog, yc, ai-qa, agentic-testing]
 
 ---
 
+## Oct 2026 — e2e open-source framework (добавлено 07.10)
+
+- Команда Oskar Kwaśniewski выпустила **e2e — open-source AI test framework** для API/web/mobile: цель на английском → агент выполняет действия, локаторы и детерминированные ассерты; **remember + replay без повторного вызова модели**. Сайт: https://tester.army/e2e · доки: https://e2e.tester.army/docs · via STW #329 (https://softwaretestingweekly.com/issues/329/, 05.10.2026).
+- Статус: релиз зафиксирован, hands-on НЕ проводился (пилотная оценка — W3, по решению).
+
 ## См. также
 - [Kiran Sahu — AI Quality Engineering Manager, Myelin Foundry (Profile 2026)](wiki/kiran-sahu-myelin-foundry-ai-qa-profile-2026.md)
 - [[qodo-ai-gave-teams-velocity-the-governance-harness-comes-next-2026]]
