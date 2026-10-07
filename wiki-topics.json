@@ -1807,6 +1807,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/jason-arbon-book-v1-v2-audit-2026.html",
+      "title": "Jason Arbon: v1 → v2 TOC Table + Proposal Audit (07.10, Verified in Text)",
+      "desc": "**Sources:** v1 PDF (337pp, 20.09, /tmp/hats1-full.txt) + v2 corrected PDF (488pp, raw/how-ai-tests-software-victor-emat",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/jason-arbon-eurostar-testing-ai-deck-2026.html",
       "title": "Jason Arbon EuroSTAR deck: testing AI (judge hygiene, full method)",
       "desc": "**Source:** \"Let's test dark mode...\" no — \"Testing AI: Engineering Confidence in Non-Deterministic Systems\" EuroSTAR ta",

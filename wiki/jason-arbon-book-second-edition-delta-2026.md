@@ -32,6 +32,8 @@ Consequence-tier policy: evidence + minimum decision margin per tier, validated 
 
 ## See also
 
+- [v1 → v2 TOC table + proposal audit](wiki/jason-arbon-book-v1-v2-audit-2026.md)
+
 - [[jason-arbon-how-ai-tests-software-2026]] — first-edition note
 - [[typesafe-jev-judgment-service-gates-2026]] — Appendix D Jev material, Jason hands-on relay
 - W1 FYI: arc closed 07.10 (feedback → incorporated → verified → close-out SENT); track warm standby.
