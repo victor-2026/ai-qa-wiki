@@ -85,6 +85,7 @@ User asks: "3-bed near airport under $2k?" Trace shows: routed to property-searc
 - Related: [Zalando agentic snapshot](zalando-agentic-engineering-snapshot-2026.md) (risk-based gate, Identity Broker)
 - Related: [Martin Fowler making-data-ready](martinfowler-making-data-ready-agentic-ai-2026.md) (traceability, lineage)
 - Related: [TestMu AI agentic regression](testmuai-agentic-regression-testing-2026.md) (4-level ladder, recall on skipped)
+- Related: [Breaklight assurance gap](breaklight-ai-assurance-gap-briefing-2026.md) (market signals ISG/Grant Thornton, output-review vs coverage, 4 failure modes)
 - QA evidence layer: [ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md](ai-qa-evidence-layer-validation-evals-guardrails-telemetry.md)
 
 ---

@@ -1065,6 +1065,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/breaklight-ai-assurance-gap-briefing-2026.html",
+      "title": "Breaklight: The AI Assurance Gap (research briefing, 2026)",
+      "desc": "**Source:** `raw/the-AI-assurance-gap.pdf` (Breaklight AI LLC, Research Briefing Oct 2026, 16 pp; owner-placed in raw 07",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/brij-kishore-pandey-retroactive-ai-titles-2026.html",
       "title": "Brij Kishore Pandey Retroactive Ai Titles 2026",
       "desc": "source: \"brij-kishore-pandey-retroactive-ai-titles-2026.md\"",
@@ -3767,6 +3774,6 @@
       "type": "wiki"
     }
   ],
-  "raw_count": 369,
+  "raw_count": 370,
   "updated": "2026-10-07"
 }
