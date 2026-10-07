@@ -23,6 +23,7 @@
 | Kolibri (Aleph Alpha, open MoE) | local $0 weights Apache 2.0; iron H100-class, NOT 6GB-runnable | — | 78.1B/3.46B act, 1M ctx; abstention-trained; judge-substrate candidate | vendor blog 03.10.2026, verified W2 from primary | 2026-10-03 |
 | e2e assertions (awesome-testing eval, Sonnet 5.5) | $0.0073/assertion (~0.7¢); $7.32/1000 assertions; full suite $1.99/run ($1.03 replay); 1000 runs ≈$1992 ($1035 replay) | 21s → 200s (9.5x) | 68 tests, 95 assertions per full UI suite | W5-provided 2026-10-06 (figures not verified by W2): awesome-testing e2e eval 02.10 + Sonnet 5.5 pricing 02.10.26 | 2026-10-02 |
 | Trace-error judge (Robert Kim, laminar.sh) | 23x cheaper than GPT-6-sol (relative, no absolute $) | — | matches GPT-6-sol; −25% vs GPT-6-luna; fewer false alarms; every-run monitoring; 523-trace own benchmark | vendor-claim (UNVERIFIED), W5-provided 2026-10-06: Robert Kim post (laminar.sh, YC S24) | 2026-10-06 |
+| Decisions API vs Jev (LangWatch own benchmark) | Jev 2x+ evals per dollar ("best for price range") | Decisions ~2x speed vs Jev | Decisions +11pts accuracy avg; both fail derived-answer checks | vendor-benchmark (LangWatch own, UNVERIFIED by W2), W5-provided 2026-10-06: Rogerio Chaves post (verified live by W5) + langwatch.ai/benchmarks/jev-alternatives | 2026-10-06 |
 
 ## Digest-watch: decision models (W5)
 - Track: Jev, GLiDE, analogues (typed-output judges, verdict economics).
