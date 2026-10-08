@@ -60,6 +60,7 @@ Read: the envelope concept is missing in production on both ends (OS permissions
 - [Breaklight assurance-gap briefing](wiki/breaklight-ai-assurance-gap-briefing-2026.md)
 - [Mike Peterson QE GenAI perspective](wiki/mike-peterson-qe-genai-perspective-2026.md)
 - [Brijesh Deb testable oversight](wiki/brijesh-deb-testable-oversight-2026.md)
+- [Igor Goldshmidt trajectory vs response](wiki/igor-goldshmidt-trajectory-response-2026.md)
 
 - [[openai-wiki-incident-2026]] — rogue-agent exhibits, accountability framing
 - [[kenhuang-maestro-google-control-roadmap-2026]] — transitive-trust invariant, cascading revocation

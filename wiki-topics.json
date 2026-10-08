@@ -1324,6 +1324,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/danyil-langsmith-langfuse-comparison-2026.html",
+      "title": "Danyil Zuiev: LangSmith vs Langfuse (Same Bot, 12 Cases, Oct 2026)",
+      "desc": "**Sources:** LinkedIn post (canonical, guest-fetch verified 08.10): https://www.linkedin.com/posts/daniil-zuiev_llmevalu",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/data-testid-react-playwright.html",
       "title": "data-testid в React: как QA добавлять атрибуты в компоненты",
       "desc": "title: \"data-testid в React: как QA добавлять атрибуты в компоненты\"",
@@ -1663,6 +1670,13 @@
       "file": "wiki/igor-engine-vs-car-ship-decision-2026.html",
       "title": "Igor Engine Vs Car Ship Decision 2026",
       "desc": "source: \"igor-engine-vs-car-ship-decision-2026.md\"",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/igor-goldshmidt-trajectory-response-2026.html",
+      "title": "Igor Goldshmidt: Trajectory vs Response + Model-Migration Acceptance (Oct 2026)",
+      "desc": "**Source:** owner-saved profile/activity dump (Goldshmidt.webarchive, /tmp/goldshmidt.txt), posts 2d/1w/1mo read in full",
       "tag": "Wiki",
       "type": "wiki"
     },

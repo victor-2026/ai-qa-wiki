@@ -10,19 +10,20 @@
 | Fabian Baptista (Abstracta) | Done-владелец, segregation of duties                | наблюдение           | 2026-10-02         |
 | Leonardo Lanni (QA Roots)   | evals-thesis, союзник по 29-й                       | наблюдение           | 2026-10-02         |
 | Bas Dijkstra                | PITest-серия, mutation-in-the-loop (ч.2), тред идет | peer, мяч у него     | 2026-10-02         |
-| Danyil Zuiev (Maribor)      | RAGAS-триаж, входящий 1st                           | peer, мяч у него     | 2026-10-02         |
+| Danyil Zuiev (Maribor) | RAGAS-триаж, LangSmith-vs-Langfuse 12-case (08.10) | peer, мяч у него | 2026-10-07 |
 | Alden Mallare               | prompt-as-asset, QA-AI-Engineer серия               | follow, без коннекта | 2026-10-02         |
 | Lisa Crispin                | SmartBear-серия (1/3 вышла)                         | вотч ч.2–3           | 2026-10-02         |
 | Richard Bradshaw            | AiT-rebrand, DM-тред теплый                         | ожидание ответа      | 2026-10-02         |
 | Jason Arbon                 | книга/отзыв 03.10, OpenAI-API тред                  | отзыв завтра         | 2026-10-02         |
-| Igor Akymenko (FlowScout)   | Seeded Controls v0.3, Volume VIII                   | W1                   | 2026-10-02         |
+| Igor Akymenko (FlowScout) | Seeded Controls v0.3, Volume VIII | W1 | 2026-10-02 |
+| Igor Goldshmidt (Skipper) | trajectory/response, migration acceptance | peer, W1 решает outreach | 2026-10-08 |
 
 ## Tier 2 — машинные (RSS/дайджест, без ручной работы)
 
 | Источник | Статус |
 |----------|--------|
 | Bas Dijkstra RSS (`ontestautomation.com/feed.xml`) | отдан владельцу дайджеста 02.10 |
-| TestBusters newsletter | кандидат, RSS проверить |
+| TestBusters newsletter | RSS нет (LinkedIn-only, проверено 08.10) — covered via Tier-1 Groetz |
 | ConfQ анонсы | кандидат |
 | Fastino blog (GLiDE/Jev) | уже в дайджесте |
 | TestMu blog | уже в дайджесте |
