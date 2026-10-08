@@ -1,6 +1,6 @@
 # Brijesh Deb: Testable Human Oversight (Oct 2026, Group Post Note)
 
-**Source:** owner-paste from LinkedIn group "AI Testing & Assurance" (Klain admin), post ~3d old at 07.10. Author: Brijesh Deb (Principal Consultant Infosys, co-founder Test Chat community; Tier-3 watch). Post URL not on file — do not invent. Provenance: owner-paste verbatim excerpts below, group context verified by paste only.
+**Source:** owner-paste from LinkedIn group "AI Testing & Assurance" (Klain admin), post ~4d old at 07.10; canonical activity URL on file 08.10: https://www.linkedin.com/feed/update/urn:li:activity:7512515906829271040 (content from paste; guest fetch not attempted). Author: Brijesh Deb (Principal Consultant Infosys, co-founder Test Chat community; Tier-3 watch).
 
 ## Six questions (who/when/what/competence/authority/stop)
 
@@ -19,3 +19,4 @@ Approval-gate doctrine from practitioner side: matches NanoMuse "ask before irre
 - [[nanomuse-open-personal-agent-2026]] — ask-before-irreversible (vendor claim side)
 - [[runtime-authorization-ai-agents-2026]] — quarantine/activate, envelopes
 - [[breaklight-ai-testing-methodology-whitepaper-2026]] — adversarial bar, zero-leak
+- [NIST TEVV-Athlon framework](wiki/nist-tevv-athlon-framework-2026.md)

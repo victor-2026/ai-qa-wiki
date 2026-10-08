@@ -82,7 +82,6 @@ tags: [company, catalog, yc, ai-qa, agentic-testing]
 ---
 
 ## Oct 2026 — e2e open-source framework (добавлено 07.10)
-
 - Команда Oskar Kwaśniewski выпустила **e2e — open-source AI test framework** для API/web/mobile: цель на английском → агент выполняет действия, локаторы и детерминированные ассерты; **remember + replay без повторного вызова модели**. Сайт: https://tester.army/e2e · доки: https://e2e.tester.army/docs · via STW #329 (https://softwaretestingweekly.com/issues/329/, 05.10.2026).
 - Статус: релиз зафиксирован, hands-on НЕ проводился (пилотная оценка — W3, по решению).
 
@@ -92,6 +91,7 @@ tags: [company, catalog, yc, ai-qa, agentic-testing]
 - [[autonoma-open-source-self-driving-2026]]
 - [[ruben-hassid-jev-internet-moment-setup-2026]]
 - [[jev-open-source-alternatives-2026]]
+- [AQEF Seeded Controls spec v0.31.1 (Igor Akymenko, Victor credited)](wiki/aqef-seeded-controls-spec-2026.md)
 
 ---
 *Запись создана: 2026-09-23. Каталог-компания; всего гиперссылок на источник — 2, все верифицированы через webfetch страницы компании.*

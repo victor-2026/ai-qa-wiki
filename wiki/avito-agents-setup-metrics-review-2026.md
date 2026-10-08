@@ -37,4 +37,5 @@
 
 - [[breaklight-ai-testing-methodology-whitepaper-2026]] — headline vs weakest slice
 - [[anthropic-spotify-quality-at-ai-speed-2026]] — volume vs verification, 25x CI
+- [Storey triple debt model](wiki/storey-triple-debt-model-2026.md)
 - [[kenhuang-maestro-google-control-roadmap-2026]] — monitor independence, residual autonomy

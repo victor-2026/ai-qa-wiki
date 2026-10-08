@@ -1,6 +1,7 @@
 # Igor Goldshmidt: Trajectory vs Response + Model-Migration Acceptance (Oct 2026)
 
-**Source:** owner-saved profile/activity dump (Goldshmidt.webarchive, /tmp/goldshmidt.txt), posts 2d/1w/1mo read in full. Author: Igor Goldshmidt, https://www.linkedin.com/in/igorgolds/ — Principal QE Architect (AI-Assisted Testing & Agentic Workflows), Fractional Head of QA, ex-Moovit/Via/Gett, works with Skipper Soft. Tier proposal: Tier 1 (reason: trajectory/response doctrine + migration matrix, both load-bearing; track: peer exchange, W1 decides outreach).
+**Source:** owner-saved profile/activity dump (Goldshmidt.webarchive, /tmp/goldshmidt.txt) + refund post guest-verified 09.10 (8K followers): https://www.linkedin.com/posts/igorgolds_qualityengineering-agenticqa-aiagents-ugcPost-7508786323193761792-_EEp/ (ADK specimen article: https://www.linkedin.com/pulse/your-agent-gave-right-answer-proves-nothing-skipper-soft-2dr6f).
+**Author:** Igor Goldshmidt, https://www.linkedin.com/in/igorgolds/ — Principal QE Architect (AI-Assisted Testing & Agentic Workflows), Fractional Head of QA, ex-Moovit/Via/Gett, works with Skipper Soft. Tier-1 (added 08.10; track: peer exchange, W1 decides outreach).
 
 ## 1. Refund eval: trajectory × response (1w post, strongest)
 

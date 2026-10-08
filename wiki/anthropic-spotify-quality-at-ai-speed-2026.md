@@ -41,6 +41,7 @@ Generation scaled; verification is the bottleneck; stale/lagging selection is it
 - [Ken Huang MAESTRO 3D control model](wiki/kenhuang-maestro-google-control-roadmap-2026.md)
 - [Avito agents setup metrics review](wiki/avito-agents-setup-metrics-review-2026.md)
 - [LaunchDarkly guarded-release factory](wiki/launchdarkly-guarded-release-factory-2026.md)
+- [Quality Minded first meetup](wiki/quality-minded-first-meetup-2026.md)
 
 - [[breaklight-ai-testing-methodology-whitepaper-2026]] — WARN rule, chasing-ghosts vs missing-decay
 - [[elastic-shared-eval-framework-chang-2026]] — eval scaling, calibration ownership

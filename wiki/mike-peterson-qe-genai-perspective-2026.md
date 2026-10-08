@@ -24,6 +24,7 @@ Practitioner-grade formulation of examiner≠author + oracle-as-range + boundary
 
 ## See also
 
+- [Anthropic Claude Code expertise study](wiki/anthropic-claude-code-expertise-2026.md)
 - [[runtime-authorization-ai-agents-2026]] — authorization scope, audit afterward
 - [[breaklight-ai-testing-methodology-whitepaper-2026]] — judge calibration, reference hygiene
 - [[kohl-structural-testing-llm-agents-2026]] — trace/assert layer (соседняя страница другого окна)

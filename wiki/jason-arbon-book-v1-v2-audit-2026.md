@@ -25,7 +25,7 @@ Appendices 4 → 10: A-D kept; new E (AI Check Catalog), F (15 Myths in-book), G
 
 - **v1 baseline (present, fragmented):** p160 already held the core paragraph nearly verbatim ("green dashboard is a claim... Mutation testing asks whether the suite detects deliberately changed behavior. Seeded defects measure whether the full loop notices known failures"). Action classes incl. "reversible local mutation" at p229. Ch 16 + Ch 6 fault-injection mechanics existed. Missing: operators, tiers, reporting discipline ("consequence tier" = 0 hits; "review effort" only in unrelated7-minutes context).
 - **v2 addition:** pp176-180 spread (predeclared operator allowlist + independent verification; harmless rename/ID changes as clean controls; reporting by consequence tier incl. inconclusive/invalid/false-alarms/**review effort**/detection time; frozen repeats, no best-pick) + Ch 13 whole-Harness example + App D back-ref ("Chapter 13's mutation exercise tests the broader evidence-gathering loop"). "Consequence tier" 0 → 2.
-- **Verdict: IN (elevated fragments → method).** Our exact vocabulary partially adopted: tiers + review effort yes; "mutate the product" phrasing no (book uses industry "mutation testing"); per-test-case rotation and our 4-operator set NOT named — canonical operator list still open.
+- **Verdict: IN (elevated fragments → method).** Our exact vocabulary partially adopted: tiers + review effort yes; "mutate the product" phrasing no (book uses industry "mutation testing"); per-test-case rotation NOT named — canonical operator list still open. (Correction 08.10: no operator enumeration here — paused-track hygiene.)
 
 ### P2 — near-tie abstention as policy: IN, fully
 
@@ -42,7 +42,7 @@ Appendices 4 → 10: A-D kept; new E (AI Check Catalog), F (15 Myths in-book), G
 ## 3. Remarks / additions (open items for next round or our pilots)
 
 1. **Run the comparison (P3 remainder):** the in-book protocol is executable by us — TestBucks-style risk set × our seeded breaks × human/scripted/random/AI arms. Offer pilots' numbers if Jason wants them; otherwise our own publication cites his protocol.
-2. **Canonical operator allowlist is still vacant:** book says "predeclare a small allowlist" without publishing one. Our 4-operator set (rename/swap/delete/id-change) + rotation + clean-control practice is a concrete candidate to contribute.
+2. **Canonical operator allowlist is still vacant:** book says "predeclare a small allowlist" without publishing one. Any contribution from our side = W1 decision (paused-track hygiene); no enumeration, no offer from here.
 3. **Margin validation burden:** "validated on held-out, independently labeled examples" is prescribed with no tooling. W2 mini-jev seeded check (narrow-margins rule) is an independent implementation of exactly this — loop back as evidence it is buildable.
 4. **Review effort metric (p180)** matches the Megi dimension — flag for Articles (mutation-matrix-full line).
 5. **Myths 5-15 freed from paywall** via Appendix F — quote-bankable on next digest pass if needed.

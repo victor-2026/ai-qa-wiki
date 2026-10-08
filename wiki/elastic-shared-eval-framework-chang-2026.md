@@ -55,6 +55,7 @@ Evaluate intermediate steps, not just end results: wrong-database-queried is inv
 - [Breaklight testing methodology whitepaper](wiki/breaklight-ai-testing-methodology-whitepaper-2026.md)
 - [Avito agents setup metrics review](wiki/avito-agents-setup-metrics-review-2026.md)
 - [Danyil LangSmith vs Langfuse comparison](wiki/danyil-langsmith-langfuse-comparison-2026.md)
+- [Tariq King hype matrix + human eval](wiki/tariq-king-hype-matrix-human-eval-2026.md)
 
 - [[llm-testing-6-approaches]] — LLM-as-judge, calibration
 - [[kiro-continuous-prompt-evaluation-llm-judges-2026]] — 15-dim eval, behavioral deltas

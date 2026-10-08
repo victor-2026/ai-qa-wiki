@@ -631,6 +631,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/anthropic-claude-code-expertise-2026.html",
+      "title": "Anthropic: Agentic Coding Returns to Expertise (Jun 2026, 400K Sessions)",
+      "desc": "**Source:** Hitzig et al., \"Agentic coding and persistent returns to expertise\", Anthropic Research, 2026-06-16. Full te",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/anthropic-spotify-quality-at-ai-speed-2026.html",
       "title": "Quality at AI Speed: Anthropic CI + Spotify Delivery (STW #329 Pair, Sep 2026)",
       "desc": "**Sources (both full-text read 2026-10-07, via STW #329 \"Quality at AI Speed\"):** Sachin Malhotra, \"Agentic coding is st",
@@ -683,6 +690,13 @@
       "file": "wiki/applitools-probabilistic-validation-gap-2026.html",
       "title": "Applitools: Probabilistic Validation Gap and Deterministic Visual AI (2026-09-14)",
       "desc": "**Source:** https://app14743.cloudwayssites.com/blog/probabilistic-validation-gap-agentic-sdlc/ (published 2026-09-14, T",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/aqef-seeded-controls-spec-2026.html",
+      "title": "AQEF: Seeded Controls Spec v0.31.1 (Igor Akymenko, Credit to Victor, Oct 2026)",
+      "desc": "**Source:** repo https://github.com/igorakymenko-create/AQEF (open spec, CC BY, draft, one author, no consensus claimed)",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -1030,6 +1044,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/bas-claude-code-guardrails-mutation-2026.html",
+      "title": "Bas Dijkstra: Claude Code Guardrails + Mutation Check (Feb-Mar 2026, Surfaced 08.10)",
+      "desc": "**Sources (both full text read 08.10, via digest 08.10):** \"Refactoring the RestAssured.Net code with Claude Code\" (27.0",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/bas-dijkstra-learning-takes-time-2026.html",
       "title": "Learning Takes Time — But Do We Get That Time?",
       "desc": "**Source:** On Test Automation newsletter (Bas Dijkstra, bas@ontestautomation.com)",
@@ -1102,7 +1123,7 @@
     {
       "file": "wiki/brijesh-deb-testable-oversight-2026.html",
       "title": "Brijesh Deb: Testable Human Oversight (Oct 2026, Group Post Note)",
-      "desc": "**Source:** owner-paste from LinkedIn group \"AI Testing & Assurance\" (Klain admin), post ~3d old at 07.10. Author: Brije",
+      "desc": "**Source:** owner-paste from LinkedIn group \"AI Testing & Assurance\" (Klain admin), post ~4d old at 07.10; canonical act",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -2402,6 +2423,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/nist-tevv-athlon-framework-2026.html",
+      "title": "NIST TEVV-Athlon Framework (AI 200-2 ipd, Aug 2026)",
+      "desc": "**Source:** NIST AI 200-2 ipd (Initial Public Draft, Aug 2026, 41pp, DOI 10.6028/NIST.AI.200-2.ipd). Authors: P.J. Phill",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/notebooklm-playbook-analysis.html",
       "title": "SOP: Mutation Testing",
       "desc": "title: \"Анализ NotebookLM Playbook — что взять к нам\"",
@@ -2990,6 +3018,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/quality-minded-first-meetup-2026.html",
+      "title": "Quality Minded First Meetup (Sep 11 2026, Katja + Zoya, Full Triage)",
+      "desc": "**Sources (owner files 08.10, all read full):** transcript docx 31K chars (1h14m, transcription by Ekaterina Semenova) +",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/qualitymax-independent-verifier-profile-2026.html",
       "title": "Qualitymax Independent Verifier Profile 2026",
       "desc": "source: \"qualitymax-independent-verifier-profile-2026.md\"",
@@ -3312,6 +3347,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/storey-triple-debt-model-2026.html",
+      "title": "Storey Triple Debt Model (Technical / Cognitive / Intent, 2026)",
+      "desc": "**Sources:** Margaret-Anne Storey (Univ. of Victoria, SPACE co-creator), paper arXiv:2603.22106 (v4 Apr 6, 10pp, CC-BY) ",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/stratoplan-management-2026.html",
       "title": "Stratoplan Management 2026 — Обзор конференции",
       "desc": "title: \"Stratoplan Management 2026 — Обзор конференции\"",
@@ -3343,6 +3385,13 @@
       "file": "wiki/syam-zero-qa-codeless-dead-2026.html",
       "title": "Syam Zero Qa Codeless Dead 2026",
       "desc": "source: \"syam-zero-qa-codeless-dead-2026.md\"",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/tariq-king-hype-matrix-human-eval-2026.html",
+      "title": "Tariq King: Hype Matrix + Human Evaluation (Test IO / EPAM, 2024-2026)",
+      "desc": "**Source:** Tariq King (CEO Test IO, EPAM; ex-test.ai Chief Scientist; 40-50 scholarly works; Miami). Hype Matrix Pulse ",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -3574,6 +3623,13 @@
       "file": "wiki/the2026aitestingfrontier-astrategicevaluationofautonomousqalifecycleplatforms.html",
       "title": "The2026Aitestingfrontier Astrategicevaluationofautonomousqalifecycleplatforms",
       "desc": "source: \"The 2026 AI Testing Frontier - A Strategic Evaluation of Autonomous QA Lifecycle Platforms.md\"",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
+      "file": "wiki/thinkingbox-microsoft-stateful-bench-2026.html",
+      "title": "ThinkingBox: Microsoft Stateful Agent Bench (Oct 2026)",
+      "desc": "**Source:** Microsoft + Hugging Face joint blog (Tuhin Kundu et al., Oct 3 2026, full text read 08.10) + paper arXiv:260",
       "tag": "Wiki",
       "type": "wiki"
     },
@@ -3873,5 +3929,5 @@
     }
   ],
   "raw_count": 371,
-  "updated": "2026-10-08"
+  "updated": "2026-10-09"
 }

@@ -23,6 +23,7 @@ Sections 1/3/5/6 rhyme with Breaklight verdict-rule + noise-floor doctrine and o
 
 - [Elastic shared eval framework](wiki/elastic-shared-eval-framework-chang-2026.md)
 - [Breaklight testing methodology whitepaper](wiki/breaklight-ai-testing-methodology-whitepaper-2026.md)
+- [ThinkingBox Microsoft stateful bench](wiki/thinkingbox-microsoft-stateful-bench-2026.md)
 
 - [[breaklight-ai-testing-methodology-whitepaper-2026]] — verdict rule, noise floor
 - [[kenhuang-maestro-google-control-roadmap-2026]] — same author, control model

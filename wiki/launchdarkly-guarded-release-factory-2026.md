@@ -19,6 +19,15 @@ Auto-flagging / auto-releasing / auto-cleanup take the annoying scaffolding off 
 
 Vendor-independent exhibit of the statistical gate with auto-rollback: treatment-vs-control with denominators published (13/243 vs 0/250). Safe-by-default doctrine = our gate language (cheap gates get used; expensive gates get skipped). Debug loop (screenshot → agent → observability) rhymes with Hari trace+decision packs. Article 26/29: guarded-release pattern as vendor-eval question ("show me your auto-rollback evidence").
 
+## 3 reasons teams can't trust agents (Kelvin Yap, Oct 1 2026, via digest 08.10)
+
+URL: https://launchdarkly.com/blog/3-reasons-teams-cant-trust-their-ai-agents-with-more/ (full text read). Same-company doctrine extension, three structural reasons:
+
+1. **Dashboards don't measure output quality** — cost/latency/tokens say nothing about rightness; agent-written refund draft can comply with policy yet be for the wrong amount; third-party model/tool shifts degrade output with zero team changes. Fix: write down "good" in model-appliable terms + LLM-judge on live traffic vs own prod examples; human reads only flagged + sample of passed.
+2. **Fix waits for sign-off** — kill switch/validators/queues can't detect quality drops; signal real-time, change whenever. Pattern that works: pre-decided fallback (revert to last-good, simpler path, human handoff) in seconds + paging in parallel; config-change policies for prod agents.
+3. **Improving costs more than leaving alone** — full cycle per change proves only yesterday's fix. Fix: loop shorter than agent's change rate — prod traffic as eval set, slice growth while score holds, auto-pullback on drop; small reversible changes.
+- Three accountability questions: written "good"? what happens before a human catches it? how fast better / how fast reversed? "Progress starts when a team can show how the last change affected agent quality — and take it back quickly when the answer is bad."
+
 ## See also
 
 - [[breaklight-ai-testing-methodology-whitepaper-2026]] — interval verdicts, WARN rule
