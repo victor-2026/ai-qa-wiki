@@ -1030,3 +1030,12 @@ All 7 marked [x] items processed:
 **Agentics #12 (Ovy0bODpUVw):** transcript 554 segs via yta; Devil's Advocate = checker-agent over QE reports — NOTE only (ASR-noisy demo, no quotable doctrine, no wiki, no bank).
 **Digest links confirmed:** 12/12 present (lines 20-31).
 **Commits:** ai-qa-wiki dbe0528 (2 wiki + topics + log + lint-report). Checkpoint this entry.
+**W2 ack 09.10 (Routine-12c, 1b8ce77):** Arbiter received, wiki + raw PDF verified (367K). Prompt-interference as noise-source analog for judge prompts — W2 watchlist, no code changes. Closed, no W5 action.
+**W2 ack 09.10 (Routine-12d, bd70534):** Jev/Clem/PoC links to watchlist (Article 31/32), no code changes. W2 did NOT bank LinkedIn quotes (no auth) — W5 side already covered all three.
+## 2026-10-09 - W5 session part 6 (banks marathon, Igor converged, Ana)
+**Banks:** Feed8 +11 (Clem RL x3, Wei-Wei x3, Bolton x2, Ana, Aard-Jan, Jonah) + Anirudh; Feed9 +11 (plasticity, Vishnu x3, Nikolay/Irina x3, Tomas, Amit x2); Feed10 +6 (Brij x2, Jonah, Jev-PDF x3); Clem mega-thread +17 total (wave 1+2, George held); Huang harness/PoC +13 (Arijit x4, Tarasova x2, MAESTRO x2, PoC x2, Clem, Chiodi); Stafford +9 (delegation x4, model-eval x3, Mars, BCG); Vipul x3; TestMu trends x3; Ken eval-preview x5; Rinat x1. All link-backed (guest-unverified); pending: Feed9 URLs, Stafford/Elvis (Feed7), Clem-post LIKEs.
+**Igor converged 09.10:** "same split" — void-control shared doctrine, reach-assertion banked. Numbers owed on runs.
+**Ana Cunha (new 1st):** RST practitioner card created, first message SENT. No ask, no pilot.
+**Leonardo 1x03:** transcript pulled (567 segs), NOTE only.
+**No pilot candidates today** (Henock pending non-vendor; Pooled infra-only).
+**Commits:** Articles aee9ae2 (121+); Positions 403a67c (Igor+Ana+Leonardo). Checkpoint this entry.
