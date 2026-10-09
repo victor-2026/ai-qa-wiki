@@ -1,14 +1,14 @@
 # Wiki Lint Report — 2026-10-09
 
-- Timestamp: 2026-10-09T00:59:41.937330
-- Wiki pages: 559
+- Timestamp: 2026-10-09T21:39:48.391659
+- Wiki pages: 561
 - Internal links OK: 2097
 - Broken links: 0
-- Orphans: 49
+- Orphans: 51
 - Stubs (<200 chars): 0
 - Raw without wiki: 74
 - Duplicate-ish stems: 0
-- Quotes verity issues: 545
+- Quotes verity issues: 546
 
 ## Orphans (no inbound links)
 - 101-beginner-database-design.md
@@ -19,6 +19,7 @@
 - agentic-engineering-hacks.md
 - agentics-foundation-newsletter-2026-09.md
 - aiid-incident-pipeline-matching-2026.md
+- arbiter-prompt-interference-mason-2026.md
 - arxiv-law-of-stop-interruptibility-2026.md
 - arxiv-price-of-thought-reasoning-economics-2026.md
 - arxiv-simulation-cx-agents-140m-2026.md
@@ -29,6 +30,7 @@
 - data-testid-react-playwright.md
 - david-burke-death-taxes-software-bugs.md
 - endform-jev-playwright-driver-2026.md
+- forms-llm-integrated-applications-weber-2026.md
 - from-ai-agent-demo-to-production-2026.md
 - fullstack-verification-mcp-habr.md
 - hack-n-vibe-bitgn-pac1-agent.md
@@ -256,6 +258,7 @@
 - `aqef-seeded-controls-spec-2026.md` [no-source]: evaluation tooling can stay green and silent on a known, deliberately planted de…
 - `aqef-seeded-controls-spec-2026.md` [no-source]: a single fixed decoy invites tuning around it, especially by whoever adjusts a j…
 - `aqef-seeded-controls-spec-2026.md` [no-source]: single fixed decoy invites tuning around it…
+- `arbiter-prompt-interference-mason-2026.md` [no-source]: not auditing... just reading... trust your judgment…
 - `archestra-debug-harness-weak-models-2026.md` [no-source]: what is the cheapest model that reliably handles our real workflows?…
 - `archestra-model-routing-dollar-verdict-2026.md` [no-source]: turning a model agreeing with itself into an actual outcome…
 - `archestra-skills-aren-t-prompts-code-sandbox-2026.md` [no-source]: does the model invoke the right, versioned procedure?…
@@ -701,6 +704,6 @@
 | 2026-10-06 | 535 | 2052 | 0 | 50 | 0 | 74 | 0 | +0 | +0 |
 | 2026-10-07 | 546 | 2084 | 0 | 49 | 0 | 74 | 0 | -1 | +0 |
 | 2026-10-08 | 556 | 2094 | 0 | 49 | 0 | 74 | 0 | +0 | +0 |
-| 2026-10-09 | 559 | 2097 | 0 | 49 | 0 | 74 | 0 | +0 | +0 |
+| 2026-10-09 | 561 | 2097 | 0 | 51 | 0 | 74 | 0 | +2 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.
