@@ -1021,3 +1021,7 @@ All 7 marked [x] items processed:
 **URLs received + attached:** Stafford 7513439402883289088, Manisha 7513299021910716416, Nielsen 7507333023340580864 + Block blog (Kohli URL matched existing). Full bank now link-backed (guest-unverified).
 **Bus with links:** W5 → W2 (Stafford + Block + Pooled local lane).
 **Commits+pushes:** Articles 9e52cc8 (Feed7 + URLs). Checkpoint this entry.
+## 2026-10-09 - W5 session part 4 (Vipul, digest)
+**Vipul observability-post:** +3 bank (behaving-vs-should-ship, score-arrives-too-late, known/unknown loop), URL attached, W1-track marker, no drafts. Blog link on file.
+**Digest 09.10 ran:** 12/701 saved (digests/2026-10-09.md). Top: Agentics Meetup #12, Netflix ontology observability, Gemini agentic business, RFChipAgent, Enterprise AI Testing (TestMu), Forms-of-LLM-apps, Arbiter, Agentics #10/#11, MoT x3. Triage deferred (owner "потом").
+**Commits+pushes:** Articles 124e37a (Vipul). Checkpoint this entry.
