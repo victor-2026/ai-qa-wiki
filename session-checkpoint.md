@@ -1016,3 +1016,8 @@ All 7 marked [x] items processed:
 **Bus with links:** W5 → W2 (Unsloth URL + emergency-brake; Renata known since 06.10); W5 → W1 (QAEverest URL, no drafts); W5 → W4 (Escape 728 imp).
 **Rinat:** +1 bank (immutable storage, URL on file). Katya #3 repost SENT (in part-1 commit).
 **Commits+pushes:** Articles 322d6a0 (Feed5/6/Cholette + URLs). Positions foreign changes untouched. ai-qa-wiki checkpoint this entry.
+## 2026-10-09 - W5 session part 3 (Feed7 webarchive)
+**feed5.webarchive parsed (30 posts, python plist → 576 lines):** +6 bank (Kohli reconstruction + spend-cap; Stafford isolation-vs-system + eval-as-debug; Manisha decide-correct-first; Nielsen agent-readable). LIKE Jason book-post only. Fastino 110K milestone HELD (W1 sensitive). Noise: vendor promos, jobs, Dutch promos, courses.
+**URLs received + attached:** Stafford 7513439402883289088, Manisha 7513299021910716416, Nielsen 7507333023340580864 + Block blog (Kohli URL matched existing). Full bank now link-backed (guest-unverified).
+**Bus with links:** W5 → W2 (Stafford + Block + Pooled local lane).
+**Commits+pushes:** Articles 9e52cc8 (Feed7 + URLs). Checkpoint this entry.
