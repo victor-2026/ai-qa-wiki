@@ -1025,3 +1025,8 @@ All 7 marked [x] items processed:
 **Vipul observability-post:** +3 bank (behaving-vs-should-ship, score-arrives-too-late, known/unknown loop), URL attached, W1-track marker, no drafts. Blog link on file.
 **Digest 09.10 ran:** 12/701 saved (digests/2026-10-09.md). Top: Agentics Meetup #12, Netflix ontology observability, Gemini agentic business, RFChipAgent, Enterprise AI Testing (TestMu), Forms-of-LLM-apps, Arbiter, Agentics #10/#11, MoT x3. Triage deferred (owner "потом").
 **Commits+pushes:** Articles 124e37a (Vipul). Checkpoint this entry.
+## 2026-10-09 - W5 session part 5 (arxiv ingest x2, Agentics #12)
+**Ingested (owner PDFs in raw/):** 2610.11899v1 (Weber Forms, 8pp) → wiki/forms-llm-integrated-applications-weber-2026.md (7 forms × 4 dims, copilot router-worker, label-shift = test-scope-shift); 2603.08993v2 (Mason Arbiter, 19pp) → wiki/arbiter-prompt-interference-mason-2026.md (21 patterns, 95% static, $0.27, v2 honesty). Index 563 topics, lint broken 0 (exit 2 = orphans). Cross-vault link fixed (plain text + vault).
+**Agentics #12 (Ovy0bODpUVw):** transcript 554 segs via yta; Devil's Advocate = checker-agent over QE reports — NOTE only (ASR-noisy demo, no quotable doctrine, no wiki, no bank).
+**Digest links confirmed:** 12/12 present (lines 20-31).
+**Commits:** ai-qa-wiki dbe0528 (2 wiki + topics + log + lint-report). Checkpoint this entry.
