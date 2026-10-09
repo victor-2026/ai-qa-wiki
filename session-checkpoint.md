@@ -1008,3 +1008,11 @@ All 7 marked [x] items processed:
 **Rinat triage 09.10:** versioned knowledge-base post → NOTE (+1 bank: immutable storage line, URL on file guest-unverified). No card, no engagement.
 **Katya #3 09.10:** announcement "Please share" → verdict SHARE, repost SENT ("see you today... runaway predecessor... self-learning turn live"). Meetup today 17:00-18:30 CEST.
 **Commits+pushes:** Articles 94bcf07 (AQEF bank) + e026793 (Rinat); Positions d2b9a70 (Igor+Henock cards) + 0930834 (SENTs + Katya); ai-qa-wiki 5ea98a6 (fact-pack). Pre-existing wiki uncommitted (bach x3 + catalogs + 3 stubs) untouched, not ordered.
+## 2026-10-09 - W5 session part 2 (Feed5/6, link rounds, Cholette)
+**Rule adopted (owner):** links-first — bus FYIs go with canonical URLs; W2 usable without but links cheaper for all.
+**Feed5 (8 posts):** +6 bank (Osmani conjure-vs-pick + direction-inversion; Maaret count-vs-coverage; Poe adversarial-review; Gebert two-AIs-miss; Hric blast-radius). LIKE Osmani + Maaret. URLs owner-provided, all upgraded (guest-unverified).
+**Feed6 (16 posts):** +9 bank (Cholette rails; Crickett behavior-unit; Jonah drift→contract; Sudhanshu fail-once + mistake-log; Schmidt token-split; Unsloth local-decisions W2; QAEverest x2 W1-track). LIKE Cholette + Jonah. Fastino SOTA-claim HELD (W1 sensitive, no quotes). Crickett unit-thread URL received (7512808887411171330); Wesner post mapped (Schmidt upgraded); Crickett podcast-promo identified NOT-banked.
+**Cholette threads (owner paste #2):** +5 bank (blast-radius-gates; plausible-guess; capture-the-second; 95%-hides-zero; deterministic-brake). URLs Ajzenstadt/Kohli/Junco received and attached; 1st degree high density.
+**Bus with links:** W5 → W2 (Unsloth URL + emergency-brake; Renata known since 06.10); W5 → W1 (QAEverest URL, no drafts); W5 → W4 (Escape 728 imp).
+**Rinat:** +1 bank (immutable storage, URL on file). Katya #3 repost SENT (in part-1 commit).
+**Commits+pushes:** Articles 322d6a0 (Feed5/6/Cholette + URLs). Positions foreign changes untouched. ai-qa-wiki checkpoint this entry.
