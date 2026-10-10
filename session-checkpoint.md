@@ -1039,6 +1039,11 @@ All 7 marked [x] items processed:
 **Digest 10.10 ran + triaged:** 12/255. Takes: Anthropic-evals-offline, Grok-bank-leak, Canada-hack, PixelLeak, Cloudflare-decision-models (W2), Huang (dup). Bus: W4 escape-район, W2 Cloudflare.
 **STN #233:** NOTE (ToC only, Gulin + Maaret inside; substack full on demand).
 **Maintenance cycle:** lint broken 0 (exit 2 orphans), index 564/375, backup 2026-10-10 (72M, last was 04.10).
+## 2026-10-10 - W5 session part 8 (pilot grind, W4 hooks)
+**Contradiction pilot:** Groq VOID (empty summaries) → extractor fixed (1200-char excerpts) → rerun vs L2 quota: 5/20 batches, 20 verdicts, 3 ERROR. 1 CONTRADICT flag (healing local-only vs live-app). Pace ~6 min/batch. Decision pending: grind / L2-window / OpenRouter.
+**W4 hooks banked:** Article 31 x4 (confident liar + 30-defects + ruler-gate + closer) + Pulse URL.
+**Rule adopted (owner):** query→wiki active (15+ lines, 2+ sources → save); 10-fails = stop + report; heartbeat per batch.
+**Positions foreign changes untouched.**
 ## 2026-10-09 - W5 session part 6 (banks marathon, Igor converged, Ana)
 **Banks:** Feed8 +11 (Clem RL x3, Wei-Wei x3, Bolton x2, Ana, Aard-Jan, Jonah) + Anirudh; Feed9 +11 (plasticity, Vishnu x3, Nikolay/Irina x3, Tomas, Amit x2); Feed10 +6 (Brij x2, Jonah, Jev-PDF x3); Clem mega-thread +17 total (wave 1+2, George held); Huang harness/PoC +13 (Arijit x4, Tarasova x2, MAESTRO x2, PoC x2, Clem, Chiodi); Stafford +9 (delegation x4, model-eval x3, Mars, BCG); Vipul x3; TestMu trends x3; Ken eval-preview x5; Rinat x1. All link-backed (guest-unverified); pending: Feed9 URLs, Stafford/Elvis (Feed7), Clem-post LIKEs.
 **Igor converged 09.10:** "same split" — void-control shared doctrine, reach-assertion banked. Numbers owed on runs.
