@@ -1,14 +1,14 @@
 # Wiki Lint Report — 2026-10-10
 
-- Timestamp: 2026-10-10T19:06:40.021825
-- Wiki pages: 562
+- Timestamp: 2026-10-10T19:39:29.509849
+- Wiki pages: 563
 - Internal links OK: 2097
 - Broken links: 0
-- Orphans: 52
+- Orphans: 53
 - Stubs (<200 chars): 0
 - Raw without wiki: 74
 - Duplicate-ish stems: 0
-- Quotes verity issues: 546
+- Quotes verity issues: 548
 
 ## Orphans (no inbound links)
 - 101-beginner-database-design.md
@@ -19,6 +19,7 @@
 - agentic-engineering-hacks.md
 - agentics-foundation-newsletter-2026-09.md
 - aiid-incident-pipeline-matching-2026.md
+- anthropic-demystifying-evals-agents-2026.md
 - arbiter-prompt-interference-mason-2026.md
 - arxiv-law-of-stop-interruptibility-2026.md
 - arxiv-price-of-thought-reasoning-economics-2026.md
@@ -246,6 +247,8 @@
 - `andrew-ng-openworker-security-agents-2026.md` [no-source]: agent = model + harness (software around the model)…
 - `andrew-ng-openworker-security-agents-2026.md` [no-source]: sensitive code never leaves your machine…
 - `anthropic-claude-code-expertise-2026.md` [no-source]: define the problem, guide the tool, challenge the result…
+- `anthropic-demystifying-evals-agents-2026.md` [no-source]: ) start at low pass rate — a hill to climb. regression evals (…
+- `anthropic-demystifying-evals-agents-2026.md` [no-source]: ) stay near 100%. high-pass capability evals **graduate** into the regression su…
 - `anthropic-spotify-quality-at-ai-speed-2026.md` [no-source]: ai increased the capacity to produce change. the next constraint became our abil…
 - `anthropic-spotify-quality-at-ai-speed-2026.md` [no-source]: writing code is no longer the constraint… always plan for the exponential.…
 - `anthropic-spotify-quality-at-ai-speed-2026.md` [no-source]: healthy release, accumulating regressions…
@@ -706,6 +709,6 @@
 | 2026-10-07 | 546 | 2084 | 0 | 49 | 0 | 74 | 0 | -1 | +0 |
 | 2026-10-08 | 556 | 2094 | 0 | 49 | 0 | 74 | 0 | +0 | +0 |
 | 2026-10-09 | 561 | 2097 | 0 | 51 | 0 | 74 | 0 | +2 | +0 |
-| 2026-10-10 | 562 | 2097 | 0 | 52 | 0 | 74 | 0 | +1 | +0 |
+| 2026-10-10 | 563 | 2097 | 0 | 53 | 0 | 74 | 0 | +2 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.

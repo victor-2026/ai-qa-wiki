@@ -638,6 +638,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/anthropic-demystifying-evals-agents-2026.html",
+      "title": "Anthropic: Demystifying Evals for AI Agents (Jan 2026)",
+      "desc": "**Source:** Mikaela Grace et al., Anthropic Engineering, 2026-01-09. Full text read via guest fetch (no raw file — vendo",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/anthropic-spotify-quality-at-ai-speed-2026.html",
       "title": "Quality at AI Speed: Anthropic CI + Spotify Delivery (STW #329 Pair, Sep 2026)",
       "desc": "**Sources (both full-text read 2026-10-07, via STW #329 \"Quality at AI Speed\"):** Sachin Malhotra, \"Agentic coding is st",
@@ -3949,6 +3956,6 @@
       "type": "wiki"
     }
   ],
-  "raw_count": 375,
+  "raw_count": 376,
   "updated": "2026-10-10"
 }

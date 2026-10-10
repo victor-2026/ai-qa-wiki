@@ -221,9 +221,25 @@ type: glossary
 **Definition:** Делегированный доступ - агент действует с правами вызвавшего пользователя (не через общий сервис-аккаунт), чтобы сохранить атрибуцию "кто чей доступ использовал".
 **Связан:** [[wiki/martinfowler-making-data-ready-agentic-ai-2026]]
 
+### Delegation (4D)
+**Definition:** Компетенция AI Fluency - решение что делает человек, что ИИ, как распределять задачи (goals + capabilities + problem/platform/task awareness).
+**Источник:** Anthropic AI Fluency Cheat Sheet (`raw/AI Fluency_ Key Terminology Cheat Sheet-OCR.pdf`)
+
+### Description (4D)
+**Definition:** Компетенция AI Fluency - коммуникация с ИИ: Product (что), Process (как), Performance (поведение: concise/challenging).
+**Источник:** Anthropic AI Fluency Cheat Sheet (`raw/AI Fluency_ Key Terminology Cheat Sheet-OCR.pdf`)
+
 ### Diffusion of responsibility
 **Definition:** Диффузия ответственности - чем больше людей "могли бы проверить", тем меньше каждый чувствует обязанность; AI усиливает (автор думает агент прав, ревьюер думает автор проверил).
 **Связан:** [[wiki/julia-pottinger-who-validates-ai-generated-code-2026]]
+
+### Diligence (4D)
+**Definition:** Компетенция AI Fluency - прилежание в работе с ИИ: проверка выходов, итерации, ответственность за результат.
+**Источник:** Anthropic AI Fluency Cheat Sheet (`raw/AI Fluency_ Key Terminology Cheat Sheet-OCR.pdf`)
+
+### Discernment (4D)
+**Definition:** Компетенция AI Fluency - критическая оценка выходов ИИ: что принять, что перепроверить, где риск.
+**Источник:** Anthropic AI Fluency Cheat Sheet (`raw/AI Fluency_ Key Terminology Cheat Sheet-OCR.pdf`)
 
 ### Denominator (N)
 **Definition:** Знаменатель - число засеянных релевантных мутантов, по которому считаются score и допуски; not-seeded и эквивалентные в N не входят. Маленький N (1-3) делает проценты театром - ниже N=20 работает абсолютный floor.
