@@ -2451,6 +2451,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/nist-ai-rmf-100-govern-map-measure-manage-2026.html",
+      "title": "NIST AI RMF 1.0 (AI 100-1, Jan 2023)",
+      "desc": "**Source:** NIST AI 100-1 (48pp). Raw: `raw/NIST.AI.100-1.pdf` (full text read 10.10). Status note (Brijesh): under revi",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/nist-tevv-athlon-framework-2026.html",
       "title": "NIST TEVV-Athlon Framework (AI 200-2 ipd, Aug 2026)",
       "desc": "**Source:** NIST AI 200-2 ipd (Initial Public Draft, Aug 2026, 41pp, DOI 10.6028/NIST.AI.200-2.ipd). Authors: P.J. Phill",
@@ -3956,6 +3963,6 @@
       "type": "wiki"
     }
   ],
-  "raw_count": 376,
-  "updated": "2026-10-10"
+  "raw_count": 378,
+  "updated": "2026-10-11"
 }
