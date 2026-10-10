@@ -1457,6 +1457,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/durability-curve-seven-checks-kit-2026.html",
+      "title": "Durability Curve: Before You Trust Your AI Agent (Floyd Kit, Oct 2026)",
+      "desc": "**Source:** H. Floyd (Durability Curve, harryfloyd.substack.com), free 9-page field kit from 6 essays (May–Aug) + email ",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/durability-curve-tests-pass-so-what-2026.html",
       "title": "Durability Curve: Your Tests Pass. So What? (Harry Floyd, 2026-07-14)",
       "desc": "**Author:** Harry Floyd (инди-издание The Durability Curve: сайт + Substack + tools + laws)",
@@ -3942,6 +3949,6 @@
       "type": "wiki"
     }
   ],
-  "raw_count": 373,
-  "updated": "2026-10-09"
+  "raw_count": 375,
+  "updated": "2026-10-10"
 }

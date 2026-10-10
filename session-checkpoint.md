@@ -1033,6 +1033,12 @@ All 7 marked [x] items processed:
 **W2 ack 09.10 (Routine-12c, 1b8ce77):** Arbiter received, wiki + raw PDF verified (367K). Prompt-interference as noise-source analog for judge prompts — W2 watchlist, no code changes. Closed, no W5 action.
 **W2 ack 09.10 (Routine-12d, bd70534):** Jev/Clem/PoC links to watchlist (Article 31/32), no code changes. W2 did NOT bank LinkedIn quotes (no auth) — W5 side already covered all three.
 **Browser Use plan locked 09-10.10:** 3 tiers (smoke-local infra-only qwen/llama-3b $0 → Groq-driver quality $0 → cloud $15 reserve on quality-fail only); buzzhive-storefront probe; pull-дисциплина (PC только по команде). W1 ratified 0186f9a on origin. L2 untouched, NanoMuse backlog. W5: no action, wiki/quotes on output.
+## 2026-10-10 - W5 session (banks, Floyd kit, digest 10.10, maintenance)
+**Banks (Articles, committed separately):** Feed8/9/10, Clem mega-thread, Huang harness/PoC, Stafford dump, Vipul x3, TestMu trends, Ken eval-preview, Rinat.
+**Floyd kit ingest:** raw/Before-You-Trust-Your-AI-Agent.pdf (email 10.10, 9pp full read) → wiki/durability-curve-seven-checks-kit-2026.md (7 checks table + QA mapping) + 5 bank lines.
+**Digest 10.10 ran + triaged:** 12/255. Takes: Anthropic-evals-offline, Grok-bank-leak, Canada-hack, PixelLeak, Cloudflare-decision-models (W2), Huang (dup). Bus: W4 escape-район, W2 Cloudflare.
+**STN #233:** NOTE (ToC only, Gulin + Maaret inside; substack full on demand).
+**Maintenance cycle:** lint broken 0 (exit 2 orphans), index 564/375, backup 2026-10-10 (72M, last was 04.10).
 ## 2026-10-09 - W5 session part 6 (banks marathon, Igor converged, Ana)
 **Banks:** Feed8 +11 (Clem RL x3, Wei-Wei x3, Bolton x2, Ana, Aard-Jan, Jonah) + Anirudh; Feed9 +11 (plasticity, Vishnu x3, Nikolay/Irina x3, Tomas, Amit x2); Feed10 +6 (Brij x2, Jonah, Jev-PDF x3); Clem mega-thread +17 total (wave 1+2, George held); Huang harness/PoC +13 (Arijit x4, Tarasova x2, MAESTRO x2, PoC x2, Clem, Chiodi); Stafford +9 (delegation x4, model-eval x3, Mars, BCG); Vipul x3; TestMu trends x3; Ken eval-preview x5; Rinat x1. All link-backed (guest-unverified); pending: Feed9 URLs, Stafford/Elvis (Feed7), Clem-post LIKEs.
 **Igor converged 09.10:** "same split" — void-control shared doctrine, reach-assertion banked. Numbers owed on runs.
