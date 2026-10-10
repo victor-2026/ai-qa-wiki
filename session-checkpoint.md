@@ -1051,6 +1051,10 @@ All 7 marked [x] items processed:
 **Plasticity PDF verified:** raw/2610.08902v1.pdf (43pp, Meta/Berkeley/UW/Princeton); full ingest on order.
 ## 2026-10-11 - W5 session (RMF ingest, batch triage)
 **RMF ingest:** raw/NIST.AI.100-1.pdf (48pp full read) → wiki/nist-ai-rmf-100-govern-map-measure-manage-2026.md (G/MMM, 7 chars, App B/C, Brijesh bridge). L2 untouched (1 index call). Index 566/378, lint broken 0.
+## 2026-10-11 - W5 session part 2 (MT ingest, Klain batch)
+**MT ingest:** arXiv 2002.12543 full (11pp) → wiki/metamorphic-testing-next-cases-chen-1998.md + 3 bank lines. IEEE 8573811 paywalled (lead retained). Index 567/379.
+**Klain batch:** NIST TEVV-Athlon + Brijesh oversight x3 banked (Brijesh URL attached, group context); LIKE Klain-NIST + Brijesh stated immediately.
+**STN #233:** ToC-only NOTE (Gulin + Maaret inside).
 ## 2026-10-09 - W5 session part 6 (banks marathon, Igor converged, Ana)
 **Banks:** Feed8 +11 (Clem RL x3, Wei-Wei x3, Bolton x2, Ana, Aard-Jan, Jonah) + Anirudh; Feed9 +11 (plasticity, Vishnu x3, Nikolay/Irina x3, Tomas, Amit x2); Feed10 +6 (Brij x2, Jonah, Jev-PDF x3); Clem mega-thread +17 total (wave 1+2, George held); Huang harness/PoC +13 (Arijit x4, Tarasova x2, MAESTRO x2, PoC x2, Clem, Chiodi); Stafford +9 (delegation x4, model-eval x3, Mars, BCG); Vipul x3; TestMu trends x3; Ken eval-preview x5; Rinat x1. All link-backed (guest-unverified); pending: Feed9 URLs, Stafford/Elvis (Feed7), Clem-post LIKEs.
 **Igor converged 09.10:** "same split" — void-control shared doctrine, reach-assertion banked. Numbers owed on runs.

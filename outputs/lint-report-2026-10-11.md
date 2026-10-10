@@ -1,10 +1,10 @@
 # Wiki Lint Report — 2026-10-11
 
-- Timestamp: 2026-10-11T01:45:50.370796
-- Wiki pages: 564
+- Timestamp: 2026-10-11T01:48:43.562328
+- Wiki pages: 565
 - Internal links OK: 2097
 - Broken links: 0
-- Orphans: 54
+- Orphans: 55
 - Stubs (<200 chars): 0
 - Raw without wiki: 74
 - Duplicate-ish stems: 0
@@ -45,6 +45,7 @@
 - lee-robinson-job-tips.md
 - llm-agents-cicd-cheating-habr.md
 - matt-robson-human-in-the-loop-ai-testing-2026.md
+- metamorphic-testing-next-cases-chen-1998.md
 - nist-ai-rmf-100-govern-map-measure-manage-2026.md
 - nvidia-open-agent-safety-platform-2026.md
 - passmark-ai-regression.md
@@ -712,6 +713,6 @@
 | 2026-10-08 | 556 | 2094 | 0 | 49 | 0 | 74 | 0 | +0 | +0 |
 | 2026-10-09 | 561 | 2097 | 0 | 51 | 0 | 74 | 0 | +2 | +0 |
 | 2026-10-10 | 563 | 2097 | 0 | 53 | 0 | 74 | 0 | +2 | +0 |
-| 2026-10-11 | 564 | 2097 | 0 | 54 | 0 | 74 | 0 | +1 | +0 |
+| 2026-10-11 | 565 | 2097 | 0 | 55 | 0 | 74 | 0 | +2 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.

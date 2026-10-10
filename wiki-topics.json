@@ -2332,6 +2332,13 @@
       "type": "wiki"
     },
     {
+      "file": "wiki/metamorphic-testing-next-cases-chen-1998.html",
+      "title": "Metamorphic Testing: Next Test Cases (Chen-Cheung-Yiu 1998)",
+      "desc": "**Source:** T.Y. Chen, S.C. Cheung, S.M. Yiu, HKUST-CS98-01 (1998, arXiv 2002.12543). Raw: `raw/metamorphic-testing-next",
+      "tag": "Wiki",
+      "type": "wiki"
+    },
+    {
       "file": "wiki/metamorphic-tests-comparison.html",
       "title": "Metamorphic Testing — Сравнение подходов",
       "desc": "**Определение:** Метаморфное тестирование — метод для систем, где «правильный ответ» неизвестен (oracle problem). Вместо",
@@ -3963,6 +3970,6 @@
       "type": "wiki"
     }
   ],
-  "raw_count": 378,
+  "raw_count": 379,
   "updated": "2026-10-11"
 }
