@@ -1,10 +1,10 @@
 # Wiki Lint Report — 2026-10-11
 
-- Timestamp: 2026-10-11T01:48:43.562328
-- Wiki pages: 565
+- Timestamp: 2026-10-11T01:52:22.236814
+- Wiki pages: 566
 - Internal links OK: 2097
 - Broken links: 0
-- Orphans: 55
+- Orphans: 56
 - Stubs (<200 chars): 0
 - Raw without wiki: 74
 - Duplicate-ish stems: 0
@@ -16,6 +16,7 @@
 - Agentic Development Lifecycle (ADLC).md
 - EARS и BDD.md
 - ad-hoc-testing-guide.md
+- agent-plasticity-meta-self-improvement-2026.md
 - agentic-engineering-hacks.md
 - agentics-foundation-newsletter-2026-09.md
 - aiid-incident-pipeline-matching-2026.md
@@ -713,6 +714,6 @@
 | 2026-10-08 | 556 | 2094 | 0 | 49 | 0 | 74 | 0 | +0 | +0 |
 | 2026-10-09 | 561 | 2097 | 0 | 51 | 0 | 74 | 0 | +2 | +0 |
 | 2026-10-10 | 563 | 2097 | 0 | 53 | 0 | 74 | 0 | +2 | +0 |
-| 2026-10-11 | 565 | 2097 | 0 | 55 | 0 | 74 | 0 | +2 | +0 |
+| 2026-10-11 | 566 | 2097 | 0 | 56 | 0 | 74 | 0 | +3 | +0 |
 
 Delta columns relative to previous run. First run has no deltas.
