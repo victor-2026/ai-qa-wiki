@@ -1068,3 +1068,7 @@ All 7 marked [x] items processed:
 **Contra-pilot saga:** Groq VOID (empty summaries) → extractor fixed → 429 daily wall → OpenRouter attempt hung (SSL patched, slow free model) → W3 windows (L2 717→727) → 5/20 with real excerpts, 1 CONTRADICT flag → parked, Groq back to W3. Rules adopted: links-first bus, LIKE-immediate, 10-fails stop, heartbeat, query→wiki.
 **Banks:** Feed11/12, Jochen/Vitaly/Brijesh/Osmani/Clive (+URLs), Stafford full, TestMu trends, Ken preview, Floyd kit, W4 Article-31 hooks, Chen MT, Rinat. LIKE list delivered (14 items, owner call).
 **Commits:** Articles through dfef5c0; ai-qa-wiki through ed972f6+ (plasticity, RMF, MT, Anthropic, Floyd kit, candidates).
+## 2026-10-11 - W5 session part 3 (Feed11/12/13, MT/RMF/Anthropic wikis)
+**Feed11/12/13 + Osmani:** Jochen/Vitaly/Brijesh/Clive/Denys/Richard/Olga/Josh/DSH/Visala/Daniel/Agentiqa/Avesta/suneela/Artem/Nipun/Osmani-taste (+all URLs). LIKE: Vitaly, Osmani, Richard, Olga (rest owner call). Verdict Bridge + AI Judge → W3 candidates. Fastino/GLiDE HELD.
+**Wikis:** MT Chen-1998, RMF 100, Anthropic evals, plasticity; glossary 4D. Index 568.
+**Commits:** Articles 05c0b63.
