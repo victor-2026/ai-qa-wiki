@@ -1062,3 +1062,9 @@ All 7 marked [x] items processed:
 **Leonardo 1x03:** transcript pulled (567 segs), NOTE only.
 **No pilot candidates today** (Henock pending non-vendor; Pooled infra-only).
 **Commits:** Articles aee9ae2 (121+); Positions 403a67c (Igor+Ana+Leonardo). Checkpoint this entry.
+## 2026-10-11 - W5 session (gemini pilots, contra-pilot saga, banks)
+**Gemini pilot tables → verified triple:** Shiplight + Wopee (sites verified; $10 credit / 50 steps EU+DPA) + Midscene (15K★ MIT). Saved outputs/pilot-candidates-gemini-2026-10-11.md. W2 order fixed a426627: Shiplight → Wopee → Midscene. No pilot files (W3 tree).
+**Browser Use verified:** 117.5K★ MIT, 3 paths; memo corrections noted.
+**Contra-pilot saga:** Groq VOID (empty summaries) → extractor fixed → 429 daily wall → OpenRouter attempt hung (SSL patched, slow free model) → W3 windows (L2 717→727) → 5/20 with real excerpts, 1 CONTRADICT flag → parked, Groq back to W3. Rules adopted: links-first bus, LIKE-immediate, 10-fails stop, heartbeat, query→wiki.
+**Banks:** Feed11/12, Jochen/Vitaly/Brijesh/Osmani/Clive (+URLs), Stafford full, TestMu trends, Ken preview, Floyd kit, W4 Article-31 hooks, Chen MT, Rinat. LIKE list delivered (14 items, owner call).
+**Commits:** Articles through dfef5c0; ai-qa-wiki through ed972f6+ (plasticity, RMF, MT, Anthropic, Floyd kit, candidates).
